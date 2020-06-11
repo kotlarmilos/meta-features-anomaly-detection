@@ -42,23 +42,23 @@ import tensorflow as tf
 #     return train_time.numpy(), test_time.numpy(), validation
 #
 #
-def gaussian(features):
-    # measure training time
-    start_time = tf.timestamp()
-    features = tf.constant(features)
-    mu = tf.reduce_mean(features, axis=0)
-    mu = tf.reshape(mu, [1, features.shape[1]])
-    mx = tf.matmul(tf.transpose(mu), mu)
-    vx = tf.matmul(tf.transpose(features), features) / tf.cast(tf.shape(features)[0], tf.float64)
-    sigma = vx - mx
-    #     mvn = tfp.distributions.MultivariateNormalTriL(loc=mu,scale_tril=tf.linalg.cholesky(sigma))
-    train_time = tf.timestamp() - start_time
-    # measure test time
-    start_time = tf.timestamp()
-    #     mvn.prob(tf.constant(features))
-    test_time = (tf.timestamp() - start_time) / features.shape[0]
-
-    return train_time.numpy(), test_time.numpy()
+# def gaussian(features):
+#     # measure training time
+#     start_time = tf.timestamp()
+#     features = tf.constant(features)
+#     mu = tf.reduce_mean(features, axis=0)
+#     mu = tf.reshape(mu, [1, features.shape[1]])
+#     mx = tf.matmul(tf.transpose(mu), mu)
+#     vx = tf.matmul(tf.transpose(features), features) / tf.cast(tf.shape(features)[0], tf.float64)
+#     sigma = vx - mx
+#     #     mvn = tfp.distributions.MultivariateNormalTriL(loc=mu,scale_tril=tf.linalg.cholesky(sigma))
+#     train_time = tf.timestamp() - start_time
+#     # measure test time
+#     start_time = tf.timestamp()
+#     #     mvn.prob(tf.constant(features))
+#     test_time = (tf.timestamp() - start_time) / features.shape[0]
+#
+#     return train_time.numpy(), test_time.numpy()
 #
 #
 # from tensorflow.keras.models import Sequential

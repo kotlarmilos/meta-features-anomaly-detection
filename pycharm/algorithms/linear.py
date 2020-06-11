@@ -5,20 +5,15 @@ from sklearn.metrics import *
 import matplotlib.pyplot as plt
 
 import tensorflow as tf
-import tensorflow_probability as tfp
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense
 
+from sklearn import datasets, linear_model
+from sklearn.metrics import mean_squared_error, r2_score
 
-class Gaussian:
+class Linear:
     def __init__(self):
         pass
-
-    def estimate_gaussian(self, features):
-        mu = tf.reduce_mean(features, axis=0)
-        mu = tf.reshape(mu, [1, features.shape[1]])
-        mx = tf.matmul(tf.transpose(mu), mu)
-        vx = tf.matmul(tf.transpose(features), features) / tf.cast(tf.shape(features)[0], tf.float64)
-        sigma = vx - mx
-        return mu, sigma
 
     def select_threshold(self, probs, target, anomaly_ratio):
         best_scores = {}
@@ -30,8 +25,9 @@ class Gaussian:
         # find best metrics and epsilons using test data
         stepsize = (max(probs) - min(probs)) / 1000
         epsilons = np.arange(min(probs), max(probs), stepsize)
-        for epsilon in np.nditer(epsilons):
-            prediction = (probs < epsilon)
+        epsilons = epsilons[::-1]
+        for epsilon in np.nditer(epsilons, order='C'):
+            prediction = (probs > epsilon)
             if len(set(prediction)) == 1:
                 continue
             acc = accuracy_score(target, prediction)
@@ -65,7 +61,10 @@ class Gaussian:
                 best_scores['f1']['epsilon'] = epsilon
 
         # find metrics and for estimated epsilon based on anomaly percentage
-        outliers = np.argpartition(probs, math.ceil(len(target) * anomaly_ratio))[:math.ceil(len(target) * anomaly_ratio)]
+        outliers = np.argsort(probs)[-math.ceil(len(target) * anomaly_ratio):]
+        outliers = outliers[::-1]
+
+        # outliers = np.argpartition(probs, math.ceil(len(target) * anomaly_ratio))[:math.ceil(len(target) * anomaly_ratio)]
         prediction = np.zeros(len(target))
         for x, y in zip(outliers, prediction):
             prediction[x] = 1
@@ -75,25 +74,44 @@ class Gaussian:
         recall = recall_score(target, prediction, labels=[0, 1])
         f1 = f1_score(target, prediction, labels=[0, 1])
 
-        best_scores['manual'] = {'epsilon': max(probs[outliers]), 'scores':{'acc':acc, 'prec':prec, 'recall':recall, 'f1':f1}}
+        best_scores['manual'] = {'epsilon': min(probs[outliers]), 'scores':{'acc':acc, 'prec':prec, 'recall':recall, 'f1':f1}}
         return best_scores
 
 
     def evaluate(self, features, target, anomaly_ratio):
-        features_normal = tf.constant(np.delete(features, np.where(target == 1),  axis=0))
-        features = tf.constant(features)
-        mu, sigma = self.estimate_gaussian(features_normal)
+        target_feature = tf.constant(features[:, features.shape[1]-1])
+        features = tf.constant(np.delete(features, features.shape[1]-1, 1), dtype=tf.float32)
+        model = Sequential([
+            Dense(1, activation='linear', input_shape=[features.shape[1]]), #linear activation
+        ])
 
-        mvn = tfp.distributions.MultivariateNormalTriL(loc=mu, scale_tril=tf.linalg.cholesky(sigma))
-        probs = mvn.prob(features).numpy()
+        model.compile(loss='mean_squared_error',
+                      optimizer=tf.keras.optimizers.RMSprop(0.3),
+                      metrics=['mean_absolute_error', 'mean_squared_error'])
+
+        model.fit(features, target_feature, epochs=50)
+        weights = tf.transpose(model.get_weights()[0])
+        bias = model.get_weights()[1].flatten()
+
+        target_feature = target_feature.numpy()
+        # print('y = x * (%f) + (%f)' % (weights[0][0], bias))
+        # for idx, val in enumerate(features):
+        #     print('x: %f y: %f class: %f pred_y: %f diff: %f' %(val, target_feature[idx], target[idx], val*weights[0][0]+bias, math.fabs(target_feature[idx]-val*weights[0][0]+bias)))
+
+        test_predictions = model.predict(features).flatten()
+        probs = np.square(np.subtract(target_feature,test_predictions))
+        # probs = tf.math.divide(
+        #     tf.math.abs(
+        #         tf.math.subtract(tf.math.add(tf.reduce_sum(tf.multiply(weights, features), axis=1), bias), tf.constant(1, dtype=tf.float32))),#target
+        #     tf.math.sqrt(tf.math.add(tf.multiply(weights, weights), tf.multiply(bias, bias)))).numpy().flatten() #tf.math.sqrt(tf.reduce_sum(tf.multiply(weights, weights), axis=1))
 
         print('Selecting threshold...')
         best_scores = self.select_threshold(probs, target, anomaly_ratio)
 
-        return best_scores, probs
+        return best_scores, probs, test_predictions
 
 
-    def visualize_2d(self, dataset, features, target, probs, best_scores):
+    def visualize_2d(self, dataset, features, target, probs, best_scores, test_predictions):
         performance = ['acc', 'prec', 'recall', 'f1', 'manual']
         fig = plt.figure(figsize=(12, 12))
         plt.subplots_adjust(hspace=0.5)
@@ -105,7 +123,7 @@ class Gaussian:
             axis=1)
 
         for idx, val in enumerate(performance):
-            outliers = np.array(np.where(probs < best_scores[val]['epsilon'])).flatten()
+            outliers = np.array(np.where(probs >= best_scores[val]['epsilon'])).flatten()
 
             ax = fig.add_subplot(3, 3, idx+1)
             if val == 'manual':
@@ -125,10 +143,15 @@ class Gaussian:
                        , c='w'
                        , s=10)
 
+            test_features = np.delete(features, features.shape[1] - 1, 1)
+            plt.plot(test_features, test_predictions, color='blue', linewidth=2)
 
         ax = fig.add_subplot(3, 3, 6)
         ax.set_title('Probabilities', fontsize=12)
         ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
-        fig.legend(['normal', 'anomaly', 'detected'], facecolor="#B6B6B6")
 
+        test_features = np.delete(features, features.shape[1] - 1, 1)
+        plt.plot(test_features, test_predictions, color='blue', linewidth=1)
+
+        fig.legend(['regression', 'normal', 'anomaly', 'detected'], facecolor="#B6B6B6")
         plt.show()
