@@ -37,8 +37,8 @@ print('*** Datasets for evaluation:', len(datasets))
 i = 0
 for dataset in datasets:
     i+=1
-    # if (i<2):
-    #     continue
+    if (i<2):
+        continue
     print('*********************************************')
     print('Dataset: %s' % dataset['name'])
 
