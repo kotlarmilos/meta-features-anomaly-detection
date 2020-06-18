@@ -11,6 +11,8 @@ from sklearn.metrics import f1_score
 import math
 from algorithms.gaussian import Gaussian
 from algorithms.linear import Linear
+from algorithms.kmeans import KMeans
+from algorithms.autoencoder import AutoencoderModel
 
 from scipy.stats import multivariate_normal
 
@@ -51,7 +53,7 @@ for dataset in datasets:
     print('Data standardization...')
     features = standardize_data(features)
 
-    reduced = True
+    reduced = False
     visualise = True
 
     min = 1
@@ -65,9 +67,15 @@ for dataset in datasets:
         else:
             r_features = features
 
-        m = Linear()
+        from sklearn.preprocessing import MinMaxScaler
+        scaler = MinMaxScaler()
+        scaler.fit(r_features)
+        r_features = scaler.transform(r_features)
+
+        m = AutoencoderModel()
+        # for k in range(10,20):
         print('Fitting model to data...')
-        best_scores, probs, test_predictions = m.evaluate(r_features, target, anomaly_ratio)
+        best_scores, probs = m.evaluate(r_features, target, anomaly_ratio)
 
         print('++++++++Performance for %d dimensions++++++++' % d)
         print('     Threshold of %.2E gives the best accuracy %s' % (best_scores['acc']['epsilon'], best_scores['acc']['scores']))
@@ -76,5 +84,9 @@ for dataset in datasets:
         print('     Threshold of %.2E gives the best f1 %s' % (best_scores['f1']['epsilon'], best_scores['f1']['scores']))
         print('     Manually calculated threshold of %.2E gives %s f1 score' % (best_scores['manual']['epsilon'], best_scores['manual']['scores']))
         print('+++++++++++++++++++++++++++++++++++++++++++++')
-        if d <= 2 and visualise:
-            m.visualize_2d(dataset, r_features, target, probs, best_scores, test_predictions)
+        if visualise: #d <= 2 and
+            if d<=2:
+                m.visualize_2d(dataset, r_features, target, probs, best_scores,r_features.shape[1])#clusters, r_features.shape[1]
+            else:
+                m.visualize_2d(dataset, dimension_reduction(features, 2), target, probs, best_scores,r_features.shape[1])#,clusters,r_features.shape[1]
+            break
