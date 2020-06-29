@@ -8,12 +8,15 @@ import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
 
-from sklearn import datasets, linear_model
-from sklearn.metrics import mean_squared_error, r2_score
+import utilities
 
 class Linear:
     def __init__(self):
         pass
+
+    def get_params(self, features):
+        pca = list(reversed(range(2, features.shape[1]+1)))
+        return utilities.make_cartesian([pca]), ['pca']
 
     def select_threshold(self, probs, target, anomaly_ratio):
         best_scores = {}
@@ -78,7 +81,7 @@ class Linear:
         return best_scores
 
 
-    def evaluate(self, features, target, anomaly_ratio):
+    def evaluate(self, features, target, anomaly_ratio, p):
         target_feature = tf.constant(features[:, features.shape[1]-1])
         features = tf.constant(np.delete(features, features.shape[1]-1, 1), dtype=tf.float32)
         model = Sequential([

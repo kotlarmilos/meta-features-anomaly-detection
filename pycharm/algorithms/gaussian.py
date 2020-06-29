@@ -7,10 +7,18 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 import tensorflow_probability as tfp
 
+import utilities
+
 
 class Gaussian:
     def __init__(self):
+
         pass
+
+    def get_params(self, features):
+        pca = list(reversed(range(2, features.shape[1]+1)))
+        return utilities.make_cartesian([pca]), ['pca']
+
 
     def estimate_gaussian(self, features):
         mu = tf.reduce_mean(features, axis=0)
@@ -79,7 +87,7 @@ class Gaussian:
         return best_scores
 
 
-    def evaluate(self, features, target, anomaly_ratio):
+    def evaluate(self, features, target, anomaly_ratio, p):
         features_normal = tf.constant(np.delete(features, np.where(target == 1),  axis=0))
         features = tf.constant(features)
         mu, sigma = self.estimate_gaussian(features_normal)

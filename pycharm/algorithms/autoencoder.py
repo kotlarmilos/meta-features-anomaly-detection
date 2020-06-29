@@ -8,6 +8,8 @@ import tensorflow as tf
 from tensorflow.keras.layers import Input, Dense
 from tensorflow.keras.models import Model
 
+import utilities
+
 
 class Encoder(tf.keras.layers.Layer):
     def __init__(self, intermediate_dim):
@@ -57,11 +59,13 @@ class Autoencoder(tf.keras.Model):
         return reconstructed
 
 
-
 class AutoencoderModel:
     def __init__(self):
         pass
 
+    def get_params(self, features):
+        pca = list(reversed(range(2, features.shape[1] + 1)))
+        return utilities.make_cartesian([pca]), ['pca']
 
     def select_threshold(self, probs, target, anomaly_ratio):
         best_scores = {}
@@ -135,7 +139,7 @@ class AutoencoderModel:
             gradient_variables = zip(gradients, model.trainable_variables)
             opt.apply_gradients(gradient_variables)
 
-    def evaluate(self, features, target, anomaly_ratio):
+    def evaluate(self, features, target, anomaly_ratio, p):
         features = features.astype('float32')
         features_normal = tf.constant(np.delete(features, np.where(target == 1),  axis=0))
 

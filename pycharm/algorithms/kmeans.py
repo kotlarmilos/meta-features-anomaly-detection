@@ -7,10 +7,16 @@ import matplotlib.pyplot as plt
 import tensorflow as tf
 from random import randint
 
+import utilities
 
 class KMeans:
     def __init__(self):
         pass
+
+    def get_params(self, features):
+        pca = list(reversed(range(2, features.shape[1]+1)))
+        k = list(range(2, 50))
+        return utilities.make_cartesian([pca,k]), ['pca','k']
 
     def estimate_gaussian(self, features):
         mu = tf.reduce_mean(features, axis=0)
@@ -85,10 +91,11 @@ class KMeans:
     def input_fn(self):
         return tf.compat.v1.train.limit_epochs(tf.convert_to_tensor(self.features, dtype=tf.float32), num_epochs=1)
 
-    def evaluate(self, features, target, anomaly_ratio, k):
+    def evaluate(self, features, target, anomaly_ratio, p):
         # self.features = tf.constant(features)
+        k = p[1]
         self.features = features
-        kmeans = tf.compat.v1.estimator.experimental.KMeans(num_clusters=k, use_mini_batch=False)
+        kmeans = tf.compat.v1.estimator.experimental.KMeans(num_clusters=int(k), use_mini_batch=False)
 
         # train
         num_iterations = 10

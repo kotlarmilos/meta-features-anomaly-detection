@@ -2,6 +2,7 @@ import tensorflow as tf
 from tensorflow.python.client import device_lib
 import os
 import json
+from sklearn.utils.extmath import cartesian
 
 strategy = None
 if (os.environ.get('COLAB_TPU_ADDR') != None):
@@ -32,30 +33,30 @@ def get_devices():
 
 def get_methods():
     methods = [
+        # {
+        #     'name': 'Gaussian',
+        #     'isSupervised': False,
+        # }, {
+        #     'name': 'Linear',
+        #     'isSupervised': False,
+        # }, {
+        #     'name': 'RPCA',
+        #     'isSupervised': False,
+        # },
+        # {
+        #     'name': 'KMeans',
+        #     'isSupervised': False,
+        # },
         {
-            'name': 'gaussian',
-            'parameters': {},
-            'isSupervised': False,
-        }, {
-            'name': 'linear_regression',
-            'parameters': {},
-            'isSupervised': False,
-        }, {
-            'name': 'pca',
-            'parameters': {},
-            'isSupervised': False,
-        }, {
-            'name': 'kmeans',
-            'parameters': {},
-            'isSupervised': False,
-        }, {
-            'name': 'neural_network',
-            'parameters': {},
+            'name': 'AutoencoderModel',
             'isSupervised': True,
         }
     ];
 
     return methods
+
+def make_cartesian(x):
+    return cartesian(x)
 
 # def evaluate(device, methods, dataset, features, target):
 #     isSupervised = target is not None
