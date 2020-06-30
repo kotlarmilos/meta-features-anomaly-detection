@@ -57,6 +57,8 @@ def characterize_data(dataset, features, target):
     else:
         mfe.fit(features)
     ft = mfe.extract()
+    ft = np.nan_to_num(ft)
+    ft = np.concatenate((ft, np.array([['row_count', 'attr_count'], [features.shape[0], features.shape[1]]])), axis=1)
     return np.nan_to_num(ft)
 
     # def evaluate(self, device, methods, dataset):

@@ -33,20 +33,20 @@ def get_devices():
 
 def get_methods():
     methods = [
-        # {
-        #     'name': 'Gaussian',
-        #     'isSupervised': False,
-        # }, {
-        #     'name': 'Linear',
-        #     'isSupervised': False,
-        # }, {
-        #     'name': 'RPCA',
-        #     'isSupervised': False,
-        # },
-        # {
-        #     'name': 'KMeans',
-        #     'isSupervised': False,
-        # },
+        {
+            'name': 'Gaussian',
+            'isSupervised': False,
+        }, {
+            'name': 'Linear',
+            'isSupervised': False,
+        }, {
+            'name': 'RPCA',
+            'isSupervised': False,
+        },
+        {
+            'name': 'KMeans',
+            'isSupervised': False,
+        },
         {
             'name': 'AutoencoderModel',
             'isSupervised': True,

@@ -8,7 +8,9 @@ class Database:
         self.database = database
 
     def open_connection(self):
-        self.db = mysql.connector.connect(self.host, self.user, self.passwd, self.database)
+        self.db = mysql.connector.connect(user=self.user, password=self.passwd,
+                              host=self.host,
+                              database=self.database)
         self.cursor = self.db.cursor()
 
     def close_connection(self):
@@ -21,15 +23,15 @@ class Database:
         self.cursor.execute('DELETE FROM algorithm')
         self.db.commit()
         sql = "INSERT INTO algorithm (name, complexity) VALUES (%s, %s)"
-        val = ('gaussian', 'O(n^2)')
+        val = ('Gaussian', 'O(n^2)')
         self.cursor.execute(sql, val)
-        val = ('linear_regression', 'O(n^2)')
+        val = ('Linear', 'O(n^2)')
         self.cursor.execute(sql, val)
-        val = ('pca', 'O(n^2)')
+        val = ('RPCA', 'O(n^2)')
         self.cursor.execute(sql, val)
-        val = ('kmeans', 'O(n^2)')
+        val = ('KMeans', 'O(n^2)')
         self.cursor.execute(sql, val)
-        val = ('neural_network', 'O(n^2)')
+        val = ('AutoencoderModel', 'O(n^2)')
         self.cursor.execute(sql, val)
 
         self.db.commit()
@@ -130,7 +132,7 @@ class Database:
         self.close_connection()
 
 
-    def insert_data_info(self, dataset, feature_score, ft):
+    def insert_data_info(self, dataset, ft, feature_score = None):
         self.open_connection()
         self.cursor.execute("SELECT * FROM dataset WHERE name='" + str(dataset['name']) + "'")
         row = self.cursor.fetchone()
@@ -163,7 +165,7 @@ class Database:
         return dataset['id']
 
 
-    def insert_evaluation_info(self, device, method, dataset, result):
+    def insert_evaluation_info(self, device, method, dataset, params, headers, result):
         device_type = 'ASIC'
         if 'CPU' in device:
             device_type = 'CPU'
@@ -179,23 +181,28 @@ class Database:
         algorithm_id = self.cursor.fetchone()[0]
 
         sql = "INSERT INTO evaluation (evaluation_id, dataset_id, algorithm_id, device_id, training_time, inference_time) VALUES (%s, %s, %s, %s, %s, %s)"
-        val = (1, dataset_id, algorithm_id, device_id, str(result[0]), str(result[1]))
+        val = (1, dataset_id, algorithm_id, device_id, '0', '0')
         self.cursor.execute(sql, val)
         self.db.commit()
 
-        if len(result) == 3:
-            evaluation_id = self.cursor.lastrowid;
-            sql = "INSERT INTO performance (evaluation_id, name, value) VALUES (%s, %s, %s)"
-            val = (evaluation_id, 'mean_squared_error', str(result[2][0]))
+        evaluation_id = self.cursor.lastrowid
+        sql = "INSERT INTO performance (evaluation_id, name, value) VALUES (%s, %s, %s)"
+        val = (evaluation_id, 'acc', str(result['acc']['scores']['acc']))
+        self.cursor.execute(sql, val)
+        val = (evaluation_id, 'prec', str(result['prec']['scores']['prec']))
+        self.cursor.execute(sql, val)
+        val = (evaluation_id, 'recall', str(result['recall']['scores']['recall']))
+        self.cursor.execute(sql, val)
+        val = (evaluation_id, 'f1', str(result['f1']['scores']['f1']))
+        self.cursor.execute(sql, val)
+        val = (evaluation_id, 'manual', str(result['f1']['scores']['f1']))
+        self.cursor.execute(sql, val)
+        self.db.commit()
+
+        sql = "INSERT INTO parameter (evaluation_id, name, value) VALUES (%s, %s, %s)"
+        for i in range(len(params)):
+            val = (evaluation_id, headers[i], str(params[i]))
             self.cursor.execute(sql, val)
-            val = (evaluation_id, 'auc', str(result[2][0]))
-            self.cursor.execute(sql, val)
-            val = (evaluation_id, 'precision', str(result[2][1]))
-            self.cursor.execute(sql, val)
-            val = (evaluation_id, 'recall', str(result[2][2]))
-            self.cursor.execute(sql, val)
-            val = (evaluation_id, 'accuracy', str(result[2][3]))
-            self.cursor.execute(sql, val)
-            self.db.commit()
+        self.db.commit()
 
         self.close_connection()

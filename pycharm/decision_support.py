@@ -30,7 +30,9 @@ import pandas as pd
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-db = Database("34.68.13.182","root","6g8HBIy0F8atEKtb","anomaly_detection_decision_support")
+# db = Database("34.68.13.182","root","6g8HBIy0F8atEKtb","anomaly_detection_decision_support")
+db = Database("127.0.0.1","root","","anomaly_detection_decision_support")
+db.truncate_database()
 datasets = utilities.get_datasets('/Users/miloskotlar/GoogleDrive/Academic/PhD/III/datasets/')
 devices = utilities.get_devices()
 methods = utilities.get_methods()
@@ -47,6 +49,9 @@ for dataset in datasets:
 
     print('Loading data...')
     features, target, anomaly_ratio = load_data(dataset)
+    # ft = characterize_data(dataset, features, target)
+    ft = []
+    dataset['id'] = db.insert_data_info(dataset, ft)
 
     print('Size: %dx%d' % (features.shape[0], features.shape[1]))
     print('Anomaly ration: %f%%' % anomaly_ratio)
@@ -68,8 +73,7 @@ for dataset in datasets:
 
             print('Fitting model to data...')
             result = m.evaluate(r_features, target, anomaly_ratio, p)
-            # db.insert_evaluation_info('CPU', m['name'],dataset['name'], result)
-            print(result[0])
+            db.insert_evaluation_info('CPU', method,dataset, p, headers, result[0])
             break
 
     #
