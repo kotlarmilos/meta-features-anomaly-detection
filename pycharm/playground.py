@@ -1,32 +1,59 @@
 import numpy as np
+import pandas as pd
 import matplotlib.pyplot as plt
-from r_pca import R_pca
 
-# generate low rank synthetic data
-N = 100
-num_groups = 3
-num_values_per_group = 40
-p_missing = 0.2
 
-Ds = []
-for k in range(num_groups):
-    d = np.ones((N, num_values_per_group)) * (k + 1) * 10
-    Ds.append(d)
+df = pd.read_csv('~/Desktop/brest cancer evaluation.csv', sep=';', error_bad_lines=False, warn_bad_lines=False, index_col=None)
+# data = df[df['name'] == 'Gaussian']
+# plt.plot(data['pca'],data['f1'], c='g', label='Gaussian method')
+# data = df[df['name'] == 'Linear']
+# plt.plot(data['pca'],data['f1'], c='r',  label='Linear regression')
+# data = df[df['name'] == 'RPCA']
+# plt.plot(data['pca'],data['f1'], c='b',  label='rPCA')
+# plt.legend()
+# plt.xlabel('dimensions')
+# plt.ylabel('f1 score')
+# plt.show()
+for k in range(2, 50, 5):
+    data = df[(df['name'] == 'KMeans') & (df['k'] == k)]
+    plt.plot(data['pca'],data['f1'], label='KMeans(%d)' % k)
+    plt.xlabel('dimensions')
+    plt.ylabel('f1 score')
 
-D = np.hstack(Ds)
 
-# decimate 20% of data
-n1, n2 = D.shape
-S = np.random.rand(n1, n2)
-D[S < 0.2] = 0
-
-# use R_pca to estimate the degraded data as L + S, where L is low rank, and S is sparse
-rpca = R_pca(D)
-L, S = rpca.fit(max_iter=10000, iter_print=100)
-
-# visually inspect results (requires matplotlib)
-rpca.plot_fit()
+plt.legend()
 plt.show()
+
+# from r_pca import R_pca
+
+
+
+#
+# # generate low rank synthetic data
+# N = 100
+# num_groups = 3
+# num_values_per_group = 40
+# p_missing = 0.2
+#
+# Ds = []
+# for k in range(num_groups):
+#     d = np.ones((N, num_values_per_group)) * (k + 1) * 10
+#     Ds.append(d)
+#
+# D = np.hstack(Ds)
+#
+# # decimate 20% of data
+# n1, n2 = D.shape
+# S = np.random.rand(n1, n2)
+# D[S < 0.2] = 0
+#
+# # use R_pca to estimate the degraded data as L + S, where L is low rank, and S is sparse
+# rpca = R_pca(D)
+# L, S = rpca.fit(max_iter=10000, iter_print=100)
+#
+# # visually inspect results (requires matplotlib)
+# rpca.plot_fit()
+# plt.show()
 
 # import matplotlib.pyplot as plt
 # import numpy as np

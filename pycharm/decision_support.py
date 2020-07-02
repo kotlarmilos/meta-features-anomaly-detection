@@ -49,8 +49,8 @@ for dataset in datasets:
 
     print('Loading data...')
     features, target, anomaly_ratio = load_data(dataset)
-    # ft = characterize_data(dataset, features, target)
-    ft = []
+    ft = characterize_data(dataset, features, target)
+    # ft = []
     dataset['id'] = db.insert_data_info(dataset, ft)
 
     print('Size: %dx%d' % (features.shape[0], features.shape[1]))
@@ -74,7 +74,7 @@ for dataset in datasets:
             print('Fitting model to data...')
             result = m.evaluate(r_features, target, anomaly_ratio, p)
             db.insert_evaluation_info('CPU', method,dataset, p, headers, result[0])
-            break
+            # break
 
     #
     # reduced = False
