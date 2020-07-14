@@ -34,7 +34,7 @@ class KMeans:
         best_scores['f1'] = {'epsilon': 0, 'scores':{'acc':0, 'prec':0, 'recall':0, 'f1':0}}
 
         # find best metrics and epsilons using test data
-        stepsize = (max(probs) - min(probs)) / 1000
+        stepsize = (max(probs) - min(probs)) / 100
         epsilons = np.arange(min(probs), max(probs), stepsize)
         epsilons = epsilons[::-1]
         for epsilon in np.nditer(epsilons, order='C'):

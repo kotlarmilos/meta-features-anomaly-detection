@@ -16,6 +16,7 @@ from algorithms.autoencoder import AutoencoderModel
 from algorithms.rpca import RPCA
 
 from scipy.stats import multivariate_normal
+import time
 
 from scipy.stats import normaltest
 
@@ -32,26 +33,30 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # db = Database("34.68.13.182","root","6g8HBIy0F8atEKtb","anomaly_detection_decision_support")
 db = Database("127.0.0.1","root","","anomaly_detection_decision_support")
-db.truncate_database()
+# db.truncate_database()
 datasets = utilities.get_datasets('/Users/miloskotlar/GoogleDrive/Academic/PhD/III/datasets/')
 devices = utilities.get_devices()
 methods = utilities.get_methods()
 
+print('*** Start:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
 print('*** Datasets for evaluation:', len(datasets))
 
 i = 0
 for dataset in datasets:
     i+=1
-    if (i!=3):
+    if (i==1):
         continue
     print('*********************************************')
     print('Dataset: %s' % dataset['name'])
 
     print('Loading data...')
     features, target, anomaly_ratio = load_data(dataset)
-    ft = characterize_data(dataset, features, target)
-    # ft = []
-    dataset['id'] = db.insert_data_info(dataset, ft)
+    dataset['id'] = db.get_dataset_id(dataset)
+    dataset['anomaly_entropy'] = str(anomaly_ratio)
+    if not dataset['id']:
+        ft = characterize_data(dataset, features, target)
+        dataset['id'] = db.insert_data_info(dataset, ft)
+    # continue
 
     print('Size: %dx%d' % (features.shape[0], features.shape[1]))
     print('Anomaly ration: %f%%' % anomaly_ratio)
@@ -63,18 +68,30 @@ for dataset in datasets:
         m = eval(method['name']+'()')
         params, headers = m.get_params(features)
         for p in params:
-            dim = p[0]
-            if features.shape[1] > dim:
-                print('Data dimension reduction from %d to %d...' % (features.shape[1], dim))
-                r_features = dimension_reduction(features, dim)
-            else:
-                dim = features.shape[1]
-                r_features = features
+            try:
+                exists = db.check_evaluation_info('CPU', method,dataset, p, headers)
+                if not exists:
+                    dim = p[0]
+                    if features.shape[1] > dim:
+                        print('Data dimension reduction from %d to %d...' % (features.shape[1], dim))
+                        r_features = dimension_reduction(features, dim)
+                    else:
+                        dim = features.shape[1]
+                        r_features = features
 
-            print('Fitting model to data...')
-            result = m.evaluate(r_features, target, anomaly_ratio, p)
-            db.insert_evaluation_info('CPU', method,dataset, p, headers, result[0])
+                    print('Fitting model to data...')
+                    t1_start = time.perf_counter()
+                    result = m.evaluate(r_features, target, anomaly_ratio, p)
+                    t1_stop = time.perf_counter()
+                    db.insert_evaluation_info('CPU', method,dataset, p, headers, t1_stop-t1_start, result[0])
+                else:
+                    print('Skipping')
+            except:
+                print("An error occurred for dataset %s and method %s and parameters %s"
+                      % (dataset['name'], method['name'], np.concatenate((headers, p))))
             # break
+
+print('*** End:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
 
     #
     # reduced = False

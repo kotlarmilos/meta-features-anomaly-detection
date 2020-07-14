@@ -86,6 +86,47 @@ class Gaussian:
         best_scores['manual'] = {'epsilon': max(probs[outliers]), 'scores':{'acc':acc, 'prec':prec, 'recall':recall, 'f1':f1}}
         return best_scores
 
+    def find_nearest(self, array, value, datasets, evaluation):
+        array = np.asarray(array)
+        idx = (np.abs(array - value)).argmin()
+        # idx = np.argsort(np.abs(array-value))[1]
+        closest_dataset_id = datasets.iloc[idx]['id']
+        closest_dataset_name = datasets.iloc[idx]['name']
+        print('Closest dataset is %s...' % closest_dataset_name)
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params
+
+    def crossval(self, idx, datasets, evaluation):
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params
+
+    def predict(self, idx, datasets, evaluation, best_method, best_params):
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+        & (evaluation['method'] == best_method)
+        & (evaluation['pca'] == best_params['pca'])
+        & (evaluation['k'] == best_params['k'])]
+
+        score = es['f1'].to_numpy()[0]
+        return score, best_method, best_params
+
+    def distance(self, test_features, train_features, datasets, evaluation):
+        test_features = tf.constant(test_features)
+        train_features = tf.constant(train_features)
+        mu, sigma = self.estimate_gaussian(train_features)
+
+        mvn = tfp.distributions.MultivariateNormalTriL(loc=mu, scale_tril=tf.linalg.cholesky(sigma))
+        train_probs = mvn.prob(train_features).numpy()
+        test_probs = mvn.prob(test_features).numpy()[0]
+
+        return self.find_nearest(train_probs, test_probs, datasets, evaluation)
 
     def evaluate(self, features, target, anomaly_ratio, p):
         features_normal = tf.constant(np.delete(features, np.where(target == 1),  axis=0))

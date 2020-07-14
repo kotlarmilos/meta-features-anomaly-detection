@@ -1,4 +1,6 @@
 import mysql.connector
+import pandas as pd
+import numpy as np
 
 class Database:
     def __init__(self, host, user, passwd, database):
@@ -131,6 +133,43 @@ class Database:
 
         self.close_connection()
 
+    def get_dataset_id(self, dataset):
+        self.open_connection()
+        self.cursor.execute("SELECT * FROM dataset WHERE name='" + str(dataset['name']) + "'")
+        row = self.cursor.fetchone()
+        if row:
+            return row[0]
+        else:
+            return None
+
+
+    def get_datasets(self):
+        self.open_connection()
+        self.cursor.execute("SELECT * FROM dataset")
+        dataset = pd.DataFrame(self.cursor.fetchall())
+        dataset.columns = np.array([i[0] for i in self.cursor.description])
+        # dataset = dataset.set_index('id')
+
+        self.cursor.execute("""select e.training_time, a.name as method, d.id as dataset_id, d.name as dataset, 
+                            (select cast(value as decimal(24,8)) from performance p where p.evaluation_id = e.id and name = 'acc' limit 1) as acc,
+                            (select cast(value as decimal(24,8)) from performance p where p.evaluation_id = e.id and name = 'prec' limit 1) as prec,
+                            (select cast(value as decimal(24,8)) from performance p where p.evaluation_id = e.id and name = 'recall' limit 1) as recall,
+                            (select cast(value as decimal(24,8)) from performance p where p.evaluation_id = e.id and name = 'f1' limit 1) as f1,
+                            (select cast(value as decimal(24,8)) from parameter p where p.evaluation_id = e.id and name = 'pca' limit 1) as pca,
+                            (select cast(value as decimal(24,8)) from parameter p where p.evaluation_id = e.id and name = 'k' limit 1) as k
+                            from evaluation e
+                            left join algorithm a on e.algorithm_id = a.id
+                            left join dataset d on e.dataset_id = d.id""")
+        evaluation = pd.DataFrame(self.cursor.fetchall(), dtype='float64')
+        evaluation.columns = np.array([i[0] for i in self.cursor.description])
+
+        self.cursor.execute("SELECT dataset_id, name, cast(case when value = 'nan' then 0 else value end as decimal(24,8)) as value FROM dataset_characterization")
+        features = pd.DataFrame(self.cursor.fetchall(), dtype='float64')
+        features.columns = [i[0] for i in self.cursor.description]
+        features = features.pivot(index='dataset_id', columns='name', values='value')
+        # result = pd.concat([df, df_ft], axis=1, sort=False)
+        return dataset, evaluation, features
+
 
     def insert_data_info(self, dataset, ft, feature_score = None):
         self.open_connection()
@@ -164,8 +203,40 @@ class Database:
         self.close_connection()
         return dataset['id']
 
+    def check_evaluation_info(self, device, method,dataset, p, headers):
+        device_type = 'ASIC'
+        if 'CPU' in device:
+            device_type = 'CPU'
+        elif 'GPU' in device:
+            device_type = 'GPU'
 
-    def insert_evaluation_info(self, device, method, dataset, params, headers, result):
+        self.open_connection()
+        self.cursor.execute("SELECT * FROM device WHERE type='" + device_type + "'")
+        device_id = self.cursor.fetchone()[0]
+        self.cursor.execute("SELECT * FROM dataset WHERE id=" + str(dataset['id']))
+        dataset_id = self.cursor.fetchone()[0]
+        self.cursor.execute("SELECT * FROM algorithm WHERE name='" + method['name'] + "'")
+        algorithm_id = self.cursor.fetchone()[0]
+
+        if len(p) > 1:
+            sql = "select * from evaluation e where dataset_id=%s and algorithm_id=%s and device_id=%s and exists (select 1 from parameter p where p.evaluation_id=e.id and ((p.name='pca' and p.value=%s))) and exists (select 1 from parameter p where p.evaluation_id=e.id and ((p.name='k' and p.value=%s)))"
+            val = (dataset_id, algorithm_id, device_id, str(p[0]), str(p[1]))
+        else:
+            sql = "select * from evaluation e where dataset_id=%s and algorithm_id=%s and device_id=%s and exists (select 1 from parameter p where p.evaluation_id=e.id and ((p.name='pca' and p.value=%s)))"
+            val = (dataset_id, algorithm_id, device_id, str(p[0]))
+
+
+        self.cursor.execute(sql, val)
+        rows = self.cursor.fetchall()
+        result = len(rows)
+        self.close_connection()
+        if result > 0:
+            return True
+        else:
+            return False
+
+
+    def insert_evaluation_info(self, device, method, dataset, params, headers, time, result):
         device_type = 'ASIC'
         if 'CPU' in device:
             device_type = 'CPU'
@@ -181,7 +252,7 @@ class Database:
         algorithm_id = self.cursor.fetchone()[0]
 
         sql = "INSERT INTO evaluation (evaluation_id, dataset_id, algorithm_id, device_id, training_time, inference_time) VALUES (%s, %s, %s, %s, %s, %s)"
-        val = (1, dataset_id, algorithm_id, device_id, '0', '0')
+        val = (1, dataset_id, algorithm_id, device_id, str(time), str(time))
         self.cursor.execute(sql, val)
         self.db.commit()
 
