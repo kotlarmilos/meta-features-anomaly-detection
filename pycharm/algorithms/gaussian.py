@@ -88,8 +88,8 @@ class Gaussian:
 
     def find_nearest(self, array, value, datasets, evaluation):
         array = np.asarray(array)
-        idx = (np.abs(array - value)).argmin()
-        # idx = np.argsort(np.abs(array-value))[1]
+        # idx = (np.abs(array - value)).argmin()
+        idx = np.argsort(np.abs(array-value))[1]
         closest_dataset_id = datasets.iloc[idx]['id']
         closest_dataset_name = datasets.iloc[idx]['name']
         print('Closest dataset is %s...' % closest_dataset_name)
@@ -125,6 +125,13 @@ class Gaussian:
         mvn = tfp.distributions.MultivariateNormalTriL(loc=mu, scale_tril=tf.linalg.cholesky(sigma))
         train_probs = mvn.prob(train_features).numpy()
         test_probs = mvn.prob(test_features).numpy()[0]
+
+        # df = pd.DataFrame(data=train_features, columns=['pca1', 'pca2'])
+        # fig = plt.figure(figsize=(12, 12))
+        # plt.subplots_adjust(hspace=0.5)
+        # ax = fig.add_subplot(1,1,1)
+        # ax.scatter(df['pca1'], df['pca2'], c=train_probs, s=50)
+        # plt.show()
 
         return self.find_nearest(train_probs, test_probs, datasets, evaluation)
 

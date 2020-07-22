@@ -34,7 +34,7 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 # db = Database("34.68.13.182","root","6g8HBIy0F8atEKtb","anomaly_detection_decision_support")
 db = Database("127.0.0.1","root","","anomaly_detection_decision_support")
 # db.truncate_database()
-datasets = utilities.get_datasets('/Users/miloskotlar/GoogleDrive/Academic/PhD/III/datasets/')
+datasets = utilities.get_datasets('/Users/miloskotlar/GoogleDrive/Academic/PhD/III/linear_datasets/')
 devices = utilities.get_devices()
 methods = utilities.get_methods()
 
@@ -44,8 +44,8 @@ print('*** Datasets for evaluation:', len(datasets))
 i = 0
 for dataset in datasets:
     i+=1
-    if (i==1):
-        continue
+    # if (i==1):
+    #     continue
     print('*********************************************')
     print('Dataset: %s' % dataset['name'])
 

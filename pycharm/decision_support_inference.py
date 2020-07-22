@@ -40,11 +40,31 @@ features = features.to_numpy()
 features = standardize_data(features)
 features = dimension_reduction(features, 2)
 
-fig = plt.figure(figsize=(12, 12))
-plt.subplots_adjust(hspace=0.5)
+# fig = plt.figure(figsize=(12, 12))
+# plt.subplots_adjust(hspace=0.5)
 
-ax = fig.add_subplot(1, 1, 1)
-ax.scatter(features[:,0], features[:,1], c='b', s=50)
+
+temporal = np.array(datasets.loc[datasets['type_of_data'] == '\'temporal\''].axes[0])
+temporal_features = features[temporal]
+high = np.array(datasets.loc[datasets['type_of_data'] == '\'high-dimensional\''].axes[0])
+high_features = features[high]
+spatial = np.array(datasets.loc[datasets['type_of_data'].str.contains('\'spatial\'')].axes[0])
+spatial_features = features[spatial]
+
+# ax = fig.add_subplot(1, 2, 1)
+# ax.scatter(high_features[:,0], high_features[:,1], c='r', s=50, label='high-dimensional')
+
+
+# for i in range(len(high_features)):
+#     text = datasets.loc[datasets['type_of_data'] == '\'high-dimensional\''].iloc[i]['name']
+#     ax.annotate(text, (high_features[i][0], high_features[i][1]))
+# # ax.scatter(temporal_features[:,0], temporal_features[:,1], c='b', s=50, label='temporal')
+# # ax.scatter(spatial_features[:,0], spatial_features[:,1], c='g', s=50, label='spatial')
+# plt.legend()
+# plt.plot()
+
+features = high_features
+
 
 print('*** Start:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
 print('*** Datasets for testing:', len(datasets))
@@ -55,15 +75,17 @@ for i, dataset in datasets.iterrows():
     test_features = features[i]
     train_features = features
     for method in methods:
-        m = eval(method['name']+'()')
-        print('Finding closest model to data for %s...' % dataset['name'])
-        best_score, best_method, best_params = m.distance(test_features, train_features, datasets, evaluation)
-        print('Best f1 score is %f with %s and parameters %s' % (best_score, best_method, best_params))
-        actual_score, actual_method, actual_params = m.crossval(i, datasets, evaluation)
-        print('Actual f1 score is %f with %s and parameters %s' % (actual_score, actual_method, actual_params))
-
-        expected_score, expected_method, expected_params = m.predict(i, datasets, evaluation, best_method, best_params)
-        print('Expected f1 score would be %f with %s and parameters %s' % (expected_score, expected_method, expected_params))
-
+        if method['name'] in ['KMeans']:#'Gaussian',
+            m = eval(method['name']+'()')
+            try:
+                print('Finding closest model to using %s data for %s...' % (method['name'], dataset['name']))
+                best_score, best_method, best_params = m.distance(test_features, train_features, datasets, evaluation)
+                print('Best f1 score for closest dataset is %f with %s and parameters %s' % (best_score, best_method, best_params))
+                actual_score, actual_method, actual_params = m.crossval(i, datasets, evaluation)
+                print('Best f1 score for test dataset is %f with %s and parameters %s' % (actual_score, actual_method, actual_params))
+                expected_score, expected_method, expected_params = m.predict(i, datasets, evaluation, best_method, best_params)
+                print('Expected f1 score would be %f with the proposed method %s and parameters %s' % (expected_score, expected_method, expected_params))
+            except:
+                print('Can\'t find evaluation')
 
 print('*** End:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))

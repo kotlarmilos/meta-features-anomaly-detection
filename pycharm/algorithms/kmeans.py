@@ -88,6 +88,67 @@ class KMeans:
         best_scores['manual'] = {'epsilon': min(probs[outliers]), 'scores':{'acc':acc, 'prec':prec, 'recall':recall, 'f1':f1}}
         return best_scores
 
+
+    def find_nearest(self, array, value, datasets, evaluation):
+        array = np.asarray(array)
+        # idx = (np.abs(array - value)).argmin()
+        idx = np.argsort(np.abs(array-value))[1]
+        closest_dataset_id = datasets.iloc[idx]['id']
+        closest_dataset_name = datasets.iloc[idx]['name']
+        print('Closest dataset is %s...' % closest_dataset_name)
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params
+
+    def crossval(self, idx, datasets, evaluation):
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params
+
+    def predict(self, idx, datasets, evaluation, best_method, best_params):
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+        & (evaluation['method'] == best_method)
+        & (evaluation['pca'] == best_params['pca'])
+        & (evaluation['k'] == best_params['k'])]
+
+        score = es['f1'].to_numpy()[0]
+        return score, best_method, best_params
+
+
+    def distance(self, test_features, train_features, datasets, evaluation):
+        test_features = tf.constant(test_features)
+        train_features = tf.constant(train_features)
+
+        neg_one = tf.constant(-1.0, dtype=tf.float64)
+        # we compute the L-1 distance
+        distances = tf.reduce_sum(tf.abs(tf.subtract(test_features, train_features)), 1)
+        # to find the nearest points, we find the farthest points based on negative distances
+        # we need this trick because tensorflow has top_k api and no closest_k or reverse=True api
+        # neg_distances = tf.multiply(distances, neg_one)
+        train_probs = distances.numpy()
+        test_probs = 0
+        # get the indices
+        # vals, indx = tf.nn.top_k(neg_distances, 1)
+        # # slice the labels of these points
+        # ps = tf.gather(target_tf, indx)
+        # counts = np.bincount(ps.numpy().astype('int64'))
+        # return np.argmax(counts)
+
+        # df = pd.DataFrame(data=train_features, columns=['pca1', 'pca2'])
+        # fig = plt.figure(figsize=(12, 12))
+        # plt.subplots_adjust(hspace=0.5)
+        # ax = fig.add_subplot(1,1,1)
+        # ax.scatter(df['pca1'], df['pca2'], c=train_probs, s=50)
+        # plt.show()
+
+        return self.find_nearest(train_probs, test_probs, datasets, evaluation)
+
     def input_fn(self):
         return tf.compat.v1.train.limit_epochs(tf.convert_to_tensor(self.features, dtype=tf.float32), num_epochs=1)
 
