@@ -80,6 +80,79 @@ class Linear:
         best_scores['manual'] = {'epsilon': min(probs[outliers]), 'scores':{'acc':acc, 'prec':prec, 'recall':recall, 'f1':f1}}
         return best_scores
 
+    def find_nearest(self, array, value, datasets, evaluation):
+        array = np.asarray(array)
+        # idx = (np.abs(array - value)).argmin()
+        idx = np.argsort(np.abs(array-value))[1]
+        closest_dataset_id = datasets.iloc[idx]['id']
+        closest_dataset_name = datasets.iloc[idx]['name']
+        print('Closest dataset is %s...' % closest_dataset_name)
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params, closest_dataset_name
+
+    def crossval(self, idx, datasets, evaluation):
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params
+
+    def predict(self, idx, datasets, evaluation, best_method, best_params):
+        # closest_dataset_id = datasets.iloc[idx]['id']
+        # es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+        # & (evaluation['method'] == best_method)
+        # & (evaluation['pca'] == best_params['pca'])
+        # & (evaluation['k'] == best_params['k'])]
+        #
+        # score = es['f1'].to_numpy()[0]
+        # return score, best_method, best_params
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+                        & (evaluation['method'] == best_method)]
+        # & (evaluation['pca'] == best_params['pca'])
+        # & (evaluation['k'] == best_params['k'])
+
+        score = es['f1'].max()  # .to_numpy()[0]
+        return score, best_method, best_params
+
+    def distance(self, test_features, train_features, datasets, evaluation):
+        test_target_feature = tf.constant(test_features[:, test_features.shape[1]-1])
+        test_features = tf.constant(np.delete(test_features, test_features.shape[1]-1, 1), dtype=tf.float32)
+
+        train_target_feature = tf.constant(train_features[:, train_features.shape[1]-1])
+        train_features = tf.constant(np.delete(train_features, train_features.shape[1]-1, 1), dtype=tf.float32)
+
+        model = Sequential([
+            Dense(1, activation='linear', input_shape=[train_features.shape[1]]),  # linear activation
+        ])
+
+        model.compile(loss='mean_squared_error',
+                      optimizer=tf.keras.optimizers.RMSprop(0.3),
+                      metrics=['mean_absolute_error', 'mean_squared_error'])
+
+        model.fit(train_features, train_target_feature, epochs=50)
+        weights = tf.transpose(model.get_weights()[0])
+        bias = model.get_weights()[1].flatten()
+
+        train_target_feature = train_target_feature.numpy()
+        test_target_feature = test_target_feature.numpy()
+        # print('y = x * (%f) + (%f)' % (weights[0][0], bias))
+        # for idx, val in enumerate(features):
+        #     print('x: %f y: %f class: %f pred_y: %f diff: %f' %(val, target_feature[idx], target[idx], val*weights[0][0]+bias, math.fabs(target_feature[idx]-val*weights[0][0]+bias)))
+
+        train_predictions = model.predict(train_features).flatten()
+        train_probs = np.square(np.subtract(train_target_feature, train_predictions))
+
+        test_predictions = model.predict(test_features).flatten()
+        test_probs = np.square(np.subtract(test_target_feature, test_predictions))
+
+        return self.find_nearest(train_probs, test_probs, datasets, evaluation)
+
+
 
     def evaluate(self, features, target, anomaly_ratio, p):
         target_feature = tf.constant(features[:, features.shape[1]-1])

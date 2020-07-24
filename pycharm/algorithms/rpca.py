@@ -206,6 +206,86 @@ class RPCA:
 
         return best_scores, probs
 
+    def find_nearest(self, array, value, datasets, evaluation):
+        array = np.asarray(array)
+        # idx = (np.abs(array - value)).argmin()
+        idx = np.argsort(np.abs(array-value))[1]
+        closest_dataset_id = datasets.iloc[idx]['id']
+        closest_dataset_name = datasets.iloc[idx]['name']
+        print('Closest dataset is %s...' % closest_dataset_name)
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params, closest_dataset_name
+
+    def crossval(self, idx, datasets, evaluation):
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params
+
+    def predict(self, idx, datasets, evaluation, best_method, best_params):
+        # closest_dataset_id = datasets.iloc[idx]['id']
+        # es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+        # & (evaluation['method'] == best_method)
+        # & (evaluation['pca'] == best_params['pca'])
+        # & (evaluation['k'] == best_params['k'])]
+        #
+        # score = es['f1'].to_numpy()[0]
+        # return score, best_method, best_params
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+                        & (evaluation['method'] == best_method)]
+        # & (evaluation['pca'] == best_params['pca'])
+        # & (evaluation['k'] == best_params['k'])
+
+        score = es['f1'].max()  # .to_numpy()[0]
+        return score, best_method, best_params
+
+    def distance(self, test_features, train_features, datasets, evaluation):
+        # features = np.concatenate((test_features, train_features))
+        index = np.where(train_features == test_features[0])[0][0]
+        features = train_features
+        self.D = features
+        self.S = np.zeros(self.D.shape)
+        self.Y = np.zeros(self.D.shape)
+        self.mu = np.prod(self.D.shape) / (4 * self.frobenius_norm(self.D))
+        self.mu_inv = 1 / self.mu
+        self.lmbda = 1 / np.sqrt(np.max(self.D.shape))
+
+        self.D_tf = tf.constant(features, dtype=tf.float64)
+        self.S_tf = tf.zeros(self.D_tf.shape, dtype=tf.float64)
+        self.Y_tf = tf.zeros(self.D_tf.shape, dtype=tf.float64)
+        self.mu_tf = tf.divide(tf.math.reduce_prod(tf.constant(self.D_tf.shape, dtype=tf.float64)),
+                               tf.multiply(tf.constant(4, dtype=tf.float64), self.frobenius_norm_tf(self.D_tf)))
+
+        self.mu_inv_tf = tf.divide(tf.constant(1, dtype=tf.float64), self.mu_tf)
+        self.lmbda_tf = tf.divide(tf.constant(1, dtype=tf.float64),
+                                  tf.math.sqrt(tf.reduce_max(tf.constant(self.D_tf.shape, dtype=tf.float64))))
+
+        # features_normal = tf.constant(np.delete(features, np.where(target == 1),  axis=0))
+        # features = tf.constant(features)
+        # X = features
+
+        # from r_pca import R_pca
+        # use R_pca to estimate the degraded data as L + S, where L is low rank, and S is sparse
+        # rpca = R_pca(X)
+        L, S = self.fit(max_iter=10000, iter_print=100)
+        # print(L, S)
+        # from sklearn.decomposition import PCA
+
+        probs = []
+        for s in S:
+            probs.append(np.sum(np.abs(s)))
+
+        train_probs = np.array(probs)
+        test_probs =  train_probs[index]
+
+        return self.find_nearest(train_probs, test_probs, datasets, evaluation)
+
 
     def visualize_2d(self, dataset, features, target, probs, best_scores):
         performance = ['acc', 'prec', 'recall', 'f1', 'manual']

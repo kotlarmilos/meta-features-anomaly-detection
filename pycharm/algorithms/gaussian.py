@@ -97,7 +97,7 @@ class Gaussian:
         best_score = es['f1'].max()
         method = es[es['f1'] == best_score]['method'].to_numpy()[0]
         params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
-        return best_score, method, params
+        return best_score, method, params, closest_dataset_name
 
     def crossval(self, idx, datasets, evaluation):
         closest_dataset_id = datasets.iloc[idx]['id']
@@ -108,13 +108,21 @@ class Gaussian:
         return best_score, method, params
 
     def predict(self, idx, datasets, evaluation, best_method, best_params):
+        # closest_dataset_id = datasets.iloc[idx]['id']
+        # es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+        # & (evaluation['method'] == best_method)
+        # & (evaluation['pca'] == best_params['pca'])
+        # & (evaluation['k'] == best_params['k'])]
+        #
+        # score = es['f1'].to_numpy()[0]
+        # return score, best_method, best_params
         closest_dataset_id = datasets.iloc[idx]['id']
         es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
-        & (evaluation['method'] == best_method)
-        & (evaluation['pca'] == best_params['pca'])
-        & (evaluation['k'] == best_params['k'])]
+                        & (evaluation['method'] == best_method)]
+        # & (evaluation['pca'] == best_params['pca'])
+        # & (evaluation['k'] == best_params['k'])
 
-        score = es['f1'].to_numpy()[0]
+        score = es['f1'].max()  # .to_numpy()[0]
         return score, best_method, best_params
 
     def distance(self, test_features, train_features, datasets, evaluation):

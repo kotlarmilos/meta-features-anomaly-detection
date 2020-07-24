@@ -195,6 +195,89 @@ class AutoencoderModel:
 
         return best_scores, probs
 
+    def find_nearest(self, array, value, datasets, evaluation):
+        array = np.asarray(array)
+        # idx = (np.abs(array - value)).argmin()
+        idx = np.argsort(np.abs(array-value))[1]
+        closest_dataset_id = datasets.iloc[idx]['id']
+        closest_dataset_name = datasets.iloc[idx]['name']
+        print('Closest dataset is %s...' % closest_dataset_name)
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params, closest_dataset_name
+
+    def crossval(self, idx, datasets, evaluation):
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+        best_score = es['f1'].max()
+        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        return best_score, method, params
+
+    def predict(self, idx, datasets, evaluation, best_method, best_params):
+        # closest_dataset_id = datasets.iloc[idx]['id']
+        # es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+        # & (evaluation['method'] == best_method)
+        # & (evaluation['pca'] == best_params['pca'])
+        # & (evaluation['k'] == best_params['k'])]
+        #
+        # score = es['f1'].to_numpy()[0]
+        # return score, best_method, best_params
+        closest_dataset_id = datasets.iloc[idx]['id']
+        es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+                        & (evaluation['method'] == best_method)]
+        # & (evaluation['pca'] == best_params['pca'])
+        # & (evaluation['k'] == best_params['k'])
+
+        score = es['f1'].max()  # .to_numpy()[0]
+        return score, best_method, best_params
+
+    def distance(self, test_features, train_features, datasets, evaluation):
+        # features = np.concatenate((test_features, train_features))
+        index = np.where(train_features == test_features[0])[0][0]
+        features = train_features.astype('float32')
+        features_normal = tf.constant(features)
+
+        # MNIST input 28 rows * 28 columns = 784 pixels
+        input_img = Input(shape=(features_normal.shape[1],))
+        # encoder
+        encoder1 = Dense(128, activation='relu')(input_img)
+        encoder2 = Dense(32, activation='sigmoid')(encoder1)
+        # decoder
+        decoder1 = Dense(128, activation='relu')(encoder2)
+        decoder2 = Dense(features_normal.shape[1], activation='sigmoid')(decoder1)
+
+        # this model maps an input to its reconstruction
+        autoencoder = Model(inputs=input_img, outputs=decoder2)
+
+        autoencoder.compile(optimizer='adam', loss='mse')
+
+        autoencoder.fit(features_normal, features_normal,
+                        epochs=50,
+                        batch_size=32,
+                        shuffle=True)
+
+        # create encoder model
+        encoder = Model(inputs=input_img, outputs=encoder2)
+        # create decoder model
+        encoded_input = Input(shape=(32,))
+        decoder_layer1 = autoencoder.layers[-2]
+        decoder_layer2 = autoencoder.layers[-1]
+        decoder = Model(inputs=encoded_input, outputs=decoder_layer2(decoder_layer1(encoded_input)))
+
+        latent_vector = encoder.predict(features)
+        # get decoder output to visualize reconstructed image
+        reconstructed_imgs = decoder.predict(latent_vector)
+
+        probs = (tf.keras.losses.MSE(features, reconstructed_imgs)).numpy()
+
+        train_probs = np.array(probs)
+        test_probs = train_probs[index]
+
+        return self.find_nearest(train_probs, test_probs, datasets, evaluation)
+
 
     def visualize_2d(self, dataset, features, target, probs, best_scores, pca):
         performance = ['acc', 'prec', 'recall', 'f1', 'manual']
