@@ -1,3 +1,69 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+
+#alloc
+plt.title('Tensor product resources allocation for fixed-point numbers')
+# plt.bar('LUTs', 22.77)
+# plt.bar('Primary FFs', 25.82)
+# plt.bar('Secondary FFs', 5.30)
+# plt.bar('DSP blocks', 31.75)
+# plt.bar('Block memory', 5.26)
+#
+# plt.bar('LUTs', 12.38)
+# plt.bar('Primary FFs', 15.42)
+# plt.bar('Secondary FFs', 0)
+# plt.bar('DSP blocks', 6.35)
+# plt.bar('Block memory',3.20)
+#
+plt.bar('LUTs', 3.19)
+plt.bar('Primary FFs', 3.74)
+plt.bar('Secondary FFs', 1.15)
+plt.bar('DSP blocks', 9.52)
+plt.bar('Block memory',3.29)
+
+plt.xlabel('hardware resources')
+plt.ylabel('percentage')
+
+
+# plt.title('Tensor product')
+x = [1000, 10000,  100000,  1000000]
+# df_m36 = [0,2,17,179]
+# cf_m36 = [0,1,17,187]
+#
+# df_m64 = [2,15,150,1485]
+# cf_m64 = [3,42,413,4172]
+#
+#
+# plt.plot(x,df_m36, label='MAX3 24GB @ 75MHz T36')
+# plt.plot(x,cf_m36, label='Xeon CPU X5650 @ 2.67GHz T36')
+# plt.plot(x,df_m64, label='MAX3 24GB @ 75MHz T64')
+# plt.plot(x,cf_m64, label='Xeon CPU X5650 @ 2.67GHz T64')
+
+# plt.title('Tensor transpose')
+# n = [0, 1,  11,  111]
+# # ip = [1, 14,  118,  1363]
+# m = [0, 4,  35,  351]
+#
+# plt.plot(x,n, label='N')
+# # plt.plot(x,ip, label='IP')
+# plt.plot(x,m, label='M')
+
+# double = [0, 2,  16,  153]
+# float = [0, 1,  8,  80]
+# int = [0, 1,  4,  40]
+# plt.plot(x,double)
+# plt.plot(x,float)
+# plt.plot(x,int, label='int')
+
+# plt.xlabel('iterations')
+# plt.ylabel('execution time in ms')
+
+
+plt.legend()
+plt.show()
+
+
 # from database import Database
 # from preprocessing import *
 # import utilities
@@ -163,37 +229,37 @@
 #
 # print('*** End:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
 #
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-
-from database import Database
-dataset_id = 178
-db = Database("127.0.0.1","root","","anomaly_detection_decision_support")
-datasets, evaluation, features = db.get_datasets()
-evaluation = evaluation[evaluation['dataset_id'] == dataset_id]
-datasets = datasets[datasets['id'] == dataset_id]
-plt.title(datasets[['name']].to_numpy()[0][0])
-# df = pd.read_csv('~/Desktop/brest cancer evaluation.csv', sep=';', error_bad_lines=False, warn_bad_lines=False, index_col=None)
-# data = evaluation[evaluation['method'] == 'Gaussian']
-# plt.plot(data['pca'],data['f1'], c='g', label='Gaussian method')
-# data = evaluation[evaluation['method'] == 'Linear']
-# plt.plot(data['pca'],data['f1'], c='r',  label='Linear regression')
-# data = evaluation[evaluation['method'] == 'RPCA']
-# plt.plot(data['pca'],data['f1'], c='b',  label='rPCA')
+# import numpy as np
+# import pandas as pd
+# import matplotlib.pyplot as plt
+#
+# from database import Database
+# dataset_id = 178
+# db = Database("127.0.0.1","root","","anomaly_detection_decision_support")
+# datasets, evaluation, features = db.get_datasets()
+# evaluation = evaluation[evaluation['dataset_id'] == dataset_id]
+# datasets = datasets[datasets['id'] == dataset_id]
+# plt.title(datasets[['name']].to_numpy()[0][0])
+# # df = pd.read_csv('~/Desktop/brest cancer evaluation.csv', sep=';', error_bad_lines=False, warn_bad_lines=False, index_col=None)
+# # data = evaluation[evaluation['method'] == 'Gaussian']
+# # plt.plot(data['pca'],data['f1'], c='g', label='Gaussian method')
+# # data = evaluation[evaluation['method'] == 'Linear']
+# # plt.plot(data['pca'],data['f1'], c='r',  label='Linear regression')
+# # data = evaluation[evaluation['method'] == 'RPCA']
+# # plt.plot(data['pca'],data['f1'], c='b',  label='rPCA')
+# # plt.legend()
+# # plt.xlabel('dimensions')
+# # plt.ylabel('f1 score')
+# # plt.show()
+# for k in range(2, 50, 5):
+#     data = evaluation[(evaluation['method'] == 'KMeans') & (evaluation['k'] == k)]
+#     plt.plot(data['pca'],data['f1'], label='KMeans(%d)' % k)
+#     plt.xlabel('dimensions')
+#     plt.ylabel('f1 score')
+#
+#
 # plt.legend()
-# plt.xlabel('dimensions')
-# plt.ylabel('f1 score')
 # plt.show()
-for k in range(2, 50, 5):
-    data = evaluation[(evaluation['method'] == 'KMeans') & (evaluation['k'] == k)]
-    plt.plot(data['pca'],data['f1'], label='KMeans(%d)' % k)
-    plt.xlabel('dimensions')
-    plt.ylabel('f1 score')
-
-
-plt.legend()
-plt.show()
 # #
 # # # from r_pca import R_pca
 # #
