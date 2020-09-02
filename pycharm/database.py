@@ -19,7 +19,6 @@ class Database:
         self.cursor.close()
         self.db.close()
 
-
     def truncate_database(self):
         self.open_connection()
         self.cursor.execute('DELETE FROM algorithm')
@@ -142,6 +141,14 @@ class Database:
         else:
             return None
 
+    def get_dataset_anomaly_ratio(self, dataset):
+        self.open_connection()
+        self.cursor.execute("SELECT anomaly_entropy FROM dataset WHERE name='" + str(dataset['name']) + "'")
+        row = self.cursor.fetchone()
+        if row:
+            return row[0]
+        else:
+            return None
 
     def get_datasets(self):
         self.open_connection()
@@ -169,7 +176,6 @@ class Database:
         features = features.pivot(index='dataset_id', columns='name', values='value')
         # result = pd.concat([df, df_ft], axis=1, sort=False)
         return dataset, evaluation, features
-
 
     def insert_data_info(self, dataset, ft, feature_score = None):
         self.open_connection()
@@ -235,7 +241,6 @@ class Database:
         else:
             return False
 
-
     def insert_evaluation_info(self, device, method, dataset, params, headers, time, result):
         device_type = 'ASIC'
         if 'CPU' in device:
@@ -277,3 +282,57 @@ class Database:
         self.db.commit()
 
         self.close_connection()
+
+    def update_characterization_user_defined_data(self, dataset):
+        dataset['id'] = self.get_dataset_id(dataset)
+        type_of_data = ['nominal', 'spatial', 'temporal', 'graphs_and_networks', 'high_dimensional']
+        domain = ['manufacturing', 'transport', 'finance', 'medicine', 'images', 'text', 'software', 'social']
+        anomaly_type = ['local', 'global', 'cluster']
+
+        for t in type_of_data:
+            sql = "DELETE FROM dataset_characterization where dataset_id=%s and name=%s"
+            val = (dataset['id'], t)
+            self.cursor.execute(sql, val)
+            self.db.commit()
+            sql = "INSERT INTO dataset_characterization (dataset_id, name, value) VALUES (%s, %s, %s)"
+            val = (dataset['id'], t, str(1 if (t in dataset['type_of_data']) else 0))
+            self.cursor.execute(sql, val)
+            self.db.commit()
+
+        for d in domain:
+            sql = "DELETE FROM dataset_characterization where dataset_id=%s and name=%s"
+            val = (dataset['id'], d)
+            self.cursor.execute(sql, val)
+            sql = "INSERT INTO dataset_characterization (dataset_id, name, value) VALUES (%s, %s, %s)"
+            val = (dataset['id'], d, str(1 if (d in dataset['domain']) else 0))
+            self.cursor.execute(sql, val)
+
+        for a in anomaly_type:
+            sql = "DELETE FROM dataset_characterization where dataset_id=%s and name=%s"
+            val = (dataset['id'], a)
+            self.cursor.execute(sql, val)
+            self.db.commit()
+            sql = "INSERT INTO dataset_characterization (dataset_id, name, value) VALUES (%s, %s, %s)"
+            val = (dataset['id'], a, str(1 if (a in dataset['anomaly_types']) else 0))
+            self.cursor.execute(sql, val)
+            self.db.commit()
+
+
+        sql = "DELETE FROM dataset_characterization where dataset_id=%s and name=%s"
+        val = (dataset['id'], 'anomaly_space')
+        self.cursor.execute(sql, val)
+        self.db.commit()
+        sql = "INSERT INTO dataset_characterization (dataset_id, name, value) VALUES (%s, %s, %s)"
+        val = (dataset['id'], 'anomaly_space', str(0 if dataset['anomaly_space'] == 'univariate' else 1))
+        self.cursor.execute(sql, val)
+        self.db.commit()
+
+        sql = "DELETE FROM dataset_characterization where dataset_id=%s and name=%s"
+        val = (dataset['id'], 'anomaly_ratio')
+        self.cursor.execute(sql, val)
+        self.db.commit()
+        anomaly_ratio = self.get_dataset_anomaly_ratio(dataset)
+        sql = "INSERT INTO dataset_characterization (dataset_id, name, value) VALUES (%s, %s, %s)"
+        val = (dataset['id'], 'anomaly_ratio', anomaly_ratio)
+        self.cursor.execute(sql, val)
+        self.db.commit()

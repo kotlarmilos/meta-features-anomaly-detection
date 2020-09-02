@@ -9,14 +9,17 @@ from random import randint
 
 import utilities
 
+arr = []
+
+
 class KMeans:
     def __init__(self):
         pass
 
     def get_params(self, features):
-        pca = list(reversed(range(2, features.shape[1]+1)))
+        pca = list(reversed(range(2, features.shape[1] + 1)))
         k = list(range(2, 50))
-        return utilities.make_cartesian([pca,k]), ['pca','k']
+        return utilities.make_cartesian([pca, k]), ['pca', 'k']
 
     def estimate_gaussian(self, features):
         mu = tf.reduce_mean(features, axis=0)
@@ -28,10 +31,10 @@ class KMeans:
 
     def select_threshold(self, probs, target, anomaly_ratio):
         best_scores = {}
-        best_scores['acc'] = {'epsilon': 0, 'scores':{'acc':0, 'prec':0, 'recall':0, 'f1':0}}
-        best_scores['prec'] = {'epsilon': 0, 'scores':{'acc':0, 'prec':0, 'recall':0, 'f1':0}}
-        best_scores['recall'] = {'epsilon': 0, 'scores':{'acc':0, 'prec':0, 'recall':0, 'f1':0}}
-        best_scores['f1'] = {'epsilon': 0, 'scores':{'acc':0, 'prec':0, 'recall':0, 'f1':0}}
+        best_scores['acc'] = {'epsilon': 0, 'scores': {'acc': 0, 'prec': 0, 'recall': 0, 'f1': 0}}
+        best_scores['prec'] = {'epsilon': 0, 'scores': {'acc': 0, 'prec': 0, 'recall': 0, 'f1': 0}}
+        best_scores['recall'] = {'epsilon': 0, 'scores': {'acc': 0, 'prec': 0, 'recall': 0, 'f1': 0}}
+        best_scores['f1'] = {'epsilon': 0, 'scores': {'acc': 0, 'prec': 0, 'recall': 0, 'f1': 0}}
 
         # find best metrics and epsilons using test data
         stepsize = (max(probs) - min(probs)) / 100
@@ -42,9 +45,9 @@ class KMeans:
             if len(set(prediction)) == 1:
                 continue
             acc = accuracy_score(target, prediction)
-            prec = precision_score(target, prediction, labels=[0,1])
-            recall = recall_score(target, prediction, labels=[0,1])
-            f1 = f1_score(target, prediction, labels=[0,1])
+            prec = precision_score(target, prediction, labels=[0, 1])
+            recall = recall_score(target, prediction, labels=[0, 1])
+            f1 = f1_score(target, prediction, labels=[0, 1])
             # roc_auc = roc_auc_score(target, prediction)
             if acc > best_scores['acc']['scores']['acc']:
                 best_scores['acc']['scores']['acc'] = acc
@@ -85,69 +88,68 @@ class KMeans:
         recall = recall_score(target, prediction, labels=[0, 1])
         f1 = f1_score(target, prediction, labels=[0, 1])
 
-        best_scores['manual'] = {'epsilon': min(probs[outliers]), 'scores':{'acc':acc, 'prec':prec, 'recall':recall, 'f1':f1}}
+        best_scores['manual'] = {'epsilon': min(probs[outliers]),
+                                 'scores': {'acc': acc, 'prec': prec, 'recall': recall, 'f1': f1}}
         return best_scores
 
-
-    def find_nearest(self, array, value, datasets, evaluation):
+    def find_nearest(self, k, array, value, datasets, evaluation):
         array = np.asarray(array)
         # idx = (np.abs(array - value)).argmin()
-        idx = np.argsort(np.abs(array-value))[1]
-        closest_dataset_id = datasets.iloc[idx]['id']
-        closest_dataset_name = datasets.iloc[idx]['name']
-        print('Closest dataset is %s...' % closest_dataset_name)
-        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
-        best_score = es['f1'].max()
-        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
-        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
-        return best_score, method, params, closest_dataset_name
+        idxs = np.argsort(np.abs(array - value))[1:k+1]
+        # print(list(datasets.iloc[np.argsort(np.abs(array - value))]['name'].to_numpy()))
+        # print(list(array[np.argsort(np.abs(array - value))]))
+        # arr.append(datasets.iloc[np.argsort(np.abs(array - value))]['name'].to_numpy())
+        # arr.append(array[np.argsort(np.abs(array - value))])
+        # return 0
+        result = []
+        temp_array = []
+        for idx in idxs:
+            closest_dataset_id = datasets.iloc[idx]['id']
+            closest_dataset_name = datasets.iloc[idx]['name']
+            # print('Closest dataset is %s...' % closest_dataset_name)
+            es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+            best_score = es['f1'].max()
+            method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+            result.append({'method': method, 'dataset_name': closest_dataset_name, 'distance': np.abs(array - value)[idx], 'best_score':best_score })
+            temp_array.append(method)
+            params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0],
+                      'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+
+
+        # m, c = np.unique(result, return_counts=True)
+        # idx = np.argmax(c)
+        # return m[idx]
+        return result, temp_array
 
     def crossval(self, idx, datasets, evaluation):
         closest_dataset_id = datasets.iloc[idx]['id']
         es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
         best_score = es['f1'].max()
         method = es[es['f1'] == best_score]['method'].to_numpy()[0]
-        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0],
+                  'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
         return best_score, method, params
 
     def predict(self, idx, datasets, evaluation, best_method, best_params):
         closest_dataset_id = datasets.iloc[idx]['id']
         es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
-        & (evaluation['method'] == best_method)]
+                        & (evaluation['method'] == best_method)]
         # & (evaluation['pca'] == best_params['pca'])
         # & (evaluation['k'] == best_params['k'])
 
-        score = es['f1'].max() #.to_numpy()[0]
+        score = es['f1'].max()  # .to_numpy()[0]
         return score, best_method, best_params
 
-
-    def distance(self, test_features, train_features, datasets, evaluation):
+    def distance(self, k, test_features, train_features, datasets, evaluation):
         test_features = tf.constant(test_features)
         train_features = tf.constant(train_features)
 
         neg_one = tf.constant(-1.0, dtype=tf.float64)
-        # we compute the L-1 distance
         distances = tf.reduce_sum(tf.abs(tf.subtract(test_features, train_features)), 1)
-        # to find the nearest points, we find the farthest points based on negative distances
-        # we need this trick because tensorflow has top_k api and no closest_k or reverse=True api
-        # neg_distances = tf.multiply(distances, neg_one)
         train_probs = distances.numpy()
         test_probs = 0
-        # get the indices
-        # vals, indx = tf.nn.top_k(neg_distances, 1)
-        # # slice the labels of these points
-        # ps = tf.gather(target_tf, indx)
-        # counts = np.bincount(ps.numpy().astype('int64'))
-        # return np.argmax(counts)
 
-        # df = pd.DataFrame(data=train_features, columns=['pca1', 'pca2'])
-        # fig = plt.figure(figsize=(12, 12))
-        # plt.subplots_adjust(hspace=0.5)
-        # ax = fig.add_subplot(1,1,1)
-        # ax.scatter(df['pca1'], df['pca2'], c=train_probs, s=50)
-        # plt.show()
-
-        return self.find_nearest(train_probs, test_probs, datasets, evaluation)
+        return self.find_nearest(k, train_probs, test_probs, datasets, evaluation)
 
     def input_fn(self):
         return tf.compat.v1.train.limit_epochs(tf.convert_to_tensor(self.features, dtype=tf.float32), num_epochs=1)
@@ -177,7 +179,6 @@ class KMeans:
         for item in list(kmeans.predict(self.input_fn)):
             probs.append(item['all_distances'][item['cluster_index']])
             clusters.append(item['cluster_index'])
-
 
         probs = np.array(probs)
         clusters = np.array(clusters)
@@ -216,12 +217,14 @@ class KMeans:
         for idx, val in enumerate(performance):
             outliers = np.array(np.where(probs >= best_scores[val]['epsilon'])).flatten()
 
-            ax = fig.add_subplot(3, 3, idx+1)
+            ax = fig.add_subplot(3, 3, idx + 1)
             if val == 'manual':
-                ax.set_title('%s (manual): %f%%, epsilon: %.2E' % (val, best_scores[val]['scores']['f1'], best_scores[val]['epsilon']), fontsize=12)
+                ax.set_title('%s (manual): %f%%, epsilon: %.2E' % (
+                val, best_scores[val]['scores']['f1'], best_scores[val]['epsilon']), fontsize=12)
             else:
-                ax.set_title('%s: %f%%, epsilon: %.2E' % (val, best_scores[val]['scores'][val], best_scores[val]['epsilon']), fontsize=12)
-
+                ax.set_title(
+                    '%s: %f%%, epsilon: %.2E' % (val, best_scores[val]['scores'][val], best_scores[val]['epsilon']),
+                    fontsize=12)
 
             for cls, color in zip(range(0, len(np.unique(clusters))), colors):
                 indicesToKeep = df['cluster'] == cls
@@ -241,7 +244,6 @@ class KMeans:
             #            , df.loc[outliers, 'pca2']
             #            , c='w'
             #            , s=10)
-
 
         ax = fig.add_subplot(3, 3, 6)
         ax.set_title('Probabilities', fontsize=12)
