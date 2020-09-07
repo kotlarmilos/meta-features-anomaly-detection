@@ -16,7 +16,7 @@ import pandas as pd
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 db = Database("127.0.0.1","root","","anomaly_detection_decision_support")
-# db = Database("35.234.97.110","root","6g8HBIy0F8atEKtb","anomaly_detection_decision_support")
+# db = Database("anomaly-detection-mysql.ch1ih3mzagsi.eu-central-1.rds.amazonaws.com","admin","6xy4AMtnhkFJWfIWHsuu","anomaly_detection_decision_support")
 datasets, evaluation, features = db.get_datasets()
 
 # for dataset in utilities.get_datasets('/Users/miloskotlar/GoogleDrive/Academic/PhD/III/datasets/'):
