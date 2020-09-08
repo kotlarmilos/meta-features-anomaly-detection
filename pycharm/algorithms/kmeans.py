@@ -125,7 +125,7 @@ class KMeans:
         closest_dataset_id = datasets.iloc[idx]['id']
         es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
         best_score = es['f1'].max()
-        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+        method = es[es['f1'] == best_score]['method'].to_numpy()
         params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0],
                   'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
         return best_score, method, params
