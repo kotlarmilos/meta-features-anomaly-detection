@@ -22,12 +22,34 @@ datasets, evaluation, features = db.get_datasets()
 # for dataset in utilities.get_datasets('/Users/miloskotlar/GoogleDrive/Academic/PhD/III/linear_datasets/'):
 #     db.update_characterization_user_defined_data(dataset)
 
+# exit(1)
 characterization_columns = np.array(features.columns)
 features = features.to_numpy()
-features = standardize_data(features)
 
-### change per purpose
-# features = dimension_reduction(features, 2)
+user_defined_characterization_columns = ['high_dimensional',
+'nominal',
+'spatial',
+'temporal',
+'graphs_and_networks',
+'high-dimensional',
+'manufacturing',
+'transport',
+'finance',
+'medicine',
+'images',
+'text',
+'software',
+'social',
+'local',
+'global',
+'cluster',
+'anomaly_space',
+'anomaly_ratio',]
+
+
+
+
+features = standardize_data(features)
 
 
 
@@ -67,118 +89,133 @@ global_features = features
 #         , 'transport', 'var.mean', 'var.sd']
 
 # for comb_k in range(2, 3):
-combs = combinations(characterization_columns, 2)
-for comb in combs:
-    features = global_features
-    comb = np.array(comb)
-    # comb = ['anomaly_space', 'attr_ent.mean', 'attr_ent.sd', 'can_cor.sd', 'cat_to_num'
-    #         , 'cov.mean', 'cov.sd', 'eigenvalues.mean', 'eigenvalues.sd', 'finance'
-    #         , 'freq_class.mean', 'g_mean.mean', 'g_mean.sd', 'graphs_and_networks'
-    #         , 'gravity', 'h_mean.mean', 'h_mean.sd', 'high_dimensional', 'images'
-    #         , 'iq_range.mean', 'iq_range.sd', 'joint_ent.mean', 'joint_ent.sd'
-    #         , 'kurtosis.sd', 'mad.mean', 'mad.sd', 'manufacturing', 'max.mean', 'max.sd'
-    #         , 'mean.mean', 'mean.sd', 'median.mean', 'median.sd', 'medicine', 'min.mean'
-    #         , 'min.sd', 'nr_cat', 'nr_class', 'nr_disc', 'nr_inst', 'num_to_cat'
-    #         , 'range.mean', 'range.sd', 'row_count', 'sd.mean', 'sd.sd', 'skewness.mean'
-    #         , 'skewness.sd', 'social', 'spatial', 't_mean.mean', 't_mean.sd', 'temporal'
-    #         , 'transport', 'var.mean', 'var.sd']
-    # temp = np.unique(temp)
-    # print(temp
-    # comb = temp
-    # comb = ['anomaly_space', 'kurtosis.sd']
-    #comb_k = 17#3
-    idx = np.in1d(characterization_columns, comb).nonzero()[0]
-    features = features[:, idx]
+# combs = combinations(characterization_columns, 2)
+# for comb in combs:
+#     features = global_features
+#     comb = np.array(comb)
+# comb = ['anomaly_space', 'attr_ent.mean', 'attr_ent.sd', 'can_cor.sd', 'cat_to_num'
+#         , 'cov.mean', 'cov.sd', 'eigenvalues.mean', 'eigenvalues.sd', 'finance'
+#         , 'freq_class.mean', 'g_mean.mean', 'g_mean.sd', 'graphs_and_networks'
+#         , 'gravity', 'h_mean.mean', 'h_mean.sd', 'high_dimensional', 'images'
+#         , 'iq_range.mean', 'iq_range.sd', 'joint_ent.mean', 'joint_ent.sd'
+#         , 'kurtosis.sd', 'mad.mean', 'mad.sd', 'manufacturing', 'max.mean', 'max.sd'
+#         , 'mean.mean', 'mean.sd', 'median.mean', 'median.sd', 'medicine', 'min.mean'
+#         , 'min.sd', 'nr_cat', 'nr_class', 'nr_disc', 'nr_inst', 'num_to_cat'
+#         , 'range.mean', 'range.sd', 'row_count', 'sd.mean', 'sd.sd', 'skewness.mean'
+#         , 'skewness.sd', 'social', 'spatial', 't_mean.mean', 't_mean.sd', 'temporal'
+#         , 'transport', 'var.mean', 'var.sd']
+temp = ['can_cor.sd', 'global',
+'can_cor.sd', 'local',
+'cat_to_num', 'global',
+'cat_to_num', 'local',
+'cluster', 'global',
+'cluster', 'local',
+'anomaly_space', 'global',
+'anomaly_space', 'local',
+'attr_count', 'global',
+'attr_count', 'local',
+'can_cor.sd', 'global']
+temp = np.unique(temp)
+comb = temp
+# comb = ['anomaly_space', 'kurtosis.sd']
+#comb_k = 17#3
+idx = np.in1d(characterization_columns, comb).nonzero()[0]
+features = features[:, idx]
 
-        # features = dimension_reduction(features, 2)
+    # features = dimension_reduction(features, 2)
 
-    ks = np.zeros((10,), dtype=float)
-    method_match = np.zeros((10,), dtype=float)
-
-    # fig = plt.figure(figsize=(12, 12))
-    # plt.subplots_adjust(hspace=0.5)
-    # ax = fig.add_subplot(1, 1, 1)
-    # ax.scatter(features[:,0], features[:,1], c='r', s=50, label='high-dimensional')
-    #
-    #
-    # for i in range(len(features)):
-    #     text = datasets.loc[datasets['type_of_data'] == '\'high-dimensional\''].iloc[i]['name']
-    #     ax.annotate(text, (features[i][0], features[i][1]))
-    # # # ax.scatter(temporal_features[:,0], temporal_features[:,1], c='b', s=50, label='temporal')
-    # # # ax.scatter(spatial_features[:,0], spatial_features[:,1], c='g', s=50, label='spatial')
-    # plt.legend()
-    # plt.plot()
-
-    for i, dataset in datasets.iterrows():
-        # if i>=len(features):
-        #     break
-
-        if i<10 or i>62:
-            continue
-        test_features = features[i-10]
-
-        # if i>62:
-        #     continue
+ks = np.zeros((10,), dtype=float)
+method_match = np.zeros((10,), dtype=float)
 
 
-        # test_features = features[i]
-        test_features.shape = (1,len(features[0])) #2
-        train_features = features
+### change per purpose
+# features = dimension_reduction(features, 2)
+
+#
+# fig = plt.figure(figsize=(12, 12))
+# plt.subplots_adjust(hspace=0.5)
+# ax = fig.add_subplot(1, 1, 1)
+# ax.scatter(features[:,0], features[:,1], c='r', s=50, label='temporal')
+#
+#
+# for i in range(len(features)):
+#     text = datasets.loc[datasets['type_of_data'] == '\'temporal\''].iloc[i]['name']
+#     ax.annotate(text, (features[i][0], features[i][1]))
+# # # ax.scatter(temporal_features[:,0], temporal_features[:,1], c='b', s=50, label='temporal')
+# # # ax.scatter(spatial_features[:,0], spatial_features[:,1], c='g', s=50, label='spatial')
+# plt.legend()
+# plt.plot()
+
+for i, dataset in datasets.iterrows():
+    # if i>=len(features):
+    #     break
+
+    if i<10 or i>62:
+        continue
+    test_features = features[i-10]
+
+    # if i>62:
+    #     continue
 
 
-        for method in methods:
-            if method['name'] in ['KMeans']:#AutoencoderModel#Gaussian#Linear#RPCA
-                m = eval(method['name']+'()')
-                # try:
-                result, array = m.distance(10 ,test_features, train_features, datasets, evaluation)
-                actual_score, actual_method, actual_params = m.crossval(i, datasets, evaluation)
+    # test_features = features[i]
+    test_features.shape = (1,len(features[0])) #2
+    train_features = features
+
+
+    for method in methods:
+        if method['name'] in ['KMeans']:#AutoencoderModel#Gaussian#Linear#RPCA
+            m = eval(method['name']+'()')
+            # try:
+            result, array = m.distance(10 ,test_features, train_features, datasets, evaluation)
+            actual_score, actual_method, actual_params = m.crossval(i, datasets, evaluation)
+
+            results = results.append(pd.DataFrame(
+                    np.array([[dataset['name'], 0, actual_method[0],actual_score, 0,actual_method[0],actual_score, 1]]),
+                    columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy']))
+
+            j = 0
+            for r in result:
+                j+=1
+                mm, c = np.unique(array[:j], return_counts=True)
+                idx = np.argmax(c)
+                k_method = mm[idx]
+                best_score, method, params = m.predict(i, datasets, evaluation, k_method, None)
+                if not np.isnan(best_score):
+                    ks[j-1]+=1-(actual_score-best_score)
+                if k_method in actual_method:
+                    method_match[j-1]+=1
 
                 results = results.append(pd.DataFrame(
-                        np.array([[dataset['name'], 0, actual_method[0],actual_score, 0,actual_method[0],actual_score, 1]]),
-                        columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy']))
+                    np.array([[r['dataset_name'],r['distance'],r['method'],r['best_score'],j,k_method, best_score, 1-(actual_score-best_score)]]),
+                    columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy']))
 
-                j = 0
-                for r in result:
-                    j+=1
-                    mm, c = np.unique(array[:j], return_counts=True)
-                    idx = np.argmax(c)
-                    k_method = mm[idx]
-                    best_score, method, params = m.predict(i, datasets, evaluation, k_method, None)
-                    if not np.isnan(best_score):
-                        ks[j-1]+=1-(actual_score-best_score)
-                    if k_method in actual_method:
-                        method_match[j-1]+=1
+            results = results.append(pd.Series(), ignore_index=True)
+            # if best_method == actual_method:
+            #     sum += 1
+        # expected_score, expected_method, expected_params = m.predict(i, datasets, evaluation, best_method, best_params)
 
-                    results = results.append(pd.DataFrame(
-                        np.array([[r['dataset_name'],r['distance'],r['method'],r['best_score'],j,k_method, best_score, 1-(actual_score-best_score)]]),
-                        columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy']))
+        # except:
+        #     print('Error')
 
-                results = results.append(pd.Series(), ignore_index=True)
-                # if best_method == actual_method:
-                #     sum += 1
-            # expected_score, expected_method, expected_params = m.predict(i, datasets, evaluation, best_method, best_params)
+# results = results.append(df)
+# if sum/total >0.5:
+# print('For combs %s iteration %s K=%s precision is %s' % (comb, counter, k,sum/total))
 
-            # except:
-            #     print('Error')
-
-    # results = results.append(df)
-    # if sum/total >0.5:
-    # print('For combs %s iteration %s K=%s precision is %s' % (comb, counter, k,sum/total))
-
-    ks /= float(total+1)
-    method_match /= float(total)
+ks /= float(total+1)
+method_match /= float(total+1)
 
 
-    if (method_match>0.7).any():
-        print(comb, method_match)
-    # results = results.append(pd.DataFrame(
-    #         np.array([['K', 'Method match', 'Accuracy']]),
-    #         columns=[ 'K', 'F1 with the proposed method', 'Accuracy']))
-    #
-    # for index, item in enumerate(ks):
-    #     results = results.append(pd.DataFrame(
-    #         np.array([[int(index+1), method_match[index], item]]),
-    #         columns=['K', 'F1 with the proposed method', 'Accuracy']))
-    #
-    # results.to_csv('test.csv')
+# if (method_match>0.7).any():
+#     print(comb, method_match)
+results = results.append(pd.DataFrame(
+        np.array([['K', 'Method match', 'Accuracy']]),
+        columns=[ 'K', 'F1 with the proposed method', 'Accuracy']))
+
+for index, item in enumerate(ks):
+    results = results.append(pd.DataFrame(
+        np.array([[int(index+1), method_match[index], item]]),
+        columns=['K', 'F1 with the proposed method', 'Accuracy']))
+
+results.to_csv('test.csv')
 print('*** End:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))

@@ -98,7 +98,7 @@ for train, test in kfold.split(X, encoded_Y):
 
     model.compile(
         optimizer='adam',
-        loss='categorical_crossentropy',
+        loss='mse',#categorical_crossentropy
         metrics=['accuracy'],
     )
 

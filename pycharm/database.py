@@ -285,7 +285,7 @@ class Database:
 
     def update_characterization_user_defined_data(self, dataset):
         dataset['id'] = self.get_dataset_id(dataset)
-        type_of_data = ['nominal', 'spatial', 'temporal', 'graphs_and_networks', 'high_dimensional']
+        type_of_data = ['nominal', 'spatial', 'temporal', 'graphs_and_networks', 'high-dimensional']
         domain = ['manufacturing', 'transport', 'finance', 'medicine', 'images', 'text', 'software', 'social']
         anomaly_type = ['local', 'global', 'cluster']
 
