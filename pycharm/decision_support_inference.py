@@ -24,7 +24,7 @@ datasets, evaluation, features = db.get_datasets()
 
 # exit(1)
 characterization_columns = np.array(features.columns)
-features = features.to_numpy()
+characterization_columns.shape = (1, features.shape[1])
 
 user_defined_characterization_columns = ['high_dimensional',
 'nominal',
@@ -45,34 +45,36 @@ user_defined_characterization_columns = ['high_dimensional',
 'cluster',
 'anomaly_space',
 'anomaly_ratio',]
+predefined_characterization_columns = np.setdiff1d(characterization_columns,user_defined_characterization_columns)
 
+### type of data
+features = features.loc[features['temporal'] == 1]
+datasets = datasets.loc[datasets['id'].isin(features.index.to_numpy())]
+features = features.to_numpy()
 
-
+### columns
+# idx = np.in1d(characterization_columns, predefined_characterization_columns).nonzero()[0]
+# features = features[:, idx]
 
 features = standardize_data(features)
 
+# temporal = np.array(datasets.loc[datasets['type_of_data'] == '\'temporal\''].axes[0])
+# temporal_features = features[temporal]
+# # spatial = np.array(datasets.loc[datasets['type_of_data'].str.contains('\'spatial\'')].axes[0])
+# # spatial_features = features[spatial]
+# high = np.array(datasets.loc[datasets['type_of_data'] == '\'high-dimensional\''].axes[0])
+# high_features = features[high]
 
 
-temporal = np.array(datasets.loc[datasets['type_of_data'] == '\'temporal\''].axes[0])
-temporal_features = features[temporal]
-# spatial = np.array(datasets.loc[datasets['type_of_data'].str.contains('\'spatial\'')].axes[0])
-# spatial_features = features[spatial]
-high = np.array(datasets.loc[datasets['type_of_data'] == '\'high-dimensional\''].axes[0])
-high_features = features[high]
-
-
-total = 52 #9
+total = len(datasets)
 
 
 # features = high_features
-features = temporal_features
+# features = temporal_features
 print('*** Start:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
 print('*** Datasets for testing:', len(features))
 
 methods = utilities.get_methods()
-# results = pd.DataFrame(columns=['Dataset_id','Dataset name','Best method','Score','Closest dataset','Closest best method','Closest best score','Proposed best method','Proposed best score','Method match','Precision'])
-# results = pd.DataFrame(columns=['K','combs', 'Precision'])
-# results = pd.DataFrame(columns=['c1','c2', 'c3', 'c4', 'c5', 'c6', 'c7', 'c8', 'c9', 'c10'])
 results = pd.DataFrame(columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy'])
 global_features = features
 
@@ -119,13 +121,12 @@ temp = np.unique(temp)
 comb = temp
 # comb = ['anomaly_space', 'kurtosis.sd']
 #comb_k = 17#3
-idx = np.in1d(characterization_columns, comb).nonzero()[0]
-features = features[:, idx]
+# idx = np.in1d(characterization_columns, comb).nonzero()[0]
+# features = features[:, idx]
 
     # features = dimension_reduction(features, 2)
 
-ks = np.zeros((10,), dtype=float)
-method_match = np.zeros((10,), dtype=float)
+
 
 
 ### change per purpose
@@ -146,64 +147,55 @@ method_match = np.zeros((10,), dtype=float)
 # plt.legend()
 # plt.plot()
 
-for i, dataset in datasets.iterrows():
-    # if i>=len(features):
-    #     break
+ks = np.zeros((10,), dtype=float)
+method_match = np.zeros((10,), dtype=float)
 
-    if i<10 or i>62:
-        continue
-    test_features = features[i-10]
-
-    # if i>62:
-    #     continue
-
-
-    # test_features = features[i]
-    test_features.shape = (1,len(features[0])) #2
+for i in range(len(datasets)):
+    test_features = features[i]
+    test_features.shape = (1,len(features[0]))
     train_features = features
-
 
     for method in methods:
         if method['name'] in ['KMeans']:#AutoencoderModel#Gaussian#Linear#RPCA
             m = eval(method['name']+'()')
-            # try:
-            result, array = m.distance(10 ,test_features, train_features, datasets, evaluation)
-            actual_score, actual_method, actual_params = m.crossval(i, datasets, evaluation)
-
-            results = results.append(pd.DataFrame(
-                    np.array([[dataset['name'], 0, actual_method[0],actual_score, 0,actual_method[0],actual_score, 1]]),
-                    columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy']))
-
-            j = 0
-            for r in result:
-                j+=1
-                mm, c = np.unique(array[:j], return_counts=True)
-                idx = np.argmax(c)
-                k_method = mm[idx]
-                best_score, method, params = m.predict(i, datasets, evaluation, k_method, None)
-                if not np.isnan(best_score):
-                    ks[j-1]+=1-(actual_score-best_score)
-                if k_method in actual_method:
-                    method_match[j-1]+=1
+            try:
+                result, array = m.distance(10, test_features, train_features, datasets, evaluation)
+                actual_score, actual_method, actual_params = m.crossval(i, datasets, evaluation)
 
                 results = results.append(pd.DataFrame(
-                    np.array([[r['dataset_name'],r['distance'],r['method'],r['best_score'],j,k_method, best_score, 1-(actual_score-best_score)]]),
-                    columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy']))
+                        np.array([[datasets.iloc[i]['name'], 0, actual_method[0],actual_score, 0,actual_method[0],actual_score, 1]]),
+                        columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy']))
 
-            results = results.append(pd.Series(), ignore_index=True)
-            # if best_method == actual_method:
-            #     sum += 1
-        # expected_score, expected_method, expected_params = m.predict(i, datasets, evaluation, best_method, best_params)
+                j = 0
+                for r in result:
+                    j+=1
+                    mm, c = np.unique(array[:j], return_counts=True)
+                    idx = np.argmax(c)
+                    k_method = mm[idx]
+                    best_score, method, params = m.predict(i, datasets, evaluation, k_method, None)
+                    if not np.isnan(best_score):
+                        ks[j-1]+=1-(actual_score-best_score)
+                    if k_method in actual_method:
+                        method_match[j-1]+=1
 
-        # except:
-        #     print('Error')
+                    results = results.append(pd.DataFrame(
+                        np.array([[r['dataset_name'],r['distance'],r['method'],r['best_score'],j,k_method, best_score, 1-(actual_score-best_score)]]),
+                        columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy']))
+
+                results = results.append(pd.Series(), ignore_index=True)
+                # if best_method == actual_method:
+                #     sum += 1
+            # expected_score, expected_method, expected_params = m.predict(i, datasets, evaluation, best_method, best_params)
+
+            except:
+                print('Error')
 
 # results = results.append(df)
 # if sum/total >0.5:
 # print('For combs %s iteration %s K=%s precision is %s' % (comb, counter, k,sum/total))
 
-ks /= float(total+1)
-method_match /= float(total+1)
+ks /= float(total)
+method_match /= float(total)
 
 
 # if (method_match>0.7).any():
