@@ -36,10 +36,12 @@ def get_methods():
         {
             'name': 'Gaussian',
             'isSupervised': False,
-        }, {
+        },
+        {
             'name': 'Linear',
             'isSupervised': False,
-        }, {
+        },
+        {
             'name': 'RPCA',
             'isSupervised': False,
         },

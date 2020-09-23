@@ -14,26 +14,56 @@ from sklearn.model_selection import KFold
 
 
 db = Database("127.0.0.1","root","","anomaly_detection_decision_support")
-datasets, evaluation, features = db.get_datasets()
+# db = Database("anomaly-detection-mysql.ch1ih3mzagsi.eu-central-1.rds.amazonaws.com","admin","6xy4AMtnhkFJWfIWHsuu","anomaly_detection_decision_support")
+global_datasets, evaluation, global_features = db.get_datasets()
 
-characterization_columns = np.array(features.columns)
-features = features.to_numpy()
+# for dataset in utilities.get_datasets('/Users/miloskotlar/GoogleDrive/Academic/PhD/III/linear_datasets/'):
+#     db.update_characterization_user_defined_data(dataset)
+
+# exit(1)
+characterization_columns = np.array(global_features.columns)
+characterization_columns.shape = (1, global_features.shape[1])
+
+user_defined_characterization_columns = ['high_dimensional',
+'nominal',
+'spatial',
+'temporal',
+'graphs_and_networks',
+'high-dimensional',
+'manufacturing',
+'transport',
+'finance',
+'medicine',
+'images',
+'text',
+'software',
+'social',
+'local',
+'global',
+'cluster',
+'anomaly_space',
+'anomaly_ratio',]
+predefined_characterization_columns = np.setdiff1d(characterization_columns,user_defined_characterization_columns)
+
+characterization_filters=['all', 'temporal', 'high_dimensional', 'manufacturing', 'tranport','finance',
+'medicine',
+'images',
+'text',
+'software',
+'social',
+'local',
+'global',
+'cluster']
+
+characterization_attributes=['all', 'prefedined', 'user_defined']
+
+datasets = global_datasets
+features = global_features.to_numpy()
+
+total = len(datasets)
+
 features = standardize_data(features)
 
-
-temporal = np.array(datasets.loc[datasets['type_of_data'] == '\'temporal\''].axes[0])
-temporal_features = features[temporal]
-# spatial = np.array(datasets.loc[datasets['type_of_data'].str.contains('\'spatial\'')].axes[0])
-# spatial_features = features[spatial]
-high = np.array(datasets.loc[datasets['type_of_data'] == '\'high-dimensional\''].axes[0])
-high_features = features[high]
-
-
-total = 52 #9
-
-
-# features = high_features
-features = temporal_features
 print('*** Start:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
 print('*** Datasets for testing:', len(features))
 
@@ -42,28 +72,23 @@ m = eval('KMeans()')
 f = []
 t = []
 
-for i, dataset in datasets.iterrows():
-    # if i>=len(features):
-    #     break
 
-    if i<10 or i>62:
-        continue
-    test_features = features[i-10]
-    #
-    # if i>62:
-    #     continue
+for i in range(len(datasets)):
+    test_features = features[i]
+    test_features.shape = (1, len(features[0]))
+    train_features = features
 
-#
-# # test_features = features[i]
-# test_features.shape = (1,len(features[0])) #2
-# train_features = features
-    f.append(test_features)
-    actual_score, actual_method, actual_params = m.crossval(i, datasets, evaluation)
-    # for method in np.unique(actual_method):
-    #     f.append(test_features)
-    #     t.append(method)
+    try:
+        actual_score, actual_method, actual_params = m.crossval(i, datasets, evaluation)
+        # for method in np.unique(actual_method):
+        #     f.append(test_features)
+        #     t.append(method)
 
-    t.append(actual_method[0])
+
+        f.append(test_features[0])
+        t.append(actual_method[0])
+    except:
+        print('Error')
 
 print('*** End:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
 
@@ -92,7 +117,7 @@ kfold = KFold(10)
 for train, test in kfold.split(X, encoded_Y):
 
     model = Sequential()
-    model.add(Dense(93, input_dim=93, activation='relu'))
+    model.add(Dense(94, input_dim=94, activation='relu'))
     Dense(64, activation='relu'),
     model.add(Dense(1, activation='softmax'))#sigmoid
 

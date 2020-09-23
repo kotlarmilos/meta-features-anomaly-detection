@@ -86,36 +86,84 @@ class Gaussian:
         best_scores['manual'] = {'epsilon': max(probs[outliers]), 'scores':{'acc':acc, 'prec':prec, 'recall':recall, 'f1':f1}}
         return best_scores
 
-    def find_nearest(self, array, value, datasets, evaluation):
+    # def find_nearest(self, array, value, datasets, evaluation):
+    #     array = np.asarray(array)
+    #     # idx = (np.abs(array - value)).argmin()
+    #     idx = np.argsort(np.abs(array-value))[1]
+    #     closest_dataset_id = datasets.iloc[idx]['id']
+    #     closest_dataset_name = datasets.iloc[idx]['name']
+    #     print('Closest dataset is %s...' % closest_dataset_name)
+    #     es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+    #     best_score = es['f1'].max()
+    #     method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+    #     params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+    #     return best_score, method, params, closest_dataset_name
+    #
+    # def crossval(self, idx, datasets, evaluation):
+    #     closest_dataset_id = datasets.iloc[idx]['id']
+    #     es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+    #     best_score = es['f1'].max()
+    #     method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+    #     params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+    #     return best_score, method, params
+    #
+    # def predict(self, idx, datasets, evaluation, best_method, best_params):
+    #     # closest_dataset_id = datasets.iloc[idx]['id']
+    #     # es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+    #     # & (evaluation['method'] == best_method)
+    #     # & (evaluation['pca'] == best_params['pca'])
+    #     # & (evaluation['k'] == best_params['k'])]
+    #     #
+    #     # score = es['f1'].to_numpy()[0]
+    #     # return score, best_method, best_params
+    #     closest_dataset_id = datasets.iloc[idx]['id']
+    #     es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
+    #                     & (evaluation['method'] == best_method)]
+    #     # & (evaluation['pca'] == best_params['pca'])
+    #     # & (evaluation['k'] == best_params['k'])
+    #
+    #     score = es['f1'].max()  # .to_numpy()[0]
+    #     return score, best_method, best_params
+
+    def find_nearest(self, k, array, value, datasets, evaluation):
         array = np.asarray(array)
         # idx = (np.abs(array - value)).argmin()
-        idx = np.argsort(np.abs(array-value))[1]
-        closest_dataset_id = datasets.iloc[idx]['id']
-        closest_dataset_name = datasets.iloc[idx]['name']
-        print('Closest dataset is %s...' % closest_dataset_name)
-        es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
-        best_score = es['f1'].max()
-        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
-        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
-        return best_score, method, params, closest_dataset_name
+        idxs = np.argsort(np.abs(array - value))[1:k+1]
+        # print(list(datasets.iloc[np.argsort(np.abs(array - value))]['name'].to_numpy()))
+        # print(list(array[np.argsort(np.abs(array - value))]))
+        # arr.append(datasets.iloc[np.argsort(np.abs(array - value))]['name'].to_numpy())
+        # arr.append(array[np.argsort(np.abs(array - value))])
+        # return 0
+        result = []
+        temp_array = []
+        for idx in idxs:
+            closest_dataset_id = datasets.iloc[idx]['id']
+            closest_dataset_name = datasets.iloc[idx]['name']
+            # print('Closest dataset is %s...' % closest_dataset_name)
+            es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
+            best_score = es['f1'].max()
+            method = es[es['f1'] == best_score]['method'].to_numpy()[0]
+            result.append({'method': method, 'dataset_name': closest_dataset_name, 'distance': np.abs(array - value)[idx], 'best_score':best_score })
+            temp_array.append(method)
+            params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0],
+                      'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+
+
+        # m, c = np.unique(result, return_counts=True)
+        # idx = np.argmax(c)
+        # return m[idx]
+        return result, temp_array
 
     def crossval(self, idx, datasets, evaluation):
         closest_dataset_id = datasets.iloc[idx]['id']
         es = evaluation[evaluation['dataset_id'] == closest_dataset_id]
         best_score = es['f1'].max()
-        method = es[es['f1'] == best_score]['method'].to_numpy()[0]
-        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0], 'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
+        method = es[es['f1'] == best_score]['method'].to_numpy()
+        params = {'pca': es[es['f1'] == best_score]['pca'].to_numpy()[0],
+                  'k': es[es['f1'] == best_score]['k'].to_numpy()[0]}
         return best_score, method, params
 
     def predict(self, idx, datasets, evaluation, best_method, best_params):
-        # closest_dataset_id = datasets.iloc[idx]['id']
-        # es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
-        # & (evaluation['method'] == best_method)
-        # & (evaluation['pca'] == best_params['pca'])
-        # & (evaluation['k'] == best_params['k'])]
-        #
-        # score = es['f1'].to_numpy()[0]
-        # return score, best_method, best_params
         closest_dataset_id = datasets.iloc[idx]['id']
         es = evaluation[(evaluation['dataset_id'] == closest_dataset_id)
                         & (evaluation['method'] == best_method)]
@@ -125,7 +173,7 @@ class Gaussian:
         score = es['f1'].max()  # .to_numpy()[0]
         return score, best_method, best_params
 
-    def distance(self, test_features, train_features, datasets, evaluation):
+    def distance(self, k, test_features, train_features, datasets, evaluation):
         test_features = tf.constant(test_features)
         train_features = tf.constant(train_features)
         mu, sigma = self.estimate_gaussian(train_features)
@@ -141,7 +189,7 @@ class Gaussian:
         # ax.scatter(df['pca1'], df['pca2'], c=train_probs, s=50)
         # plt.show()
 
-        return self.find_nearest(train_probs, test_probs, datasets, evaluation)
+        return self.find_nearest(k, train_probs, test_probs, datasets, evaluation)
 
     def evaluate(self, features, target, anomaly_ratio, p):
         features_normal = tf.constant(np.delete(features, np.where(target == 1),  axis=0))
