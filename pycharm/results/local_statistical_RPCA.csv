@@ -1,0 +1,552 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
+1,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.92639843,0.98790185
+2,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.92639843,0.98790185
+3,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.92639843,0.98790185
+4,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.92639843,0.98790185
+5,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.92639843,0.98790185
+6,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.92639843,0.98790185
+7,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.92639843,0.98790185
+8,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.92639843,0.98790185
+9,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.92639843,0.98790185
+10,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.92639843,0.98790185
+11,,,,,,,,
+12,Pen-Based Recognition of Handwritten Text (Local),0,KMeans,0.52631579,0,KMeans,0.52631579,1
+13,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.02505219,0.4987364000000001
+14,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.02505219,0.4987364000000001
+15,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.02505219,0.4987364000000001
+16,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.02505219,0.4987364000000001
+17,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.02505219,0.4987364000000001
+18,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.02505219,0.4987364000000001
+19,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.02505219,0.4987364000000001
+20,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.02505219,0.4987364000000001
+21,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.02505219,0.4987364000000001
+22,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.02505219,0.4987364000000001
+23,,,,,,,,
+24,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
+25,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.0663518,0.99862951
+26,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.0663518,0.99862951
+27,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.0663518,0.99862951
+28,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.0663518,0.99862951
+29,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.0663518,0.99862951
+30,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.0663518,0.99862951
+31,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.0663518,0.99862951
+32,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.0663518,0.99862951
+33,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.0663518,0.99862951
+34,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.0663518,0.99862951
+35,,,,,,,,
+36,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
+37,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.11764706,1.0
+38,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.11764706,1.0
+39,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.11764706,1.0
+40,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.11764706,1.0
+41,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.11764706,1.0
+42,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.11764706,1.0
+43,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.11764706,1.0
+44,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.11764706,1.0
+45,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.11764706,1.0
+46,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.11764706,1.0
+47,,,,,,,,
+48,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
+49,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.71794872,1.0
+50,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.71794872,1.0
+51,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.71794872,1.0
+52,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.71794872,1.0
+53,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.71794872,1.0
+54,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.71794872,1.0
+55,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.71794872,1.0
+56,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.71794872,1.0
+57,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.71794872,1.0
+58,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.71794872,1.0
+59,,,,,,,,
+60,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
+61,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.14285714,0.34285714
+62,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.14285714,0.34285714
+63,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.14285714,0.34285714
+64,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.14285714,0.34285714
+65,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.14285714,0.34285714
+66,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.14285714,0.34285714
+67,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.14285714,0.34285714
+68,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.14285714,0.34285714
+69,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.14285714,0.34285714
+70,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.14285714,0.34285714
+71,,,,,,,,
+72,exchange-3_cpm_results.csv,0,Linear,1.0,0,Linear,1.0,1
+73,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,1.0,1.0
+74,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,1.0,1.0
+75,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,1.0,1.0
+76,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,1.0,1.0
+77,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,1.0,1.0
+78,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,1.0,1.0
+79,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,1.0,1.0
+80,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,1.0,1.0
+81,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,1.0,1.0
+82,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,1.0,1.0
+83,,,,,,,,
+84,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
+85,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.4,1.0
+86,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.4,1.0
+87,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.4,1.0
+88,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.4,1.0
+89,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.4,1.0
+90,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.4,1.0
+91,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.4,1.0
+92,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.4,1.0
+93,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.4,1.0
+94,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.4,1.0
+95,,,,,,,,
+96,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+97,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.57142857,0.9047619
+98,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.57142857,0.9047619
+99,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.57142857,0.9047619
+100,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.57142857,0.9047619
+101,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.57142857,0.9047619
+102,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.57142857,0.9047619
+103,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.57142857,0.9047619
+104,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.57142857,0.9047619
+105,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.57142857,0.9047619
+106,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.57142857,0.9047619
+107,,,,,,,,
+108,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+109,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.125,0.45833333
+110,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.125,0.45833333
+111,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.125,0.45833333
+112,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.125,0.45833333
+113,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.125,0.45833333
+114,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.125,0.45833333
+115,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.125,0.45833333
+116,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.125,0.45833333
+117,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.125,0.45833333
+118,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.125,0.45833333
+119,,,,,,,,
+120,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
+121,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.4,0.9
+122,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.4,0.9
+123,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.4,0.9
+124,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.4,0.9
+125,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.4,0.9
+126,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.4,0.9
+127,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.4,0.9
+128,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.4,0.9
+129,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.4,0.9
+130,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.4,0.9
+131,,,,,,,,
+132,exchange-4_cpm_results.csv,0,KMeans,0.75,0,KMeans,0.75,1
+133,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.66666667,0.91666667
+134,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.66666667,0.91666667
+135,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.66666667,0.91666667
+136,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.66666667,0.91666667
+137,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.66666667,0.91666667
+138,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.66666667,0.91666667
+139,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.66666667,0.91666667
+140,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.66666667,0.91666667
+141,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.66666667,0.91666667
+142,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.66666667,0.91666667
+143,,,,,,,,
+144,TravelTime_387.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+145,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.5,0.83333333
+146,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.5,0.83333333
+147,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.5,0.83333333
+148,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.5,0.83333333
+149,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.5,0.83333333
+150,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.5,0.83333333
+151,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.5,0.83333333
+152,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.5,0.83333333
+153,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.5,0.83333333
+154,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.5,0.83333333
+155,,,,,,,,
+156,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
+157,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.0,1.0
+158,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.0,1.0
+159,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.0,1.0
+160,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.0,1.0
+161,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.0,1.0
+162,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.0,1.0
+163,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.0,1.0
+164,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.0,1.0
+165,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.0,1.0
+166,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.0,1.0
+167,,,,,,,,
+168,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
+169,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.00075245,0.9999179
+170,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.00075245,0.9999179
+171,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.00075245,0.9999179
+172,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.00075245,0.9999179
+173,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.00075245,0.9999179
+174,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.00075245,0.9999179
+175,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.00075245,0.9999179
+176,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.00075245,0.9999179
+177,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.00075245,0.9999179
+178,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.00075245,0.9999179
+179,,,,,,,,
+180,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
+181,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.66666667,0.66666667
+182,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.66666667,0.66666667
+183,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.66666667,0.66666667
+184,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.66666667,0.66666667
+185,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.66666667,0.66666667
+186,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.66666667,0.66666667
+187,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.66666667,0.66666667
+188,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.66666667,0.66666667
+189,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.66666667,0.66666667
+190,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.66666667,0.66666667
+191,,,,,,,,
+192,nyc_taxi.csv,0,Linear,0.25,0,Linear,0.25,1
+193,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.25,1.0
+194,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.25,1.0
+195,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.25,1.0
+196,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.25,1.0
+197,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.25,1.0
+198,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.25,1.0
+199,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.25,1.0
+200,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.25,1.0
+201,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.25,1.0
+202,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.25,1.0
+203,,,,,,,,
+204,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
+205,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.5,0.92857143
+206,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.5,0.92857143
+207,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.5,0.92857143
+208,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.5,0.92857143
+209,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.5,0.92857143
+210,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.5,0.92857143
+211,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.5,0.92857143
+212,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.5,0.92857143
+213,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.5,0.92857143
+214,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.5,0.92857143
+215,,,,,,,,
+216,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
+217,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.0,0.98
+218,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.0,0.98
+219,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.0,0.98
+220,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.0,0.98
+221,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.0,0.98
+222,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.0,0.98
+223,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.0,0.98
+224,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.0,0.98
+225,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.0,0.98
+226,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.0,0.98
+227,,,,,,,,
+228,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
+229,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.5,1.0
+230,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.5,1.0
+231,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.5,1.0
+232,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.5,1.0
+233,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.5,1.0
+234,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.5,1.0
+235,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.5,1.0
+236,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.5,1.0
+237,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.5,1.0
+238,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.5,1.0
+239,,,,,,,,
+240,TravelTime_451.csv,0,KMeans,0.4,0,KMeans,0.4,1
+241,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.18181818,0.7818181799999999
+242,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.18181818,0.7818181799999999
+243,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.18181818,0.7818181799999999
+244,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.18181818,0.7818181799999999
+245,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.18181818,0.7818181799999999
+246,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.18181818,0.7818181799999999
+247,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.18181818,0.7818181799999999
+248,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.18181818,0.7818181799999999
+249,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.18181818,0.7818181799999999
+250,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.18181818,0.7818181799999999
+251,,,,,,,,
+252,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+253,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.66666667,1.0
+254,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.66666667,1.0
+255,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.66666667,1.0
+256,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.66666667,1.0
+257,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.66666667,1.0
+258,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.66666667,1.0
+259,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.66666667,1.0
+260,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.66666667,1.0
+261,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.66666667,1.0
+262,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.66666667,1.0
+263,,,,,,,,
+264,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+265,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.66666667,1.0
+266,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.66666667,1.0
+267,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.66666667,1.0
+268,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.66666667,1.0
+269,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.66666667,1.0
+270,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.66666667,1.0
+271,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.66666667,1.0
+272,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.66666667,1.0
+273,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.66666667,1.0
+274,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.66666667,1.0
+275,,,,,,,,
+276,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+277,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.00312012,0.33645344999999993
+278,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.00312012,0.33645344999999993
+279,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.00312012,0.33645344999999993
+280,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.00312012,0.33645344999999993
+281,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.00312012,0.33645344999999993
+282,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.00312012,0.33645344999999993
+283,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.00312012,0.33645344999999993
+284,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.00312012,0.33645344999999993
+285,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.00312012,0.33645344999999993
+286,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.00312012,0.33645344999999993
+287,,,,,,,,
+288,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
+289,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.00049603,0.970193
+290,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.00049603,0.970193
+291,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.00049603,0.970193
+292,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.00049603,0.970193
+293,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.00049603,0.970193
+294,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.00049603,0.970193
+295,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.00049603,0.970193
+296,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.00049603,0.970193
+297,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.00049603,0.970193
+298,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.00049603,0.970193
+299,,,,,,,,
+300,exchange-2_cpm_results.csv,0,KMeans,0.8,0,KMeans,0.8,1
+301,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.5,0.7
+302,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.5,0.7
+303,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.5,0.7
+304,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.5,0.7
+305,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.5,0.7
+306,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.5,0.7
+307,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.5,0.7
+308,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.5,0.7
+309,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.5,0.7
+310,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.5,0.7
+311,,,,,,,,
+312,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+313,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.66666667,1.0
+314,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.66666667,1.0
+315,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.66666667,1.0
+316,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.66666667,1.0
+317,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.66666667,1.0
+318,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.66666667,1.0
+319,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.66666667,1.0
+320,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.66666667,1.0
+321,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.66666667,1.0
+322,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.66666667,1.0
+323,,,,,,,,
+324,exchange-2_cpc_results.csv,0,KMeans,0.33333333,0,KMeans,0.33333333,1
+325,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.06666667,0.73333334
+326,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.06666667,0.73333334
+327,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.06666667,0.73333334
+328,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.06666667,0.73333334
+329,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.06666667,0.73333334
+330,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.06666667,0.73333334
+331,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.06666667,0.73333334
+332,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.06666667,0.73333334
+333,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.06666667,0.73333334
+334,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.06666667,0.73333334
+335,,,,,,,,
+336,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
+337,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.00110132,0.99334938
+338,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.00110132,0.99334938
+339,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.00110132,0.99334938
+340,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.00110132,0.99334938
+341,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.00110132,0.99334938
+342,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.00110132,0.99334938
+343,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.00110132,0.99334938
+344,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.00110132,0.99334938
+345,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.00110132,0.99334938
+346,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.00110132,0.99334938
+347,,,,,,,,
+348,occupancy_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+349,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,1.0,1.0
+350,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,1.0,1.0
+351,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,1.0,1.0
+352,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,1.0,1.0
+353,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,1.0,1.0
+354,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,1.0,1.0
+355,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,1.0,1.0
+356,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,1.0,1.0
+357,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,1.0,1.0
+358,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,1.0,1.0
+359,,,,,,,,
+360,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
+361,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.01960784,0.79738562
+362,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.01960784,0.79738562
+363,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.01960784,0.79738562
+364,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.01960784,0.79738562
+365,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.01960784,0.79738562
+366,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.01960784,0.79738562
+367,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.01960784,0.79738562
+368,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.01960784,0.79738562
+369,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.01960784,0.79738562
+370,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.01960784,0.79738562
+371,,,,,,,,
+372,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
+373,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.003367,1.0
+374,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.003367,1.0
+375,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.003367,1.0
+376,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.003367,1.0
+377,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.003367,1.0
+378,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.003367,1.0
+379,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.003367,1.0
+380,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.003367,1.0
+381,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.003367,1.0
+382,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.003367,1.0
+383,,,,,,,,
+384,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
+385,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.02222222,0.77222222
+386,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.02222222,0.77222222
+387,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.02222222,0.77222222
+388,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.02222222,0.77222222
+389,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.02222222,0.77222222
+390,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.02222222,0.77222222
+391,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.02222222,0.77222222
+392,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.02222222,0.77222222
+393,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.02222222,0.77222222
+394,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.02222222,0.77222222
+395,,,,,,,,
+396,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
+397,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.04,0.88615385
+398,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.04,0.88615385
+399,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.04,0.88615385
+400,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.04,0.88615385
+401,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.04,0.88615385
+402,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.04,0.88615385
+403,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.04,0.88615385
+404,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.04,0.88615385
+405,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.04,0.88615385
+406,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.04,0.88615385
+407,,,,,,,,
+408,occupancy_6005.csv,0,Linear,1.0,0,Linear,1.0,1
+409,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,1.0,1.0
+410,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,1.0,1.0
+411,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,1.0,1.0
+412,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,1.0,1.0
+413,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,1.0,1.0
+414,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,1.0,1.0
+415,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,1.0,1.0
+416,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,1.0,1.0
+417,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,1.0,1.0
+418,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,1.0,1.0
+419,,,,,,,,
+420,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
+421,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.66666667,0.66666667
+422,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.66666667,0.66666667
+423,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.66666667,0.66666667
+424,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.66666667,0.66666667
+425,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.66666667,0.66666667
+426,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.66666667,0.66666667
+427,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.66666667,0.66666667
+428,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.66666667,0.66666667
+429,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.66666667,0.66666667
+430,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.66666667,0.66666667
+431,,,,,,,,
+432,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
+433,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.08695652,1.0
+434,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.08695652,1.0
+435,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.08695652,1.0
+436,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.08695652,1.0
+437,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.08695652,1.0
+438,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.08695652,1.0
+439,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.08695652,1.0
+440,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.08695652,1.0
+441,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.08695652,1.0
+442,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.08695652,1.0
+443,,,,,,,,
+444,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
+445,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.33333333,0.83333333
+446,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.33333333,0.83333333
+447,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.33333333,0.83333333
+448,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.33333333,0.83333333
+449,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.33333333,0.83333333
+450,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.33333333,0.83333333
+451,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.33333333,0.83333333
+452,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.33333333,0.83333333
+453,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.33333333,0.83333333
+454,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.33333333,0.83333333
+455,,,,,,,,
+456,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
+457,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.02352941,0.98097622
+458,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.02352941,0.98097622
+459,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.02352941,0.98097622
+460,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.02352941,0.98097622
+461,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.02352941,0.98097622
+462,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.02352941,0.98097622
+463,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.02352941,0.98097622
+464,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.02352941,0.98097622
+465,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.02352941,0.98097622
+466,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.02352941,0.98097622
+467,,,,,,,,
+468,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
+469,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.00416667,0.96495098
+470,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.00416667,0.96495098
+471,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.00416667,0.96495098
+472,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.00416667,0.96495098
+473,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.00416667,0.96495098
+474,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.00416667,0.96495098
+475,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.00416667,0.96495098
+476,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.00416667,0.96495098
+477,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.00416667,0.96495098
+478,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.00416667,0.96495098
+479,,,,,,,,
+480,exchange-4_cpc_results.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+481,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.66666667,1.0
+482,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.66666667,1.0
+483,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.66666667,1.0
+484,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.66666667,1.0
+485,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.66666667,1.0
+486,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.66666667,1.0
+487,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.66666667,1.0
+488,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.66666667,1.0
+489,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.66666667,1.0
+490,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.66666667,1.0
+491,,,,,,,,
+492,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
+493,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.00416667,0.50416667
+494,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.00416667,0.50416667
+495,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.00416667,0.50416667
+496,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.00416667,0.50416667
+497,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.00416667,0.50416667
+498,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.00416667,0.50416667
+499,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.00416667,0.50416667
+500,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.00416667,0.50416667
+501,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.00416667,0.50416667
+502,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.00416667,0.50416667
+503,,,,,,,,
+504,exchange-3_cpc_results.csv,0,Linear,0.57142857,0,Linear,0.57142857,1
+505,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.57142857,1.0
+506,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.57142857,1.0
+507,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.57142857,1.0
+508,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.57142857,1.0
+509,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.57142857,1.0
+510,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.57142857,1.0
+511,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.57142857,1.0
+512,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.57142857,1.0
+513,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.57142857,1.0
+514,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.57142857,1.0
+515,,,,,,,,
+516,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
+517,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.00059595,0.99907388
+518,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.00059595,0.99907388
+519,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.00059595,0.99907388
+520,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.00059595,0.99907388
+521,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.00059595,0.99907388
+522,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.00059595,0.99907388
+523,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.00059595,0.99907388
+524,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.00059595,0.99907388
+525,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.00059595,0.99907388
+526,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.00059595,0.99907388
+527,,,,,,,,
+528,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
+529,Speech Accent Data,8.132290187538166,Linear,0.11764706,1,Linear,0.5,1.0
+530,Landsat Satellite,10.616190188118786,Linear,0.71794872,2,Linear,0.5,1.0
+531,ec2_cpu_utilization_c6585a.csv,11.649350261368815,Linear,0.0,3,Linear,0.5,1.0
+532,nyc_taxi.csv,18.98733951074102,Linear,0.25,4,Linear,0.5,1.0
+533,ambient_temperature_system_failure.csv,18.988027587592022,KMeans,0.8,5,Linear,0.5,1.0
+534,exchange-4_cpm_results.csv,19.355416857324805,KMeans,0.75,6,Linear,0.5,1.0
+535,exchange-4_cpc_results.csv,19.898083668139517,Linear,0.66666667,7,Linear,0.5,1.0
+536,ec2_cpu_utilization_5f5533.csv,20.085548897142466,KMeans,0.57142857,8,Linear,0.5,1.0
+537,grok_asg_anomaly.csv,20.094954645725938,KMeans,0.5,9,Linear,0.5,1.0
+538,rds_cpu_utilization_e47b3b.csv,20.115192883800912,Linear,0.66666667,10,Linear,0.5,1.0
+539,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.37777777777777777,0.8741433982222222
+0,,,,,2.0,,0.37777777777777777,0.8741433982222222
+0,,,,,3.0,,0.37777777777777777,0.8741433982222222
+0,,,,,4.0,,0.37777777777777777,0.8741433982222222
+0,,,,,5.0,,0.37777777777777777,0.8741433982222222
+0,,,,,6.0,,0.37777777777777777,0.8741433982222222
+0,,,,,7.0,,0.37777777777777777,0.8741433982222222
+0,,,,,8.0,,0.37777777777777777,0.8741433982222222
+0,,,,,9.0,,0.37777777777777777,0.8741433982222222
+0,,,,,10.0,,0.37777777777777777,0.8741433982222222

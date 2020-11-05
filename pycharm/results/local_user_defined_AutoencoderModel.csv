@@ -1,0 +1,552 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
+1,Landsat Satellite,1.2914343,Linear,0.71794872,1,Linear,0.92639843,0.98790185
+2,Speech Accent Data,2.4161243,Linear,0.11764706,2,Linear,0.92639843,0.98790185
+3,Pen-Based Recognition of Handwritten Text (Local),2.672984,KMeans,0.52631579,3,Linear,0.92639843,0.98790185
+4,Object Images,3.1535897,Gaussian,0.06772229,4,Linear,0.92639843,0.98790185
+5,ec2_cpu_utilization_c6585a.csv,4.835194,Linear,0.0,5,Linear,0.92639843,0.98790185
+6,cpu_utilization_asg_misconfiguration.csv,4.836961,KMeans,0.00775194,6,Linear,0.92639843,0.98790185
+7,machine_temperature_system_failure.csv,4.8379583,Linear,0.4,7,Linear,0.92639843,0.98790185
+8,ec2_disk_write_bytes_1ef3de.csv,4.83848,Linear,0.08695652,8,Linear,0.92639843,0.98790185
+9,art_daily_flatmiddle.csv,4.839012,KMeans,0.02,9,Linear,0.92639843,0.98790185
+10,art_daily_jumpsdown.csv,4.839012,KMeans,0.03030303,10,Linear,0.92639843,0.98790185
+11,,,,,,,,
+12,Pen-Based Recognition of Handwritten Text (Local),0,KMeans,0.52631579,0,KMeans,0.52631579,1
+13,Landsat Satellite,1.462491,Linear,0.71794872,1,Linear,0.02505219,0.4987364000000001
+14,Speech Accent Data,2.3473127,Linear,0.11764706,2,Linear,0.02505219,0.4987364000000001
+15,Pen-Based Recognition of Handwritten Text (Local),2.624929,KMeans,0.52631579,3,Linear,0.02505219,0.4987364000000001
+16,Object Images,3.0035386,Gaussian,0.06772229,4,Linear,0.02505219,0.4987364000000001
+17,ec2_cpu_utilization_c6585a.csv,4.859429,Linear,0.0,5,Linear,0.02505219,0.4987364000000001
+18,cpu_utilization_asg_misconfiguration.csv,4.861159,KMeans,0.00775194,6,Linear,0.02505219,0.4987364000000001
+19,machine_temperature_system_failure.csv,4.8621345,Linear,0.4,7,Linear,0.02505219,0.4987364000000001
+20,ec2_disk_write_bytes_1ef3de.csv,4.862644,Linear,0.08695652,8,Linear,0.02505219,0.4987364000000001
+21,art_daily_flatmiddle.csv,4.8631644,KMeans,0.02,9,Linear,0.02505219,0.4987364000000001
+22,art_daily_jumpsdown.csv,4.8631644,KMeans,0.03030303,10,Linear,0.02505219,0.4987364000000001
+23,,,,,,,,
+24,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
+25,Landsat Satellite,1.4244366,Linear,0.71794872,1,Linear,0.0663518,0.99862951
+26,Speech Accent Data,2.1744025,Linear,0.11764706,2,Linear,0.0663518,0.99862951
+27,Pen-Based Recognition of Handwritten Text (Local),2.570624,KMeans,0.52631579,3,Linear,0.0663518,0.99862951
+28,Object Images,3.8124957,Gaussian,0.06772229,4,Linear,0.0663518,0.99862951
+29,ec2_cpu_utilization_c6585a.csv,4.724231,Linear,0.0,5,Linear,0.0663518,0.99862951
+30,cpu_utilization_asg_misconfiguration.csv,4.7260084,KMeans,0.00775194,6,Linear,0.0663518,0.99862951
+31,machine_temperature_system_failure.csv,4.7270117,Linear,0.4,7,Linear,0.0663518,0.99862951
+32,ec2_disk_write_bytes_1ef3de.csv,4.727536,Linear,0.08695652,8,Linear,0.0663518,0.99862951
+33,art_daily_flatmiddle.csv,4.72807,KMeans,0.02,9,Linear,0.0663518,0.99862951
+34,art_daily_jumpsdown.csv,4.72807,KMeans,0.03030303,10,Linear,0.0663518,0.99862951
+35,,,,,,,,
+36,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
+37,Landsat Satellite,1.0062013,Linear,0.71794872,1,Linear,0.11764706,1.0
+38,Speech Accent Data,2.5422046,Linear,0.11764706,2,Linear,0.11764706,1.0
+39,Pen-Based Recognition of Handwritten Text (Local),2.828595,KMeans,0.52631579,3,Linear,0.11764706,1.0
+40,Object Images,2.8484974,Gaussian,0.06772229,4,Linear,0.11764706,1.0
+41,ec2_cpu_utilization_c6585a.csv,5.0370646,Linear,0.0,5,Linear,0.11764706,1.0
+42,cpu_utilization_asg_misconfiguration.csv,5.038829,KMeans,0.00775194,6,Linear,0.11764706,1.0
+43,machine_temperature_system_failure.csv,5.0398245,Linear,0.4,7,Linear,0.11764706,1.0
+44,ec2_disk_write_bytes_1ef3de.csv,5.040345,Linear,0.08695652,8,Linear,0.11764706,1.0
+45,art_daily_flatmiddle.csv,5.040877,KMeans,0.02,9,Linear,0.11764706,1.0
+46,art_daily_jumpsdown.csv,5.040877,KMeans,0.03030303,10,Linear,0.11764706,1.0
+47,,,,,,,,
+48,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
+49,Landsat Satellite,1.4849334,Linear,0.71794872,1,Linear,0.71794872,1.0
+50,Speech Accent Data,2.078067,Linear,0.11764706,2,Linear,0.71794872,1.0
+51,Pen-Based Recognition of Handwritten Text (Local),2.406416,KMeans,0.52631579,3,Linear,0.71794872,1.0
+52,Object Images,3.5768986,Gaussian,0.06772229,4,Linear,0.71794872,1.0
+53,ec2_cpu_utilization_c6585a.csv,4.5946403,Linear,0.0,5,Linear,0.71794872,1.0
+54,cpu_utilization_asg_misconfiguration.csv,4.5964146,KMeans,0.00775194,6,Linear,0.71794872,1.0
+55,machine_temperature_system_failure.csv,4.5974164,Linear,0.4,7,Linear,0.71794872,1.0
+56,ec2_disk_write_bytes_1ef3de.csv,4.5979404,Linear,0.08695652,8,Linear,0.71794872,1.0
+57,art_daily_flatmiddle.csv,4.5984755,KMeans,0.02,9,Linear,0.71794872,1.0
+58,art_daily_jumpsdown.csv,4.5984755,KMeans,0.03030303,10,Linear,0.71794872,1.0
+59,,,,,,,,
+60,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
+61,Landsat Satellite,1.2552795,Linear,0.71794872,1,Linear,0.14285714,0.34285714
+62,Speech Accent Data,2.262844,Linear,0.11764706,2,Linear,0.14285714,0.34285714
+63,Pen-Based Recognition of Handwritten Text (Local),2.4916317,KMeans,0.52631579,3,Linear,0.14285714,0.34285714
+64,Object Images,3.2471747,Gaussian,0.06772229,4,Linear,0.14285714,0.34285714
+65,ec2_cpu_utilization_c6585a.csv,4.672193,Linear,0.0,5,Linear,0.14285714,0.34285714
+66,cpu_utilization_asg_misconfiguration.csv,4.673914,KMeans,0.00775194,6,Linear,0.14285714,0.34285714
+67,machine_temperature_system_failure.csv,4.6748834,Linear,0.4,7,Linear,0.14285714,0.34285714
+68,ec2_disk_write_bytes_1ef3de.csv,4.6753902,Linear,0.08695652,8,Linear,0.14285714,0.34285714
+69,art_daily_flatmiddle.csv,4.675907,KMeans,0.02,9,Linear,0.14285714,0.34285714
+70,art_daily_jumpsdown.csv,4.675907,KMeans,0.03030303,10,Linear,0.14285714,0.34285714
+71,,,,,,,,
+72,exchange-3_cpm_results.csv,0,Linear,1.0,0,Linear,1.0,1
+73,Landsat Satellite,1.0565357,Linear,0.71794872,1,Linear,1.0,1.0
+74,Speech Accent Data,2.484076,Linear,0.11764706,2,Linear,1.0,1.0
+75,Pen-Based Recognition of Handwritten Text (Local),2.895088,KMeans,0.52631579,3,Linear,1.0,1.0
+76,Object Images,3.2646446,Gaussian,0.06772229,4,Linear,1.0,1.0
+77,ec2_cpu_utilization_c6585a.csv,5.0933437,Linear,0.0,5,Linear,1.0,1.0
+78,cpu_utilization_asg_misconfiguration.csv,5.0950894,KMeans,0.00775194,6,Linear,1.0,1.0
+79,machine_temperature_system_failure.csv,5.096074,Linear,0.4,7,Linear,1.0,1.0
+80,ec2_disk_write_bytes_1ef3de.csv,5.096589,Linear,0.08695652,8,Linear,1.0,1.0
+81,art_daily_flatmiddle.csv,5.097114,KMeans,0.02,9,Linear,1.0,1.0
+82,art_daily_jumpsdown.csv,5.097114,KMeans,0.03030303,10,Linear,1.0,1.0
+83,,,,,,,,
+84,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
+85,Landsat Satellite,1.3485794,Linear,0.71794872,1,Linear,0.4,1.0
+86,Speech Accent Data,2.4520514,Linear,0.11764706,2,Linear,0.4,1.0
+87,Pen-Based Recognition of Handwritten Text (Local),2.8328044,KMeans,0.52631579,3,Linear,0.4,1.0
+88,Object Images,3.3448873,Gaussian,0.06772229,4,Linear,0.4,1.0
+89,ec2_cpu_utilization_c6585a.csv,4.993742,Linear,0.0,5,Linear,0.4,1.0
+90,cpu_utilization_asg_misconfiguration.csv,4.9954796,KMeans,0.00775194,6,Linear,0.4,1.0
+91,machine_temperature_system_failure.csv,4.9964595,Linear,0.4,7,Linear,0.4,1.0
+92,ec2_disk_write_bytes_1ef3de.csv,4.996971,Linear,0.08695652,8,Linear,0.4,1.0
+93,art_daily_jumpsup.csv,4.9974933,KMeans,0.22222222,9,Linear,0.4,1.0
+94,art_daily_flatmiddle.csv,4.9974937,KMeans,0.02,10,Linear,0.4,1.0
+95,,,,,,,,
+96,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+97,Landsat Satellite,1.0354595,Linear,0.71794872,1,Linear,0.57142857,0.9047619
+98,Speech Accent Data,2.4194622,Linear,0.11764706,2,Linear,0.57142857,0.9047619
+99,Pen-Based Recognition of Handwritten Text (Local),2.698377,KMeans,0.52631579,3,Linear,0.57142857,0.9047619
+100,Object Images,3.4147463,Gaussian,0.06772229,4,Linear,0.57142857,0.9047619
+101,ec2_cpu_utilization_c6585a.csv,4.8330464,Linear,0.0,5,Linear,0.57142857,0.9047619
+102,cpu_utilization_asg_misconfiguration.csv,4.8347917,KMeans,0.00775194,6,Linear,0.57142857,0.9047619
+103,machine_temperature_system_failure.csv,4.835776,Linear,0.4,7,Linear,0.57142857,0.9047619
+104,ec2_disk_write_bytes_1ef3de.csv,4.8362904,Linear,0.08695652,8,Linear,0.57142857,0.9047619
+105,art_daily_flatmiddle.csv,4.8368154,KMeans,0.02,9,Linear,0.57142857,0.9047619
+106,art_daily_jumpsdown.csv,4.8368154,KMeans,0.03030303,10,Linear,0.57142857,0.9047619
+107,,,,,,,,
+108,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+109,Landsat Satellite,1.6353316,Linear,0.71794872,1,Linear,0.125,0.45833333
+110,Speech Accent Data,2.260668,Linear,0.11764706,2,Linear,0.125,0.45833333
+111,Pen-Based Recognition of Handwritten Text (Local),2.655265,KMeans,0.52631579,3,Linear,0.125,0.45833333
+112,Object Images,3.718092,Gaussian,0.06772229,4,Linear,0.125,0.45833333
+113,ec2_cpu_utilization_c6585a.csv,4.805762,Linear,0.0,5,Linear,0.125,0.45833333
+114,cpu_utilization_asg_misconfiguration.csv,4.8074965,KMeans,0.00775194,6,Linear,0.125,0.45833333
+115,machine_temperature_system_failure.csv,4.8084755,Linear,0.4,7,Linear,0.125,0.45833333
+116,ec2_disk_write_bytes_1ef3de.csv,4.8089867,Linear,0.08695652,8,Linear,0.125,0.45833333
+117,art_daily_flatmiddle.csv,4.8095083,KMeans,0.02,9,Linear,0.125,0.45833333
+118,art_daily_jumpsdown.csv,4.8095083,KMeans,0.03030303,10,Linear,0.125,0.45833333
+119,,,,,,,,
+120,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
+121,Landsat Satellite,1.2161913,Linear,0.71794872,1,Linear,0.4,0.9
+122,Speech Accent Data,2.3700113,Linear,0.11764706,2,Linear,0.4,0.9
+123,Pen-Based Recognition of Handwritten Text (Local),2.6419783,KMeans,0.52631579,3,Linear,0.4,0.9
+124,Object Images,3.0982885,Gaussian,0.06772229,4,Linear,0.4,0.9
+125,ec2_cpu_utilization_c6585a.csv,4.814614,Linear,0.0,5,Linear,0.4,0.9
+126,cpu_utilization_asg_misconfiguration.csv,4.816351,KMeans,0.00775194,6,Linear,0.4,0.9
+127,machine_temperature_system_failure.csv,4.817331,Linear,0.4,7,Linear,0.4,0.9
+128,ec2_disk_write_bytes_1ef3de.csv,4.817843,Linear,0.08695652,8,Linear,0.4,0.9
+129,art_daily_flatmiddle.csv,4.8183656,KMeans,0.02,9,Linear,0.4,0.9
+130,art_daily_jumpsdown.csv,4.8183656,KMeans,0.03030303,10,Linear,0.4,0.9
+131,,,,,,,,
+132,exchange-4_cpm_results.csv,0,KMeans,0.75,0,KMeans,0.75,1
+133,Landsat Satellite,1.4934902,Linear,0.71794872,1,Linear,0.66666667,0.91666667
+134,Speech Accent Data,2.4140909,Linear,0.11764706,2,Linear,0.66666667,0.91666667
+135,Pen-Based Recognition of Handwritten Text (Local),2.6814423,KMeans,0.52631579,3,Linear,0.66666667,0.91666667
+136,Object Images,3.2098083,Gaussian,0.06772229,4,Linear,0.66666667,0.91666667
+137,ec2_cpu_utilization_c6585a.csv,4.839869,Linear,0.0,5,Linear,0.66666667,0.91666667
+138,cpu_utilization_asg_misconfiguration.csv,4.8415933,KMeans,0.00775194,6,Linear,0.66666667,0.91666667
+139,machine_temperature_system_failure.csv,4.8425646,Linear,0.4,7,Linear,0.66666667,0.91666667
+140,ec2_disk_write_bytes_1ef3de.csv,4.8430724,Linear,0.08695652,8,Linear,0.66666667,0.91666667
+141,art_daily_flatmiddle.csv,4.8435903,KMeans,0.02,9,Linear,0.66666667,0.91666667
+142,art_daily_jumpsdown.csv,4.8435903,KMeans,0.03030303,10,Linear,0.66666667,0.91666667
+143,,,,,,,,
+144,TravelTime_387.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+145,Landsat Satellite,1.2313643,Linear,0.71794872,1,Linear,0.5,0.83333333
+146,Speech Accent Data,2.3441262,Linear,0.11764706,2,Linear,0.5,0.83333333
+147,Pen-Based Recognition of Handwritten Text (Local),2.6085007,KMeans,0.52631579,3,Linear,0.5,0.83333333
+148,Object Images,3.6113129,Gaussian,0.06772229,4,Linear,0.5,0.83333333
+149,ec2_cpu_utilization_c6585a.csv,4.8225374,Linear,0.0,5,Linear,0.5,0.83333333
+150,cpu_utilization_asg_misconfiguration.csv,4.824241,KMeans,0.00775194,6,Linear,0.5,0.83333333
+151,machine_temperature_system_failure.csv,4.825201,Linear,0.4,7,Linear,0.5,0.83333333
+152,ec2_disk_write_bytes_1ef3de.csv,4.825702,Linear,0.08695652,8,Linear,0.5,0.83333333
+153,art_daily_flatmiddle.csv,4.826214,KMeans,0.02,9,Linear,0.5,0.83333333
+154,art_daily_jumpsdown.csv,4.826214,KMeans,0.03030303,10,Linear,0.5,0.83333333
+155,,,,,,,,
+156,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
+157,Landsat Satellite,1.0221438,Linear,0.71794872,1,Linear,0.0,1.0
+158,Speech Accent Data,2.6812494,Linear,0.11764706,2,Linear,0.0,1.0
+159,Pen-Based Recognition of Handwritten Text (Local),3.003928,KMeans,0.52631579,3,Linear,0.0,1.0
+160,Object Images,3.0515995,Gaussian,0.06772229,4,Linear,0.0,1.0
+161,ec2_cpu_utilization_c6585a.csv,5.128261,Linear,0.0,5,Linear,0.0,1.0
+162,cpu_utilization_asg_misconfiguration.csv,5.129989,KMeans,0.00775194,6,Linear,0.0,1.0
+163,machine_temperature_system_failure.csv,5.1309633,Linear,0.4,7,Linear,0.0,1.0
+164,ec2_disk_write_bytes_1ef3de.csv,5.1314716,Linear,0.08695652,8,Linear,0.0,1.0
+165,art_daily_flatmiddle.csv,5.13199,KMeans,0.02,9,Linear,0.0,1.0
+166,art_daily_jumpsdown.csv,5.13199,KMeans,0.03030303,10,Linear,0.0,1.0
+167,,,,,,,,
+168,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
+169,Landsat Satellite,1.2392349,Linear,0.71794872,1,Linear,0.00075245,0.9999179
+170,Speech Accent Data,2.2884414,Linear,0.11764706,2,Linear,0.00075245,0.9999179
+171,Pen-Based Recognition of Handwritten Text (Local),2.5637722,KMeans,0.52631579,3,Linear,0.00075245,0.9999179
+172,Object Images,3.4836884,Gaussian,0.06772229,4,Linear,0.00075245,0.9999179
+173,ec2_cpu_utilization_c6585a.csv,4.75216,Linear,0.0,5,Linear,0.00075245,0.9999179
+174,cpu_utilization_asg_misconfiguration.csv,4.753887,KMeans,0.00775194,6,Linear,0.00075245,0.9999179
+175,machine_temperature_system_failure.csv,4.7548594,Linear,0.4,7,Linear,0.00075245,0.9999179
+176,ec2_disk_write_bytes_1ef3de.csv,4.755368,Linear,0.08695652,8,Linear,0.00075245,0.9999179
+177,art_daily_flatmiddle.csv,4.7558866,KMeans,0.02,9,Linear,0.00075245,0.9999179
+178,art_daily_jumpsdown.csv,4.7558866,KMeans,0.03030303,10,Linear,0.00075245,0.9999179
+179,,,,,,,,
+180,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
+181,Landsat Satellite,1.7112436,Linear,0.71794872,1,Linear,0.66666667,0.66666667
+182,Speech Accent Data,2.4376044,Linear,0.11764706,2,Linear,0.66666667,0.66666667
+183,Pen-Based Recognition of Handwritten Text (Local),2.7321947,KMeans,0.52631579,3,Linear,0.66666667,0.66666667
+184,Object Images,3.5210629,Gaussian,0.06772229,4,Linear,0.66666667,0.66666667
+185,ec2_cpu_utilization_c6585a.csv,4.8940887,Linear,0.0,5,Linear,0.66666667,0.66666667
+186,cpu_utilization_asg_misconfiguration.csv,4.8958282,KMeans,0.00775194,6,Linear,0.66666667,0.66666667
+187,machine_temperature_system_failure.csv,4.896808,Linear,0.4,7,Linear,0.66666667,0.66666667
+188,ec2_disk_write_bytes_1ef3de.csv,4.8973203,Linear,0.08695652,8,Linear,0.66666667,0.66666667
+189,art_daily_flatmiddle.csv,4.897843,KMeans,0.02,9,Linear,0.66666667,0.66666667
+190,art_daily_jumpsdown.csv,4.897843,KMeans,0.03030303,10,Linear,0.66666667,0.66666667
+191,,,,,,,,
+192,nyc_taxi.csv,0,Linear,0.25,0,Linear,0.25,1
+193,Landsat Satellite,1.5201135,Linear,0.71794872,1,Linear,0.25,1.0
+194,Speech Accent Data,2.2138019,Linear,0.11764706,2,Linear,0.25,1.0
+195,Pen-Based Recognition of Handwritten Text (Local),2.5092735,KMeans,0.52631579,3,Linear,0.25,1.0
+196,Object Images,3.4065766,Gaussian,0.06772229,4,Linear,0.25,1.0
+197,ec2_cpu_utilization_c6585a.csv,4.6723795,Linear,0.0,5,Linear,0.25,1.0
+198,cpu_utilization_asg_misconfiguration.csv,4.674133,KMeans,0.00775194,6,Linear,0.25,1.0
+199,machine_temperature_system_failure.csv,4.6751223,Linear,0.4,7,Linear,0.25,1.0
+200,ec2_disk_write_bytes_1ef3de.csv,4.6756396,Linear,0.08695652,8,Linear,0.25,1.0
+201,art_daily_flatmiddle.csv,4.676168,KMeans,0.02,9,Linear,0.25,1.0
+202,art_daily_jumpsdown.csv,4.676168,KMeans,0.03030303,10,Linear,0.25,1.0
+203,,,,,,,,
+204,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
+205,Landsat Satellite,1.225359,Linear,0.71794872,1,Linear,0.5,0.92857143
+206,Speech Accent Data,2.3148336,Linear,0.11764706,2,Linear,0.5,0.92857143
+207,Pen-Based Recognition of Handwritten Text (Local),2.5867822,KMeans,0.52631579,3,Linear,0.5,0.92857143
+208,Object Images,3.252894,Gaussian,0.06772229,4,Linear,0.5,0.92857143
+209,ec2_cpu_utilization_c6585a.csv,4.8217216,Linear,0.0,5,Linear,0.5,0.92857143
+210,cpu_utilization_asg_misconfiguration.csv,4.8234797,KMeans,0.00775194,6,Linear,0.5,0.92857143
+211,machine_temperature_system_failure.csv,4.8244715,Linear,0.4,7,Linear,0.5,0.92857143
+212,ec2_disk_write_bytes_1ef3de.csv,4.8249907,Linear,0.08695652,8,Linear,0.5,0.92857143
+213,art_daily_flatmiddle.csv,4.82552,KMeans,0.02,9,Linear,0.5,0.92857143
+214,art_daily_jumpsdown.csv,4.82552,KMeans,0.03030303,10,Linear,0.5,0.92857143
+215,,,,,,,,
+216,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
+217,Landsat Satellite,1.1178226,Linear,0.71794872,1,Linear,0.0,0.98
+218,Speech Accent Data,2.385517,Linear,0.11764706,2,Linear,0.0,0.98
+219,Pen-Based Recognition of Handwritten Text (Local),2.6525598,KMeans,0.52631579,3,Linear,0.0,0.98
+220,Object Images,3.1752882,Gaussian,0.06772229,4,Linear,0.0,0.98
+221,ec2_cpu_utilization_c6585a.csv,4.8432274,Linear,0.0,5,Linear,0.0,0.98
+222,cpu_utilization_asg_misconfiguration.csv,4.8449707,KMeans,0.00775194,6,Linear,0.0,0.98
+223,machine_temperature_system_failure.csv,4.8459535,Linear,0.4,7,Linear,0.0,0.98
+224,ec2_disk_write_bytes_1ef3de.csv,4.846467,Linear,0.08695652,8,Linear,0.0,0.98
+225,art_daily_flatmiddle.csv,4.8469906,KMeans,0.02,9,Linear,0.0,0.98
+226,art_daily_jumpsdown.csv,4.8469906,KMeans,0.03030303,10,Linear,0.0,0.98
+227,,,,,,,,
+228,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
+229,Landsat Satellite,1.4249816,Linear,0.71794872,1,Linear,0.5,1.0
+230,Speech Accent Data,2.2846842,Linear,0.11764706,2,Linear,0.5,1.0
+231,Pen-Based Recognition of Handwritten Text (Local),2.5299654,KMeans,0.52631579,3,Linear,0.5,1.0
+232,Object Images,3.208877,Gaussian,0.06772229,4,Linear,0.5,1.0
+233,ec2_cpu_utilization_c6585a.csv,4.713275,Linear,0.0,5,Linear,0.5,1.0
+234,cpu_utilization_asg_misconfiguration.csv,4.7149897,KMeans,0.00775194,6,Linear,0.5,1.0
+235,machine_temperature_system_failure.csv,4.7159557,Linear,0.4,7,Linear,0.5,1.0
+236,ec2_disk_write_bytes_1ef3de.csv,4.71646,Linear,0.08695652,8,Linear,0.5,1.0
+237,art_daily_flatmiddle.csv,4.716975,KMeans,0.02,9,Linear,0.5,1.0
+238,art_daily_jumpsdown.csv,4.716975,KMeans,0.03030303,10,Linear,0.5,1.0
+239,,,,,,,,
+240,TravelTime_451.csv,0,KMeans,0.4,0,KMeans,0.4,1
+241,Landsat Satellite,1.2127876,Linear,0.71794872,1,Linear,0.18181818,0.7818181799999999
+242,Speech Accent Data,2.5008974,Linear,0.11764706,2,Linear,0.18181818,0.7818181799999999
+243,Pen-Based Recognition of Handwritten Text (Local),2.7827795,KMeans,0.52631579,3,Linear,0.18181818,0.7818181799999999
+244,Object Images,3.1195412,Gaussian,0.06772229,4,Linear,0.18181818,0.7818181799999999
+245,ec2_cpu_utilization_c6585a.csv,4.9274325,Linear,0.0,5,Linear,0.18181818,0.7818181799999999
+246,cpu_utilization_asg_misconfiguration.csv,4.929199,KMeans,0.00775194,6,Linear,0.18181818,0.7818181799999999
+247,machine_temperature_system_failure.csv,4.9301963,Linear,0.4,7,Linear,0.18181818,0.7818181799999999
+248,ec2_disk_write_bytes_1ef3de.csv,4.930718,Linear,0.08695652,8,Linear,0.18181818,0.7818181799999999
+249,art_daily_flatmiddle.csv,4.93125,KMeans,0.02,9,Linear,0.18181818,0.7818181799999999
+250,art_daily_jumpsdown.csv,4.93125,KMeans,0.03030303,10,Linear,0.18181818,0.7818181799999999
+251,,,,,,,,
+252,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+253,Landsat Satellite,0.9209924,Linear,0.71794872,1,Linear,0.66666667,1.0
+254,Speech Accent Data,2.7644374,Linear,0.11764706,2,Linear,0.66666667,1.0
+255,Object Images,2.783348,Gaussian,0.06772229,3,Linear,0.66666667,1.0
+256,Pen-Based Recognition of Handwritten Text (Local),3.103572,KMeans,0.52631579,4,Linear,0.66666667,1.0
+257,ec2_cpu_utilization_c6585a.csv,5.303769,Linear,0.0,5,Linear,0.66666667,1.0
+258,cpu_utilization_asg_misconfiguration.csv,5.3055286,KMeans,0.00775194,6,Linear,0.66666667,1.0
+259,machine_temperature_system_failure.csv,5.306521,Linear,0.4,7,Linear,0.66666667,1.0
+260,ec2_disk_write_bytes_1ef3de.csv,5.3070397,Linear,0.08695652,8,Linear,0.66666667,1.0
+261,art_daily_flatmiddle.csv,5.307569,KMeans,0.02,9,Linear,0.66666667,1.0
+262,art_daily_jumpsdown.csv,5.307569,KMeans,0.03030303,10,Linear,0.66666667,1.0
+263,,,,,,,,
+264,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+265,Landsat Satellite,1.0502357,Linear,0.71794872,1,Linear,0.66666667,1.0
+266,Speech Accent Data,2.4713418,Linear,0.11764706,2,Linear,0.66666667,1.0
+267,Pen-Based Recognition of Handwritten Text (Local),2.7633235,KMeans,0.52631579,3,Linear,0.66666667,1.0
+268,Object Images,3.2011085,Gaussian,0.06772229,4,Linear,0.66666667,1.0
+269,ec2_cpu_utilization_c6585a.csv,4.946053,Linear,0.0,5,Linear,0.66666667,1.0
+270,cpu_utilization_asg_misconfiguration.csv,4.9477863,KMeans,0.00775194,6,Linear,0.66666667,1.0
+271,machine_temperature_system_failure.csv,4.9487643,Linear,0.4,7,Linear,0.66666667,1.0
+272,ec2_disk_write_bytes_1ef3de.csv,4.9492755,Linear,0.08695652,8,Linear,0.66666667,1.0
+273,art_daily_flatmiddle.csv,4.9497967,KMeans,0.02,9,Linear,0.66666667,1.0
+274,art_daily_jumpsdown.csv,4.9497967,KMeans,0.03030303,10,Linear,0.66666667,1.0
+275,,,,,,,,
+276,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+277,Landsat Satellite,1.5072556,Linear,0.71794872,1,Linear,0.00312012,0.33645344999999993
+278,Speech Accent Data,2.2614772,Linear,0.11764706,2,Linear,0.00312012,0.33645344999999993
+279,Pen-Based Recognition of Handwritten Text (Local),2.5180628,KMeans,0.52631579,3,Linear,0.00312012,0.33645344999999993
+280,Object Images,3.2221107,Gaussian,0.06772229,4,Linear,0.00312012,0.33645344999999993
+281,ec2_cpu_utilization_c6585a.csv,4.675124,Linear,0.0,5,Linear,0.00312012,0.33645344999999993
+282,cpu_utilization_asg_misconfiguration.csv,4.6768627,KMeans,0.00775194,6,Linear,0.00312012,0.33645344999999993
+283,machine_temperature_system_failure.csv,4.677843,Linear,0.4,7,Linear,0.00312012,0.33645344999999993
+284,ec2_disk_write_bytes_1ef3de.csv,4.678355,Linear,0.08695652,8,Linear,0.00312012,0.33645344999999993
+285,art_daily_flatmiddle.csv,4.678878,KMeans,0.02,9,Linear,0.00312012,0.33645344999999993
+286,art_daily_jumpsdown.csv,4.678878,KMeans,0.03030303,10,Linear,0.00312012,0.33645344999999993
+287,,,,,,,,
+288,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
+289,Landsat Satellite,1.3043551,Linear,0.71794872,1,Linear,0.00049603,0.970193
+290,Speech Accent Data,2.1646404,Linear,0.11764706,2,Linear,0.00049603,0.970193
+291,Pen-Based Recognition of Handwritten Text (Local),2.416438,KMeans,0.52631579,3,Linear,0.00049603,0.970193
+292,Object Images,3.1892729,Gaussian,0.06772229,4,Linear,0.00049603,0.970193
+293,ec2_cpu_utilization_c6585a.csv,4.6077123,Linear,0.0,5,Linear,0.00049603,0.970193
+294,cpu_utilization_asg_misconfiguration.csv,4.609436,KMeans,0.00775194,6,Linear,0.00049603,0.970193
+295,machine_temperature_system_failure.csv,4.6104083,Linear,0.4,7,Linear,0.00049603,0.970193
+296,ec2_disk_write_bytes_1ef3de.csv,4.610916,Linear,0.08695652,8,Linear,0.00049603,0.970193
+297,art_daily_flatmiddle.csv,4.6114345,KMeans,0.02,9,Linear,0.00049603,0.970193
+298,art_daily_jumpsdown.csv,4.6114345,KMeans,0.03030303,10,Linear,0.00049603,0.970193
+299,,,,,,,,
+300,exchange-2_cpm_results.csv,0,KMeans,0.8,0,KMeans,0.8,1
+301,Landsat Satellite,1.3335547,Linear,0.71794872,1,Linear,0.5,0.7
+302,Speech Accent Data,2.3314314,Linear,0.11764706,2,Linear,0.5,0.7
+303,Pen-Based Recognition of Handwritten Text (Local),2.6114256,KMeans,0.52631579,3,Linear,0.5,0.7
+304,Object Images,3.2599645,Gaussian,0.06772229,4,Linear,0.5,0.7
+305,ec2_cpu_utilization_c6585a.csv,4.747726,Linear,0.0,5,Linear,0.5,0.7
+306,cpu_utilization_asg_misconfiguration.csv,4.749431,KMeans,0.00775194,6,Linear,0.5,0.7
+307,machine_temperature_system_failure.csv,4.7503915,Linear,0.4,7,Linear,0.5,0.7
+308,ec2_disk_write_bytes_1ef3de.csv,4.7508936,Linear,0.08695652,8,Linear,0.5,0.7
+309,art_daily_flatmiddle.csv,4.7514052,KMeans,0.02,9,Linear,0.5,0.7
+310,art_daily_jumpsdown.csv,4.7514052,KMeans,0.03030303,10,Linear,0.5,0.7
+311,,,,,,,,
+312,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+313,Landsat Satellite,1.6716528,Linear,0.71794872,1,Linear,0.66666667,1.0
+314,Speech Accent Data,2.3390934,Linear,0.11764706,2,Linear,0.66666667,1.0
+315,Pen-Based Recognition of Handwritten Text (Local),2.6130152,KMeans,0.52631579,3,Linear,0.66666667,1.0
+316,Object Images,3.097958,Gaussian,0.06772229,4,Linear,0.66666667,1.0
+317,ec2_cpu_utilization_c6585a.csv,4.782345,Linear,0.0,5,Linear,0.66666667,1.0
+318,cpu_utilization_asg_misconfiguration.csv,4.7840853,KMeans,0.00775194,6,Linear,0.66666667,1.0
+319,machine_temperature_system_failure.csv,4.785067,Linear,0.4,7,Linear,0.66666667,1.0
+320,ec2_disk_write_bytes_1ef3de.csv,4.78558,Linear,0.08695652,8,Linear,0.66666667,1.0
+321,art_daily_flatmiddle.csv,4.7861037,KMeans,0.02,9,Linear,0.66666667,1.0
+322,art_daily_jumpsdown.csv,4.7861037,KMeans,0.03030303,10,Linear,0.66666667,1.0
+323,,,,,,,,
+324,exchange-2_cpc_results.csv,0,KMeans,0.33333333,0,KMeans,0.33333333,1
+325,Landsat Satellite,1.5072541,Linear,0.71794872,1,Linear,0.06666667,0.73333334
+326,Speech Accent Data,2.105009,Linear,0.11764706,2,Linear,0.06666667,0.73333334
+327,Pen-Based Recognition of Handwritten Text (Local),2.4417255,KMeans,0.52631579,3,Linear,0.06666667,0.73333334
+328,Object Images,4.1868324,Gaussian,0.06772229,4,Linear,0.06666667,0.73333334
+329,ec2_cpu_utilization_c6585a.csv,4.5538955,Linear,0.0,5,Linear,0.06666667,0.73333334
+330,cpu_utilization_asg_misconfiguration.csv,4.555703,KMeans,0.00775194,6,Linear,0.06666667,0.73333334
+331,machine_temperature_system_failure.csv,4.5567255,Linear,0.4,7,Linear,0.06666667,0.73333334
+332,ec2_disk_write_bytes_1ef3de.csv,4.5572605,Linear,0.08695652,8,Linear,0.06666667,0.73333334
+333,art_daily_flatmiddle.csv,4.557807,KMeans,0.02,9,Linear,0.06666667,0.73333334
+334,art_daily_jumpsdown.csv,4.557807,KMeans,0.03030303,10,Linear,0.06666667,0.73333334
+335,,,,,,,,
+336,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
+337,Landsat Satellite,1.2980804,Linear,0.71794872,1,Linear,0.00110132,0.99334938
+338,Speech Accent Data,2.4068313,Linear,0.11764706,2,Linear,0.00110132,0.99334938
+339,Pen-Based Recognition of Handwritten Text (Local),2.720811,KMeans,0.52631579,3,Linear,0.00110132,0.99334938
+340,Object Images,3.089457,Gaussian,0.06772229,4,Linear,0.00110132,0.99334938
+341,ec2_cpu_utilization_c6585a.csv,4.876868,Linear,0.0,5,Linear,0.00110132,0.99334938
+342,cpu_utilization_asg_misconfiguration.csv,4.878635,KMeans,0.00775194,6,Linear,0.00110132,0.99334938
+343,machine_temperature_system_failure.csv,4.879631,Linear,0.4,7,Linear,0.00110132,0.99334938
+344,ec2_disk_write_bytes_1ef3de.csv,4.8801517,Linear,0.08695652,8,Linear,0.00110132,0.99334938
+345,art_daily_flatmiddle.csv,4.8806834,KMeans,0.02,9,Linear,0.00110132,0.99334938
+346,art_daily_jumpsdown.csv,4.8806834,KMeans,0.03030303,10,Linear,0.00110132,0.99334938
+347,,,,,,,,
+348,occupancy_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+349,Landsat Satellite,1.4472489,Linear,0.71794872,1,Linear,1.0,1.0
+350,Speech Accent Data,2.1886978,Linear,0.11764706,2,Linear,1.0,1.0
+351,Pen-Based Recognition of Handwritten Text (Local),2.4746728,KMeans,0.52631579,3,Linear,1.0,1.0
+352,Object Images,3.2566786,Gaussian,0.06772229,4,Linear,1.0,1.0
+353,ec2_cpu_utilization_c6585a.csv,4.675726,Linear,0.0,5,Linear,1.0,1.0
+354,cpu_utilization_asg_misconfiguration.csv,4.6775045,KMeans,0.00775194,6,Linear,1.0,1.0
+355,machine_temperature_system_failure.csv,4.678509,Linear,0.4,7,Linear,1.0,1.0
+356,ec2_disk_write_bytes_1ef3de.csv,4.679034,Linear,0.08695652,8,Linear,1.0,1.0
+357,art_daily_flatmiddle.csv,4.6795707,KMeans,0.02,9,Linear,1.0,1.0
+358,art_daily_jumpsdown.csv,4.6795707,KMeans,0.03030303,10,Linear,1.0,1.0
+359,,,,,,,,
+360,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
+361,Landsat Satellite,1.3486657,Linear,0.71794872,1,Linear,0.01960784,0.79738562
+362,Speech Accent Data,2.1926215,Linear,0.11764706,2,Linear,0.01960784,0.79738562
+363,Pen-Based Recognition of Handwritten Text (Local),2.4607067,KMeans,0.52631579,3,Linear,0.01960784,0.79738562
+364,Object Images,3.534768,Gaussian,0.06772229,4,Linear,0.01960784,0.79738562
+365,ec2_cpu_utilization_c6585a.csv,4.6122255,Linear,0.0,5,Linear,0.01960784,0.79738562
+366,cpu_utilization_asg_misconfiguration.csv,4.6139393,KMeans,0.00775194,6,Linear,0.01960784,0.79738562
+367,machine_temperature_system_failure.csv,4.614905,Linear,0.4,7,Linear,0.01960784,0.79738562
+368,ec2_disk_write_bytes_1ef3de.csv,4.6154094,Linear,0.08695652,8,Linear,0.01960784,0.79738562
+369,art_daily_flatmiddle.csv,4.615924,KMeans,0.02,9,Linear,0.01960784,0.79738562
+370,art_daily_jumpsdown.csv,4.615924,KMeans,0.03030303,10,Linear,0.01960784,0.79738562
+371,,,,,,,,
+372,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
+373,Landsat Satellite,0.9508271,Linear,0.71794872,1,Linear,0.003367,1.0
+374,Speech Accent Data,2.5937216,Linear,0.11764706,2,Linear,0.003367,1.0
+375,Object Images,2.86585,Gaussian,0.06772229,3,Linear,0.003367,1.0
+376,Pen-Based Recognition of Handwritten Text (Local),2.8965144,KMeans,0.52631579,4,Linear,0.003367,1.0
+377,ec2_cpu_utilization_c6585a.csv,5.1943507,Linear,0.0,5,Linear,0.003367,1.0
+378,cpu_utilization_asg_misconfiguration.csv,5.1961026,KMeans,0.00775194,6,Linear,0.003367,1.0
+379,machine_temperature_system_failure.csv,5.1970906,Linear,0.4,7,Linear,0.003367,1.0
+380,ec2_disk_write_bytes_1ef3de.csv,5.197607,Linear,0.08695652,8,Linear,0.003367,1.0
+381,art_daily_flatmiddle.csv,5.198134,KMeans,0.02,9,Linear,0.003367,1.0
+382,art_daily_jumpsdown.csv,5.198134,KMeans,0.03030303,10,Linear,0.003367,1.0
+383,,,,,,,,
+384,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
+385,Landsat Satellite,1.3591204,Linear,0.71794872,1,Linear,0.02222222,0.77222222
+386,Speech Accent Data,2.1402297,Linear,0.11764706,2,Linear,0.02222222,0.77222222
+387,Pen-Based Recognition of Handwritten Text (Local),2.42218,KMeans,0.52631579,3,Linear,0.02222222,0.77222222
+388,Object Images,3.440278,Gaussian,0.06772229,4,Linear,0.02222222,0.77222222
+389,ec2_cpu_utilization_c6585a.csv,4.627829,Linear,0.0,5,Linear,0.02222222,0.77222222
+390,cpu_utilization_asg_misconfiguration.csv,4.6295815,KMeans,0.00775194,6,Linear,0.02222222,0.77222222
+391,machine_temperature_system_failure.csv,4.63057,Linear,0.4,7,Linear,0.02222222,0.77222222
+392,ec2_disk_write_bytes_1ef3de.csv,4.6310863,Linear,0.08695652,8,Linear,0.02222222,0.77222222
+393,art_daily_flatmiddle.csv,4.6316137,KMeans,0.02,9,Linear,0.02222222,0.77222222
+394,art_daily_jumpsdown.csv,4.6316137,KMeans,0.03030303,10,Linear,0.02222222,0.77222222
+395,,,,,,,,
+396,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
+397,Landsat Satellite,1.4272165,Linear,0.71794872,1,Linear,0.04,0.88615385
+398,Speech Accent Data,2.2266831,Linear,0.11764706,2,Linear,0.04,0.88615385
+399,Pen-Based Recognition of Handwritten Text (Local),2.5092912,KMeans,0.52631579,3,Linear,0.04,0.88615385
+400,Object Images,3.347103,Gaussian,0.06772229,4,Linear,0.04,0.88615385
+401,ec2_cpu_utilization_c6585a.csv,4.6698647,Linear,0.0,5,Linear,0.04,0.88615385
+402,cpu_utilization_asg_misconfiguration.csv,4.6715846,KMeans,0.00775194,6,Linear,0.04,0.88615385
+403,machine_temperature_system_failure.csv,4.672554,Linear,0.4,7,Linear,0.04,0.88615385
+404,ec2_disk_write_bytes_1ef3de.csv,4.673061,Linear,0.08695652,8,Linear,0.04,0.88615385
+405,art_daily_flatmiddle.csv,4.6735773,KMeans,0.02,9,Linear,0.04,0.88615385
+406,art_daily_jumpsdown.csv,4.6735773,KMeans,0.03030303,10,Linear,0.04,0.88615385
+407,,,,,,,,
+408,occupancy_6005.csv,0,Linear,1.0,0,Linear,1.0,1
+409,Landsat Satellite,1.2192125,Linear,0.71794872,1,Linear,1.0,1.0
+410,Speech Accent Data,2.3311646,Linear,0.11764706,2,Linear,1.0,1.0
+411,Pen-Based Recognition of Handwritten Text (Local),2.5920272,KMeans,0.52631579,3,Linear,1.0,1.0
+412,Object Images,3.1643553,Gaussian,0.06772229,4,Linear,1.0,1.0
+413,ec2_cpu_utilization_c6585a.csv,4.810384,Linear,0.0,5,Linear,1.0,1.0
+414,cpu_utilization_asg_misconfiguration.csv,4.8121104,KMeans,0.00775194,6,Linear,1.0,1.0
+415,machine_temperature_system_failure.csv,4.813084,Linear,0.4,7,Linear,1.0,1.0
+416,ec2_disk_write_bytes_1ef3de.csv,4.813593,Linear,0.08695652,8,Linear,1.0,1.0
+417,art_daily_flatmiddle.csv,4.8141117,KMeans,0.02,9,Linear,1.0,1.0
+418,art_daily_jumpsdown.csv,4.8141117,KMeans,0.03030303,10,Linear,1.0,1.0
+419,,,,,,,,
+420,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
+421,Landsat Satellite,1.5003247,Linear,0.71794872,1,Linear,0.66666667,0.66666667
+422,Speech Accent Data,2.182693,Linear,0.11764706,2,Linear,0.66666667,0.66666667
+423,Pen-Based Recognition of Handwritten Text (Local),2.460565,KMeans,0.52631579,3,Linear,0.66666667,0.66666667
+424,Object Images,3.3738236,Gaussian,0.06772229,4,Linear,0.66666667,0.66666667
+425,ec2_cpu_utilization_c6585a.csv,4.598282,Linear,0.0,5,Linear,0.66666667,0.66666667
+426,cpu_utilization_asg_misconfiguration.csv,4.600044,KMeans,0.00775194,6,Linear,0.66666667,0.66666667
+427,machine_temperature_system_failure.csv,4.6010375,Linear,0.4,7,Linear,0.66666667,0.66666667
+428,ec2_disk_write_bytes_1ef3de.csv,4.6015577,Linear,0.08695652,8,Linear,0.66666667,0.66666667
+429,art_daily_flatmiddle.csv,4.602088,KMeans,0.02,9,Linear,0.66666667,0.66666667
+430,art_daily_jumpsdown.csv,4.602088,KMeans,0.03030303,10,Linear,0.66666667,0.66666667
+431,,,,,,,,
+432,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
+433,Landsat Satellite,0.9244871,Linear,0.71794872,1,Linear,0.08695652,1.0
+434,Speech Accent Data,2.6430511,Linear,0.11764706,2,Linear,0.08695652,1.0
+435,Object Images,2.7776937,Gaussian,0.06772229,3,Linear,0.08695652,1.0
+436,Pen-Based Recognition of Handwritten Text (Local),2.9436426,KMeans,0.52631579,4,Linear,0.08695652,1.0
+437,ec2_cpu_utilization_c6585a.csv,5.1767836,Linear,0.0,5,Linear,0.08695652,1.0
+438,cpu_utilization_asg_misconfiguration.csv,5.1785393,KMeans,0.00775194,6,Linear,0.08695652,1.0
+439,machine_temperature_system_failure.csv,5.17953,Linear,0.4,7,Linear,0.08695652,1.0
+440,ec2_disk_write_bytes_1ef3de.csv,5.1800485,Linear,0.08695652,8,Linear,0.08695652,1.0
+441,art_daily_flatmiddle.csv,5.1805778,KMeans,0.02,9,Linear,0.08695652,1.0
+442,art_daily_jumpsdown.csv,5.1805778,KMeans,0.03030303,10,Linear,0.08695652,1.0
+443,,,,,,,,
+444,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
+445,Landsat Satellite,1.3519335,Linear,0.71794872,1,Linear,0.33333333,0.83333333
+446,Speech Accent Data,2.2305586,Linear,0.11764706,2,Linear,0.33333333,0.83333333
+447,Pen-Based Recognition of Handwritten Text (Local),2.5604858,KMeans,0.52631579,3,Linear,0.33333333,0.83333333
+448,Object Images,3.2390718,Gaussian,0.06772229,4,Linear,0.33333333,0.83333333
+449,ec2_cpu_utilization_c6585a.csv,4.746325,Linear,0.0,5,Linear,0.33333333,0.83333333
+450,cpu_utilization_asg_misconfiguration.csv,4.748071,KMeans,0.00775194,6,Linear,0.33333333,0.83333333
+451,machine_temperature_system_failure.csv,4.749056,Linear,0.4,7,Linear,0.33333333,0.83333333
+452,ec2_disk_write_bytes_1ef3de.csv,4.7495713,Linear,0.08695652,8,Linear,0.33333333,0.83333333
+453,art_daily_flatmiddle.csv,4.750097,KMeans,0.02,9,Linear,0.33333333,0.83333333
+454,art_daily_jumpsdown.csv,4.750097,KMeans,0.03030303,10,Linear,0.33333333,0.83333333
+455,,,,,,,,
+456,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
+457,Landsat Satellite,0.9965606,Linear,0.71794872,1,Linear,0.02352941,0.98097622
+458,Speech Accent Data,2.683251,Linear,0.11764706,2,Linear,0.02352941,0.98097622
+459,Object Images,2.7998562,Gaussian,0.06772229,3,Linear,0.02352941,0.98097622
+460,Pen-Based Recognition of Handwritten Text (Local),2.9312346,KMeans,0.52631579,4,Linear,0.02352941,0.98097622
+461,ec2_cpu_utilization_c6585a.csv,5.1356874,Linear,0.0,5,Linear,0.02352941,0.98097622
+462,cpu_utilization_asg_misconfiguration.csv,5.137384,KMeans,0.00775194,6,Linear,0.02352941,0.98097622
+463,machine_temperature_system_failure.csv,5.1383376,Linear,0.4,7,Linear,0.02352941,0.98097622
+464,ec2_disk_write_bytes_1ef3de.csv,5.138836,Linear,0.08695652,8,Linear,0.02352941,0.98097622
+465,art_daily_flatmiddle.csv,5.1393437,KMeans,0.02,9,Linear,0.02352941,0.98097622
+466,art_daily_jumpsdown.csv,5.1393437,KMeans,0.03030303,10,Linear,0.02352941,0.98097622
+467,,,,,,,,
+468,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
+469,Landsat Satellite,1.4507937,Linear,0.71794872,1,Linear,0.00416667,0.96495098
+470,Speech Accent Data,2.1825275,Linear,0.11764706,2,Linear,0.00416667,0.96495098
+471,Pen-Based Recognition of Handwritten Text (Local),2.473498,KMeans,0.52631579,3,Linear,0.00416667,0.96495098
+472,Object Images,3.4171047,Gaussian,0.06772229,4,Linear,0.00416667,0.96495098
+473,ec2_cpu_utilization_c6585a.csv,4.632613,Linear,0.0,5,Linear,0.00416667,0.96495098
+474,cpu_utilization_asg_misconfiguration.csv,4.6343803,KMeans,0.00775194,6,Linear,0.00416667,0.96495098
+475,machine_temperature_system_failure.csv,4.635378,Linear,0.4,7,Linear,0.00416667,0.96495098
+476,ec2_disk_write_bytes_1ef3de.csv,4.6359,Linear,0.08695652,8,Linear,0.00416667,0.96495098
+477,art_daily_flatmiddle.csv,4.636432,KMeans,0.02,9,Linear,0.00416667,0.96495098
+478,art_daily_jumpsdown.csv,4.636432,KMeans,0.03030303,10,Linear,0.00416667,0.96495098
+479,,,,,,,,
+480,exchange-4_cpc_results.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+481,Landsat Satellite,1.2804565,Linear,0.71794872,1,Linear,0.66666667,1.0
+482,Speech Accent Data,2.4243982,Linear,0.11764706,2,Linear,0.66666667,1.0
+483,Pen-Based Recognition of Handwritten Text (Local),2.6817336,KMeans,0.52631579,3,Linear,0.66666667,1.0
+484,Object Images,2.9574442,Gaussian,0.06772229,4,Linear,0.66666667,1.0
+485,ec2_cpu_utilization_c6585a.csv,4.843831,Linear,0.0,5,Linear,0.66666667,1.0
+486,cpu_utilization_asg_misconfiguration.csv,4.845574,KMeans,0.00775194,6,Linear,0.66666667,1.0
+487,machine_temperature_system_failure.csv,4.8465567,Linear,0.4,7,Linear,0.66666667,1.0
+488,ec2_disk_write_bytes_1ef3de.csv,4.8470707,Linear,0.08695652,8,Linear,0.66666667,1.0
+489,art_daily_flatmiddle.csv,4.8475947,KMeans,0.02,9,Linear,0.66666667,1.0
+490,art_daily_jumpsdown.csv,4.8475947,KMeans,0.03030303,10,Linear,0.66666667,1.0
+491,,,,,,,,
+492,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
+493,Landsat Satellite,1.3289795,Linear,0.71794872,1,Linear,0.00416667,0.50416667
+494,Speech Accent Data,2.3201666,Linear,0.11764706,2,Linear,0.00416667,0.50416667
+495,Pen-Based Recognition of Handwritten Text (Local),2.6185856,KMeans,0.52631579,3,Linear,0.00416667,0.50416667
+496,Object Images,3.3471212,Gaussian,0.06772229,4,Linear,0.00416667,0.50416667
+497,ec2_cpu_utilization_c6585a.csv,4.7946587,Linear,0.0,5,Linear,0.00416667,0.50416667
+498,cpu_utilization_asg_misconfiguration.csv,4.796436,KMeans,0.00775194,6,Linear,0.00416667,0.50416667
+499,machine_temperature_system_failure.csv,4.79744,Linear,0.4,7,Linear,0.00416667,0.50416667
+500,ec2_disk_write_bytes_1ef3de.csv,4.797965,Linear,0.08695652,8,Linear,0.00416667,0.50416667
+501,art_daily_flatmiddle.csv,4.7985015,KMeans,0.02,9,Linear,0.00416667,0.50416667
+502,art_daily_jumpsdown.csv,4.7985015,KMeans,0.03030303,10,Linear,0.00416667,0.50416667
+503,,,,,,,,
+504,exchange-3_cpc_results.csv,0,Linear,0.57142857,0,Linear,0.57142857,1
+505,Landsat Satellite,1.4504967,Linear,0.71794872,1,Linear,0.57142857,1.0
+506,Speech Accent Data,2.224583,Linear,0.11764706,2,Linear,0.57142857,1.0
+507,Pen-Based Recognition of Handwritten Text (Local),2.4886875,KMeans,0.52631579,3,Linear,0.57142857,1.0
+508,Object Images,3.318861,Gaussian,0.06772229,4,Linear,0.57142857,1.0
+509,ec2_cpu_utilization_c6585a.csv,4.654549,Linear,0.0,5,Linear,0.57142857,1.0
+510,cpu_utilization_asg_misconfiguration.csv,4.6562757,KMeans,0.00775194,6,Linear,0.57142857,1.0
+511,machine_temperature_system_failure.csv,4.657249,Linear,0.4,7,Linear,0.57142857,1.0
+512,ec2_disk_write_bytes_1ef3de.csv,4.6577578,Linear,0.08695652,8,Linear,0.57142857,1.0
+513,art_daily_flatmiddle.csv,4.6582766,KMeans,0.02,9,Linear,0.57142857,1.0
+514,art_daily_jumpsdown.csv,4.6582766,KMeans,0.03030303,10,Linear,0.57142857,1.0
+515,,,,,,,,
+516,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
+517,Landsat Satellite,1.1355305,Linear,0.71794872,1,Linear,0.00059595,0.99907388
+518,Speech Accent Data,2.4912949,Linear,0.11764706,2,Linear,0.00059595,0.99907388
+519,Pen-Based Recognition of Handwritten Text (Local),2.760777,KMeans,0.52631579,3,Linear,0.00059595,0.99907388
+520,Object Images,3.4594493,Gaussian,0.06772229,4,Linear,0.00059595,0.99907388
+521,ec2_cpu_utilization_c6585a.csv,4.91016,Linear,0.0,5,Linear,0.00059595,0.99907388
+522,cpu_utilization_asg_misconfiguration.csv,4.9118876,KMeans,0.00775194,6,Linear,0.00059595,0.99907388
+523,machine_temperature_system_failure.csv,4.912861,Linear,0.4,7,Linear,0.00059595,0.99907388
+524,ec2_disk_write_bytes_1ef3de.csv,4.9133697,Linear,0.08695652,8,Linear,0.00059595,0.99907388
+525,art_daily_flatmiddle.csv,4.9138885,KMeans,0.02,9,Linear,0.00059595,0.99907388
+526,art_daily_jumpsdown.csv,4.9138885,KMeans,0.03030303,10,Linear,0.00059595,0.99907388
+527,,,,,,,,
+528,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
+529,Landsat Satellite,1.4184237,Linear,0.71794872,1,Linear,0.5,1.0
+530,Speech Accent Data,2.1690607,Linear,0.11764706,2,Linear,0.5,1.0
+531,Pen-Based Recognition of Handwritten Text (Local),2.4684827,KMeans,0.52631579,3,Linear,0.5,1.0
+532,Object Images,3.4618106,Gaussian,0.06772229,4,Linear,0.5,1.0
+533,ec2_cpu_utilization_c6585a.csv,4.6869392,Linear,0.0,5,Linear,0.5,1.0
+534,cpu_utilization_asg_misconfiguration.csv,4.6887035,KMeans,0.00775194,6,Linear,0.5,1.0
+535,machine_temperature_system_failure.csv,4.6896996,Linear,0.4,7,Linear,0.5,1.0
+536,ec2_disk_write_bytes_1ef3de.csv,4.6902204,Linear,0.08695652,8,Linear,0.5,1.0
+537,art_daily_flatmiddle.csv,4.690752,KMeans,0.02,9,Linear,0.5,1.0
+538,art_daily_jumpsdown.csv,4.690752,KMeans,0.03030303,10,Linear,0.5,1.0
+539,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.37777777777777777,0.8741433982222222
+0,,,,,2.0,,0.37777777777777777,0.8741433982222222
+0,,,,,3.0,,0.37777777777777777,0.8741433982222222
+0,,,,,4.0,,0.37777777777777777,0.8741433982222222
+0,,,,,5.0,,0.37777777777777777,0.8741433982222222
+0,,,,,6.0,,0.37777777777777777,0.8741433982222222
+0,,,,,7.0,,0.37777777777777777,0.8741433982222222
+0,,,,,8.0,,0.37777777777777777,0.8741433982222222
+0,,,,,9.0,,0.37777777777777777,0.8741433982222222
+0,,,,,10.0,,0.37777777777777777,0.8741433982222222

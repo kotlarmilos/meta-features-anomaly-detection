@@ -1,0 +1,768 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
+1,Landsat Satellite,0.06834209,Linear,0.71794872,1,Linear,0.63157895,0.79824562
+2,Pen-Based Recognition of Handwritten Text,0.10745263,KMeans,0.88648649,2,KMeans,0.83333333,1.0
+3,nyc_taxi.csv,0.16630769,Linear,0.25,3,Linear,0.63157895,0.79824562
+4,Statlog Shuttle,0.17190051,KMeans,0.96766744,4,KMeans,0.83333333,1.0
+5,Letter Recognition,0.25664508,KMeans,0.44545455,5,KMeans,0.83333333,1.0
+6,Object Images,0.4112184,Gaussian,0.06772229,6,KMeans,0.83333333,1.0
+7,Pen-Based Recognition of Handwritten Text (Local),0.4121834,KMeans,0.52631579,7,KMeans,0.83333333,1.0
+8,ec2_cpu_utilization_c6585a.csv,0.6190171,Linear,0.0,8,KMeans,0.83333333,1.0
+9,art_increase_spike_density.csv,0.6579525,KMeans,0.15384615,9,KMeans,0.83333333,1.0
+10,Thyroid Disease,0.89500165,KMeans,0.22317597,10,KMeans,0.83333333,1.0
+11,,,,,,,,
+12,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
+13,Landsat Satellite,0.06851101,Linear,0.71794872,1,Linear,0.92639843,0.98790185
+14,Pen-Based Recognition of Handwritten Text,0.09966922,KMeans,0.88648649,2,KMeans,0.38537271,0.4468761299999999
+15,Statlog Shuttle,0.16096127,KMeans,0.96766744,3,KMeans,0.38537271,0.4468761299999999
+16,nyc_taxi.csv,0.23142779,Linear,0.25,4,KMeans,0.38537271,0.4468761299999999
+17,Letter Recognition,0.25999427,KMeans,0.44545455,5,KMeans,0.38537271,0.4468761299999999
+18,Object Images,0.38631117,Gaussian,0.06772229,6,KMeans,0.38537271,0.4468761299999999
+19,Pen-Based Recognition of Handwritten Text (Local),0.40514982,KMeans,0.52631579,7,KMeans,0.38537271,0.4468761299999999
+20,ec2_cpu_utilization_c6585a.csv,0.5917058,Linear,0.0,8,KMeans,0.38537271,0.4468761299999999
+21,art_increase_spike_density.csv,0.6803187,KMeans,0.15384615,9,KMeans,0.38537271,0.4468761299999999
+22,Thyroid Disease,0.8195734,KMeans,0.22317597,10,KMeans,0.38537271,0.4468761299999999
+23,,,,,,,,
+24,Pen-Based Recognition of Handwritten Text (Local),0,KMeans,0.52631579,0,KMeans,0.52631579,1
+25,nyc_taxi.csv,0.036296606,Linear,0.25,1,Linear,0.02505219,0.4987364000000001
+26,Landsat Satellite,0.046220303,Linear,0.71794872,2,Linear,0.02505219,0.4987364000000001
+27,Pen-Based Recognition of Handwritten Text,0.055082917,KMeans,0.88648649,3,Linear,0.02505219,0.4987364000000001
+28,Statlog Shuttle,0.13833845,KMeans,0.96766744,4,KMeans,0.52631579,1.0
+29,Letter Recognition,0.24476802,KMeans,0.44545455,5,KMeans,0.52631579,1.0
+30,Object Images,0.32041323,Gaussian,0.06772229,6,KMeans,0.52631579,1.0
+31,Pen-Based Recognition of Handwritten Text (Local),0.42700982,KMeans,0.52631579,7,KMeans,0.52631579,1.0
+32,ec2_cpu_utilization_c6585a.csv,0.5566597,Linear,0.0,8,KMeans,0.52631579,1.0
+33,art_increase_spike_density.csv,0.68454885,KMeans,0.15384615,9,KMeans,0.52631579,1.0
+34,Thyroid Disease,0.9039459,KMeans,0.22317597,10,KMeans,0.52631579,1.0
+35,,,,,,,,
+36,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
+37,nyc_taxi.csv,0.019623876,Linear,0.25,1,Linear,0.22222222,0.77676767
+38,Landsat Satellite,0.066108584,Linear,0.71794872,2,Linear,0.22222222,0.77676767
+39,Pen-Based Recognition of Handwritten Text,0.090093136,KMeans,0.88648649,3,Linear,0.22222222,0.77676767
+40,Statlog Shuttle,0.13318563,KMeans,0.96766744,4,KMeans,0.44545455,1.0
+41,Letter Recognition,0.24721837,KMeans,0.44545455,5,KMeans,0.44545455,1.0
+42,Pen-Based Recognition of Handwritten Text (Local),0.33236146,KMeans,0.52631579,6,KMeans,0.44545455,1.0
+43,Object Images,0.40632534,Gaussian,0.06772229,7,KMeans,0.44545455,1.0
+44,art_increase_spike_density.csv,0.61343044,KMeans,0.15384615,8,KMeans,0.44545455,1.0
+45,ec2_cpu_utilization_c6585a.csv,0.64915216,Linear,0.0,9,KMeans,0.44545455,1.0
+46,Thyroid Disease,1.0428349,KMeans,0.22317597,10,KMeans,0.44545455,1.0
+47,,,,,,,,
+48,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
+49,Landsat Satellite,0.07356036,Linear,0.71794872,1,Linear,0.19112628,0.96795031
+50,Pen-Based Recognition of Handwritten Text,0.08383405,KMeans,0.88648649,2,KMeans,0.22317597,1.0
+51,nyc_taxi.csv,0.097256064,Linear,0.25,3,Linear,0.19112628,0.96795031
+52,Statlog Shuttle,0.16609907,KMeans,0.96766744,4,KMeans,0.22317597,1.0
+53,Object Images,0.2293973,Gaussian,0.06772229,5,KMeans,0.22317597,1.0
+54,Letter Recognition,0.26799536,KMeans,0.44545455,6,KMeans,0.22317597,1.0
+55,Pen-Based Recognition of Handwritten Text (Local),0.45521176,KMeans,0.52631579,7,KMeans,0.22317597,1.0
+56,ec2_cpu_utilization_c6585a.csv,0.5512916,Linear,0.0,8,KMeans,0.22317597,1.0
+57,art_increase_spike_density.csv,0.704023,KMeans,0.15384615,9,KMeans,0.22317597,1.0
+58,Thyroid Disease,0.8880173,KMeans,0.22317597,10,KMeans,0.22317597,1.0
+59,,,,,,,,
+60,Statlog Shuttle,0,KMeans,0.96766744,0,KMeans,0.96766744,1
+61,nyc_taxi.csv,0.024339318,Linear,0.25,1,Linear,0.96707106,0.9994036199999999
+62,Landsat Satellite,0.105927706,Linear,0.71794872,2,Linear,0.96707106,0.9994036199999999
+63,Pen-Based Recognition of Handwritten Text,0.127527,KMeans,0.88648649,3,Linear,0.96707106,0.9994036199999999
+64,Statlog Shuttle,0.19989824,KMeans,0.96766744,4,KMeans,0.96766744,1.0
+65,Letter Recognition,0.29148364,KMeans,0.44545455,5,KMeans,0.96766744,1.0
+66,Object Images,0.3409834,Gaussian,0.06772229,6,KMeans,0.96766744,1.0
+67,Pen-Based Recognition of Handwritten Text (Local),0.4473195,KMeans,0.52631579,7,KMeans,0.96766744,1.0
+68,ec2_cpu_utilization_c6585a.csv,0.566594,Linear,0.0,8,KMeans,0.96766744,1.0
+69,art_increase_spike_density.csv,0.6867022,KMeans,0.15384615,9,KMeans,0.96766744,1.0
+70,Thyroid Disease,0.88018215,KMeans,0.22317597,10,KMeans,0.96766744,1.0
+71,,,,,,,,
+72,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
+73,Landsat Satellite,0.08167529,Linear,0.71794872,1,Linear,0.0663518,0.99862951
+74,Pen-Based Recognition of Handwritten Text,0.11733365,KMeans,0.88648649,2,KMeans,0.05851859,0.9907963
+75,nyc_taxi.csv,0.13346505,Linear,0.25,3,Linear,0.0663518,0.99862951
+76,Statlog Shuttle,0.1705333,KMeans,0.96766744,4,KMeans,0.05851859,0.9907963
+77,Letter Recognition,0.2864077,KMeans,0.44545455,5,KMeans,0.05851859,0.9907963
+78,Object Images,0.33980298,Gaussian,0.06772229,6,KMeans,0.05851859,0.9907963
+79,Pen-Based Recognition of Handwritten Text (Local),0.41910303,KMeans,0.52631579,7,KMeans,0.05851859,0.9907963
+80,ec2_cpu_utilization_c6585a.csv,0.6037384,Linear,0.0,8,KMeans,0.05851859,0.9907963
+81,art_increase_spike_density.csv,0.6528385,KMeans,0.15384615,9,KMeans,0.05851859,0.9907963
+82,Thyroid Disease,0.8725678,KMeans,0.22317597,10,KMeans,0.05851859,0.9907963
+83,,,,,,,,
+84,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
+85,nyc_taxi.csv,0.036619186,Linear,0.25,1,Linear,0.11764706,1.0
+86,Landsat Satellite,0.046267033,Linear,0.71794872,2,Linear,0.11764706,1.0
+87,Pen-Based Recognition of Handwritten Text,0.094696045,KMeans,0.88648649,3,Linear,0.11764706,1.0
+88,Statlog Shuttle,0.14394295,KMeans,0.96766744,4,KMeans,0.05384615,0.93619909
+89,Letter Recognition,0.23033655,KMeans,0.44545455,5,KMeans,0.05384615,0.93619909
+90,Pen-Based Recognition of Handwritten Text (Local),0.3345363,KMeans,0.52631579,6,KMeans,0.05384615,0.93619909
+91,Object Images,0.45047474,Gaussian,0.06772229,7,KMeans,0.05384615,0.93619909
+92,art_increase_spike_density.csv,0.60581213,KMeans,0.15384615,8,KMeans,0.05384615,0.93619909
+93,ec2_cpu_utilization_c6585a.csv,0.6325625,Linear,0.0,9,KMeans,0.05384615,0.93619909
+94,Thyroid Disease,0.95816267,KMeans,0.22317597,10,KMeans,0.05384615,0.93619909
+95,,,,,,,,
+96,Pen-Based Recognition of Handwritten Text,0,KMeans,0.88648649,0,KMeans,0.88648649,1
+97,Landsat Satellite,0.03513241,Linear,0.71794872,1,Linear,0.64473684,0.75825035
+98,nyc_taxi.csv,0.038943768,Linear,0.25,2,Linear,0.64473684,0.75825035
+99,Pen-Based Recognition of Handwritten Text,0.058911085,KMeans,0.88648649,3,Linear,0.64473684,0.75825035
+100,Statlog Shuttle,0.11038566,KMeans,0.96766744,4,KMeans,0.88648649,1.0
+101,Letter Recognition,0.21804774,KMeans,0.44545455,5,KMeans,0.88648649,1.0
+102,Pen-Based Recognition of Handwritten Text (Local),0.40077436,KMeans,0.52631579,6,KMeans,0.88648649,1.0
+103,Object Images,0.4293989,Gaussian,0.06772229,7,KMeans,0.88648649,1.0
+104,art_increase_spike_density.csv,0.6107795,KMeans,0.15384615,8,KMeans,0.88648649,1.0
+105,ec2_cpu_utilization_c6585a.csv,0.6347765,Linear,0.0,9,KMeans,0.88648649,1.0
+106,Thyroid Disease,0.9585477,KMeans,0.22317597,10,KMeans,0.88648649,1.0
+107,,,,,,,,
+108,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
+109,Landsat Satellite,0.014161229,Linear,0.71794872,1,Linear,0.71794872,1.0
+110,Pen-Based Recognition of Handwritten Text,0.03515911,KMeans,0.88648649,2,KMeans,0.65517241,0.93722369
+111,Statlog Shuttle,0.09687841,KMeans,0.96766744,3,KMeans,0.65517241,0.93722369
+112,Letter Recognition,0.21012712,KMeans,0.44545455,4,KMeans,0.65517241,0.93722369
+113,nyc_taxi.csv,0.21161652,Linear,0.25,5,KMeans,0.65517241,0.93722369
+114,Object Images,0.37196612,Gaussian,0.06772229,6,KMeans,0.65517241,0.93722369
+115,Pen-Based Recognition of Handwritten Text (Local),0.38876188,KMeans,0.52631579,7,KMeans,0.65517241,0.93722369
+116,ec2_cpu_utilization_c6585a.csv,0.60419595,Linear,0.0,8,KMeans,0.65517241,0.93722369
+117,art_increase_spike_density.csv,0.6720144,KMeans,0.15384615,9,KMeans,0.65517241,0.93722369
+118,Thyroid Disease,0.961964,KMeans,0.22317597,10,KMeans,0.65517241,0.93722369
+119,,,,,,,,
+120,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
+121,Landsat Satellite,0.03824663,Linear,0.71794872,1,Linear,0.14285714,0.34285714
+122,Pen-Based Recognition of Handwritten Text,0.060770273,KMeans,0.88648649,2,KMeans,0.8,1.0
+123,nyc_taxi.csv,0.08605337,Linear,0.25,3,Linear,0.14285714,0.34285714
+124,Statlog Shuttle,0.11232984,KMeans,0.96766744,4,KMeans,0.8,1.0
+125,Letter Recognition,0.23900163,KMeans,0.44545455,5,KMeans,0.8,1.0
+126,Object Images,0.28813696,Gaussian,0.06772229,6,KMeans,0.8,1.0
+127,Pen-Based Recognition of Handwritten Text (Local),0.39881527,KMeans,0.52631579,7,KMeans,0.8,1.0
+128,ec2_cpu_utilization_c6585a.csv,0.6154783,Linear,0.0,8,KMeans,0.8,1.0
+129,art_increase_spike_density.csv,0.6268759,KMeans,0.15384615,9,KMeans,0.8,1.0
+130,Thyroid Disease,1.0056255,KMeans,0.22317597,10,KMeans,0.8,1.0
+131,,,,,,,,
+132,exchange-3_cpm_results.csv,0,Linear,1.0,0,Linear,1.0,1
+133,nyc_taxi.csv,0.087726,Linear,0.25,1,Linear,1.0,1.0
+134,Landsat Satellite,0.10491824,Linear,0.71794872,2,Linear,1.0,1.0
+135,Pen-Based Recognition of Handwritten Text,0.12188661,KMeans,0.88648649,3,Linear,1.0,1.0
+136,Statlog Shuttle,0.18346262,KMeans,0.96766744,4,KMeans,1.0,1.0
+137,Letter Recognition,0.26500952,KMeans,0.44545455,5,KMeans,1.0,1.0
+138,Object Images,0.35034692,Gaussian,0.06772229,6,KMeans,1.0,1.0
+139,Pen-Based Recognition of Handwritten Text (Local),0.4218316,KMeans,0.52631579,7,KMeans,1.0,1.0
+140,ec2_cpu_utilization_c6585a.csv,0.5829171,Linear,0.0,8,KMeans,1.0,1.0
+141,art_increase_spike_density.csv,0.6592414,KMeans,0.15384615,9,KMeans,1.0,1.0
+142,Thyroid Disease,0.99643505,KMeans,0.22317597,10,KMeans,1.0,1.0
+143,,,,,,,,
+144,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
+145,Landsat Satellite,0.05742371,Linear,0.71794872,1,Linear,0.4,1.0
+146,nyc_taxi.csv,0.08676767,Linear,0.25,2,Linear,0.4,1.0
+147,Pen-Based Recognition of Handwritten Text,0.10076702,KMeans,0.88648649,3,Linear,0.4,1.0
+148,Statlog Shuttle,0.14448464,KMeans,0.96766744,4,KMeans,0.4,1.0
+149,Letter Recognition,0.24883032,KMeans,0.44545455,5,KMeans,0.4,1.0
+150,Pen-Based Recognition of Handwritten Text (Local),0.3284676,KMeans,0.52631579,6,KMeans,0.4,1.0
+151,Object Images,0.3974594,Gaussian,0.06772229,7,KMeans,0.4,1.0
+152,ec2_cpu_utilization_c6585a.csv,0.6129664,Linear,0.0,8,KMeans,0.4,1.0
+153,art_increase_spike_density.csv,0.62977785,KMeans,0.15384615,9,KMeans,0.4,1.0
+154,Thyroid Disease,1.0615135,KMeans,0.22317597,10,KMeans,0.4,1.0
+155,,,,,,,,
+156,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+157,nyc_taxi.csv,0.061906576,Linear,0.25,1,Linear,0.57142857,0.9047619
+158,Landsat Satellite,0.06363952,Linear,0.71794872,2,Linear,0.57142857,0.9047619
+159,Pen-Based Recognition of Handwritten Text,0.089331985,KMeans,0.88648649,3,Linear,0.57142857,0.9047619
+160,Statlog Shuttle,0.13957131,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+161,Letter Recognition,0.2525487,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+162,Pen-Based Recognition of Handwritten Text (Local),0.3465886,KMeans,0.52631579,6,KMeans,0.66666667,1.0
+163,Object Images,0.3660637,Gaussian,0.06772229,7,KMeans,0.66666667,1.0
+164,ec2_cpu_utilization_c6585a.csv,0.6119666,Linear,0.0,8,KMeans,0.66666667,1.0
+165,art_increase_spike_density.csv,0.62409455,KMeans,0.15384615,9,KMeans,0.66666667,1.0
+166,Thyroid Disease,0.99250627,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+167,,,,,,,,
+168,speed_7578.csv,0,KMeans,0.75,0,KMeans,0.75,1
+169,nyc_taxi.csv,0.070409656,Linear,0.25,1,Linear,0.4,0.65
+170,Landsat Satellite,0.09114301,Linear,0.71794872,2,Linear,0.4,0.65
+171,Pen-Based Recognition of Handwritten Text,0.1234833,KMeans,0.88648649,3,Linear,0.4,0.65
+172,Statlog Shuttle,0.16060913,KMeans,0.96766744,4,KMeans,0.75,1.0
+173,Letter Recognition,0.27466404,KMeans,0.44545455,5,KMeans,0.75,1.0
+174,Pen-Based Recognition of Handwritten Text (Local),0.39779472,KMeans,0.52631579,6,KMeans,0.75,1.0
+175,Object Images,0.4034145,Gaussian,0.06772229,7,KMeans,0.75,1.0
+176,art_increase_spike_density.csv,0.63323474,KMeans,0.15384615,8,KMeans,0.75,1.0
+177,ec2_cpu_utilization_c6585a.csv,0.635556,Linear,0.0,9,KMeans,0.75,1.0
+178,Thyroid Disease,0.9509475,KMeans,0.22317597,10,KMeans,0.75,1.0
+179,,,,,,,,
+180,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+181,Landsat Satellite,0.03317821,Linear,0.71794872,1,Linear,0.125,0.45833333
+182,Pen-Based Recognition of Handwritten Text,0.09081757,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+183,nyc_taxi.csv,0.09890056,Linear,0.25,3,Linear,0.125,0.45833333
+184,Statlog Shuttle,0.14520466,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+185,Letter Recognition,0.24033761,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+186,Object Images,0.31142235,Gaussian,0.06772229,6,KMeans,0.66666667,1.0
+187,Pen-Based Recognition of Handwritten Text (Local),0.3597746,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+188,ec2_cpu_utilization_c6585a.csv,0.61708057,Linear,0.0,8,KMeans,0.66666667,1.0
+189,art_increase_spike_density.csv,0.6408457,KMeans,0.15384615,9,KMeans,0.66666667,1.0
+190,Thyroid Disease,0.9615687,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+191,,,,,,,,
+192,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
+193,Landsat Satellite,0.044162035,Linear,0.71794872,1,Linear,0.4,0.9
+194,Pen-Based Recognition of Handwritten Text,0.06254208,KMeans,0.88648649,2,KMeans,0.5,1.0
+195,nyc_taxi.csv,0.0956856,Linear,0.25,3,Linear,0.4,0.9
+196,Statlog Shuttle,0.1288929,KMeans,0.96766744,4,KMeans,0.5,1.0
+197,Letter Recognition,0.24838352,KMeans,0.44545455,5,KMeans,0.5,1.0
+198,Object Images,0.26762402,Gaussian,0.06772229,6,KMeans,0.5,1.0
+199,Pen-Based Recognition of Handwritten Text (Local),0.4257133,KMeans,0.52631579,7,KMeans,0.5,1.0
+200,ec2_cpu_utilization_c6585a.csv,0.5659442,Linear,0.0,8,KMeans,0.5,1.0
+201,art_increase_spike_density.csv,0.6923123,KMeans,0.15384615,9,KMeans,0.5,1.0
+202,Thyroid Disease,0.86329746,KMeans,0.22317597,10,KMeans,0.5,1.0
+203,,,,,,,,
+204,exchange-4_cpm_results.csv,0,KMeans,0.75,0,KMeans,0.75,1
+205,nyc_taxi.csv,0.025701761,Linear,0.25,1,Linear,0.66666667,0.91666667
+206,Landsat Satellite,0.061947465,Linear,0.71794872,2,Linear,0.66666667,0.91666667
+207,Pen-Based Recognition of Handwritten Text,0.10565829,KMeans,0.88648649,3,Linear,0.66666667,0.91666667
+208,Statlog Shuttle,0.1634103,KMeans,0.96766744,4,KMeans,0.75,1.0
+209,Letter Recognition,0.25406277,KMeans,0.44545455,5,KMeans,0.75,1.0
+210,Object Images,0.39854288,Gaussian,0.06772229,6,KMeans,0.75,1.0
+211,Pen-Based Recognition of Handwritten Text (Local),0.40314162,KMeans,0.52631579,7,KMeans,0.75,1.0
+212,ec2_cpu_utilization_c6585a.csv,0.5576786,Linear,0.0,8,KMeans,0.75,1.0
+213,art_increase_spike_density.csv,0.68423647,KMeans,0.15384615,9,KMeans,0.75,1.0
+214,Thyroid Disease,0.9240078,KMeans,0.22317597,10,KMeans,0.75,1.0
+215,,,,,,,,
+216,TravelTime_387.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+217,Landsat Satellite,0.079936504,Linear,0.71794872,1,Linear,0.5,0.83333333
+218,Pen-Based Recognition of Handwritten Text,0.10831666,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+219,nyc_taxi.csv,0.196046,Linear,0.25,3,Linear,0.5,0.83333333
+220,Statlog Shuttle,0.20538151,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+221,Letter Recognition,0.2640624,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+222,Object Images,0.33502316,Gaussian,0.06772229,6,KMeans,0.66666667,1.0
+223,Pen-Based Recognition of Handwritten Text (Local),0.4198637,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+224,ec2_cpu_utilization_c6585a.csv,0.54401195,Linear,0.0,8,KMeans,0.66666667,1.0
+225,art_increase_spike_density.csv,0.7187325,KMeans,0.15384615,9,KMeans,0.66666667,1.0
+226,Thyroid Disease,0.8221086,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+227,,,,,,,,
+228,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
+229,Pen-Based Recognition of Handwritten Text,0.072289824,KMeans,0.88648649,1,KMeans,0.0,1.0
+230,Landsat Satellite,0.076832056,Linear,0.71794872,2,KMeans,0.0,1.0
+231,Statlog Shuttle,0.15489829,KMeans,0.96766744,3,KMeans,0.0,1.0
+232,nyc_taxi.csv,0.16430676,Linear,0.25,4,KMeans,0.0,1.0
+233,Letter Recognition,0.25405395,KMeans,0.44545455,5,KMeans,0.0,1.0
+234,Object Images,0.31646132,Gaussian,0.06772229,6,KMeans,0.0,1.0
+235,Pen-Based Recognition of Handwritten Text (Local),0.4607278,KMeans,0.52631579,7,KMeans,0.0,1.0
+236,ec2_cpu_utilization_c6585a.csv,0.54908824,Linear,0.0,8,KMeans,0.0,1.0
+237,art_increase_spike_density.csv,0.6948236,KMeans,0.15384615,9,KMeans,0.0,1.0
+238,Thyroid Disease,0.9272051,KMeans,0.22317597,10,KMeans,0.0,1.0
+239,,,,,,,,
+240,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
+241,Landsat Satellite,0.071817756,Linear,0.71794872,1,Linear,0.00075245,0.9999179
+242,Pen-Based Recognition of Handwritten Text,0.085576415,KMeans,0.88648649,2,KMeans,0.00075287,0.99991832
+243,Statlog Shuttle,0.15524685,KMeans,0.96766744,3,KMeans,0.00075287,0.99991832
+244,Letter Recognition,0.26643026,KMeans,0.44545455,4,KMeans,0.00075287,0.99991832
+245,nyc_taxi.csv,0.26836288,Linear,0.25,5,KMeans,0.00075287,0.99991832
+246,Object Images,0.344512,Gaussian,0.06772229,6,KMeans,0.00075287,0.99991832
+247,Pen-Based Recognition of Handwritten Text (Local),0.46254182,KMeans,0.52631579,7,KMeans,0.00075287,0.99991832
+248,ec2_cpu_utilization_c6585a.csv,0.55795896,Linear,0.0,8,KMeans,0.00075287,0.99991832
+249,art_increase_spike_density.csv,0.76474154,KMeans,0.15384615,9,KMeans,0.00075287,0.99991832
+250,Thyroid Disease,0.81541574,KMeans,0.22317597,10,KMeans,0.00075287,0.99991832
+251,,,,,,,,
+252,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
+253,Landsat Satellite,0.06390655,Linear,0.71794872,1,Linear,0.66666667,0.66666667
+254,Pen-Based Recognition of Handwritten Text,0.08376491,KMeans,0.88648649,2,KMeans,1.0,1.0
+255,Statlog Shuttle,0.14868522,KMeans,0.96766744,3,KMeans,1.0,1.0
+256,nyc_taxi.csv,0.22882152,Linear,0.25,4,KMeans,1.0,1.0
+257,Letter Recognition,0.25888467,KMeans,0.44545455,5,KMeans,1.0,1.0
+258,Object Images,0.33393276,Gaussian,0.06772229,6,KMeans,1.0,1.0
+259,Pen-Based Recognition of Handwritten Text (Local),0.4221573,KMeans,0.52631579,7,KMeans,1.0,1.0
+260,ec2_cpu_utilization_c6585a.csv,0.6004658,Linear,0.0,8,KMeans,1.0,1.0
+261,art_increase_spike_density.csv,0.6967259,KMeans,0.15384615,9,KMeans,1.0,1.0
+262,Thyroid Disease,0.79947877,KMeans,0.22317597,10,KMeans,1.0,1.0
+263,,,,,,,,
+264,nyc_taxi.csv,0,Linear,0.25,0,Linear,0.25,1
+265,Landsat Satellite,0.06030655,Linear,0.71794872,1,Linear,0.25,1.0
+266,Pen-Based Recognition of Handwritten Text,0.08827746,KMeans,0.88648649,2,KMeans,0.25,1.0
+267,nyc_taxi.csv,0.09217811,Linear,0.25,3,Linear,0.25,1.0
+268,Statlog Shuttle,0.18390071,KMeans,0.96766744,4,KMeans,0.25,1.0
+269,Letter Recognition,0.23437679,KMeans,0.44545455,5,KMeans,0.25,1.0
+270,Object Images,0.34737837,Gaussian,0.06772229,6,KMeans,0.25,1.0
+271,Pen-Based Recognition of Handwritten Text (Local),0.41200113,KMeans,0.52631579,7,KMeans,0.25,1.0
+272,ec2_cpu_utilization_c6585a.csv,0.5674062,Linear,0.0,8,KMeans,0.25,1.0
+273,art_increase_spike_density.csv,0.67349035,KMeans,0.15384615,9,KMeans,0.25,1.0
+274,Thyroid Disease,0.86524296,KMeans,0.22317597,10,KMeans,0.25,1.0
+275,,,,,,,,
+276,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
+277,Landsat Satellite,0.02100885,Linear,0.71794872,1,Linear,0.5,0.92857143
+278,Pen-Based Recognition of Handwritten Text,0.032824516,KMeans,0.88648649,2,KMeans,0.57142857,1.0
+279,Statlog Shuttle,0.095607996,KMeans,0.96766744,3,KMeans,0.57142857,1.0
+280,nyc_taxi.csv,0.16087365,Linear,0.25,4,KMeans,0.57142857,1.0
+281,Letter Recognition,0.20963717,KMeans,0.44545455,5,KMeans,0.57142857,1.0
+282,Pen-Based Recognition of Handwritten Text (Local),0.39751112,KMeans,0.52631579,6,KMeans,0.57142857,1.0
+283,Object Images,0.41313994,Gaussian,0.06772229,7,KMeans,0.57142857,1.0
+284,ec2_cpu_utilization_c6585a.csv,0.619908,Linear,0.0,8,KMeans,0.57142857,1.0
+285,art_increase_spike_density.csv,0.63347894,KMeans,0.15384615,9,KMeans,0.57142857,1.0
+286,Thyroid Disease,0.9386157,KMeans,0.22317597,10,KMeans,0.57142857,1.0
+287,,,,,,,,
+288,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
+289,nyc_taxi.csv,0.08174622,Linear,0.25,1,Linear,0.0,0.98
+290,Landsat Satellite,0.08677554,Linear,0.71794872,2,Linear,0.0,0.98
+291,Pen-Based Recognition of Handwritten Text,0.09495163,KMeans,0.88648649,3,Linear,0.0,0.98
+292,Statlog Shuttle,0.17526722,KMeans,0.96766744,4,KMeans,0.02,1.0
+293,Letter Recognition,0.27214408,KMeans,0.44545455,5,KMeans,0.02,1.0
+294,Object Images,0.39873135,Gaussian,0.06772229,6,KMeans,0.02,1.0
+295,Pen-Based Recognition of Handwritten Text (Local),0.41252577,KMeans,0.52631579,7,KMeans,0.02,1.0
+296,ec2_cpu_utilization_c6585a.csv,0.5790076,Linear,0.0,8,KMeans,0.02,1.0
+297,art_increase_spike_density.csv,0.6806228,KMeans,0.15384615,9,KMeans,0.02,1.0
+298,Thyroid Disease,0.8468385,KMeans,0.22317597,10,KMeans,0.02,1.0
+299,,,,,,,,
+300,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
+301,Landsat Satellite,0.01132071,Linear,0.71794872,1,Linear,0.5,1.0
+302,Pen-Based Recognition of Handwritten Text,0.03441286,KMeans,0.88648649,2,KMeans,0.5,1.0
+303,nyc_taxi.csv,0.040216684,Linear,0.25,3,Linear,0.5,1.0
+304,Statlog Shuttle,0.06827736,KMeans,0.96766744,4,KMeans,0.5,1.0
+305,Letter Recognition,0.1979897,KMeans,0.44545455,5,KMeans,0.5,1.0
+306,Pen-Based Recognition of Handwritten Text (Local),0.3395356,KMeans,0.52631579,6,KMeans,0.5,1.0
+307,Object Images,0.42577434,Gaussian,0.06772229,7,KMeans,0.5,1.0
+308,art_increase_spike_density.csv,0.59273666,KMeans,0.15384615,8,KMeans,0.5,1.0
+309,ec2_cpu_utilization_c6585a.csv,0.66109383,Linear,0.0,9,KMeans,0.5,1.0
+310,Thyroid Disease,1.0197874,KMeans,0.22317597,10,KMeans,0.5,1.0
+311,,,,,,,,
+312,TravelTime_451.csv,0,KMeans,0.4,0,KMeans,0.4,1
+313,Landsat Satellite,0.08122921,Linear,0.71794872,1,Linear,0.18181818,0.7818181799999999
+314,Pen-Based Recognition of Handwritten Text,0.11528635,KMeans,0.88648649,2,KMeans,0.4,1.0
+315,nyc_taxi.csv,0.16592813,Linear,0.25,3,Linear,0.18181818,0.7818181799999999
+316,Statlog Shuttle,0.19325364,KMeans,0.96766744,4,KMeans,0.4,1.0
+317,Letter Recognition,0.2672329,KMeans,0.44545455,5,KMeans,0.4,1.0
+318,Object Images,0.30972648,Gaussian,0.06772229,6,KMeans,0.4,1.0
+319,Pen-Based Recognition of Handwritten Text (Local),0.40849352,KMeans,0.52631579,7,KMeans,0.4,1.0
+320,ec2_cpu_utilization_c6585a.csv,0.5712216,Linear,0.0,8,KMeans,0.4,1.0
+321,art_increase_spike_density.csv,0.6695125,KMeans,0.15384615,9,KMeans,0.4,1.0
+322,Thyroid Disease,0.844656,KMeans,0.22317597,10,KMeans,0.4,1.0
+323,,,,,,,,
+324,Twitter_volume_AAPL.csv,0,Linear,0.4,0,Linear,0.4,1
+325,nyc_taxi.csv,0.08314049,Linear,0.25,1,Linear,0.4,1.0
+326,Landsat Satellite,0.092249155,Linear,0.71794872,2,Linear,0.4,1.0
+327,Pen-Based Recognition of Handwritten Text,0.13299072,KMeans,0.88648649,3,Linear,0.4,1.0
+328,Statlog Shuttle,0.1889708,KMeans,0.96766744,4,KMeans,0.4,1.0
+329,Letter Recognition,0.27077854,KMeans,0.44545455,5,KMeans,0.4,1.0
+330,Pen-Based Recognition of Handwritten Text (Local),0.37996125,KMeans,0.52631579,6,KMeans,0.4,1.0
+331,Object Images,0.41743064,Gaussian,0.06772229,7,KMeans,0.4,1.0
+332,ec2_cpu_utilization_c6585a.csv,0.576226,Linear,0.0,8,KMeans,0.4,1.0
+333,art_increase_spike_density.csv,0.6619575,KMeans,0.15384615,9,KMeans,0.4,1.0
+334,Thyroid Disease,0.95662737,KMeans,0.22317597,10,KMeans,0.4,1.0
+335,,,,,,,,
+336,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+337,nyc_taxi.csv,0.027852058,Linear,0.25,1,Linear,0.66666667,1.0
+338,Landsat Satellite,0.051265955,Linear,0.71794872,2,Linear,0.66666667,1.0
+339,Pen-Based Recognition of Handwritten Text,0.075779796,KMeans,0.88648649,3,Linear,0.66666667,1.0
+340,Statlog Shuttle,0.13250518,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+341,Letter Recognition,0.22333395,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+342,Pen-Based Recognition of Handwritten Text (Local),0.34193158,KMeans,0.52631579,6,KMeans,0.66666667,1.0
+343,Object Images,0.4572692,Gaussian,0.06772229,7,KMeans,0.66666667,1.0
+344,art_increase_spike_density.csv,0.6100389,KMeans,0.15384615,8,KMeans,0.66666667,1.0
+345,ec2_cpu_utilization_c6585a.csv,0.6342304,Linear,0.0,9,KMeans,0.66666667,1.0
+346,Thyroid Disease,0.9816096,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+347,,,,,,,,
+348,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+349,Landsat Satellite,0.071025014,Linear,0.71794872,1,Linear,0.66666667,1.0
+350,nyc_taxi.csv,0.072366476,Linear,0.25,2,Linear,0.66666667,1.0
+351,Pen-Based Recognition of Handwritten Text,0.11186242,KMeans,0.88648649,3,Linear,0.66666667,1.0
+352,Statlog Shuttle,0.1613363,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+353,Letter Recognition,0.24650455,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+354,Pen-Based Recognition of Handwritten Text (Local),0.39945292,KMeans,0.52631579,6,KMeans,0.66666667,1.0
+355,Object Images,0.4108771,Gaussian,0.06772229,7,KMeans,0.66666667,1.0
+356,ec2_cpu_utilization_c6585a.csv,0.62214804,Linear,0.0,8,KMeans,0.66666667,1.0
+357,art_increase_spike_density.csv,0.6224156,KMeans,0.15384615,9,KMeans,0.66666667,1.0
+358,Thyroid Disease,0.97580194,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+359,,,,,,,,
+360,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+361,Landsat Satellite,0.070569396,Linear,0.71794872,1,Linear,0.00312012,0.33645344999999993
+362,nyc_taxi.csv,0.11611533,Linear,0.25,2,Linear,0.00312012,0.33645344999999993
+363,Pen-Based Recognition of Handwritten Text,0.11894679,KMeans,0.88648649,3,Linear,0.00312012,0.33645344999999993
+364,Statlog Shuttle,0.19090652,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+365,Letter Recognition,0.2508576,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+366,Object Images,0.3760208,Gaussian,0.06772229,6,KMeans,0.66666667,1.0
+367,Pen-Based Recognition of Handwritten Text (Local),0.39702678,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+368,ec2_cpu_utilization_c6585a.csv,0.5952306,Linear,0.0,8,KMeans,0.66666667,1.0
+369,art_increase_spike_density.csv,0.65733105,KMeans,0.15384615,9,KMeans,0.66666667,1.0
+370,Thyroid Disease,0.95797944,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+371,,,,,,,,
+372,Twitter_volume_UPS.csv,0,Linear,0.28571429,0,Linear,0.28571429,1
+373,nyc_taxi.csv,0.017184973,Linear,0.25,1,Linear,0.28571429,1.0
+374,Landsat Satellite,0.13784695,Linear,0.71794872,2,Linear,0.28571429,1.0
+375,Pen-Based Recognition of Handwritten Text,0.15691006,KMeans,0.88648649,3,Linear,0.28571429,1.0
+376,Statlog Shuttle,0.21475685,KMeans,0.96766744,4,KMeans,0.22222222,0.93650793
+377,Letter Recognition,0.30211532,KMeans,0.44545455,5,KMeans,0.22222222,0.93650793
+378,Object Images,0.38507998,Gaussian,0.06772229,6,KMeans,0.22222222,0.93650793
+379,Pen-Based Recognition of Handwritten Text (Local),0.4262972,KMeans,0.52631579,7,KMeans,0.22222222,0.93650793
+380,ec2_cpu_utilization_c6585a.csv,0.58496904,Linear,0.0,8,KMeans,0.22222222,0.93650793
+381,art_increase_spike_density.csv,0.67872727,KMeans,0.15384615,9,KMeans,0.22222222,0.93650793
+382,Thyroid Disease,0.95230794,KMeans,0.22317597,10,KMeans,0.22222222,0.93650793
+383,,,,,,,,
+384,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
+385,Landsat Satellite,0.066789985,Linear,0.71794872,1,Linear,0.00049603,0.970193
+386,nyc_taxi.csv,0.069787025,Linear,0.25,2,Linear,0.00049603,0.970193
+387,Pen-Based Recognition of Handwritten Text,0.11246419,KMeans,0.88648649,3,Linear,0.00049603,0.970193
+388,Statlog Shuttle,0.16126382,KMeans,0.96766744,4,KMeans,0.03030303,1.0
+389,Letter Recognition,0.24738169,KMeans,0.44545455,5,KMeans,0.03030303,1.0
+390,Pen-Based Recognition of Handwritten Text (Local),0.376194,KMeans,0.52631579,6,KMeans,0.03030303,1.0
+391,Object Images,0.42339516,Gaussian,0.06772229,7,KMeans,0.03030303,1.0
+392,ec2_cpu_utilization_c6585a.csv,0.5986947,Linear,0.0,8,KMeans,0.03030303,1.0
+393,art_increase_spike_density.csv,0.64929324,KMeans,0.15384615,9,KMeans,0.03030303,1.0
+394,Thyroid Disease,0.9896039,KMeans,0.22317597,10,KMeans,0.03030303,1.0
+395,,,,,,,,
+396,exchange-2_cpm_results.csv,0,KMeans,0.8,0,KMeans,0.8,1
+397,nyc_taxi.csv,0.042659283,Linear,0.25,1,Linear,0.5,0.7
+398,Landsat Satellite,0.07768011,Linear,0.71794872,2,Linear,0.5,0.7
+399,Pen-Based Recognition of Handwritten Text,0.13445461,KMeans,0.88648649,3,Linear,0.5,0.7
+400,Statlog Shuttle,0.19513357,KMeans,0.96766744,4,KMeans,0.8,1.0
+401,Letter Recognition,0.25653636,KMeans,0.44545455,5,KMeans,0.8,1.0
+402,Pen-Based Recognition of Handwritten Text (Local),0.38754702,KMeans,0.52631579,6,KMeans,0.8,1.0
+403,Object Images,0.40557957,Gaussian,0.06772229,7,KMeans,0.8,1.0
+404,ec2_cpu_utilization_c6585a.csv,0.58990324,Linear,0.0,8,KMeans,0.8,1.0
+405,art_increase_spike_density.csv,0.6580814,KMeans,0.15384615,9,KMeans,0.8,1.0
+406,Thyroid Disease,1.0211891,KMeans,0.22317597,10,KMeans,0.8,1.0
+407,,,,,,,,
+408,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+409,nyc_taxi.csv,0.04960859,Linear,0.25,1,Linear,0.66666667,1.0
+410,Landsat Satellite,0.081310034,Linear,0.71794872,2,Linear,0.66666667,1.0
+411,Pen-Based Recognition of Handwritten Text,0.11489344,KMeans,0.88648649,3,Linear,0.66666667,1.0
+412,Statlog Shuttle,0.14974844,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+413,Letter Recognition,0.25723493,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+414,Pen-Based Recognition of Handwritten Text (Local),0.3372885,KMeans,0.52631579,6,KMeans,0.66666667,1.0
+415,Object Images,0.4427414,Gaussian,0.06772229,7,KMeans,0.66666667,1.0
+416,art_increase_spike_density.csv,0.6101629,KMeans,0.15384615,8,KMeans,0.66666667,1.0
+417,ec2_cpu_utilization_c6585a.csv,0.6261631,Linear,0.0,9,KMeans,0.66666667,1.0
+418,Thyroid Disease,0.985757,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+419,,,,,,,,
+420,speed_6005.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+421,Landsat Satellite,0.031461,Linear,0.71794872,1,Linear,0.66666667,1.0
+422,Pen-Based Recognition of Handwritten Text,0.046171665,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+423,Statlog Shuttle,0.115421414,KMeans,0.96766744,3,KMeans,0.66666667,1.0
+424,nyc_taxi.csv,0.16289258,Linear,0.25,4,KMeans,0.66666667,1.0
+425,Letter Recognition,0.23099291,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+426,Object Images,0.28491426,Gaussian,0.06772229,6,KMeans,0.66666667,1.0
+427,Pen-Based Recognition of Handwritten Text (Local),0.41298366,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+428,ec2_cpu_utilization_c6585a.csv,0.5867206,Linear,0.0,8,KMeans,0.66666667,1.0
+429,art_increase_spike_density.csv,0.6624966,KMeans,0.15384615,9,KMeans,0.66666667,1.0
+430,Thyroid Disease,0.8791183,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+431,,,,,,,,
+432,Twitter_volume_KO.csv,0,Linear,0.8,0,Linear,0.8,1
+433,Landsat Satellite,0.10637677,Linear,0.71794872,1,Linear,0.8,1.0
+434,nyc_taxi.csv,0.14082527,Linear,0.25,2,Linear,0.8,1.0
+435,Pen-Based Recognition of Handwritten Text,0.15594232,KMeans,0.88648649,3,Linear,0.8,1.0
+436,Statlog Shuttle,0.19468212,KMeans,0.96766744,4,KMeans,0.8,1.0
+437,Letter Recognition,0.2989123,KMeans,0.44545455,5,KMeans,0.8,1.0
+438,Object Images,0.3677498,Gaussian,0.06772229,6,KMeans,0.8,1.0
+439,Pen-Based Recognition of Handwritten Text (Local),0.40678167,KMeans,0.52631579,7,KMeans,0.8,1.0
+440,ec2_cpu_utilization_c6585a.csv,0.603603,Linear,0.0,8,KMeans,0.8,1.0
+441,art_increase_spike_density.csv,0.6442114,KMeans,0.15384615,9,KMeans,0.8,1.0
+442,Thyroid Disease,0.8893174,KMeans,0.22317597,10,KMeans,0.8,1.0
+443,,,,,,,,
+444,Twitter_volume_GOOG.csv,0,Linear,0.4,0,Linear,0.4,1
+445,Landsat Satellite,0.026061893,Linear,0.71794872,1,Linear,0.4,1.0
+446,Pen-Based Recognition of Handwritten Text,0.050969243,KMeans,0.88648649,2,KMeans,0.4,1.0
+447,nyc_taxi.csv,0.06479275,Linear,0.25,3,Linear,0.4,1.0
+448,Statlog Shuttle,0.11220777,KMeans,0.96766744,4,KMeans,0.4,1.0
+449,Letter Recognition,0.22506821,KMeans,0.44545455,5,KMeans,0.4,1.0
+450,Object Images,0.34180105,Gaussian,0.06772229,6,KMeans,0.4,1.0
+451,Pen-Based Recognition of Handwritten Text (Local),0.39158297,KMeans,0.52631579,7,KMeans,0.4,1.0
+452,ec2_cpu_utilization_c6585a.csv,0.6017593,Linear,0.0,8,KMeans,0.4,1.0
+453,art_increase_spike_density.csv,0.6574003,KMeans,0.15384615,9,KMeans,0.4,1.0
+454,Thyroid Disease,0.9534215,KMeans,0.22317597,10,KMeans,0.4,1.0
+455,,,,,,,,
+456,exchange-2_cpc_results.csv,0,KMeans,0.33333333,0,KMeans,0.33333333,1
+457,Landsat Satellite,0.050085664,Linear,0.71794872,1,Linear,0.06666667,0.73333334
+458,Pen-Based Recognition of Handwritten Text,0.06600273,KMeans,0.88648649,2,KMeans,0.33333333,1.0
+459,nyc_taxi.csv,0.12542069,Linear,0.25,3,Linear,0.06666667,0.73333334
+460,Statlog Shuttle,0.13328552,KMeans,0.96766744,4,KMeans,0.33333333,1.0
+461,Letter Recognition,0.21847558,KMeans,0.44545455,5,KMeans,0.33333333,1.0
+462,Pen-Based Recognition of Handwritten Text (Local),0.38027644,KMeans,0.52631579,6,KMeans,0.33333333,1.0
+463,Object Images,0.41566563,Gaussian,0.06772229,7,KMeans,0.33333333,1.0
+464,art_increase_spike_density.csv,0.61532617,KMeans,0.15384615,8,KMeans,0.33333333,1.0
+465,ec2_cpu_utilization_c6585a.csv,0.6178522,Linear,0.0,9,KMeans,0.33333333,1.0
+466,Thyroid Disease,0.98863626,KMeans,0.22317597,10,KMeans,0.33333333,1.0
+467,,,,,,,,
+468,Twitter_volume_CVS.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+469,Landsat Satellite,0.06463981,Linear,0.71794872,1,Linear,0.66666667,1.0
+470,nyc_taxi.csv,0.0874176,Linear,0.25,2,Linear,0.66666667,1.0
+471,Pen-Based Recognition of Handwritten Text,0.10136676,KMeans,0.88648649,3,Linear,0.66666667,1.0
+472,Statlog Shuttle,0.1516769,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+473,Letter Recognition,0.25806844,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+474,Object Images,0.289258,Gaussian,0.06772229,6,KMeans,0.66666667,1.0
+475,Pen-Based Recognition of Handwritten Text (Local),0.38192546,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+476,ec2_cpu_utilization_c6585a.csv,0.6221967,Linear,0.0,8,KMeans,0.66666667,1.0
+477,art_increase_spike_density.csv,0.6298945,KMeans,0.15384615,9,KMeans,0.66666667,1.0
+478,Thyroid Disease,0.957845,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+479,,,,,,,,
+480,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
+481,Landsat Satellite,0.11515796,Linear,0.71794872,1,Linear,0.00110132,0.99334938
+482,Pen-Based Recognition of Handwritten Text,0.13393903,KMeans,0.88648649,2,KMeans,0.00775194,1.0
+483,Statlog Shuttle,0.19762886,KMeans,0.96766744,3,KMeans,0.00775194,1.0
+484,nyc_taxi.csv,0.20237207,Linear,0.25,4,KMeans,0.00775194,1.0
+485,Letter Recognition,0.3084768,KMeans,0.44545455,5,KMeans,0.00775194,1.0
+486,Object Images,0.3131019,Gaussian,0.06772229,6,KMeans,0.00775194,1.0
+487,Pen-Based Recognition of Handwritten Text (Local),0.41309178,KMeans,0.52631579,7,KMeans,0.00775194,1.0
+488,ec2_cpu_utilization_c6585a.csv,0.5687649,Linear,0.0,8,KMeans,0.00775194,1.0
+489,art_increase_spike_density.csv,0.6658208,KMeans,0.15384615,9,KMeans,0.00775194,1.0
+490,Thyroid Disease,0.88977957,KMeans,0.22317597,10,KMeans,0.00775194,1.0
+491,,,,,,,,
+492,occupancy_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+493,Landsat Satellite,0.077387094,Linear,0.71794872,1,Linear,1.0,1.0
+494,Pen-Based Recognition of Handwritten Text,0.103236794,KMeans,0.88648649,2,KMeans,1.0,1.0
+495,nyc_taxi.csv,0.104252815,Linear,0.25,3,Linear,1.0,1.0
+496,Statlog Shuttle,0.1955576,KMeans,0.96766744,4,KMeans,1.0,1.0
+497,Letter Recognition,0.26209605,KMeans,0.44545455,5,KMeans,1.0,1.0
+498,Object Images,0.34824264,Gaussian,0.06772229,6,KMeans,1.0,1.0
+499,Pen-Based Recognition of Handwritten Text (Local),0.40608335,KMeans,0.52631579,7,KMeans,1.0,1.0
+500,ec2_cpu_utilization_c6585a.csv,0.5695783,Linear,0.0,8,KMeans,1.0,1.0
+501,art_increase_spike_density.csv,0.7040951,KMeans,0.15384615,9,KMeans,1.0,1.0
+502,Thyroid Disease,0.83943236,KMeans,0.22317597,10,KMeans,1.0,1.0
+503,,,,,,,,
+504,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
+505,nyc_taxi.csv,0.030066848,Linear,0.25,1,Linear,0.01960784,0.79738562
+506,Landsat Satellite,0.030134916,Linear,0.71794872,2,Linear,0.01960784,0.79738562
+507,Pen-Based Recognition of Handwritten Text,0.03505957,KMeans,0.88648649,3,Linear,0.01960784,0.79738562
+508,Statlog Shuttle,0.08978176,KMeans,0.96766744,4,KMeans,0.22222222,1.0
+509,Letter Recognition,0.21082842,KMeans,0.44545455,5,KMeans,0.22222222,1.0
+510,Pen-Based Recognition of Handwritten Text (Local),0.4026209,KMeans,0.52631579,6,KMeans,0.22222222,1.0
+511,Object Images,0.4245186,Gaussian,0.06772229,7,KMeans,0.22222222,1.0
+512,art_increase_spike_density.csv,0.6201117,KMeans,0.15384615,8,KMeans,0.22222222,1.0
+513,ec2_cpu_utilization_c6585a.csv,0.62695634,Linear,0.0,9,KMeans,0.22222222,1.0
+514,Thyroid Disease,1.0852422,KMeans,0.22317597,10,KMeans,0.22222222,1.0
+515,,,,,,,,
+516,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
+517,nyc_taxi.csv,0.034096956,Linear,0.25,1,Linear,0.003367,1.0
+518,Landsat Satellite,0.039071202,Linear,0.71794872,2,Linear,0.003367,1.0
+519,Pen-Based Recognition of Handwritten Text,0.07446873,KMeans,0.88648649,3,Linear,0.003367,1.0
+520,Statlog Shuttle,0.12078893,KMeans,0.96766744,4,KMeans,0.00212993,0.99876293
+521,Letter Recognition,0.23392022,KMeans,0.44545455,5,KMeans,0.00212993,0.99876293
+522,Pen-Based Recognition of Handwritten Text (Local),0.35064805,KMeans,0.52631579,6,KMeans,0.00212993,0.99876293
+523,Object Images,0.41424656,Gaussian,0.06772229,7,KMeans,0.00212993,0.99876293
+524,art_increase_spike_density.csv,0.5954967,KMeans,0.15384615,8,KMeans,0.00212993,0.99876293
+525,ec2_cpu_utilization_c6585a.csv,0.6616831,Linear,0.0,9,KMeans,0.00212993,0.99876293
+526,Thyroid Disease,1.0125663,KMeans,0.22317597,10,KMeans,0.00212993,0.99876293
+527,,,,,,,,
+528,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
+529,nyc_taxi.csv,0.0034639835,Linear,0.25,1,Linear,0.02222222,0.77222222
+530,Landsat Satellite,0.036347628,Linear,0.71794872,2,Linear,0.02222222,0.77222222
+531,Pen-Based Recognition of Handwritten Text,0.0648675,KMeans,0.88648649,3,Linear,0.02222222,0.77222222
+532,Statlog Shuttle,0.13216424,KMeans,0.96766744,4,KMeans,0.25,1.0
+533,Letter Recognition,0.22121298,KMeans,0.44545455,5,KMeans,0.25,1.0
+534,Pen-Based Recognition of Handwritten Text (Local),0.36337328,KMeans,0.52631579,6,KMeans,0.25,1.0
+535,Object Images,0.37667227,Gaussian,0.06772229,7,KMeans,0.25,1.0
+536,ec2_cpu_utilization_c6585a.csv,0.6142405,Linear,0.0,8,KMeans,0.25,1.0
+537,art_increase_spike_density.csv,0.6491354,KMeans,0.15384615,9,KMeans,0.25,1.0
+538,Thyroid Disease,1.0014409,KMeans,0.22317597,10,KMeans,0.25,1.0
+539,,,,,,,,
+540,Twitter_volume_FB.csv,0,Linear,1.0,0,Linear,1.0,1
+541,nyc_taxi.csv,0.017597675,Linear,0.25,1,Linear,1.0,1.0
+542,Landsat Satellite,0.021121144,Linear,0.71794872,2,Linear,1.0,1.0
+543,Pen-Based Recognition of Handwritten Text,0.04971099,KMeans,0.88648649,3,Linear,1.0,1.0
+544,Statlog Shuttle,0.13255501,KMeans,0.96766744,4,KMeans,1.0,1.0
+545,Letter Recognition,0.20646393,KMeans,0.44545455,5,KMeans,1.0,1.0
+546,Object Images,0.3694899,Gaussian,0.06772229,6,KMeans,1.0,1.0
+547,Pen-Based Recognition of Handwritten Text (Local),0.40298367,KMeans,0.52631579,7,KMeans,1.0,1.0
+548,ec2_cpu_utilization_c6585a.csv,0.59609234,Linear,0.0,8,KMeans,1.0,1.0
+549,art_increase_spike_density.csv,0.66530865,KMeans,0.15384615,9,KMeans,1.0,1.0
+550,Thyroid Disease,0.9779304,KMeans,0.22317597,10,KMeans,1.0,1.0
+551,,,,,,,,
+552,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
+553,Landsat Satellite,0.075199485,Linear,0.71794872,1,Linear,0.04,0.88615385
+554,Pen-Based Recognition of Handwritten Text,0.108441114,KMeans,0.88648649,2,KMeans,0.15384615,1.0
+555,nyc_taxi.csv,0.12644899,Linear,0.25,3,Linear,0.04,0.88615385
+556,Statlog Shuttle,0.16235495,KMeans,0.96766744,4,KMeans,0.15384615,1.0
+557,Letter Recognition,0.26763797,KMeans,0.44545455,5,KMeans,0.15384615,1.0
+558,Object Images,0.35978925,Gaussian,0.06772229,6,KMeans,0.15384615,1.0
+559,Pen-Based Recognition of Handwritten Text (Local),0.36544228,KMeans,0.52631579,7,KMeans,0.15384615,1.0
+560,ec2_cpu_utilization_c6585a.csv,0.59507823,Linear,0.0,8,KMeans,0.15384615,1.0
+561,art_increase_spike_density.csv,0.6489773,KMeans,0.15384615,9,KMeans,0.15384615,1.0
+562,Thyroid Disease,0.96007466,KMeans,0.22317597,10,KMeans,0.15384615,1.0
+563,,,,,,,,
+564,occupancy_6005.csv,0,Linear,1.0,0,Linear,1.0,1
+565,nyc_taxi.csv,0.087032914,Linear,0.25,1,Linear,1.0,1.0
+566,Landsat Satellite,0.09041929,Linear,0.71794872,2,Linear,1.0,1.0
+567,Pen-Based Recognition of Handwritten Text,0.11555171,KMeans,0.88648649,3,Linear,1.0,1.0
+568,Statlog Shuttle,0.17569327,KMeans,0.96766744,4,KMeans,1.0,1.0
+569,Letter Recognition,0.2779913,KMeans,0.44545455,5,KMeans,1.0,1.0
+570,Pen-Based Recognition of Handwritten Text (Local),0.37729573,KMeans,0.52631579,6,KMeans,1.0,1.0
+571,Object Images,0.3798406,Gaussian,0.06772229,7,KMeans,1.0,1.0
+572,ec2_cpu_utilization_c6585a.csv,0.59674466,Linear,0.0,8,KMeans,1.0,1.0
+573,art_increase_spike_density.csv,0.6593901,KMeans,0.15384615,9,KMeans,1.0,1.0
+574,Thyroid Disease,0.9290389,KMeans,0.22317597,10,KMeans,1.0,1.0
+575,,,,,,,,
+576,Twitter_volume_IBM.csv,0,Linear,0.5,0,Linear,0.5,1
+577,Landsat Satellite,0.108549476,Linear,0.71794872,1,Linear,0.5,1.0
+578,Pen-Based Recognition of Handwritten Text,0.1359433,KMeans,0.88648649,2,KMeans,0.5,1.0
+579,nyc_taxi.csv,0.14791,Linear,0.25,3,Linear,0.5,1.0
+580,Statlog Shuttle,0.17290533,KMeans,0.96766744,4,KMeans,0.5,1.0
+581,Object Images,0.30589437,Gaussian,0.06772229,5,KMeans,0.5,1.0
+582,Letter Recognition,0.3146448,KMeans,0.44545455,6,KMeans,0.5,1.0
+583,Pen-Based Recognition of Handwritten Text (Local),0.410043,KMeans,0.52631579,7,KMeans,0.5,1.0
+584,ec2_cpu_utilization_c6585a.csv,0.6006124,Linear,0.0,8,KMeans,0.5,1.0
+585,art_increase_spike_density.csv,0.64163125,KMeans,0.15384615,9,KMeans,0.5,1.0
+586,Thyroid Disease,0.9259527,KMeans,0.22317597,10,KMeans,0.5,1.0
+587,,,,,,,,
+588,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
+589,Landsat Satellite,0.0065820217,Linear,0.71794872,1,Linear,0.66666667,0.66666667
+590,Pen-Based Recognition of Handwritten Text,0.036159992,KMeans,0.88648649,2,KMeans,1.0,1.0
+591,Statlog Shuttle,0.087844014,KMeans,0.96766744,3,KMeans,1.0,1.0
+592,nyc_taxi.csv,0.11451566,Linear,0.25,4,KMeans,1.0,1.0
+593,Letter Recognition,0.19027746,KMeans,0.44545455,5,KMeans,1.0,1.0
+594,Pen-Based Recognition of Handwritten Text (Local),0.36921775,KMeans,0.52631579,6,KMeans,1.0,1.0
+595,Object Images,0.43054128,Gaussian,0.06772229,7,KMeans,1.0,1.0
+596,art_increase_spike_density.csv,0.6073277,KMeans,0.15384615,8,KMeans,1.0,1.0
+597,ec2_cpu_utilization_c6585a.csv,0.624892,Linear,0.0,9,KMeans,1.0,1.0
+598,Thyroid Disease,0.9326389,KMeans,0.22317597,10,KMeans,1.0,1.0
+599,,,,,,,,
+600,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
+601,Landsat Satellite,0.08191562,Linear,0.71794872,1,Linear,0.08695652,1.0
+602,Pen-Based Recognition of Handwritten Text,0.10684347,KMeans,0.88648649,2,KMeans,0.08695652,1.0
+603,Statlog Shuttle,0.1853683,KMeans,0.96766744,3,KMeans,0.08695652,1.0
+604,nyc_taxi.csv,0.23565853,Linear,0.25,4,KMeans,0.08695652,1.0
+605,Letter Recognition,0.2588346,KMeans,0.44545455,5,KMeans,0.08695652,1.0
+606,Object Images,0.33128536,Gaussian,0.06772229,6,KMeans,0.08695652,1.0
+607,Pen-Based Recognition of Handwritten Text (Local),0.4563371,KMeans,0.52631579,7,KMeans,0.08695652,1.0
+608,ec2_cpu_utilization_c6585a.csv,0.5604917,Linear,0.0,8,KMeans,0.08695652,1.0
+609,art_increase_spike_density.csv,0.6819872,KMeans,0.15384615,9,KMeans,0.08695652,1.0
+610,Thyroid Disease,0.92030656,KMeans,0.22317597,10,KMeans,0.08695652,1.0
+611,,,,,,,,
+612,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
+613,Landsat Satellite,0.04279852,Linear,0.71794872,1,Linear,0.33333333,0.83333333
+614,nyc_taxi.csv,0.06438029,Linear,0.25,2,Linear,0.33333333,0.83333333
+615,Pen-Based Recognition of Handwritten Text,0.08330858,KMeans,0.88648649,3,Linear,0.33333333,0.83333333
+616,Statlog Shuttle,0.13020527,KMeans,0.96766744,4,KMeans,0.5,1.0
+617,Letter Recognition,0.21171355,KMeans,0.44545455,5,KMeans,0.5,1.0
+618,Pen-Based Recognition of Handwritten Text (Local),0.32387984,KMeans,0.52631579,6,KMeans,0.5,1.0
+619,Object Images,0.4980086,Gaussian,0.06772229,7,KMeans,0.5,1.0
+620,art_increase_spike_density.csv,0.5800481,KMeans,0.15384615,8,KMeans,0.5,1.0
+621,ec2_cpu_utilization_c6585a.csv,0.6734575,Linear,0.0,9,KMeans,0.5,1.0
+622,rds_cpu_utilization_e47b3b.csv,1.0811673,Linear,0.66666667,10,KMeans,0.5,1.0
+623,,,,,,,,
+624,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
+625,nyc_taxi.csv,0.012256503,Linear,0.25,1,Linear,0.02352941,0.98097622
+626,Landsat Satellite,0.016328096,Linear,0.71794872,2,Linear,0.02352941,0.98097622
+627,Pen-Based Recognition of Handwritten Text,0.0473814,KMeans,0.88648649,3,Linear,0.02352941,0.98097622
+628,Statlog Shuttle,0.106754065,KMeans,0.96766744,4,KMeans,0.04255319,1.0
+629,Letter Recognition,0.20858932,KMeans,0.44545455,5,KMeans,0.04255319,1.0
+630,Pen-Based Recognition of Handwritten Text (Local),0.38544965,KMeans,0.52631579,6,KMeans,0.04255319,1.0
+631,Object Images,0.4307903,Gaussian,0.06772229,7,KMeans,0.04255319,1.0
+632,art_increase_spike_density.csv,0.6210635,KMeans,0.15384615,8,KMeans,0.04255319,1.0
+633,ec2_cpu_utilization_c6585a.csv,0.6346561,Linear,0.0,9,KMeans,0.04255319,1.0
+634,Thyroid Disease,0.9559792,KMeans,0.22317597,10,KMeans,0.04255319,1.0
+635,,,,,,,,
+636,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
+637,nyc_taxi.csv,0.05471742,Linear,0.25,1,Linear,0.00416667,0.96495098
+638,Landsat Satellite,0.09721446,Linear,0.71794872,2,Linear,0.00416667,0.96495098
+639,Pen-Based Recognition of Handwritten Text,0.12202084,KMeans,0.88648649,3,Linear,0.00416667,0.96495098
+640,Statlog Shuttle,0.16649544,KMeans,0.96766744,4,KMeans,0.03921569,1.0
+641,Letter Recognition,0.26095307,KMeans,0.44545455,5,KMeans,0.03921569,1.0
+642,Pen-Based Recognition of Handwritten Text (Local),0.37396848,KMeans,0.52631579,6,KMeans,0.03921569,1.0
+643,Object Images,0.40745664,Gaussian,0.06772229,7,KMeans,0.03921569,1.0
+644,art_increase_spike_density.csv,0.5907207,KMeans,0.15384615,8,KMeans,0.03921569,1.0
+645,ec2_cpu_utilization_c6585a.csv,0.6326419,Linear,0.0,9,KMeans,0.03921569,1.0
+646,Thyroid Disease,0.9805182,KMeans,0.22317597,10,KMeans,0.03921569,1.0
+647,,,,,,,,
+648,Twitter_volume_CRM.csv,0,KMeans,0.54545455,0,KMeans,0.54545455,1
+649,Landsat Satellite,0.109794736,Linear,0.71794872,1,Linear,0.5,0.95454545
+650,Pen-Based Recognition of Handwritten Text,0.13082814,KMeans,0.88648649,2,KMeans,0.54545455,1.0
+651,nyc_taxi.csv,0.16295183,Linear,0.25,3,Linear,0.5,0.95454545
+652,Statlog Shuttle,0.18407404,KMeans,0.96766744,4,KMeans,0.54545455,1.0
+653,Letter Recognition,0.29816437,KMeans,0.44545455,5,KMeans,0.54545455,1.0
+654,Object Images,0.33924198,Gaussian,0.06772229,6,KMeans,0.54545455,1.0
+655,Pen-Based Recognition of Handwritten Text (Local),0.41921258,KMeans,0.52631579,7,KMeans,0.54545455,1.0
+656,ec2_cpu_utilization_c6585a.csv,0.584489,Linear,0.0,8,KMeans,0.54545455,1.0
+657,art_increase_spike_density.csv,0.67659134,KMeans,0.15384615,9,KMeans,0.54545455,1.0
+658,Thyroid Disease,0.8663949,KMeans,0.22317597,10,KMeans,0.54545455,1.0
+659,,,,,,,,
+660,exchange-4_cpc_results.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+661,nyc_taxi.csv,0.022498727,Linear,0.25,1,Linear,0.66666667,1.0
+662,Landsat Satellite,0.026560783,Linear,0.71794872,2,Linear,0.66666667,1.0
+663,Pen-Based Recognition of Handwritten Text,0.040396452,KMeans,0.88648649,3,Linear,0.66666667,1.0
+664,Statlog Shuttle,0.09983325,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+665,Letter Recognition,0.20255816,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+666,Pen-Based Recognition of Handwritten Text (Local),0.38227105,KMeans,0.52631579,6,KMeans,0.66666667,1.0
+667,Object Images,0.3953464,Gaussian,0.06772229,7,KMeans,0.66666667,1.0
+668,art_increase_spike_density.csv,0.6247735,KMeans,0.15384615,8,KMeans,0.66666667,1.0
+669,ec2_cpu_utilization_c6585a.csv,0.62960124,Linear,0.0,9,KMeans,0.66666667,1.0
+670,Thyroid Disease,0.93578124,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+671,,,,,,,,
+672,speed_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+673,Landsat Satellite,0.111266255,Linear,0.71794872,1,Linear,1.0,1.0
+674,nyc_taxi.csv,0.1214304,Linear,0.25,2,Linear,1.0,1.0
+675,Pen-Based Recognition of Handwritten Text,0.13095224,KMeans,0.88648649,3,Linear,1.0,1.0
+676,Statlog Shuttle,0.18739188,KMeans,0.96766744,4,KMeans,0.8,0.8
+677,Letter Recognition,0.27931595,KMeans,0.44545455,5,KMeans,0.8,0.8
+678,Object Images,0.36797953,Gaussian,0.06772229,6,KMeans,0.8,0.8
+679,Pen-Based Recognition of Handwritten Text (Local),0.42031252,KMeans,0.52631579,7,KMeans,0.8,0.8
+680,ec2_cpu_utilization_c6585a.csv,0.5846008,Linear,0.0,8,KMeans,0.8,0.8
+681,art_increase_spike_density.csv,0.65357655,KMeans,0.15384615,9,KMeans,0.8,0.8
+682,Thyroid Disease,0.97052515,KMeans,0.22317597,10,KMeans,0.8,0.8
+683,,,,,,,,
+684,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
+685,Landsat Satellite,0.04460013,Linear,0.71794872,1,Linear,0.00416667,0.50416667
+686,Pen-Based Recognition of Handwritten Text,0.05812466,KMeans,0.88648649,2,KMeans,0.5,1.0
+687,nyc_taxi.csv,0.08614373,Linear,0.25,3,Linear,0.00416667,0.50416667
+688,Statlog Shuttle,0.13295925,KMeans,0.96766744,4,KMeans,0.5,1.0
+689,Letter Recognition,0.23058045,KMeans,0.44545455,5,KMeans,0.5,1.0
+690,Object Images,0.36238122,Gaussian,0.06772229,6,KMeans,0.5,1.0
+691,Pen-Based Recognition of Handwritten Text (Local),0.4175123,KMeans,0.52631579,7,KMeans,0.5,1.0
+692,ec2_cpu_utilization_c6585a.csv,0.5636625,Linear,0.0,8,KMeans,0.5,1.0
+693,art_increase_spike_density.csv,0.664175,KMeans,0.15384615,9,KMeans,0.5,1.0
+694,Thyroid Disease,0.84262204,KMeans,0.22317597,10,KMeans,0.5,1.0
+695,,,,,,,,
+696,Twitter_volume_PFE.csv,0,KMeans,0.42857143,0,KMeans,0.42857143,1
+697,nyc_taxi.csv,0.085172296,Linear,0.25,1,Linear,0.36363636,0.93506493
+698,Landsat Satellite,0.10118163,Linear,0.71794872,2,Linear,0.36363636,0.93506493
+699,Pen-Based Recognition of Handwritten Text,0.12901747,KMeans,0.88648649,3,Linear,0.36363636,0.93506493
+700,Statlog Shuttle,0.18462527,KMeans,0.96766744,4,KMeans,0.42857143,1.0
+701,Letter Recognition,0.29730105,KMeans,0.44545455,5,KMeans,0.42857143,1.0
+702,Object Images,0.3230393,Gaussian,0.06772229,6,KMeans,0.42857143,1.0
+703,Pen-Based Recognition of Handwritten Text (Local),0.40473402,KMeans,0.52631579,7,KMeans,0.42857143,1.0
+704,ec2_cpu_utilization_c6585a.csv,0.5900383,Linear,0.0,8,KMeans,0.42857143,1.0
+705,art_increase_spike_density.csv,0.65702826,KMeans,0.15384615,9,KMeans,0.42857143,1.0
+706,Thyroid Disease,0.96479034,KMeans,0.22317597,10,KMeans,0.42857143,1.0
+707,,,,,,,,
+708,exchange-3_cpc_results.csv,0,Linear,0.57142857,0,Linear,0.57142857,1
+709,Landsat Satellite,0.020657897,Linear,0.71794872,1,Linear,0.57142857,1.0
+710,Pen-Based Recognition of Handwritten Text,0.034617066,KMeans,0.88648649,2,KMeans,0.57142857,1.0
+711,nyc_taxi.csv,0.11582291,Linear,0.25,3,Linear,0.57142857,1.0
+712,Statlog Shuttle,0.12268722,KMeans,0.96766744,4,KMeans,0.57142857,1.0
+713,Letter Recognition,0.20576513,KMeans,0.44545455,5,KMeans,0.57142857,1.0
+714,Object Images,0.40773857,Gaussian,0.06772229,6,KMeans,0.57142857,1.0
+715,Pen-Based Recognition of Handwritten Text (Local),0.41483402,KMeans,0.52631579,7,KMeans,0.57142857,1.0
+716,ec2_cpu_utilization_c6585a.csv,0.61755085,Linear,0.0,8,KMeans,0.57142857,1.0
+717,art_increase_spike_density.csv,0.645183,KMeans,0.15384615,9,KMeans,0.57142857,1.0
+718,Thyroid Disease,0.8503897,KMeans,0.22317597,10,KMeans,0.57142857,1.0
+719,,,,,,,,
+720,Twitter_volume_AMZN.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+721,Landsat Satellite,0.018233418,Linear,0.71794872,1,Linear,0.57142857,0.9047619
+722,Pen-Based Recognition of Handwritten Text,0.034299016,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+723,nyc_taxi.csv,0.06991696,Linear,0.25,3,Linear,0.57142857,0.9047619
+724,Statlog Shuttle,0.11143458,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+725,Letter Recognition,0.19733298,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+726,Object Images,0.39061415,Gaussian,0.06772229,6,KMeans,0.66666667,1.0
+727,Pen-Based Recognition of Handwritten Text (Local),0.39216554,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+728,ec2_cpu_utilization_c6585a.csv,0.613907,Linear,0.0,8,KMeans,0.66666667,1.0
+729,art_increase_spike_density.csv,0.64131093,KMeans,0.15384615,9,KMeans,0.66666667,1.0
+730,Thyroid Disease,0.99122775,KMeans,0.22317597,10,KMeans,0.66666667,1.0
+731,,,,,,,,
+732,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
+733,Landsat Satellite,0.07182586,Linear,0.71794872,1,Linear,0.00059595,0.99907388
+734,Pen-Based Recognition of Handwritten Text,0.11353171,KMeans,0.88648649,2,KMeans,0.00152207,1.0
+735,Statlog Shuttle,0.15761864,KMeans,0.96766744,3,KMeans,0.00152207,1.0
+736,nyc_taxi.csv,0.17154181,Linear,0.25,4,KMeans,0.00152207,1.0
+737,Letter Recognition,0.2539425,KMeans,0.44545455,5,KMeans,0.00152207,1.0
+738,Pen-Based Recognition of Handwritten Text (Local),0.38080084,KMeans,0.52631579,6,KMeans,0.00152207,1.0
+739,Object Images,0.4320749,Gaussian,0.06772229,7,KMeans,0.00152207,1.0
+740,ec2_cpu_utilization_c6585a.csv,0.6099099,Linear,0.0,8,KMeans,0.00152207,1.0
+741,art_increase_spike_density.csv,0.6397866,KMeans,0.15384615,9,KMeans,0.00152207,1.0
+742,Thyroid Disease,0.9423734,KMeans,0.22317597,10,KMeans,0.00152207,1.0
+743,,,,,,,,
+744,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
+745,nyc_taxi.csv,0.008217692,Linear,0.25,1,Linear,0.5,1.0
+746,Landsat Satellite,0.07097113,Linear,0.71794872,2,Linear,0.5,1.0
+747,Pen-Based Recognition of Handwritten Text,0.075757384,KMeans,0.88648649,3,Linear,0.5,1.0
+748,Statlog Shuttle,0.13593996,KMeans,0.96766744,4,KMeans,0.5,1.0
+749,Letter Recognition,0.23236096,KMeans,0.44545455,5,KMeans,0.5,1.0
+750,Pen-Based Recognition of Handwritten Text (Local),0.38722467,KMeans,0.52631579,6,KMeans,0.5,1.0
+751,Object Images,0.40222156,Gaussian,0.06772229,7,KMeans,0.5,1.0
+752,ec2_cpu_utilization_c6585a.csv,0.602484,Linear,0.0,8,KMeans,0.5,1.0
+753,art_increase_spike_density.csv,0.6367798,KMeans,0.15384615,9,KMeans,0.5,1.0
+754,Thyroid Disease,1.0353463,KMeans,0.22317597,10,KMeans,0.5,1.0
+755,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.4,0.8627914272307693
+0,,,,,2.0,,0.6461538461538462,0.9099997046153846
+0,,,,,3.0,,0.46153846153846156,0.8649740481538462
+0,,,,,4.0,,0.8461538461538461,0.9545582213846153
+0,,,,,5.0,,0.8461538461538461,0.9545582213846153
+0,,,,,6.0,,0.8461538461538461,0.9545582213846153
+0,,,,,7.0,,0.8461538461538461,0.9545582213846153
+0,,,,,8.0,,0.8461538461538461,0.9545582213846153
+0,,,,,9.0,,0.8461538461538461,0.9545582213846153
+0,,,,,10.0,,0.8461538461538461,0.9545582213846153

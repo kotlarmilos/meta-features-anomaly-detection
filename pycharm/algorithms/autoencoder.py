@@ -195,6 +195,40 @@ class AutoencoderModel:
 
         return best_scores, probs
 
+    def getEncodedData(self, features, size):
+        features = features.astype('float32')
+        features_normal = tf.constant(features)
+
+        # MNIST input 28 rows * 28 columns = 784 pixels
+        input_img = Input(shape=(features_normal.shape[1],))
+        # encoder
+        encoder1 = Dense(128, activation='relu')(input_img)
+        encoder2 = Dense(size, activation='sigmoid')(encoder1)
+        # decoder
+        decoder1 = Dense(128, activation='relu')(encoder2)
+        decoder2 = Dense(features_normal.shape[1], activation='sigmoid')(decoder1)
+
+        # this model maps an input to its reconstruction
+        autoencoder = Model(inputs=input_img, outputs=decoder2)
+
+        autoencoder.compile(optimizer='adam', loss='mse')
+
+        autoencoder.fit(features_normal, features_normal,
+                        epochs=50,
+                        batch_size=32,
+                        shuffle=True)
+
+        # create encoder model
+        encoder = Model(inputs=input_img, outputs=encoder2)
+        # create decoder model
+        encoded_input = Input(shape=(size,))
+        decoder_layer1 = autoencoder.layers[-2]
+        decoder_layer2 = autoencoder.layers[-1]
+        decoder = Model(inputs=encoded_input, outputs=decoder_layer2(decoder_layer1(encoded_input)))
+
+        latent_vector = encoder.predict(features)
+
+        return latent_vector
     # def find_nearest(self, array, value, datasets, evaluation):
     #     array = np.asarray(array)
     #     # idx = (np.abs(array - value)).argmin()

@@ -1,0 +1,768 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
+1,TravelTime_387.csv,0.08298603182645437,KMeans,0.66666667,1,KMeans,0.83333333,1.0
+2,ambient_temperature_system_failure.csv,0.1904143603426185,KMeans,0.8,2,KMeans,0.83333333,1.0
+3,ec2_cpu_utilization_c6585a.csv,0.25206904828588605,Linear,0.0,3,KMeans,0.83333333,1.0
+4,ec2_cpu_utilization_24ae8d.csv,0.3290066046226805,KMeans,1.0,4,KMeans,0.83333333,1.0
+5,nyc_taxi.csv,0.3839643243347943,Linear,0.25,5,KMeans,0.83333333,1.0
+6,exchange-3_cpc_results.csv,0.5604662175493624,Linear,0.57142857,6,KMeans,0.83333333,1.0
+7,art_load_balancer_spikes.csv,0.5954090930090397,KMeans,0.25,7,KMeans,0.83333333,1.0
+8,art_increase_spike_density.csv,0.7685157807793326,KMeans,0.15384615,8,KMeans,0.83333333,1.0
+9,ec2_cpu_utilization_ac20cd.csv,0.8652604279620739,KMeans,0.66666667,9,KMeans,0.83333333,1.0
+10,exchange-2_cpc_results.csv,0.9886710189123136,KMeans,0.33333333,10,KMeans,0.83333333,1.0
+11,,,,,,,,
+12,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
+13,Twitter_volume_CRM.csv,0.2984422226597303,KMeans,0.54545455,1,KMeans,0.38537271,0.4468761299999999
+14,Twitter_volume_AAPL.csv,0.6241262158459904,Linear,0.4,2,KMeans,0.38537271,0.4468761299999999
+15,ec2_request_latency_system_failure.csv,0.7809420723251264,KMeans,0.66666667,3,KMeans,0.38537271,0.4468761299999999
+16,ec2_cpu_utilization_24ae8d.csv,1.0315232631551225,KMeans,1.0,4,KMeans,0.38537271,0.4468761299999999
+17,Twitter_volume_CVS.csv,1.4148526205764966,Linear,0.66666667,5,KMeans,0.38537271,0.4468761299999999
+18,art_daily_jumpsup.csv,1.4310298005260051,KMeans,0.22222222,6,KMeans,0.38537271,0.4468761299999999
+19,ec2_cpu_utilization_825cc2.csv,1.659377909189459,KMeans,0.66666667,7,KMeans,0.38537271,0.4468761299999999
+20,Twitter_volume_PFE.csv,2.0222133877063584,KMeans,0.42857143,8,KMeans,0.38537271,0.4468761299999999
+21,art_increase_spike_density.csv,2.4004020027369632,KMeans,0.15384615,9,KMeans,0.38537271,0.4468761299999999
+22,grok_asg_anomaly.csv,2.5364941487260495,KMeans,0.5,10,KMeans,0.38537271,0.4468761299999999
+23,,,,,,,,
+24,Pen-Based Recognition of Handwritten Text (Local),0,KMeans,0.52631579,0,KMeans,0.52631579,1
+25,rds_cpu_utilization_e47b3b.csv,0.15533115082143922,Linear,0.66666667,1,Linear,0.02505219,0.4987364000000001
+26,Statlog Shuttle,0.22446273415010864,KMeans,0.96766744,2,KMeans,0.52631579,1.0
+27,grok_asg_anomaly.csv,0.3949291653459568,KMeans,0.5,3,KMeans,0.52631579,1.0
+28,rogue_agent_key_hold.csv,0.7394871615040213,Linear,0.003367,4,KMeans,0.52631579,1.0
+29,Twitter_volume_FB.csv,0.8695309861460032,Linear,1.0,5,Linear,0.02505219,0.4987364000000001
+30,ec2_cpu_utilization_77c1ca.csv,1.0930647465799108,KMeans,0.03921569,6,KMeans,0.52631579,1.0
+31,exchange-2_cpc_results.csv,1.6137153700444422,KMeans,0.33333333,7,KMeans,0.52631579,1.0
+32,art_load_balancer_spikes.csv,1.7789481547044232,KMeans,0.25,8,KMeans,0.52631579,1.0
+33,machine_temperature_system_failure.csv,1.8008504097434184,Linear,0.4,9,KMeans,0.52631579,1.0
+34,ec2_cpu_utilization_ac20cd.csv,1.9663593493200437,KMeans,0.66666667,10,KMeans,0.52631579,1.0
+35,,,,,,,,
+36,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
+37,Object Images,0.0004327242068029591,Gaussian,0.06772229,1,Gaussian,0.25806452,0.81260997
+38,Speech Accent Data,0.0004327242068029591,Linear,0.11764706,2,Gaussian,0.25806452,0.81260997
+39,ambient_temperature_system_failure.csv,9.546999381104797,KMeans,0.8,3,Gaussian,0.25806452,0.81260997
+40,elb_request_count_8c0756.csv,9.630870461493458,Linear,0.66666667,4,Linear,0.22222222,0.77676767
+41,rogue_agent_key_hold.csv,9.633126458351917,Linear,0.003367,5,Linear,0.22222222,0.77676767
+42,speed_t4013.csv,9.761639820711707,Linear,1.0,6,Linear,0.22222222,0.77676767
+43,nyc_taxi.csv,10.67533572369939,Linear,0.25,7,Linear,0.22222222,0.77676767
+44,exchange-3_cpc_results.csv,11.401406250649256,Linear,0.57142857,8,Linear,0.22222222,0.77676767
+45,art_daily_flatmiddle.csv,12.836475157840141,KMeans,0.02,9,Linear,0.22222222,0.77676767
+46,occupancy_6005.csv,12.978565111317582,Linear,1.0,10,Linear,0.22222222,0.77676767
+47,,,,,,,,
+48,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
+49,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.2667570232551544,KMeans,0.5,1,KMeans,0.22317597,1.0
+50,occupancy_t4013.csv,0.5387140167109656,Linear,1.0,2,KMeans,0.22317597,1.0
+51,exchange-4_cpc_results.csv,0.8777513533433989,Linear,0.66666667,3,Linear,0.19112628,0.96795031
+52,machine_temperature_system_failure.csv,1.0538939650575685,Linear,0.4,4,Linear,0.19112628,0.96795031
+53,Twitter_volume_AMZN.csv,1.094459828153731,KMeans,0.66666667,5,Linear,0.19112628,0.96795031
+54,nyc_taxi.csv,1.1639877337984217,Linear,0.25,6,Linear,0.19112628,0.96795031
+55,ec2_cpu_utilization_5f5533.csv,1.3251161629452781,KMeans,0.57142857,7,Linear,0.19112628,0.96795031
+56,occupancy_6005.csv,1.3515585006997632,Linear,1.0,8,Linear,0.19112628,0.96795031
+57,art_daily_jumpsdown.csv,1.409618225985696,KMeans,0.03030303,9,Linear,0.19112628,0.96795031
+58,ec2_cpu_utilization_ac20cd.csv,1.718896074769873,KMeans,0.66666667,10,KMeans,0.22317597,1.0
+59,,,,,,,,
+60,Statlog Shuttle,0,KMeans,0.96766744,0,KMeans,0.96766744,1
+61,occupancy_t4013.csv,0.051337066895212224,Linear,1.0,1,Linear,0.96707106,0.9994036199999999
+62,Twitter_volume_AMZN.csv,0.11854376495557517,KMeans,0.66666667,2,KMeans,0.96766744,1.0
+63,art_daily_jumpsdown.csv,0.1191831580156304,KMeans,0.03030303,3,KMeans,0.96766744,1.0
+64,ambient_temperature_system_failure.csv,0.13465702181565575,KMeans,0.8,4,KMeans,0.96766744,1.0
+65,speed_6005.csv,0.33206383022138386,Linear,0.66666667,5,KMeans,0.96766744,1.0
+66,art_increase_spike_density.csv,0.3590367523519724,KMeans,0.15384615,6,KMeans,0.96766744,1.0
+67,exchange-2_cpc_results.csv,0.36604397728886706,KMeans,0.33333333,7,KMeans,0.96766744,1.0
+68,exchange-2_cpm_results.csv,0.3762729423203446,KMeans,0.8,8,KMeans,0.96766744,1.0
+69,Twitter_volume_KO.csv,0.5220886594061085,Linear,0.8,9,KMeans,0.96766744,1.0
+70,ec2_cpu_utilization_5f5533.csv,0.6016121664404182,KMeans,0.57142857,10,KMeans,0.96766744,1.0
+71,,,,,,,,
+72,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
+73,Speech Accent Data,2.173463883536897e-06,Linear,0.11764706,1,Linear,0.0663518,0.99862951
+74,Letter Recognition,0.0002673352046826949,KMeans,0.44545455,2,KMeans,0.05851859,0.9907963
+75,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.10006835093795274,KMeans,0.5,3,KMeans,0.05851859,0.9907963
+76,ec2_cpu_utilization_77c1ca.csv,4.708879645079165,KMeans,0.03921569,4,KMeans,0.05851859,0.9907963
+77,Twitter_volume_FB.csv,5.14633335592049,Linear,1.0,5,KMeans,0.05851859,0.9907963
+78,nyc_taxi.csv,5.284196576727481,Linear,0.25,6,KMeans,0.05851859,0.9907963
+79,machine_temperature_system_failure.csv,5.685952476287184,Linear,0.4,7,Linear,0.0663518,0.99862951
+80,Landsat Satellite,6.508265516501524,Linear,0.71794872,8,Linear,0.0663518,0.99862951
+81,ec2_disk_write_bytes_c0d644.csv,6.6816664831358015,Linear,0.5,9,Linear,0.0663518,0.99862951
+82,exchange-2_cpc_results.csv,7.57274435366538,KMeans,0.33333333,10,Linear,0.0663518,0.99862951
+83,,,,,,,,
+84,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
+85,Speech Accent Data,0.0,Linear,0.11764706,1,Linear,0.11764706,1.0
+86,Letter Recognition,0.00020578113412739185,KMeans,0.44545455,2,KMeans,0.05384615,0.93619909
+87,Twitter_volume_UPS.csv,1.004260406049923,Linear,0.28571429,3,Linear,0.11764706,1.0
+88,Twitter_volume_GOOG.csv,1.0876434329618405,Linear,0.4,4,Linear,0.11764706,1.0
+89,speed_t4013.csv,1.5081934292663846,Linear,1.0,5,Linear,0.11764706,1.0
+90,cpu_utilization_asg_misconfiguration.csv,2.453314458098646,KMeans,0.00775194,6,Linear,0.11764706,1.0
+91,elb_request_count_8c0756.csv,3.3701825635466562,Linear,0.66666667,7,Linear,0.11764706,1.0
+92,ambient_temperature_system_failure.csv,3.9175917265820317,KMeans,0.8,8,Linear,0.11764706,1.0
+93,Breast Cancer Diagnostic,4.244541651829751,KMeans,0.83333333,9,Linear,0.11764706,1.0
+94,ec2_cpu_utilization_5f5533.csv,4.268676709975807,KMeans,0.57142857,10,KMeans,0.05384615,0.93619909
+95,,,,,,,,
+96,Pen-Based Recognition of Handwritten Text,0,KMeans,0.88648649,0,KMeans,0.88648649,1
+97,art_daily_flatmiddle.csv,0.09008461143211388,KMeans,0.02,1,KMeans,0.88648649,1.0
+98,Twitter_volume_AMZN.csv,0.5297369132725107,KMeans,0.66666667,2,KMeans,0.88648649,1.0
+99,ec2_cpu_utilization_5f5533.csv,0.5878880180382948,KMeans,0.57142857,3,KMeans,0.88648649,1.0
+100,exchange-4_cpc_results.csv,0.6190903140891733,Linear,0.66666667,4,KMeans,0.88648649,1.0
+101,Twitter_volume_PFE.csv,0.7223964722884757,KMeans,0.42857143,5,KMeans,0.88648649,1.0
+102,exchange-2_cpm_results.csv,0.7599402702759397,KMeans,0.8,6,KMeans,0.88648649,1.0
+103,Twitter_volume_UPS.csv,0.934072412797339,Linear,0.28571429,7,KMeans,0.88648649,1.0
+104,ec2_cpu_utilization_24ae8d.csv,0.9739405402265602,KMeans,1.0,8,KMeans,0.88648649,1.0
+105,Breast Cancer Diagnostic,1.0202348452712426,KMeans,0.83333333,9,KMeans,0.88648649,1.0
+106,Twitter_volume_GOOG.csv,1.030943982122646,Linear,0.4,10,KMeans,0.88648649,1.0
+107,,,,,,,,
+108,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
+109,ambient_temperature_system_failure.csv,0.10514327769737974,KMeans,0.8,1,KMeans,0.65517241,0.93722369
+110,ec2_cpu_utilization_c6585a.csv,0.9092172986094624,Linear,0.0,2,KMeans,0.65517241,0.93722369
+111,ec2_disk_write_bytes_c0d644.csv,2.8953790202397265,Linear,0.5,3,Linear,0.71794872,1.0
+112,Thyroid Disease,3.323787605648249,KMeans,0.22317597,4,KMeans,0.65517241,0.93722369
+113,ec2_cpu_utilization_77c1ca.csv,3.932807506610825,KMeans,0.03921569,5,KMeans,0.65517241,0.93722369
+114,exchange-2_cpc_results.csv,4.659580624075616,KMeans,0.33333333,6,KMeans,0.65517241,0.93722369
+115,machine_temperature_system_failure.csv,5.125508472765432,Linear,0.4,7,KMeans,0.65517241,0.93722369
+116,speed_t4013.csv,5.392214252458871,Linear,1.0,8,KMeans,0.65517241,0.93722369
+117,rds_cpu_utilization_e47b3b.csv,5.6100500222876235,Linear,0.66666667,9,Linear,0.71794872,1.0
+118,exchange-2_cpm_results.csv,5.8661096979930285,KMeans,0.8,10,KMeans,0.65517241,0.93722369
+119,,,,,,,,
+120,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
+121,Statlog Shuttle,0.025525138541752312,KMeans,0.96766744,1,KMeans,0.8,1.0
+122,Twitter_volume_FB.csv,0.11409004176039161,Linear,1.0,2,KMeans,0.8,1.0
+123,Twitter_volume_GOOG.csv,0.13740411878097802,Linear,0.4,3,Linear,0.14285714,0.34285714
+124,TravelTime_387.csv,0.16642778609389097,KMeans,0.66666667,4,KMeans,0.8,1.0
+125,Twitter_volume_KO.csv,0.2986593164532678,Linear,0.8,5,Linear,0.14285714,0.34285714
+126,art_load_balancer_spikes.csv,0.30052664529101314,KMeans,0.25,6,KMeans,0.8,1.0
+127,Breast Cancer Diagnostic,0.3622609603325788,KMeans,0.83333333,7,KMeans,0.8,1.0
+128,exchange-4_cpc_results.csv,0.3947314744916639,Linear,0.66666667,8,KMeans,0.8,1.0
+129,exchange-2_cpm_results.csv,0.47584403991315405,KMeans,0.8,9,KMeans,0.8,1.0
+130,ec2_cpu_utilization_24ae8d.csv,0.49130314467333847,KMeans,1.0,10,KMeans,0.8,1.0
+131,,,,,,,,
+132,exchange-3_cpm_results.csv,0,Linear,1.0,0,Linear,1.0,1
+133,Twitter_volume_AAPL.csv,0.040193032239130844,Linear,0.4,1,Linear,1.0,1.0
+134,Twitter_volume_IBM.csv,0.15846477425185412,Linear,0.5,2,Linear,1.0,1.0
+135,Pen-Based Recognition of Handwritten Text,0.30561370286037537,KMeans,0.88648649,3,Linear,1.0,1.0
+136,ec2_cpu_utilization_c6585a.csv,0.30966339710909097,Linear,0.0,4,Linear,1.0,1.0
+137,occupancy_6005.csv,0.5196933795779834,Linear,1.0,5,Linear,1.0,1.0
+138,exchange-4_cpm_results.csv,0.5368617758162451,KMeans,0.75,6,Linear,1.0,1.0
+139,ec2_disk_write_bytes_c0d644.csv,0.7086212639645728,Linear,0.5,7,Linear,1.0,1.0
+140,ec2_cpu_utilization_77c1ca.csv,0.7344779281469362,KMeans,0.03921569,8,Linear,1.0,1.0
+141,ec2_cpu_utilization_825cc2.csv,0.7976825250253228,KMeans,0.66666667,9,Linear,1.0,1.0
+142,Pen-Based Recognition of Handwritten Text (Local),0.8558637403355647,KMeans,0.52631579,10,KMeans,1.0,1.0
+143,,,,,,,,
+144,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
+145,ec2_cpu_utilization_ac20cd.csv,0.5634193404841881,KMeans,0.66666667,1,KMeans,0.4,1.0
+146,ec2_disk_write_bytes_c0d644.csv,1.1168333185319863,Linear,0.5,2,KMeans,0.4,1.0
+147,ec2_cpu_utilization_77c1ca.csv,1.324871890470673,KMeans,0.03921569,3,KMeans,0.4,1.0
+148,exchange-3_cpc_results.csv,1.4159909585091661,Linear,0.57142857,4,KMeans,0.4,1.0
+149,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,1.5480442343623562,KMeans,0.5,5,KMeans,0.4,1.0
+150,speed_7578.csv,1.5717640109134052,KMeans,0.75,6,KMeans,0.4,1.0
+151,Object Images,1.5758380337386484,Gaussian,0.06772229,7,KMeans,0.4,1.0
+152,Speech Accent Data,1.5758380337386484,Linear,0.11764706,8,KMeans,0.4,1.0
+153,Letter Recognition,1.575886309333157,KMeans,0.44545455,9,KMeans,0.4,1.0
+154,exchange-2_cpc_results.csv,1.6417161131951747,KMeans,0.33333333,10,KMeans,0.4,1.0
+155,,,,,,,,
+156,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+157,KDD-Cup99 HTTP,0.322755607418568,RPCA,0.93849658,1,RPCA,0.57142857,0.9047619
+158,Twitter_volume_CRM.csv,0.3928953258182799,KMeans,0.54545455,2,KMeans,0.66666667,1.0
+159,Twitter_volume_PFE.csv,0.5337334470167041,KMeans,0.42857143,3,KMeans,0.66666667,1.0
+160,art_increase_spike_density.csv,0.6808564355215145,KMeans,0.15384615,4,KMeans,0.66666667,1.0
+161,art_daily_jumpsup.csv,0.8637767460261931,KMeans,0.22222222,5,KMeans,0.66666667,1.0
+162,ec2_cpu_utilization_53ea38.csv,0.9731151735391739,KMeans,0.04255319,6,KMeans,0.66666667,1.0
+163,Twitter_volume_AAPL.csv,1.017935337143246,Linear,0.4,7,KMeans,0.66666667,1.0
+164,Twitter_volume_CVS.csv,1.8685648484846558,Linear,0.66666667,8,KMeans,0.66666667,1.0
+165,ec2_disk_write_bytes_1ef3de.csv,1.8878613956773151,Linear,0.08695652,9,KMeans,0.66666667,1.0
+166,ec2_cpu_utilization_fe7f93.csv,1.887975348735058,Linear,0.5,10,KMeans,0.66666667,1.0
+167,,,,,,,,
+168,speed_7578.csv,0,KMeans,0.75,0,KMeans,0.75,1
+169,nyc_taxi.csv,0.14542386010855424,Linear,0.25,1,Linear,0.4,0.65
+170,exchange-3_cpc_results.csv,0.2634536463542956,Linear,0.57142857,2,Linear,0.4,0.65
+171,art_daily_jumpsdown.csv,0.41363490178462925,KMeans,0.03030303,3,Linear,0.4,0.65
+172,Twitter_volume_KO.csv,0.43116017991883737,Linear,0.8,4,Linear,0.4,0.65
+173,ec2_cpu_utilization_ac20cd.csv,0.45386700238731237,KMeans,0.66666667,5,Linear,0.4,0.65
+174,ec2_cpu_utilization_5f5533.csv,0.5302167135502494,KMeans,0.57142857,6,KMeans,0.75,1.0
+175,Twitter_volume_FB.csv,0.5782652264795836,Linear,1.0,7,Linear,0.4,0.65
+176,ambient_temperature_system_failure.csv,0.6506009919935138,KMeans,0.8,8,KMeans,0.75,1.0
+177,exchange-4_cpm_results.csv,0.7775587949144689,KMeans,0.75,9,KMeans,0.75,1.0
+178,exchange-2_cpm_results.csv,0.7793308249117139,KMeans,0.8,10,KMeans,0.75,1.0
+179,,,,,,,,
+180,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+181,Twitter_volume_FB.csv,0.027907641712317854,Linear,1.0,1,Linear,0.125,0.45833333
+182,ec2_cpu_utilization_77c1ca.csv,0.129099020654726,KMeans,0.03921569,2,KMeans,0.66666667,1.0
+183,art_daily_jumpsup.csv,0.22200804468275237,KMeans,0.22222222,3,KMeans,0.66666667,1.0
+184,grok_asg_anomaly.csv,0.36326430959439904,KMeans,0.5,4,KMeans,0.66666667,1.0
+185,Twitter_volume_AAPL.csv,0.3848425199075791,Linear,0.4,5,KMeans,0.66666667,1.0
+186,exchange-4_cpm_results.csv,0.4979848623343881,KMeans,0.75,6,KMeans,0.66666667,1.0
+187,Twitter_volume_KO.csv,0.5096727483996801,Linear,0.8,7,KMeans,0.66666667,1.0
+188,Twitter_volume_PFE.csv,0.6241075059552372,KMeans,0.42857143,8,KMeans,0.66666667,1.0
+189,nyc_taxi.csv,0.6705875676388473,Linear,0.25,9,KMeans,0.66666667,1.0
+190,Twitter_volume_AMZN.csv,0.8905147741069754,KMeans,0.66666667,10,KMeans,0.66666667,1.0
+191,,,,,,,,
+192,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
+193,rogue_agent_key_updown.csv,2.1247944292923648e-07,Gaussian,0.00083455,1,Gaussian,0.4,0.9
+194,rds_cpu_utilization_cc0c53.csv,2.433850960770201e-07,Gaussian,1.0,2,Gaussian,0.4,0.9
+195,ec2_disk_write_bytes_1ef3de.csv,1.5995631699183832e-06,Linear,0.08695652,3,Gaussian,0.4,0.9
+196,ec2_network_in_5abac7.csv,2.112531042597343e-06,Linear,0.66666667,4,Gaussian,0.4,0.9
+197,TravelTime_451.csv,3.577221753980897e-06,KMeans,0.4,5,Gaussian,0.4,0.9
+198,ec2_cpu_utilization_fe7f93.csv,3.111262093224987e-05,Linear,0.5,6,Linear,0.4,0.9
+199,art_daily_jumpsup.csv,1.5701061888919332,KMeans,0.22222222,7,Linear,0.4,0.9
+200,Twitter_volume_AAPL.csv,1.6009917762828456,Linear,0.4,8,Linear,0.4,0.9
+201,Twitter_volume_CVS.csv,2.416627757685368,Linear,0.66666667,9,Linear,0.4,0.9
+202,Twitter_volume_CRM.csv,2.702549489833749,KMeans,0.54545455,10,Linear,0.4,0.9
+203,,,,,,,,
+204,exchange-4_cpm_results.csv,0,KMeans,0.75,0,KMeans,0.75,1
+205,Twitter_volume_CVS.csv,0.15713371377070917,Linear,0.66666667,1,Linear,0.66666667,0.91666667
+206,Twitter_volume_GOOG.csv,0.2208226900554946,Linear,0.4,2,Linear,0.66666667,0.91666667
+207,Breast Cancer Diagnostic,0.2524826793945154,KMeans,0.83333333,3,Linear,0.66666667,0.91666667
+208,rogue_agent_key_hold.csv,0.34068753647746064,Linear,0.003367,4,Linear,0.66666667,0.91666667
+209,cpu_utilization_asg_misconfiguration.csv,0.48651188291135394,KMeans,0.00775194,5,Linear,0.66666667,0.91666667
+210,Twitter_volume_PFE.csv,0.5286992130733852,KMeans,0.42857143,6,KMeans,0.75,1.0
+211,ec2_cpu_utilization_825cc2.csv,0.5294450930821499,KMeans,0.66666667,7,KMeans,0.75,1.0
+212,Twitter_volume_UPS.csv,0.5996592573348876,Linear,0.28571429,8,KMeans,0.75,1.0
+213,exchange-3_cpm_results.csv,0.6336795957143222,Linear,1.0,9,Linear,0.66666667,0.91666667
+214,art_load_balancer_spikes.csv,0.6977799232870723,KMeans,0.25,10,KMeans,0.75,1.0
+215,,,,,,,,
+216,TravelTime_387.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+217,Twitter_volume_KO.csv,0.10456748235861824,Linear,0.8,1,Linear,0.5,0.83333333
+218,machine_temperature_system_failure.csv,0.535891515428375,Linear,0.4,2,Linear,0.5,0.83333333
+219,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.6800709738797899,KMeans,0.5,3,Linear,0.5,0.83333333
+220,speed_t4013.csv,1.0435683939621754,Linear,1.0,4,Linear,0.5,0.83333333
+221,art_daily_jumpsdown.csv,1.0972534111976984,KMeans,0.03030303,5,Linear,0.5,0.83333333
+222,nyc_taxi.csv,1.130288018698593,Linear,0.25,6,Linear,0.5,0.83333333
+223,exchange-3_cpm_results.csv,2.0618086218553344,Linear,1.0,7,Linear,0.5,0.83333333
+224,exchange-3_cpc_results.csv,2.130088073753125,Linear,0.57142857,8,Linear,0.5,0.83333333
+225,ec2_cpu_utilization_c6585a.csv,2.5451884914207312,Linear,0.0,9,Linear,0.5,0.83333333
+226,ec2_cpu_utilization_ac20cd.csv,2.579921742909164,KMeans,0.66666667,10,Linear,0.5,0.83333333
+227,,,,,,,,
+228,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
+229,Pen-Based Recognition of Handwritten Text (Local),0.020624631283681083,KMeans,0.52631579,1,KMeans,0.0,1.0
+230,ambient_temperature_system_failure.csv,0.024011357814515577,KMeans,0.8,2,KMeans,0.0,1.0
+231,Twitter_volume_KO.csv,0.0510889590296415,Linear,0.8,3,KMeans,0.0,1.0
+232,nyc_taxi.csv,0.26395873324105423,Linear,0.25,4,KMeans,0.0,1.0
+233,ec2_disk_write_bytes_c0d644.csv,0.46039489604571493,Linear,0.5,5,Linear,0.0,1.0
+234,exchange-4_cpm_results.csv,0.5129092650547662,KMeans,0.75,6,KMeans,0.0,1.0
+235,exchange-2_cpc_results.csv,0.7097307072974086,KMeans,0.33333333,7,KMeans,0.0,1.0
+236,TravelTime_387.csv,0.9424340895145633,KMeans,0.66666667,8,KMeans,0.0,1.0
+237,exchange-2_cpm_results.csv,0.9710373550344045,KMeans,0.8,9,KMeans,0.0,1.0
+238,speed_t4013.csv,1.1554351105868932,Linear,1.0,10,KMeans,0.0,1.0
+239,,,,,,,,
+240,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
+241,ec2_network_in_257a54.csv,3.4239488577725297e-07,KMeans,0.5,1,KMeans,0.00075287,0.99991832
+242,rds_cpu_utilization_cc0c53.csv,1.628986899149254e-06,Gaussian,1.0,2,Gaussian,0.00083455,1.0
+243,TravelTime_451.csv,4.5446714924679554e-06,KMeans,0.4,3,KMeans,0.00075287,0.99991832
+244,ec2_network_in_5abac7.csv,2.142415661476882e-05,Linear,0.66666667,4,KMeans,0.00075287,0.99991832
+245,ec2_cpu_utilization_fe7f93.csv,0.00010766422198549286,Linear,0.5,5,KMeans,0.00075287,0.99991832
+246,ec2_disk_write_bytes_1ef3de.csv,0.0001810172133864807,Linear,0.08695652,6,Linear,0.00075245,0.9999179
+247,Twitter_volume_AAPL.csv,2.5502800244658204,Linear,0.4,7,Linear,0.00075245,0.9999179
+248,art_daily_jumpsup.csv,2.706157649431617,KMeans,0.22222222,8,Linear,0.00075245,0.9999179
+249,KDD-Cup99 HTTP,3.4442014810775703,RPCA,0.93849658,9,Linear,0.00075245,0.9999179
+250,ec2_request_latency_system_failure.csv,3.617756070746446,KMeans,0.66666667,10,KMeans,0.00075287,0.99991832
+251,,,,,,,,
+252,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
+253,ec2_network_in_257a54.csv,9.350267560215286e-08,KMeans,0.5,1,KMeans,1.0,1.0
+254,rogue_agent_key_updown.csv,3.6660685709399843e-07,Gaussian,0.00083455,2,Gaussian,1.0,1.0
+255,TravelTime_451.csv,6.76741478855547e-07,KMeans,0.4,3,KMeans,1.0,1.0
+256,ec2_network_in_5abac7.csv,1.7475626935686828e-06,Linear,0.66666667,4,KMeans,1.0,1.0
+257,ec2_disk_write_bytes_1ef3de.csv,1.5331224410650157e-05,Linear,0.08695652,5,KMeans,1.0,1.0
+258,ec2_cpu_utilization_fe7f93.csv,1.8539778000592477e-05,Linear,0.5,6,Linear,0.66666667,0.66666667
+259,Twitter_volume_AAPL.csv,0.2519960072395939,Linear,0.4,7,Linear,0.66666667,0.66666667
+260,art_increase_spike_density.csv,0.5321009509096568,KMeans,0.15384615,8,Linear,0.66666667,0.66666667
+261,Twitter_volume_PFE.csv,0.6067524001473146,KMeans,0.42857143,9,KMeans,1.0,1.0
+262,KDD-Cup99 HTTP,0.7649993877713799,RPCA,0.93849658,10,KMeans,1.0,1.0
+263,,,,,,,,
+264,nyc_taxi.csv,0,Linear,0.25,0,Linear,0.25,1
+265,Twitter_volume_UPS.csv,0.015655697721967954,Linear,0.28571429,1,Linear,0.25,1.0
+266,rds_cpu_utilization_e47b3b.csv,0.31115822523702263,Linear,0.66666667,2,Linear,0.25,1.0
+267,exchange-2_cpc_results.csv,0.32760723193637276,KMeans,0.33333333,3,Linear,0.25,1.0
+268,art_daily_jumpsdown.csv,0.4652944056094839,KMeans,0.03030303,4,KMeans,0.25,1.0
+269,exchange-4_cpc_results.csv,0.7135622937403241,Linear,0.66666667,5,Linear,0.25,1.0
+270,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.7491547684811373,KMeans,0.5,6,KMeans,0.25,1.0
+271,speed_t4013.csv,0.822040436238467,Linear,1.0,7,Linear,0.25,1.0
+272,art_load_balancer_spikes.csv,0.893673798996609,KMeans,0.25,8,KMeans,0.25,1.0
+273,art_daily_flatmiddle.csv,1.0395814640742174,KMeans,0.02,9,KMeans,0.25,1.0
+274,machine_temperature_system_failure.csv,1.3408260108892591,Linear,0.4,10,KMeans,0.25,1.0
+275,,,,,,,,
+276,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
+277,ec2_cpu_utilization_825cc2.csv,0.006258584707211412,KMeans,0.66666667,1,KMeans,0.57142857,1.0
+278,grok_asg_anomaly.csv,0.54442084333823,KMeans,0.5,2,KMeans,0.57142857,1.0
+279,Twitter_volume_IBM.csv,0.8168935005642197,Linear,0.5,3,KMeans,0.57142857,1.0
+280,art_increase_spike_density.csv,0.9215207586729042,KMeans,0.15384615,4,KMeans,0.57142857,1.0
+281,ec2_cpu_utilization_53ea38.csv,1.4556569572200715,KMeans,0.04255319,5,KMeans,0.57142857,1.0
+282,art_daily_jumpsup.csv,1.670864481011506,KMeans,0.22222222,6,KMeans,0.57142857,1.0
+283,Twitter_volume_CRM.csv,1.7493722623989925,KMeans,0.54545455,7,KMeans,0.57142857,1.0
+284,speed_7578.csv,1.7806287516592494,KMeans,0.75,8,KMeans,0.57142857,1.0
+285,ec2_cpu_utilization_c6585a.csv,1.8601296229480226,Linear,0.0,9,KMeans,0.57142857,1.0
+286,Twitter_volume_AAPL.csv,2.220652676442114,Linear,0.4,10,KMeans,0.57142857,1.0
+287,,,,,,,,
+288,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
+289,occupancy_6005.csv,0.013450466095997982,Linear,1.0,1,Linear,0.0,0.98
+290,occupancy_t4013.csv,0.15229156170802227,Linear,1.0,2,Linear,0.0,0.98
+291,exchange-4_cpc_results.csv,0.17448394275544388,Linear,0.66666667,3,Linear,0.0,0.98
+292,Thyroid Disease,0.4906846562653868,KMeans,0.22317597,4,Linear,0.0,0.98
+293,Twitter_volume_GOOG.csv,0.6527723029230401,Linear,0.4,5,Linear,0.0,0.98
+294,speed_t4013.csv,0.6757479285332124,Linear,1.0,6,Linear,0.0,0.98
+295,Breast Cancer Diagnostic,1.2374035043555818,KMeans,0.83333333,7,Linear,0.0,0.98
+296,nyc_taxi.csv,1.2679344556899537,Linear,0.25,8,Linear,0.0,0.98
+297,Twitter_volume_UPS.csv,1.3005729259967325,Linear,0.28571429,9,Linear,0.0,0.98
+298,cpu_utilization_asg_misconfiguration.csv,1.625398598961965,KMeans,0.00775194,10,Linear,0.0,0.98
+299,,,,,,,,
+300,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
+301,rogue_agent_key_hold.csv,0.09110688137280398,Linear,0.003367,1,Linear,0.5,1.0
+302,ec2_cpu_utilization_ac20cd.csv,0.2894433357568591,KMeans,0.66666667,2,KMeans,0.5,1.0
+303,occupancy_t4013.csv,0.29362617888964593,Linear,1.0,3,Linear,0.5,1.0
+304,Landsat Satellite,0.4297780183924811,Linear,0.71794872,4,Linear,0.5,1.0
+305,machine_temperature_system_failure.csv,0.5031988993280816,Linear,0.4,5,Linear,0.5,1.0
+306,ambient_temperature_system_failure.csv,0.6379203719655475,KMeans,0.8,6,Linear,0.5,1.0
+307,Breast Cancer Diagnostic,0.6380044030225811,KMeans,0.83333333,7,Linear,0.5,1.0
+308,occupancy_6005.csv,0.7170527365975623,Linear,1.0,8,Linear,0.5,1.0
+309,ec2_cpu_utilization_5f5533.csv,0.7486782565240997,KMeans,0.57142857,9,Linear,0.5,1.0
+310,art_load_balancer_spikes.csv,0.7681464094380122,KMeans,0.25,10,KMeans,0.5,1.0
+311,,,,,,,,
+312,TravelTime_451.csv,0,KMeans,0.4,0,KMeans,0.4,1
+313,rogue_agent_key_updown.csv,2.931141275738791e-06,Gaussian,0.00083455,1,Gaussian,0.06451613,0.66451613
+314,rds_cpu_utilization_cc0c53.csv,2.985205087180365e-06,Gaussian,1.0,2,Gaussian,0.06451613,0.66451613
+315,ec2_network_in_257a54.csv,3.0498628755815105e-06,KMeans,0.5,3,Gaussian,0.06451613,0.66451613
+316,ec2_network_in_5abac7.csv,3.0873528059083277e-06,Linear,0.66666667,4,Gaussian,0.06451613,0.66451613
+317,ec2_disk_write_bytes_1ef3de.csv,1.1192786768046692e-05,Linear,0.08695652,5,Gaussian,0.06451613,0.66451613
+318,ec2_cpu_utilization_fe7f93.csv,1.283336879431829e-05,Linear,0.5,6,Linear,0.18181818,0.7818181799999999
+319,art_increase_spike_density.csv,1.082225243253934,KMeans,0.15384615,7,Linear,0.18181818,0.7818181799999999
+320,Twitter_volume_CRM.csv,1.1066551311628063,KMeans,0.54545455,8,KMeans,0.4,1.0
+321,ec2_request_latency_system_failure.csv,1.5644166959545043,KMeans,0.66666667,9,KMeans,0.4,1.0
+322,Twitter_volume_AAPL.csv,1.6462109312605642,Linear,0.4,10,KMeans,0.4,1.0
+323,,,,,,,,
+324,Twitter_volume_AAPL.csv,0,Linear,0.4,0,Linear,0.4,1
+325,grok_asg_anomaly.csv,0.28751407220869396,KMeans,0.5,1,KMeans,0.4,1.0
+326,Statlog Shuttle,0.38310840490703413,KMeans,0.96766744,2,KMeans,0.4,1.0
+327,art_daily_jumpsup.csv,0.8226508439333884,KMeans,0.22222222,3,KMeans,0.4,1.0
+328,TravelTime_387.csv,1.1632316744575633,KMeans,0.66666667,4,KMeans,0.4,1.0
+329,ec2_disk_write_bytes_c0d644.csv,1.4681827301345516,Linear,0.5,5,KMeans,0.4,1.0
+330,speed_7578.csv,1.5143104963716354,KMeans,0.75,6,KMeans,0.4,1.0
+331,ec2_cpu_utilization_825cc2.csv,1.5186614283879294,KMeans,0.66666667,7,KMeans,0.4,1.0
+332,art_increase_spike_density.csv,1.5356718675291905,KMeans,0.15384615,8,KMeans,0.4,1.0
+333,Twitter_volume_IBM.csv,1.8106019419215613,Linear,0.5,9,KMeans,0.4,1.0
+334,art_daily_flatmiddle.csv,1.94884429401867,KMeans,0.02,10,KMeans,0.4,1.0
+335,,,,,,,,
+336,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+337,ambient_temperature_system_failure.csv,0.013993432783934168,KMeans,0.8,1,KMeans,0.66666667,1.0
+338,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.404159156342649,KMeans,0.5,2,KMeans,0.66666667,1.0
+339,exchange-3_cpc_results.csv,0.5460935322964451,Linear,0.57142857,3,KMeans,0.66666667,1.0
+340,TravelTime_387.csv,0.7087470125774757,KMeans,0.66666667,4,KMeans,0.66666667,1.0
+341,speed_6005.csv,0.7828821652920572,Linear,0.66666667,5,KMeans,0.66666667,1.0
+342,exchange-3_cpm_results.csv,0.9297742803860842,Linear,1.0,6,KMeans,0.66666667,1.0
+343,ec2_cpu_utilization_ac20cd.csv,0.9548079248853014,KMeans,0.66666667,7,KMeans,0.66666667,1.0
+344,nyc_taxi.csv,1.128014953802392,Linear,0.25,8,KMeans,0.66666667,1.0
+345,occupancy_6005.csv,1.4128043500607426,Linear,1.0,9,Linear,0.66666667,1.0
+346,art_daily_jumpsdown.csv,1.4466502044394929,KMeans,0.03030303,10,KMeans,0.66666667,1.0
+347,,,,,,,,
+348,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+349,ec2_cpu_utilization_fe7f93.csv,7.671313494439502e-06,Linear,0.5,1,Linear,0.66666667,1.0
+350,TravelTime_451.csv,9.39763710228192e-06,KMeans,0.4,2,KMeans,0.66666667,1.0
+351,rogue_agent_key_updown.csv,2.0743517129995226e-05,Gaussian,0.00083455,3,Gaussian,0.04819277,0.3815261
+352,ec2_network_in_257a54.csv,2.2203362094685986e-05,KMeans,0.5,4,KMeans,0.66666667,1.0
+353,rds_cpu_utilization_cc0c53.csv,2.3737292295544776e-05,Gaussian,1.0,5,Gaussian,0.04819277,0.3815261
+354,ec2_disk_write_bytes_1ef3de.csv,2.941340957396399e-05,Linear,0.08695652,6,Gaussian,0.04819277,0.3815261
+355,KDD-Cup99 HTTP,0.013730840420929757,RPCA,0.93849658,7,Gaussian,0.04819277,0.3815261
+356,Twitter_volume_CVS.csv,0.04408489769410928,Linear,0.66666667,8,Linear,0.66666667,1.0
+357,speed_7578.csv,0.7756053158814371,KMeans,0.75,9,KMeans,0.66666667,1.0
+358,ec2_request_latency_system_failure.csv,0.7860039610931541,KMeans,0.66666667,10,KMeans,0.66666667,1.0
+359,,,,,,,,
+360,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+361,nyc_taxi.csv,0.15877947240369394,Linear,0.25,1,Linear,0.00312012,0.33645344999999993
+362,art_daily_jumpsdown.csv,0.47431516191409173,KMeans,0.03030303,2,KMeans,0.66666667,1.0
+363,occupancy_t4013.csv,0.7640427310469526,Linear,1.0,3,Linear,0.00312012,0.33645344999999993
+364,Breast Cancer Diagnostic,0.8227454538874035,KMeans,0.83333333,4,KMeans,0.66666667,1.0
+365,machine_temperature_system_failure.csv,0.8561199670948554,Linear,0.4,5,Linear,0.00312012,0.33645344999999993
+366,Twitter_volume_KO.csv,0.8799555993755348,Linear,0.8,6,Linear,0.00312012,0.33645344999999993
+367,Twitter_volume_AMZN.csv,1.342680190809915,KMeans,0.66666667,7,Linear,0.00312012,0.33645344999999993
+368,exchange-4_cpc_results.csv,1.6939825222652871,Linear,0.66666667,8,Linear,0.00312012,0.33645344999999993
+369,exchange-3_cpc_results.csv,1.9587980854679472,Linear,0.57142857,9,Linear,0.00312012,0.33645344999999993
+370,art_load_balancer_spikes.csv,2.029007139037109,KMeans,0.25,10,Linear,0.00312012,0.33645344999999993
+371,,,,,,,,
+372,Twitter_volume_UPS.csv,0,Linear,0.28571429,0,Linear,0.28571429,1
+373,Twitter_volume_AMZN.csv,0.14161626104139202,KMeans,0.66666667,1,KMeans,0.22222222,0.93650793
+374,ambient_temperature_system_failure.csv,0.21071138714940219,KMeans,0.8,2,KMeans,0.22222222,0.93650793
+375,ec2_cpu_utilization_5f5533.csv,0.31927252280593166,KMeans,0.57142857,3,KMeans,0.22222222,0.93650793
+376,Twitter_volume_KO.csv,0.33717820613236427,Linear,0.8,4,KMeans,0.22222222,0.93650793
+377,speed_6005.csv,0.3614206280600918,Linear,0.66666667,5,KMeans,0.22222222,0.93650793
+378,Landsat Satellite,0.3965169569164573,Linear,0.71794872,6,KMeans,0.22222222,0.93650793
+379,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.4763847091212998,KMeans,0.5,7,KMeans,0.22222222,0.93650793
+380,rogue_agent_key_hold.csv,0.4968791739013829,Linear,0.003367,8,KMeans,0.22222222,0.93650793
+381,Twitter_volume_GOOG.csv,0.6263721338327173,Linear,0.4,9,Linear,0.28571429,1.0
+382,Thyroid Disease,0.826657458389306,KMeans,0.22317597,10,KMeans,0.22222222,0.93650793
+383,,,,,,,,
+384,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
+385,Landsat Satellite,0.11893662391230464,Linear,0.71794872,1,Linear,0.00049603,0.970193
+386,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.29196543505506334,KMeans,0.5,2,KMeans,0.03030303,1.0
+387,ec2_cpu_utilization_77c1ca.csv,0.3411806876356014,KMeans,0.03921569,3,KMeans,0.03030303,1.0
+388,exchange-4_cpc_results.csv,0.42315765326361543,Linear,0.66666667,4,KMeans,0.03030303,1.0
+389,Breast Cancer Diagnostic,0.42537472836441736,KMeans,0.83333333,5,KMeans,0.03030303,1.0
+390,rogue_agent_key_hold.csv,0.4508449676685782,Linear,0.003367,6,KMeans,0.03030303,1.0
+391,cpu_utilization_asg_misconfiguration.csv,0.46720029639760696,KMeans,0.00775194,7,KMeans,0.03030303,1.0
+392,rds_cpu_utilization_e47b3b.csv,0.571446681464522,Linear,0.66666667,8,KMeans,0.03030303,1.0
+393,speed_6005.csv,1.141953843817321,Linear,0.66666667,9,Linear,0.00049603,0.970193
+394,art_daily_nojump.csv,1.2001021268131353,KMeans,0.00152207,10,KMeans,0.03030303,1.0
+395,,,,,,,,
+396,exchange-2_cpm_results.csv,0,KMeans,0.8,0,KMeans,0.8,1
+397,Statlog Shuttle,0.06692057497376425,KMeans,0.96766744,1,KMeans,0.8,1.0
+398,speed_6005.csv,0.361982629626846,Linear,0.66666667,2,KMeans,0.8,1.0
+399,art_daily_jumpsdown.csv,0.4411440501736337,KMeans,0.03030303,3,KMeans,0.8,1.0
+400,exchange-4_cpm_results.csv,0.47767983518810375,KMeans,0.75,4,KMeans,0.8,1.0
+401,art_load_balancer_spikes.csv,0.4866116538684171,KMeans,0.25,5,KMeans,0.8,1.0
+402,Thyroid Disease,0.5908400322217773,KMeans,0.22317597,6,KMeans,0.8,1.0
+403,grok_asg_anomaly.csv,0.7379031333572215,KMeans,0.5,7,KMeans,0.8,1.0
+404,Landsat Satellite,1.0489043201651924,Linear,0.71794872,8,KMeans,0.8,1.0
+405,ec2_cpu_utilization_c6585a.csv,1.0653231030383807,Linear,0.0,9,KMeans,0.8,1.0
+406,exchange-2_cpc_results.csv,1.0800816908194832,KMeans,0.33333333,10,KMeans,0.8,1.0
+407,,,,,,,,
+408,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+409,Twitter_volume_UPS.csv,1.4829949477860254,Linear,0.28571429,1,Linear,0.66666667,1.0
+410,machine_temperature_system_failure.csv,5.88200718555872,Linear,0.4,2,Linear,0.66666667,1.0
+411,occupancy_6005.csv,6.208186033892272,Linear,1.0,3,Linear,0.66666667,1.0
+412,Object Images,6.899274590200733,Gaussian,0.06772229,4,Linear,0.66666667,1.0
+413,Speech Accent Data,6.899274590200733,Linear,0.11764706,5,Linear,0.66666667,1.0
+414,Letter Recognition,6.899426960448366,KMeans,0.44545455,6,Linear,0.66666667,1.0
+415,rogue_agent_key_hold.csv,6.93920865678459,Linear,0.003367,7,Linear,0.66666667,1.0
+416,exchange-4_cpc_results.csv,7.344084288309929,Linear,0.66666667,8,Linear,0.66666667,1.0
+417,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.548985922296442,KMeans,0.5,9,Linear,0.66666667,1.0
+418,nyc_taxi.csv,7.9132285928342725,Linear,0.25,10,Linear,0.66666667,1.0
+419,,,,,,,,
+420,speed_6005.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+421,exchange-2_cpc_results.csv,0.0016504112251691794,KMeans,0.33333333,1,KMeans,0.66666667,1.0
+422,Twitter_volume_IBM.csv,0.0048615910816920405,Linear,0.5,2,KMeans,0.66666667,1.0
+423,occupancy_t4013.csv,1.0721007184757347,Linear,1.0,3,Linear,0.66666667,1.0
+424,rogue_agent_key_hold.csv,1.1341548255238987,Linear,0.003367,4,Linear,0.66666667,1.0
+425,ec2_cpu_utilization_77c1ca.csv,1.167137267809137,KMeans,0.03921569,5,Linear,0.66666667,1.0
+426,grok_asg_anomaly.csv,1.180310899392282,KMeans,0.5,6,KMeans,0.66666667,1.0
+427,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,1.2082956581406723,KMeans,0.5,7,KMeans,0.66666667,1.0
+428,Landsat Satellite,1.4875893167880463,Linear,0.71794872,8,KMeans,0.66666667,1.0
+429,Twitter_volume_FB.csv,1.6592358474804882,Linear,1.0,9,Linear,0.66666667,1.0
+430,Pen-Based Recognition of Handwritten Text,1.6976571211411828,KMeans,0.88648649,10,KMeans,0.66666667,1.0
+431,,,,,,,,
+432,Twitter_volume_KO.csv,0,Linear,0.8,0,Linear,0.8,1
+433,nyc_taxi.csv,0.08921969370129545,Linear,0.25,1,Linear,0.8,1.0
+434,ec2_cpu_utilization_5f5533.csv,0.15126905781727373,KMeans,0.57142857,2,KMeans,0.8,1.0
+435,machine_temperature_system_failure.csv,0.3199077354315705,Linear,0.4,3,Linear,0.8,1.0
+436,ec2_cpu_utilization_c6585a.csv,1.4842802855082482,Linear,0.0,4,Linear,0.8,1.0
+437,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,1.5849190758109497,KMeans,0.5,5,Linear,0.8,1.0
+438,speed_t4013.csv,1.8311784671504938,Linear,1.0,6,Linear,0.8,1.0
+439,ec2_cpu_utilization_77c1ca.csv,2.3423162416246406,KMeans,0.03921569,7,Linear,0.8,1.0
+440,art_daily_jumpsdown.csv,2.5495650968400696,KMeans,0.03030303,8,KMeans,0.8,1.0
+441,ec2_disk_write_bytes_c0d644.csv,2.6195105017482057,Linear,0.5,9,Linear,0.8,1.0
+442,occupancy_t4013.csv,2.6818514537719356,Linear,1.0,10,Linear,0.8,1.0
+443,,,,,,,,
+444,Twitter_volume_GOOG.csv,0,Linear,0.4,0,Linear,0.4,1
+445,Breast Cancer Diagnostic,0.11027197919419507,KMeans,0.83333333,1,KMeans,0.4,1.0
+446,occupancy_6005.csv,0.12611824891410572,Linear,1.0,2,KMeans,0.4,1.0
+447,art_daily_flatmiddle.csv,0.17192740945624507,KMeans,0.02,3,KMeans,0.4,1.0
+448,grok_asg_anomaly.csv,0.18614840158534207,KMeans,0.5,4,KMeans,0.4,1.0
+449,cpu_utilization_asg_misconfiguration.csv,0.2185670482517139,KMeans,0.00775194,5,KMeans,0.4,1.0
+450,elb_request_count_8c0756.csv,0.49025112694181994,Linear,0.66666667,6,KMeans,0.4,1.0
+451,rogue_agent_key_hold.csv,0.6150180758253598,Linear,0.003367,7,KMeans,0.4,1.0
+452,ec2_cpu_utilization_24ae8d.csv,0.6703209135343258,KMeans,1.0,8,KMeans,0.4,1.0
+453,Pen-Based Recognition of Handwritten Text,0.9895500381594924,KMeans,0.88648649,9,KMeans,0.4,1.0
+454,speed_7578.csv,0.9951196191077747,KMeans,0.75,10,KMeans,0.4,1.0
+455,,,,,,,,
+456,exchange-2_cpc_results.csv,0,KMeans,0.33333333,0,KMeans,0.33333333,1
+457,ec2_cpu_utilization_77c1ca.csv,0.08352029564763441,KMeans,0.03921569,1,KMeans,0.33333333,1.0
+458,art_daily_nojump.csv,0.14703989944708873,KMeans,0.00152207,2,KMeans,0.33333333,1.0
+459,Landsat Satellite,0.3067245450444265,Linear,0.71794872,3,KMeans,0.33333333,1.0
+460,machine_temperature_system_failure.csv,1.061773916159007,Linear,0.4,4,KMeans,0.33333333,1.0
+461,exchange-3_cpm_results.csv,1.335256960057004,Linear,1.0,5,Linear,0.06666667,0.73333334
+462,speed_t4013.csv,1.4276505029070794,Linear,1.0,6,Linear,0.06666667,0.73333334
+463,exchange-2_cpm_results.csv,1.509892369748746,KMeans,0.8,7,Linear,0.06666667,0.73333334
+464,nyc_taxi.csv,1.6509485872351437,Linear,0.25,8,Linear,0.06666667,0.73333334
+465,rds_cpu_utilization_e47b3b.csv,1.6998726685714107,Linear,0.66666667,9,Linear,0.06666667,0.73333334
+466,exchange-3_cpc_results.csv,1.7476957113955045,Linear,0.57142857,10,Linear,0.06666667,0.73333334
+467,,,,,,,,
+468,Twitter_volume_CVS.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+469,Twitter_volume_AAPL.csv,0.2510610604263519,Linear,0.4,1,Linear,0.66666667,1.0
+470,ec2_cpu_utilization_53ea38.csv,0.36334466242645647,KMeans,0.04255319,2,KMeans,0.66666667,1.0
+471,art_increase_spike_density.csv,0.49076526930135156,KMeans,0.15384615,3,KMeans,0.66666667,1.0
+472,Twitter_volume_PFE.csv,0.6354157663663074,KMeans,0.42857143,4,KMeans,0.66666667,1.0
+473,Pen-Based Recognition of Handwritten Text,1.0446798315426067,KMeans,0.88648649,5,KMeans,0.66666667,1.0
+474,art_daily_jumpsup.csv,2.108456103187109,KMeans,0.22222222,6,KMeans,0.66666667,1.0
+475,ec2_request_latency_system_failure.csv,2.1866041601873776,KMeans,0.66666667,7,KMeans,0.66666667,1.0
+476,Twitter_volume_CRM.csv,2.232890169778102,KMeans,0.54545455,8,KMeans,0.66666667,1.0
+477,KDD-Cup99 HTTP,2.6386274727466343,RPCA,0.93849658,9,KMeans,0.66666667,1.0
+478,art_daily_flatmiddle.csv,2.6640322703333226,KMeans,0.02,10,KMeans,0.66666667,1.0
+479,,,,,,,,
+480,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
+481,ec2_cpu_utilization_ac20cd.csv,0.20951692062226357,KMeans,0.66666667,1,KMeans,0.00775194,1.0
+482,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.35859120208726303,KMeans,0.5,2,KMeans,0.00775194,1.0
+483,Twitter_volume_FB.csv,0.5903686557223864,Linear,1.0,3,KMeans,0.00775194,1.0
+484,machine_temperature_system_failure.csv,0.848008710787326,Linear,0.4,4,KMeans,0.00775194,1.0
+485,Twitter_volume_KO.csv,0.9148033963338094,Linear,0.8,5,Linear,0.00110132,0.99334938
+486,Landsat Satellite,1.2319326198557974,Linear,0.71794872,6,Linear,0.00110132,0.99334938
+487,exchange-4_cpc_results.csv,1.2440814410565508,Linear,0.66666667,7,Linear,0.00110132,0.99334938
+488,speed_t4013.csv,1.4454617679791681,Linear,1.0,8,Linear,0.00110132,0.99334938
+489,occupancy_6005.csv,1.5423582055763259,Linear,1.0,9,Linear,0.00110132,0.99334938
+490,Twitter_volume_AMZN.csv,1.6901225095280097,KMeans,0.66666667,10,Linear,0.00110132,0.99334938
+491,,,,,,,,
+492,occupancy_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+493,art_daily_nojump.csv,0.05310705169062935,KMeans,0.00152207,1,KMeans,1.0,1.0
+494,cpu_utilization_asg_misconfiguration.csv,0.24242802356684656,KMeans,0.00775194,2,KMeans,1.0,1.0
+495,elb_request_count_8c0756.csv,0.32371375472750685,Linear,0.66666667,3,KMeans,1.0,1.0
+496,speed_t4013.csv,0.6440881463788646,Linear,1.0,4,KMeans,1.0,1.0
+497,Twitter_volume_UPS.csv,0.9510742762063256,Linear,0.28571429,5,Linear,1.0,1.0
+498,Twitter_volume_FB.csv,1.194556531563192,Linear,1.0,6,Linear,1.0,1.0
+499,ec2_cpu_utilization_5f5533.csv,1.768170997017931,KMeans,0.57142857,7,Linear,1.0,1.0
+500,Landsat Satellite,1.7799306034601141,Linear,0.71794872,8,Linear,1.0,1.0
+501,exchange-2_cpc_results.csv,1.8145232955694706,KMeans,0.33333333,9,Linear,1.0,1.0
+502,ambient_temperature_system_failure.csv,1.8415813786646122,KMeans,0.8,10,KMeans,1.0,1.0
+503,,,,,,,,
+504,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
+505,Twitter_volume_CRM.csv,0.41950546389404053,KMeans,0.54545455,1,KMeans,0.22222222,1.0
+506,grok_asg_anomaly.csv,0.7113778824494261,KMeans,0.5,2,KMeans,0.22222222,1.0
+507,speed_7578.csv,1.0096563057609937,KMeans,0.75,3,KMeans,0.22222222,1.0
+508,ec2_cpu_utilization_53ea38.csv,1.370005836782184,KMeans,0.04255319,4,KMeans,0.22222222,1.0
+509,speed_6005.csv,1.3892404735282238,Linear,0.66666667,5,KMeans,0.22222222,1.0
+510,Twitter_volume_CVS.csv,1.4110689254289355,Linear,0.66666667,6,KMeans,0.22222222,1.0
+511,ec2_request_latency_system_failure.csv,1.8358480704627218,KMeans,0.66666667,7,KMeans,0.22222222,1.0
+512,ec2_cpu_utilization_77c1ca.csv,1.851437461955041,KMeans,0.03921569,8,KMeans,0.22222222,1.0
+513,Twitter_volume_AAPL.csv,1.9346000503648497,Linear,0.4,9,KMeans,0.22222222,1.0
+514,KDD-Cup99 HTTP,2.4996298126903156,RPCA,0.93849658,10,KMeans,0.22222222,1.0
+515,,,,,,,,
+516,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
+517,Pen-Based Recognition of Handwritten Text,0.2368209702997568,KMeans,0.88648649,1,KMeans,0.00212993,0.99876293
+518,Twitter_volume_PFE.csv,0.3221489124966954,KMeans,0.42857143,2,KMeans,0.00212993,0.99876293
+519,Twitter_volume_IBM.csv,0.8516988774995209,Linear,0.5,3,KMeans,0.00212993,0.99876293
+520,ec2_cpu_utilization_825cc2.csv,1.6347578382090067,KMeans,0.66666667,4,KMeans,0.00212993,0.99876293
+521,exchange-4_cpm_results.csv,2.0978824922009984,KMeans,0.75,5,KMeans,0.00212993,0.99876293
+522,Pen-Based Recognition of Handwritten Text (Local),2.265911210767845,KMeans,0.52631579,6,KMeans,0.00212993,0.99876293
+523,ec2_cpu_utilization_c6585a.csv,2.7212284610982262,Linear,0.0,7,KMeans,0.00212993,0.99876293
+524,TravelTime_387.csv,2.8928583663787233,KMeans,0.66666667,8,KMeans,0.00212993,0.99876293
+525,art_increase_spike_density.csv,3.0818917360887372,KMeans,0.15384615,9,KMeans,0.00212993,0.99876293
+526,exchange-2_cpm_results.csv,3.213199241722254,KMeans,0.8,10,KMeans,0.00212993,0.99876293
+527,,,,,,,,
+528,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
+529,Twitter_volume_IBM.csv,0.2618563329039034,Linear,0.5,1,Linear,0.02222222,0.77222222
+530,exchange-4_cpc_results.csv,0.2824961515622135,Linear,0.66666667,2,Linear,0.02222222,0.77222222
+531,elb_request_count_8c0756.csv,0.39413565205440637,Linear,0.66666667,3,Linear,0.02222222,0.77222222
+532,Twitter_volume_FB.csv,0.445076595954049,Linear,1.0,4,Linear,0.02222222,0.77222222
+533,speed_6005.csv,0.5877819988296347,Linear,0.66666667,5,Linear,0.02222222,0.77222222
+534,Pen-Based Recognition of Handwritten Text,0.7801501539921212,KMeans,0.88648649,6,Linear,0.02222222,0.77222222
+535,Twitter_volume_GOOG.csv,0.842025107450695,Linear,0.4,7,Linear,0.02222222,0.77222222
+536,occupancy_t4013.csv,0.8914961177150857,Linear,1.0,8,Linear,0.02222222,0.77222222
+537,Twitter_volume_KO.csv,1.0792459082380788,Linear,0.8,9,Linear,0.02222222,0.77222222
+538,art_daily_jumpsdown.csv,1.1294555908593225,KMeans,0.03030303,10,Linear,0.02222222,0.77222222
+539,,,,,,,,
+540,Twitter_volume_FB.csv,0,Linear,1.0,0,Linear,1.0,1
+541,ambient_temperature_system_failure.csv,0.34828367348836764,KMeans,0.8,1,KMeans,1.0,1.0
+542,ec2_disk_write_bytes_c0d644.csv,0.7613725708216137,Linear,0.5,2,KMeans,1.0,1.0
+543,exchange-2_cpm_results.csv,0.7747351262668154,KMeans,0.8,3,KMeans,1.0,1.0
+544,Landsat Satellite,0.8441133716601712,Linear,0.71794872,4,KMeans,1.0,1.0
+545,machine_temperature_system_failure.csv,1.2133553019884857,Linear,0.4,5,Linear,1.0,1.0
+546,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,1.3309539803962984,KMeans,0.5,6,KMeans,1.0,1.0
+547,Pen-Based Recognition of Handwritten Text (Local),2.465420967605496,KMeans,0.52631579,7,KMeans,1.0,1.0
+548,Breast Cancer Diagnostic,3.6501485836508056,KMeans,0.83333333,8,KMeans,1.0,1.0
+549,exchange-2_cpc_results.csv,3.931982624545949,KMeans,0.33333333,9,KMeans,1.0,1.0
+550,ec2_cpu_utilization_77c1ca.csv,3.9616189729506406,KMeans,0.03921569,10,KMeans,1.0,1.0
+551,,,,,,,,
+552,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
+553,speed_6005.csv,0.16212419846663195,Linear,0.66666667,1,Linear,0.04,0.88615385
+554,Twitter_volume_AAPL.csv,0.4273802763877903,Linear,0.4,2,Linear,0.04,0.88615385
+555,Twitter_volume_IBM.csv,0.8638836780524421,Linear,0.5,3,Linear,0.04,0.88615385
+556,grok_asg_anomaly.csv,0.9422171219903213,KMeans,0.5,4,Linear,0.04,0.88615385
+557,ec2_cpu_utilization_77c1ca.csv,1.3512987326203572,KMeans,0.03921569,5,Linear,0.04,0.88615385
+558,ec2_cpu_utilization_825cc2.csv,1.8600596995374836,KMeans,0.66666667,6,KMeans,0.15384615,1.0
+559,Twitter_volume_PFE.csv,2.2353143520999232,KMeans,0.42857143,7,KMeans,0.15384615,1.0
+560,rds_cpu_utilization_e47b3b.csv,2.337518184845468,Linear,0.66666667,8,KMeans,0.15384615,1.0
+561,ec2_cpu_utilization_c6585a.csv,2.440087702042039,Linear,0.0,9,Linear,0.04,0.88615385
+562,Twitter_volume_KO.csv,2.661329828144236,Linear,0.8,10,Linear,0.04,0.88615385
+563,,,,,,,,
+564,occupancy_6005.csv,0,Linear,1.0,0,Linear,1.0,1
+565,exchange-2_cpc_results.csv,0.05955403506913726,KMeans,0.33333333,1,KMeans,1.0,1.0
+566,ambient_temperature_system_failure.csv,0.0888938505792094,KMeans,0.8,2,KMeans,1.0,1.0
+567,art_daily_nojump.csv,0.19633048396861064,KMeans,0.00152207,3,KMeans,1.0,1.0
+568,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.1992170997752556,KMeans,0.5,4,KMeans,1.0,1.0
+569,rogue_agent_key_hold.csv,0.40082390497218867,Linear,0.003367,5,KMeans,1.0,1.0
+570,exchange-3_cpc_results.csv,0.5531454581042237,Linear,0.57142857,6,KMeans,1.0,1.0
+571,exchange-4_cpm_results.csv,0.7552599244267473,KMeans,0.75,7,KMeans,1.0,1.0
+572,TravelTime_387.csv,0.7920756129802822,KMeans,0.66666667,8,KMeans,1.0,1.0
+573,Twitter_volume_GOOG.csv,0.7979463383363754,Linear,0.4,9,KMeans,1.0,1.0
+574,Twitter_volume_KO.csv,0.8005407226388552,Linear,0.8,10,KMeans,1.0,1.0
+575,,,,,,,,
+576,Twitter_volume_IBM.csv,0,Linear,0.5,0,Linear,0.5,1
+577,ec2_cpu_utilization_825cc2.csv,0.05760315760443291,KMeans,0.66666667,1,KMeans,0.5,1.0
+578,speed_7578.csv,0.13807550157242332,KMeans,0.75,2,KMeans,0.5,1.0
+579,occupancy_6005.csv,0.3748552438661745,Linear,1.0,3,KMeans,0.5,1.0
+580,art_daily_flatmiddle.csv,0.9787182409198181,KMeans,0.02,4,KMeans,0.5,1.0
+581,Pen-Based Recognition of Handwritten Text,1.1259781464746954,KMeans,0.88648649,5,KMeans,0.5,1.0
+582,ec2_cpu_utilization_5f5533.csv,1.3104176264438934,KMeans,0.57142857,6,KMeans,0.5,1.0
+583,elb_request_count_8c0756.csv,1.5644464216477338,Linear,0.66666667,7,KMeans,0.5,1.0
+584,Breast Cancer Diagnostic,1.6079607127036564,KMeans,0.83333333,8,KMeans,0.5,1.0
+585,Twitter_volume_PFE.csv,1.6570514040969897,KMeans,0.42857143,9,KMeans,0.5,1.0
+586,art_daily_jumpsdown.csv,2.0899099368556477,KMeans,0.03030303,10,KMeans,0.5,1.0
+587,,,,,,,,
+588,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
+589,ec2_cpu_utilization_5f5533.csv,0.23108937565848464,KMeans,0.57142857,1,KMeans,1.0,1.0
+590,Twitter_volume_PFE.csv,0.34509135797719637,KMeans,0.42857143,2,KMeans,1.0,1.0
+591,art_load_balancer_spikes.csv,0.45381750357947936,KMeans,0.25,3,KMeans,1.0,1.0
+592,ec2_cpu_utilization_77c1ca.csv,0.6174817971954258,KMeans,0.03921569,4,KMeans,1.0,1.0
+593,occupancy_t4013.csv,0.8798360339093296,Linear,1.0,5,KMeans,1.0,1.0
+594,exchange-2_cpc_results.csv,0.8990558091058123,KMeans,0.33333333,6,KMeans,1.0,1.0
+595,exchange-2_cpm_results.csv,1.2127246694135785,KMeans,0.8,7,KMeans,1.0,1.0
+596,exchange-3_cpc_results.csv,1.2452888876453807,Linear,0.57142857,8,KMeans,1.0,1.0
+597,Twitter_volume_KO.csv,1.28992405963686,Linear,0.8,9,KMeans,1.0,1.0
+598,rogue_agent_key_hold.csv,1.316685529343939,Linear,0.003367,10,KMeans,1.0,1.0
+599,,,,,,,,
+600,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
+601,ec2_network_in_5abac7.csv,8.047640665753697e-05,Linear,0.66666667,1,Linear,0.08695652,1.0
+602,TravelTime_451.csv,8.727383340101369e-05,KMeans,0.4,2,KMeans,0.08695652,1.0
+603,ec2_cpu_utilization_fe7f93.csv,8.865763487686529e-05,Linear,0.5,3,Linear,0.08695652,1.0
+604,ec2_network_in_257a54.csv,9.290043249410296e-05,KMeans,0.5,4,KMeans,0.08695652,1.0
+605,rogue_agent_key_updown.csv,9.332818098672924e-05,Gaussian,0.00083455,5,KMeans,0.08695652,1.0
+606,rds_cpu_utilization_cc0c53.csv,9.335436953139542e-05,Gaussian,1.0,6,Gaussian,0.03174603,0.94478951
+607,Twitter_volume_AAPL.csv,1.1526517581260114,Linear,0.4,7,Linear,0.08695652,1.0
+608,Twitter_volume_PFE.csv,2.049780205485148,KMeans,0.42857143,8,KMeans,0.08695652,1.0
+609,ec2_request_latency_system_failure.csv,2.0838424088876244,KMeans,0.66666667,9,KMeans,0.08695652,1.0
+610,KDD-Cup99 HTTP,2.1630177949100498,RPCA,0.93849658,10,KMeans,0.08695652,1.0
+611,,,,,,,,
+612,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
+613,art_daily_flatmiddle.csv,0.06256751758451173,KMeans,0.02,1,KMeans,0.5,1.0
+614,exchange-4_cpc_results.csv,0.18405339458672643,Linear,0.66666667,2,KMeans,0.5,1.0
+615,Statlog Shuttle,0.5572343544542946,KMeans,0.96766744,3,KMeans,0.5,1.0
+616,Twitter_volume_UPS.csv,0.6050346089230061,Linear,0.28571429,4,KMeans,0.5,1.0
+617,cpu_utilization_asg_misconfiguration.csv,0.6097683093528303,KMeans,0.00775194,5,KMeans,0.5,1.0
+618,TravelTime_387.csv,0.7765473327133918,KMeans,0.66666667,6,KMeans,0.5,1.0
+619,Breast Cancer Diagnostic,0.881705649595836,KMeans,0.83333333,7,KMeans,0.5,1.0
+620,art_daily_jumpsdown.csv,0.9027566163697429,KMeans,0.03030303,8,KMeans,0.5,1.0
+621,Pen-Based Recognition of Handwritten Text,1.1988829406128714,KMeans,0.88648649,9,KMeans,0.5,1.0
+622,Thyroid Disease,1.2959919668503517,KMeans,0.22317597,10,KMeans,0.5,1.0
+623,,,,,,,,
+624,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
+625,Twitter_volume_IBM.csv,0.016453575902232842,Linear,0.5,1,Linear,0.02352941,0.98097622
+626,art_daily_jumpsup.csv,0.04394600870348597,KMeans,0.22222222,2,KMeans,0.04255319,1.0
+627,Twitter_volume_AAPL.csv,0.1480711380527282,Linear,0.4,3,Linear,0.02352941,0.98097622
+628,ec2_cpu_utilization_825cc2.csv,0.22353310277179617,KMeans,0.66666667,4,KMeans,0.04255319,1.0
+629,Twitter_volume_CRM.csv,0.6946494209073535,KMeans,0.54545455,5,KMeans,0.04255319,1.0
+630,Twitter_volume_KO.csv,0.7090821512488787,Linear,0.8,6,KMeans,0.04255319,1.0
+631,Pen-Based Recognition of Handwritten Text (Local),0.8384900522487442,KMeans,0.52631579,7,KMeans,0.04255319,1.0
+632,ec2_cpu_utilization_c6585a.csv,1.1933971244886266,Linear,0.0,8,KMeans,0.04255319,1.0
+633,art_daily_nojump.csv,1.2038189020063328,KMeans,0.00152207,9,KMeans,0.04255319,1.0
+634,exchange-2_cpm_results.csv,1.3478326846895348,KMeans,0.8,10,KMeans,0.04255319,1.0
+635,,,,,,,,
+636,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
+637,ec2_cpu_utilization_5f5533.csv,0.2883270383190535,KMeans,0.57142857,1,KMeans,0.03921569,1.0
+638,art_daily_jumpsdown.csv,0.43903652954573147,KMeans,0.03030303,2,KMeans,0.03921569,1.0
+639,ec2_cpu_utilization_c6585a.csv,0.8331688720891322,Linear,0.0,3,KMeans,0.03921569,1.0
+640,exchange-2_cpc_results.csv,1.0501297395435412,KMeans,0.33333333,4,KMeans,0.03921569,1.0
+641,nyc_taxi.csv,1.097792067801933,Linear,0.25,5,KMeans,0.03921569,1.0
+642,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,1.2452029867506944,KMeans,0.5,6,KMeans,0.03921569,1.0
+643,ec2_cpu_utilization_ac20cd.csv,1.3103670863293218,KMeans,0.66666667,7,KMeans,0.03921569,1.0
+644,exchange-3_cpc_results.csv,1.5241112864444286,Linear,0.57142857,8,KMeans,0.03921569,1.0
+645,speed_t4013.csv,1.6687137275348078,Linear,1.0,9,KMeans,0.03921569,1.0
+646,art_daily_nojump.csv,2.0159327891085894,KMeans,0.00152207,10,KMeans,0.03921569,1.0
+647,,,,,,,,
+648,Twitter_volume_CRM.csv,0,KMeans,0.54545455,0,KMeans,0.54545455,1
+649,cpu_utilization_asg_misconfiguration.csv,0.05251510273100379,KMeans,0.00775194,1,KMeans,0.54545455,1.0
+650,occupancy_6005.csv,0.17866990316712705,Linear,1.0,2,KMeans,0.54545455,1.0
+651,Pen-Based Recognition of Handwritten Text,0.4113553112205348,KMeans,0.88648649,3,KMeans,0.54545455,1.0
+652,speed_7578.csv,0.4174166268862829,KMeans,0.75,4,KMeans,0.54545455,1.0
+653,ec2_request_latency_system_failure.csv,0.4852286576272693,KMeans,0.66666667,5,KMeans,0.54545455,1.0
+654,KDD-Cup99 HTTP,0.4984151156336578,RPCA,0.93849658,6,KMeans,0.54545455,1.0
+655,ec2_cpu_utilization_53ea38.csv,0.5373525670177948,KMeans,0.04255319,7,KMeans,0.54545455,1.0
+656,art_daily_flatmiddle.csv,0.6065098220233089,KMeans,0.02,8,KMeans,0.54545455,1.0
+657,Twitter_volume_UPS.csv,0.6517328440213355,Linear,0.28571429,9,KMeans,0.54545455,1.0
+658,Twitter_volume_CVS.csv,0.8879001397988873,Linear,0.66666667,10,KMeans,0.54545455,1.0
+659,,,,,,,,
+660,exchange-4_cpc_results.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+661,elb_request_count_8c0756.csv,0.48609637362342184,Linear,0.66666667,1,Linear,0.66666667,1.0
+662,Letter Recognition,1.0284902651389416,KMeans,0.44545455,2,KMeans,0.66666667,1.0
+663,Object Images,1.0292614674885385,Gaussian,0.06772229,3,Gaussian,0.28571429,0.6190476199999999
+664,Speech Accent Data,1.0292614674885385,Linear,0.11764706,4,Linear,0.66666667,1.0
+665,art_daily_jumpsdown.csv,1.6865758766239765,KMeans,0.03030303,5,KMeans,0.66666667,1.0
+666,speed_t4013.csv,1.819159424812426,Linear,1.0,6,Linear,0.66666667,1.0
+667,ambient_temperature_system_failure.csv,2.2740710483154203,KMeans,0.8,7,KMeans,0.66666667,1.0
+668,Twitter_volume_UPS.csv,2.45875258799515,Linear,0.28571429,8,Linear,0.66666667,1.0
+669,Twitter_volume_GOOG.csv,2.8549158962505317,Linear,0.4,9,Linear,0.66666667,1.0
+670,Twitter_volume_AMZN.csv,3.31926629564947,KMeans,0.66666667,10,Linear,0.66666667,1.0
+671,,,,,,,,
+672,speed_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+673,occupancy_t4013.csv,0.03716616953344598,Linear,1.0,1,Linear,1.0,1.0
+674,exchange-3_cpc_results.csv,0.05126991045121443,Linear,0.57142857,2,Linear,1.0,1.0
+675,exchange-2_cpm_results.csv,0.09608755413492265,KMeans,0.8,3,Linear,1.0,1.0
+676,Pen-Based Recognition of Handwritten Text,0.0964134495145359,KMeans,0.88648649,4,KMeans,0.8,0.8
+677,Statlog Shuttle,0.19369349927274015,KMeans,0.96766744,5,KMeans,0.8,0.8
+678,ec2_cpu_utilization_5f5533.csv,0.2041318513329884,KMeans,0.57142857,6,KMeans,0.8,0.8
+679,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.41538135514699004,KMeans,0.5,7,KMeans,0.8,0.8
+680,machine_temperature_system_failure.csv,0.5144185492520137,Linear,0.4,8,KMeans,0.8,0.8
+681,Twitter_volume_FB.csv,0.7731784622055216,Linear,1.0,9,KMeans,0.8,0.8
+682,elb_request_count_8c0756.csv,0.7781020294525423,Linear,0.66666667,10,KMeans,0.8,0.8
+683,,,,,,,,
+684,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
+685,ec2_cpu_utilization_77c1ca.csv,0.00629796316221487,KMeans,0.03921569,1,KMeans,0.5,1.0
+686,Twitter_volume_IBM.csv,0.04479760993422133,Linear,0.5,2,KMeans,0.5,1.0
+687,rds_cpu_utilization_e47b3b.csv,0.10454670748003991,Linear,0.66666667,3,Linear,0.00416667,0.50416667
+688,Statlog Shuttle,0.4700252556008877,KMeans,0.96766744,4,KMeans,0.5,1.0
+689,ec2_cpu_utilization_c6585a.csv,0.5265868751166636,Linear,0.0,5,Linear,0.00416667,0.50416667
+690,Twitter_volume_AAPL.csv,0.5409417433824615,Linear,0.4,6,Linear,0.00416667,0.50416667
+691,TravelTime_387.csv,0.6929018609473587,KMeans,0.66666667,7,Linear,0.00416667,0.50416667
+692,Pen-Based Recognition of Handwritten Text,0.7635787458549856,KMeans,0.88648649,8,KMeans,0.5,1.0
+693,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.8838933134350135,KMeans,0.5,9,KMeans,0.5,1.0
+694,ec2_cpu_utilization_825cc2.csv,0.9092925817364943,KMeans,0.66666667,10,KMeans,0.5,1.0
+695,,,,,,,,
+696,Twitter_volume_PFE.csv,0,KMeans,0.42857143,0,KMeans,0.42857143,1
+697,Twitter_volume_KO.csv,0.26792623246137737,Linear,0.8,1,Linear,0.36363636,0.93506493
+698,Statlog Shuttle,0.3700400890315336,KMeans,0.96766744,2,KMeans,0.42857143,1.0
+699,ec2_disk_write_bytes_c0d644.csv,0.3914575880668938,Linear,0.5,3,Linear,0.36363636,0.93506493
+700,Twitter_volume_AMZN.csv,0.6896577440106171,KMeans,0.66666667,4,KMeans,0.42857143,1.0
+701,Twitter_volume_AAPL.csv,0.7730482645372803,Linear,0.4,5,Linear,0.36363636,0.93506493
+702,grok_asg_anomaly.csv,0.7953397262690487,KMeans,0.5,6,KMeans,0.42857143,1.0
+703,art_increase_spike_density.csv,0.8117109978706623,KMeans,0.15384615,7,KMeans,0.42857143,1.0
+704,TravelTime_387.csv,1.0283323378757814,KMeans,0.66666667,8,KMeans,0.42857143,1.0
+705,art_load_balancer_spikes.csv,1.0739591025101558,KMeans,0.25,9,KMeans,0.42857143,1.0
+706,exchange-4_cpm_results.csv,1.1315478656643236,KMeans,0.75,10,KMeans,0.42857143,1.0
+707,,,,,,,,
+708,exchange-3_cpc_results.csv,0,Linear,0.57142857,0,Linear,0.57142857,1
+709,art_load_balancer_spikes.csv,0.0020699983861689475,KMeans,0.25,1,KMeans,0.57142857,1.0
+710,Twitter_volume_FB.csv,0.09345108413212166,Linear,1.0,2,KMeans,0.57142857,1.0
+711,Twitter_volume_KO.csv,0.3559212165855943,Linear,0.8,3,Linear,0.57142857,1.0
+712,ec2_cpu_utilization_c6585a.csv,0.3878108387698571,Linear,0.0,4,Linear,0.57142857,1.0
+713,art_daily_jumpsdown.csv,0.5432834647244622,KMeans,0.03030303,5,Linear,0.57142857,1.0
+714,Statlog Shuttle,0.6341948784809315,KMeans,0.96766744,6,KMeans,0.57142857,1.0
+715,exchange-2_cpm_results.csv,0.6949837849861229,KMeans,0.8,7,KMeans,0.57142857,1.0
+716,Landsat Satellite,0.8279173197626992,Linear,0.71794872,8,KMeans,0.57142857,1.0
+717,ec2_cpu_utilization_77c1ca.csv,0.9880527913706985,KMeans,0.03921569,9,KMeans,0.57142857,1.0
+718,TravelTime_387.csv,0.995165752321574,KMeans,0.66666667,10,KMeans,0.57142857,1.0
+719,,,,,,,,
+720,Twitter_volume_AMZN.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+721,Thyroid Disease,0.1066306345310295,KMeans,0.22317597,1,KMeans,0.66666667,1.0
+722,art_daily_jumpsdown.csv,0.682897366299585,KMeans,0.03030303,2,KMeans,0.66666667,1.0
+723,ec2_cpu_utilization_c6585a.csv,1.1445348667266444,Linear,0.0,3,KMeans,0.66666667,1.0
+724,ec2_cpu_utilization_77c1ca.csv,1.1523894453938652,KMeans,0.03921569,4,KMeans,0.66666667,1.0
+725,exchange-2_cpc_results.csv,1.298205534136521,KMeans,0.33333333,5,KMeans,0.66666667,1.0
+726,Twitter_volume_FB.csv,1.7169779066025512,Linear,1.0,6,KMeans,0.66666667,1.0
+727,Twitter_volume_UPS.csv,1.7715665536570668,Linear,0.28571429,7,KMeans,0.66666667,1.0
+728,nyc_taxi.csv,1.9686251243329025,Linear,0.25,8,KMeans,0.66666667,1.0
+729,occupancy_t4013.csv,2.2012626795060726,Linear,1.0,9,Linear,0.57142857,0.9047619
+730,ambient_temperature_system_failure.csv,2.3521685161540518,KMeans,0.8,10,KMeans,0.66666667,1.0
+731,,,,,,,,
+732,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
+733,Twitter_volume_GOOG.csv,0.15094374950081146,Linear,0.4,1,Linear,0.00059595,0.99907388
+734,exchange-2_cpc_results.csv,1.3115040740430874,KMeans,0.33333333,2,KMeans,0.00152207,1.0
+735,art_daily_flatmiddle.csv,1.7206476449607635,KMeans,0.02,3,KMeans,0.00152207,1.0
+736,ec2_cpu_utilization_ac20cd.csv,2.4015520805842243,KMeans,0.66666667,4,KMeans,0.00152207,1.0
+737,Breast Cancer Diagnostic,2.594081997716799,KMeans,0.83333333,5,KMeans,0.00152207,1.0
+738,Letter Recognition,2.6203257573843075,KMeans,0.44545455,6,KMeans,0.00152207,1.0
+739,Object Images,2.6212872777580287,Gaussian,0.06772229,7,KMeans,0.00152207,1.0
+740,Speech Accent Data,2.6212872777580287,Linear,0.11764706,8,KMeans,0.00152207,1.0
+741,ec2_cpu_utilization_5f5533.csv,2.836806967748089,KMeans,0.57142857,9,KMeans,0.00152207,1.0
+742,speed_t4013.csv,2.921757111180341,Linear,1.0,10,KMeans,0.00152207,1.0
+743,,,,,,,,
+744,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
+745,rds_cpu_utilization_cc0c53.csv,8.301793928688905e-08,Gaussian,1.0,1,Gaussian,0.02469136,0.52469136
+746,rogue_agent_key_updown.csv,1.8355738195044435e-07,Gaussian,0.00083455,2,Gaussian,0.02469136,0.52469136
+747,ec2_network_in_257a54.csv,2.033953139463432e-07,KMeans,0.5,3,Gaussian,0.02469136,0.52469136
+748,TravelTime_451.csv,1.1189154936761328e-06,KMeans,0.4,4,Gaussian,0.02469136,0.52469136
+749,ec2_network_in_5abac7.csv,1.3888203789225173e-06,Linear,0.66666667,5,Gaussian,0.02469136,0.52469136
+750,ec2_disk_write_bytes_1ef3de.csv,3.3354926761769085e-06,Linear,0.08695652,6,Gaussian,0.02469136,0.52469136
+751,KDD-Cup99 HTTP,0.354851888526012,RPCA,0.93849658,7,Gaussian,0.02469136,0.52469136
+752,ec2_request_latency_system_failure.csv,0.6733809097558698,KMeans,0.66666667,8,KMeans,0.5,1.0
+753,speed_7578.csv,0.8718310872741429,KMeans,0.75,9,KMeans,0.5,1.0
+754,Twitter_volume_CVS.csv,0.8913075543410952,Linear,0.66666667,10,KMeans,0.5,1.0
+755,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.6031746031746031,0.9260493455555556
+0,,,,,2.0,,0.746031746031746,0.9553422158730159
+0,,,,,3.0,,0.6349206349206349,0.9108110726984128
+0,,,,,4.0,,0.7142857142857143,0.9521013784126984
+0,,,,,5.0,,0.5873015873015873,0.9001249880952381
+0,,,,,6.0,,0.6507936507936508,0.9239230646031745
+0,,,,,7.0,,0.6507936507936508,0.9193682026984127
+0,,,,,8.0,,0.7301587301587301,0.9536189596825396
+0,,,,,9.0,,0.7142857142857143,0.9557995490476189
+0,,,,,10.0,,0.7301587301587301,0.9565989022222222

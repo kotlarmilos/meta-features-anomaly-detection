@@ -1,0 +1,756 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
+1,Pen-Based Recognition of Handwritten Text,17.610768918271894,KMeans,0.88648649,1,KMeans,0.83333333,1.0
+2,Statlog Shuttle,20.857172539035577,KMeans,0.96766744,2,KMeans,0.83333333,1.0
+3,Landsat Satellite,23.448079219594092,Linear,0.71794872,3,KMeans,0.83333333,1.0
+4,Letter Recognition,24.075866789973748,KMeans,0.44545455,4,KMeans,0.83333333,1.0
+5,Pen-Based Recognition of Handwritten Text (Local),24.261955868836836,KMeans,0.52631579,5,KMeans,0.83333333,1.0
+6,Object Images,40.35567100365317,Gaussian,0.06772229,6,KMeans,0.83333333,1.0
+7,Thyroid Disease,48.86967905359464,KMeans,0.22317597,7,KMeans,0.83333333,1.0
+8,Speech Accent Data,62.00407083933332,Linear,0.11764706,8,KMeans,0.83333333,1.0
+9,art_daily_flatmiddle.csv,65.06206600506779,KMeans,0.02,9,KMeans,0.83333333,1.0
+10,speed_7578.csv,69.65610299577415,KMeans,0.75,10,KMeans,0.83333333,1.0
+11,,,,,,,,
+12,Pen-Based Recognition of Handwritten Text (Local),0,KMeans,0.52631579,0,KMeans,0.52631579,1
+13,Letter Recognition,17.575671418697294,KMeans,0.44545455,1,KMeans,0.52631579,1.0
+14,Landsat Satellite,20.243844039911178,Linear,0.71794872,2,KMeans,0.52631579,1.0
+15,Object Images,22.49177040833508,Gaussian,0.06772229,3,Gaussian,0.01392758,0.4876117900000001
+16,Pen-Based Recognition of Handwritten Text,23.16858373198143,KMeans,0.88648649,4,KMeans,0.52631579,1.0
+17,Statlog Shuttle,23.81616522274811,KMeans,0.96766744,5,KMeans,0.52631579,1.0
+18,Breast Cancer Diagnostic,24.261955868836836,KMeans,0.83333333,6,KMeans,0.52631579,1.0
+19,Thyroid Disease,39.08093681423598,KMeans,0.22317597,7,KMeans,0.52631579,1.0
+20,art_daily_flatmiddle.csv,43.23176033922523,KMeans,0.02,8,KMeans,0.52631579,1.0
+21,occupancy_6005.csv,52.96392259318062,Linear,1.0,9,KMeans,0.52631579,1.0
+22,ec2_cpu_utilization_fe7f93.csv,53.03515222361515,Linear,0.5,10,KMeans,0.52631579,1.0
+23,,,,,,,,
+24,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
+25,Pen-Based Recognition of Handwritten Text,16.492392397657305,KMeans,0.88648649,1,KMeans,0.44545455,1.0
+26,Pen-Based Recognition of Handwritten Text (Local),17.575671418697294,KMeans,0.52631579,2,KMeans,0.44545455,1.0
+27,Landsat Satellite,19.355036727101446,Linear,0.71794872,3,KMeans,0.44545455,1.0
+28,Statlog Shuttle,23.914157310393826,KMeans,0.96766744,4,KMeans,0.44545455,1.0
+29,Breast Cancer Diagnostic,24.075866789973748,KMeans,0.83333333,5,KMeans,0.44545455,1.0
+30,Object Images,30.162718715522615,Gaussian,0.06772229,6,KMeans,0.44545455,1.0
+31,Thyroid Disease,38.44742515764533,KMeans,0.22317597,7,KMeans,0.44545455,1.0
+32,art_daily_flatmiddle.csv,58.867785663661095,KMeans,0.02,8,KMeans,0.44545455,1.0
+33,Speech Accent Data,61.294677903612865,Linear,0.11764706,9,KMeans,0.44545455,1.0
+34,speed_7578.csv,63.73907873602319,KMeans,0.75,10,KMeans,0.44545455,1.0
+35,,,,,,,,
+36,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
+37,Letter Recognition,38.44742515764533,KMeans,0.44545455,1,KMeans,0.22317597,1.0
+38,Pen-Based Recognition of Handwritten Text (Local),39.08093681423598,KMeans,0.52631579,2,KMeans,0.22317597,1.0
+39,Object Images,39.59754918533129,Gaussian,0.06772229,3,KMeans,0.22317597,1.0
+40,Statlog Shuttle,47.81486816919691,KMeans,0.96766744,4,KMeans,0.22317597,1.0
+41,Breast Cancer Diagnostic,48.86967905359464,KMeans,0.83333333,5,KMeans,0.22317597,1.0
+42,Pen-Based Recognition of Handwritten Text,49.35771468726959,KMeans,0.88648649,6,KMeans,0.22317597,1.0
+43,Landsat Satellite,50.69517821188757,Linear,0.71794872,7,KMeans,0.22317597,1.0
+44,art_increase_spike_density.csv,68.41552129226282,KMeans,0.15384615,8,KMeans,0.22317597,1.0
+45,art_daily_flatmiddle.csv,73.63308296416591,KMeans,0.02,9,KMeans,0.22317597,1.0
+46,ec2_cpu_utilization_24ae8d.csv,73.95385486912434,KMeans,1.0,10,KMeans,0.22317597,1.0
+47,,,,,,,,
+48,Statlog Shuttle,0,KMeans,0.96766744,0,KMeans,0.96766744,1
+49,Pen-Based Recognition of Handwritten Text,15.305898066604898,KMeans,0.88648649,1,KMeans,0.96766744,1.0
+50,Landsat Satellite,20.497995388302975,Linear,0.71794872,2,KMeans,0.96766744,1.0
+51,Breast Cancer Diagnostic,20.857172539035577,KMeans,0.83333333,3,KMeans,0.96766744,1.0
+52,Pen-Based Recognition of Handwritten Text (Local),23.81616522274811,KMeans,0.52631579,4,KMeans,0.96766744,1.0
+53,Letter Recognition,23.914157310393826,KMeans,0.44545455,5,KMeans,0.96766744,1.0
+54,Object Images,35.22379803181984,Gaussian,0.06772229,6,KMeans,0.96766744,1.0
+55,Thyroid Disease,47.81486816919691,KMeans,0.22317597,7,KMeans,0.96766744,1.0
+56,art_daily_flatmiddle.csv,64.36434178871735,KMeans,0.02,8,KMeans,0.96766744,1.0
+57,speed_7578.csv,71.22127238689403,KMeans,0.75,9,KMeans,0.96766744,1.0
+58,rogue_agent_key_hold.csv,72.25613572037152,Linear,0.003367,10,KMeans,0.96766744,1.0
+59,,,,,,,,
+60,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
+61,Pen-Based Recognition of Handwritten Text (Local),22.49177040833508,KMeans,0.52631579,1,KMeans,0.05851859,0.9907963
+62,Letter Recognition,30.162718715522615,KMeans,0.44545455,2,KMeans,0.05851859,0.9907963
+63,Statlog Shuttle,35.22379803181984,KMeans,0.96766744,3,KMeans,0.05851859,0.9907963
+64,Thyroid Disease,39.59754918533129,KMeans,0.22317597,4,KMeans,0.05851859,0.9907963
+65,Landsat Satellite,39.72610880675646,Linear,0.71794872,5,KMeans,0.05851859,0.9907963
+66,Breast Cancer Diagnostic,40.35567100365317,KMeans,0.83333333,6,KMeans,0.05851859,0.9907963
+67,Pen-Based Recognition of Handwritten Text,41.67091684968729,KMeans,0.88648649,7,KMeans,0.05851859,0.9907963
+68,art_daily_flatmiddle.csv,57.683194533479465,KMeans,0.02,8,KMeans,0.05851859,0.9907963
+69,rogue_agent_key_updown.csv,63.733745242427425,Gaussian,0.00083455,9,KMeans,0.05851859,0.9907963
+70,ec2_cpu_utilization_77c1ca.csv,64.47045581049365,KMeans,0.03921569,10,KMeans,0.05851859,0.9907963
+71,,,,,,,,
+72,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
+73,Pen-Based Recognition of Handwritten Text (Local),58.123470434341215,KMeans,0.52631579,1,KMeans,0.05384615,0.93619909
+74,Letter Recognition,61.294677903612865,KMeans,0.44545455,2,KMeans,0.05384615,0.93619909
+75,Breast Cancer Diagnostic,62.00407083933332,KMeans,0.83333333,3,KMeans,0.05384615,0.93619909
+76,Landsat Satellite,65.83863923249679,Linear,0.71794872,4,KMeans,0.05384615,0.93619909
+77,Object Images,68.14825135392535,Gaussian,0.06772229,5,KMeans,0.05384615,0.93619909
+78,Pen-Based Recognition of Handwritten Text,72.26161944545423,KMeans,0.88648649,6,KMeans,0.05384615,0.93619909
+79,Statlog Shuttle,75.16965454523992,KMeans,0.96766744,7,KMeans,0.05384615,0.93619909
+80,Thyroid Disease,79.27115560877394,KMeans,0.22317597,8,KMeans,0.05384615,0.93619909
+81,art_daily_flatmiddle.csv,87.60410532416003,KMeans,0.02,9,KMeans,0.05384615,0.93619909
+82,elb_request_count_8c0756.csv,95.64155362422207,Linear,0.66666667,10,KMeans,0.05384615,0.93619909
+83,,,,,,,,
+84,Pen-Based Recognition of Handwritten Text,0,KMeans,0.88648649,0,KMeans,0.88648649,1
+85,Statlog Shuttle,15.305898066604898,KMeans,0.96766744,1,KMeans,0.88648649,1.0
+86,Letter Recognition,16.492392397657305,KMeans,0.44545455,2,KMeans,0.88648649,1.0
+87,Landsat Satellite,16.953234062369134,Linear,0.71794872,3,KMeans,0.88648649,1.0
+88,Breast Cancer Diagnostic,17.610768918271894,KMeans,0.83333333,4,KMeans,0.88648649,1.0
+89,Pen-Based Recognition of Handwritten Text (Local),23.16858373198143,KMeans,0.52631579,5,KMeans,0.88648649,1.0
+90,Object Images,41.67091684968729,Gaussian,0.06772229,6,KMeans,0.88648649,1.0
+91,Thyroid Disease,49.35771468726959,KMeans,0.22317597,7,KMeans,0.88648649,1.0
+92,art_daily_flatmiddle.csv,65.56015722989466,KMeans,0.02,8,KMeans,0.88648649,1.0
+93,speed_7578.csv,70.05170914314178,KMeans,0.75,9,KMeans,0.88648649,1.0
+94,Speech Accent Data,72.26161944545423,Linear,0.11764706,10,KMeans,0.88648649,1.0
+95,,,,,,,,
+96,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
+97,Pen-Based Recognition of Handwritten Text,16.953234062369134,KMeans,0.88648649,1,KMeans,0.65517241,0.93722369
+98,Letter Recognition,19.355036727101446,KMeans,0.44545455,2,KMeans,0.65517241,0.93722369
+99,Pen-Based Recognition of Handwritten Text (Local),20.243844039911178,KMeans,0.52631579,3,KMeans,0.65517241,0.93722369
+100,Statlog Shuttle,20.497995388302975,KMeans,0.96766744,4,KMeans,0.65517241,0.93722369
+101,Breast Cancer Diagnostic,23.448079219594092,KMeans,0.83333333,5,KMeans,0.65517241,0.93722369
+102,Object Images,39.72610880675646,Gaussian,0.06772229,6,KMeans,0.65517241,0.93722369
+103,Thyroid Disease,50.69517821188757,KMeans,0.22317597,7,KMeans,0.65517241,0.93722369
+104,art_daily_flatmiddle.csv,60.516771869741845,KMeans,0.02,8,KMeans,0.65517241,0.93722369
+105,rds_cpu_utilization_e47b3b.csv,64.91603799154228,Linear,0.66666667,9,KMeans,0.65517241,0.93722369
+106,ec2_cpu_utilization_5f5533.csv,65.07153070158833,KMeans,0.57142857,10,KMeans,0.65517241,0.93722369
+107,,,,,,,,
+108,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
+109,nyc_taxi.csv,16.593769766123508,Linear,0.25,1,Linear,0.14285714,0.34285714
+110,cpu_utilization_asg_misconfiguration.csv,47.63289912248292,KMeans,0.00775194,2,KMeans,0.8,1.0
+111,exchange-2_cpc_results.csv,47.73565259768448,KMeans,0.33333333,3,KMeans,0.8,1.0
+112,machine_temperature_system_failure.csv,47.79267537817854,Linear,0.4,4,KMeans,0.8,1.0
+113,TravelTime_387.csv,48.08756621520264,KMeans,0.66666667,5,KMeans,0.8,1.0
+114,TravelTime_451.csv,48.33282178095013,KMeans,0.4,6,KMeans,0.8,1.0
+115,exchange-3_cpm_results.csv,50.02661325165559,Linear,1.0,7,KMeans,0.8,1.0
+116,exchange-2_cpm_results.csv,50.61064411481021,KMeans,0.8,8,KMeans,0.8,1.0
+117,Twitter_volume_AAPL.csv,52.46919189154971,Linear,0.4,9,KMeans,0.8,1.0
+118,exchange-3_cpc_results.csv,52.6859083293039,Linear,0.57142857,10,KMeans,0.8,1.0
+119,,,,,,,,
+120,exchange-3_cpm_results.csv,0,Linear,1.0,0,Linear,1.0,1
+121,exchange-3_cpc_results.csv,2.93874570384934,Linear,0.57142857,1,Linear,1.0,1.0
+122,exchange-2_cpc_results.csv,3.4208157662099525,KMeans,0.33333333,2,KMeans,1.0,1.0
+123,exchange-4_cpc_results.csv,5.611559673519649,Linear,0.66666667,3,Linear,1.0,1.0
+124,exchange-2_cpm_results.csv,5.6362793351393785,KMeans,0.8,4,KMeans,1.0,1.0
+125,exchange-4_cpm_results.csv,7.23050782323911,KMeans,0.75,5,KMeans,1.0,1.0
+126,TravelTime_387.csv,8.173780814201587,KMeans,0.66666667,6,KMeans,1.0,1.0
+127,TravelTime_451.csv,8.197745579787355,KMeans,0.4,7,KMeans,1.0,1.0
+128,cpu_utilization_asg_misconfiguration.csv,11.529028710443958,KMeans,0.00775194,8,KMeans,1.0,1.0
+129,Twitter_volume_IBM.csv,11.598421671285092,Linear,0.5,9,KMeans,1.0,1.0
+130,Twitter_volume_AMZN.csv,11.887589171570838,KMeans,0.66666667,10,KMeans,1.0,1.0
+131,,,,,,,,
+132,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
+133,cpu_utilization_asg_misconfiguration.csv,7.931801030690438,KMeans,0.00775194,1,KMeans,0.4,1.0
+134,Twitter_volume_GOOG.csv,8.257837765042654,Linear,0.4,2,KMeans,0.4,1.0
+135,exchange-2_cpm_results.csv,9.589742955076446,KMeans,0.8,3,KMeans,0.4,1.0
+136,Twitter_volume_AMZN.csv,10.776060912508221,KMeans,0.66666667,4,KMeans,0.4,1.0
+137,exchange-2_cpc_results.csv,11.558770470654649,KMeans,0.33333333,5,KMeans,0.4,1.0
+138,exchange-3_cpc_results.csv,11.587363903877835,Linear,0.57142857,6,KMeans,0.4,1.0
+139,TravelTime_387.csv,11.767332867219002,KMeans,0.66666667,7,KMeans,0.4,1.0
+140,exchange-3_cpm_results.csv,12.74323699388793,Linear,1.0,8,KMeans,0.4,1.0
+141,Twitter_volume_IBM.csv,13.138530523586407,Linear,0.5,9,KMeans,0.4,1.0
+142,Twitter_volume_FB.csv,13.236163425747735,Linear,1.0,10,KMeans,0.4,1.0
+143,,,,,,,,
+144,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+145,art_daily_jumpsup.csv,0.7301056671903701,KMeans,0.22222222,1,KMeans,0.66666667,1.0
+146,art_daily_jumpsdown.csv,0.9651716804937784,KMeans,0.03030303,2,KMeans,0.66666667,1.0
+147,art_daily_nojump.csv,1.032140342380112,KMeans,0.00152207,3,KMeans,0.66666667,1.0
+148,elb_request_count_8c0756.csv,1.281730516135663,Linear,0.66666667,4,KMeans,0.66666667,1.0
+149,ec2_cpu_utilization_53ea38.csv,1.4441918452880576,KMeans,0.04255319,5,KMeans,0.66666667,1.0
+150,ec2_cpu_utilization_fe7f93.csv,1.5555611782050462,Linear,0.5,6,KMeans,0.66666667,1.0
+151,occupancy_6005.csv,1.8316072859319827,Linear,1.0,7,KMeans,0.66666667,1.0
+152,ec2_cpu_utilization_825cc2.csv,1.8746230231214414,KMeans,0.66666667,8,KMeans,0.66666667,1.0
+153,speed_6005.csv,2.8798106429337027,Linear,0.66666667,9,KMeans,0.66666667,1.0
+154,occupancy_t4013.csv,3.0562391660707715,Linear,1.0,10,KMeans,0.66666667,1.0
+155,,,,,,,,
+156,speed_7578.csv,0,KMeans,0.75,0,KMeans,0.75,1
+157,speed_t4013.csv,5.431922017390864,Linear,1.0,1,Linear,0.4,0.65
+158,occupancy_t4013.csv,5.684226778795556,Linear,1.0,2,Linear,0.4,0.65
+159,occupancy_6005.csv,6.16099864602632,Linear,1.0,3,Linear,0.4,0.65
+160,speed_6005.csv,6.834466592611797,Linear,0.66666667,4,Linear,0.4,0.65
+161,elb_request_count_8c0756.csv,6.919243756539897,Linear,0.66666667,5,Linear,0.4,0.65
+162,ec2_cpu_utilization_825cc2.csv,7.16902507625773,KMeans,0.66666667,6,Linear,0.4,0.65
+163,ec2_request_latency_system_failure.csv,7.228687946909215,KMeans,0.66666667,7,Linear,0.4,0.65
+164,art_daily_jumpsup.csv,7.241119885472094,KMeans,0.22222222,8,Linear,0.4,0.65
+165,ec2_cpu_utilization_53ea38.csv,7.261472455825011,KMeans,0.04255319,9,Linear,0.4,0.65
+166,ec2_cpu_utilization_fe7f93.csv,7.422190090066703,Linear,0.5,10,Linear,0.4,0.65
+167,,,,,,,,
+168,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+169,ec2_cpu_utilization_fe7f93.csv,1.331415329135957,Linear,0.5,1,Linear,0.125,0.45833333
+170,ec2_request_latency_system_failure.csv,1.8746230231214414,KMeans,0.66666667,2,KMeans,0.66666667,1.0
+171,art_daily_jumpsup.csv,1.9562008822712795,KMeans,0.22222222,3,KMeans,0.66666667,1.0
+172,art_daily_jumpsdown.csv,2.141511184676567,KMeans,0.03030303,4,KMeans,0.66666667,1.0
+173,art_daily_nojump.csv,2.214205357226329,KMeans,0.00152207,5,KMeans,0.66666667,1.0
+174,elb_request_count_8c0756.csv,2.3107309054912295,Linear,0.66666667,6,KMeans,0.66666667,1.0
+175,ec2_cpu_utilization_53ea38.csv,2.5180066814541933,KMeans,0.04255319,7,KMeans,0.66666667,1.0
+176,occupancy_6005.csv,3.2694836934767464,Linear,1.0,8,KMeans,0.66666667,1.0
+177,speed_6005.csv,4.118687271198839,Linear,0.66666667,9,KMeans,0.66666667,1.0
+178,occupancy_t4013.csv,4.413732465100855,Linear,1.0,10,KMeans,0.66666667,1.0
+179,,,,,,,,
+180,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
+181,ec2_cpu_utilization_825cc2.csv,7.049157483522688,KMeans,0.66666667,1,KMeans,0.5,1.0
+182,ec2_cpu_utilization_fe7f93.csv,7.501935010305017,Linear,0.5,2,KMeans,0.5,1.0
+183,art_daily_jumpsup.csv,7.774266026547263,KMeans,0.22222222,3,KMeans,0.5,1.0
+184,ec2_request_latency_system_failure.csv,8.10265304171364,KMeans,0.66666667,4,KMeans,0.5,1.0
+185,art_daily_nojump.csv,8.25146107974182,KMeans,0.00152207,5,KMeans,0.5,1.0
+186,art_daily_jumpsdown.csv,8.252380557774487,KMeans,0.03030303,6,KMeans,0.5,1.0
+187,elb_request_count_8c0756.csv,8.540661348147495,Linear,0.66666667,7,KMeans,0.5,1.0
+188,ec2_cpu_utilization_53ea38.csv,8.620937012912215,KMeans,0.04255319,8,KMeans,0.5,1.0
+189,ec2_network_in_5abac7.csv,9.497753445775208,Linear,0.66666667,9,KMeans,0.5,1.0
+190,occupancy_6005.csv,9.719373677606471,Linear,1.0,10,KMeans,0.5,1.0
+191,,,,,,,,
+192,exchange-4_cpm_results.csv,0,KMeans,0.75,0,KMeans,0.75,1
+193,exchange-4_cpc_results.csv,2.5291574128384213,Linear,0.66666667,1,Linear,0.66666667,0.91666667
+194,exchange-3_cpc_results.csv,4.606220275201515,Linear,0.57142857,2,Linear,0.66666667,0.91666667
+195,exchange-3_cpm_results.csv,7.23050782323911,Linear,1.0,3,Linear,0.66666667,0.91666667
+196,exchange-2_cpm_results.csv,7.646564462611538,KMeans,0.8,4,Linear,0.66666667,0.91666667
+197,exchange-2_cpc_results.csv,9.477176318446737,KMeans,0.33333333,5,Linear,0.66666667,0.91666667
+198,Twitter_volume_FB.csv,9.928651251182462,Linear,1.0,6,Linear,0.66666667,0.91666667
+199,TravelTime_387.csv,10.310266643414987,KMeans,0.66666667,7,Linear,0.66666667,0.91666667
+200,Twitter_volume_AMZN.csv,11.73752073898105,KMeans,0.66666667,8,KMeans,0.75,1.0
+201,Twitter_volume_CRM.csv,12.445802530941789,KMeans,0.54545455,9,KMeans,0.75,1.0
+202,Twitter_volume_KO.csv,12.553765022303935,Linear,0.8,10,KMeans,0.75,1.0
+203,,,,,,,,
+204,TravelTime_387.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+205,TravelTime_451.csv,4.66479330221497,KMeans,0.4,1,KMeans,0.66666667,1.0
+206,exchange-3_cpc_results.csv,6.478828747945323,Linear,0.57142857,2,KMeans,0.66666667,1.0
+207,exchange-2_cpm_results.csv,6.92736430406182,KMeans,0.8,3,KMeans,0.66666667,1.0
+208,exchange-3_cpm_results.csv,8.173780814201587,Linear,1.0,4,KMeans,0.66666667,1.0
+209,exchange-2_cpc_results.csv,8.369147512261538,KMeans,0.33333333,5,KMeans,0.66666667,1.0
+210,Twitter_volume_AAPL.csv,9.506361919817756,Linear,0.4,6,KMeans,0.66666667,1.0
+211,Twitter_volume_GOOG.csv,9.632136830807985,Linear,0.4,7,Linear,0.5,0.83333333
+212,exchange-4_cpc_results.csv,9.635215244974924,Linear,0.66666667,8,Linear,0.5,0.83333333
+213,exchange-4_cpm_results.csv,10.310266643414987,KMeans,0.75,9,Linear,0.5,0.83333333
+214,Twitter_volume_UPS.csv,10.868031451435911,Linear,0.28571429,10,Linear,0.5,0.83333333
+215,,,,,,,,
+216,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
+217,ec2_cpu_utilization_24ae8d.csv,28.797171811674993,KMeans,1.0,1,KMeans,0.0,1.0
+218,ec2_cpu_utilization_77c1ca.csv,30.528235784875683,KMeans,0.03921569,2,KMeans,0.0,1.0
+219,art_load_balancer_spikes.csv,32.830627412686155,KMeans,0.25,3,KMeans,0.0,1.0
+220,ec2_cpu_utilization_53ea38.csv,34.51111413143643,KMeans,0.04255319,4,KMeans,0.0,1.0
+221,rogue_agent_key_updown.csv,34.791939337306886,Gaussian,0.00083455,5,KMeans,0.0,1.0
+222,ec2_disk_write_bytes_c0d644.csv,34.841695532128824,Linear,0.5,6,KMeans,0.0,1.0
+223,rogue_agent_key_hold.csv,35.04221775093375,Linear,0.003367,7,KMeans,0.0,1.0
+224,art_daily_nojump.csv,35.313111265902535,KMeans,0.00152207,8,KMeans,0.0,1.0
+225,art_daily_jumpsdown.csv,35.31725138554801,KMeans,0.03030303,9,KMeans,0.0,1.0
+226,elb_request_count_8c0756.csv,35.35149269101607,Linear,0.66666667,10,KMeans,0.0,1.0
+227,,,,,,,,
+228,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
+229,art_load_balancer_spikes.csv,5.998235414299826,KMeans,0.25,1,KMeans,0.00075287,0.99991832
+230,ec2_disk_write_bytes_1ef3de.csv,7.773607978967229,Linear,0.08695652,2,KMeans,0.00075287,0.99991832
+231,ec2_disk_write_bytes_c0d644.csv,8.826054217238303,Linear,0.5,3,Linear,0.00075245,0.9999179
+232,ec2_cpu_utilization_77c1ca.csv,10.570052298483485,KMeans,0.03921569,4,KMeans,0.00075287,0.99991832
+233,rogue_agent_key_hold.csv,11.85090494050062,Linear,0.003367,5,Linear,0.00075245,0.9999179
+234,ec2_cpu_utilization_24ae8d.csv,11.976522691433434,KMeans,1.0,6,KMeans,0.00075287,0.99991832
+235,ec2_network_in_5abac7.csv,14.310021120667898,Linear,0.66666667,7,Linear,0.00075245,0.9999179
+236,ec2_cpu_utilization_fe7f93.csv,15.696127739664096,Linear,0.5,8,Linear,0.00075245,0.9999179
+237,ec2_cpu_utilization_53ea38.csv,15.733446131821555,KMeans,0.04255319,9,Linear,0.00075245,0.9999179
+238,speed_t4013.csv,16.03686328681281,Linear,1.0,10,Linear,0.00075245,0.9999179
+239,,,,,,,,
+240,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
+241,ec2_cpu_utilization_5f5533.csv,1.1836894692364626,KMeans,0.57142857,1,KMeans,1.0,1.0
+242,rds_cpu_utilization_e47b3b.csv,3.0122155171101133,Linear,0.66666667,2,KMeans,1.0,1.0
+243,ec2_cpu_utilization_ac20cd.csv,3.544502292871061,KMeans,0.66666667,3,KMeans,1.0,1.0
+244,grok_asg_anomaly.csv,4.695395287396806,KMeans,0.5,4,KMeans,1.0,1.0
+245,ec2_cpu_utilization_825cc2.csv,8.68841280166555,KMeans,0.66666667,5,KMeans,1.0,1.0
+246,ec2_cpu_utilization_fe7f93.csv,9.072206194499609,Linear,0.5,6,KMeans,1.0,1.0
+247,art_daily_jumpsup.csv,9.123547704305688,KMeans,0.22222222,7,KMeans,1.0,1.0
+248,ec2_request_latency_system_failure.csv,9.22453816691096,KMeans,0.66666667,8,KMeans,1.0,1.0
+249,art_daily_nojump.csv,9.654867068290699,KMeans,0.00152207,9,KMeans,1.0,1.0
+250,art_daily_jumpsdown.csv,9.655104867665253,KMeans,0.03030303,10,KMeans,1.0,1.0
+251,,,,,,,,
+252,nyc_taxi.csv,0,Linear,0.25,0,Linear,0.25,1
+253,ambient_temperature_system_failure.csv,16.593769766123508,KMeans,0.8,1,KMeans,0.25,1.0
+254,cpu_utilization_asg_misconfiguration.csv,33.06073803372129,KMeans,0.00775194,2,KMeans,0.25,1.0
+255,machine_temperature_system_failure.csv,34.13849970700551,Linear,0.4,3,KMeans,0.25,1.0
+256,TravelTime_387.csv,34.90155239057259,KMeans,0.66666667,4,KMeans,0.25,1.0
+257,Twitter_volume_AAPL.csv,36.4578787447046,Linear,0.4,5,KMeans,0.25,1.0
+258,exchange-2_cpc_results.csv,36.467529926767426,KMeans,0.33333333,6,KMeans,0.25,1.0
+259,TravelTime_451.csv,36.48810833290941,KMeans,0.4,7,KMeans,0.25,1.0
+260,exchange-2_cpm_results.csv,36.74508164444417,KMeans,0.8,8,KMeans,0.25,1.0
+261,Twitter_volume_GOOG.csv,37.20168470395208,Linear,0.4,9,KMeans,0.25,1.0
+262,exchange-3_cpc_results.csv,38.737000662260144,Linear,0.57142857,10,KMeans,0.25,1.0
+263,,,,,,,,
+264,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
+265,rds_cpu_utilization_cc0c53.csv,1.1836894692364626,Gaussian,1.0,1,Gaussian,0.5,0.92857143
+266,rds_cpu_utilization_e47b3b.csv,2.7742052535208135,Linear,0.66666667,2,Gaussian,0.5,0.92857143
+267,ec2_cpu_utilization_ac20cd.csv,3.303457588460228,KMeans,0.66666667,3,Gaussian,0.5,0.92857143
+268,grok_asg_anomaly.csv,3.9028845882113776,KMeans,0.5,4,KMeans,0.57142857,1.0
+269,ec2_cpu_utilization_825cc2.csv,8.149256563202794,KMeans,0.66666667,5,KMeans,0.57142857,1.0
+270,art_daily_jumpsup.csv,8.714443637297835,KMeans,0.22222222,6,KMeans,0.57142857,1.0
+271,ec2_cpu_utilization_fe7f93.csv,8.768406660984468,Linear,0.5,7,KMeans,0.57142857,1.0
+272,art_daily_jumpsdown.csv,9.151139832913724,KMeans,0.03030303,8,KMeans,0.57142857,1.0
+273,art_daily_nojump.csv,9.155203197579612,KMeans,0.00152207,9,KMeans,0.57142857,1.0
+274,ec2_request_latency_system_failure.csv,9.32195615550098,KMeans,0.66666667,10,KMeans,0.57142857,1.0
+275,,,,,,,,
+276,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
+277,art_daily_jumpsdown.csv,11.330450515271624,KMeans,0.03030303,1,KMeans,0.02,1.0
+278,art_daily_nojump.csv,11.36217728438817,KMeans,0.00152207,2,KMeans,0.02,1.0
+279,art_daily_jumpsup.csv,11.40912019961338,KMeans,0.22222222,3,KMeans,0.02,1.0
+280,ec2_cpu_utilization_825cc2.csv,12.013890550022019,KMeans,0.66666667,4,KMeans,0.02,1.0
+281,ec2_request_latency_system_failure.csv,12.0282731893325,KMeans,0.66666667,5,KMeans,0.02,1.0
+282,ec2_cpu_utilization_fe7f93.csv,12.045830721210166,Linear,0.5,6,KMeans,0.02,1.0
+283,ec2_cpu_utilization_53ea38.csv,12.186884654385857,KMeans,0.04255319,7,KMeans,0.02,1.0
+284,elb_request_count_8c0756.csv,12.3421597953562,Linear,0.66666667,8,KMeans,0.02,1.0
+285,occupancy_6005.csv,13.172721360246854,Linear,1.0,9,KMeans,0.02,1.0
+286,speed_6005.csv,13.77624465394905,Linear,0.66666667,10,KMeans,0.02,1.0
+287,,,,,,,,
+288,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
+289,ec2_disk_write_bytes_1ef3de.csv,3.2567811537464513,Linear,0.08695652,1,Linear,0.5,1.0
+290,art_load_balancer_spikes.csv,6.063243049141374,KMeans,0.25,2,KMeans,0.5,1.0
+291,ec2_network_in_5abac7.csv,6.949069916376487,Linear,0.66666667,3,Linear,0.5,1.0
+292,rogue_agent_key_updown.csv,8.826054217238303,Gaussian,0.00083455,4,Linear,0.5,1.0
+293,ec2_cpu_utilization_77c1ca.csv,9.329447070275124,KMeans,0.03921569,5,KMeans,0.5,1.0
+294,ec2_cpu_utilization_24ae8d.csv,10.37328179029753,KMeans,1.0,6,KMeans,0.5,1.0
+295,rogue_agent_key_hold.csv,11.738261193663245,Linear,0.003367,7,KMeans,0.5,1.0
+296,ec2_cpu_utilization_fe7f93.csv,13.32110392669001,Linear,0.5,8,Linear,0.5,1.0
+297,elb_request_count_8c0756.csv,13.850680441872841,Linear,0.66666667,9,Linear,0.5,1.0
+298,speed_t4013.csv,13.98481404396571,Linear,1.0,10,Linear,0.5,1.0
+299,,,,,,,,
+300,TravelTime_451.csv,0,KMeans,0.4,0,KMeans,0.4,1
+301,TravelTime_387.csv,4.66479330221497,KMeans,0.66666667,1,KMeans,0.4,1.0
+302,exchange-2_cpc_results.csv,7.1143186580584805,KMeans,0.33333333,2,KMeans,0.4,1.0
+303,exchange-3_cpm_results.csv,8.197745579787355,Linear,1.0,3,KMeans,0.4,1.0
+304,exchange-2_cpm_results.csv,8.680524660857031,KMeans,0.8,4,KMeans,0.4,1.0
+305,exchange-3_cpc_results.csv,9.021297978606526,Linear,0.57142857,5,KMeans,0.4,1.0
+306,Twitter_volume_AAPL.csv,9.244602741517491,Linear,0.4,6,KMeans,0.4,1.0
+307,Twitter_volume_UPS.csv,9.490669578740068,Linear,0.28571429,7,Linear,0.18181818,0.7818181799999999
+308,Twitter_volume_IBM.csv,10.08076483226759,Linear,0.5,8,Linear,0.18181818,0.7818181799999999
+309,Twitter_volume_GOOG.csv,10.160353358791472,Linear,0.4,9,Linear,0.18181818,0.7818181799999999
+310,cpu_utilization_asg_misconfiguration.csv,10.724060502453582,KMeans,0.00775194,10,Linear,0.18181818,0.7818181799999999
+311,,,,,,,,
+312,Twitter_volume_AAPL.csv,0,Linear,0.4,0,Linear,0.4,1
+313,Twitter_volume_AMZN.csv,4.313578016484853,KMeans,0.66666667,1,KMeans,0.4,1.0
+314,Twitter_volume_GOOG.csv,6.261052325645878,Linear,0.4,2,KMeans,0.4,1.0
+315,Twitter_volume_FB.csv,6.824280855087724,Linear,1.0,3,Linear,0.4,1.0
+316,TravelTime_451.csv,9.244602741517491,KMeans,0.4,4,KMeans,0.4,1.0
+317,Twitter_volume_IBM.csv,9.358605347782053,Linear,0.5,5,Linear,0.4,1.0
+318,TravelTime_387.csv,9.506361919817756,KMeans,0.66666667,6,KMeans,0.4,1.0
+319,Twitter_volume_CRM.csv,9.528296942722296,KMeans,0.54545455,7,KMeans,0.4,1.0
+320,Twitter_volume_KO.csv,9.76763987717131,Linear,0.8,8,KMeans,0.4,1.0
+321,cpu_utilization_asg_misconfiguration.csv,9.840453318628327,KMeans,0.00775194,9,KMeans,0.4,1.0
+322,Twitter_volume_UPS.csv,11.18058213667518,Linear,0.28571429,10,KMeans,0.4,1.0
+323,,,,,,,,
+324,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+325,ec2_cpu_utilization_5f5533.csv,2.7742052535208135,KMeans,0.57142857,1,KMeans,0.66666667,1.0
+326,rds_cpu_utilization_cc0c53.csv,3.0122155171101133,Gaussian,1.0,2,Gaussian,0.5,0.83333333
+327,ec2_cpu_utilization_ac20cd.csv,3.3172173828839453,KMeans,0.66666667,3,KMeans,0.66666667,1.0
+328,grok_asg_anomaly.csv,4.970649206456125,KMeans,0.5,4,KMeans,0.66666667,1.0
+329,ec2_cpu_utilization_825cc2.csv,10.124660593306404,KMeans,0.66666667,5,KMeans,0.66666667,1.0
+330,ec2_cpu_utilization_fe7f93.csv,10.356107279029697,Linear,0.5,6,KMeans,0.66666667,1.0
+331,elb_request_count_8c0756.csv,10.67712009562975,Linear,0.66666667,7,KMeans,0.66666667,1.0
+332,art_daily_jumpsup.csv,10.946895100149732,KMeans,0.22222222,8,KMeans,0.66666667,1.0
+333,ec2_request_latency_system_failure.csv,11.141305652786144,KMeans,0.66666667,9,KMeans,0.66666667,1.0
+334,art_daily_nojump.csv,11.478481663721656,KMeans,0.00152207,10,KMeans,0.66666667,1.0
+335,,,,,,,,
+336,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+337,ec2_cpu_utilization_77c1ca.csv,6.104250943078157,KMeans,0.03921569,1,KMeans,0.66666667,1.0
+338,ec2_disk_write_bytes_c0d644.csv,6.949069916376487,Linear,0.5,2,KMeans,0.66666667,1.0
+339,speed_t4013.csv,7.671607418524166,Linear,1.0,3,Linear,0.66666667,1.0
+340,ec2_disk_write_bytes_1ef3de.csv,7.886407905771293,Linear,0.08695652,4,Linear,0.66666667,1.0
+341,ec2_cpu_utilization_fe7f93.csv,8.467413443958556,Linear,0.5,5,Linear,0.66666667,1.0
+342,elb_request_count_8c0756.csv,8.671502640812967,Linear,0.66666667,6,Linear,0.66666667,1.0
+343,occupancy_t4013.csv,8.747194254997446,Linear,1.0,7,Linear,0.66666667,1.0
+344,occupancy_6005.csv,8.808354143547422,Linear,1.0,8,Linear,0.66666667,1.0
+345,ec2_cpu_utilization_24ae8d.csv,8.847966663029544,KMeans,1.0,9,Linear,0.66666667,1.0
+346,speed_6005.csv,8.967606558960075,Linear,0.66666667,10,Linear,0.66666667,1.0
+347,,,,,,,,
+348,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+349,ec2_cpu_utilization_5f5533.csv,3.303457588460228,KMeans,0.57142857,1,KMeans,0.66666667,1.0
+350,rds_cpu_utilization_e47b3b.csv,3.3172173828839453,Linear,0.66666667,2,KMeans,0.66666667,1.0
+351,rds_cpu_utilization_cc0c53.csv,3.544502292871061,Gaussian,1.0,3,Gaussian,0.004329,0.33766233
+352,grok_asg_anomaly.csv,4.30414606135813,KMeans,0.5,4,KMeans,0.66666667,1.0
+353,ec2_cpu_utilization_825cc2.csv,9.678975289178833,KMeans,0.66666667,5,KMeans,0.66666667,1.0
+354,art_daily_jumpsup.csv,9.79895905509958,KMeans,0.22222222,6,KMeans,0.66666667,1.0
+355,art_daily_nojump.csv,10.261187564195318,KMeans,0.00152207,7,KMeans,0.66666667,1.0
+356,art_daily_jumpsdown.csv,10.261394368871827,KMeans,0.03030303,8,KMeans,0.66666667,1.0
+357,ec2_request_latency_system_failure.csv,10.279826966244023,KMeans,0.66666667,9,KMeans,0.66666667,1.0
+358,ec2_cpu_utilization_fe7f93.csv,10.323531120466011,Linear,0.5,10,KMeans,0.66666667,1.0
+359,,,,,,,,
+360,Twitter_volume_UPS.csv,0,Linear,0.28571429,0,Linear,0.28571429,1
+361,Twitter_volume_IBM.csv,3.43432946660183,Linear,0.5,1,Linear,0.28571429,1.0
+362,Twitter_volume_CRM.csv,4.354866925855325,KMeans,0.54545455,2,KMeans,0.22222222,0.93650793
+363,Twitter_volume_PFE.csv,5.8483157008916224,KMeans,0.42857143,3,KMeans,0.22222222,0.93650793
+364,Twitter_volume_GOOG.csv,7.452596212318298,Linear,0.4,4,KMeans,0.22222222,0.93650793
+365,Twitter_volume_AMZN.csv,9.05348556970934,KMeans,0.66666667,5,KMeans,0.22222222,0.93650793
+366,TravelTime_451.csv,9.490669578740068,KMeans,0.4,6,KMeans,0.22222222,0.93650793
+367,cpu_utilization_asg_misconfiguration.csv,10.348723275690492,KMeans,0.00775194,7,KMeans,0.22222222,0.93650793
+368,exchange-2_cpm_results.csv,10.485101502028302,KMeans,0.8,8,KMeans,0.22222222,0.93650793
+369,TravelTime_387.csv,10.868031451435911,KMeans,0.66666667,9,KMeans,0.22222222,0.93650793
+370,Twitter_volume_CVS.csv,11.075870341737172,Linear,0.66666667,10,KMeans,0.22222222,0.93650793
+371,,,,,,,,
+372,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
+373,art_daily_nojump.csv,0.32136401334794745,KMeans,0.00152207,1,KMeans,0.03030303,1.0
+374,art_daily_jumpsup.csv,0.5614904224810285,KMeans,0.22222222,2,KMeans,0.03030303,1.0
+375,ec2_request_latency_system_failure.csv,0.9651716804937784,KMeans,0.66666667,3,KMeans,0.03030303,1.0
+376,elb_request_count_8c0756.csv,1.3610498805659237,Linear,0.66666667,4,KMeans,0.03030303,1.0
+377,ec2_cpu_utilization_53ea38.csv,1.594371785239421,KMeans,0.04255319,5,KMeans,0.03030303,1.0
+378,ec2_cpu_utilization_fe7f93.csv,1.9424950561022487,Linear,0.5,6,KMeans,0.03030303,1.0
+379,ec2_cpu_utilization_825cc2.csv,2.141511184676567,KMeans,0.66666667,7,KMeans,0.03030303,1.0
+380,occupancy_6005.csv,2.2606148248838025,Linear,1.0,8,KMeans,0.03030303,1.0
+381,speed_6005.csv,3.068301518638775,Linear,0.66666667,9,KMeans,0.03030303,1.0
+382,occupancy_t4013.csv,3.5257272144187812,Linear,1.0,10,KMeans,0.03030303,1.0
+383,,,,,,,,
+384,exchange-2_cpm_results.csv,0,KMeans,0.8,0,KMeans,0.8,1
+385,exchange-2_cpc_results.csv,3.2871025729441206,KMeans,0.33333333,1,KMeans,0.8,1.0
+386,exchange-3_cpc_results.csv,4.464336590401593,Linear,0.57142857,2,KMeans,0.8,1.0
+387,exchange-3_cpm_results.csv,5.6362793351393785,Linear,1.0,3,Linear,0.5,0.7
+388,exchange-4_cpc_results.csv,6.624567329563986,Linear,0.66666667,4,Linear,0.5,0.7
+389,TravelTime_387.csv,6.92736430406182,KMeans,0.66666667,5,Linear,0.5,0.7
+390,exchange-4_cpm_results.csv,7.646564462611538,KMeans,0.75,6,KMeans,0.8,1.0
+391,TravelTime_451.csv,8.680524660857031,KMeans,0.4,7,KMeans,0.8,1.0
+392,Twitter_volume_GOOG.csv,9.181391992755628,Linear,0.4,8,KMeans,0.8,1.0
+393,machine_temperature_system_failure.csv,9.589742955076446,Linear,0.4,9,Linear,0.5,0.7
+394,cpu_utilization_asg_misconfiguration.csv,9.638147951446836,KMeans,0.00775194,10,KMeans,0.8,1.0
+395,,,,,,,,
+396,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+397,art_daily_nojump.csv,1.178101092617906,KMeans,0.00152207,1,KMeans,0.66666667,1.0
+398,ec2_request_latency_system_failure.csv,1.281730516135663,KMeans,0.66666667,2,KMeans,0.66666667,1.0
+399,art_daily_jumpsup.csv,1.3084498261770097,KMeans,0.22222222,3,KMeans,0.66666667,1.0
+400,art_daily_jumpsdown.csv,1.3610498805659237,KMeans,0.03030303,4,KMeans,0.66666667,1.0
+401,ec2_cpu_utilization_53ea38.csv,1.37755439403238,KMeans,0.04255319,5,KMeans,0.66666667,1.0
+402,ec2_cpu_utilization_fe7f93.csv,1.6059029808690908,Linear,0.5,6,KMeans,0.66666667,1.0
+403,occupancy_6005.csv,2.219953939721772,Linear,1.0,7,KMeans,0.66666667,1.0
+404,ec2_cpu_utilization_825cc2.csv,2.3107309054912295,KMeans,0.66666667,8,KMeans,0.66666667,1.0
+405,speed_6005.csv,2.819375771049408,Linear,0.66666667,9,KMeans,0.66666667,1.0
+406,occupancy_t4013.csv,3.312647950191696,Linear,1.0,10,KMeans,0.66666667,1.0
+407,,,,,,,,
+408,speed_6005.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+409,occupancy_6005.csv,1.6636676177117091,Linear,1.0,1,Linear,0.66666667,1.0
+410,occupancy_t4013.csv,2.09668983573043,Linear,1.0,2,Linear,0.66666667,1.0
+411,elb_request_count_8c0756.csv,2.819375771049408,Linear,0.66666667,3,Linear,0.66666667,1.0
+412,ec2_request_latency_system_failure.csv,2.8798106429337027,KMeans,0.66666667,4,Linear,0.66666667,1.0
+413,art_daily_nojump.csv,2.9419201575568037,KMeans,0.00152207,5,Linear,0.66666667,1.0
+414,art_daily_jumpsup.csv,3.0315399053982253,KMeans,0.22222222,6,KMeans,0.66666667,1.0
+415,ec2_cpu_utilization_53ea38.csv,3.060125257745251,KMeans,0.04255319,7,KMeans,0.66666667,1.0
+416,art_daily_jumpsdown.csv,3.068301518638775,KMeans,0.03030303,8,KMeans,0.66666667,1.0
+417,speed_t4013.csv,3.1356068635446936,Linear,1.0,9,KMeans,0.66666667,1.0
+418,ec2_cpu_utilization_fe7f93.csv,4.006053476095255,Linear,0.5,10,KMeans,0.66666667,1.0
+419,,,,,,,,
+420,Twitter_volume_KO.csv,0,Linear,0.8,0,Linear,0.8,1
+421,Twitter_volume_FB.csv,5.47112467954349,Linear,1.0,1,Linear,0.8,1.0
+422,Twitter_volume_AMZN.csv,8.318975765343602,KMeans,0.66666667,2,KMeans,0.8,1.0
+423,Twitter_volume_AAPL.csv,9.76763987717131,Linear,0.4,3,Linear,0.8,1.0
+424,Twitter_volume_GOOG.csv,10.305503194639936,Linear,0.4,4,Linear,0.8,1.0
+425,Twitter_volume_IBM.csv,10.866714783146413,Linear,0.5,5,Linear,0.8,1.0
+426,Twitter_volume_CRM.csv,10.900769931535748,KMeans,0.54545455,6,Linear,0.8,1.0
+427,exchange-4_cpm_results.csv,12.553765022303935,KMeans,0.75,7,Linear,0.8,1.0
+428,Twitter_volume_UPS.csv,13.243766472822362,Linear,0.28571429,8,Linear,0.8,1.0
+429,exchange-4_cpc_results.csv,13.43823031828229,Linear,0.66666667,9,Linear,0.8,1.0
+430,exchange-3_cpc_results.csv,14.99117853702175,Linear,0.57142857,10,Linear,0.8,1.0
+431,,,,,,,,
+432,Twitter_volume_GOOG.csv,0,Linear,0.4,0,Linear,0.4,1
+433,Twitter_volume_AMZN.csv,3.372299037319812,KMeans,0.66666667,1,KMeans,0.4,1.0
+434,Twitter_volume_IBM.csv,5.4321651451039825,Linear,0.5,2,KMeans,0.4,1.0
+435,Twitter_volume_FB.csv,5.703139550614619,Linear,1.0,3,Linear,0.4,1.0
+436,Twitter_volume_AAPL.csv,6.261052325645878,Linear,0.4,4,Linear,0.4,1.0
+437,cpu_utilization_asg_misconfiguration.csv,6.5217561764830325,KMeans,0.00775194,5,Linear,0.4,1.0
+438,Twitter_volume_CRM.csv,6.839555738184334,KMeans,0.54545455,6,KMeans,0.4,1.0
+439,Twitter_volume_UPS.csv,7.452596212318298,Linear,0.28571429,7,Linear,0.4,1.0
+440,machine_temperature_system_failure.csv,8.257837765042654,Linear,0.4,8,Linear,0.4,1.0
+441,exchange-2_cpm_results.csv,9.181391992755628,KMeans,0.8,9,Linear,0.4,1.0
+442,exchange-3_cpc_results.csv,9.514151884816847,Linear,0.57142857,10,Linear,0.4,1.0
+443,,,,,,,,
+444,exchange-2_cpc_results.csv,0,KMeans,0.33333333,0,KMeans,0.33333333,1
+445,exchange-2_cpm_results.csv,3.2871025729441206,KMeans,0.8,1,KMeans,0.33333333,1.0
+446,exchange-3_cpm_results.csv,3.4208157662099525,Linear,1.0,2,KMeans,0.33333333,1.0
+447,exchange-3_cpc_results.csv,5.183571728332721,Linear,0.57142857,3,Linear,0.06666667,0.73333334
+448,TravelTime_451.csv,7.1143186580584805,KMeans,0.4,4,KMeans,0.33333333,1.0
+449,TravelTime_387.csv,8.369147512261538,KMeans,0.66666667,5,KMeans,0.33333333,1.0
+450,cpu_utilization_asg_misconfiguration.csv,8.706311814479488,KMeans,0.00775194,6,KMeans,0.33333333,1.0
+451,exchange-4_cpc_results.csv,8.731828711452248,Linear,0.66666667,7,KMeans,0.33333333,1.0
+452,exchange-4_cpm_results.csv,9.477176318446737,KMeans,0.75,8,KMeans,0.33333333,1.0
+453,Twitter_volume_UPS.csv,11.171238097243776,Linear,0.28571429,9,KMeans,0.33333333,1.0
+454,Twitter_volume_GOOG.csv,11.226324872928888,Linear,0.4,10,KMeans,0.33333333,1.0
+455,,,,,,,,
+456,Twitter_volume_CVS.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+457,Twitter_volume_PFE.csv,6.480624092455498,KMeans,0.42857143,1,KMeans,0.66666667,1.0
+458,Twitter_volume_CRM.csv,8.922450318110394,KMeans,0.54545455,2,KMeans,0.66666667,1.0
+459,Twitter_volume_UPS.csv,11.075870341737172,Linear,0.28571429,3,KMeans,0.66666667,1.0
+460,Twitter_volume_IBM.csv,11.748742248320209,Linear,0.5,4,KMeans,0.66666667,1.0
+461,ec2_cpu_utilization_24ae8d.csv,13.197420952328661,KMeans,1.0,5,KMeans,0.66666667,1.0
+462,Twitter_volume_AMZN.csv,13.927287403271546,KMeans,0.66666667,6,KMeans,0.66666667,1.0
+463,Twitter_volume_FB.csv,13.955182673004462,Linear,1.0,7,KMeans,0.66666667,1.0
+464,exchange-3_cpc_results.csv,15.161160684147212,Linear,0.57142857,8,KMeans,0.66666667,1.0
+465,Twitter_volume_GOOG.csv,15.277077906870215,Linear,0.4,9,Linear,0.66666667,1.0
+466,exchange-4_cpm_results.csv,15.679820308155795,KMeans,0.75,10,KMeans,0.66666667,1.0
+467,,,,,,,,
+468,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
+469,Twitter_volume_GOOG.csv,6.5217561764830325,Linear,0.4,1,Linear,0.00110132,0.99334938
+470,machine_temperature_system_failure.csv,7.931801030690438,Linear,0.4,2,Linear,0.00110132,0.99334938
+471,Twitter_volume_AMZN.csv,7.942591858229305,KMeans,0.66666667,3,Linear,0.00110132,0.99334938
+472,exchange-2_cpc_results.csv,8.706311814479488,KMeans,0.33333333,4,KMeans,0.00775194,1.0
+473,exchange-2_cpm_results.csv,9.638147951446836,KMeans,0.8,5,KMeans,0.00775194,1.0
+474,Twitter_volume_IBM.csv,9.647779028863038,Linear,0.5,6,KMeans,0.00775194,1.0
+475,Twitter_volume_AAPL.csv,9.840453318628327,Linear,0.4,7,Linear,0.00110132,0.99334938
+476,Twitter_volume_UPS.csv,10.348723275690492,Linear,0.28571429,8,Linear,0.00110132,0.99334938
+477,TravelTime_451.csv,10.724060502453582,KMeans,0.4,9,Linear,0.00110132,0.99334938
+478,TravelTime_387.csv,10.959477228697125,KMeans,0.66666667,10,KMeans,0.00775194,1.0
+479,,,,,,,,
+480,occupancy_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+481,occupancy_6005.csv,1.6142636233315493,Linear,1.0,1,Linear,1.0,1.0
+482,speed_6005.csv,2.09668983573043,Linear,0.66666667,2,Linear,1.0,1.0
+483,speed_t4013.csv,3.0191354534413675,Linear,1.0,3,Linear,1.0,1.0
+484,ec2_request_latency_system_failure.csv,3.0562391660707715,KMeans,0.66666667,4,Linear,1.0,1.0
+485,art_daily_jumpsup.csv,3.2752616702015827,KMeans,0.22222222,5,Linear,1.0,1.0
+486,elb_request_count_8c0756.csv,3.312647950191696,Linear,0.66666667,6,Linear,1.0,1.0
+487,art_daily_jumpsdown.csv,3.5257272144187812,KMeans,0.03030303,7,Linear,1.0,1.0
+488,art_daily_nojump.csv,3.5952946476407166,KMeans,0.00152207,8,KMeans,1.0,1.0
+489,ec2_cpu_utilization_53ea38.csv,3.725607659328053,KMeans,0.04255319,9,KMeans,1.0,1.0
+490,ec2_cpu_utilization_fe7f93.csv,4.213588019366243,Linear,0.5,10,KMeans,1.0,1.0
+491,,,,,,,,
+492,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
+493,art_daily_nojump.csv,0.5316167940345915,KMeans,0.00152207,1,KMeans,0.22222222,1.0
+494,art_daily_jumpsdown.csv,0.5614904224810285,KMeans,0.03030303,2,KMeans,0.22222222,1.0
+495,ec2_request_latency_system_failure.csv,0.7301056671903701,KMeans,0.66666667,3,KMeans,0.22222222,1.0
+496,elb_request_count_8c0756.csv,1.3084498261770097,Linear,0.66666667,4,KMeans,0.22222222,1.0
+497,ec2_cpu_utilization_53ea38.csv,1.3361004488408805,KMeans,0.04255319,5,KMeans,0.22222222,1.0
+498,ec2_cpu_utilization_825cc2.csv,1.9562008822712795,KMeans,0.66666667,6,KMeans,0.22222222,1.0
+499,occupancy_6005.csv,2.0185715891514326,Linear,1.0,7,KMeans,0.22222222,1.0
+500,ec2_cpu_utilization_fe7f93.csv,2.1473096503121116,Linear,0.5,8,KMeans,0.22222222,1.0
+501,speed_6005.csv,3.0315399053982253,Linear,0.66666667,9,KMeans,0.22222222,1.0
+502,occupancy_t4013.csv,3.2752616702015827,Linear,1.0,10,KMeans,0.22222222,1.0
+503,,,,,,,,
+504,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
+505,ec2_cpu_utilization_77c1ca.csv,6.5301421041615,KMeans,0.03921569,1,KMeans,0.00212993,0.99876293
+506,ec2_network_in_5abac7.csv,10.042755104907343,Linear,0.66666667,2,KMeans,0.00212993,0.99876293
+507,ec2_cpu_utilization_825cc2.csv,10.296909497158362,KMeans,0.66666667,3,KMeans,0.00212993,0.99876293
+508,art_load_balancer_spikes.csv,10.338659024135591,KMeans,0.25,4,KMeans,0.00212993,0.99876293
+509,ec2_cpu_utilization_fe7f93.csv,10.44746590444191,Linear,0.5,5,KMeans,0.00212993,0.99876293
+510,ec2_cpu_utilization_24ae8d.csv,10.46194269518444,KMeans,1.0,6,KMeans,0.00212993,0.99876293
+511,ec2_cpu_utilization_53ea38.csv,10.546491184431689,KMeans,0.04255319,7,KMeans,0.00212993,0.99876293
+512,occupancy_6005.csv,10.77852873508342,Linear,1.0,8,KMeans,0.00212993,0.99876293
+513,speed_t4013.csv,11.061648954011751,Linear,1.0,9,KMeans,0.00212993,0.99876293
+514,ec2_request_latency_system_failure.csv,11.162590043078762,KMeans,0.66666667,10,KMeans,0.00212993,0.99876293
+515,,,,,,,,
+516,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
+517,ec2_disk_write_bytes_1ef3de.csv,4.881723329634704,Linear,0.08695652,1,Linear,0.02222222,0.77222222
+518,rogue_agent_key_updown.csv,5.998235414299826,Gaussian,0.00083455,2,Gaussian,0.01652893,0.76652893
+519,ec2_disk_write_bytes_c0d644.csv,6.063243049141374,Linear,0.5,3,Linear,0.02222222,0.77222222
+520,ec2_cpu_utilization_77c1ca.csv,6.979249895755229,KMeans,0.03921569,4,Linear,0.02222222,0.77222222
+521,ec2_cpu_utilization_24ae8d.csv,8.837968197483049,KMeans,1.0,5,KMeans,0.25,1.0
+522,rogue_agent_key_hold.csv,10.338659024135591,Linear,0.003367,6,Linear,0.02222222,0.77222222
+523,ec2_request_latency_system_failure.csv,11.41214145667384,KMeans,0.66666667,7,KMeans,0.25,1.0
+524,ec2_cpu_utilization_53ea38.csv,11.464140335905462,KMeans,0.04255319,8,KMeans,0.25,1.0
+525,occupancy_6005.csv,11.486955715418645,Linear,1.0,9,KMeans,0.25,1.0
+526,art_daily_jumpsup.csv,11.658121649711257,KMeans,0.22222222,10,KMeans,0.25,1.0
+527,,,,,,,,
+528,Twitter_volume_FB.csv,0,Linear,1.0,0,Linear,1.0,1
+529,Twitter_volume_AMZN.csv,4.326412396837323,KMeans,0.66666667,1,KMeans,1.0,1.0
+530,Twitter_volume_KO.csv,5.47112467954349,Linear,0.8,2,KMeans,1.0,1.0
+531,Twitter_volume_GOOG.csv,5.703139550614619,Linear,0.4,3,Linear,1.0,1.0
+532,Twitter_volume_AAPL.csv,6.824280855087724,Linear,0.4,4,Linear,1.0,1.0
+533,Twitter_volume_CRM.csv,8.633333444720932,KMeans,0.54545455,5,Linear,1.0,1.0
+534,Twitter_volume_IBM.csv,9.281325636965612,Linear,0.5,6,Linear,1.0,1.0
+535,exchange-4_cpc_results.csv,9.80854439551409,Linear,0.66666667,7,Linear,1.0,1.0
+536,exchange-4_cpm_results.csv,9.928651251182462,KMeans,0.75,8,Linear,1.0,1.0
+537,exchange-3_cpc_results.csv,11.875878363765292,Linear,0.57142857,9,Linear,1.0,1.0
+538,Twitter_volume_UPS.csv,11.954898167103199,Linear,0.28571429,10,Linear,1.0,1.0
+539,,,,,,,,
+540,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
+541,art_load_balancer_spikes.csv,13.873825227267362,KMeans,0.25,1,KMeans,0.15384615,1.0
+542,ec2_disk_write_bytes_1ef3de.csv,16.631669382975577,Linear,0.08695652,2,KMeans,0.15384615,1.0
+543,rogue_agent_key_updown.csv,17.491186210816377,Gaussian,0.00083455,3,Gaussian,0.02325581,0.86940966
+544,ec2_disk_write_bytes_c0d644.csv,18.095445077798793,Linear,0.5,4,Linear,0.04,0.88615385
+545,ec2_cpu_utilization_24ae8d.csv,18.15536916808315,KMeans,1.0,5,KMeans,0.15384615,1.0
+546,ec2_cpu_utilization_77c1ca.csv,18.867799199606395,KMeans,0.03921569,6,KMeans,0.15384615,1.0
+547,ec2_cpu_utilization_53ea38.csv,22.59721663791506,KMeans,0.04255319,7,KMeans,0.15384615,1.0
+548,elb_request_count_8c0756.csv,22.89383055699109,Linear,0.66666667,8,KMeans,0.15384615,1.0
+549,ec2_network_in_5abac7.csv,23.29867942242115,Linear,0.66666667,9,KMeans,0.15384615,1.0
+550,ec2_cpu_utilization_fe7f93.csv,23.31125513040495,Linear,0.5,10,Linear,0.04,0.88615385
+551,,,,,,,,
+552,occupancy_6005.csv,0,Linear,1.0,0,Linear,1.0,1
+553,occupancy_t4013.csv,1.6142636233315493,Linear,1.0,1,Linear,1.0,1.0
+554,speed_6005.csv,1.6636676177117091,Linear,0.66666667,2,Linear,1.0,1.0
+555,ec2_request_latency_system_failure.csv,1.8316072859319827,KMeans,0.66666667,3,Linear,1.0,1.0
+556,art_daily_jumpsup.csv,2.0185715891514326,KMeans,0.22222222,4,KMeans,1.0,1.0
+557,elb_request_count_8c0756.csv,2.219953939721772,Linear,0.66666667,5,Linear,1.0,1.0
+558,art_daily_nojump.csv,2.2481531899571756,KMeans,0.00152207,6,KMeans,1.0,1.0
+559,ec2_cpu_utilization_53ea38.csv,2.2535202755132335,KMeans,0.04255319,7,KMeans,1.0,1.0
+560,art_daily_jumpsdown.csv,2.2606148248838025,KMeans,0.03030303,8,KMeans,1.0,1.0
+561,ec2_cpu_utilization_fe7f93.csv,3.08651764674662,Linear,0.5,9,KMeans,1.0,1.0
+562,ec2_cpu_utilization_825cc2.csv,3.2694836934767464,KMeans,0.66666667,10,KMeans,1.0,1.0
+563,,,,,,,,
+564,Twitter_volume_IBM.csv,0,Linear,0.5,0,Linear,0.5,1
+565,Twitter_volume_CRM.csv,3.416226129033708,KMeans,0.54545455,1,KMeans,0.5,1.0
+566,Twitter_volume_UPS.csv,3.43432946660183,Linear,0.28571429,2,KMeans,0.5,1.0
+567,Twitter_volume_GOOG.csv,5.4321651451039825,Linear,0.4,3,Linear,0.5,1.0
+568,Twitter_volume_AMZN.csv,7.083655909360612,KMeans,0.66666667,4,KMeans,0.5,1.0
+569,Twitter_volume_PFE.csv,7.295957987369646,KMeans,0.42857143,5,KMeans,0.5,1.0
+570,Twitter_volume_FB.csv,9.281325636965612,Linear,1.0,6,KMeans,0.5,1.0
+571,Twitter_volume_AAPL.csv,9.358605347782053,Linear,0.4,7,Linear,0.5,1.0
+572,cpu_utilization_asg_misconfiguration.csv,9.647779028863038,KMeans,0.00775194,8,KMeans,0.5,1.0
+573,TravelTime_451.csv,10.08076483226759,KMeans,0.4,9,KMeans,0.5,1.0
+574,exchange-3_cpc_results.csv,10.393969365134588,Linear,0.57142857,10,KMeans,0.5,1.0
+575,,,,,,,,
+576,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
+577,ec2_cpu_utilization_77c1ca.csv,5.85429973078916,KMeans,0.03921569,1,KMeans,1.0,1.0
+578,speed_t4013.csv,7.0780419003314865,Linear,1.0,2,KMeans,1.0,1.0
+579,art_load_balancer_spikes.csv,8.837968197483049,KMeans,0.25,3,KMeans,1.0,1.0
+580,ec2_network_in_5abac7.csv,8.847966663029544,Linear,0.66666667,4,KMeans,1.0,1.0
+581,speed_6005.csv,9.260292956423395,Linear,0.66666667,5,Linear,0.66666667,0.66666667
+582,occupancy_t4013.csv,9.347804573532521,Linear,1.0,6,Linear,0.66666667,0.66666667
+583,elb_request_count_8c0756.csv,9.51352924371716,Linear,0.66666667,7,Linear,0.66666667,0.66666667
+584,ec2_cpu_utilization_53ea38.csv,9.60279653050258,KMeans,0.04255319,8,Linear,0.66666667,0.66666667
+585,occupancy_6005.csv,9.62822390759348,Linear,1.0,9,Linear,0.66666667,0.66666667
+586,ec2_request_latency_system_failure.csv,9.668913420264111,KMeans,0.66666667,10,Linear,0.66666667,0.66666667
+587,,,,,,,,
+588,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
+589,ec2_disk_write_bytes_c0d644.csv,3.2567811537464513,Linear,0.5,1,Linear,0.08695652,1.0
+590,art_load_balancer_spikes.csv,4.881723329634704,KMeans,0.25,2,KMeans,0.08695652,1.0
+591,rogue_agent_key_updown.csv,7.773607978967229,Gaussian,0.00083455,3,Gaussian,0.03174603,0.94478951
+592,ec2_network_in_5abac7.csv,7.886407905771293,Linear,0.66666667,4,Linear,0.08695652,1.0
+593,ec2_cpu_utilization_77c1ca.csv,10.705667219315686,KMeans,0.03921569,5,KMeans,0.08695652,1.0
+594,ec2_cpu_utilization_24ae8d.csv,11.469877920969882,KMeans,1.0,6,KMeans,0.08695652,1.0
+595,rogue_agent_key_hold.csv,13.511179373354732,Linear,0.003367,7,KMeans,0.08695652,1.0
+596,speed_t4013.csv,14.8159080423208,Linear,1.0,8,Linear,0.08695652,1.0
+597,elb_request_count_8c0756.csv,15.178224807423273,Linear,0.66666667,9,Linear,0.08695652,1.0
+598,occupancy_6005.csv,15.204877060684074,Linear,1.0,10,Linear,0.08695652,1.0
+599,,,,,,,,
+600,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
+601,ec2_network_in_5abac7.csv,9.09062598807991,Linear,0.66666667,1,Linear,0.33333333,0.83333333
+602,speed_7578.csv,9.443920041336803,KMeans,0.75,2,KMeans,0.5,1.0
+603,occupancy_t4013.csv,10.65041792269286,Linear,1.0,3,Linear,0.33333333,0.83333333
+604,ec2_network_in_257a54.csv,10.802108855036696,KMeans,0.5,4,KMeans,0.5,1.0
+605,ec2_cpu_utilization_825cc2.csv,10.815036613109708,KMeans,0.66666667,5,KMeans,0.5,1.0
+606,ec2_cpu_utilization_fe7f93.csv,10.858444015213705,Linear,0.5,6,KMeans,0.5,1.0
+607,occupancy_6005.csv,11.108979540912891,Linear,1.0,7,Linear,0.33333333,0.83333333
+608,elb_request_count_8c0756.csv,11.669550486602274,Linear,0.66666667,8,Linear,0.33333333,0.83333333
+609,ec2_request_latency_system_failure.csv,11.744282074563852,KMeans,0.66666667,9,Linear,0.33333333,0.83333333
+610,art_daily_jumpsup.csv,11.862494854353475,KMeans,0.22222222,10,KMeans,0.5,1.0
+611,,,,,,,,
+612,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
+613,art_daily_jumpsup.csv,1.3361004488408805,KMeans,0.22222222,1,KMeans,0.04255319,1.0
+614,art_daily_nojump.csv,1.3706718469105796,KMeans,0.00152207,2,KMeans,0.04255319,1.0
+615,elb_request_count_8c0756.csv,1.37755439403238,Linear,0.66666667,3,KMeans,0.04255319,1.0
+616,ec2_request_latency_system_failure.csv,1.4441918452880576,KMeans,0.66666667,4,KMeans,0.04255319,1.0
+617,art_daily_jumpsdown.csv,1.594371785239421,KMeans,0.03030303,5,KMeans,0.04255319,1.0
+618,occupancy_6005.csv,2.2535202755132335,Linear,1.0,6,KMeans,0.04255319,1.0
+619,ec2_cpu_utilization_fe7f93.csv,2.3706499939161776,Linear,0.5,7,KMeans,0.04255319,1.0
+620,ec2_cpu_utilization_825cc2.csv,2.5180066814541933,KMeans,0.66666667,8,KMeans,0.04255319,1.0
+621,speed_6005.csv,3.060125257745251,Linear,0.66666667,9,KMeans,0.04255319,1.0
+622,occupancy_t4013.csv,3.725607659328053,Linear,1.0,10,KMeans,0.04255319,1.0
+623,,,,,,,,
+624,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
+625,ec2_cpu_utilization_53ea38.csv,5.338040894742722,KMeans,0.04255319,1,KMeans,0.03921569,1.0
+626,art_daily_jumpsdown.csv,5.489765545624887,KMeans,0.03030303,2,KMeans,0.03921569,1.0
+627,art_daily_nojump.csv,5.797737322779735,KMeans,0.00152207,3,KMeans,0.03921569,1.0
+628,ec2_cpu_utilization_24ae8d.csv,5.85429973078916,KMeans,1.0,4,KMeans,0.03921569,1.0
+629,art_daily_jumpsup.csv,5.9326670315341214,KMeans,0.22222222,5,KMeans,0.03921569,1.0
+630,ec2_request_latency_system_failure.csv,6.072942626208366,KMeans,0.66666667,6,KMeans,0.03921569,1.0
+631,ec2_network_in_5abac7.csv,6.104250943078157,Linear,0.66666667,7,KMeans,0.03921569,1.0
+632,elb_request_count_8c0756.csv,6.106716590266837,Linear,0.66666667,8,KMeans,0.03921569,1.0
+633,ec2_cpu_utilization_fe7f93.csv,6.2022253119609125,Linear,0.5,9,KMeans,0.03921569,1.0
+634,occupancy_6005.csv,6.397761259911416,Linear,1.0,10,KMeans,0.03921569,1.0
+635,,,,,,,,
+636,Twitter_volume_CRM.csv,0,KMeans,0.54545455,0,KMeans,0.54545455,1
+637,Twitter_volume_IBM.csv,3.416226129033708,Linear,0.5,1,Linear,0.5,0.95454545
+638,Twitter_volume_UPS.csv,4.354866925855325,Linear,0.28571429,2,Linear,0.5,0.95454545
+639,Twitter_volume_GOOG.csv,6.839555738184334,Linear,0.4,3,Linear,0.5,0.95454545
+640,Twitter_volume_PFE.csv,6.958606617251548,KMeans,0.42857143,4,Linear,0.5,0.95454545
+641,Twitter_volume_AMZN.csv,7.3810671860629675,KMeans,0.66666667,5,Linear,0.5,0.95454545
+642,Twitter_volume_FB.csv,8.633333444720932,Linear,1.0,6,Linear,0.5,0.95454545
+643,Twitter_volume_CVS.csv,8.922450318110394,Linear,0.66666667,7,Linear,0.5,0.95454545
+644,Twitter_volume_AAPL.csv,9.528296942722296,Linear,0.4,8,Linear,0.5,0.95454545
+645,exchange-3_cpc_results.csv,10.25624407450472,Linear,0.57142857,9,Linear,0.5,0.95454545
+646,Twitter_volume_KO.csv,10.900769931535748,Linear,0.8,10,Linear,0.5,0.95454545
+647,,,,,,,,
+648,exchange-4_cpc_results.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+649,exchange-4_cpm_results.csv,2.5291574128384213,KMeans,0.75,1,KMeans,0.66666667,1.0
+650,exchange-3_cpc_results.csv,4.723610894310692,Linear,0.57142857,2,KMeans,0.66666667,1.0
+651,exchange-3_cpm_results.csv,5.611559673519649,Linear,1.0,3,Linear,0.66666667,1.0
+652,exchange-2_cpm_results.csv,6.624567329563986,KMeans,0.8,4,KMeans,0.66666667,1.0
+653,exchange-2_cpc_results.csv,8.731828711452248,KMeans,0.33333333,5,KMeans,0.66666667,1.0
+654,TravelTime_387.csv,9.635215244974924,KMeans,0.66666667,6,KMeans,0.66666667,1.0
+655,Twitter_volume_FB.csv,9.80854439551409,Linear,1.0,7,KMeans,0.66666667,1.0
+656,Twitter_volume_AMZN.csv,11.845204105731828,KMeans,0.66666667,8,KMeans,0.66666667,1.0
+657,TravelTime_451.csv,12.50917073260619,KMeans,0.4,9,KMeans,0.66666667,1.0
+658,Twitter_volume_CRM.csv,13.11320636628354,KMeans,0.54545455,10,KMeans,0.66666667,1.0
+659,,,,,,,,
+660,speed_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+661,occupancy_t4013.csv,3.0191354534413675,Linear,1.0,1,Linear,1.0,1.0
+662,speed_6005.csv,3.1356068635446936,Linear,0.66666667,2,Linear,1.0,1.0
+663,occupancy_6005.csv,4.16738384389383,Linear,1.0,3,Linear,1.0,1.0
+664,ec2_request_latency_system_failure.csv,5.124577119124693,KMeans,0.66666667,4,Linear,1.0,1.0
+665,elb_request_count_8c0756.csv,5.216419706825393,Linear,0.66666667,5,Linear,1.0,1.0
+666,ec2_cpu_utilization_53ea38.csv,5.335201386992461,KMeans,0.04255319,6,Linear,1.0,1.0
+667,speed_7578.csv,5.431922017390864,KMeans,0.75,7,Linear,1.0,1.0
+668,art_daily_jumpsdown.csv,5.432596983962824,KMeans,0.03030303,8,KMeans,0.8,0.8
+669,art_daily_jumpsup.csv,5.570337797286597,KMeans,0.22222222,9,KMeans,0.8,0.8
+670,art_daily_nojump.csv,5.613672594849973,KMeans,0.00152207,10,KMeans,0.8,0.8
+671,,,,,,,,
+672,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
+673,ec2_cpu_utilization_5f5533.csv,3.9028845882113776,KMeans,0.57142857,1,KMeans,0.5,1.0
+674,ec2_cpu_utilization_ac20cd.csv,4.30414606135813,KMeans,0.66666667,2,KMeans,0.5,1.0
+675,rds_cpu_utilization_cc0c53.csv,4.695395287396806,Gaussian,1.0,3,KMeans,0.5,1.0
+676,rds_cpu_utilization_e47b3b.csv,4.970649206456125,Linear,0.66666667,4,KMeans,0.5,1.0
+677,ec2_cpu_utilization_825cc2.csv,11.502879511992155,KMeans,0.66666667,5,KMeans,0.5,1.0
+678,ec2_cpu_utilization_53ea38.csv,11.949881194148404,KMeans,0.04255319,6,KMeans,0.5,1.0
+679,ec2_cpu_utilization_fe7f93.csv,12.283123989766441,Linear,0.5,7,KMeans,0.5,1.0
+680,art_daily_jumpsup.csv,12.298136081893496,KMeans,0.22222222,8,KMeans,0.5,1.0
+681,occupancy_6005.csv,12.337976612689918,Linear,1.0,9,KMeans,0.5,1.0
+682,art_daily_jumpsdown.csv,12.542076936414853,KMeans,0.03030303,10,KMeans,0.5,1.0
+683,,,,,,,,
+684,Twitter_volume_PFE.csv,0,KMeans,0.42857143,0,KMeans,0.42857143,1
+685,Twitter_volume_UPS.csv,5.8483157008916224,Linear,0.28571429,1,Linear,0.36363636,0.93506493
+686,Twitter_volume_CVS.csv,6.480624092455498,Linear,0.66666667,2,Linear,0.36363636,0.93506493
+687,Twitter_volume_CRM.csv,6.958606617251548,KMeans,0.54545455,3,Linear,0.36363636,0.93506493
+688,Twitter_volume_IBM.csv,7.295957987369646,Linear,0.5,4,Linear,0.36363636,0.93506493
+689,Twitter_volume_GOOG.csv,10.656261082023185,Linear,0.4,5,Linear,0.36363636,0.93506493
+690,exchange-2_cpm_results.csv,12.80820802473691,KMeans,0.8,6,Linear,0.36363636,0.93506493
+691,exchange-3_cpc_results.csv,12.827723100871626,Linear,0.57142857,7,Linear,0.36363636,0.93506493
+692,exchange-2_cpc_results.csv,13.723747874839042,KMeans,0.33333333,8,Linear,0.36363636,0.93506493
+693,ec2_cpu_utilization_77c1ca.csv,13.756191907180357,KMeans,0.03921569,9,Linear,0.36363636,0.93506493
+694,TravelTime_451.csv,13.809448872369204,KMeans,0.4,10,KMeans,0.42857143,1.0
+695,,,,,,,,
+696,exchange-3_cpc_results.csv,0,Linear,0.57142857,0,Linear,0.57142857,1
+697,exchange-3_cpm_results.csv,2.93874570384934,Linear,1.0,1,Linear,0.57142857,1.0
+698,exchange-2_cpm_results.csv,4.464336590401593,KMeans,0.8,2,KMeans,0.57142857,1.0
+699,exchange-4_cpm_results.csv,4.606220275201515,KMeans,0.75,3,KMeans,0.57142857,1.0
+700,exchange-4_cpc_results.csv,4.723610894310692,Linear,0.66666667,4,KMeans,0.57142857,1.0
+701,exchange-2_cpc_results.csv,5.183571728332721,KMeans,0.33333333,5,KMeans,0.57142857,1.0
+702,TravelTime_387.csv,6.478828747945323,KMeans,0.66666667,6,KMeans,0.57142857,1.0
+703,TravelTime_451.csv,9.021297978606526,KMeans,0.4,7,KMeans,0.57142857,1.0
+704,Twitter_volume_GOOG.csv,9.514151884816847,Linear,0.4,8,KMeans,0.57142857,1.0
+705,Twitter_volume_AMZN.csv,9.87414451274245,KMeans,0.66666667,9,KMeans,0.57142857,1.0
+706,Twitter_volume_CRM.csv,10.25624407450472,KMeans,0.54545455,10,KMeans,0.57142857,1.0
+707,,,,,,,,
+708,Twitter_volume_AMZN.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+709,Twitter_volume_GOOG.csv,3.372299037319812,Linear,0.4,1,Linear,0.57142857,0.9047619
+710,Twitter_volume_AAPL.csv,4.313578016484853,Linear,0.4,2,Linear,0.57142857,0.9047619
+711,Twitter_volume_FB.csv,4.326412396837323,Linear,1.0,3,Linear,0.57142857,0.9047619
+712,Twitter_volume_IBM.csv,7.083655909360612,Linear,0.5,4,Linear,0.57142857,0.9047619
+713,Twitter_volume_CRM.csv,7.3810671860629675,KMeans,0.54545455,5,Linear,0.57142857,0.9047619
+714,cpu_utilization_asg_misconfiguration.csv,7.942591858229305,KMeans,0.00775194,6,Linear,0.57142857,0.9047619
+715,Twitter_volume_KO.csv,8.318975765343602,Linear,0.8,7,Linear,0.57142857,0.9047619
+716,Twitter_volume_UPS.csv,9.05348556970934,Linear,0.28571429,8,Linear,0.57142857,0.9047619
+717,exchange-3_cpc_results.csv,9.87414451274245,Linear,0.57142857,9,Linear,0.57142857,0.9047619
+718,machine_temperature_system_failure.csv,10.776060912508221,Linear,0.4,10,Linear,0.57142857,0.9047619
+719,,,,,,,,
+720,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
+721,art_daily_jumpsdown.csv,0.32136401334794745,KMeans,0.03030303,1,KMeans,0.00152207,1.0
+722,art_daily_jumpsup.csv,0.5316167940345915,KMeans,0.22222222,2,KMeans,0.00152207,1.0
+723,ec2_request_latency_system_failure.csv,1.032140342380112,KMeans,0.66666667,3,KMeans,0.00152207,1.0
+724,elb_request_count_8c0756.csv,1.178101092617906,Linear,0.66666667,4,KMeans,0.00152207,1.0
+725,ec2_cpu_utilization_53ea38.csv,1.3706718469105796,KMeans,0.04255319,5,KMeans,0.00152207,1.0
+726,ec2_cpu_utilization_825cc2.csv,2.214205357226329,KMeans,0.66666667,6,KMeans,0.00152207,1.0
+727,ec2_cpu_utilization_fe7f93.csv,2.228305821405603,Linear,0.5,7,KMeans,0.00152207,1.0
+728,occupancy_6005.csv,2.2481531899571756,Linear,1.0,8,KMeans,0.00152207,1.0
+729,speed_6005.csv,2.9419201575568037,Linear,0.66666667,9,KMeans,0.00152207,1.0
+730,occupancy_t4013.csv,3.5952946476407166,Linear,1.0,10,KMeans,0.00152207,1.0
+731,,,,,,,,
+732,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
+733,ec2_cpu_utilization_825cc2.csv,1.331415329135957,KMeans,0.66666667,1,KMeans,0.5,1.0
+734,ec2_request_latency_system_failure.csv,1.5555611782050462,KMeans,0.66666667,2,KMeans,0.5,1.0
+735,elb_request_count_8c0756.csv,1.6059029808690908,Linear,0.66666667,3,KMeans,0.5,1.0
+736,art_daily_jumpsdown.csv,1.9424950561022487,KMeans,0.03030303,4,KMeans,0.5,1.0
+737,art_daily_jumpsup.csv,2.1473096503121116,KMeans,0.22222222,5,KMeans,0.5,1.0
+738,art_daily_nojump.csv,2.228305821405603,KMeans,0.00152207,6,KMeans,0.5,1.0
+739,ec2_cpu_utilization_53ea38.csv,2.3706499939161776,KMeans,0.04255319,7,KMeans,0.5,1.0
+740,occupancy_6005.csv,3.08651764674662,Linear,1.0,8,KMeans,0.5,1.0
+741,speed_6005.csv,4.006053476095255,Linear,0.66666667,9,KMeans,0.5,1.0
+742,occupancy_t4013.csv,4.213588019366243,Linear,1.0,10,KMeans,0.5,1.0
+743,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.7076923076923077,0.9161939401538461
+0,,,,,2.0,,0.7230769230769231,0.9335727735384616
+0,,,,,3.0,,0.6307692307692307,0.9040112273846155
+0,,,,,4.0,,0.7384615384615385,0.9310588196923076
+0,,,,,5.0,,0.7538461538461538,0.9311863609230768
+0,,,,,6.0,,0.7538461538461538,0.9322974784615384
+0,,,,,7.0,,0.7076923076923077,0.9272145796923076
+0,,,,,8.0,,0.7076923076923077,0.9254197078461537
+0,,,,,9.0,,0.6923076923076923,0.9208043232307691
+0,,,,,10.0,,0.7384615384615385,0.9273336495384613

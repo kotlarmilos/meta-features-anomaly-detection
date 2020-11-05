@@ -1,0 +1,768 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
+1,machine_temperature_system_failure.csv,0.002800554,Linear,0.4,1,Linear,0.63157895,0.79824562
+2,Thyroid Disease,0.0028825551,KMeans,0.22317597,2,KMeans,0.83333333,1.0
+3,Breast Cancer Diagnostic,0.0030203313,KMeans,0.83333333,3,KMeans,0.83333333,1.0
+4,Twitter_volume_AMZN.csv,0.00565587,KMeans,0.66666667,4,KMeans,0.83333333,1.0
+5,nyc_taxi.csv,0.006449342,Linear,0.25,5,KMeans,0.83333333,1.0
+6,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0076953173,KMeans,0.5,6,KMeans,0.83333333,1.0
+7,ec2_disk_write_bytes_c0d644.csv,0.008058354,Linear,0.5,7,KMeans,0.83333333,1.0
+8,art_daily_jumpsdown.csv,0.009233236,KMeans,0.03030303,8,KMeans,0.83333333,1.0
+9,ambient_temperature_system_failure.csv,0.012120903,KMeans,0.8,9,KMeans,0.83333333,1.0
+10,speed_t4013.csv,0.013455272,Linear,1.0,10,KMeans,0.83333333,1.0
+11,,,,,,,,
+12,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
+13,Breast Cancer Diagnostic,0.0033991188,KMeans,0.83333333,1,KMeans,0.38537271,0.4468761299999999
+14,ec2_cpu_utilization_5f5533.csv,0.0037944764,KMeans,0.57142857,2,KMeans,0.38537271,0.4468761299999999
+15,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0039668083,KMeans,0.5,3,KMeans,0.38537271,0.4468761299999999
+16,ec2_disk_write_bytes_c0d644.csv,0.0062032193,Linear,0.5,4,KMeans,0.38537271,0.4468761299999999
+17,nyc_taxi.csv,0.0067777187,Linear,0.25,5,KMeans,0.38537271,0.4468761299999999
+18,ec2_cpu_utilization_825cc2.csv,0.008024916,KMeans,0.66666667,6,KMeans,0.38537271,0.4468761299999999
+19,Twitter_volume_AAPL.csv,0.008627385,Linear,0.4,7,KMeans,0.38537271,0.4468761299999999
+20,exchange-3_cpc_results.csv,0.010612175,Linear,0.57142857,8,KMeans,0.38537271,0.4468761299999999
+21,Thyroid Disease,0.011219814,KMeans,0.22317597,9,KMeans,0.38537271,0.4468761299999999
+22,art_daily_jumpsdown.csv,0.014102265,KMeans,0.03030303,10,KMeans,0.38537271,0.4468761299999999
+23,,,,,,,,
+24,Pen-Based Recognition of Handwritten Text (Local),0,KMeans,0.52631579,0,KMeans,0.52631579,1
+25,Twitter_volume_AMZN.csv,0.0005158484,KMeans,0.66666667,1,KMeans,0.52631579,1.0
+26,Breast Cancer Diagnostic,0.0011782348,KMeans,0.83333333,2,KMeans,0.52631579,1.0
+27,art_daily_jumpsdown.csv,0.0022256374,KMeans,0.03030303,3,KMeans,0.52631579,1.0
+28,ec2_cpu_utilization_5f5533.csv,0.0027275681,KMeans,0.57142857,4,KMeans,0.52631579,1.0
+29,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0035010278,KMeans,0.5,5,KMeans,0.52631579,1.0
+30,ec2_disk_write_bytes_c0d644.csv,0.0037122667,Linear,0.5,6,KMeans,0.52631579,1.0
+31,exchange-3_cpc_results.csv,0.004426211,Linear,0.57142857,7,KMeans,0.52631579,1.0
+32,exchange-2_cpm_results.csv,0.006930217,KMeans,0.8,8,KMeans,0.52631579,1.0
+33,ec2_cpu_utilization_825cc2.csv,0.008003265,KMeans,0.66666667,9,KMeans,0.52631579,1.0
+34,speed_7578.csv,0.0127829015,KMeans,0.75,10,KMeans,0.52631579,1.0
+35,,,,,,,,
+36,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
+37,ec2_disk_write_bytes_c0d644.csv,0.0021682233,Linear,0.5,1,Linear,0.22222222,0.77676767
+38,art_daily_jumpsdown.csv,0.0043594837,KMeans,0.03030303,2,KMeans,0.44545455,1.0
+39,ec2_cpu_utilization_825cc2.csv,0.006605506,KMeans,0.66666667,3,KMeans,0.44545455,1.0
+40,nyc_taxi.csv,0.0072299093,Linear,0.25,4,KMeans,0.44545455,1.0
+41,Thyroid Disease,0.007912621,KMeans,0.22317597,5,KMeans,0.44545455,1.0
+42,machine_temperature_system_failure.csv,0.008804828,Linear,0.4,6,KMeans,0.44545455,1.0
+43,exchange-3_cpm_results.csv,0.013794303,Linear,1.0,7,Linear,0.22222222,0.77676767
+44,TravelTime_387.csv,0.016219541,KMeans,0.66666667,8,KMeans,0.44545455,1.0
+45,Breast Cancer Diagnostic,0.016255125,KMeans,0.83333333,9,KMeans,0.44545455,1.0
+46,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.016864225,KMeans,0.5,10,KMeans,0.44545455,1.0
+47,,,,,,,,
+48,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
+49,machine_temperature_system_failure.csv,0.008139759,Linear,0.4,1,Linear,0.19112628,0.96795031
+50,Thyroid Disease,0.0087420195,KMeans,0.22317597,2,KMeans,0.22317597,1.0
+51,nyc_taxi.csv,0.011314943,Linear,0.25,3,Linear,0.19112628,0.96795031
+52,Breast Cancer Diagnostic,0.014020309,KMeans,0.83333333,4,KMeans,0.22317597,1.0
+53,Twitter_volume_CVS.csv,0.018581674,Linear,0.66666667,5,Linear,0.19112628,0.96795031
+54,art_daily_jumpsdown.csv,0.018648878,KMeans,0.03030303,6,KMeans,0.22317597,1.0
+55,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.019381762,KMeans,0.5,7,KMeans,0.22317597,1.0
+56,ec2_disk_write_bytes_c0d644.csv,0.021003172,Linear,0.5,8,KMeans,0.22317597,1.0
+57,Landsat Satellite,0.02217576,Linear,0.71794872,9,Linear,0.19112628,0.96795031
+58,ec2_cpu_utilization_5f5533.csv,0.022468537,KMeans,0.57142857,10,KMeans,0.22317597,1.0
+59,,,,,,,,
+60,Statlog Shuttle,0,KMeans,0.96766744,0,KMeans,0.96766744,1
+61,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.001745224,KMeans,0.5,1,KMeans,0.96766744,1.0
+62,art_daily_jumpsdown.csv,0.0028998703,KMeans,0.03030303,2,KMeans,0.96766744,1.0
+63,nyc_taxi.csv,0.002932161,Linear,0.25,3,KMeans,0.96766744,1.0
+64,ec2_cpu_utilization_825cc2.csv,0.003603533,KMeans,0.66666667,4,KMeans,0.96766744,1.0
+65,Breast Cancer Diagnostic,0.0038929582,KMeans,0.83333333,5,KMeans,0.96766744,1.0
+66,ec2_disk_write_bytes_c0d644.csv,0.004602656,Linear,0.5,6,KMeans,0.96766744,1.0
+67,Twitter_volume_KO.csv,0.0059755445,Linear,0.8,7,KMeans,0.96766744,1.0
+68,Twitter_volume_AMZN.csv,0.0063976347,KMeans,0.66666667,8,KMeans,0.96766744,1.0
+69,ec2_cpu_utilization_5f5533.csv,0.007921472,KMeans,0.57142857,9,KMeans,0.96766744,1.0
+70,speed_t4013.csv,0.009337202,Linear,1.0,10,KMeans,0.96766744,1.0
+71,,,,,,,,
+72,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
+73,Twitter_volume_AMZN.csv,0.001225844,KMeans,0.66666667,1,KMeans,0.05851859,0.9907963
+74,Twitter_volume_AAPL.csv,0.0029405802,Linear,0.4,2,KMeans,0.05851859,0.9907963
+75,ec2_disk_write_bytes_c0d644.csv,0.0046495795,Linear,0.5,3,Linear,0.0663518,0.99862951
+76,exchange-2_cpc_results.csv,0.0049548894,KMeans,0.33333333,4,KMeans,0.05851859,0.9907963
+77,cpu_utilization_asg_misconfiguration.csv,0.00567849,KMeans,0.00775194,5,KMeans,0.05851859,0.9907963
+78,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0059392303,KMeans,0.5,6,KMeans,0.05851859,0.9907963
+79,TravelTime_387.csv,0.006260544,KMeans,0.66666667,7,KMeans,0.05851859,0.9907963
+80,Thyroid Disease,0.006796181,KMeans,0.22317597,8,KMeans,0.05851859,0.9907963
+81,art_daily_jumpsdown.csv,0.008233994,KMeans,0.03030303,9,KMeans,0.05851859,0.9907963
+82,nyc_taxi.csv,0.009044021,Linear,0.25,10,KMeans,0.05851859,0.9907963
+83,,,,,,,,
+84,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
+85,machine_temperature_system_failure.csv,0.0026527047,Linear,0.4,1,Linear,0.11764706,1.0
+86,Twitter_volume_AAPL.csv,0.007241845,Linear,0.4,2,Linear,0.11764706,1.0
+87,nyc_taxi.csv,0.011851117,Linear,0.25,3,Linear,0.11764706,1.0
+88,Thyroid Disease,0.016455293,KMeans,0.22317597,4,Linear,0.11764706,1.0
+89,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.022018373,KMeans,0.5,5,Linear,0.11764706,1.0
+90,art_daily_jumpsdown.csv,0.022362083,KMeans,0.03030303,6,KMeans,0.05384615,0.93619909
+91,Twitter_volume_AMZN.csv,0.022372559,KMeans,0.66666667,7,KMeans,0.05384615,0.93619909
+92,ec2_disk_write_bytes_c0d644.csv,0.02240099,Linear,0.5,8,KMeans,0.05384615,0.93619909
+93,ec2_cpu_utilization_5f5533.csv,0.02368331,KMeans,0.57142857,9,KMeans,0.05384615,0.93619909
+94,Breast Cancer Diagnostic,0.027638584,KMeans,0.83333333,10,KMeans,0.05384615,0.93619909
+95,,,,,,,,
+96,Pen-Based Recognition of Handwritten Text,0,KMeans,0.88648649,0,KMeans,0.88648649,1
+97,machine_temperature_system_failure.csv,0.00026199222,Linear,0.4,1,Linear,0.64473684,0.75825035
+98,Twitter_volume_AAPL.csv,0.0052963346,Linear,0.4,2,Linear,0.64473684,0.75825035
+99,Thyroid Disease,0.0077934265,KMeans,0.22317597,3,Linear,0.64473684,0.75825035
+100,Breast Cancer Diagnostic,0.008449599,KMeans,0.83333333,4,KMeans,0.88648649,1.0
+101,nyc_taxi.csv,0.011767939,Linear,0.25,5,Linear,0.64473684,0.75825035
+102,Twitter_volume_AMZN.csv,0.014621839,KMeans,0.66666667,6,KMeans,0.88648649,1.0
+103,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.017758876,KMeans,0.5,7,KMeans,0.88648649,1.0
+104,Twitter_volume_CVS.csv,0.020167053,Linear,0.66666667,8,KMeans,0.88648649,1.0
+105,exchange-2_cpm_results.csv,0.02219379,KMeans,0.8,9,KMeans,0.88648649,1.0
+106,ec2_disk_write_bytes_c0d644.csv,0.022549108,Linear,0.5,10,KMeans,0.88648649,1.0
+107,,,,,,,,
+108,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
+109,machine_temperature_system_failure.csv,0.0008119792,Linear,0.4,1,Linear,0.71794872,1.0
+110,Breast Cancer Diagnostic,0.0019221753,KMeans,0.83333333,2,KMeans,0.65517241,0.93722369
+111,ec2_disk_write_bytes_c0d644.csv,0.0061955154,Linear,0.5,3,Linear,0.71794872,1.0
+112,Thyroid Disease,0.006714165,KMeans,0.22317597,4,KMeans,0.65517241,0.93722369
+113,ec2_cpu_utilization_825cc2.csv,0.011899725,KMeans,0.66666667,5,KMeans,0.65517241,0.93722369
+114,nyc_taxi.csv,0.013970926,Linear,0.25,6,KMeans,0.65517241,0.93722369
+115,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.014187649,KMeans,0.5,7,KMeans,0.65517241,0.93722369
+116,speed_7578.csv,0.015629992,KMeans,0.75,8,KMeans,0.65517241,0.93722369
+117,Twitter_volume_UPS.csv,0.016776457,Linear,0.28571429,9,KMeans,0.65517241,0.93722369
+118,art_daily_jumpsdown.csv,0.018023029,KMeans,0.03030303,10,KMeans,0.65517241,0.93722369
+119,,,,,,,,
+120,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
+121,machine_temperature_system_failure.csv,0.0009769946,Linear,0.4,1,Linear,0.14285714,0.34285714
+122,Breast Cancer Diagnostic,0.012382612,KMeans,0.83333333,2,KMeans,0.8,1.0
+123,ec2_cpu_utilization_5f5533.csv,0.012786463,KMeans,0.57142857,3,KMeans,0.8,1.0
+124,nyc_taxi.csv,0.022540629,Linear,0.25,4,KMeans,0.8,1.0
+125,Thyroid Disease,0.02777116,KMeans,0.22317597,5,KMeans,0.8,1.0
+126,exchange-3_cpm_results.csv,0.029762015,Linear,1.0,6,KMeans,0.8,1.0
+127,exchange-2_cpm_results.csv,0.03213641,KMeans,0.8,7,KMeans,0.8,1.0
+128,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.032698542,KMeans,0.5,8,KMeans,0.8,1.0
+129,Twitter_volume_AMZN.csv,0.034498185,KMeans,0.66666667,9,KMeans,0.8,1.0
+130,exchange-4_cpc_results.csv,0.035925165,Linear,0.66666667,10,KMeans,0.8,1.0
+131,,,,,,,,
+132,exchange-3_cpm_results.csv,0,Linear,1.0,0,Linear,1.0,1
+133,machine_temperature_system_failure.csv,0.017633595,Linear,0.4,1,Linear,1.0,1.0
+134,Twitter_volume_CVS.csv,0.024656601,Linear,0.66666667,2,Linear,1.0,1.0
+135,Twitter_volume_AAPL.csv,0.030044012,Linear,0.4,3,Linear,1.0,1.0
+136,Breast Cancer Diagnostic,0.030244298,KMeans,0.83333333,4,Linear,1.0,1.0
+137,art_daily_jumpsdown.csv,0.037790127,KMeans,0.03030303,5,Linear,1.0,1.0
+138,Thyroid Disease,0.03973516,KMeans,0.22317597,6,KMeans,1.0,1.0
+139,ec2_disk_write_bytes_c0d644.csv,0.042393275,Linear,0.5,7,Linear,1.0,1.0
+140,exchange-2_cpm_results.csv,0.043636613,KMeans,0.8,8,KMeans,1.0,1.0
+141,Twitter_volume_AMZN.csv,0.04454372,KMeans,0.66666667,9,KMeans,1.0,1.0
+142,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.045470677,KMeans,0.5,10,KMeans,1.0,1.0
+143,,,,,,,,
+144,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
+145,ec2_cpu_utilization_5f5533.csv,8.9854e-05,KMeans,0.57142857,1,KMeans,0.4,1.0
+146,speed_t4013.csv,0.0006020963,Linear,1.0,2,KMeans,0.4,1.0
+147,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0010710061,KMeans,0.5,3,KMeans,0.4,1.0
+148,Breast Cancer Diagnostic,0.0012286603,KMeans,0.83333333,4,KMeans,0.4,1.0
+149,Thyroid Disease,0.0023927987,KMeans,0.22317597,5,KMeans,0.4,1.0
+150,Twitter_volume_AMZN.csv,0.0034835786,KMeans,0.66666667,6,KMeans,0.4,1.0
+151,exchange-2_cpm_results.csv,0.0045449734,KMeans,0.8,7,KMeans,0.4,1.0
+152,exchange-3_cpc_results.csv,0.0047814846,Linear,0.57142857,8,KMeans,0.4,1.0
+153,nyc_taxi.csv,0.0052139014,Linear,0.25,9,KMeans,0.4,1.0
+154,art_daily_jumpsdown.csv,0.0053773224,KMeans,0.03030303,10,KMeans,0.4,1.0
+155,,,,,,,,
+156,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+157,Thyroid Disease,0.00023823977,KMeans,0.22317597,1,KMeans,0.66666667,1.0
+158,art_daily_jumpsdown.csv,0.0006855577,KMeans,0.03030303,2,KMeans,0.66666667,1.0
+159,Breast Cancer Diagnostic,0.00097201765,KMeans,0.83333333,3,KMeans,0.66666667,1.0
+160,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0009777397,KMeans,0.5,4,KMeans,0.66666667,1.0
+161,speed_t4013.csv,0.0031735748,Linear,1.0,5,KMeans,0.66666667,1.0
+162,ec2_disk_write_bytes_c0d644.csv,0.006914392,Linear,0.5,6,KMeans,0.66666667,1.0
+163,Landsat Satellite,0.008550137,Linear,0.71794872,7,KMeans,0.66666667,1.0
+164,Twitter_volume_AMZN.csv,0.009066984,KMeans,0.66666667,8,KMeans,0.66666667,1.0
+165,nyc_taxi.csv,0.0096208155,Linear,0.25,9,KMeans,0.66666667,1.0
+166,ec2_cpu_utilization_5f5533.csv,0.011638939,KMeans,0.57142857,10,KMeans,0.66666667,1.0
+167,,,,,,,,
+168,speed_7578.csv,0,KMeans,0.75,0,KMeans,0.75,1
+169,Twitter_volume_AAPL.csv,0.00021159649,Linear,0.4,1,Linear,0.4,0.65
+170,art_daily_jumpsup.csv,0.0024901927,KMeans,0.22222222,2,KMeans,0.75,1.0
+171,Thyroid Disease,0.005577326,KMeans,0.22317597,3,KMeans,0.75,1.0
+172,Breast Cancer Diagnostic,0.005864233,KMeans,0.83333333,4,KMeans,0.75,1.0
+173,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.006103337,KMeans,0.5,5,KMeans,0.75,1.0
+174,nyc_taxi.csv,0.006311327,Linear,0.25,6,KMeans,0.75,1.0
+175,TravelTime_387.csv,0.008502483,KMeans,0.66666667,7,KMeans,0.75,1.0
+176,exchange-3_cpc_results.csv,0.010000914,Linear,0.57142857,8,KMeans,0.75,1.0
+177,ec2_cpu_utilization_5f5533.csv,0.014002949,KMeans,0.57142857,9,KMeans,0.75,1.0
+178,ec2_disk_write_bytes_c0d644.csv,0.014573336,Linear,0.5,10,KMeans,0.75,1.0
+179,,,,,,,,
+180,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+181,speed_t4013.csv,0.0016240627,Linear,1.0,1,Linear,0.125,0.45833333
+182,nyc_taxi.csv,0.0016947687,Linear,0.25,2,Linear,0.125,0.45833333
+183,exchange-3_cpm_results.csv,0.0022338629,Linear,1.0,3,Linear,0.125,0.45833333
+184,Breast Cancer Diagnostic,0.0030692518,KMeans,0.83333333,4,Linear,0.125,0.45833333
+185,art_load_balancer_spikes.csv,0.0035037696,KMeans,0.25,5,Linear,0.125,0.45833333
+186,ec2_disk_write_bytes_c0d644.csv,0.0038849711,Linear,0.5,6,Linear,0.125,0.45833333
+187,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.005594045,KMeans,0.5,7,Linear,0.125,0.45833333
+188,Twitter_volume_AMZN.csv,0.0058505237,KMeans,0.66666667,8,KMeans,0.66666667,1.0
+189,Landsat Satellite,0.007921115,Linear,0.71794872,9,Linear,0.125,0.45833333
+190,TravelTime_387.csv,0.01229012,KMeans,0.66666667,10,KMeans,0.66666667,1.0
+191,,,,,,,,
+192,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
+193,Breast Cancer Diagnostic,0.0014093071,KMeans,0.83333333,1,KMeans,0.5,1.0
+194,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0019890964,KMeans,0.5,2,KMeans,0.5,1.0
+195,exchange-4_cpc_results.csv,0.0023780465,Linear,0.66666667,3,KMeans,0.5,1.0
+196,Thyroid Disease,0.002889365,KMeans,0.22317597,4,KMeans,0.5,1.0
+197,nyc_taxi.csv,0.0031880736,Linear,0.25,5,KMeans,0.5,1.0
+198,ec2_cpu_utilization_825cc2.csv,0.0053185523,KMeans,0.66666667,6,KMeans,0.5,1.0
+199,ec2_disk_write_bytes_c0d644.csv,0.0058133006,Linear,0.5,7,KMeans,0.5,1.0
+200,art_daily_jumpsdown.csv,0.0081719905,KMeans,0.03030303,8,KMeans,0.5,1.0
+201,Twitter_volume_AMZN.csv,0.008984834,KMeans,0.66666667,9,KMeans,0.5,1.0
+202,exchange-2_cpm_results.csv,0.009883195,KMeans,0.8,10,KMeans,0.5,1.0
+203,,,,,,,,
+204,exchange-4_cpm_results.csv,0,KMeans,0.75,0,KMeans,0.75,1
+205,machine_temperature_system_failure.csv,0.02060096,Linear,0.4,1,Linear,0.66666667,0.91666667
+206,ec2_cpu_utilization_825cc2.csv,0.028092667,KMeans,0.66666667,2,KMeans,0.75,1.0
+207,nyc_taxi.csv,0.030396536,Linear,0.25,3,Linear,0.66666667,0.91666667
+208,ec2_cpu_utilization_5f5533.csv,0.032439187,KMeans,0.57142857,4,KMeans,0.75,1.0
+209,Thyroid Disease,0.033120647,KMeans,0.22317597,5,KMeans,0.75,1.0
+210,exchange-3_cpm_results.csv,0.03395781,Linear,1.0,6,KMeans,0.75,1.0
+211,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.03495963,KMeans,0.5,7,KMeans,0.75,1.0
+212,Breast Cancer Diagnostic,0.038745,KMeans,0.83333333,8,KMeans,0.75,1.0
+213,Twitter_volume_AMZN.csv,0.039930508,KMeans,0.66666667,9,KMeans,0.75,1.0
+214,exchange-4_cpc_results.csv,0.040345564,Linear,0.66666667,10,KMeans,0.75,1.0
+215,,,,,,,,
+216,TravelTime_387.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+217,speed_t4013.csv,0.0028813481,Linear,1.0,1,Linear,0.5,0.83333333
+218,nyc_taxi.csv,0.004795894,Linear,0.25,2,Linear,0.5,0.83333333
+219,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.004858911,KMeans,0.5,3,Linear,0.5,0.83333333
+220,exchange-3_cpm_results.csv,0.006225869,Linear,1.0,4,Linear,0.5,0.83333333
+221,ec2_disk_write_bytes_c0d644.csv,0.0072652698,Linear,0.5,5,Linear,0.5,0.83333333
+222,Landsat Satellite,0.007796645,Linear,0.71794872,6,Linear,0.5,0.83333333
+223,ec2_cpu_utilization_5f5533.csv,0.009061769,KMeans,0.57142857,7,Linear,0.5,0.83333333
+224,Thyroid Disease,0.010713592,KMeans,0.22317597,8,Linear,0.5,0.83333333
+225,TravelTime_387.csv,0.010935634,KMeans,0.66666667,9,Linear,0.5,0.83333333
+226,Twitter_volume_AMZN.csv,0.011783868,KMeans,0.66666667,10,KMeans,0.66666667,1.0
+227,,,,,,,,
+228,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
+229,Object Images,0.014481939,Gaussian,0.06772229,1,Gaussian,nan,nan
+230,Speech Accent Data,0.014481939,Linear,0.11764706,2,Gaussian,nan,nan
+231,Letter Recognition,0.014483485,KMeans,0.44545455,3,Gaussian,nan,nan
+232,rds_cpu_utilization_cc0c53.csv,0.0150221065,Gaussian,1.0,4,Gaussian,nan,nan
+233,ec2_network_in_257a54.csv,0.015022375,KMeans,0.5,5,Gaussian,nan,nan
+234,rogue_agent_key_updown.csv,0.015022427,Gaussian,0.00083455,6,Gaussian,nan,nan
+235,ec2_network_in_5abac7.csv,0.015023902,Linear,0.66666667,7,Gaussian,nan,nan
+236,TravelTime_451.csv,0.015024301,KMeans,0.4,8,Gaussian,nan,nan
+237,ec2_cpu_utilization_fe7f93.csv,0.015031401,Linear,0.5,9,Gaussian,nan,nan
+238,ec2_disk_write_bytes_1ef3de.csv,0.015043005,Linear,0.08695652,10,Linear,0.0,1.0
+239,,,,,,,,
+240,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
+241,machine_temperature_system_failure.csv,0.0019874424,Linear,0.4,1,Linear,0.00075245,0.9999179
+242,Thyroid Disease,0.004497975,KMeans,0.22317597,2,KMeans,0.00075287,0.99991832
+243,Twitter_volume_AAPL.csv,0.0059539676,Linear,0.4,3,Linear,0.00075245,0.9999179
+244,art_daily_jumpsup.csv,0.010839954,KMeans,0.22222222,4,KMeans,0.00075287,0.99991832
+245,Breast Cancer Diagnostic,0.012329489,KMeans,0.83333333,5,KMeans,0.00075287,0.99991832
+246,ec2_cpu_utilization_5f5533.csv,0.013398692,KMeans,0.57142857,6,KMeans,0.00075287,0.99991832
+247,nyc_taxi.csv,0.01480262,Linear,0.25,7,KMeans,0.00075287,0.99991832
+248,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.016444564,KMeans,0.5,8,KMeans,0.00075287,0.99991832
+249,exchange-2_cpm_results.csv,0.016499132,KMeans,0.8,9,KMeans,0.00075287,0.99991832
+250,ec2_cpu_utilization_24ae8d.csv,0.017557964,KMeans,1.0,10,KMeans,0.00075287,0.99991832
+251,,,,,,,,
+252,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
+253,ec2_cpu_utilization_5f5533.csv,0.00086800754,KMeans,0.57142857,1,KMeans,1.0,1.0
+254,art_daily_jumpsdown.csv,0.0011929572,KMeans,0.03030303,2,KMeans,1.0,1.0
+255,ec2_disk_write_bytes_c0d644.csv,0.002910778,Linear,0.5,3,KMeans,1.0,1.0
+256,nyc_taxi.csv,0.0035015047,Linear,0.25,4,KMeans,1.0,1.0
+257,Breast Cancer Diagnostic,0.0039744675,KMeans,0.83333333,5,KMeans,1.0,1.0
+258,exchange-2_cpm_results.csv,0.005475104,KMeans,0.8,6,KMeans,1.0,1.0
+259,Thyroid Disease,0.0070180446,KMeans,0.22317597,7,KMeans,1.0,1.0
+260,exchange-3_cpc_results.csv,0.007399425,Linear,0.57142857,8,KMeans,1.0,1.0
+261,exchange-2_cpc_results.csv,0.009515002,KMeans,0.33333333,9,KMeans,1.0,1.0
+262,Twitter_volume_AMZN.csv,0.010924995,KMeans,0.66666667,10,KMeans,1.0,1.0
+263,,,,,,,,
+264,nyc_taxi.csv,0,Linear,0.25,0,Linear,0.25,1
+265,machine_temperature_system_failure.csv,0.0025404096,Linear,0.4,1,Linear,0.25,1.0
+266,Breast Cancer Diagnostic,0.008996367,KMeans,0.83333333,2,KMeans,0.25,1.0
+267,Thyroid Disease,0.011882752,KMeans,0.22317597,3,KMeans,0.25,1.0
+268,ec2_disk_write_bytes_c0d644.csv,0.013072014,Linear,0.5,4,KMeans,0.25,1.0
+269,ec2_cpu_utilization_5f5533.csv,0.016590834,KMeans,0.57142857,5,KMeans,0.25,1.0
+270,nyc_taxi.csv,0.017621309,Linear,0.25,6,KMeans,0.25,1.0
+271,ec2_cpu_utilization_ac20cd.csv,0.018685758,KMeans,0.66666667,7,KMeans,0.25,1.0
+272,Twitter_volume_KO.csv,0.019079745,Linear,0.8,8,KMeans,0.25,1.0
+273,TravelTime_387.csv,0.020863295,KMeans,0.66666667,9,KMeans,0.25,1.0
+274,Twitter_volume_AAPL.csv,0.021997124,Linear,0.4,10,KMeans,0.25,1.0
+275,,,,,,,,
+276,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
+277,machine_temperature_system_failure.csv,0.017362058,Linear,0.4,1,Linear,0.5,0.92857143
+278,ec2_cpu_utilization_5f5533.csv,0.02082239,KMeans,0.57142857,2,KMeans,0.57142857,1.0
+279,Thyroid Disease,0.023011893,KMeans,0.22317597,3,KMeans,0.57142857,1.0
+280,Twitter_volume_AAPL.csv,0.024145722,Linear,0.4,4,KMeans,0.57142857,1.0
+281,ec2_disk_write_bytes_c0d644.csv,0.026544794,Linear,0.5,5,Linear,0.5,0.92857143
+282,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.02757284,KMeans,0.5,6,KMeans,0.57142857,1.0
+283,art_daily_jumpsdown.csv,0.032753915,KMeans,0.03030303,7,KMeans,0.57142857,1.0
+284,Twitter_volume_AMZN.csv,0.033808544,KMeans,0.66666667,8,KMeans,0.57142857,1.0
+285,nyc_taxi.csv,0.03392221,Linear,0.25,9,KMeans,0.57142857,1.0
+286,Twitter_volume_CVS.csv,0.03536102,Linear,0.66666667,10,KMeans,0.57142857,1.0
+287,,,,,,,,
+288,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
+289,Breast Cancer Diagnostic,0.0004993975,KMeans,0.83333333,1,KMeans,0.02,1.0
+290,ec2_disk_write_bytes_c0d644.csv,0.00088378787,Linear,0.5,2,KMeans,0.02,1.0
+291,ec2_cpu_utilization_5f5533.csv,0.001276195,KMeans,0.57142857,3,KMeans,0.02,1.0
+292,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0017160773,KMeans,0.5,4,KMeans,0.02,1.0
+293,Thyroid Disease,0.0023486316,KMeans,0.22317597,5,KMeans,0.02,1.0
+294,art_daily_jumpsdown.csv,0.0024984926,KMeans,0.03030303,6,KMeans,0.02,1.0
+295,Twitter_volume_AMZN.csv,0.00442338,KMeans,0.66666667,7,KMeans,0.02,1.0
+296,nyc_taxi.csv,0.0064769983,Linear,0.25,8,KMeans,0.02,1.0
+297,ec2_cpu_utilization_ac20cd.csv,0.013256803,KMeans,0.66666667,9,KMeans,0.02,1.0
+298,speed_t4013.csv,0.015172094,Linear,1.0,10,KMeans,0.02,1.0
+299,,,,,,,,
+300,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
+301,nyc_taxi.csv,0.00081174076,Linear,0.25,1,Linear,0.5,1.0
+302,Twitter_volume_AMZN.csv,0.0021122843,KMeans,0.66666667,2,KMeans,0.5,1.0
+303,machine_temperature_system_failure.csv,0.0033078343,Linear,0.4,3,Linear,0.5,1.0
+304,Breast Cancer Diagnostic,0.006777808,KMeans,0.83333333,4,KMeans,0.5,1.0
+305,TravelTime_387.csv,0.009897009,KMeans,0.66666667,5,KMeans,0.5,1.0
+306,Twitter_volume_AAPL.csv,0.01007244,Linear,0.4,6,KMeans,0.5,1.0
+307,ec2_cpu_utilization_5f5533.csv,0.011946768,KMeans,0.57142857,7,KMeans,0.5,1.0
+308,Thyroid Disease,0.0136947185,KMeans,0.22317597,8,KMeans,0.5,1.0
+309,ec2_disk_write_bytes_c0d644.csv,0.014388233,Linear,0.5,9,KMeans,0.5,1.0
+310,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.015102163,KMeans,0.5,10,KMeans,0.5,1.0
+311,,,,,,,,
+312,TravelTime_451.csv,0,KMeans,0.4,0,KMeans,0.4,1
+313,machine_temperature_system_failure.csv,0.00069335103,Linear,0.4,1,Linear,0.18181818,0.7818181799999999
+314,nyc_taxi.csv,0.012840286,Linear,0.25,2,Linear,0.18181818,0.7818181799999999
+315,Thyroid Disease,0.016633451,KMeans,0.22317597,3,Linear,0.18181818,0.7818181799999999
+316,Twitter_volume_AMZN.csv,0.017363995,KMeans,0.66666667,4,KMeans,0.4,1.0
+317,art_daily_jumpsdown.csv,0.023805335,KMeans,0.03030303,5,KMeans,0.4,1.0
+318,Landsat Satellite,0.024647087,Linear,0.71794872,6,KMeans,0.4,1.0
+319,ec2_disk_write_bytes_c0d644.csv,0.02568239,Linear,0.5,7,Linear,0.18181818,0.7818181799999999
+320,ambient_temperature_system_failure.csv,0.026002988,KMeans,0.8,8,KMeans,0.4,1.0
+321,ec2_cpu_utilization_5f5533.csv,0.027014047,KMeans,0.57142857,9,KMeans,0.4,1.0
+322,Breast Cancer Diagnostic,0.028851047,KMeans,0.83333333,10,KMeans,0.4,1.0
+323,,,,,,,,
+324,Twitter_volume_AAPL.csv,0,Linear,0.4,0,Linear,0.4,1
+325,machine_temperature_system_failure.csv,0.003718987,Linear,0.4,1,Linear,0.4,1.0
+326,Thyroid Disease,0.0059618056,KMeans,0.22317597,2,KMeans,0.4,1.0
+327,ec2_cpu_utilization_825cc2.csv,0.011516869,KMeans,0.66666667,3,KMeans,0.4,1.0
+328,nyc_taxi.csv,0.013311073,Linear,0.25,4,KMeans,0.4,1.0
+329,Breast Cancer Diagnostic,0.013343573,KMeans,0.83333333,5,KMeans,0.4,1.0
+330,Twitter_volume_AMZN.csv,0.013871372,KMeans,0.66666667,6,KMeans,0.4,1.0
+331,Twitter_volume_AAPL.csv,0.015023425,Linear,0.4,7,KMeans,0.4,1.0
+332,art_daily_jumpsup.csv,0.018700138,KMeans,0.22222222,8,KMeans,0.4,1.0
+333,ec2_cpu_utilization_5f5533.csv,0.021317124,KMeans,0.57142857,9,KMeans,0.4,1.0
+334,ec2_disk_write_bytes_c0d644.csv,0.021737859,Linear,0.5,10,KMeans,0.4,1.0
+335,,,,,,,,
+336,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+337,machine_temperature_system_failure.csv,0.0010922998,Linear,0.4,1,Linear,0.66666667,1.0
+338,exchange-2_cpm_results.csv,0.009238496,KMeans,0.8,2,KMeans,0.66666667,1.0
+339,nyc_taxi.csv,0.01352632,Linear,0.25,3,Linear,0.66666667,1.0
+340,Twitter_volume_KO.csv,0.013800204,Linear,0.8,4,Linear,0.66666667,1.0
+341,ec2_cpu_utilization_5f5533.csv,0.01517804,KMeans,0.57142857,5,Linear,0.66666667,1.0
+342,Breast Cancer Diagnostic,0.015725672,KMeans,0.83333333,6,KMeans,0.66666667,1.0
+343,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.017772555,KMeans,0.5,7,KMeans,0.66666667,1.0
+344,art_daily_jumpsdown.csv,0.020127043,KMeans,0.03030303,8,KMeans,0.66666667,1.0
+345,Thyroid Disease,0.0204719,KMeans,0.22317597,9,KMeans,0.66666667,1.0
+346,speed_t4013.csv,0.020907015,Linear,1.0,10,KMeans,0.66666667,1.0
+347,,,,,,,,
+348,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+349,exchange-3_cpm_results.csv,0.00017008185,Linear,1.0,1,Linear,0.66666667,1.0
+350,ec2_disk_write_bytes_c0d644.csv,0.0004851669,Linear,0.5,2,Linear,0.66666667,1.0
+351,nyc_taxi.csv,0.0008278042,Linear,0.25,3,Linear,0.66666667,1.0
+352,TravelTime_387.csv,0.0020166487,KMeans,0.66666667,4,Linear,0.66666667,1.0
+353,ambient_temperature_system_failure.csv,0.0020978302,KMeans,0.8,5,Linear,0.66666667,1.0
+354,exchange-4_cpm_results.csv,0.0021197796,KMeans,0.75,6,KMeans,0.66666667,1.0
+355,speed_t4013.csv,0.0024580806,Linear,1.0,7,Linear,0.66666667,1.0
+356,Breast Cancer Diagnostic,0.003360495,KMeans,0.83333333,8,KMeans,0.66666667,1.0
+357,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0034966022,KMeans,0.5,9,KMeans,0.66666667,1.0
+358,art_daily_jumpsdown.csv,0.0040603876,KMeans,0.03030303,10,KMeans,0.66666667,1.0
+359,,,,,,,,
+360,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+361,machine_temperature_system_failure.csv,0.005200714,Linear,0.4,1,Linear,0.00312012,0.33645344999999993
+362,nyc_taxi.csv,0.017636254,Linear,0.25,2,Linear,0.00312012,0.33645344999999993
+363,exchange-3_cpm_results.csv,0.02173774,Linear,1.0,3,Linear,0.00312012,0.33645344999999993
+364,Thyroid Disease,0.023327515,KMeans,0.22317597,4,Linear,0.00312012,0.33645344999999993
+365,art_daily_jumpsdown.csv,0.02436006,KMeans,0.03030303,5,Linear,0.00312012,0.33645344999999993
+366,Breast Cancer Diagnostic,0.024526164,KMeans,0.83333333,6,KMeans,0.66666667,1.0
+367,ambient_temperature_system_failure.csv,0.024729565,KMeans,0.8,7,KMeans,0.66666667,1.0
+368,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.02477406,KMeans,0.5,8,KMeans,0.66666667,1.0
+369,exchange-3_cpc_results.csv,0.030128464,Linear,0.57142857,9,KMeans,0.66666667,1.0
+370,ec2_cpu_utilization_5f5533.csv,0.031334504,KMeans,0.57142857,10,KMeans,0.66666667,1.0
+371,,,,,,,,
+372,Twitter_volume_UPS.csv,0,Linear,0.28571429,0,Linear,0.28571429,1
+373,nyc_taxi.csv,0.0019691885,Linear,0.25,1,Linear,0.28571429,1.0
+374,TravelTime_387.csv,0.0021647513,KMeans,0.66666667,2,KMeans,0.22222222,0.93650793
+375,exchange-2_cpm_results.csv,0.0023503602,KMeans,0.8,3,KMeans,0.22222222,0.93650793
+376,ec2_disk_write_bytes_c0d644.csv,0.0028819293,Linear,0.5,4,KMeans,0.22222222,0.93650793
+377,Breast Cancer Diagnostic,0.0048780143,KMeans,0.83333333,5,KMeans,0.22222222,0.93650793
+378,Thyroid Disease,0.0073614717,KMeans,0.22317597,6,KMeans,0.22222222,0.93650793
+379,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.008963019,KMeans,0.5,7,KMeans,0.22222222,0.93650793
+380,Twitter_volume_KO.csv,0.0107471645,Linear,0.8,8,KMeans,0.22222222,0.93650793
+381,ec2_cpu_utilization_5f5533.csv,0.01098071,KMeans,0.57142857,9,KMeans,0.22222222,0.93650793
+382,art_daily_jumpsdown.csv,0.011353731,KMeans,0.03030303,10,KMeans,0.22222222,0.93650793
+383,,,,,,,,
+384,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
+385,machine_temperature_system_failure.csv,0.006763205,Linear,0.4,1,Linear,0.00049603,0.970193
+386,Thyroid Disease,0.017691493,KMeans,0.22317597,2,KMeans,0.03030303,1.0
+387,Breast Cancer Diagnostic,0.021349132,KMeans,0.83333333,3,KMeans,0.03030303,1.0
+388,nyc_taxi.csv,0.022884026,Linear,0.25,4,KMeans,0.03030303,1.0
+389,ec2_disk_write_bytes_c0d644.csv,0.025725275,Linear,0.5,5,Linear,0.00049603,0.970193
+390,Twitter_volume_AMZN.csv,0.0260901,KMeans,0.66666667,6,KMeans,0.03030303,1.0
+391,ec2_cpu_utilization_5f5533.csv,0.029743716,KMeans,0.57142857,7,KMeans,0.03030303,1.0
+392,exchange-3_cpm_results.csv,0.032624632,Linear,1.0,8,KMeans,0.03030303,1.0
+393,exchange-2_cpc_results.csv,0.03467387,KMeans,0.33333333,9,KMeans,0.03030303,1.0
+394,speed_t4013.csv,0.035693303,Linear,1.0,10,KMeans,0.03030303,1.0
+395,,,,,,,,
+396,exchange-2_cpm_results.csv,0,KMeans,0.8,0,KMeans,0.8,1
+397,nyc_taxi.csv,0.0026150048,Linear,0.25,1,Linear,0.5,0.7
+398,Thyroid Disease,0.0029854923,KMeans,0.22317597,2,KMeans,0.8,1.0
+399,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0066827834,KMeans,0.5,3,KMeans,0.8,1.0
+400,Breast Cancer Diagnostic,0.0077260435,KMeans,0.83333333,4,KMeans,0.8,1.0
+401,speed_t4013.csv,0.009829789,Linear,1.0,5,KMeans,0.8,1.0
+402,ec2_disk_write_bytes_c0d644.csv,0.010400161,Linear,0.5,6,KMeans,0.8,1.0
+403,Twitter_volume_AMZN.csv,0.013323382,KMeans,0.66666667,7,KMeans,0.8,1.0
+404,Landsat Satellite,0.014133021,Linear,0.71794872,8,KMeans,0.8,1.0
+405,ec2_cpu_utilization_5f5533.csv,0.014267504,KMeans,0.57142857,9,KMeans,0.8,1.0
+406,art_daily_jumpsdown.csv,0.014637187,KMeans,0.03030303,10,KMeans,0.8,1.0
+407,,,,,,,,
+408,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+409,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0013966709,KMeans,0.5,1,KMeans,0.66666667,1.0
+410,machine_temperature_system_failure.csv,0.0018507987,Linear,0.4,2,KMeans,0.66666667,1.0
+411,ec2_cpu_utilization_5f5533.csv,0.0035776645,KMeans,0.57142857,3,KMeans,0.66666667,1.0
+412,Breast Cancer Diagnostic,0.006034896,KMeans,0.83333333,4,KMeans,0.66666667,1.0
+413,ec2_disk_write_bytes_c0d644.csv,0.0063557923,Linear,0.5,5,KMeans,0.66666667,1.0
+414,Twitter_volume_AMZN.csv,0.0066637546,KMeans,0.66666667,6,KMeans,0.66666667,1.0
+415,Thyroid Disease,0.007542938,KMeans,0.22317597,7,KMeans,0.66666667,1.0
+416,nyc_taxi.csv,0.009167343,Linear,0.25,8,KMeans,0.66666667,1.0
+417,speed_t4013.csv,0.011643276,Linear,1.0,9,KMeans,0.66666667,1.0
+418,exchange-3_cpc_results.csv,0.01313372,Linear,0.57142857,10,KMeans,0.66666667,1.0
+419,,,,,,,,
+420,speed_6005.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+421,TravelTime_387.csv,0.006820053,KMeans,0.66666667,1,KMeans,0.66666667,1.0
+422,Thyroid Disease,0.0070831776,KMeans,0.22317597,2,KMeans,0.66666667,1.0
+423,Breast Cancer Diagnostic,0.007152587,KMeans,0.83333333,3,KMeans,0.66666667,1.0
+424,machine_temperature_system_failure.csv,0.007915974,Linear,0.4,4,KMeans,0.66666667,1.0
+425,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.010016173,KMeans,0.5,5,KMeans,0.66666667,1.0
+426,nyc_taxi.csv,0.0103832185,Linear,0.25,6,KMeans,0.66666667,1.0
+427,ec2_disk_write_bytes_c0d644.csv,0.01064457,Linear,0.5,7,KMeans,0.66666667,1.0
+428,exchange-3_cpc_results.csv,0.011513591,Linear,0.57142857,8,KMeans,0.66666667,1.0
+429,art_daily_jumpsdown.csv,0.011561066,KMeans,0.03030303,9,KMeans,0.66666667,1.0
+430,ec2_cpu_utilization_5f5533.csv,0.015773326,KMeans,0.57142857,10,KMeans,0.66666667,1.0
+431,,,,,,,,
+432,Twitter_volume_KO.csv,0,Linear,0.8,0,Linear,0.8,1
+433,Thyroid Disease,0.00033390522,KMeans,0.22317597,1,KMeans,0.8,1.0
+434,Breast Cancer Diagnostic,0.0016150326,KMeans,0.83333333,2,KMeans,0.8,1.0
+435,ambient_temperature_system_failure.csv,0.0019687265,KMeans,0.8,3,KMeans,0.8,1.0
+436,ec2_disk_write_bytes_c0d644.csv,0.0020571053,Linear,0.5,4,KMeans,0.8,1.0
+437,ec2_cpu_utilization_5f5533.csv,0.0021274388,KMeans,0.57142857,5,KMeans,0.8,1.0
+438,nyc_taxi.csv,0.003575012,Linear,0.25,6,KMeans,0.8,1.0
+439,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0041190684,KMeans,0.5,7,KMeans,0.8,1.0
+440,art_daily_jumpsdown.csv,0.0053747296,KMeans,0.03030303,8,KMeans,0.8,1.0
+441,Twitter_volume_AMZN.csv,0.0054689944,KMeans,0.66666667,9,KMeans,0.8,1.0
+442,ec2_cpu_utilization_ac20cd.csv,0.008853763,KMeans,0.66666667,10,KMeans,0.8,1.0
+443,,,,,,,,
+444,Twitter_volume_GOOG.csv,0,Linear,0.4,0,Linear,0.4,1
+445,Thyroid Disease,0.0009982586,KMeans,0.22317597,1,KMeans,0.4,1.0
+446,Breast Cancer Diagnostic,0.0015307367,KMeans,0.83333333,2,KMeans,0.4,1.0
+447,art_daily_jumpsdown.csv,0.0027161092,KMeans,0.03030303,3,KMeans,0.4,1.0
+448,nyc_taxi.csv,0.0033345222,Linear,0.25,4,KMeans,0.4,1.0
+449,speed_t4013.csv,0.0075926483,Linear,1.0,5,KMeans,0.4,1.0
+450,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0118626505,KMeans,0.5,6,KMeans,0.4,1.0
+451,Twitter_volume_AMZN.csv,0.012571633,KMeans,0.66666667,7,KMeans,0.4,1.0
+452,ec2_disk_write_bytes_c0d644.csv,0.014077023,Linear,0.5,8,KMeans,0.4,1.0
+453,Landsat Satellite,0.016927019,Linear,0.71794872,9,KMeans,0.4,1.0
+454,machine_temperature_system_failure.csv,0.017537445,Linear,0.4,10,KMeans,0.4,1.0
+455,,,,,,,,
+456,exchange-2_cpc_results.csv,0,KMeans,0.33333333,0,KMeans,0.33333333,1
+457,ambient_temperature_system_failure.csv,0.00011597574,KMeans,0.8,1,KMeans,0.33333333,1.0
+458,Twitter_volume_AMZN.csv,0.001801148,KMeans,0.66666667,2,KMeans,0.33333333,1.0
+459,Breast Cancer Diagnostic,0.0031512678,KMeans,0.83333333,3,KMeans,0.33333333,1.0
+460,Thyroid Disease,0.0031687468,KMeans,0.22317597,4,KMeans,0.33333333,1.0
+461,ec2_disk_write_bytes_c0d644.csv,0.0033256859,Linear,0.5,5,KMeans,0.33333333,1.0
+462,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0047535747,KMeans,0.5,6,KMeans,0.33333333,1.0
+463,Twitter_volume_AAPL.csv,0.0058322847,Linear,0.4,7,KMeans,0.33333333,1.0
+464,nyc_taxi.csv,0.005887389,Linear,0.25,8,KMeans,0.33333333,1.0
+465,machine_temperature_system_failure.csv,0.0074864477,Linear,0.4,9,KMeans,0.33333333,1.0
+466,ec2_cpu_utilization_ac20cd.csv,0.01071541,KMeans,0.66666667,10,KMeans,0.33333333,1.0
+467,,,,,,,,
+468,Twitter_volume_CVS.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+469,exchange-3_cpm_results.csv,0.0004798174,Linear,1.0,1,Linear,0.66666667,1.0
+470,ec2_cpu_utilization_825cc2.csv,0.0018983334,KMeans,0.66666667,2,KMeans,0.66666667,1.0
+471,speed_t4013.csv,0.0026403219,Linear,1.0,3,Linear,0.66666667,1.0
+472,Twitter_volume_AAPL.csv,0.0031363964,Linear,0.4,4,Linear,0.66666667,1.0
+473,Twitter_volume_AMZN.csv,0.0060644,KMeans,0.66666667,5,Linear,0.66666667,1.0
+474,ec2_cpu_utilization_ac20cd.csv,0.0061767846,KMeans,0.66666667,6,KMeans,0.66666667,1.0
+475,ec2_cpu_utilization_5f5533.csv,0.006755471,KMeans,0.57142857,7,KMeans,0.66666667,1.0
+476,ambient_temperature_system_failure.csv,0.007109776,KMeans,0.8,8,KMeans,0.66666667,1.0
+477,exchange-3_cpc_results.csv,0.008546069,Linear,0.57142857,9,KMeans,0.66666667,1.0
+478,TravelTime_387.csv,0.0087702125,KMeans,0.66666667,10,KMeans,0.66666667,1.0
+479,,,,,,,,
+480,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
+481,Twitter_volume_GOOG.csv,0.00023587048,Linear,0.4,1,Linear,0.00110132,0.99334938
+482,exchange-3_cpc_results.csv,0.0005822927,Linear,0.57142857,2,Linear,0.00110132,0.99334938
+483,ec2_cpu_utilization_825cc2.csv,0.0007777065,KMeans,0.66666667,3,Linear,0.00110132,0.99334938
+484,ec2_cpu_utilization_ac20cd.csv,0.000861302,KMeans,0.66666667,4,KMeans,0.00775194,1.0
+485,Twitter_volume_CRM.csv,0.0030261278,KMeans,0.54545455,5,KMeans,0.00775194,1.0
+486,Landsat Satellite,0.0039577335,Linear,0.71794872,6,KMeans,0.00775194,1.0
+487,Pen-Based Recognition of Handwritten Text (Local),0.0046005547,KMeans,0.52631579,7,KMeans,0.00775194,1.0
+488,elb_request_count_8c0756.csv,0.004638508,Linear,0.66666667,8,KMeans,0.00775194,1.0
+489,speed_t4013.csv,0.0064573735,Linear,1.0,9,Linear,0.00110132,0.99334938
+490,TravelTime_387.csv,0.006805733,KMeans,0.66666667,10,KMeans,0.00775194,1.0
+491,,,,,,,,
+492,occupancy_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+493,Twitter_volume_AMZN.csv,0.011011392,KMeans,0.66666667,1,KMeans,1.0,1.0
+494,machine_temperature_system_failure.csv,0.014318228,Linear,0.4,2,KMeans,1.0,1.0
+495,nyc_taxi.csv,0.021097586,Linear,0.25,3,Linear,1.0,1.0
+496,Thyroid Disease,0.027070269,KMeans,0.22317597,4,KMeans,1.0,1.0
+497,ec2_disk_write_bytes_c0d644.csv,0.028160006,Linear,0.5,5,Linear,1.0,1.0
+498,Breast Cancer Diagnostic,0.03275393,KMeans,0.83333333,6,KMeans,1.0,1.0
+499,Twitter_volume_CVS.csv,0.037294954,Linear,0.66666667,7,Linear,1.0,1.0
+500,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.038023546,KMeans,0.5,8,KMeans,1.0,1.0
+501,ec2_cpu_utilization_5f5533.csv,0.038622007,KMeans,0.57142857,9,KMeans,1.0,1.0
+502,exchange-2_cpm_results.csv,0.0410026,KMeans,0.8,10,KMeans,1.0,1.0
+503,,,,,,,,
+504,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
+505,machine_temperature_system_failure.csv,0.0010629147,Linear,0.4,1,Linear,0.01960784,0.79738562
+506,Thyroid Disease,0.005078107,KMeans,0.22317597,2,KMeans,0.22222222,1.0
+507,nyc_taxi.csv,0.013937533,Linear,0.25,3,Linear,0.01960784,0.79738562
+508,ec2_disk_write_bytes_c0d644.csv,0.017872036,Linear,0.5,4,Linear,0.01960784,0.79738562
+509,Breast Cancer Diagnostic,0.021399483,KMeans,0.83333333,5,Linear,0.01960784,0.79738562
+510,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.023101807,KMeans,0.5,6,KMeans,0.22222222,1.0
+511,art_daily_jumpsdown.csv,0.023496956,KMeans,0.03030303,7,KMeans,0.22222222,1.0
+512,ec2_cpu_utilization_5f5533.csv,0.026816994,KMeans,0.57142857,8,KMeans,0.22222222,1.0
+513,Twitter_volume_AMZN.csv,0.028321654,KMeans,0.66666667,9,KMeans,0.22222222,1.0
+514,ec2_cpu_utilization_53ea38.csv,0.028971076,KMeans,0.04255319,10,KMeans,0.22222222,1.0
+515,,,,,,,,
+516,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
+517,ec2_disk_write_bytes_c0d644.csv,0.005758792,Linear,0.5,1,Linear,0.003367,1.0
+518,Thyroid Disease,0.0060528815,KMeans,0.22317597,2,KMeans,0.00212993,0.99876293
+519,ec2_cpu_utilization_5f5533.csv,0.006400317,KMeans,0.57142857,3,KMeans,0.00212993,0.99876293
+520,nyc_taxi.csv,0.00710994,Linear,0.25,4,KMeans,0.00212993,0.99876293
+521,machine_temperature_system_failure.csv,0.007859051,Linear,0.4,5,Linear,0.003367,1.0
+522,Breast Cancer Diagnostic,0.008111864,KMeans,0.83333333,6,KMeans,0.00212993,0.99876293
+523,ec2_cpu_utilization_825cc2.csv,0.009034097,KMeans,0.66666667,7,KMeans,0.00212993,0.99876293
+524,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.012148678,KMeans,0.5,8,KMeans,0.00212993,0.99876293
+525,speed_t4013.csv,0.013799727,Linear,1.0,9,KMeans,0.00212993,0.99876293
+526,Twitter_volume_AMZN.csv,0.014858931,KMeans,0.66666667,10,KMeans,0.00212993,0.99876293
+527,,,,,,,,
+528,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
+529,machine_temperature_system_failure.csv,0.00744164,Linear,0.4,1,Linear,0.02222222,0.77222222
+530,nyc_taxi.csv,0.018994242,Linear,0.25,2,Linear,0.02222222,0.77222222
+531,ec2_cpu_utilization_5f5533.csv,0.019653708,KMeans,0.57142857,3,Linear,0.02222222,0.77222222
+532,Thyroid Disease,0.021800056,KMeans,0.22317597,4,KMeans,0.25,1.0
+533,Breast Cancer Diagnostic,0.022652358,KMeans,0.83333333,5,KMeans,0.25,1.0
+534,Twitter_volume_AMZN.csv,0.026648313,KMeans,0.66666667,6,KMeans,0.25,1.0
+535,ec2_disk_write_bytes_c0d644.csv,0.027009815,Linear,0.5,7,KMeans,0.25,1.0
+536,art_daily_jumpsdown.csv,0.027375668,KMeans,0.03030303,8,KMeans,0.25,1.0
+537,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.029713392,KMeans,0.5,9,KMeans,0.25,1.0
+538,exchange-3_cpm_results.csv,0.035006016,Linear,1.0,10,KMeans,0.25,1.0
+539,,,,,,,,
+540,Twitter_volume_FB.csv,0,Linear,1.0,0,Linear,1.0,1
+541,machine_temperature_system_failure.csv,0.010525331,Linear,0.4,1,Linear,1.0,1.0
+542,Breast Cancer Diagnostic,0.015228987,KMeans,0.83333333,2,KMeans,1.0,1.0
+543,ec2_disk_write_bytes_c0d644.csv,0.01585251,Linear,0.5,3,Linear,1.0,1.0
+544,Thyroid Disease,0.01990515,KMeans,0.22317597,4,KMeans,1.0,1.0
+545,nyc_taxi.csv,0.024116218,Linear,0.25,5,Linear,1.0,1.0
+546,ec2_cpu_utilization_5f5533.csv,0.025142327,KMeans,0.57142857,6,KMeans,1.0,1.0
+547,Twitter_volume_AAPL.csv,0.028575078,Linear,0.4,7,Linear,1.0,1.0
+548,Twitter_volume_AMZN.csv,0.030179098,KMeans,0.66666667,8,KMeans,1.0,1.0
+549,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.033133864,KMeans,0.5,9,KMeans,1.0,1.0
+550,art_daily_jumpsdown.csv,0.03323312,KMeans,0.03030303,10,KMeans,1.0,1.0
+551,,,,,,,,
+552,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
+553,Breast Cancer Diagnostic,0.00047409534,KMeans,0.83333333,1,KMeans,0.15384615,1.0
+554,occupancy_t4013.csv,0.0013339818,Linear,1.0,2,KMeans,0.15384615,1.0
+555,Thyroid Disease,0.0013669431,KMeans,0.22317597,3,KMeans,0.15384615,1.0
+556,ec2_cpu_utilization_5f5533.csv,0.004743725,KMeans,0.57142857,4,KMeans,0.15384615,1.0
+557,nyc_taxi.csv,0.0050896257,Linear,0.25,5,KMeans,0.15384615,1.0
+558,ec2_disk_write_bytes_c0d644.csv,0.0055270046,Linear,0.5,6,KMeans,0.15384615,1.0
+559,speed_t4013.csv,0.006750852,Linear,1.0,7,Linear,0.04,0.88615385
+560,exchange-3_cpm_results.csv,0.009113908,Linear,1.0,8,Linear,0.04,0.88615385
+561,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0120886415,KMeans,0.5,9,Linear,0.04,0.88615385
+562,Twitter_volume_AMZN.csv,0.012142062,KMeans,0.66666667,10,KMeans,0.15384615,1.0
+563,,,,,,,,
+564,occupancy_6005.csv,0,Linear,1.0,0,Linear,1.0,1
+565,Twitter_volume_AMZN.csv,0.0013737231,KMeans,0.66666667,1,KMeans,1.0,1.0
+566,TravelTime_387.csv,0.0014288127,KMeans,0.66666667,2,KMeans,1.0,1.0
+567,Landsat Satellite,0.002052337,Linear,0.71794872,3,KMeans,1.0,1.0
+568,ec2_disk_write_bytes_c0d644.csv,0.0025567114,Linear,0.5,4,KMeans,1.0,1.0
+569,nyc_taxi.csv,0.0028546154,Linear,0.25,5,Linear,1.0,1.0
+570,ambient_temperature_system_failure.csv,0.0030404925,KMeans,0.8,6,KMeans,1.0,1.0
+571,exchange-3_cpc_results.csv,0.0037059486,Linear,0.57142857,7,Linear,1.0,1.0
+572,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0038268864,KMeans,0.5,8,KMeans,1.0,1.0
+573,Breast Cancer Diagnostic,0.0057417452,KMeans,0.83333333,9,KMeans,1.0,1.0
+574,art_daily_jumpsdown.csv,0.005961612,KMeans,0.03030303,10,KMeans,1.0,1.0
+575,,,,,,,,
+576,Twitter_volume_IBM.csv,0,Linear,0.5,0,Linear,0.5,1
+577,Breast Cancer Diagnostic,0.002142042,KMeans,0.83333333,1,KMeans,0.5,1.0
+578,Thyroid Disease,0.0025788844,KMeans,0.22317597,2,KMeans,0.5,1.0
+579,machine_temperature_system_failure.csv,0.007726848,Linear,0.4,3,KMeans,0.5,1.0
+580,ec2_disk_write_bytes_c0d644.csv,0.008374825,Linear,0.5,4,KMeans,0.5,1.0
+581,art_daily_jumpsdown.csv,0.009134084,KMeans,0.03030303,5,KMeans,0.5,1.0
+582,nyc_taxi.csv,0.014998436,Linear,0.25,6,KMeans,0.5,1.0
+583,speed_t4013.csv,0.015075207,Linear,1.0,7,Linear,0.5,1.0
+584,Twitter_volume_AMZN.csv,0.01716277,KMeans,0.66666667,8,KMeans,0.5,1.0
+585,exchange-3_cpm_results.csv,0.018044591,Linear,1.0,9,Linear,0.5,1.0
+586,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.02020906,KMeans,0.5,10,KMeans,0.5,1.0
+587,,,,,,,,
+588,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
+589,machine_temperature_system_failure.csv,0.019678794,Linear,0.4,1,Linear,0.66666667,0.66666667
+590,Twitter_volume_AAPL.csv,0.023803972,Linear,0.4,2,Linear,0.66666667,0.66666667
+591,exchange-4_cpc_results.csv,0.025288679,Linear,0.66666667,3,Linear,0.66666667,0.66666667
+592,Twitter_volume_AMZN.csv,0.03091275,KMeans,0.66666667,4,Linear,0.66666667,0.66666667
+593,Breast Cancer Diagnostic,0.031106286,KMeans,0.83333333,5,Linear,0.66666667,0.66666667
+594,Thyroid Disease,0.031769566,KMeans,0.22317597,6,KMeans,1.0,1.0
+595,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.03282305,KMeans,0.5,7,KMeans,1.0,1.0
+596,ec2_disk_write_bytes_c0d644.csv,0.032868467,Linear,0.5,8,KMeans,1.0,1.0
+597,ec2_cpu_utilization_5f5533.csv,0.03530691,KMeans,0.57142857,9,KMeans,1.0,1.0
+598,art_daily_jumpsup.csv,0.03637936,KMeans,0.22222222,10,KMeans,1.0,1.0
+599,,,,,,,,
+600,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
+601,machine_temperature_system_failure.csv,0.0022947192,Linear,0.4,1,Linear,0.08695652,1.0
+602,Thyroid Disease,0.011042878,KMeans,0.22317597,2,KMeans,0.08695652,1.0
+603,exchange-2_cpm_results.csv,0.011268169,KMeans,0.8,3,KMeans,0.08695652,1.0
+604,nyc_taxi.csv,0.011499733,Linear,0.25,4,KMeans,0.08695652,1.0
+605,ec2_disk_write_bytes_c0d644.csv,0.017331898,Linear,0.5,5,Linear,0.08695652,1.0
+606,ec2_cpu_utilization_5f5533.csv,0.019603297,KMeans,0.57142857,6,KMeans,0.08695652,1.0
+607,exchange-4_cpc_results.csv,0.020374745,Linear,0.66666667,7,Linear,0.08695652,1.0
+608,ec2_cpu_utilization_825cc2.csv,0.024222389,KMeans,0.66666667,8,KMeans,0.08695652,1.0
+609,art_daily_jumpsdown.csv,0.024275199,KMeans,0.03030303,9,KMeans,0.08695652,1.0
+610,TravelTime_387.csv,0.024831176,KMeans,0.66666667,10,KMeans,0.08695652,1.0
+611,,,,,,,,
+612,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
+613,nyc_taxi.csv,0.0013452321,Linear,0.25,1,Linear,0.33333333,0.83333333
+614,machine_temperature_system_failure.csv,0.0013741106,Linear,0.4,2,Linear,0.33333333,0.83333333
+615,Twitter_volume_AMZN.csv,0.016869307,KMeans,0.66666667,3,Linear,0.33333333,0.83333333
+616,Thyroid Disease,0.019176126,KMeans,0.22317597,4,KMeans,0.5,1.0
+617,exchange-2_cpm_results.csv,0.020787418,KMeans,0.8,5,KMeans,0.5,1.0
+618,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.022800386,KMeans,0.5,6,KMeans,0.5,1.0
+619,ec2_cpu_utilization_5f5533.csv,0.023147315,KMeans,0.57142857,7,KMeans,0.5,1.0
+620,Twitter_volume_AAPL.csv,0.026531428,Linear,0.4,8,KMeans,0.5,1.0
+621,art_daily_jumpsdown.csv,0.031591535,KMeans,0.03030303,9,KMeans,0.5,1.0
+622,exchange-3_cpm_results.csv,0.031702176,Linear,1.0,10,KMeans,0.5,1.0
+623,,,,,,,,
+624,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
+625,Thyroid Disease,0.0027857423,KMeans,0.22317597,1,KMeans,0.04255319,1.0
+626,ec2_cpu_utilization_825cc2.csv,0.004843846,KMeans,0.66666667,2,KMeans,0.04255319,1.0
+627,ec2_disk_write_bytes_c0d644.csv,0.007301584,Linear,0.5,3,KMeans,0.04255319,1.0
+628,Breast Cancer Diagnostic,0.010914907,KMeans,0.83333333,4,KMeans,0.04255319,1.0
+629,machine_temperature_system_failure.csv,0.011194155,Linear,0.4,5,KMeans,0.04255319,1.0
+630,ec2_cpu_utilization_5f5533.csv,0.012451813,KMeans,0.57142857,6,KMeans,0.04255319,1.0
+631,nyc_taxi.csv,0.013623998,Linear,0.25,7,KMeans,0.04255319,1.0
+632,TravelTime_387.csv,0.014726952,KMeans,0.66666667,8,KMeans,0.04255319,1.0
+633,Twitter_volume_AMZN.csv,0.01816766,KMeans,0.66666667,9,KMeans,0.04255319,1.0
+634,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.019887105,KMeans,0.5,10,KMeans,0.04255319,1.0
+635,,,,,,,,
+636,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
+637,machine_temperature_system_failure.csv,0.012053013,Linear,0.4,1,Linear,0.00416667,0.96495098
+638,Breast Cancer Diagnostic,0.022249639,KMeans,0.83333333,2,KMeans,0.03921569,1.0
+639,nyc_taxi.csv,0.023337632,Linear,0.25,3,Linear,0.00416667,0.96495098
+640,Thyroid Disease,0.02358365,KMeans,0.22317597,4,KMeans,0.03921569,1.0
+641,ec2_cpu_utilization_5f5533.csv,0.028590173,KMeans,0.57142857,5,KMeans,0.03921569,1.0
+642,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.031677395,KMeans,0.5,6,KMeans,0.03921569,1.0
+643,exchange-3_cpc_results.csv,0.03225705,Linear,0.57142857,7,KMeans,0.03921569,1.0
+644,ec2_disk_write_bytes_c0d644.csv,0.032354146,Linear,0.5,8,KMeans,0.03921569,1.0
+645,exchange-2_cpm_results.csv,0.033229396,KMeans,0.8,9,KMeans,0.03921569,1.0
+646,Twitter_volume_AAPL.csv,0.03335665,Linear,0.4,10,KMeans,0.03921569,1.0
+647,,,,,,,,
+648,Twitter_volume_CRM.csv,0,KMeans,0.54545455,0,KMeans,0.54545455,1
+649,machine_temperature_system_failure.csv,0.0023175627,Linear,0.4,1,Linear,0.5,0.95454545
+650,nyc_taxi.csv,0.004768327,Linear,0.25,2,Linear,0.5,0.95454545
+651,Twitter_volume_AMZN.csv,0.005168855,KMeans,0.66666667,3,Linear,0.5,0.95454545
+652,Thyroid Disease,0.007853478,KMeans,0.22317597,4,KMeans,0.54545455,1.0
+653,art_daily_jumpsdown.csv,0.008869663,KMeans,0.03030303,5,KMeans,0.54545455,1.0
+654,ec2_cpu_utilization_5f5533.csv,0.009684831,KMeans,0.57142857,6,KMeans,0.54545455,1.0
+655,ambient_temperature_system_failure.csv,0.013866827,KMeans,0.8,7,KMeans,0.54545455,1.0
+656,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.014177814,KMeans,0.5,8,KMeans,0.54545455,1.0
+657,speed_t4013.csv,0.014364645,Linear,1.0,9,KMeans,0.54545455,1.0
+658,exchange-3_cpc_results.csv,0.020280913,Linear,0.57142857,10,KMeans,0.54545455,1.0
+659,,,,,,,,
+660,exchange-4_cpc_results.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+661,machine_temperature_system_failure.csv,0.0027926862,Linear,0.4,1,Linear,0.66666667,1.0
+662,Thyroid Disease,0.008033305,KMeans,0.22317597,2,KMeans,0.66666667,1.0
+663,Breast Cancer Diagnostic,0.013312191,KMeans,0.83333333,3,KMeans,0.66666667,1.0
+664,nyc_taxi.csv,0.017395943,Linear,0.25,4,KMeans,0.66666667,1.0
+665,Twitter_volume_CVS.csv,0.018061042,Linear,0.66666667,5,Linear,0.66666667,1.0
+666,ec2_cpu_utilization_5f5533.csv,0.020335525,KMeans,0.57142857,6,KMeans,0.66666667,1.0
+667,Twitter_volume_AAPL.csv,0.023635656,Linear,0.4,7,Linear,0.66666667,1.0
+668,art_daily_jumpsdown.csv,0.023715138,KMeans,0.03030303,8,KMeans,0.66666667,1.0
+669,Twitter_volume_AMZN.csv,0.023824662,KMeans,0.66666667,9,KMeans,0.66666667,1.0
+670,exchange-3_cpc_results.csv,0.024329782,Linear,0.57142857,10,KMeans,0.66666667,1.0
+671,,,,,,,,
+672,speed_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+673,ec2_cpu_utilization_825cc2.csv,0.0005338639,KMeans,0.66666667,1,KMeans,0.8,0.8
+674,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0008199662,KMeans,0.5,2,KMeans,0.8,0.8
+675,Twitter_volume_AMZN.csv,0.0013205558,KMeans,0.66666667,3,KMeans,0.8,0.8
+676,ec2_disk_write_bytes_c0d644.csv,0.0068259984,Linear,0.5,4,KMeans,0.8,0.8
+677,exchange-2_cpm_results.csv,0.007023081,KMeans,0.8,5,KMeans,0.8,0.8
+678,art_daily_jumpsdown.csv,0.0070647895,KMeans,0.03030303,6,KMeans,0.8,0.8
+679,ambient_temperature_system_failure.csv,0.0072729737,KMeans,0.8,7,KMeans,0.8,0.8
+680,speed_t4013.csv,0.008415118,Linear,1.0,8,KMeans,0.8,0.8
+681,Twitter_volume_KO.csv,0.008489892,Linear,0.8,9,KMeans,0.8,0.8
+682,exchange-3_cpc_results.csv,0.009363577,Linear,0.57142857,10,KMeans,0.8,0.8
+683,,,,,,,,
+684,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
+685,nyc_taxi.csv,0.0015221089,Linear,0.25,1,Linear,0.00416667,0.50416667
+686,Thyroid Disease,0.002965197,KMeans,0.22317597,2,KMeans,0.5,1.0
+687,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.0032515675,KMeans,0.5,3,KMeans,0.5,1.0
+688,ec2_cpu_utilization_5f5533.csv,0.0070126355,KMeans,0.57142857,4,KMeans,0.5,1.0
+689,machine_temperature_system_failure.csv,0.007442668,Linear,0.4,5,KMeans,0.5,1.0
+690,speed_t4013.csv,0.00994198,Linear,1.0,6,KMeans,0.5,1.0
+691,art_daily_jumpsdown.csv,0.010233834,KMeans,0.03030303,7,KMeans,0.5,1.0
+692,exchange-3_cpc_results.csv,0.011997059,Linear,0.57142857,8,KMeans,0.5,1.0
+693,Breast Cancer Diagnostic,0.012794495,KMeans,0.83333333,9,KMeans,0.5,1.0
+694,ambient_temperature_system_failure.csv,0.012957156,KMeans,0.8,10,KMeans,0.5,1.0
+695,,,,,,,,
+696,Twitter_volume_PFE.csv,0,KMeans,0.42857143,0,KMeans,0.42857143,1
+697,machine_temperature_system_failure.csv,0.0020392537,Linear,0.4,1,Linear,0.36363636,0.93506493
+698,ec2_cpu_utilization_825cc2.csv,0.011502564,KMeans,0.66666667,2,KMeans,0.42857143,1.0
+699,ec2_disk_write_bytes_c0d644.csv,0.012099862,Linear,0.5,3,Linear,0.36363636,0.93506493
+700,Breast Cancer Diagnostic,0.012741685,KMeans,0.83333333,4,KMeans,0.42857143,1.0
+701,Thyroid Disease,0.013405651,KMeans,0.22317597,5,KMeans,0.42857143,1.0
+702,ec2_cpu_utilization_5f5533.csv,0.014965445,KMeans,0.57142857,6,KMeans,0.42857143,1.0
+703,nyc_taxi.csv,0.015609041,Linear,0.25,7,KMeans,0.42857143,1.0
+704,ec2_cpu_utilization_ac20cd.csv,0.016545966,KMeans,0.66666667,8,KMeans,0.42857143,1.0
+705,speed_t4013.csv,0.017862797,Linear,1.0,9,KMeans,0.42857143,1.0
+706,Twitter_volume_AAPL.csv,0.020137608,Linear,0.4,10,KMeans,0.42857143,1.0
+707,,,,,,,,
+708,exchange-3_cpc_results.csv,0,Linear,0.57142857,0,Linear,0.57142857,1
+709,machine_temperature_system_failure.csv,0.0066834837,Linear,0.4,1,Linear,0.57142857,1.0
+710,Breast Cancer Diagnostic,0.007503569,KMeans,0.83333333,2,KMeans,0.57142857,1.0
+711,Thyroid Disease,0.009046137,KMeans,0.22317597,3,KMeans,0.57142857,1.0
+712,nyc_taxi.csv,0.010724336,Linear,0.25,4,KMeans,0.57142857,1.0
+713,Twitter_volume_AMZN.csv,0.012387142,KMeans,0.66666667,5,KMeans,0.57142857,1.0
+714,ec2_cpu_utilization_5f5533.csv,0.013286367,KMeans,0.57142857,6,KMeans,0.57142857,1.0
+715,ec2_disk_write_bytes_c0d644.csv,0.017499179,Linear,0.5,7,KMeans,0.57142857,1.0
+716,ec2_cpu_utilization_825cc2.csv,0.017535388,KMeans,0.66666667,8,KMeans,0.57142857,1.0
+717,art_daily_jumpsdown.csv,0.018837169,KMeans,0.03030303,9,KMeans,0.57142857,1.0
+718,TravelTime_387.csv,0.022511885,KMeans,0.66666667,10,KMeans,0.57142857,1.0
+719,,,,,,,,
+720,Twitter_volume_AMZN.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+721,machine_temperature_system_failure.csv,0.0064914674,Linear,0.4,1,Linear,0.57142857,0.9047619
+722,Breast Cancer Diagnostic,0.01285401,KMeans,0.83333333,2,KMeans,0.66666667,1.0
+723,Thyroid Disease,0.01322642,KMeans,0.22317597,3,KMeans,0.66666667,1.0
+724,nyc_taxi.csv,0.022411942,Linear,0.25,4,KMeans,0.66666667,1.0
+725,Twitter_volume_AAPL.csv,0.0276753,Linear,0.4,5,Linear,0.57142857,0.9047619
+726,exchange-3_cpc_results.csv,0.030293033,Linear,0.57142857,6,Linear,0.57142857,0.9047619
+727,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.030972242,KMeans,0.5,7,Linear,0.57142857,0.9047619
+728,ec2_cpu_utilization_825cc2.csv,0.032611877,KMeans,0.66666667,8,KMeans,0.66666667,1.0
+729,art_daily_jumpsdown.csv,0.03321883,KMeans,0.03030303,9,KMeans,0.66666667,1.0
+730,exchange-3_cpm_results.csv,0.03391114,Linear,1.0,10,KMeans,0.66666667,1.0
+731,,,,,,,,
+732,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
+733,machine_temperature_system_failure.csv,0.005517721,Linear,0.4,1,Linear,0.00059595,0.99907388
+734,Thyroid Disease,0.0058588088,KMeans,0.22317597,2,KMeans,0.00152207,1.0
+735,Breast Cancer Diagnostic,0.006192386,KMeans,0.83333333,3,KMeans,0.00152207,1.0
+736,ec2_cpu_utilization_5f5533.csv,0.0107844025,KMeans,0.57142857,4,KMeans,0.00152207,1.0
+737,ec2_cpu_utilization_825cc2.csv,0.012862474,KMeans,0.66666667,5,KMeans,0.00152207,1.0
+738,nyc_taxi.csv,0.016156644,Linear,0.25,6,KMeans,0.00152207,1.0
+739,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0.018431336,KMeans,0.5,7,KMeans,0.00152207,1.0
+740,ec2_disk_write_bytes_c0d644.csv,0.019325942,Linear,0.5,8,KMeans,0.00152207,1.0
+741,art_daily_jumpsdown.csv,0.020144954,KMeans,0.03030303,9,KMeans,0.00152207,1.0
+742,speed_t4013.csv,0.02037692,Linear,1.0,10,KMeans,0.00152207,1.0
+743,,,,,,,,
+744,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
+745,ec2_cpu_utilization_ac20cd.csv,0.0006559938,KMeans,0.66666667,1,KMeans,0.5,1.0
+746,exchange-3_cpc_results.csv,0.0032378584,Linear,0.57142857,2,KMeans,0.5,1.0
+747,exchange-3_cpm_results.csv,0.0047038347,Linear,1.0,3,Linear,0.5,1.0
+748,nyc_taxi.csv,0.0056295097,Linear,0.25,4,Linear,0.5,1.0
+749,ec2_cpu_utilization_5f5533.csv,0.0073492527,KMeans,0.57142857,5,Linear,0.5,1.0
+750,art_daily_jumpsdown.csv,0.009470388,KMeans,0.03030303,6,KMeans,0.5,1.0
+751,ec2_disk_write_bytes_c0d644.csv,0.009737968,Linear,0.5,7,Linear,0.5,1.0
+752,ec2_cpu_utilization_825cc2.csv,0.010062963,KMeans,0.66666667,8,KMeans,0.5,1.0
+753,machine_temperature_system_failure.csv,0.010629505,Linear,0.4,9,Linear,0.5,1.0
+754,Thyroid Disease,0.01358299,KMeans,0.22317597,10,KMeans,0.5,1.0
+755,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.5789473684210527,0.978641260350877
+0,,,,,2.0,,0.7894736842105263,1.02628756122807
+0,,,,,3.0,,0.7192982456140351,1.0201933087719297
+0,,,,,4.0,,0.8771929824561403,1.0386360999999997
+0,,,,,5.0,,0.8070175438596491,1.0304073992982454
+0,,,,,6.0,,0.8947368421052632,1.056889700877193
+0,,,,,7.0,,0.8421052631578947,1.0471482921052628
+0,,,,,8.0,,0.9122807017543859,1.0660661678947367
+0,,,,,9.0,,0.8596491228070176,1.0558842910526314
+0,,,,,10.0,,0.9649122807017544,1.0885313050877192

@@ -1,0 +1,768 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
+1,Pen-Based Recognition of Handwritten Text (Local),0.09506333,KMeans,0.52631579,1,KMeans,0.83333333,1.0
+2,Speech Accent Data,0.20375657,Linear,0.11764706,2,KMeans,0.83333333,1.0
+3,Statlog Shuttle,0.63965476,KMeans,0.96766744,3,KMeans,0.83333333,1.0
+4,Letter Recognition,0.6645659,KMeans,0.44545455,4,KMeans,0.83333333,1.0
+5,KDD-Cup99 HTTP,0.9306892,RPCA,0.93849658,5,KMeans,0.83333333,1.0
+6,Landsat Satellite,1.2134129,Linear,0.71794872,6,KMeans,0.83333333,1.0
+7,Twitter_volume_IBM.csv,1.3578875,Linear,0.5,7,KMeans,0.83333333,1.0
+8,Twitter_volume_FB.csv,1.3578898,Linear,1.0,8,Linear,0.63157895,0.79824562
+9,Twitter_volume_CRM.csv,1.3581809,KMeans,0.54545455,9,KMeans,0.83333333,1.0
+10,Twitter_volume_KO.csv,1.3581836,Linear,0.8,10,Linear,0.63157895,0.79824562
+11,,,,,,,,
+12,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
+13,Pen-Based Recognition of Handwritten Text (Local),0.16991639,KMeans,0.52631579,1,KMeans,0.38537271,0.4468761299999999
+14,Speech Accent Data,0.27583742,Linear,0.11764706,2,KMeans,0.38537271,0.4468761299999999
+15,Letter Recognition,0.66478336,KMeans,0.44545455,3,KMeans,0.38537271,0.4468761299999999
+16,Statlog Shuttle,0.7883469,KMeans,0.96766744,4,KMeans,0.38537271,0.4468761299999999
+17,KDD-Cup99 HTTP,0.94100064,RPCA,0.93849658,5,KMeans,0.38537271,0.4468761299999999
+18,Twitter_volume_IBM.csv,1.3586392,Linear,0.5,6,KMeans,0.38537271,0.4468761299999999
+19,Twitter_volume_FB.csv,1.3586416,Linear,1.0,7,KMeans,0.38537271,0.4468761299999999
+20,Twitter_volume_CRM.csv,1.3589399,KMeans,0.54545455,8,KMeans,0.38537271,0.4468761299999999
+21,Twitter_volume_KO.csv,1.3589426,Linear,0.8,9,KMeans,0.38537271,0.4468761299999999
+22,Twitter_volume_AAPL.csv,1.3592374,Linear,0.4,10,Linear,0.92639843,0.98790185
+23,,,,,,,,
+24,Pen-Based Recognition of Handwritten Text (Local),0,KMeans,0.52631579,0,KMeans,0.52631579,1
+25,Pen-Based Recognition of Handwritten Text (Local),0.021313429,KMeans,0.52631579,1,KMeans,0.52631579,1.0
+26,Speech Accent Data,0.14199519,Linear,0.11764706,2,KMeans,0.52631579,1.0
+27,Letter Recognition,0.6514909,KMeans,0.44545455,3,KMeans,0.52631579,1.0
+28,Statlog Shuttle,0.7928412,KMeans,0.96766744,4,KMeans,0.52631579,1.0
+29,KDD-Cup99 HTTP,0.91905975,RPCA,0.93849658,5,KMeans,0.52631579,1.0
+30,Twitter_volume_IBM.csv,1.318683,Linear,0.5,6,KMeans,0.52631579,1.0
+31,Twitter_volume_FB.csv,1.3186853,Linear,1.0,7,KMeans,0.52631579,1.0
+32,Twitter_volume_CRM.csv,1.3189753,KMeans,0.54545455,8,KMeans,0.52631579,1.0
+33,Twitter_volume_KO.csv,1.3189782,Linear,0.8,9,KMeans,0.52631579,1.0
+34,Twitter_volume_AAPL.csv,1.319265,Linear,0.4,10,Linear,0.02505219,0.4987364000000001
+35,,,,,,,,
+36,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
+37,Pen-Based Recognition of Handwritten Text (Local),0.17104542,KMeans,0.52631579,1,KMeans,0.44545455,1.0
+38,Speech Accent Data,0.2868502,Linear,0.11764706,2,KMeans,0.44545455,1.0
+39,Statlog Shuttle,0.5724356,KMeans,0.96766744,3,KMeans,0.44545455,1.0
+40,Letter Recognition,0.66679764,KMeans,0.44545455,4,KMeans,0.44545455,1.0
+41,KDD-Cup99 HTTP,0.9109974,RPCA,0.93849658,5,KMeans,0.44545455,1.0
+42,Landsat Satellite,1.1237977,Linear,0.71794872,6,KMeans,0.44545455,1.0
+43,Twitter_volume_IBM.csv,1.2843618,Linear,0.5,7,KMeans,0.44545455,1.0
+44,Twitter_volume_FB.csv,1.284364,Linear,1.0,8,Linear,0.22222222,0.77676767
+45,Twitter_volume_CRM.csv,1.2846587,KMeans,0.54545455,9,KMeans,0.44545455,1.0
+46,Twitter_volume_KO.csv,1.2846613,Linear,0.8,10,Linear,0.22222222,0.77676767
+47,,,,,,,,
+48,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
+49,Pen-Based Recognition of Handwritten Text (Local),0.09001303,KMeans,0.52631579,1,KMeans,0.22317597,1.0
+50,Speech Accent Data,0.1822033,Linear,0.11764706,2,KMeans,0.22317597,1.0
+51,Letter Recognition,0.65423536,KMeans,0.44545455,3,KMeans,0.22317597,1.0
+52,Statlog Shuttle,0.7615249,KMeans,0.96766744,4,KMeans,0.22317597,1.0
+53,KDD-Cup99 HTTP,0.869312,RPCA,0.93849658,5,KMeans,0.22317597,1.0
+54,Twitter_volume_IBM.csv,1.3232735,Linear,0.5,6,KMeans,0.22317597,1.0
+55,Twitter_volume_FB.csv,1.3232759,Linear,1.0,7,KMeans,0.22317597,1.0
+56,Twitter_volume_CRM.csv,1.3235866,KMeans,0.54545455,8,KMeans,0.22317597,1.0
+57,Twitter_volume_KO.csv,1.3235896,Linear,0.8,9,KMeans,0.22317597,1.0
+58,Twitter_volume_AAPL.csv,1.3238964,Linear,0.4,10,Linear,0.19112628,0.96795031
+59,,,,,,,,
+60,Statlog Shuttle,0,KMeans,0.96766744,0,KMeans,0.96766744,1
+61,Pen-Based Recognition of Handwritten Text (Local),0.12900484,KMeans,0.52631579,1,KMeans,0.96766744,1.0
+62,Speech Accent Data,0.23323011,Linear,0.11764706,2,KMeans,0.96766744,1.0
+63,Letter Recognition,0.68905616,KMeans,0.44545455,3,KMeans,0.96766744,1.0
+64,Statlog Shuttle,0.9126687,KMeans,0.96766744,4,KMeans,0.96766744,1.0
+65,KDD-Cup99 HTTP,0.94197243,RPCA,0.93849658,5,KMeans,0.96766744,1.0
+66,Twitter_volume_IBM.csv,1.3876331,Linear,0.5,6,KMeans,0.96766744,1.0
+67,Twitter_volume_FB.csv,1.3876352,Linear,1.0,7,KMeans,0.96766744,1.0
+68,Twitter_volume_CRM.csv,1.3879117,KMeans,0.54545455,8,KMeans,0.96766744,1.0
+69,Twitter_volume_KO.csv,1.3879143,Linear,0.8,9,KMeans,0.96766744,1.0
+70,Twitter_volume_AAPL.csv,1.3881875,Linear,0.4,10,Linear,0.96707106,0.9994036199999999
+71,,,,,,,,
+72,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
+73,Pen-Based Recognition of Handwritten Text (Local),0.24571884,KMeans,0.52631579,1,KMeans,0.05851859,0.9907963
+74,Speech Accent Data,0.32770085,Linear,0.11764706,2,KMeans,0.05851859,0.9907963
+75,Statlog Shuttle,0.59146845,KMeans,0.96766744,3,KMeans,0.05851859,0.9907963
+76,Letter Recognition,0.6838268,KMeans,0.44545455,4,KMeans,0.05851859,0.9907963
+77,KDD-Cup99 HTTP,0.9440675,RPCA,0.93849658,5,KMeans,0.05851859,0.9907963
+78,Landsat Satellite,1.2357978,Linear,0.71794872,6,KMeans,0.05851859,0.9907963
+79,Twitter_volume_IBM.csv,1.4069395,Linear,0.5,7,KMeans,0.05851859,0.9907963
+80,Twitter_volume_FB.csv,1.406942,Linear,1.0,8,Linear,0.0663518,0.99862951
+81,Twitter_volume_CRM.csv,1.4072629,KMeans,0.54545455,9,KMeans,0.05851859,0.9907963
+82,Twitter_volume_KO.csv,1.407266,Linear,0.8,10,Linear,0.0663518,0.99862951
+83,,,,,,,,
+84,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
+85,Pen-Based Recognition of Handwritten Text (Local),0.36267102,KMeans,0.52631579,1,KMeans,0.05384615,0.93619909
+86,Speech Accent Data,0.4035747,Linear,0.11764706,2,KMeans,0.05384615,0.93619909
+87,Statlog Shuttle,0.73890555,KMeans,0.96766744,3,KMeans,0.05384615,0.93619909
+88,Letter Recognition,0.7441746,KMeans,0.44545455,4,KMeans,0.05384615,0.93619909
+89,KDD-Cup99 HTTP,1.0311933,RPCA,0.93849658,5,KMeans,0.05384615,0.93619909
+90,Landsat Satellite,1.3344408,Linear,0.71794872,6,KMeans,0.05384615,0.93619909
+91,Twitter_volume_IBM.csv,1.486478,Linear,0.5,7,KMeans,0.05384615,0.93619909
+92,Twitter_volume_FB.csv,1.4864804,Linear,1.0,8,Linear,0.11764706,1.0
+93,Twitter_volume_CRM.csv,1.486777,KMeans,0.54545455,9,KMeans,0.05384615,0.93619909
+94,Twitter_volume_KO.csv,1.4867798,Linear,0.8,10,Linear,0.11764706,1.0
+95,,,,,,,,
+96,Pen-Based Recognition of Handwritten Text,0,KMeans,0.88648649,0,KMeans,0.88648649,1
+97,Pen-Based Recognition of Handwritten Text (Local),0.0018929243,KMeans,0.52631579,1,KMeans,0.88648649,1.0
+98,Speech Accent Data,0.115388274,Linear,0.11764706,2,KMeans,0.88648649,1.0
+99,Letter Recognition,0.64755213,KMeans,0.44545455,3,KMeans,0.88648649,1.0
+100,Statlog Shuttle,0.70229995,KMeans,0.96766744,4,KMeans,0.88648649,1.0
+101,KDD-Cup99 HTTP,0.9228951,RPCA,0.93849658,5,KMeans,0.88648649,1.0
+102,Landsat Satellite,1.2955886,Linear,0.71794872,6,KMeans,0.88648649,1.0
+103,Twitter_volume_IBM.csv,1.3657581,Linear,0.5,7,KMeans,0.88648649,1.0
+104,Twitter_volume_FB.csv,1.3657601,Linear,1.0,8,Linear,0.64473684,0.75825035
+105,Twitter_volume_CRM.csv,1.3660353,KMeans,0.54545455,9,KMeans,0.88648649,1.0
+106,Twitter_volume_KO.csv,1.366038,Linear,0.8,10,Linear,0.64473684,0.75825035
+107,,,,,,,,
+108,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
+109,Pen-Based Recognition of Handwritten Text (Local),0.06434274,KMeans,0.52631579,1,KMeans,0.65517241,0.93722369
+110,Speech Accent Data,0.1856085,Linear,0.11764706,2,KMeans,0.65517241,0.93722369
+111,Letter Recognition,0.6391878,KMeans,0.44545455,3,KMeans,0.65517241,0.93722369
+112,Statlog Shuttle,0.7287929,KMeans,0.96766744,4,KMeans,0.65517241,0.93722369
+113,KDD-Cup99 HTTP,0.8892325,RPCA,0.93849658,5,KMeans,0.65517241,0.93722369
+114,Landsat Satellite,1.3082373,Linear,0.71794872,6,KMeans,0.65517241,0.93722369
+115,Twitter_volume_IBM.csv,1.3234332,Linear,0.5,7,KMeans,0.65517241,0.93722369
+116,Twitter_volume_FB.csv,1.3234353,Linear,1.0,8,Linear,0.71794872,1.0
+117,Twitter_volume_CRM.csv,1.3237171,KMeans,0.54545455,9,KMeans,0.65517241,0.93722369
+118,Twitter_volume_KO.csv,1.3237197,Linear,0.8,10,Linear,0.71794872,1.0
+119,,,,,,,,
+120,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
+121,Pen-Based Recognition of Handwritten Text (Local),0.009210348,KMeans,0.52631579,1,KMeans,0.8,1.0
+122,Speech Accent Data,0.10333061,Linear,0.11764706,2,KMeans,0.8,1.0
+123,Letter Recognition,0.64623654,KMeans,0.44545455,3,KMeans,0.8,1.0
+124,KDD-Cup99 HTTP,0.8929421,RPCA,0.93849658,4,KMeans,0.8,1.0
+125,Statlog Shuttle,0.9971944,KMeans,0.96766744,5,KMeans,0.8,1.0
+126,Twitter_volume_IBM.csv,1.2572854,Linear,0.5,6,KMeans,0.8,1.0
+127,Twitter_volume_FB.csv,1.2572877,Linear,1.0,7,KMeans,0.8,1.0
+128,Twitter_volume_CRM.csv,1.2576003,KMeans,0.54545455,8,KMeans,0.8,1.0
+129,Twitter_volume_KO.csv,1.2576033,Linear,0.8,9,KMeans,0.8,1.0
+130,Twitter_volume_AAPL.csv,1.2579126,Linear,0.4,10,Linear,0.14285714,0.34285714
+131,,,,,,,,
+132,exchange-3_cpm_results.csv,0,Linear,1.0,0,Linear,1.0,1
+133,Pen-Based Recognition of Handwritten Text (Local),0.1509186,KMeans,0.52631579,1,KMeans,1.0,1.0
+134,Speech Accent Data,0.23710525,Linear,0.11764706,2,KMeans,1.0,1.0
+135,Letter Recognition,0.6579522,KMeans,0.44545455,3,KMeans,1.0,1.0
+136,Statlog Shuttle,0.66826904,KMeans,0.96766744,4,KMeans,1.0,1.0
+137,KDD-Cup99 HTTP,0.9383813,RPCA,0.93849658,5,KMeans,1.0,1.0
+138,Landsat Satellite,1.2774924,Linear,0.71794872,6,KMeans,1.0,1.0
+139,Twitter_volume_IBM.csv,1.3526248,Linear,0.5,7,KMeans,1.0,1.0
+140,Twitter_volume_FB.csv,1.352627,Linear,1.0,8,Linear,1.0,1.0
+141,Twitter_volume_CRM.csv,1.3529277,KMeans,0.54545455,9,KMeans,1.0,1.0
+142,Twitter_volume_KO.csv,1.3529305,Linear,0.8,10,Linear,1.0,1.0
+143,,,,,,,,
+144,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
+145,Pen-Based Recognition of Handwritten Text (Local),0.06382108,KMeans,0.52631579,1,KMeans,0.4,1.0
+146,Speech Accent Data,0.18372333,Linear,0.11764706,2,KMeans,0.4,1.0
+147,Letter Recognition,0.6555345,KMeans,0.44545455,3,KMeans,0.4,1.0
+148,KDD-Cup99 HTTP,0.9185629,RPCA,0.93849658,4,KMeans,0.4,1.0
+149,Statlog Shuttle,0.94622946,KMeans,0.96766744,5,KMeans,0.4,1.0
+150,Twitter_volume_IBM.csv,1.2945426,Linear,0.5,6,KMeans,0.4,1.0
+151,Twitter_volume_FB.csv,1.2945449,Linear,1.0,7,KMeans,0.4,1.0
+152,Twitter_volume_CRM.csv,1.294838,KMeans,0.54545455,8,KMeans,0.4,1.0
+153,Twitter_volume_KO.csv,1.2948407,Linear,0.8,9,KMeans,0.4,1.0
+154,Twitter_volume_AAPL.csv,1.2951301,Linear,0.4,10,Linear,0.4,1.0
+155,,,,,,,,
+156,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+157,Pen-Based Recognition of Handwritten Text (Local),0.051807284,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+158,Speech Accent Data,0.065654755,Linear,0.11764706,2,KMeans,0.66666667,1.0
+159,Letter Recognition,0.65148807,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+160,Statlog Shuttle,0.83900666,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+161,KDD-Cup99 HTTP,0.88896066,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+162,Twitter_volume_IBM.csv,1.2648189,Linear,0.5,6,KMeans,0.66666667,1.0
+163,Twitter_volume_FB.csv,1.2648212,Linear,1.0,7,KMeans,0.66666667,1.0
+164,Twitter_volume_CRM.csv,1.2651067,KMeans,0.54545455,8,KMeans,0.66666667,1.0
+165,Twitter_volume_KO.csv,1.2651095,Linear,0.8,9,KMeans,0.66666667,1.0
+166,Twitter_volume_AAPL.csv,1.2653918,Linear,0.4,10,Linear,0.57142857,0.9047619
+167,,,,,,,,
+168,speed_7578.csv,0,KMeans,0.75,0,KMeans,0.75,1
+169,Pen-Based Recognition of Handwritten Text (Local),0.20814121,KMeans,0.52631579,1,KMeans,0.75,1.0
+170,Speech Accent Data,0.32229674,Linear,0.11764706,2,KMeans,0.75,1.0
+171,Statlog Shuttle,0.5666151,KMeans,0.96766744,3,KMeans,0.75,1.0
+172,Letter Recognition,0.648818,KMeans,0.44545455,4,KMeans,0.75,1.0
+173,KDD-Cup99 HTTP,0.9303076,RPCA,0.93849658,5,KMeans,0.75,1.0
+174,Landsat Satellite,1.1912303,Linear,0.71794872,6,KMeans,0.75,1.0
+175,Twitter_volume_IBM.csv,1.3409123,Linear,0.5,7,KMeans,0.75,1.0
+176,Twitter_volume_FB.csv,1.3409142,Linear,1.0,8,Linear,0.4,0.65
+177,Twitter_volume_CRM.csv,1.3411725,KMeans,0.54545455,9,KMeans,0.75,1.0
+178,Twitter_volume_KO.csv,1.3411748,Linear,0.8,10,Linear,0.4,0.65
+179,,,,,,,,
+180,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+181,Pen-Based Recognition of Handwritten Text (Local),0.19012666,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+182,Speech Accent Data,0.30761147,Linear,0.11764706,2,KMeans,0.66666667,1.0
+183,Letter Recognition,0.66729856,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+184,Statlog Shuttle,0.7043886,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+185,KDD-Cup99 HTTP,0.94846094,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+186,Landsat Satellite,1.2463644,Linear,0.71794872,6,KMeans,0.66666667,1.0
+187,Twitter_volume_IBM.csv,1.4131737,Linear,0.5,7,KMeans,0.66666667,1.0
+188,Twitter_volume_FB.csv,1.4131758,Linear,1.0,8,Linear,0.125,0.45833333
+189,Twitter_volume_CRM.csv,1.4134412,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+190,Twitter_volume_KO.csv,1.4134437,Linear,0.8,10,Linear,0.125,0.45833333
+191,,,,,,,,
+192,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
+193,Pen-Based Recognition of Handwritten Text (Local),0.25522184,KMeans,0.52631579,1,KMeans,0.5,1.0
+194,Speech Accent Data,0.33973765,Linear,0.11764706,2,KMeans,0.5,1.0
+195,Statlog Shuttle,0.54225874,KMeans,0.96766744,3,KMeans,0.5,1.0
+196,Letter Recognition,0.68231773,KMeans,0.44545455,4,KMeans,0.5,1.0
+197,KDD-Cup99 HTTP,0.9525161,RPCA,0.93849658,5,KMeans,0.5,1.0
+198,Landsat Satellite,1.1380322,Linear,0.71794872,6,KMeans,0.5,1.0
+199,Twitter_volume_IBM.csv,1.4867709,Linear,0.5,7,KMeans,0.5,1.0
+200,Twitter_volume_FB.csv,1.4867728,Linear,1.0,8,Linear,0.4,0.9
+201,Twitter_volume_CRM.csv,1.4870317,KMeans,0.54545455,9,KMeans,0.5,1.0
+202,Twitter_volume_KO.csv,1.4870342,Linear,0.8,10,Linear,0.4,0.9
+203,,,,,,,,
+204,exchange-4_cpm_results.csv,0,KMeans,0.75,0,KMeans,0.75,1
+205,Pen-Based Recognition of Handwritten Text (Local),0.031010866,KMeans,0.52631579,1,KMeans,0.75,1.0
+206,Speech Accent Data,0.06542742,Linear,0.11764706,2,KMeans,0.75,1.0
+207,Letter Recognition,0.6476221,KMeans,0.44545455,3,KMeans,0.75,1.0
+208,KDD-Cup99 HTTP,0.87553084,RPCA,0.93849658,4,KMeans,0.75,1.0
+209,Statlog Shuttle,0.89974475,KMeans,0.96766744,5,KMeans,0.75,1.0
+210,Twitter_volume_IBM.csv,1.2589103,Linear,0.5,6,KMeans,0.75,1.0
+211,Twitter_volume_FB.csv,1.2589124,Linear,1.0,7,KMeans,0.75,1.0
+212,Twitter_volume_CRM.csv,1.259189,KMeans,0.54545455,8,KMeans,0.75,1.0
+213,Twitter_volume_KO.csv,1.2591918,Linear,0.8,9,KMeans,0.75,1.0
+214,Twitter_volume_AAPL.csv,1.2594651,Linear,0.4,10,Linear,0.66666667,0.91666667
+215,,,,,,,,
+216,TravelTime_387.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+217,Pen-Based Recognition of Handwritten Text (Local),0.006868601,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+218,Speech Accent Data,0.12069452,Linear,0.11764706,2,KMeans,0.66666667,1.0
+219,Letter Recognition,0.66338885,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+220,Statlog Shuttle,0.7352294,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+221,KDD-Cup99 HTTP,0.9220143,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+222,Landsat Satellite,1.2957786,Linear,0.71794872,6,KMeans,0.66666667,1.0
+223,Twitter_volume_IBM.csv,1.3144056,Linear,0.5,7,KMeans,0.66666667,1.0
+224,Twitter_volume_FB.csv,1.3144078,Linear,1.0,8,Linear,0.5,0.83333333
+225,Twitter_volume_CRM.csv,1.3147066,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+226,Twitter_volume_KO.csv,1.3147094,Linear,0.8,10,Linear,0.5,0.83333333
+227,,,,,,,,
+228,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
+229,Pen-Based Recognition of Handwritten Text (Local),0.09261823,KMeans,0.52631579,1,KMeans,0.0,1.0
+230,Speech Accent Data,0.19084859,Linear,0.11764706,2,KMeans,0.0,1.0
+231,Letter Recognition,0.6963607,KMeans,0.44545455,3,KMeans,0.0,1.0
+232,Statlog Shuttle,0.8386065,KMeans,0.96766744,4,KMeans,0.0,1.0
+233,KDD-Cup99 HTTP,0.90684247,RPCA,0.93849658,5,KMeans,0.0,1.0
+234,Twitter_volume_IBM.csv,1.2018019,Linear,0.5,6,KMeans,0.0,1.0
+235,Twitter_volume_FB.csv,1.2018043,Linear,1.0,7,KMeans,0.0,1.0
+236,Twitter_volume_CRM.csv,1.202112,KMeans,0.54545455,8,KMeans,0.0,1.0
+237,Twitter_volume_KO.csv,1.202115,Linear,0.8,9,KMeans,0.0,1.0
+238,Twitter_volume_AAPL.csv,1.202417,Linear,0.4,10,Linear,0.0,1.0
+239,,,,,,,,
+240,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
+241,Pen-Based Recognition of Handwritten Text (Local),0.064628005,KMeans,0.52631579,1,KMeans,0.00075287,0.99991832
+242,Speech Accent Data,0.15795422,Linear,0.11764706,2,KMeans,0.00075287,0.99991832
+243,Letter Recognition,0.6747539,KMeans,0.44545455,3,KMeans,0.00075287,0.99991832
+244,Statlog Shuttle,0.92476034,KMeans,0.96766744,4,KMeans,0.00075287,0.99991832
+245,KDD-Cup99 HTTP,0.9262112,RPCA,0.93849658,5,KMeans,0.00075287,0.99991832
+246,Twitter_volume_IBM.csv,1.331702,Linear,0.5,6,KMeans,0.00075287,0.99991832
+247,Twitter_volume_FB.csv,1.3317044,Linear,1.0,7,KMeans,0.00075287,0.99991832
+248,Twitter_volume_CRM.csv,1.3320234,KMeans,0.54545455,8,KMeans,0.00075287,0.99991832
+249,Twitter_volume_KO.csv,1.3320265,Linear,0.8,9,KMeans,0.00075287,0.99991832
+250,Twitter_volume_AAPL.csv,1.3323421,Linear,0.4,10,Linear,0.00075245,0.9999179
+251,,,,,,,,
+252,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
+253,Pen-Based Recognition of Handwritten Text (Local),0.12525713,KMeans,0.52631579,1,KMeans,1.0,1.0
+254,Speech Accent Data,0.24200523,Linear,0.11764706,2,KMeans,1.0,1.0
+255,Letter Recognition,0.64154994,KMeans,0.44545455,3,KMeans,1.0,1.0
+256,Statlog Shuttle,0.868821,KMeans,0.96766744,4,KMeans,1.0,1.0
+257,KDD-Cup99 HTTP,0.9218905,RPCA,0.93849658,5,KMeans,1.0,1.0
+258,Twitter_volume_IBM.csv,1.3208461,Linear,0.5,6,KMeans,1.0,1.0
+259,Twitter_volume_FB.csv,1.3208485,Linear,1.0,7,KMeans,1.0,1.0
+260,Twitter_volume_CRM.csv,1.3211459,KMeans,0.54545455,8,KMeans,1.0,1.0
+261,Twitter_volume_KO.csv,1.3211488,Linear,0.8,9,KMeans,1.0,1.0
+262,Twitter_volume_AAPL.csv,1.3214422,Linear,0.4,10,Linear,0.66666667,0.66666667
+263,,,,,,,,
+264,nyc_taxi.csv,0,Linear,0.25,0,Linear,0.25,1
+265,Pen-Based Recognition of Handwritten Text (Local),0.06814182,KMeans,0.52631579,1,KMeans,0.25,1.0
+266,Speech Accent Data,0.18138015,Linear,0.11764706,2,KMeans,0.25,1.0
+267,Letter Recognition,0.6542908,KMeans,0.44545455,3,KMeans,0.25,1.0
+268,Statlog Shuttle,0.87185085,KMeans,0.96766744,4,KMeans,0.25,1.0
+269,KDD-Cup99 HTTP,0.9012771,RPCA,0.93849658,5,KMeans,0.25,1.0
+270,Twitter_volume_IBM.csv,1.1630164,Linear,0.5,6,KMeans,0.25,1.0
+271,Twitter_volume_FB.csv,1.163019,Linear,1.0,7,KMeans,0.25,1.0
+272,Twitter_volume_CRM.csv,1.1633531,KMeans,0.54545455,8,KMeans,0.25,1.0
+273,Twitter_volume_KO.csv,1.1633563,Linear,0.8,9,KMeans,0.25,1.0
+274,Twitter_volume_AAPL.csv,1.1636872,Linear,0.4,10,Linear,0.25,1.0
+275,,,,,,,,
+276,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
+277,Pen-Based Recognition of Handwritten Text (Local),0.10783398,KMeans,0.52631579,1,KMeans,0.57142857,1.0
+278,Speech Accent Data,0.21150506,Linear,0.11764706,2,KMeans,0.57142857,1.0
+279,Letter Recognition,0.6864296,KMeans,0.44545455,3,KMeans,0.57142857,1.0
+280,Statlog Shuttle,0.7402288,KMeans,0.96766744,4,KMeans,0.57142857,1.0
+281,KDD-Cup99 HTTP,0.9454965,RPCA,0.93849658,5,KMeans,0.57142857,1.0
+282,Twitter_volume_IBM.csv,1.2093098,Linear,0.5,6,KMeans,0.57142857,1.0
+283,Twitter_volume_FB.csv,1.2093121,Linear,1.0,7,KMeans,0.57142857,1.0
+284,Twitter_volume_CRM.csv,1.2096189,KMeans,0.54545455,8,KMeans,0.57142857,1.0
+285,Twitter_volume_KO.csv,1.2096219,Linear,0.8,9,KMeans,0.57142857,1.0
+286,Twitter_volume_AAPL.csv,1.2099254,Linear,0.4,10,Linear,0.5,0.92857143
+287,,,,,,,,
+288,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
+289,Pen-Based Recognition of Handwritten Text (Local),0.025201082,KMeans,0.52631579,1,KMeans,0.02,1.0
+290,Speech Accent Data,0.13767791,Linear,0.11764706,2,KMeans,0.02,1.0
+291,Letter Recognition,0.65714526,KMeans,0.44545455,3,KMeans,0.02,1.0
+292,Statlog Shuttle,0.74400043,KMeans,0.96766744,4,KMeans,0.02,1.0
+293,KDD-Cup99 HTTP,0.9081464,RPCA,0.93849658,5,KMeans,0.02,1.0
+294,Landsat Satellite,1.3055737,Linear,0.71794872,6,KMeans,0.02,1.0
+295,Twitter_volume_IBM.csv,1.3283727,Linear,0.5,7,KMeans,0.02,1.0
+296,Twitter_volume_FB.csv,1.3283749,Linear,1.0,8,Linear,0.0,0.98
+297,Twitter_volume_CRM.csv,1.3286674,KMeans,0.54545455,9,KMeans,0.02,1.0
+298,Twitter_volume_KO.csv,1.32867,Linear,0.8,10,Linear,0.0,0.98
+299,,,,,,,,
+300,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
+301,Speech Accent Data,0.04144001,Linear,0.11764706,1,Linear,0.5,1.0
+302,Pen-Based Recognition of Handwritten Text (Local),0.08144128,KMeans,0.52631579,2,KMeans,0.5,1.0
+303,Letter Recognition,0.64032745,KMeans,0.44545455,3,KMeans,0.5,1.0
+304,KDD-Cup99 HTTP,0.8669419,RPCA,0.93849658,4,KMeans,0.5,1.0
+305,Statlog Shuttle,1.0184431,KMeans,0.96766744,5,KMeans,0.5,1.0
+306,Twitter_volume_IBM.csv,1.2451763,Linear,0.5,6,KMeans,0.5,1.0
+307,Twitter_volume_FB.csv,1.2451789,Linear,1.0,7,KMeans,0.5,1.0
+308,Twitter_volume_CRM.csv,1.2455093,KMeans,0.54545455,8,KMeans,0.5,1.0
+309,Twitter_volume_KO.csv,1.2455125,Linear,0.8,9,KMeans,0.5,1.0
+310,Twitter_volume_AAPL.csv,1.2458395,Linear,0.4,10,Linear,0.5,1.0
+311,,,,,,,,
+312,TravelTime_451.csv,0,KMeans,0.4,0,KMeans,0.4,1
+313,Pen-Based Recognition of Handwritten Text (Local),0.110455275,KMeans,0.52631579,1,KMeans,0.4,1.0
+314,Speech Accent Data,0.22286665,Linear,0.11764706,2,KMeans,0.4,1.0
+315,Letter Recognition,0.65646183,KMeans,0.44545455,3,KMeans,0.4,1.0
+316,Statlog Shuttle,0.8191203,KMeans,0.96766744,4,KMeans,0.4,1.0
+317,KDD-Cup99 HTTP,0.85514164,RPCA,0.93849658,5,KMeans,0.4,1.0
+318,Twitter_volume_IBM.csv,1.2583017,Linear,0.5,6,KMeans,0.4,1.0
+319,Twitter_volume_FB.csv,1.2583044,Linear,1.0,7,KMeans,0.4,1.0
+320,Twitter_volume_CRM.csv,1.2586501,KMeans,0.54545455,8,KMeans,0.4,1.0
+321,Twitter_volume_KO.csv,1.2586534,Linear,0.8,9,KMeans,0.4,1.0
+322,Twitter_volume_AAPL.csv,1.2589955,Linear,0.4,10,Linear,0.18181818,0.7818181799999999
+323,,,,,,,,
+324,Twitter_volume_AAPL.csv,0,Linear,0.4,0,Linear,0.4,1
+325,Pen-Based Recognition of Handwritten Text (Local),0.18852723,KMeans,0.52631579,1,KMeans,0.4,1.0
+326,Speech Accent Data,0.27917242,Linear,0.11764706,2,KMeans,0.4,1.0
+327,Letter Recognition,0.6861445,KMeans,0.44545455,3,KMeans,0.4,1.0
+328,Statlog Shuttle,0.71898925,KMeans,0.96766744,4,KMeans,0.4,1.0
+329,KDD-Cup99 HTTP,0.9608015,RPCA,0.93849658,5,KMeans,0.4,1.0
+330,Landsat Satellite,1.2894117,Linear,0.71794872,6,KMeans,0.4,1.0
+331,Twitter_volume_IBM.csv,1.2961589,Linear,0.5,7,KMeans,0.4,1.0
+332,Twitter_volume_FB.csv,1.2961613,Linear,1.0,8,Linear,0.4,1.0
+333,Twitter_volume_CRM.csv,1.2964514,KMeans,0.54545455,9,KMeans,0.4,1.0
+334,Twitter_volume_KO.csv,1.2964542,Linear,0.8,10,Linear,0.4,1.0
+335,,,,,,,,
+336,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+337,Pen-Based Recognition of Handwritten Text (Local),0.23542762,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+338,Speech Accent Data,0.3057307,Linear,0.11764706,2,KMeans,0.66666667,1.0
+339,Letter Recognition,0.72402525,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+340,Statlog Shuttle,0.7274914,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+341,KDD-Cup99 HTTP,1.0078325,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+342,Landsat Satellite,1.2939203,Linear,0.71794872,6,KMeans,0.66666667,1.0
+343,Twitter_volume_IBM.csv,1.3784015,Linear,0.5,7,KMeans,0.66666667,1.0
+344,Twitter_volume_FB.csv,1.3784038,Linear,1.0,8,Linear,0.66666667,1.0
+345,Twitter_volume_CRM.csv,1.3786962,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+346,Twitter_volume_KO.csv,1.3786991,Linear,0.8,10,Linear,0.66666667,1.0
+347,,,,,,,,
+348,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+349,Pen-Based Recognition of Handwritten Text (Local),0.14122117,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+350,Speech Accent Data,0.2627288,Linear,0.11764706,2,KMeans,0.66666667,1.0
+351,Letter Recognition,0.6214634,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+352,Statlog Shuttle,0.6717864,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+353,KDD-Cup99 HTTP,0.8873389,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+354,Landsat Satellite,1.214918,Linear,0.71794872,6,KMeans,0.66666667,1.0
+355,Twitter_volume_IBM.csv,1.2610804,Linear,0.5,7,KMeans,0.66666667,1.0
+356,Twitter_volume_FB.csv,1.2610826,Linear,1.0,8,Linear,0.66666667,1.0
+357,Twitter_volume_CRM.csv,1.261366,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+358,Twitter_volume_KO.csv,1.2613686,Linear,0.8,10,Linear,0.66666667,1.0
+359,,,,,,,,
+360,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+361,Pen-Based Recognition of Handwritten Text (Local),0.18715739,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+362,Speech Accent Data,0.29695475,Linear,0.11764706,2,KMeans,0.66666667,1.0
+363,Letter Recognition,0.65614223,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+364,Statlog Shuttle,0.7333038,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+365,KDD-Cup99 HTTP,0.9028343,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+366,Twitter_volume_IBM.csv,1.1719424,Linear,0.5,6,KMeans,0.66666667,1.0
+367,Twitter_volume_FB.csv,1.1719447,Linear,1.0,7,KMeans,0.66666667,1.0
+368,Twitter_volume_CRM.csv,1.1722558,KMeans,0.54545455,8,KMeans,0.66666667,1.0
+369,Twitter_volume_KO.csv,1.1722587,Linear,0.8,9,KMeans,0.66666667,1.0
+370,Twitter_volume_AAPL.csv,1.1725664,Linear,0.4,10,Linear,0.00312012,0.33645344999999993
+371,,,,,,,,
+372,Twitter_volume_UPS.csv,0,Linear,0.28571429,0,Linear,0.28571429,1
+373,Pen-Based Recognition of Handwritten Text (Local),0.09613359,KMeans,0.52631579,1,KMeans,0.22222222,0.93650793
+374,Speech Accent Data,0.20472634,Linear,0.11764706,2,KMeans,0.22222222,0.93650793
+375,Letter Recognition,0.64751005,KMeans,0.44545455,3,KMeans,0.22222222,0.93650793
+376,Statlog Shuttle,0.84963727,KMeans,0.96766744,4,KMeans,0.22222222,0.93650793
+377,KDD-Cup99 HTTP,0.925843,RPCA,0.93849658,5,KMeans,0.22222222,0.93650793
+378,Twitter_volume_IBM.csv,1.3352282,Linear,0.5,6,KMeans,0.22222222,0.93650793
+379,Twitter_volume_FB.csv,1.3352305,Linear,1.0,7,KMeans,0.22222222,0.93650793
+380,Twitter_volume_CRM.csv,1.335515,KMeans,0.54545455,8,KMeans,0.22222222,0.93650793
+381,Twitter_volume_KO.csv,1.3355178,Linear,0.8,9,KMeans,0.22222222,0.93650793
+382,Twitter_volume_AAPL.csv,1.3357992,Linear,0.4,10,Linear,0.28571429,1.0
+383,,,,,,,,
+384,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
+385,Pen-Based Recognition of Handwritten Text (Local),0.31057978,KMeans,0.52631579,1,KMeans,0.03030303,1.0
+386,Speech Accent Data,0.41351366,Linear,0.11764706,2,KMeans,0.03030303,1.0
+387,Letter Recognition,0.6975193,KMeans,0.44545455,3,KMeans,0.03030303,1.0
+388,Statlog Shuttle,0.7341943,KMeans,0.96766744,4,KMeans,0.03030303,1.0
+389,KDD-Cup99 HTTP,1.0116832,RPCA,0.93849658,5,KMeans,0.03030303,1.0
+390,Landsat Satellite,1.1849277,Linear,0.71794872,6,KMeans,0.03030303,1.0
+391,Twitter_volume_IBM.csv,1.4704504,Linear,0.5,7,KMeans,0.03030303,1.0
+392,Twitter_volume_FB.csv,1.4704528,Linear,1.0,8,Linear,0.00049603,0.970193
+393,Twitter_volume_CRM.csv,1.4707428,KMeans,0.54545455,9,KMeans,0.03030303,1.0
+394,Twitter_volume_KO.csv,1.4707457,Linear,0.8,10,Linear,0.00049603,0.970193
+395,,,,,,,,
+396,exchange-2_cpm_results.csv,0,KMeans,0.8,0,KMeans,0.8,1
+397,Pen-Based Recognition of Handwritten Text (Local),0.08220303,KMeans,0.52631579,1,KMeans,0.8,1.0
+398,Speech Accent Data,0.18575752,Linear,0.11764706,2,KMeans,0.8,1.0
+399,Letter Recognition,0.6333077,KMeans,0.44545455,3,KMeans,0.8,1.0
+400,Statlog Shuttle,0.8457346,KMeans,0.96766744,4,KMeans,0.8,1.0
+401,KDD-Cup99 HTTP,0.8954947,RPCA,0.93849658,5,KMeans,0.8,1.0
+402,Twitter_volume_IBM.csv,1.3090734,Linear,0.5,6,KMeans,0.8,1.0
+403,Twitter_volume_FB.csv,1.3090756,Linear,1.0,7,KMeans,0.8,1.0
+404,Twitter_volume_CRM.csv,1.3093538,KMeans,0.54545455,8,KMeans,0.8,1.0
+405,Twitter_volume_KO.csv,1.3093565,Linear,0.8,9,KMeans,0.8,1.0
+406,Twitter_volume_AAPL.csv,1.3096312,Linear,0.4,10,Linear,0.5,0.7
+407,,,,,,,,
+408,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+409,Pen-Based Recognition of Handwritten Text (Local),0.07425201,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+410,Speech Accent Data,0.17893147,Linear,0.11764706,2,KMeans,0.66666667,1.0
+411,Letter Recognition,0.65388906,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+412,Statlog Shuttle,0.7392682,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+413,KDD-Cup99 HTTP,0.9097329,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+414,Twitter_volume_IBM.csv,1.2339915,Linear,0.5,6,KMeans,0.66666667,1.0
+415,Twitter_volume_FB.csv,1.2339938,Linear,1.0,7,KMeans,0.66666667,1.0
+416,Twitter_volume_CRM.csv,1.2342789,KMeans,0.54545455,8,KMeans,0.66666667,1.0
+417,Twitter_volume_KO.csv,1.2342815,Linear,0.8,9,KMeans,0.66666667,1.0
+418,Twitter_volume_AAPL.csv,1.2345636,Linear,0.4,10,Linear,0.66666667,1.0
+419,,,,,,,,
+420,speed_6005.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+421,Pen-Based Recognition of Handwritten Text (Local),0.11578405,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+422,Speech Accent Data,0.22252715,Linear,0.11764706,2,KMeans,0.66666667,1.0
+423,Letter Recognition,0.6615937,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+424,Statlog Shuttle,0.6729171,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+425,KDD-Cup99 HTTP,0.91800237,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+426,Landsat Satellite,1.2793765,Linear,0.71794872,6,KMeans,0.66666667,1.0
+427,Twitter_volume_IBM.csv,1.415081,Linear,0.5,7,KMeans,0.66666667,1.0
+428,Twitter_volume_FB.csv,1.4150832,Linear,1.0,8,Linear,0.66666667,1.0
+429,Twitter_volume_CRM.csv,1.4153714,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+430,Twitter_volume_KO.csv,1.415374,Linear,0.8,10,Linear,0.66666667,1.0
+431,,,,,,,,
+432,Twitter_volume_KO.csv,0,Linear,0.8,0,Linear,0.8,1
+433,Pen-Based Recognition of Handwritten Text (Local),0.09092462,KMeans,0.52631579,1,KMeans,0.8,1.0
+434,Speech Accent Data,0.1999135,Linear,0.11764706,2,KMeans,0.8,1.0
+435,Letter Recognition,0.63351274,KMeans,0.44545455,3,KMeans,0.8,1.0
+436,Statlog Shuttle,0.9063649,KMeans,0.96766744,4,KMeans,0.8,1.0
+437,KDD-Cup99 HTTP,0.91023594,RPCA,0.93849658,5,KMeans,0.8,1.0
+438,Twitter_volume_IBM.csv,1.2927301,Linear,0.5,6,KMeans,0.8,1.0
+439,Twitter_volume_FB.csv,1.2927324,Linear,1.0,7,KMeans,0.8,1.0
+440,Twitter_volume_CRM.csv,1.2930332,KMeans,0.54545455,8,KMeans,0.8,1.0
+441,Twitter_volume_KO.csv,1.2930361,Linear,0.8,9,KMeans,0.8,1.0
+442,Twitter_volume_AAPL.csv,1.2933338,Linear,0.4,10,Linear,0.8,1.0
+443,,,,,,,,
+444,Twitter_volume_GOOG.csv,0,Linear,0.4,0,Linear,0.4,1
+445,Pen-Based Recognition of Handwritten Text (Local),0.05437553,KMeans,0.52631579,1,KMeans,0.4,1.0
+446,Speech Accent Data,0.082588196,Linear,0.11764706,2,KMeans,0.4,1.0
+447,Letter Recognition,0.63676286,KMeans,0.44545455,3,KMeans,0.4,1.0
+448,KDD-Cup99 HTTP,0.87372994,RPCA,0.93849658,4,KMeans,0.4,1.0
+449,Statlog Shuttle,0.9081273,KMeans,0.96766744,5,KMeans,0.4,1.0
+450,Twitter_volume_IBM.csv,1.2984927,Linear,0.5,6,KMeans,0.4,1.0
+451,Twitter_volume_FB.csv,1.2984949,Linear,1.0,7,KMeans,0.4,1.0
+452,Twitter_volume_CRM.csv,1.2987659,KMeans,0.54545455,8,KMeans,0.4,1.0
+453,Twitter_volume_KO.csv,1.2987684,Linear,0.8,9,KMeans,0.4,1.0
+454,Twitter_volume_AAPL.csv,1.2990361,Linear,0.4,10,Linear,0.4,1.0
+455,,,,,,,,
+456,exchange-2_cpc_results.csv,0,KMeans,0.33333333,0,KMeans,0.33333333,1
+457,Pen-Based Recognition of Handwritten Text (Local),0.1385454,KMeans,0.52631579,1,KMeans,0.33333333,1.0
+458,Speech Accent Data,0.23820758,Linear,0.11764706,2,KMeans,0.33333333,1.0
+459,Letter Recognition,0.69092846,KMeans,0.44545455,3,KMeans,0.33333333,1.0
+460,KDD-Cup99 HTTP,0.9261806,RPCA,0.93849658,4,KMeans,0.33333333,1.0
+461,Statlog Shuttle,0.93050313,KMeans,0.96766744,5,KMeans,0.33333333,1.0
+462,Twitter_volume_IBM.csv,1.3750663,Linear,0.5,6,KMeans,0.33333333,1.0
+463,Twitter_volume_FB.csv,1.3750687,Linear,1.0,7,KMeans,0.33333333,1.0
+464,Twitter_volume_CRM.csv,1.3753631,KMeans,0.54545455,8,KMeans,0.33333333,1.0
+465,Twitter_volume_KO.csv,1.3753661,Linear,0.8,9,KMeans,0.33333333,1.0
+466,Twitter_volume_AAPL.csv,1.3756567,Linear,0.4,10,Linear,0.06666667,0.73333334
+467,,,,,,,,
+468,Twitter_volume_CVS.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+469,Pen-Based Recognition of Handwritten Text (Local),0.19118297,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+470,Speech Accent Data,0.24437225,Linear,0.11764706,2,KMeans,0.66666667,1.0
+471,Letter Recognition,0.674657,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+472,Statlog Shuttle,0.73916686,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+473,KDD-Cup99 HTTP,0.96730876,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+474,Landsat Satellite,1.3047806,Linear,0.71794872,6,KMeans,0.66666667,1.0
+475,Twitter_volume_IBM.csv,1.3502281,Linear,0.5,7,KMeans,0.66666667,1.0
+476,Twitter_volume_FB.csv,1.3502302,Linear,1.0,8,Linear,0.66666667,1.0
+477,Twitter_volume_CRM.csv,1.3505075,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+478,Twitter_volume_KO.csv,1.3505101,Linear,0.8,10,Linear,0.66666667,1.0
+479,,,,,,,,
+480,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
+481,Pen-Based Recognition of Handwritten Text (Local),0.19596362,KMeans,0.52631579,1,KMeans,0.00775194,1.0
+482,Speech Accent Data,0.26589322,Linear,0.11764706,2,KMeans,0.00775194,1.0
+483,Statlog Shuttle,0.5660167,KMeans,0.96766744,3,KMeans,0.00775194,1.0
+484,Letter Recognition,0.6821759,KMeans,0.44545455,4,KMeans,0.00775194,1.0
+485,KDD-Cup99 HTTP,0.9470177,RPCA,0.93849658,5,KMeans,0.00775194,1.0
+486,Landsat Satellite,1.1444104,Linear,0.71794872,6,KMeans,0.00775194,1.0
+487,Twitter_volume_IBM.csv,1.4673963,Linear,0.5,7,KMeans,0.00775194,1.0
+488,Twitter_volume_FB.csv,1.4673983,Linear,1.0,8,Linear,0.00110132,0.99334938
+489,Twitter_volume_CRM.csv,1.4676726,KMeans,0.54545455,9,KMeans,0.00775194,1.0
+490,Twitter_volume_KO.csv,1.4676753,Linear,0.8,10,Linear,0.00110132,0.99334938
+491,,,,,,,,
+492,occupancy_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+493,Pen-Based Recognition of Handwritten Text (Local),0.1083864,KMeans,0.52631579,1,KMeans,1.0,1.0
+494,Speech Accent Data,0.17621458,Linear,0.11764706,2,KMeans,1.0,1.0
+495,Statlog Shuttle,0.7180387,KMeans,0.96766744,3,KMeans,1.0,1.0
+496,Letter Recognition,0.725741,KMeans,0.44545455,4,KMeans,1.0,1.0
+497,KDD-Cup99 HTTP,0.96718675,RPCA,0.93849658,5,KMeans,1.0,1.0
+498,Landsat Satellite,1.2716612,Linear,0.71794872,6,KMeans,1.0,1.0
+499,Twitter_volume_IBM.csv,1.3258946,Linear,0.5,7,KMeans,1.0,1.0
+500,Twitter_volume_FB.csv,1.325897,Linear,1.0,8,Linear,1.0,1.0
+501,Twitter_volume_CRM.csv,1.3262019,KMeans,0.54545455,9,KMeans,1.0,1.0
+502,Twitter_volume_KO.csv,1.3262048,Linear,0.8,10,Linear,1.0,1.0
+503,,,,,,,,
+504,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
+505,Pen-Based Recognition of Handwritten Text (Local),0.25762236,KMeans,0.52631579,1,KMeans,0.22222222,1.0
+506,Speech Accent Data,0.33351433,Linear,0.11764706,2,KMeans,0.22222222,1.0
+507,Statlog Shuttle,0.60318553,KMeans,0.96766744,3,KMeans,0.22222222,1.0
+508,Letter Recognition,0.75698555,KMeans,0.44545455,4,KMeans,0.22222222,1.0
+509,KDD-Cup99 HTTP,0.99524176,RPCA,0.93849658,5,KMeans,0.22222222,1.0
+510,Landsat Satellite,1.1933409,Linear,0.71794872,6,KMeans,0.22222222,1.0
+511,Twitter_volume_IBM.csv,1.4542699,Linear,0.5,7,KMeans,0.22222222,1.0
+512,Twitter_volume_FB.csv,1.454272,Linear,1.0,8,Linear,0.01960784,0.79738562
+513,Twitter_volume_CRM.csv,1.4545525,KMeans,0.54545455,9,KMeans,0.22222222,1.0
+514,Twitter_volume_KO.csv,1.4545553,Linear,0.8,10,Linear,0.01960784,0.79738562
+515,,,,,,,,
+516,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
+517,Pen-Based Recognition of Handwritten Text (Local),0.02424264,KMeans,0.52631579,1,KMeans,0.00212993,0.99876293
+518,Speech Accent Data,0.08335221,Linear,0.11764706,2,KMeans,0.00212993,0.99876293
+519,Letter Recognition,0.6519886,KMeans,0.44545455,3,KMeans,0.00212993,0.99876293
+520,KDD-Cup99 HTTP,0.88710696,RPCA,0.93849658,4,KMeans,0.00212993,0.99876293
+521,Statlog Shuttle,0.96259105,KMeans,0.96766744,5,KMeans,0.00212993,0.99876293
+522,Twitter_volume_IBM.csv,1.2365515,Linear,0.5,6,KMeans,0.00212993,0.99876293
+523,Twitter_volume_FB.csv,1.2365537,Linear,1.0,7,KMeans,0.00212993,0.99876293
+524,Twitter_volume_CRM.csv,1.2368274,KMeans,0.54545455,8,KMeans,0.00212993,0.99876293
+525,Twitter_volume_KO.csv,1.23683,Linear,0.8,9,KMeans,0.00212993,0.99876293
+526,Twitter_volume_AAPL.csv,1.2371004,Linear,0.4,10,Linear,0.003367,1.0
+527,,,,,,,,
+528,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
+529,Pen-Based Recognition of Handwritten Text (Local),0.11963487,KMeans,0.52631579,1,KMeans,0.25,1.0
+530,Speech Accent Data,0.23002613,Linear,0.11764706,2,KMeans,0.25,1.0
+531,Statlog Shuttle,0.6483424,KMeans,0.96766744,3,KMeans,0.25,1.0
+532,Letter Recognition,0.6708,KMeans,0.44545455,4,KMeans,0.25,1.0
+533,KDD-Cup99 HTTP,0.9153687,RPCA,0.93849658,5,KMeans,0.25,1.0
+534,Twitter_volume_IBM.csv,1.2015624,Linear,0.5,6,KMeans,0.25,1.0
+535,Twitter_volume_FB.csv,1.2015649,Linear,1.0,7,KMeans,0.25,1.0
+536,Twitter_volume_CRM.csv,1.2018969,KMeans,0.54545455,8,KMeans,0.25,1.0
+537,Twitter_volume_KO.csv,1.2019002,Linear,0.8,9,KMeans,0.25,1.0
+538,Twitter_volume_AAPL.csv,1.2022293,Linear,0.4,10,Linear,0.02222222,0.77222222
+539,,,,,,,,
+540,Twitter_volume_FB.csv,0,Linear,1.0,0,Linear,1.0,1
+541,Pen-Based Recognition of Handwritten Text (Local),0.012960315,KMeans,0.52631579,1,KMeans,1.0,1.0
+542,Speech Accent Data,0.119331956,Linear,0.11764706,2,KMeans,1.0,1.0
+543,Letter Recognition,0.6972283,KMeans,0.44545455,3,KMeans,1.0,1.0
+544,Statlog Shuttle,0.8244561,KMeans,0.96766744,4,KMeans,1.0,1.0
+545,KDD-Cup99 HTTP,0.9384364,RPCA,0.93849658,5,KMeans,1.0,1.0
+546,Twitter_volume_IBM.csv,1.3216347,Linear,0.5,6,KMeans,1.0,1.0
+547,Twitter_volume_FB.csv,1.3216369,Linear,1.0,7,KMeans,1.0,1.0
+548,Twitter_volume_CRM.csv,1.3219184,KMeans,0.54545455,8,KMeans,1.0,1.0
+549,Twitter_volume_KO.csv,1.321921,Linear,0.8,9,KMeans,1.0,1.0
+550,Twitter_volume_AAPL.csv,1.3221991,Linear,0.4,10,Linear,1.0,1.0
+551,,,,,,,,
+552,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
+553,Pen-Based Recognition of Handwritten Text (Local),0.03762281,KMeans,0.52631579,1,KMeans,0.15384615,1.0
+554,Speech Accent Data,0.15173972,Linear,0.11764706,2,KMeans,0.15384615,1.0
+555,Letter Recognition,0.6455821,KMeans,0.44545455,3,KMeans,0.15384615,1.0
+556,KDD-Cup99 HTTP,0.88453174,RPCA,0.93849658,4,KMeans,0.15384615,1.0
+557,Statlog Shuttle,0.944276,KMeans,0.96766744,5,KMeans,0.15384615,1.0
+558,Twitter_volume_IBM.csv,1.2672865,Linear,0.5,6,KMeans,0.15384615,1.0
+559,Twitter_volume_FB.csv,1.2672887,Linear,1.0,7,KMeans,0.15384615,1.0
+560,Twitter_volume_CRM.csv,1.2675835,KMeans,0.54545455,8,KMeans,0.15384615,1.0
+561,Twitter_volume_KO.csv,1.2675862,Linear,0.8,9,KMeans,0.15384615,1.0
+562,Twitter_volume_AAPL.csv,1.2678777,Linear,0.4,10,Linear,0.04,0.88615385
+563,,,,,,,,
+564,occupancy_6005.csv,0,Linear,1.0,0,Linear,1.0,1
+565,Pen-Based Recognition of Handwritten Text (Local),0.030202866,KMeans,0.52631579,1,KMeans,1.0,1.0
+566,Speech Accent Data,0.13528585,Linear,0.11764706,2,KMeans,1.0,1.0
+567,Statlog Shuttle,0.5396886,KMeans,0.96766744,3,KMeans,1.0,1.0
+568,Letter Recognition,0.6755121,KMeans,0.44545455,4,KMeans,1.0,1.0
+569,KDD-Cup99 HTTP,0.9101384,RPCA,0.93849658,5,KMeans,1.0,1.0
+570,Landsat Satellite,1.2129068,Linear,0.71794872,6,KMeans,1.0,1.0
+571,Twitter_volume_IBM.csv,1.3108876,Linear,0.5,7,KMeans,1.0,1.0
+572,Twitter_volume_FB.csv,1.3108904,Linear,1.0,8,Linear,1.0,1.0
+573,Twitter_volume_CRM.csv,1.3112495,KMeans,0.54545455,9,KMeans,1.0,1.0
+574,Twitter_volume_KO.csv,1.3112528,Linear,0.8,10,Linear,1.0,1.0
+575,,,,,,,,
+576,Twitter_volume_IBM.csv,0,Linear,0.5,0,Linear,0.5,1
+577,Speech Accent Data,0.046755075,Linear,0.11764706,1,Linear,0.5,1.0
+578,Pen-Based Recognition of Handwritten Text (Local),0.051249027,KMeans,0.52631579,2,KMeans,0.5,1.0
+579,Letter Recognition,0.683355,KMeans,0.44545455,3,KMeans,0.5,1.0
+580,KDD-Cup99 HTTP,0.8997203,RPCA,0.93849658,4,KMeans,0.5,1.0
+581,Statlog Shuttle,1.1075491,KMeans,0.96766744,5,KMeans,0.5,1.0
+582,Twitter_volume_IBM.csv,1.2162228,Linear,0.5,6,KMeans,0.5,1.0
+583,Twitter_volume_FB.csv,1.2162254,Linear,1.0,7,KMeans,0.5,1.0
+584,Twitter_volume_CRM.csv,1.2165701,KMeans,0.54545455,8,KMeans,0.5,1.0
+585,Twitter_volume_KO.csv,1.2165735,Linear,0.8,9,KMeans,0.5,1.0
+586,Twitter_volume_AAPL.csv,1.2169151,Linear,0.4,10,Linear,0.5,1.0
+587,,,,,,,,
+588,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
+589,Pen-Based Recognition of Handwritten Text (Local),0.064471364,KMeans,0.52631579,1,KMeans,1.0,1.0
+590,Speech Accent Data,0.17231,Linear,0.11764706,2,KMeans,1.0,1.0
+591,Letter Recognition,0.685305,KMeans,0.44545455,3,KMeans,1.0,1.0
+592,Statlog Shuttle,0.700148,KMeans,0.96766744,4,KMeans,1.0,1.0
+593,KDD-Cup99 HTTP,0.9436689,RPCA,0.93849658,5,KMeans,1.0,1.0
+594,Twitter_volume_IBM.csv,1.241354,Linear,0.5,6,KMeans,1.0,1.0
+595,Twitter_volume_FB.csv,1.2413564,Linear,1.0,7,KMeans,1.0,1.0
+596,Twitter_volume_CRM.csv,1.241662,KMeans,0.54545455,8,KMeans,1.0,1.0
+597,Twitter_volume_KO.csv,1.241665,Linear,0.8,9,KMeans,1.0,1.0
+598,Twitter_volume_AAPL.csv,1.2419674,Linear,0.4,10,Linear,0.66666667,0.66666667
+599,,,,,,,,
+600,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
+601,Pen-Based Recognition of Handwritten Text (Local),0.118163586,KMeans,0.52631579,1,KMeans,0.08695652,1.0
+602,Speech Accent Data,0.219504,Linear,0.11764706,2,KMeans,0.08695652,1.0
+603,Letter Recognition,0.69813573,KMeans,0.44545455,3,KMeans,0.08695652,1.0
+604,Statlog Shuttle,0.70855415,KMeans,0.96766744,4,KMeans,0.08695652,1.0
+605,KDD-Cup99 HTTP,0.92468286,RPCA,0.93849658,5,KMeans,0.08695652,1.0
+606,Landsat Satellite,1.2976402,Linear,0.71794872,6,KMeans,0.08695652,1.0
+607,Twitter_volume_IBM.csv,1.357358,Linear,0.5,7,KMeans,0.08695652,1.0
+608,Twitter_volume_FB.csv,1.3573601,Linear,1.0,8,Linear,0.08695652,1.0
+609,Twitter_volume_CRM.csv,1.357638,KMeans,0.54545455,9,KMeans,0.08695652,1.0
+610,Twitter_volume_KO.csv,1.3576406,Linear,0.8,10,Linear,0.08695652,1.0
+611,,,,,,,,
+612,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
+613,Pen-Based Recognition of Handwritten Text (Local),0.15044355,KMeans,0.52631579,1,KMeans,0.5,1.0
+614,Speech Accent Data,0.24677837,Linear,0.11764706,2,KMeans,0.5,1.0
+615,Letter Recognition,0.6465446,KMeans,0.44545455,3,KMeans,0.5,1.0
+616,KDD-Cup99 HTTP,0.90489715,RPCA,0.93849658,4,KMeans,0.5,1.0
+617,Statlog Shuttle,0.9553586,KMeans,0.96766744,5,KMeans,0.5,1.0
+618,Twitter_volume_IBM.csv,1.221389,Linear,0.5,6,KMeans,0.5,1.0
+619,Twitter_volume_FB.csv,1.2213917,Linear,1.0,7,KMeans,0.5,1.0
+620,Twitter_volume_CRM.csv,1.2217301,KMeans,0.54545455,8,KMeans,0.5,1.0
+621,Twitter_volume_KO.csv,1.2217335,Linear,0.8,9,KMeans,0.5,1.0
+622,Twitter_volume_AAPL.csv,1.2220685,Linear,0.4,10,Linear,0.33333333,0.83333333
+623,,,,,,,,
+624,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
+625,Pen-Based Recognition of Handwritten Text (Local),0.057669997,KMeans,0.52631579,1,KMeans,0.04255319,1.0
+626,Speech Accent Data,0.18160951,Linear,0.11764706,2,KMeans,0.04255319,1.0
+627,Letter Recognition,0.6512122,KMeans,0.44545455,3,KMeans,0.04255319,1.0
+628,Statlog Shuttle,0.79466534,KMeans,0.96766744,4,KMeans,0.04255319,1.0
+629,KDD-Cup99 HTTP,0.8848057,RPCA,0.93849658,5,KMeans,0.04255319,1.0
+630,Twitter_volume_IBM.csv,1.3054695,Linear,0.5,6,KMeans,0.04255319,1.0
+631,Twitter_volume_FB.csv,1.3054718,Linear,1.0,7,KMeans,0.04255319,1.0
+632,Twitter_volume_CRM.csv,1.3057665,KMeans,0.54545455,8,KMeans,0.04255319,1.0
+633,Twitter_volume_KO.csv,1.3057692,Linear,0.8,9,KMeans,0.04255319,1.0
+634,Twitter_volume_AAPL.csv,1.3060611,Linear,0.4,10,Linear,0.02352941,0.98097622
+635,,,,,,,,
+636,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
+637,Pen-Based Recognition of Handwritten Text (Local),0.09223974,KMeans,0.52631579,1,KMeans,0.03921569,1.0
+638,Speech Accent Data,0.18948853,Linear,0.11764706,2,KMeans,0.03921569,1.0
+639,Statlog Shuttle,0.6066724,KMeans,0.96766744,3,KMeans,0.03921569,1.0
+640,Letter Recognition,0.7009374,KMeans,0.44545455,4,KMeans,0.03921569,1.0
+641,KDD-Cup99 HTTP,0.9566351,RPCA,0.93849658,5,KMeans,0.03921569,1.0
+642,Landsat Satellite,1.205221,Linear,0.71794872,6,KMeans,0.03921569,1.0
+643,Twitter_volume_IBM.csv,1.3042817,Linear,0.5,7,KMeans,0.03921569,1.0
+644,Twitter_volume_FB.csv,1.3042841,Linear,1.0,8,Linear,0.00416667,0.96495098
+645,Twitter_volume_CRM.csv,1.3045952,KMeans,0.54545455,9,KMeans,0.03921569,1.0
+646,Twitter_volume_KO.csv,1.3045983,Linear,0.8,10,Linear,0.00416667,0.96495098
+647,,,,,,,,
+648,Twitter_volume_CRM.csv,0,KMeans,0.54545455,0,KMeans,0.54545455,1
+649,Pen-Based Recognition of Handwritten Text (Local),0.07060027,KMeans,0.52631579,1,KMeans,0.54545455,1.0
+650,Speech Accent Data,0.1664052,Linear,0.11764706,2,KMeans,0.54545455,1.0
+651,Letter Recognition,0.6783954,KMeans,0.44545455,3,KMeans,0.54545455,1.0
+652,Statlog Shuttle,0.6995503,KMeans,0.96766744,4,KMeans,0.54545455,1.0
+653,KDD-Cup99 HTTP,0.90607214,RPCA,0.93849658,5,KMeans,0.54545455,1.0
+654,Landsat Satellite,1.2830404,Linear,0.71794872,6,KMeans,0.54545455,1.0
+655,Twitter_volume_IBM.csv,1.348227,Linear,0.5,7,KMeans,0.54545455,1.0
+656,Twitter_volume_FB.csv,1.3482295,Linear,1.0,8,Linear,0.5,0.95454545
+657,Twitter_volume_CRM.csv,1.3485551,KMeans,0.54545455,9,KMeans,0.54545455,1.0
+658,Twitter_volume_KO.csv,1.3485582,Linear,0.8,10,Linear,0.5,0.95454545
+659,,,,,,,,
+660,exchange-4_cpc_results.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+661,Pen-Based Recognition of Handwritten Text (Local),0.06156349,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+662,Speech Accent Data,0.15412319,Linear,0.11764706,2,KMeans,0.66666667,1.0
+663,Letter Recognition,0.68265367,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+664,Statlog Shuttle,0.8503046,KMeans,0.96766744,4,KMeans,0.66666667,1.0
+665,KDD-Cup99 HTTP,0.90850013,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+666,Twitter_volume_IBM.csv,1.2177355,Linear,0.5,6,KMeans,0.66666667,1.0
+667,Twitter_volume_FB.csv,1.2177382,Linear,1.0,7,KMeans,0.66666667,1.0
+668,Twitter_volume_CRM.csv,1.218061,KMeans,0.54545455,8,KMeans,0.66666667,1.0
+669,Twitter_volume_KO.csv,1.2180641,Linear,0.8,9,KMeans,0.66666667,1.0
+670,Twitter_volume_AAPL.csv,1.2183836,Linear,0.4,10,Linear,0.66666667,1.0
+671,,,,,,,,
+672,speed_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+673,Pen-Based Recognition of Handwritten Text (Local),0.15146685,KMeans,0.52631579,1,KMeans,0.8,0.8
+674,Speech Accent Data,0.25555336,Linear,0.11764706,2,KMeans,0.8,0.8
+675,Letter Recognition,0.6690265,KMeans,0.44545455,3,KMeans,0.8,0.8
+676,Statlog Shuttle,0.86812747,KMeans,0.96766744,4,KMeans,0.8,0.8
+677,KDD-Cup99 HTTP,0.94653547,RPCA,0.93849658,5,KMeans,0.8,0.8
+678,Twitter_volume_IBM.csv,1.3460559,Linear,0.5,6,KMeans,0.8,0.8
+679,Twitter_volume_FB.csv,1.3460582,Linear,1.0,7,KMeans,0.8,0.8
+680,Twitter_volume_CRM.csv,1.3463666,KMeans,0.54545455,8,KMeans,0.8,0.8
+681,Twitter_volume_KO.csv,1.3463696,Linear,0.8,9,KMeans,0.8,0.8
+682,Twitter_volume_AAPL.csv,1.3466748,Linear,0.4,10,Linear,1.0,1.0
+683,,,,,,,,
+684,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
+685,Pen-Based Recognition of Handwritten Text (Local),0.1488266,KMeans,0.52631579,1,KMeans,0.5,1.0
+686,Speech Accent Data,0.2478534,Linear,0.11764706,2,KMeans,0.5,1.0
+687,Statlog Shuttle,0.58356524,KMeans,0.96766744,3,KMeans,0.5,1.0
+688,Letter Recognition,0.66201496,KMeans,0.44545455,4,KMeans,0.5,1.0
+689,KDD-Cup99 HTTP,0.9088383,RPCA,0.93849658,5,KMeans,0.5,1.0
+690,Landsat Satellite,1.2110891,Linear,0.71794872,6,KMeans,0.5,1.0
+691,Twitter_volume_IBM.csv,1.3421282,Linear,0.5,7,KMeans,0.5,1.0
+692,Twitter_volume_FB.csv,1.3421305,Linear,1.0,8,Linear,0.00416667,0.50416667
+693,Twitter_volume_CRM.csv,1.3424554,KMeans,0.54545455,9,KMeans,0.5,1.0
+694,Twitter_volume_KO.csv,1.3424585,Linear,0.8,10,Linear,0.00416667,0.50416667
+695,,,,,,,,
+696,Twitter_volume_PFE.csv,0,KMeans,0.42857143,0,KMeans,0.42857143,1
+697,Pen-Based Recognition of Handwritten Text (Local),0.12942255,KMeans,0.52631579,1,KMeans,0.42857143,1.0
+698,Speech Accent Data,0.20419252,Linear,0.11764706,2,KMeans,0.42857143,1.0
+699,Statlog Shuttle,0.68346906,KMeans,0.96766744,3,KMeans,0.42857143,1.0
+700,Letter Recognition,0.71456075,KMeans,0.44545455,4,KMeans,0.42857143,1.0
+701,KDD-Cup99 HTTP,0.96110004,RPCA,0.93849658,5,KMeans,0.42857143,1.0
+702,Landsat Satellite,1.27877,Linear,0.71794872,6,KMeans,0.42857143,1.0
+703,Twitter_volume_IBM.csv,1.4062191,Linear,0.5,7,KMeans,0.42857143,1.0
+704,Twitter_volume_FB.csv,1.4062214,Linear,1.0,8,Linear,0.36363636,0.93506493
+705,Twitter_volume_CRM.csv,1.4065316,KMeans,0.54545455,9,KMeans,0.42857143,1.0
+706,Twitter_volume_KO.csv,1.4065344,Linear,0.8,10,Linear,0.36363636,0.93506493
+707,,,,,,,,
+708,exchange-3_cpc_results.csv,0,Linear,0.57142857,0,Linear,0.57142857,1
+709,Pen-Based Recognition of Handwritten Text (Local),0.049398422,KMeans,0.52631579,1,KMeans,0.57142857,1.0
+710,Speech Accent Data,0.1654985,Linear,0.11764706,2,KMeans,0.57142857,1.0
+711,Statlog Shuttle,0.606431,KMeans,0.96766744,3,KMeans,0.57142857,1.0
+712,Letter Recognition,0.63941884,KMeans,0.44545455,4,KMeans,0.57142857,1.0
+713,KDD-Cup99 HTTP,0.9149472,RPCA,0.93849658,5,KMeans,0.57142857,1.0
+714,Landsat Satellite,1.268765,Linear,0.71794872,6,KMeans,0.57142857,1.0
+715,Twitter_volume_IBM.csv,1.3525314,Linear,0.5,7,KMeans,0.57142857,1.0
+716,Twitter_volume_FB.csv,1.3525337,Linear,1.0,8,Linear,0.57142857,1.0
+717,Twitter_volume_CRM.csv,1.352818,KMeans,0.54545455,9,KMeans,0.57142857,1.0
+718,Twitter_volume_KO.csv,1.3528209,Linear,0.8,10,Linear,0.57142857,1.0
+719,,,,,,,,
+720,Twitter_volume_AMZN.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+721,Pen-Based Recognition of Handwritten Text (Local),0.13590622,KMeans,0.52631579,1,KMeans,0.66666667,1.0
+722,Speech Accent Data,0.24190664,Linear,0.11764706,2,KMeans,0.66666667,1.0
+723,Statlog Shuttle,0.4786954,KMeans,0.96766744,3,KMeans,0.66666667,1.0
+724,Letter Recognition,0.6925776,KMeans,0.44545455,4,KMeans,0.66666667,1.0
+725,KDD-Cup99 HTTP,0.9356645,RPCA,0.93849658,5,KMeans,0.66666667,1.0
+726,Landsat Satellite,1.0919452,Linear,0.71794872,6,KMeans,0.66666667,1.0
+727,Twitter_volume_IBM.csv,1.4195279,Linear,0.5,7,KMeans,0.66666667,1.0
+728,Twitter_volume_FB.csv,1.4195303,Linear,1.0,8,Linear,0.57142857,0.9047619
+729,Twitter_volume_CRM.csv,1.4198453,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+730,Twitter_volume_KO.csv,1.4198484,Linear,0.8,10,Linear,0.57142857,0.9047619
+731,,,,,,,,
+732,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
+733,Pen-Based Recognition of Handwritten Text (Local),0.065885544,KMeans,0.52631579,1,KMeans,0.00152207,1.0
+734,Speech Accent Data,0.16918528,Linear,0.11764706,2,KMeans,0.00152207,1.0
+735,Statlog Shuttle,0.68528056,KMeans,0.96766744,3,KMeans,0.00152207,1.0
+736,Letter Recognition,0.68568873,KMeans,0.44545455,4,KMeans,0.00152207,1.0
+737,KDD-Cup99 HTTP,0.9320891,RPCA,0.93849658,5,KMeans,0.00152207,1.0
+738,Landsat Satellite,1.2539673,Linear,0.71794872,6,KMeans,0.00152207,1.0
+739,Twitter_volume_IBM.csv,1.3258278,Linear,0.5,7,KMeans,0.00152207,1.0
+740,Twitter_volume_FB.csv,1.3258303,Linear,1.0,8,Linear,0.00059595,0.99907388
+741,Twitter_volume_CRM.csv,1.3261445,KMeans,0.54545455,9,KMeans,0.00152207,1.0
+742,Twitter_volume_KO.csv,1.3261474,Linear,0.8,10,Linear,0.00059595,0.99907388
+743,,,,,,,,
+744,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
+745,Speech Accent Data,0.04824257,Linear,0.11764706,1,Linear,0.5,1.0
+746,Pen-Based Recognition of Handwritten Text (Local),0.061757207,KMeans,0.52631579,2,KMeans,0.5,1.0
+747,Letter Recognition,0.640098,KMeans,0.44545455,3,KMeans,0.5,1.0
+748,KDD-Cup99 HTTP,0.8873551,RPCA,0.93849658,4,KMeans,0.5,1.0
+749,Statlog Shuttle,0.96788275,KMeans,0.96766744,5,KMeans,0.5,1.0
+750,Twitter_volume_IBM.csv,1.2402048,Linear,0.5,6,KMeans,0.5,1.0
+751,Twitter_volume_FB.csv,1.2402071,Linear,1.0,7,KMeans,0.5,1.0
+752,Twitter_volume_CRM.csv,1.24049,KMeans,0.54545455,8,KMeans,0.5,1.0
+753,Twitter_volume_KO.csv,1.2404926,Linear,0.8,9,KMeans,0.5,1.0
+754,Twitter_volume_AAPL.csv,1.2407722,Linear,0.4,10,Linear,0.5,1.0
+755,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.8461538461538461,0.9545582213846153
+0,,,,,2.0,,0.8461538461538461,0.9545582213846153
+0,,,,,3.0,,0.8461538461538461,0.9545582213846153
+0,,,,,4.0,,0.8461538461538461,0.9545582213846153
+0,,,,,5.0,,0.8461538461538461,0.9545582213846153
+0,,,,,6.0,,0.8461538461538461,0.9545582213846153
+0,,,,,7.0,,0.8461538461538461,0.9545582213846153
+0,,,,,8.0,,0.6153846153846154,0.9132171835384614
+0,,,,,9.0,,0.8461538461538461,0.9545582213846153
+0,,,,,10.0,,0.4,0.8627914272307693

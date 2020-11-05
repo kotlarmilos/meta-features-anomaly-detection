@@ -62,8 +62,8 @@ characterization_filters=['all', 'temporal', 'high_dimensional', 'manufacturing'
 characterization_attributes=['all', 'prefedined', 'user_defined']
 
 
-global_datasets = global_features.loc[global_features['high_dimensional'] == 1]
-datasets = global_datasets.loc[global_datasets['id'].isin(global_datasets.index.to_numpy())]
+global_features = global_features.loc[global_features['high-dimensional'] == 1]
+datasets = global_datasets.loc[global_datasets['id'].isin(global_features.index.to_numpy())]
 
 
 # datasets = global_datasets

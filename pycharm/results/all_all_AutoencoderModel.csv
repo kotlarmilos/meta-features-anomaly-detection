@@ -1,0 +1,768 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
+1,ec2_cpu_utilization_c6585a.csv,0.008708954,Linear,0.0,1,Linear,0.63157895,0.79824562
+2,Pen-Based Recognition of Handwritten Text,0.051665664,KMeans,0.88648649,2,KMeans,0.83333333,1.0
+3,Letter Recognition,0.099912524,KMeans,0.44545455,3,KMeans,0.83333333,1.0
+4,Landsat Satellite,0.21009564,Linear,0.71794872,4,KMeans,0.83333333,1.0
+5,Statlog Shuttle,0.36046326,KMeans,0.96766744,5,KMeans,0.83333333,1.0
+6,ambient_temperature_system_failure.csv,0.5071074,KMeans,0.8,6,KMeans,0.83333333,1.0
+7,nyc_taxi.csv,0.5126766,Linear,0.25,7,KMeans,0.83333333,1.0
+8,Pen-Based Recognition of Handwritten Text (Local),0.6337776,KMeans,0.52631579,8,KMeans,0.83333333,1.0
+9,Object Images,0.8244473,Gaussian,0.06772229,9,KMeans,0.83333333,1.0
+10,art_increase_spike_density.csv,0.9833797,KMeans,0.15384615,10,KMeans,0.83333333,1.0
+11,,,,,,,,
+12,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
+13,ec2_cpu_utilization_c6585a.csv,0.0066701174,Linear,0.0,1,Linear,0.92639843,0.98790185
+14,Pen-Based Recognition of Handwritten Text,0.0823462,KMeans,0.88648649,2,KMeans,0.38537271,0.4468761299999999
+15,Letter Recognition,0.1931901,KMeans,0.44545455,3,KMeans,0.38537271,0.4468761299999999
+16,Landsat Satellite,0.21444762,Linear,0.71794872,4,KMeans,0.38537271,0.4468761299999999
+17,Statlog Shuttle,0.34721053,KMeans,0.96766744,5,KMeans,0.38537271,0.4468761299999999
+18,nyc_taxi.csv,0.47446513,Linear,0.25,6,KMeans,0.38537271,0.4468761299999999
+19,ambient_temperature_system_failure.csv,0.57141244,KMeans,0.8,7,KMeans,0.38537271,0.4468761299999999
+20,Pen-Based Recognition of Handwritten Text (Local),0.6447345,KMeans,0.52631579,8,KMeans,0.38537271,0.4468761299999999
+21,Object Images,0.7273842,Gaussian,0.06772229,9,KMeans,0.38537271,0.4468761299999999
+22,art_increase_spike_density.csv,1.0052958,KMeans,0.15384615,10,KMeans,0.38537271,0.4468761299999999
+23,,,,,,,,
+24,Pen-Based Recognition of Handwritten Text (Local),0,KMeans,0.52631579,0,KMeans,0.52631579,1
+25,ec2_cpu_utilization_c6585a.csv,0.046607256,Linear,0.0,1,Linear,0.02505219,0.4987364000000001
+26,Pen-Based Recognition of Handwritten Text,0.04839015,KMeans,0.88648649,2,KMeans,0.52631579,1.0
+27,Letter Recognition,0.1359514,KMeans,0.44545455,3,KMeans,0.52631579,1.0
+28,Landsat Satellite,0.20431042,Linear,0.71794872,4,KMeans,0.52631579,1.0
+29,Statlog Shuttle,0.3297763,KMeans,0.96766744,5,KMeans,0.52631579,1.0
+30,nyc_taxi.csv,0.35725808,Linear,0.25,6,KMeans,0.52631579,1.0
+31,Pen-Based Recognition of Handwritten Text (Local),0.7032336,KMeans,0.52631579,7,KMeans,0.52631579,1.0
+32,ambient_temperature_system_failure.csv,0.7499894,KMeans,0.8,8,KMeans,0.52631579,1.0
+33,Object Images,0.7700695,Gaussian,0.06772229,9,KMeans,0.52631579,1.0
+34,art_increase_spike_density.csv,1.0432568,KMeans,0.15384615,10,KMeans,0.52631579,1.0
+35,,,,,,,,
+36,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
+37,Pen-Based Recognition of Handwritten Text,0.014562845,KMeans,0.88648649,1,KMeans,0.44545455,1.0
+38,ec2_cpu_utilization_c6585a.csv,0.042211056,Linear,0.0,2,KMeans,0.44545455,1.0
+39,Letter Recognition,0.09260321,KMeans,0.44545455,3,KMeans,0.44545455,1.0
+40,Landsat Satellite,0.22593737,Linear,0.71794872,4,KMeans,0.44545455,1.0
+41,Statlog Shuttle,0.36922896,KMeans,0.96766744,5,KMeans,0.44545455,1.0
+42,nyc_taxi.csv,0.46915364,Linear,0.25,6,KMeans,0.44545455,1.0
+43,ambient_temperature_system_failure.csv,0.5557327,KMeans,0.8,7,KMeans,0.44545455,1.0
+44,Pen-Based Recognition of Handwritten Text (Local),0.60363567,KMeans,0.52631579,8,KMeans,0.44545455,1.0
+45,Object Images,0.8319409,Gaussian,0.06772229,9,KMeans,0.44545455,1.0
+46,art_increase_spike_density.csv,0.97338015,KMeans,0.15384615,10,KMeans,0.44545455,1.0
+47,,,,,,,,
+48,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
+49,ec2_cpu_utilization_c6585a.csv,0.010664344,Linear,0.0,1,Linear,0.19112628,0.96795031
+50,Pen-Based Recognition of Handwritten Text,0.037404656,KMeans,0.88648649,2,KMeans,0.22317597,1.0
+51,Letter Recognition,0.10600841,KMeans,0.44545455,3,KMeans,0.22317597,1.0
+52,Landsat Satellite,0.21342158,Linear,0.71794872,4,KMeans,0.22317597,1.0
+53,Statlog Shuttle,0.3332777,KMeans,0.96766744,5,KMeans,0.22317597,1.0
+54,nyc_taxi.csv,0.47509944,Linear,0.25,6,KMeans,0.22317597,1.0
+55,ambient_temperature_system_failure.csv,0.5625936,KMeans,0.8,7,KMeans,0.22317597,1.0
+56,Pen-Based Recognition of Handwritten Text (Local),0.6141089,KMeans,0.52631579,8,KMeans,0.22317597,1.0
+57,Object Images,0.78237474,Gaussian,0.06772229,9,KMeans,0.22317597,1.0
+58,art_increase_spike_density.csv,0.9996705,KMeans,0.15384615,10,KMeans,0.22317597,1.0
+59,,,,,,,,
+60,Statlog Shuttle,0,KMeans,0.96766744,0,KMeans,0.96766744,1
+61,Pen-Based Recognition of Handwritten Text,0.031736135,KMeans,0.88648649,1,KMeans,0.96766744,1.0
+62,ec2_cpu_utilization_c6585a.csv,0.06614232,Linear,0.0,2,KMeans,0.96766744,1.0
+63,Letter Recognition,0.13051987,KMeans,0.44545455,3,KMeans,0.96766744,1.0
+64,Landsat Satellite,0.22496593,Linear,0.71794872,4,KMeans,0.96766744,1.0
+65,Statlog Shuttle,0.3446566,KMeans,0.96766744,5,KMeans,0.96766744,1.0
+66,nyc_taxi.csv,0.39775753,Linear,0.25,6,KMeans,0.96766744,1.0
+67,Pen-Based Recognition of Handwritten Text (Local),0.63267136,KMeans,0.52631579,7,KMeans,0.96766744,1.0
+68,ambient_temperature_system_failure.csv,0.67219603,KMeans,0.8,8,KMeans,0.96766744,1.0
+69,Object Images,0.8050126,Gaussian,0.06772229,9,KMeans,0.96766744,1.0
+70,art_increase_spike_density.csv,0.95069766,KMeans,0.15384615,10,KMeans,0.96766744,1.0
+71,,,,,,,,
+72,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
+73,ec2_cpu_utilization_c6585a.csv,0.016210318,Linear,0.0,1,Linear,0.0663518,0.99862951
+74,Pen-Based Recognition of Handwritten Text,0.07154405,KMeans,0.88648649,2,KMeans,0.05851859,0.9907963
+75,Letter Recognition,0.17148817,KMeans,0.44545455,3,KMeans,0.05851859,0.9907963
+76,Landsat Satellite,0.24647403,Linear,0.71794872,4,KMeans,0.05851859,0.9907963
+77,Statlog Shuttle,0.36790383,KMeans,0.96766744,5,KMeans,0.05851859,0.9907963
+78,nyc_taxi.csv,0.49502766,Linear,0.25,6,KMeans,0.05851859,0.9907963
+79,ambient_temperature_system_failure.csv,0.56586933,KMeans,0.8,7,KMeans,0.05851859,0.9907963
+80,Pen-Based Recognition of Handwritten Text (Local),0.6250105,KMeans,0.52631579,8,KMeans,0.05851859,0.9907963
+81,Object Images,0.8658564,Gaussian,0.06772229,9,KMeans,0.05851859,0.9907963
+82,art_increase_spike_density.csv,0.991047,KMeans,0.15384615,10,KMeans,0.05851859,0.9907963
+83,,,,,,,,
+84,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
+85,Pen-Based Recognition of Handwritten Text,0.012853146,KMeans,0.88648649,1,KMeans,0.05384615,0.93619909
+86,ec2_cpu_utilization_c6585a.csv,0.07738924,Linear,0.0,2,KMeans,0.05384615,0.93619909
+87,Letter Recognition,0.10977411,KMeans,0.44545455,3,KMeans,0.05384615,0.93619909
+88,Landsat Satellite,0.19011915,Linear,0.71794872,4,KMeans,0.05384615,0.93619909
+89,Statlog Shuttle,0.3302735,KMeans,0.96766744,5,KMeans,0.05384615,0.93619909
+90,nyc_taxi.csv,0.43119335,Linear,0.25,6,KMeans,0.05384615,0.93619909
+91,Pen-Based Recognition of Handwritten Text (Local),0.5754986,KMeans,0.52631579,7,KMeans,0.05384615,0.93619909
+92,ambient_temperature_system_failure.csv,0.6138147,KMeans,0.8,8,KMeans,0.05384615,0.93619909
+93,Object Images,0.8171886,Gaussian,0.06772229,9,KMeans,0.05384615,0.93619909
+94,art_increase_spike_density.csv,0.9448028,KMeans,0.15384615,10,KMeans,0.05384615,0.93619909
+95,,,,,,,,
+96,Pen-Based Recognition of Handwritten Text,0,KMeans,0.88648649,0,KMeans,0.88648649,1
+97,Pen-Based Recognition of Handwritten Text,0.037274003,KMeans,0.88648649,1,KMeans,0.88648649,1.0
+98,ec2_cpu_utilization_c6585a.csv,0.043973684,Linear,0.0,2,KMeans,0.88648649,1.0
+99,Letter Recognition,0.11396873,KMeans,0.44545455,3,KMeans,0.88648649,1.0
+100,Landsat Satellite,0.21266067,Linear,0.71794872,4,KMeans,0.88648649,1.0
+101,Statlog Shuttle,0.33997977,KMeans,0.96766744,5,KMeans,0.88648649,1.0
+102,nyc_taxi.csv,0.38212967,Linear,0.25,6,KMeans,0.88648649,1.0
+103,Pen-Based Recognition of Handwritten Text (Local),0.6186298,KMeans,0.52631579,7,KMeans,0.88648649,1.0
+104,ambient_temperature_system_failure.csv,0.6860813,KMeans,0.8,8,KMeans,0.88648649,1.0
+105,Object Images,0.79530776,Gaussian,0.06772229,9,KMeans,0.88648649,1.0
+106,art_increase_spike_density.csv,0.9584686,KMeans,0.15384615,10,KMeans,0.88648649,1.0
+107,,,,,,,,
+108,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
+109,Pen-Based Recognition of Handwritten Text,0.011470795,KMeans,0.88648649,1,KMeans,0.65517241,0.93722369
+110,Letter Recognition,0.057219386,KMeans,0.44545455,2,KMeans,0.65517241,0.93722369
+111,ec2_cpu_utilization_c6585a.csv,0.10889614,Linear,0.0,3,KMeans,0.65517241,0.93722369
+112,Landsat Satellite,0.13266611,Linear,0.71794872,4,KMeans,0.65517241,0.93722369
+113,Statlog Shuttle,0.26696134,KMeans,0.96766744,5,KMeans,0.65517241,0.93722369
+114,nyc_taxi.csv,0.3330083,Linear,0.25,6,KMeans,0.65517241,0.93722369
+115,Pen-Based Recognition of Handwritten Text (Local),0.51099694,KMeans,0.52631579,7,KMeans,0.65517241,0.93722369
+116,ambient_temperature_system_failure.csv,0.73285353,KMeans,0.8,8,KMeans,0.65517241,0.93722369
+117,Object Images,0.8944348,Gaussian,0.06772229,9,KMeans,0.65517241,0.93722369
+118,art_increase_spike_density.csv,0.90538716,KMeans,0.15384615,10,KMeans,0.65517241,0.93722369
+119,,,,,,,,
+120,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
+121,ec2_cpu_utilization_c6585a.csv,0.06482601,Linear,0.0,1,Linear,0.14285714,0.34285714
+122,Pen-Based Recognition of Handwritten Text,0.072312355,KMeans,0.88648649,2,KMeans,0.8,1.0
+123,Letter Recognition,0.15128577,KMeans,0.44545455,3,KMeans,0.8,1.0
+124,Landsat Satellite,0.20054471,Linear,0.71794872,4,KMeans,0.8,1.0
+125,nyc_taxi.csv,0.20855212,Linear,0.25,5,Linear,0.14285714,0.34285714
+126,Statlog Shuttle,0.3185357,KMeans,0.96766744,6,KMeans,0.8,1.0
+127,Pen-Based Recognition of Handwritten Text (Local),0.60869765,KMeans,0.52631579,7,KMeans,0.8,1.0
+128,Object Images,0.8662882,Gaussian,0.06772229,8,KMeans,0.8,1.0
+129,ambient_temperature_system_failure.csv,0.89626503,KMeans,0.8,9,KMeans,0.8,1.0
+130,art_increase_spike_density.csv,0.9368263,KMeans,0.15384615,10,KMeans,0.8,1.0
+131,,,,,,,,
+132,exchange-3_cpm_results.csv,0,Linear,1.0,0,Linear,1.0,1
+133,Pen-Based Recognition of Handwritten Text,0.05271423,KMeans,0.88648649,1,KMeans,1.0,1.0
+134,ec2_cpu_utilization_c6585a.csv,0.053932667,Linear,0.0,2,KMeans,1.0,1.0
+135,Letter Recognition,0.11597228,KMeans,0.44545455,3,KMeans,1.0,1.0
+136,Landsat Satellite,0.2342323,Linear,0.71794872,4,KMeans,1.0,1.0
+137,Statlog Shuttle,0.34698796,KMeans,0.96766744,5,KMeans,1.0,1.0
+138,nyc_taxi.csv,0.4584973,Linear,0.25,6,KMeans,1.0,1.0
+139,Pen-Based Recognition of Handwritten Text (Local),0.5812677,KMeans,0.52631579,7,KMeans,1.0,1.0
+140,ambient_temperature_system_failure.csv,0.5867362,KMeans,0.8,8,KMeans,1.0,1.0
+141,Object Images,0.8078635,Gaussian,0.06772229,9,KMeans,1.0,1.0
+142,art_increase_spike_density.csv,0.946602,KMeans,0.15384615,10,KMeans,1.0,1.0
+143,,,,,,,,
+144,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
+145,ec2_cpu_utilization_c6585a.csv,0.029147506,Linear,0.0,1,Linear,0.4,1.0
+146,Pen-Based Recognition of Handwritten Text,0.06423974,KMeans,0.88648649,2,KMeans,0.4,1.0
+147,Letter Recognition,0.1460861,KMeans,0.44545455,3,KMeans,0.4,1.0
+148,Landsat Satellite,0.24004054,Linear,0.71794872,4,KMeans,0.4,1.0
+149,Statlog Shuttle,0.37565958,KMeans,0.96766744,5,KMeans,0.4,1.0
+150,ambient_temperature_system_failure.csv,0.39619887,KMeans,0.8,6,KMeans,0.4,1.0
+151,nyc_taxi.csv,0.61373496,Linear,0.25,7,KMeans,0.4,1.0
+152,Pen-Based Recognition of Handwritten Text (Local),0.6196228,KMeans,0.52631579,8,KMeans,0.4,1.0
+153,Object Images,0.7840401,Gaussian,0.06772229,9,KMeans,0.4,1.0
+154,art_increase_spike_density.csv,0.9866808,KMeans,0.15384615,10,KMeans,0.4,1.0
+155,,,,,,,,
+156,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+157,ec2_cpu_utilization_c6585a.csv,0.033376336,Linear,0.0,1,Linear,0.57142857,0.9047619
+158,Pen-Based Recognition of Handwritten Text,0.045981288,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+159,Letter Recognition,0.10733974,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+160,Landsat Satellite,0.2310363,Linear,0.71794872,4,KMeans,0.66666667,1.0
+161,Statlog Shuttle,0.34339607,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+162,ambient_temperature_system_failure.csv,0.48886955,KMeans,0.8,6,KMeans,0.66666667,1.0
+163,nyc_taxi.csv,0.5349834,Linear,0.25,7,KMeans,0.66666667,1.0
+164,Pen-Based Recognition of Handwritten Text (Local),0.63552237,KMeans,0.52631579,8,KMeans,0.66666667,1.0
+165,Object Images,0.7689549,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+166,art_increase_spike_density.csv,0.97573525,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+167,,,,,,,,
+168,speed_7578.csv,0,KMeans,0.75,0,KMeans,0.75,1
+169,ec2_cpu_utilization_c6585a.csv,0.05914128,Linear,0.0,1,Linear,0.4,0.65
+170,Pen-Based Recognition of Handwritten Text,0.06022644,KMeans,0.88648649,2,KMeans,0.75,1.0
+171,Letter Recognition,0.12380421,KMeans,0.44545455,3,KMeans,0.75,1.0
+172,Landsat Satellite,0.20252919,Linear,0.71794872,4,KMeans,0.75,1.0
+173,Statlog Shuttle,0.33780313,KMeans,0.96766744,5,KMeans,0.75,1.0
+174,nyc_taxi.csv,0.42859578,Linear,0.25,6,KMeans,0.75,1.0
+175,Pen-Based Recognition of Handwritten Text (Local),0.5438676,KMeans,0.52631579,7,KMeans,0.75,1.0
+176,ambient_temperature_system_failure.csv,0.6131507,KMeans,0.8,8,KMeans,0.75,1.0
+177,Object Images,0.79007804,Gaussian,0.06772229,9,KMeans,0.75,1.0
+178,art_increase_spike_density.csv,0.9624573,KMeans,0.15384615,10,KMeans,0.75,1.0
+179,,,,,,,,
+180,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+181,ec2_cpu_utilization_c6585a.csv,0.039063454,Linear,0.0,1,Linear,0.125,0.45833333
+182,Pen-Based Recognition of Handwritten Text,0.063803315,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+183,Letter Recognition,0.17450047,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+184,Landsat Satellite,0.24109316,Linear,0.71794872,4,KMeans,0.66666667,1.0
+185,Statlog Shuttle,0.3582511,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+186,nyc_taxi.csv,0.4756496,Linear,0.25,6,KMeans,0.66666667,1.0
+187,ambient_temperature_system_failure.csv,0.55850077,KMeans,0.8,7,KMeans,0.66666667,1.0
+188,Pen-Based Recognition of Handwritten Text (Local),0.59648514,KMeans,0.52631579,8,KMeans,0.66666667,1.0
+189,Object Images,0.82894254,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+190,art_increase_spike_density.csv,0.9537303,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+191,,,,,,,,
+192,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
+193,ec2_cpu_utilization_c6585a.csv,0.05663073,Linear,0.0,1,Linear,0.4,0.9
+194,Pen-Based Recognition of Handwritten Text,0.062313676,KMeans,0.88648649,2,KMeans,0.5,1.0
+195,Letter Recognition,0.16146302,KMeans,0.44545455,3,KMeans,0.5,1.0
+196,Landsat Satellite,0.22580588,Linear,0.71794872,4,KMeans,0.5,1.0
+197,Statlog Shuttle,0.33946836,KMeans,0.96766744,5,KMeans,0.5,1.0
+198,nyc_taxi.csv,0.36121535,Linear,0.25,6,KMeans,0.5,1.0
+199,Pen-Based Recognition of Handwritten Text (Local),0.5667231,KMeans,0.52631579,7,KMeans,0.5,1.0
+200,ambient_temperature_system_failure.csv,0.69995475,KMeans,0.8,8,KMeans,0.5,1.0
+201,Object Images,0.83111167,Gaussian,0.06772229,9,KMeans,0.5,1.0
+202,art_increase_spike_density.csv,0.96201485,KMeans,0.15384615,10,KMeans,0.5,1.0
+203,,,,,,,,
+204,exchange-4_cpm_results.csv,0,KMeans,0.75,0,KMeans,0.75,1
+205,ec2_cpu_utilization_c6585a.csv,0.03264022,Linear,0.0,1,Linear,0.66666667,0.91666667
+206,Pen-Based Recognition of Handwritten Text,0.09977627,KMeans,0.88648649,2,KMeans,0.75,1.0
+207,Letter Recognition,0.18329012,KMeans,0.44545455,3,KMeans,0.75,1.0
+208,Landsat Satellite,0.28213656,Linear,0.71794872,4,KMeans,0.75,1.0
+209,Statlog Shuttle,0.38790107,KMeans,0.96766744,5,KMeans,0.75,1.0
+210,ambient_temperature_system_failure.csv,0.48640823,KMeans,0.8,6,KMeans,0.75,1.0
+211,nyc_taxi.csv,0.5433322,Linear,0.25,7,KMeans,0.75,1.0
+212,Pen-Based Recognition of Handwritten Text (Local),0.57636535,KMeans,0.52631579,8,KMeans,0.75,1.0
+213,Object Images,0.8067813,Gaussian,0.06772229,9,KMeans,0.75,1.0
+214,art_increase_spike_density.csv,0.98033965,KMeans,0.15384615,10,KMeans,0.75,1.0
+215,,,,,,,,
+216,TravelTime_387.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+217,ec2_cpu_utilization_c6585a.csv,0.042207718,Linear,0.0,1,Linear,0.5,0.83333333
+218,Pen-Based Recognition of Handwritten Text,0.044243455,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+219,Letter Recognition,0.12289715,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+220,Landsat Satellite,0.23282206,Linear,0.71794872,4,KMeans,0.66666667,1.0
+221,Statlog Shuttle,0.37626326,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+222,nyc_taxi.csv,0.39144683,Linear,0.25,6,KMeans,0.66666667,1.0
+223,Pen-Based Recognition of Handwritten Text (Local),0.58788204,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+224,ambient_temperature_system_failure.csv,0.67790115,KMeans,0.8,8,KMeans,0.66666667,1.0
+225,Object Images,0.836589,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+226,art_increase_spike_density.csv,0.96422523,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+227,,,,,,,,
+228,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
+229,ec2_cpu_utilization_c6585a.csv,0.0516268,Linear,0.0,1,Linear,0.0,1.0
+230,Pen-Based Recognition of Handwritten Text,0.05771172,KMeans,0.88648649,2,KMeans,0.0,1.0
+231,Letter Recognition,0.1181066,KMeans,0.44545455,3,KMeans,0.0,1.0
+232,Landsat Satellite,0.21991408,Linear,0.71794872,4,KMeans,0.0,1.0
+233,Statlog Shuttle,0.36174047,KMeans,0.96766744,5,KMeans,0.0,1.0
+234,nyc_taxi.csv,0.44454145,Linear,0.25,6,KMeans,0.0,1.0
+235,Pen-Based Recognition of Handwritten Text (Local),0.581216,KMeans,0.52631579,7,KMeans,0.0,1.0
+236,ambient_temperature_system_failure.csv,0.5907905,KMeans,0.8,8,KMeans,0.0,1.0
+237,Object Images,0.83358335,Gaussian,0.06772229,9,KMeans,0.0,1.0
+238,art_increase_spike_density.csv,0.9473113,KMeans,0.15384615,10,KMeans,0.0,1.0
+239,,,,,,,,
+240,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
+241,Pen-Based Recognition of Handwritten Text,0.015504718,KMeans,0.88648649,1,KMeans,0.00075287,0.99991832
+242,ec2_cpu_utilization_c6585a.csv,0.068327904,Linear,0.0,2,KMeans,0.00075287,0.99991832
+243,Letter Recognition,0.11295283,KMeans,0.44545455,3,KMeans,0.00075287,0.99991832
+244,Landsat Satellite,0.17943096,Linear,0.71794872,4,KMeans,0.00075287,0.99991832
+245,Statlog Shuttle,0.29027712,KMeans,0.96766744,5,KMeans,0.00075287,0.99991832
+246,nyc_taxi.csv,0.42811906,Linear,0.25,6,KMeans,0.00075287,0.99991832
+247,ambient_temperature_system_failure.csv,0.6066487,KMeans,0.8,7,KMeans,0.00075287,0.99991832
+248,Pen-Based Recognition of Handwritten Text (Local),0.61114514,KMeans,0.52631579,8,KMeans,0.00075287,0.99991832
+249,Object Images,0.82418084,Gaussian,0.06772229,9,KMeans,0.00075287,0.99991832
+250,art_increase_spike_density.csv,0.9321226,KMeans,0.15384615,10,KMeans,0.00075287,0.99991832
+251,,,,,,,,
+252,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
+253,Pen-Based Recognition of Handwritten Text,0.04843676,KMeans,0.88648649,1,KMeans,1.0,1.0
+254,ec2_cpu_utilization_c6585a.csv,0.053433537,Linear,0.0,2,KMeans,1.0,1.0
+255,Letter Recognition,0.121097565,KMeans,0.44545455,3,KMeans,1.0,1.0
+256,Landsat Satellite,0.23976052,Linear,0.71794872,4,KMeans,1.0,1.0
+257,Statlog Shuttle,0.3711437,KMeans,0.96766744,5,KMeans,1.0,1.0
+258,nyc_taxi.csv,0.5044943,Linear,0.25,6,KMeans,1.0,1.0
+259,ambient_temperature_system_failure.csv,0.5152458,KMeans,0.8,7,KMeans,1.0,1.0
+260,Pen-Based Recognition of Handwritten Text (Local),0.62340736,KMeans,0.52631579,8,KMeans,1.0,1.0
+261,Object Images,0.8878428,Gaussian,0.06772229,9,KMeans,1.0,1.0
+262,art_increase_spike_density.csv,0.9547613,KMeans,0.15384615,10,KMeans,1.0,1.0
+263,,,,,,,,
+264,nyc_taxi.csv,0,Linear,0.25,0,Linear,0.25,1
+265,Pen-Based Recognition of Handwritten Text,0.022569776,KMeans,0.88648649,1,KMeans,0.25,1.0
+266,ec2_cpu_utilization_c6585a.csv,0.027318,Linear,0.0,2,KMeans,0.25,1.0
+267,Letter Recognition,0.123836875,KMeans,0.44545455,3,KMeans,0.25,1.0
+268,Landsat Satellite,0.17476165,Linear,0.71794872,4,KMeans,0.25,1.0
+269,Statlog Shuttle,0.31263757,KMeans,0.96766744,5,KMeans,0.25,1.0
+270,ambient_temperature_system_failure.csv,0.49046302,KMeans,0.8,6,KMeans,0.25,1.0
+271,nyc_taxi.csv,0.52524185,Linear,0.25,7,KMeans,0.25,1.0
+272,Pen-Based Recognition of Handwritten Text (Local),0.5936303,KMeans,0.52631579,8,KMeans,0.25,1.0
+273,Object Images,0.86843157,Gaussian,0.06772229,9,KMeans,0.25,1.0
+274,art_increase_spike_density.csv,0.97390944,KMeans,0.15384615,10,KMeans,0.25,1.0
+275,,,,,,,,
+276,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
+277,ec2_cpu_utilization_c6585a.csv,0.020702958,Linear,0.0,1,Linear,0.5,0.92857143
+278,Pen-Based Recognition of Handwritten Text,0.023501754,KMeans,0.88648649,2,KMeans,0.57142857,1.0
+279,Letter Recognition,0.13716185,KMeans,0.44545455,3,KMeans,0.57142857,1.0
+280,Landsat Satellite,0.14219868,Linear,0.71794872,4,KMeans,0.57142857,1.0
+281,Statlog Shuttle,0.28453314,KMeans,0.96766744,5,KMeans,0.57142857,1.0
+282,nyc_taxi.csv,0.4353708,Linear,0.25,6,KMeans,0.57142857,1.0
+283,Pen-Based Recognition of Handwritten Text (Local),0.5952865,KMeans,0.52631579,7,KMeans,0.57142857,1.0
+284,ambient_temperature_system_failure.csv,0.6024164,KMeans,0.8,8,KMeans,0.57142857,1.0
+285,Object Images,0.7675127,Gaussian,0.06772229,9,KMeans,0.57142857,1.0
+286,art_increase_spike_density.csv,0.99549544,KMeans,0.15384615,10,KMeans,0.57142857,1.0
+287,,,,,,,,
+288,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
+289,ec2_cpu_utilization_c6585a.csv,0.009162188,Linear,0.0,1,Linear,0.0,0.98
+290,Pen-Based Recognition of Handwritten Text,0.09918666,KMeans,0.88648649,2,KMeans,0.02,1.0
+291,Letter Recognition,0.19314384,KMeans,0.44545455,3,KMeans,0.02,1.0
+292,Landsat Satellite,0.2812575,Linear,0.71794872,4,KMeans,0.02,1.0
+293,nyc_taxi.csv,0.40422535,Linear,0.25,5,Linear,0.0,0.98
+294,Statlog Shuttle,0.40503383,KMeans,0.96766744,6,KMeans,0.02,1.0
+295,Pen-Based Recognition of Handwritten Text (Local),0.64019084,KMeans,0.52631579,7,KMeans,0.02,1.0
+296,ambient_temperature_system_failure.csv,0.6581452,KMeans,0.8,8,KMeans,0.02,1.0
+297,Object Images,0.7108309,Gaussian,0.06772229,9,KMeans,0.02,1.0
+298,art_increase_spike_density.csv,1.0127516,KMeans,0.15384615,10,KMeans,0.02,1.0
+299,,,,,,,,
+300,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
+301,Pen-Based Recognition of Handwritten Text,0.029252887,KMeans,0.88648649,1,KMeans,0.5,1.0
+302,Letter Recognition,0.070861936,KMeans,0.44545455,2,KMeans,0.5,1.0
+303,ec2_cpu_utilization_c6585a.csv,0.0968945,Linear,0.0,3,KMeans,0.5,1.0
+304,Landsat Satellite,0.19532466,Linear,0.71794872,4,KMeans,0.5,1.0
+305,Statlog Shuttle,0.3173169,KMeans,0.96766744,5,KMeans,0.5,1.0
+306,nyc_taxi.csv,0.4303671,Linear,0.25,6,KMeans,0.5,1.0
+307,Pen-Based Recognition of Handwritten Text (Local),0.5842444,KMeans,0.52631579,7,KMeans,0.5,1.0
+308,ambient_temperature_system_failure.csv,0.6100924,KMeans,0.8,8,KMeans,0.5,1.0
+309,Object Images,0.8902497,Gaussian,0.06772229,9,KMeans,0.5,1.0
+310,art_increase_spike_density.csv,0.9133859,KMeans,0.15384615,10,KMeans,0.5,1.0
+311,,,,,,,,
+312,TravelTime_451.csv,0,KMeans,0.4,0,KMeans,0.4,1
+313,Pen-Based Recognition of Handwritten Text,0.02804327,KMeans,0.88648649,1,KMeans,0.4,1.0
+314,ec2_cpu_utilization_c6585a.csv,0.08598983,Linear,0.0,2,KMeans,0.4,1.0
+315,Letter Recognition,0.15966558,KMeans,0.44545455,3,KMeans,0.4,1.0
+316,Landsat Satellite,0.21015012,Linear,0.71794872,4,KMeans,0.4,1.0
+317,Statlog Shuttle,0.32608855,KMeans,0.96766744,5,KMeans,0.4,1.0
+318,nyc_taxi.csv,0.39300215,Linear,0.25,6,KMeans,0.4,1.0
+319,Pen-Based Recognition of Handwritten Text (Local),0.6054989,KMeans,0.52631579,7,KMeans,0.4,1.0
+320,ambient_temperature_system_failure.csv,0.6596136,KMeans,0.8,8,KMeans,0.4,1.0
+321,Object Images,0.8401494,Gaussian,0.06772229,9,KMeans,0.4,1.0
+322,art_increase_spike_density.csv,0.9333622,KMeans,0.15384615,10,KMeans,0.4,1.0
+323,,,,,,,,
+324,Twitter_volume_AAPL.csv,0,Linear,0.4,0,Linear,0.4,1
+325,ec2_cpu_utilization_c6585a.csv,0.021953464,Linear,0.0,1,Linear,0.4,1.0
+326,Pen-Based Recognition of Handwritten Text,0.10498834,KMeans,0.88648649,2,KMeans,0.4,1.0
+327,Letter Recognition,0.17513025,KMeans,0.44545455,3,KMeans,0.4,1.0
+328,Landsat Satellite,0.2722491,Linear,0.71794872,4,KMeans,0.4,1.0
+329,Statlog Shuttle,0.40591967,KMeans,0.96766744,5,KMeans,0.4,1.0
+330,nyc_taxi.csv,0.40864217,Linear,0.25,6,KMeans,0.4,1.0
+331,ambient_temperature_system_failure.csv,0.6782783,KMeans,0.8,7,KMeans,0.4,1.0
+332,Pen-Based Recognition of Handwritten Text (Local),0.6986748,KMeans,0.52631579,8,KMeans,0.4,1.0
+333,Object Images,0.82322633,Gaussian,0.06772229,9,KMeans,0.4,1.0
+334,art_increase_spike_density.csv,1.0335745,KMeans,0.15384615,10,KMeans,0.4,1.0
+335,,,,,,,,
+336,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+337,Pen-Based Recognition of Handwritten Text,0.005449176,KMeans,0.88648649,1,KMeans,0.66666667,1.0
+338,Letter Recognition,0.05736661,KMeans,0.44545455,2,KMeans,0.66666667,1.0
+339,ec2_cpu_utilization_c6585a.csv,0.08638561,Linear,0.0,3,KMeans,0.66666667,1.0
+340,Landsat Satellite,0.14426672,Linear,0.71794872,4,KMeans,0.66666667,1.0
+341,Statlog Shuttle,0.2680658,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+342,nyc_taxi.csv,0.41950667,Linear,0.25,6,KMeans,0.66666667,1.0
+343,Pen-Based Recognition of Handwritten Text (Local),0.5735245,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+344,ambient_temperature_system_failure.csv,0.6155462,KMeans,0.8,8,KMeans,0.66666667,1.0
+345,Object Images,0.9169264,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+346,art_increase_spike_density.csv,0.925774,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+347,,,,,,,,
+348,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+349,ec2_cpu_utilization_c6585a.csv,0.01761496,Linear,0.0,1,Linear,0.66666667,1.0
+350,Pen-Based Recognition of Handwritten Text,0.0634079,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+351,Letter Recognition,0.11630452,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+352,Landsat Satellite,0.3410679,Linear,0.71794872,4,KMeans,0.66666667,1.0
+353,Statlog Shuttle,0.42410183,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+354,nyc_taxi.csv,0.45957506,Linear,0.25,6,KMeans,0.66666667,1.0
+355,ambient_temperature_system_failure.csv,0.5907122,KMeans,0.8,7,KMeans,0.66666667,1.0
+356,Pen-Based Recognition of Handwritten Text (Local),0.65844035,KMeans,0.52631579,8,KMeans,0.66666667,1.0
+357,Object Images,0.81131685,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+358,art_increase_spike_density.csv,0.9774245,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+359,,,,,,,,
+360,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+361,Pen-Based Recognition of Handwritten Text,0.03012979,KMeans,0.88648649,1,KMeans,0.66666667,1.0
+362,ec2_cpu_utilization_c6585a.csv,0.05736959,Linear,0.0,2,KMeans,0.66666667,1.0
+363,Letter Recognition,0.10821831,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+364,Landsat Satellite,0.20894337,Linear,0.71794872,4,KMeans,0.66666667,1.0
+365,nyc_taxi.csv,0.32474196,Linear,0.25,5,Linear,0.00312012,0.33645344999999993
+366,Statlog Shuttle,0.33313346,KMeans,0.96766744,6,KMeans,0.66666667,1.0
+367,Pen-Based Recognition of Handwritten Text (Local),0.54849124,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+368,ambient_temperature_system_failure.csv,0.75617254,KMeans,0.8,8,KMeans,0.66666667,1.0
+369,Object Images,0.8177093,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+370,art_increase_spike_density.csv,0.9510985,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+371,,,,,,,,
+372,Twitter_volume_UPS.csv,0,Linear,0.28571429,0,Linear,0.28571429,1
+373,Pen-Based Recognition of Handwritten Text,0.028777242,KMeans,0.88648649,1,KMeans,0.22222222,0.93650793
+374,ec2_cpu_utilization_c6585a.csv,0.06339085,Linear,0.0,2,KMeans,0.22222222,0.93650793
+375,Letter Recognition,0.10394883,KMeans,0.44545455,3,KMeans,0.22222222,0.93650793
+376,Landsat Satellite,0.18201983,Linear,0.71794872,4,KMeans,0.22222222,0.93650793
+377,Statlog Shuttle,0.31095767,KMeans,0.96766744,5,KMeans,0.22222222,0.93650793
+378,nyc_taxi.csv,0.32264984,Linear,0.25,6,KMeans,0.22222222,0.93650793
+379,Pen-Based Recognition of Handwritten Text (Local),0.5551132,KMeans,0.52631579,7,KMeans,0.22222222,0.93650793
+380,ambient_temperature_system_failure.csv,0.7630302,KMeans,0.8,8,KMeans,0.22222222,0.93650793
+381,Object Images,0.8837999,Gaussian,0.06772229,9,KMeans,0.22222222,0.93650793
+382,art_increase_spike_density.csv,0.9471432,KMeans,0.15384615,10,KMeans,0.22222222,0.93650793
+383,,,,,,,,
+384,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
+385,Pen-Based Recognition of Handwritten Text,0.017695546,KMeans,0.88648649,1,KMeans,0.03030303,1.0
+386,Letter Recognition,0.08069885,KMeans,0.44545455,2,KMeans,0.03030303,1.0
+387,ec2_cpu_utilization_c6585a.csv,0.08873224,Linear,0.0,3,KMeans,0.03030303,1.0
+388,Landsat Satellite,0.17749,Linear,0.71794872,4,KMeans,0.03030303,1.0
+389,Statlog Shuttle,0.31271684,KMeans,0.96766744,5,KMeans,0.03030303,1.0
+390,nyc_taxi.csv,0.434435,Linear,0.25,6,KMeans,0.03030303,1.0
+391,Pen-Based Recognition of Handwritten Text (Local),0.5640093,KMeans,0.52631579,7,KMeans,0.03030303,1.0
+392,ambient_temperature_system_failure.csv,0.60574436,KMeans,0.8,8,KMeans,0.03030303,1.0
+393,Object Images,0.92643476,Gaussian,0.06772229,9,KMeans,0.03030303,1.0
+394,art_increase_spike_density.csv,0.9279677,KMeans,0.15384615,10,KMeans,0.03030303,1.0
+395,,,,,,,,
+396,exchange-2_cpm_results.csv,0,KMeans,0.8,0,KMeans,0.8,1
+397,ec2_cpu_utilization_c6585a.csv,0.033343554,Linear,0.0,1,Linear,0.5,0.7
+398,Pen-Based Recognition of Handwritten Text,0.093423486,KMeans,0.88648649,2,KMeans,0.8,1.0
+399,Letter Recognition,0.16052902,KMeans,0.44545455,3,KMeans,0.8,1.0
+400,Landsat Satellite,0.22596717,Linear,0.71794872,4,KMeans,0.8,1.0
+401,Statlog Shuttle,0.33651578,KMeans,0.96766744,5,KMeans,0.8,1.0
+402,nyc_taxi.csv,0.48210216,Linear,0.25,6,KMeans,0.8,1.0
+403,ambient_temperature_system_failure.csv,0.5510075,KMeans,0.8,7,KMeans,0.8,1.0
+404,Pen-Based Recognition of Handwritten Text (Local),0.6585822,KMeans,0.52631579,8,KMeans,0.8,1.0
+405,Object Images,0.83723855,Gaussian,0.06772229,9,KMeans,0.8,1.0
+406,art_increase_spike_density.csv,0.96673083,KMeans,0.15384615,10,KMeans,0.8,1.0
+407,,,,,,,,
+408,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+409,Pen-Based Recognition of Handwritten Text,0.016829371,KMeans,0.88648649,1,KMeans,0.66666667,1.0
+410,Letter Recognition,0.0832566,KMeans,0.44545455,2,KMeans,0.66666667,1.0
+411,ec2_cpu_utilization_c6585a.csv,0.10603249,Linear,0.0,3,KMeans,0.66666667,1.0
+412,Landsat Satellite,0.1812545,Linear,0.71794872,4,KMeans,0.66666667,1.0
+413,Statlog Shuttle,0.27627826,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+414,nyc_taxi.csv,0.4076929,Linear,0.25,6,KMeans,0.66666667,1.0
+415,Pen-Based Recognition of Handwritten Text (Local),0.5345247,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+416,ambient_temperature_system_failure.csv,0.62459993,KMeans,0.8,8,KMeans,0.66666667,1.0
+417,Object Images,0.87441087,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+418,art_increase_spike_density.csv,0.9021033,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+419,,,,,,,,
+420,speed_6005.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+421,Pen-Based Recognition of Handwritten Text,0.026276946,KMeans,0.88648649,1,KMeans,0.66666667,1.0
+422,ec2_cpu_utilization_c6585a.csv,0.04349482,Linear,0.0,2,KMeans,0.66666667,1.0
+423,Letter Recognition,0.107727885,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+424,Landsat Satellite,0.16331112,Linear,0.71794872,4,KMeans,0.66666667,1.0
+425,Statlog Shuttle,0.2962761,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+426,nyc_taxi.csv,0.33058167,Linear,0.25,6,KMeans,0.66666667,1.0
+427,Pen-Based Recognition of Handwritten Text (Local),0.58953404,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+428,ambient_temperature_system_failure.csv,0.76411104,KMeans,0.8,8,KMeans,0.66666667,1.0
+429,Object Images,0.8538914,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+430,art_increase_spike_density.csv,0.96489096,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+431,,,,,,,,
+432,Twitter_volume_KO.csv,0,Linear,0.8,0,Linear,0.8,1
+433,Pen-Based Recognition of Handwritten Text,0.04266584,KMeans,0.88648649,1,KMeans,0.8,1.0
+434,ec2_cpu_utilization_c6585a.csv,0.090069056,Linear,0.0,2,KMeans,0.8,1.0
+435,Letter Recognition,0.0977695,KMeans,0.44545455,3,KMeans,0.8,1.0
+436,Landsat Satellite,0.15389526,Linear,0.71794872,4,KMeans,0.8,1.0
+437,Statlog Shuttle,0.27520478,KMeans,0.96766744,5,KMeans,0.8,1.0
+438,nyc_taxi.csv,0.35572004,Linear,0.25,6,KMeans,0.8,1.0
+439,Pen-Based Recognition of Handwritten Text (Local),0.5661464,KMeans,0.52631579,7,KMeans,0.8,1.0
+440,ambient_temperature_system_failure.csv,0.6851903,KMeans,0.8,8,KMeans,0.8,1.0
+441,Object Images,0.8754605,Gaussian,0.06772229,9,KMeans,0.8,1.0
+442,art_increase_spike_density.csv,0.9152864,KMeans,0.15384615,10,KMeans,0.8,1.0
+443,,,,,,,,
+444,Twitter_volume_GOOG.csv,0,Linear,0.4,0,Linear,0.4,1
+445,Pen-Based Recognition of Handwritten Text,0.0441736,KMeans,0.88648649,1,KMeans,0.4,1.0
+446,ec2_cpu_utilization_c6585a.csv,0.062320113,Linear,0.0,2,KMeans,0.4,1.0
+447,Letter Recognition,0.11261022,KMeans,0.44545455,3,KMeans,0.4,1.0
+448,Landsat Satellite,0.18445718,Linear,0.71794872,4,KMeans,0.4,1.0
+449,Statlog Shuttle,0.3093145,KMeans,0.96766744,5,KMeans,0.4,1.0
+450,nyc_taxi.csv,0.39609027,Linear,0.25,6,KMeans,0.4,1.0
+451,Pen-Based Recognition of Handwritten Text (Local),0.6079593,KMeans,0.52631579,7,KMeans,0.4,1.0
+452,ambient_temperature_system_failure.csv,0.6467936,KMeans,0.8,8,KMeans,0.4,1.0
+453,Object Images,0.8651171,Gaussian,0.06772229,9,KMeans,0.4,1.0
+454,art_increase_spike_density.csv,0.96394503,KMeans,0.15384615,10,KMeans,0.4,1.0
+455,,,,,,,,
+456,exchange-2_cpc_results.csv,0,KMeans,0.33333333,0,KMeans,0.33333333,1
+457,ec2_cpu_utilization_c6585a.csv,0.053931475,Linear,0.0,1,Linear,0.06666667,0.73333334
+458,Pen-Based Recognition of Handwritten Text,0.059973836,KMeans,0.88648649,2,KMeans,0.33333333,1.0
+459,Letter Recognition,0.15847051,KMeans,0.44545455,3,KMeans,0.33333333,1.0
+460,Landsat Satellite,0.23907363,Linear,0.71794872,4,KMeans,0.33333333,1.0
+461,Statlog Shuttle,0.34993708,KMeans,0.96766744,5,KMeans,0.33333333,1.0
+462,nyc_taxi.csv,0.45074117,Linear,0.25,6,KMeans,0.33333333,1.0
+463,Pen-Based Recognition of Handwritten Text (Local),0.5569289,KMeans,0.52631579,7,KMeans,0.33333333,1.0
+464,ambient_temperature_system_failure.csv,0.5683987,KMeans,0.8,8,KMeans,0.33333333,1.0
+465,Object Images,0.77922344,Gaussian,0.06772229,9,KMeans,0.33333333,1.0
+466,art_increase_spike_density.csv,0.9711931,KMeans,0.15384615,10,KMeans,0.33333333,1.0
+467,,,,,,,,
+468,Twitter_volume_CVS.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+469,ec2_cpu_utilization_c6585a.csv,0.017562747,Linear,0.0,1,Linear,0.66666667,1.0
+470,Pen-Based Recognition of Handwritten Text,0.06057751,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+471,Letter Recognition,0.16361547,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+472,Landsat Satellite,0.2125119,Linear,0.71794872,4,KMeans,0.66666667,1.0
+473,Statlog Shuttle,0.33384037,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+474,ambient_temperature_system_failure.csv,0.5065291,KMeans,0.8,6,KMeans,0.66666667,1.0
+475,nyc_taxi.csv,0.5204896,Linear,0.25,7,KMeans,0.66666667,1.0
+476,Pen-Based Recognition of Handwritten Text (Local),0.6080786,KMeans,0.52631579,8,KMeans,0.66666667,1.0
+477,Object Images,0.7304568,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+478,art_increase_spike_density.csv,0.9878359,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+479,,,,,,,,
+480,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
+481,Pen-Based Recognition of Handwritten Text,0.014160991,KMeans,0.88648649,1,KMeans,0.00775194,1.0
+482,Letter Recognition,0.08629584,KMeans,0.44545455,2,KMeans,0.00775194,1.0
+483,Landsat Satellite,0.09840238,Linear,0.71794872,3,KMeans,0.00775194,1.0
+484,ec2_cpu_utilization_c6585a.csv,0.12662196,Linear,0.0,4,KMeans,0.00775194,1.0
+485,Statlog Shuttle,0.22536445,KMeans,0.96766744,5,KMeans,0.00775194,1.0
+486,nyc_taxi.csv,0.33074224,Linear,0.25,6,KMeans,0.00775194,1.0
+487,Pen-Based Recognition of Handwritten Text (Local),0.53529024,KMeans,0.52631579,7,KMeans,0.00775194,1.0
+488,ambient_temperature_system_failure.csv,0.7344744,KMeans,0.8,8,KMeans,0.00775194,1.0
+489,art_increase_spike_density.csv,0.8891588,KMeans,0.15384615,9,KMeans,0.00775194,1.0
+490,Object Images,0.93385124,Gaussian,0.06772229,10,KMeans,0.00775194,1.0
+491,,,,,,,,
+492,occupancy_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+493,Pen-Based Recognition of Handwritten Text,0.020388722,KMeans,0.88648649,1,KMeans,1.0,1.0
+494,ec2_cpu_utilization_c6585a.csv,0.076475024,Linear,0.0,2,KMeans,1.0,1.0
+495,Letter Recognition,0.11444092,KMeans,0.44545455,3,KMeans,1.0,1.0
+496,Landsat Satellite,0.14447069,Linear,0.71794872,4,KMeans,1.0,1.0
+497,Statlog Shuttle,0.27087843,KMeans,0.96766744,5,KMeans,1.0,1.0
+498,nyc_taxi.csv,0.48839688,Linear,0.25,6,KMeans,1.0,1.0
+499,ambient_temperature_system_failure.csv,0.530522,KMeans,0.8,7,KMeans,1.0,1.0
+500,Pen-Based Recognition of Handwritten Text (Local),0.5778004,KMeans,0.52631579,8,KMeans,1.0,1.0
+501,Object Images,0.80486,Gaussian,0.06772229,9,KMeans,1.0,1.0
+502,art_increase_spike_density.csv,0.9265793,KMeans,0.15384615,10,KMeans,1.0,1.0
+503,,,,,,,,
+504,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
+505,ec2_cpu_utilization_c6585a.csv,0.018448472,Linear,0.0,1,Linear,0.01960784,0.79738562
+506,Pen-Based Recognition of Handwritten Text,0.04654956,KMeans,0.88648649,2,KMeans,0.22222222,1.0
+507,Letter Recognition,0.17794216,KMeans,0.44545455,3,KMeans,0.22222222,1.0
+508,Landsat Satellite,0.18275571,Linear,0.71794872,4,KMeans,0.22222222,1.0
+509,Statlog Shuttle,0.31878018,KMeans,0.96766744,5,KMeans,0.22222222,1.0
+510,nyc_taxi.csv,0.39064944,Linear,0.25,6,KMeans,0.22222222,1.0
+511,Pen-Based Recognition of Handwritten Text (Local),0.64257026,KMeans,0.52631579,7,KMeans,0.22222222,1.0
+512,ambient_temperature_system_failure.csv,0.6913506,KMeans,0.8,8,KMeans,0.22222222,1.0
+513,Object Images,0.7706393,Gaussian,0.06772229,9,KMeans,0.22222222,1.0
+514,art_increase_spike_density.csv,0.97972053,KMeans,0.15384615,10,KMeans,0.22222222,1.0
+515,,,,,,,,
+516,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
+517,Pen-Based Recognition of Handwritten Text,0.002641797,KMeans,0.88648649,1,KMeans,0.00212993,0.99876293
+518,Letter Recognition,0.08848441,KMeans,0.44545455,2,KMeans,0.00212993,0.99876293
+519,Landsat Satellite,0.12448478,Linear,0.71794872,3,KMeans,0.00212993,0.99876293
+520,ec2_cpu_utilization_c6585a.csv,0.12921011,Linear,0.0,4,KMeans,0.00212993,0.99876293
+521,nyc_taxi.csv,0.22470927,Linear,0.25,5,Linear,0.003367,1.0
+522,Statlog Shuttle,0.23778582,KMeans,0.96766744,6,KMeans,0.00212993,0.99876293
+523,Pen-Based Recognition of Handwritten Text (Local),0.52768826,KMeans,0.52631579,7,KMeans,0.00212993,0.99876293
+524,ambient_temperature_system_failure.csv,0.8570533,KMeans,0.8,8,KMeans,0.00212993,0.99876293
+525,art_increase_spike_density.csv,0.8744655,KMeans,0.15384615,9,KMeans,0.00212993,0.99876293
+526,Object Images,0.94408655,Gaussian,0.06772229,10,KMeans,0.00212993,0.99876293
+527,,,,,,,,
+528,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
+529,Pen-Based Recognition of Handwritten Text,0.01762569,KMeans,0.88648649,1,KMeans,0.25,1.0
+530,ec2_cpu_utilization_c6585a.csv,0.0831157,Linear,0.0,2,KMeans,0.25,1.0
+531,Letter Recognition,0.13243806,KMeans,0.44545455,3,KMeans,0.25,1.0
+532,Landsat Satellite,0.19202602,Linear,0.71794872,4,KMeans,0.25,1.0
+533,Statlog Shuttle,0.3021828,KMeans,0.96766744,5,KMeans,0.25,1.0
+534,nyc_taxi.csv,0.39063418,Linear,0.25,6,KMeans,0.25,1.0
+535,Pen-Based Recognition of Handwritten Text (Local),0.58338,KMeans,0.52631579,7,KMeans,0.25,1.0
+536,ambient_temperature_system_failure.csv,0.6744263,KMeans,0.8,8,KMeans,0.25,1.0
+537,Object Images,0.8572445,Gaussian,0.06772229,9,KMeans,0.25,1.0
+538,art_increase_spike_density.csv,0.925836,KMeans,0.15384615,10,KMeans,0.25,1.0
+539,,,,,,,,
+540,Twitter_volume_FB.csv,0,Linear,1.0,0,Linear,1.0,1
+541,ec2_cpu_utilization_c6585a.csv,0.027188182,Linear,0.0,1,Linear,1.0,1.0
+542,Pen-Based Recognition of Handwritten Text,0.09866917,KMeans,0.88648649,2,KMeans,1.0,1.0
+543,Letter Recognition,0.15995538,KMeans,0.44545455,3,KMeans,1.0,1.0
+544,Landsat Satellite,0.24711204,Linear,0.71794872,4,KMeans,1.0,1.0
+545,Statlog Shuttle,0.36657417,KMeans,0.96766744,5,KMeans,1.0,1.0
+546,nyc_taxi.csv,0.44509304,Linear,0.25,6,KMeans,1.0,1.0
+547,ambient_temperature_system_failure.csv,0.6052098,KMeans,0.8,7,KMeans,1.0,1.0
+548,Pen-Based Recognition of Handwritten Text (Local),0.62699366,KMeans,0.52631579,8,KMeans,1.0,1.0
+549,Object Images,0.7904122,Gaussian,0.06772229,9,KMeans,1.0,1.0
+550,art_increase_spike_density.csv,0.96766984,KMeans,0.15384615,10,KMeans,1.0,1.0
+551,,,,,,,,
+552,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
+553,ec2_cpu_utilization_c6585a.csv,0.003561139,Linear,0.0,1,Linear,0.04,0.88615385
+554,Pen-Based Recognition of Handwritten Text,0.079175115,KMeans,0.88648649,2,KMeans,0.15384615,1.0
+555,Letter Recognition,0.14669836,KMeans,0.44545455,3,KMeans,0.15384615,1.0
+556,Landsat Satellite,0.23760211,Linear,0.71794872,4,KMeans,0.15384615,1.0
+557,Statlog Shuttle,0.3771521,KMeans,0.96766744,5,KMeans,0.15384615,1.0
+558,nyc_taxi.csv,0.46649885,Linear,0.25,6,KMeans,0.15384615,1.0
+559,ambient_temperature_system_failure.csv,0.56203663,KMeans,0.8,7,KMeans,0.15384615,1.0
+560,Pen-Based Recognition of Handwritten Text (Local),0.63836837,KMeans,0.52631579,8,KMeans,0.15384615,1.0
+561,Object Images,0.73756874,Gaussian,0.06772229,9,KMeans,0.15384615,1.0
+562,art_increase_spike_density.csv,0.9969384,KMeans,0.15384615,10,KMeans,0.15384615,1.0
+563,,,,,,,,
+564,occupancy_6005.csv,0,Linear,1.0,0,Linear,1.0,1
+565,ec2_cpu_utilization_c6585a.csv,0.046004295,Linear,0.0,1,Linear,1.0,1.0
+566,Pen-Based Recognition of Handwritten Text,0.06552446,KMeans,0.88648649,2,KMeans,1.0,1.0
+567,Letter Recognition,0.12777519,KMeans,0.44545455,3,KMeans,1.0,1.0
+568,Landsat Satellite,0.22618318,Linear,0.71794872,4,KMeans,1.0,1.0
+569,Statlog Shuttle,0.36869967,KMeans,0.96766744,5,KMeans,1.0,1.0
+570,nyc_taxi.csv,0.40331292,Linear,0.25,6,KMeans,1.0,1.0
+571,Pen-Based Recognition of Handwritten Text (Local),0.61448956,KMeans,0.52631579,7,KMeans,1.0,1.0
+572,ambient_temperature_system_failure.csv,0.66273105,KMeans,0.8,8,KMeans,1.0,1.0
+573,Object Images,0.80881083,Gaussian,0.06772229,9,KMeans,1.0,1.0
+574,art_increase_spike_density.csv,0.9580152,KMeans,0.15384615,10,KMeans,1.0,1.0
+575,,,,,,,,
+576,Twitter_volume_IBM.csv,0,Linear,0.5,0,Linear,0.5,1
+577,ec2_cpu_utilization_c6585a.csv,0.015070438,Linear,0.0,1,Linear,0.5,1.0
+578,Pen-Based Recognition of Handwritten Text,0.066492796,KMeans,0.88648649,2,KMeans,0.5,1.0
+579,Letter Recognition,0.1607666,KMeans,0.44545455,3,KMeans,0.5,1.0
+580,Landsat Satellite,0.25062883,Linear,0.71794872,4,KMeans,0.5,1.0
+581,Statlog Shuttle,0.36938488,KMeans,0.96766744,5,KMeans,0.5,1.0
+582,nyc_taxi.csv,0.4673667,Linear,0.25,6,KMeans,0.5,1.0
+583,ambient_temperature_system_failure.csv,0.57885873,KMeans,0.8,7,KMeans,0.5,1.0
+584,Pen-Based Recognition of Handwritten Text (Local),0.6462326,KMeans,0.52631579,8,KMeans,0.5,1.0
+585,Object Images,0.78396857,Gaussian,0.06772229,9,KMeans,0.5,1.0
+586,art_increase_spike_density.csv,1.0298316,KMeans,0.15384615,10,KMeans,0.5,1.0
+587,,,,,,,,
+588,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
+589,ec2_cpu_utilization_c6585a.csv,0.013531327,Linear,0.0,1,Linear,0.66666667,0.66666667
+590,Pen-Based Recognition of Handwritten Text,0.05307424,KMeans,0.88648649,2,KMeans,1.0,1.0
+591,Letter Recognition,0.14764953,KMeans,0.44545455,3,KMeans,1.0,1.0
+592,Landsat Satellite,0.25680733,Linear,0.71794872,4,KMeans,1.0,1.0
+593,Statlog Shuttle,0.38966107,KMeans,0.96766744,5,KMeans,1.0,1.0
+594,ambient_temperature_system_failure.csv,0.47960138,KMeans,0.8,6,KMeans,1.0,1.0
+595,nyc_taxi.csv,0.5459094,Linear,0.25,7,KMeans,1.0,1.0
+596,Pen-Based Recognition of Handwritten Text (Local),0.6497643,KMeans,0.52631579,8,KMeans,1.0,1.0
+597,Object Images,0.68658733,Gaussian,0.06772229,9,KMeans,1.0,1.0
+598,art_increase_spike_density.csv,1.0026209,KMeans,0.15384615,10,KMeans,1.0,1.0
+599,,,,,,,,
+600,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
+601,Pen-Based Recognition of Handwritten Text,0.03558612,KMeans,0.88648649,1,KMeans,0.08695652,1.0
+602,ec2_cpu_utilization_c6585a.csv,0.066584945,Linear,0.0,2,KMeans,0.08695652,1.0
+603,Letter Recognition,0.14460802,KMeans,0.44545455,3,KMeans,0.08695652,1.0
+604,Landsat Satellite,0.21844304,Linear,0.71794872,4,KMeans,0.08695652,1.0
+605,Statlog Shuttle,0.3444171,KMeans,0.96766744,5,KMeans,0.08695652,1.0
+606,nyc_taxi.csv,0.4573599,Linear,0.25,6,KMeans,0.08695652,1.0
+607,Pen-Based Recognition of Handwritten Text (Local),0.5655513,KMeans,0.52631579,7,KMeans,0.08695652,1.0
+608,ambient_temperature_system_failure.csv,0.5712284,KMeans,0.8,8,KMeans,0.08695652,1.0
+609,Object Images,0.760852,Gaussian,0.06772229,9,KMeans,0.08695652,1.0
+610,art_increase_spike_density.csv,0.9253604,KMeans,0.15384615,10,KMeans,0.08695652,1.0
+611,,,,,,,,
+612,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
+613,Pen-Based Recognition of Handwritten Text,0.045086265,KMeans,0.88648649,1,KMeans,0.5,1.0
+614,ec2_cpu_utilization_c6585a.csv,0.055433393,Linear,0.0,2,KMeans,0.5,1.0
+615,Letter Recognition,0.08798504,KMeans,0.44545455,3,KMeans,0.5,1.0
+616,Landsat Satellite,0.21257484,Linear,0.71794872,4,KMeans,0.5,1.0
+617,Statlog Shuttle,0.34233677,KMeans,0.96766744,5,KMeans,0.5,1.0
+618,nyc_taxi.csv,0.5059384,Linear,0.25,6,KMeans,0.5,1.0
+619,ambient_temperature_system_failure.csv,0.5133679,KMeans,0.8,7,KMeans,0.5,1.0
+620,Pen-Based Recognition of Handwritten Text (Local),0.60490596,KMeans,0.52631579,8,KMeans,0.5,1.0
+621,Object Images,0.8121848,Gaussian,0.06772229,9,KMeans,0.5,1.0
+622,art_increase_spike_density.csv,0.9480484,KMeans,0.15384615,10,KMeans,0.5,1.0
+623,,,,,,,,
+624,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
+625,ec2_cpu_utilization_c6585a.csv,0.0011410713,Linear,0.0,1,Linear,0.02352941,0.98097622
+626,Pen-Based Recognition of Handwritten Text,0.023572683,KMeans,0.88648649,2,KMeans,0.04255319,1.0
+627,Letter Recognition,0.101505995,KMeans,0.44545455,3,KMeans,0.04255319,1.0
+628,Landsat Satellite,0.16858041,Linear,0.71794872,4,KMeans,0.04255319,1.0
+629,Statlog Shuttle,0.3210833,KMeans,0.96766744,5,KMeans,0.04255319,1.0
+630,nyc_taxi.csv,0.47411847,Linear,0.25,6,KMeans,0.04255319,1.0
+631,ambient_temperature_system_failure.csv,0.57081306,KMeans,0.8,7,KMeans,0.04255319,1.0
+632,Pen-Based Recognition of Handwritten Text (Local),0.6171838,KMeans,0.52631579,8,KMeans,0.04255319,1.0
+633,Object Images,0.80047834,Gaussian,0.06772229,9,KMeans,0.04255319,1.0
+634,art_increase_spike_density.csv,1.003704,KMeans,0.15384615,10,KMeans,0.04255319,1.0
+635,,,,,,,,
+636,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
+637,Pen-Based Recognition of Handwritten Text,0.034487963,KMeans,0.88648649,1,KMeans,0.03921569,1.0
+638,ec2_cpu_utilization_c6585a.csv,0.07378352,Linear,0.0,2,KMeans,0.03921569,1.0
+639,Letter Recognition,0.1129632,KMeans,0.44545455,3,KMeans,0.03921569,1.0
+640,Landsat Satellite,0.17618906,Linear,0.71794872,4,KMeans,0.03921569,1.0
+641,Statlog Shuttle,0.29548073,KMeans,0.96766744,5,KMeans,0.03921569,1.0
+642,nyc_taxi.csv,0.48789537,Linear,0.25,6,KMeans,0.03921569,1.0
+643,ambient_temperature_system_failure.csv,0.53160477,KMeans,0.8,7,KMeans,0.03921569,1.0
+644,Pen-Based Recognition of Handwritten Text (Local),0.568805,KMeans,0.52631579,8,KMeans,0.03921569,1.0
+645,Object Images,0.8527341,Gaussian,0.06772229,9,KMeans,0.03921569,1.0
+646,art_increase_spike_density.csv,0.930301,KMeans,0.15384615,10,KMeans,0.03921569,1.0
+647,,,,,,,,
+648,Twitter_volume_CRM.csv,0,KMeans,0.54545455,0,KMeans,0.54545455,1
+649,ec2_cpu_utilization_c6585a.csv,0.048178554,Linear,0.0,1,Linear,0.5,0.95454545
+650,Pen-Based Recognition of Handwritten Text,0.0750463,KMeans,0.88648649,2,KMeans,0.54545455,1.0
+651,Letter Recognition,0.15424395,KMeans,0.44545455,3,KMeans,0.54545455,1.0
+652,Landsat Satellite,0.21005547,Linear,0.71794872,4,KMeans,0.54545455,1.0
+653,Statlog Shuttle,0.35578263,KMeans,0.96766744,5,KMeans,0.54545455,1.0
+654,nyc_taxi.csv,0.3877039,Linear,0.25,6,KMeans,0.54545455,1.0
+655,Pen-Based Recognition of Handwritten Text (Local),0.6050801,KMeans,0.52631579,7,KMeans,0.54545455,1.0
+656,ambient_temperature_system_failure.csv,0.68276155,KMeans,0.8,8,KMeans,0.54545455,1.0
+657,Object Images,0.78844845,Gaussian,0.06772229,9,KMeans,0.54545455,1.0
+658,art_increase_spike_density.csv,0.9583773,KMeans,0.15384615,10,KMeans,0.54545455,1.0
+659,,,,,,,,
+660,exchange-4_cpc_results.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+661,Pen-Based Recognition of Handwritten Text,0.024151921,KMeans,0.88648649,1,KMeans,0.66666667,1.0
+662,ec2_cpu_utilization_c6585a.csv,0.0523237,Linear,0.0,2,KMeans,0.66666667,1.0
+663,Letter Recognition,0.10632348,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+664,Landsat Satellite,0.1800369,Linear,0.71794872,4,KMeans,0.66666667,1.0
+665,Statlog Shuttle,0.31955898,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+666,nyc_taxi.csv,0.5105901,Linear,0.25,6,KMeans,0.66666667,1.0
+667,ambient_temperature_system_failure.csv,0.5107069,KMeans,0.8,7,KMeans,0.66666667,1.0
+668,Pen-Based Recognition of Handwritten Text (Local),0.6029786,KMeans,0.52631579,8,KMeans,0.66666667,1.0
+669,Object Images,0.835706,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+670,art_increase_spike_density.csv,0.96023667,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+671,,,,,,,,
+672,speed_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+673,ec2_cpu_utilization_c6585a.csv,0.041595817,Linear,0.0,1,Linear,1.0,1.0
+674,Pen-Based Recognition of Handwritten Text,0.049170613,KMeans,0.88648649,2,KMeans,0.8,0.8
+675,Letter Recognition,0.12245345,KMeans,0.44545455,3,KMeans,0.8,0.8
+676,Landsat Satellite,0.20803249,Linear,0.71794872,4,KMeans,0.8,0.8
+677,nyc_taxi.csv,0.33876312,Linear,0.25,5,Linear,1.0,1.0
+678,Statlog Shuttle,0.35641623,KMeans,0.96766744,6,KMeans,0.8,0.8
+679,Pen-Based Recognition of Handwritten Text (Local),0.6015482,KMeans,0.52631579,7,KMeans,0.8,0.8
+680,ambient_temperature_system_failure.csv,0.73671603,KMeans,0.8,8,KMeans,0.8,0.8
+681,Object Images,0.75465345,Gaussian,0.06772229,9,KMeans,0.8,0.8
+682,art_increase_spike_density.csv,0.98978174,KMeans,0.15384615,10,KMeans,0.8,0.8
+683,,,,,,,,
+684,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
+685,Pen-Based Recognition of Handwritten Text,0.019490719,KMeans,0.88648649,1,KMeans,0.5,1.0
+686,Letter Recognition,0.0858897,KMeans,0.44545455,2,KMeans,0.5,1.0
+687,ec2_cpu_utilization_c6585a.csv,0.08647597,Linear,0.0,3,KMeans,0.5,1.0
+688,Landsat Satellite,0.17081249,Linear,0.71794872,4,KMeans,0.5,1.0
+689,Statlog Shuttle,0.31386387,KMeans,0.96766744,5,KMeans,0.5,1.0
+690,nyc_taxi.csv,0.325482,Linear,0.25,6,KMeans,0.5,1.0
+691,Pen-Based Recognition of Handwritten Text (Local),0.5641427,KMeans,0.52631579,7,KMeans,0.5,1.0
+692,ambient_temperature_system_failure.csv,0.7635119,KMeans,0.8,8,KMeans,0.5,1.0
+693,Object Images,0.8669033,Gaussian,0.06772229,9,KMeans,0.5,1.0
+694,art_increase_spike_density.csv,0.9423063,KMeans,0.15384615,10,KMeans,0.5,1.0
+695,,,,,,,,
+696,Twitter_volume_PFE.csv,0,KMeans,0.42857143,0,KMeans,0.42857143,1
+697,ec2_cpu_utilization_c6585a.csv,0.038259625,Linear,0.0,1,Linear,0.36363636,0.93506493
+698,Pen-Based Recognition of Handwritten Text,0.08024514,KMeans,0.88648649,2,KMeans,0.42857143,1.0
+699,Letter Recognition,0.1543132,KMeans,0.44545455,3,KMeans,0.42857143,1.0
+700,Landsat Satellite,0.24906647,Linear,0.71794872,4,KMeans,0.42857143,1.0
+701,Statlog Shuttle,0.36849475,KMeans,0.96766744,5,KMeans,0.42857143,1.0
+702,ambient_temperature_system_failure.csv,0.4351008,KMeans,0.8,6,KMeans,0.42857143,1.0
+703,nyc_taxi.csv,0.5672741,Linear,0.25,7,KMeans,0.42857143,1.0
+704,Pen-Based Recognition of Handwritten Text (Local),0.6235548,KMeans,0.52631579,8,KMeans,0.42857143,1.0
+705,Object Images,0.74149346,Gaussian,0.06772229,9,KMeans,0.42857143,1.0
+706,art_increase_spike_density.csv,0.9727321,KMeans,0.15384615,10,KMeans,0.42857143,1.0
+707,,,,,,,,
+708,exchange-3_cpc_results.csv,0,Linear,0.57142857,0,Linear,0.57142857,1
+709,Letter Recognition,0.003328085,KMeans,0.44545455,1,KMeans,0.57142857,1.0
+710,Landsat Satellite,0.06357384,Linear,0.71794872,2,KMeans,0.57142857,1.0
+711,Pen-Based Recognition of Handwritten Text,0.065412045,KMeans,0.88648649,3,KMeans,0.57142857,1.0
+712,ec2_cpu_utilization_c6585a.csv,0.123078346,Linear,0.0,4,KMeans,0.57142857,1.0
+713,Statlog Shuttle,0.19553375,KMeans,0.96766744,5,KMeans,0.57142857,1.0
+714,nyc_taxi.csv,0.22604537,Linear,0.25,6,KMeans,0.57142857,1.0
+715,Pen-Based Recognition of Handwritten Text (Local),0.5294399,KMeans,0.52631579,7,KMeans,0.57142857,1.0
+716,ambient_temperature_system_failure.csv,0.8475567,KMeans,0.8,8,KMeans,0.57142857,1.0
+717,art_increase_spike_density.csv,0.8845316,KMeans,0.15384615,9,KMeans,0.57142857,1.0
+718,Object Images,0.9182848,Gaussian,0.06772229,10,KMeans,0.57142857,1.0
+719,,,,,,,,
+720,Twitter_volume_AMZN.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+721,Pen-Based Recognition of Handwritten Text,0.023940802,KMeans,0.88648649,1,KMeans,0.66666667,1.0
+722,ec2_cpu_utilization_c6585a.csv,0.03198409,Linear,0.0,2,KMeans,0.66666667,1.0
+723,Letter Recognition,0.09734249,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+724,Landsat Satellite,0.16622114,Linear,0.71794872,4,KMeans,0.66666667,1.0
+725,Statlog Shuttle,0.31258845,KMeans,0.96766744,5,KMeans,0.66666667,1.0
+726,nyc_taxi.csv,0.43512857,Linear,0.25,6,KMeans,0.66666667,1.0
+727,Pen-Based Recognition of Handwritten Text (Local),0.5834508,KMeans,0.52631579,7,KMeans,0.66666667,1.0
+728,ambient_temperature_system_failure.csv,0.62546885,KMeans,0.8,8,KMeans,0.66666667,1.0
+729,Object Images,0.7957748,Gaussian,0.06772229,9,KMeans,0.66666667,1.0
+730,art_increase_spike_density.csv,0.9725868,KMeans,0.15384615,10,KMeans,0.66666667,1.0
+731,,,,,,,,
+732,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
+733,Pen-Based Recognition of Handwritten Text,0.006754279,KMeans,0.88648649,1,KMeans,0.00152207,1.0
+734,ec2_cpu_utilization_c6585a.csv,0.023434758,Linear,0.0,2,KMeans,0.00152207,1.0
+735,Letter Recognition,0.098035336,KMeans,0.44545455,3,KMeans,0.00152207,1.0
+736,Landsat Satellite,0.18408597,Linear,0.71794872,4,KMeans,0.00152207,1.0
+737,Statlog Shuttle,0.32884812,KMeans,0.96766744,5,KMeans,0.00152207,1.0
+738,nyc_taxi.csv,0.46122766,Linear,0.25,6,KMeans,0.00152207,1.0
+739,ambient_temperature_system_failure.csv,0.5867487,KMeans,0.8,7,KMeans,0.00152207,1.0
+740,Pen-Based Recognition of Handwritten Text (Local),0.6436995,KMeans,0.52631579,8,KMeans,0.00152207,1.0
+741,Object Images,0.7724503,Gaussian,0.06772229,9,KMeans,0.00152207,1.0
+742,art_increase_spike_density.csv,0.98984706,KMeans,0.15384615,10,KMeans,0.00152207,1.0
+743,,,,,,,,
+744,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
+745,Pen-Based Recognition of Handwritten Text,0.014201999,KMeans,0.88648649,1,KMeans,0.5,1.0
+746,Letter Recognition,0.0476588,KMeans,0.44545455,2,KMeans,0.5,1.0
+747,ec2_cpu_utilization_c6585a.csv,0.09784353,Linear,0.0,3,KMeans,0.5,1.0
+748,Landsat Satellite,0.13911378,Linear,0.71794872,4,KMeans,0.5,1.0
+749,Statlog Shuttle,0.2660557,KMeans,0.96766744,5,KMeans,0.5,1.0
+750,nyc_taxi.csv,0.48442662,Linear,0.25,6,KMeans,0.5,1.0
+751,ambient_temperature_system_failure.csv,0.51962566,KMeans,0.8,7,KMeans,0.5,1.0
+752,Pen-Based Recognition of Handwritten Text (Local),0.56496155,KMeans,0.52631579,8,KMeans,0.5,1.0
+753,Object Images,0.87750864,Gaussian,0.06772229,9,KMeans,0.5,1.0
+754,art_increase_spike_density.csv,0.9153508,KMeans,0.15384615,10,KMeans,0.5,1.0
+755,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.5538461538461539,0.9019803927692308
+0,,,,,2.0,,0.8461538461538461,0.9545582213846153
+0,,,,,3.0,,0.8461538461538461,0.9545582213846153
+0,,,,,4.0,,0.8461538461538461,0.9545582213846153
+0,,,,,5.0,,0.8307692307692308,0.9370281853846154
+0,,,,,6.0,,0.8461538461538461,0.9545582213846153
+0,,,,,7.0,,0.8461538461538461,0.9545582213846153
+0,,,,,8.0,,0.8461538461538461,0.9545582213846153
+0,,,,,9.0,,0.8461538461538461,0.9545582213846153
+0,,,,,10.0,,0.8461538461538461,0.9545582213846153

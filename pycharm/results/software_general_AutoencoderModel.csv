@@ -1,0 +1,372 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
+1,Landsat Satellite,2.7126417,Linear,0.71794872,1,Linear,0.92639843,0.98790185
+2,ec2_cpu_utilization_c6585a.csv,4.645782,Linear,0.0,2,Linear,0.92639843,0.98790185
+3,machine_temperature_system_failure.csv,7.1866555,Linear,0.4,3,Linear,0.92639843,0.98790185
+4,cpu_utilization_asg_misconfiguration.csv,7.3791227,KMeans,0.00775194,4,Linear,0.92639843,0.98790185
+5,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.492253,KMeans,0.5,5,Linear,0.92639843,0.98790185
+6,art_increase_spike_density.csv,7.5149703,KMeans,0.15384615,6,KMeans,0.38537271,0.4468761299999999
+7,Statlog Shuttle,7.5339594,KMeans,0.96766744,7,KMeans,0.38537271,0.4468761299999999
+8,ec2_cpu_utilization_77c1ca.csv,7.5789866,KMeans,0.03921569,8,KMeans,0.38537271,0.4468761299999999
+9,ec2_cpu_utilization_53ea38.csv,7.5789866,KMeans,0.04255319,9,KMeans,0.38537271,0.4468761299999999
+10,ec2_cpu_utilization_24ae8d.csv,7.5789866,KMeans,1.0,10,KMeans,0.38537271,0.4468761299999999
+11,,,,,,,,
+12,Statlog Shuttle,0,KMeans,0.96766744,0,KMeans,0.96766744,1
+13,Landsat Satellite,2.3542938,Linear,0.71794872,1,Linear,0.96707106,0.9994036199999999
+14,ec2_cpu_utilization_c6585a.csv,4.2235694,Linear,0.0,2,Linear,0.96707106,0.9994036199999999
+15,machine_temperature_system_failure.csv,6.7644634,Linear,0.4,3,Linear,0.96707106,0.9994036199999999
+16,cpu_utilization_asg_misconfiguration.csv,6.954588,KMeans,0.00775194,4,Linear,0.96707106,0.9994036199999999
+17,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.0664,KMeans,0.5,5,Linear,0.96707106,0.9994036199999999
+18,art_increase_spike_density.csv,7.084285,KMeans,0.15384615,6,KMeans,0.96766744,1.0
+19,Statlog Shuttle,7.119236,KMeans,0.96766744,7,KMeans,0.96766744,1.0
+20,ec2_cpu_utilization_77c1ca.csv,7.153973,KMeans,0.03921569,8,KMeans,0.96766744,1.0
+21,ec2_cpu_utilization_53ea38.csv,7.153973,KMeans,0.04255319,9,KMeans,0.96766744,1.0
+22,ec2_cpu_utilization_24ae8d.csv,7.153973,KMeans,1.0,10,KMeans,0.96766744,1.0
+23,,,,,,,,
+24,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
+25,Landsat Satellite,2.338338,Linear,0.71794872,1,Linear,0.71794872,1.0
+26,ec2_cpu_utilization_c6585a.csv,4.4303937,Linear,0.0,2,Linear,0.71794872,1.0
+27,machine_temperature_system_failure.csv,7.0001655,Linear,0.4,3,Linear,0.71794872,1.0
+28,cpu_utilization_asg_misconfiguration.csv,7.1867795,KMeans,0.00775194,4,Linear,0.71794872,1.0
+29,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.287868,KMeans,0.5,5,Linear,0.71794872,1.0
+30,art_increase_spike_density.csv,7.3111424,KMeans,0.15384615,6,KMeans,0.65517241,0.93722369
+31,Statlog Shuttle,7.337388,KMeans,0.96766744,7,KMeans,0.65517241,0.93722369
+32,ec2_cpu_utilization_77c1ca.csv,7.3746824,KMeans,0.03921569,8,KMeans,0.65517241,0.93722369
+33,ec2_cpu_utilization_53ea38.csv,7.3746824,KMeans,0.04255319,9,KMeans,0.65517241,0.93722369
+34,ec2_cpu_utilization_24ae8d.csv,7.3746824,KMeans,1.0,10,KMeans,0.65517241,0.93722369
+35,,,,,,,,
+36,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
+37,Landsat Satellite,2.3254743,Linear,0.71794872,1,Linear,0.14285714,0.34285714
+38,ec2_cpu_utilization_c6585a.csv,4.475618,Linear,0.0,2,Linear,0.14285714,0.34285714
+39,machine_temperature_system_failure.csv,7.0318217,Linear,0.4,3,Linear,0.14285714,0.34285714
+40,cpu_utilization_asg_misconfiguration.csv,7.221126,KMeans,0.00775194,4,Linear,0.14285714,0.34285714
+41,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.3231535,KMeans,0.5,5,Linear,0.14285714,0.34285714
+42,art_increase_spike_density.csv,7.3511963,KMeans,0.15384615,6,KMeans,0.8,1.0
+43,Statlog Shuttle,7.3845787,KMeans,0.96766744,7,KMeans,0.8,1.0
+44,ec2_cpu_utilization_77c1ca.csv,7.4149017,KMeans,0.03921569,8,KMeans,0.8,1.0
+45,ec2_cpu_utilization_53ea38.csv,7.4149017,KMeans,0.04255319,9,KMeans,0.8,1.0
+46,ec2_cpu_utilization_24ae8d.csv,7.4149017,KMeans,1.0,10,KMeans,0.8,1.0
+47,,,,,,,,
+48,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
+49,Landsat Satellite,2.5727944,Linear,0.71794872,1,Linear,0.4,1.0
+50,ec2_cpu_utilization_c6585a.csv,4.402667,Linear,0.0,2,Linear,0.4,1.0
+51,machine_temperature_system_failure.csv,6.9436994,Linear,0.4,3,Linear,0.4,1.0
+52,cpu_utilization_asg_misconfiguration.csv,7.13433,KMeans,0.00775194,4,Linear,0.4,1.0
+53,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.2569275,KMeans,0.5,5,Linear,0.4,1.0
+54,art_increase_spike_density.csv,7.271708,KMeans,0.15384615,6,KMeans,0.4,1.0
+55,Statlog Shuttle,7.306492,KMeans,0.96766744,7,KMeans,0.4,1.0
+56,ec2_cpu_utilization_77c1ca.csv,7.337087,KMeans,0.03921569,8,KMeans,0.4,1.0
+57,ec2_cpu_utilization_53ea38.csv,7.337087,KMeans,0.04255319,9,KMeans,0.4,1.0
+58,ec2_cpu_utilization_24ae8d.csv,7.337087,KMeans,1.0,10,KMeans,0.4,1.0
+59,,,,,,,,
+60,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+61,Landsat Satellite,2.4082322,Linear,0.71794872,1,Linear,0.57142857,0.9047619
+62,ec2_cpu_utilization_c6585a.csv,4.451128,Linear,0.0,2,Linear,0.57142857,0.9047619
+63,machine_temperature_system_failure.csv,7.0183506,Linear,0.4,3,Linear,0.57142857,0.9047619
+64,cpu_utilization_asg_misconfiguration.csv,7.2019095,KMeans,0.00775194,4,Linear,0.57142857,0.9047619
+65,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.309675,KMeans,0.5,5,Linear,0.57142857,0.9047619
+66,art_increase_spike_density.csv,7.3298163,KMeans,0.15384615,6,KMeans,0.66666667,1.0
+67,Statlog Shuttle,7.3548694,KMeans,0.96766744,7,KMeans,0.66666667,1.0
+68,ec2_cpu_utilization_77c1ca.csv,7.3917065,KMeans,0.03921569,8,KMeans,0.66666667,1.0
+69,ec2_cpu_utilization_53ea38.csv,7.3917065,KMeans,0.04255319,9,KMeans,0.66666667,1.0
+70,ec2_cpu_utilization_24ae8d.csv,7.3917065,KMeans,1.0,10,KMeans,0.66666667,1.0
+71,,,,,,,,
+72,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+73,Landsat Satellite,2.2665539,Linear,0.71794872,1,Linear,0.125,0.45833333
+74,ec2_cpu_utilization_c6585a.csv,4.641697,Linear,0.0,2,Linear,0.125,0.45833333
+75,machine_temperature_system_failure.csv,7.2050276,Linear,0.4,3,Linear,0.125,0.45833333
+76,cpu_utilization_asg_misconfiguration.csv,7.376923,KMeans,0.00775194,4,Linear,0.125,0.45833333
+77,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.47803,KMeans,0.5,5,Linear,0.125,0.45833333
+78,art_increase_spike_density.csv,7.495807,KMeans,0.15384615,6,KMeans,0.66666667,1.0
+79,Statlog Shuttle,7.519523,KMeans,0.96766744,7,KMeans,0.66666667,1.0
+80,ec2_cpu_utilization_77c1ca.csv,7.555086,KMeans,0.03921569,8,KMeans,0.66666667,1.0
+81,ec2_cpu_utilization_53ea38.csv,7.555086,KMeans,0.04255319,9,KMeans,0.66666667,1.0
+82,ec2_cpu_utilization_24ae8d.csv,7.555086,KMeans,1.0,10,KMeans,0.66666667,1.0
+83,,,,,,,,
+84,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
+85,Landsat Satellite,2.7488413,Linear,0.71794872,1,Linear,0.4,0.9
+86,ec2_cpu_utilization_c6585a.csv,4.8248944,Linear,0.0,2,Linear,0.4,0.9
+87,machine_temperature_system_failure.csv,7.388585,Linear,0.4,3,Linear,0.4,0.9
+88,cpu_utilization_asg_misconfiguration.csv,7.573089,KMeans,0.00775194,4,Linear,0.4,0.9
+89,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.662758,KMeans,0.5,5,Linear,0.4,0.9
+90,art_increase_spike_density.csv,7.6943684,KMeans,0.15384615,6,KMeans,0.5,1.0
+91,Statlog Shuttle,7.7235055,KMeans,0.96766744,7,KMeans,0.5,1.0
+92,ec2_cpu_utilization_77c1ca.csv,7.751185,KMeans,0.03921569,8,KMeans,0.5,1.0
+93,ec2_cpu_utilization_53ea38.csv,7.751185,KMeans,0.04255319,9,KMeans,0.5,1.0
+94,ec2_cpu_utilization_24ae8d.csv,7.751185,KMeans,1.0,10,KMeans,0.5,1.0
+95,,,,,,,,
+96,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
+97,Landsat Satellite,2.561957,Linear,0.71794872,1,Linear,0.0,1.0
+98,ec2_cpu_utilization_c6585a.csv,4.503652,Linear,0.0,2,Linear,0.0,1.0
+99,machine_temperature_system_failure.csv,7.0661798,Linear,0.4,3,Linear,0.0,1.0
+100,cpu_utilization_asg_misconfiguration.csv,7.2504845,KMeans,0.00775194,4,Linear,0.0,1.0
+101,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.345972,KMeans,0.5,5,Linear,0.0,1.0
+102,art_increase_spike_density.csv,7.3662086,KMeans,0.15384615,6,KMeans,0.0,1.0
+103,Statlog Shuttle,7.406672,KMeans,0.96766744,7,KMeans,0.0,1.0
+104,ec2_cpu_utilization_77c1ca.csv,7.433742,KMeans,0.03921569,8,KMeans,0.0,1.0
+105,ec2_cpu_utilization_53ea38.csv,7.433742,KMeans,0.04255319,9,KMeans,0.0,1.0
+106,ec2_cpu_utilization_24ae8d.csv,7.433742,KMeans,1.0,10,KMeans,0.0,1.0
+107,,,,,,,,
+108,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
+109,Landsat Satellite,2.579296,Linear,0.71794872,1,Linear,0.66666667,0.66666667
+110,ec2_cpu_utilization_c6585a.csv,4.8044868,Linear,0.0,2,Linear,0.66666667,0.66666667
+111,machine_temperature_system_failure.csv,7.359966,Linear,0.4,3,Linear,0.66666667,0.66666667
+112,cpu_utilization_asg_misconfiguration.csv,7.543397,KMeans,0.00775194,4,Linear,0.66666667,0.66666667
+113,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.6361747,KMeans,0.5,5,Linear,0.66666667,0.66666667
+114,art_increase_spike_density.csv,7.6593347,KMeans,0.15384615,6,KMeans,1.0,1.0
+115,Statlog Shuttle,7.6994557,KMeans,0.96766744,7,KMeans,1.0,1.0
+116,ec2_cpu_utilization_77c1ca.csv,7.719243,KMeans,0.03921569,8,KMeans,1.0,1.0
+117,ec2_cpu_utilization_53ea38.csv,7.719243,KMeans,0.04255319,9,KMeans,1.0,1.0
+118,ec2_cpu_utilization_24ae8d.csv,7.719243,KMeans,1.0,10,KMeans,1.0,1.0
+119,,,,,,,,
+120,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
+121,Landsat Satellite,2.518076,Linear,0.71794872,1,Linear,0.5,0.92857143
+122,ec2_cpu_utilization_c6585a.csv,4.447151,Linear,0.0,2,Linear,0.5,0.92857143
+123,machine_temperature_system_failure.csv,7.011586,Linear,0.4,3,Linear,0.5,0.92857143
+124,cpu_utilization_asg_misconfiguration.csv,7.1967716,KMeans,0.00775194,4,Linear,0.5,0.92857143
+125,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.291592,KMeans,0.5,5,Linear,0.5,0.92857143
+126,art_increase_spike_density.csv,7.3201904,KMeans,0.15384615,6,KMeans,0.57142857,1.0
+127,Statlog Shuttle,7.3457637,KMeans,0.96766744,7,KMeans,0.57142857,1.0
+128,ec2_cpu_utilization_77c1ca.csv,7.3807974,KMeans,0.03921569,8,KMeans,0.57142857,1.0
+129,ec2_cpu_utilization_53ea38.csv,7.3807974,KMeans,0.04255319,9,KMeans,0.57142857,1.0
+130,ec2_cpu_utilization_24ae8d.csv,7.3807974,KMeans,1.0,10,KMeans,0.57142857,1.0
+131,,,,,,,,
+132,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
+133,Landsat Satellite,1.8701658,Linear,0.71794872,1,Linear,0.0,0.98
+134,ec2_cpu_utilization_c6585a.csv,3.9532175,Linear,0.0,2,Linear,0.0,0.98
+135,machine_temperature_system_failure.csv,6.540237,Linear,0.4,3,Linear,0.0,0.98
+136,cpu_utilization_asg_misconfiguration.csv,6.722416,KMeans,0.00775194,4,Linear,0.0,0.98
+137,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,6.8399844,KMeans,0.5,5,Linear,0.0,0.98
+138,art_increase_spike_density.csv,6.8548303,KMeans,0.15384615,6,KMeans,0.02,1.0
+139,Statlog Shuttle,6.896875,KMeans,0.96766744,7,KMeans,0.02,1.0
+140,ec2_cpu_utilization_77c1ca.csv,6.9165006,KMeans,0.03921569,8,KMeans,0.02,1.0
+141,ec2_cpu_utilization_53ea38.csv,6.9165006,KMeans,0.04255319,9,KMeans,0.02,1.0
+142,ec2_cpu_utilization_24ae8d.csv,6.9165006,KMeans,1.0,10,KMeans,0.02,1.0
+143,,,,,,,,
+144,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
+145,Landsat Satellite,2.5510564,Linear,0.71794872,1,Linear,0.5,1.0
+146,ec2_cpu_utilization_c6585a.csv,4.5097294,Linear,0.0,2,Linear,0.5,1.0
+147,machine_temperature_system_failure.csv,7.0543284,Linear,0.4,3,Linear,0.5,1.0
+148,cpu_utilization_asg_misconfiguration.csv,7.247327,KMeans,0.00775194,4,Linear,0.5,1.0
+149,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.3690567,KMeans,0.5,5,Linear,0.5,1.0
+150,art_increase_spike_density.csv,7.3893905,KMeans,0.15384615,6,KMeans,0.5,1.0
+151,Statlog Shuttle,7.4128833,KMeans,0.96766744,7,KMeans,0.5,1.0
+152,ec2_cpu_utilization_77c1ca.csv,7.4508557,KMeans,0.03921569,8,KMeans,0.5,1.0
+153,ec2_cpu_utilization_53ea38.csv,7.4508557,KMeans,0.04255319,9,KMeans,0.5,1.0
+154,ec2_cpu_utilization_24ae8d.csv,7.4508557,KMeans,1.0,10,KMeans,0.5,1.0
+155,,,,,,,,
+156,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+157,Landsat Satellite,2.2257786,Linear,0.71794872,1,Linear,0.66666667,1.0
+158,ec2_cpu_utilization_c6585a.csv,4.203264,Linear,0.0,2,Linear,0.66666667,1.0
+159,machine_temperature_system_failure.csv,6.7481294,Linear,0.4,3,Linear,0.66666667,1.0
+160,cpu_utilization_asg_misconfiguration.csv,6.9352417,KMeans,0.00775194,4,Linear,0.66666667,1.0
+161,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.0519075,KMeans,0.5,5,Linear,0.66666667,1.0
+162,art_increase_spike_density.csv,7.0845876,KMeans,0.15384615,6,KMeans,0.66666667,1.0
+163,Statlog Shuttle,7.1110535,KMeans,0.96766744,7,KMeans,0.66666667,1.0
+164,ec2_cpu_utilization_77c1ca.csv,7.1362777,KMeans,0.03921569,8,KMeans,0.66666667,1.0
+165,ec2_cpu_utilization_53ea38.csv,7.1362777,KMeans,0.04255319,9,KMeans,0.66666667,1.0
+166,ec2_cpu_utilization_24ae8d.csv,7.1362777,KMeans,1.0,10,KMeans,0.66666667,1.0
+167,,,,,,,,
+168,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+169,Landsat Satellite,2.881144,Linear,0.71794872,1,Linear,0.66666667,1.0
+170,ec2_cpu_utilization_c6585a.csv,4.9212546,Linear,0.0,2,Linear,0.66666667,1.0
+171,machine_temperature_system_failure.csv,7.4508924,Linear,0.4,3,Linear,0.66666667,1.0
+172,cpu_utilization_asg_misconfiguration.csv,7.638577,KMeans,0.00775194,4,Linear,0.66666667,1.0
+173,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.7492585,KMeans,0.5,5,Linear,0.66666667,1.0
+174,art_increase_spike_density.csv,7.7690825,KMeans,0.15384615,6,KMeans,0.66666667,1.0
+175,Statlog Shuttle,7.7987432,KMeans,0.96766744,7,KMeans,0.66666667,1.0
+176,ec2_cpu_utilization_77c1ca.csv,7.8312325,KMeans,0.03921569,8,KMeans,0.66666667,1.0
+177,ec2_cpu_utilization_53ea38.csv,7.8312325,KMeans,0.04255319,9,KMeans,0.66666667,1.0
+178,ec2_cpu_utilization_24ae8d.csv,7.8312325,KMeans,1.0,10,KMeans,0.66666667,1.0
+179,,,,,,,,
+180,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+181,Landsat Satellite,2.6073298,Linear,0.71794872,1,Linear,0.00312012,0.33645344999999993
+182,ec2_cpu_utilization_c6585a.csv,4.542114,Linear,0.0,2,Linear,0.00312012,0.33645344999999993
+183,machine_temperature_system_failure.csv,7.0760055,Linear,0.4,3,Linear,0.00312012,0.33645344999999993
+184,cpu_utilization_asg_misconfiguration.csv,7.2668886,KMeans,0.00775194,4,Linear,0.00312012,0.33645344999999993
+185,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.3815265,KMeans,0.5,5,Linear,0.00312012,0.33645344999999993
+186,art_increase_spike_density.csv,7.4057846,KMeans,0.15384615,6,KMeans,0.66666667,1.0
+187,Statlog Shuttle,7.428422,KMeans,0.96766744,7,KMeans,0.66666667,1.0
+188,ec2_cpu_utilization_77c1ca.csv,7.4665246,KMeans,0.03921569,8,KMeans,0.66666667,1.0
+189,ec2_cpu_utilization_53ea38.csv,7.4665246,KMeans,0.04255319,9,KMeans,0.66666667,1.0
+190,ec2_cpu_utilization_24ae8d.csv,7.4665246,KMeans,1.0,10,KMeans,0.66666667,1.0
+191,,,,,,,,
+192,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
+193,Landsat Satellite,2.6208687,Linear,0.71794872,1,Linear,0.00049603,0.970193
+194,ec2_cpu_utilization_c6585a.csv,4.622619,Linear,0.0,2,Linear,0.00049603,0.970193
+195,machine_temperature_system_failure.csv,7.195628,Linear,0.4,3,Linear,0.00049603,0.970193
+196,cpu_utilization_asg_misconfiguration.csv,7.372829,KMeans,0.00775194,4,Linear,0.00049603,0.970193
+197,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.4525213,KMeans,0.5,5,Linear,0.00049603,0.970193
+198,art_increase_spike_density.csv,7.481902,KMeans,0.15384615,6,KMeans,0.03030303,1.0
+199,Statlog Shuttle,7.524023,KMeans,0.96766744,7,KMeans,0.03030303,1.0
+200,ec2_cpu_utilization_77c1ca.csv,7.542682,KMeans,0.03921569,8,KMeans,0.03030303,1.0
+201,ec2_cpu_utilization_53ea38.csv,7.542682,KMeans,0.04255319,9,KMeans,0.03030303,1.0
+202,ec2_cpu_utilization_24ae8d.csv,7.542682,KMeans,1.0,10,KMeans,0.03030303,1.0
+203,,,,,,,,
+204,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+205,Landsat Satellite,2.6116958,Linear,0.71794872,1,Linear,0.66666667,1.0
+206,ec2_cpu_utilization_c6585a.csv,4.7348056,Linear,0.0,2,Linear,0.66666667,1.0
+207,machine_temperature_system_failure.csv,7.2781453,Linear,0.4,3,Linear,0.66666667,1.0
+208,cpu_utilization_asg_misconfiguration.csv,7.468576,KMeans,0.00775194,4,Linear,0.66666667,1.0
+209,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.589999,KMeans,0.5,5,Linear,0.66666667,1.0
+210,art_increase_spike_density.csv,7.6042943,KMeans,0.15384615,6,KMeans,0.66666667,1.0
+211,Statlog Shuttle,7.6306515,KMeans,0.96766744,7,KMeans,0.66666667,1.0
+212,ec2_cpu_utilization_77c1ca.csv,7.669538,KMeans,0.03921569,8,KMeans,0.66666667,1.0
+213,ec2_cpu_utilization_53ea38.csv,7.669538,KMeans,0.04255319,9,KMeans,0.66666667,1.0
+214,ec2_cpu_utilization_24ae8d.csv,7.669538,KMeans,1.0,10,KMeans,0.66666667,1.0
+215,,,,,,,,
+216,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
+217,Landsat Satellite,2.596366,Linear,0.71794872,1,Linear,0.00110132,0.99334938
+218,ec2_cpu_utilization_c6585a.csv,4.5606728,Linear,0.0,2,Linear,0.00110132,0.99334938
+219,machine_temperature_system_failure.csv,7.1067734,Linear,0.4,3,Linear,0.00110132,0.99334938
+220,cpu_utilization_asg_misconfiguration.csv,7.293503,KMeans,0.00775194,4,Linear,0.00110132,0.99334938
+221,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.40716,KMeans,0.5,5,Linear,0.00110132,0.99334938
+222,art_increase_spike_density.csv,7.4272075,KMeans,0.15384615,6,KMeans,0.00775194,1.0
+223,Statlog Shuttle,7.4473495,KMeans,0.96766744,7,KMeans,0.00775194,1.0
+224,ec2_cpu_utilization_77c1ca.csv,7.491371,KMeans,0.03921569,8,KMeans,0.00775194,1.0
+225,ec2_cpu_utilization_53ea38.csv,7.491371,KMeans,0.04255319,9,KMeans,0.00775194,1.0
+226,ec2_cpu_utilization_24ae8d.csv,7.491371,KMeans,1.0,10,KMeans,0.00775194,1.0
+227,,,,,,,,
+228,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
+229,Landsat Satellite,2.8972173,Linear,0.71794872,1,Linear,0.01960784,0.79738562
+230,ec2_cpu_utilization_c6585a.csv,4.816952,Linear,0.0,2,Linear,0.01960784,0.79738562
+231,machine_temperature_system_failure.csv,7.3942676,Linear,0.4,3,Linear,0.01960784,0.79738562
+232,cpu_utilization_asg_misconfiguration.csv,7.575958,KMeans,0.00775194,4,Linear,0.01960784,0.79738562
+233,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.6684227,KMeans,0.5,5,Linear,0.01960784,0.79738562
+234,art_increase_spike_density.csv,7.68242,KMeans,0.15384615,6,KMeans,0.22222222,1.0
+235,Statlog Shuttle,7.7131734,KMeans,0.96766744,7,KMeans,0.22222222,1.0
+236,ec2_cpu_utilization_77c1ca.csv,7.753066,KMeans,0.03921569,8,KMeans,0.22222222,1.0
+237,ec2_cpu_utilization_53ea38.csv,7.753066,KMeans,0.04255319,9,KMeans,0.22222222,1.0
+238,ec2_cpu_utilization_24ae8d.csv,7.753066,KMeans,1.0,10,KMeans,0.22222222,1.0
+239,,,,,,,,
+240,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
+241,Landsat Satellite,2.2487721,Linear,0.71794872,1,Linear,0.02222222,0.77222222
+242,ec2_cpu_utilization_c6585a.csv,4.4284687,Linear,0.0,2,Linear,0.02222222,0.77222222
+243,machine_temperature_system_failure.csv,6.97367,Linear,0.4,3,Linear,0.02222222,0.77222222
+244,cpu_utilization_asg_misconfiguration.csv,7.158303,KMeans,0.00775194,4,Linear,0.02222222,0.77222222
+245,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.264492,KMeans,0.5,5,Linear,0.02222222,0.77222222
+246,art_increase_spike_density.csv,7.2869287,KMeans,0.15384615,6,KMeans,0.25,1.0
+247,Statlog Shuttle,7.3200903,KMeans,0.96766744,7,KMeans,0.25,1.0
+248,ec2_cpu_utilization_77c1ca.csv,7.3498287,KMeans,0.03921569,8,KMeans,0.25,1.0
+249,ec2_cpu_utilization_53ea38.csv,7.3498287,KMeans,0.04255319,9,KMeans,0.25,1.0
+250,ec2_cpu_utilization_24ae8d.csv,7.3498287,KMeans,1.0,10,KMeans,0.25,1.0
+251,,,,,,,,
+252,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
+253,Landsat Satellite,2.5913067,Linear,0.71794872,1,Linear,0.04,0.88615385
+254,ec2_cpu_utilization_c6585a.csv,4.726108,Linear,0.0,2,Linear,0.04,0.88615385
+255,machine_temperature_system_failure.csv,7.286388,Linear,0.4,3,Linear,0.04,0.88615385
+256,cpu_utilization_asg_misconfiguration.csv,7.4757676,KMeans,0.00775194,4,Linear,0.04,0.88615385
+257,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.5805864,KMeans,0.5,5,Linear,0.04,0.88615385
+258,art_increase_spike_density.csv,7.6063123,KMeans,0.15384615,6,KMeans,0.15384615,1.0
+259,Statlog Shuttle,7.623044,KMeans,0.96766744,7,KMeans,0.15384615,1.0
+260,ec2_cpu_utilization_77c1ca.csv,7.6677446,KMeans,0.03921569,8,KMeans,0.15384615,1.0
+261,ec2_cpu_utilization_53ea38.csv,7.6677446,KMeans,0.04255319,9,KMeans,0.15384615,1.0
+262,ec2_cpu_utilization_24ae8d.csv,7.6677446,KMeans,1.0,10,KMeans,0.15384615,1.0
+263,,,,,,,,
+264,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
+265,Landsat Satellite,2.6856174,Linear,0.71794872,1,Linear,0.66666667,0.66666667
+266,ec2_cpu_utilization_c6585a.csv,4.737633,Linear,0.0,2,Linear,0.66666667,0.66666667
+267,machine_temperature_system_failure.csv,7.314155,Linear,0.4,3,Linear,0.66666667,0.66666667
+268,cpu_utilization_asg_misconfiguration.csv,7.4936323,KMeans,0.00775194,4,Linear,0.66666667,0.66666667
+269,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.573726,KMeans,0.5,5,Linear,0.66666667,0.66666667
+270,art_increase_spike_density.csv,7.6072354,KMeans,0.15384615,6,KMeans,1.0,1.0
+271,Statlog Shuttle,7.6458974,KMeans,0.96766744,7,KMeans,1.0,1.0
+272,ec2_cpu_utilization_77c1ca.csv,7.6641,KMeans,0.03921569,8,KMeans,1.0,1.0
+273,ec2_cpu_utilization_53ea38.csv,7.6641,KMeans,0.04255319,9,KMeans,1.0,1.0
+274,ec2_cpu_utilization_24ae8d.csv,7.6641,KMeans,1.0,10,KMeans,1.0,1.0
+275,,,,,,,,
+276,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
+277,Landsat Satellite,2.7038841,Linear,0.71794872,1,Linear,0.08695652,1.0
+278,ec2_cpu_utilization_c6585a.csv,4.8189697,Linear,0.0,2,Linear,0.08695652,1.0
+279,machine_temperature_system_failure.csv,7.433525,Linear,0.4,3,Linear,0.08695652,1.0
+280,cpu_utilization_asg_misconfiguration.csv,7.614604,KMeans,0.00775194,4,Linear,0.08695652,1.0
+281,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.698354,KMeans,0.5,5,Linear,0.08695652,1.0
+282,art_increase_spike_density.csv,7.7232785,KMeans,0.15384615,6,KMeans,0.08695652,1.0
+283,Statlog Shuttle,7.7646894,KMeans,0.96766744,7,KMeans,0.08695652,1.0
+284,ec2_cpu_utilization_77c1ca.csv,7.787749,KMeans,0.03921569,8,KMeans,0.08695652,1.0
+285,ec2_cpu_utilization_53ea38.csv,7.787749,KMeans,0.04255319,9,KMeans,0.08695652,1.0
+286,ec2_cpu_utilization_24ae8d.csv,7.787749,KMeans,1.0,10,KMeans,0.08695652,1.0
+287,,,,,,,,
+288,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
+289,Landsat Satellite,2.5475588,Linear,0.71794872,1,Linear,0.33333333,0.83333333
+290,ec2_cpu_utilization_c6585a.csv,4.262451,Linear,0.0,2,Linear,0.33333333,0.83333333
+291,machine_temperature_system_failure.csv,6.828332,Linear,0.4,3,Linear,0.33333333,0.83333333
+292,cpu_utilization_asg_misconfiguration.csv,7.017807,KMeans,0.00775194,4,Linear,0.33333333,0.83333333
+293,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.126974,KMeans,0.5,5,Linear,0.33333333,0.83333333
+294,art_increase_spike_density.csv,7.1532707,KMeans,0.15384615,6,KMeans,0.5,1.0
+295,Statlog Shuttle,7.1802773,KMeans,0.96766744,7,KMeans,0.5,1.0
+296,ec2_cpu_utilization_77c1ca.csv,7.2120166,KMeans,0.03921569,8,KMeans,0.5,1.0
+297,ec2_cpu_utilization_53ea38.csv,7.2120166,KMeans,0.04255319,9,KMeans,0.5,1.0
+298,ec2_cpu_utilization_24ae8d.csv,7.2120166,KMeans,1.0,10,KMeans,0.5,1.0
+299,,,,,,,,
+300,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
+301,Landsat Satellite,2.1490822,Linear,0.71794872,1,Linear,0.02352941,0.98097622
+302,ec2_cpu_utilization_c6585a.csv,4.383968,Linear,0.0,2,Linear,0.02352941,0.98097622
+303,machine_temperature_system_failure.csv,6.930436,Linear,0.4,3,Linear,0.02352941,0.98097622
+304,cpu_utilization_asg_misconfiguration.csv,7.115464,KMeans,0.00775194,4,Linear,0.02352941,0.98097622
+305,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.232466,KMeans,0.5,5,Linear,0.02352941,0.98097622
+306,art_increase_spike_density.csv,7.2417583,KMeans,0.15384615,6,KMeans,0.04255319,1.0
+307,Statlog Shuttle,7.2829475,KMeans,0.96766744,7,KMeans,0.04255319,1.0
+308,ec2_cpu_utilization_77c1ca.csv,7.309041,KMeans,0.03921569,8,KMeans,0.04255319,1.0
+309,ec2_cpu_utilization_53ea38.csv,7.309041,KMeans,0.04255319,9,KMeans,0.04255319,1.0
+310,ec2_cpu_utilization_24ae8d.csv,7.309041,KMeans,1.0,10,KMeans,0.04255319,1.0
+311,,,,,,,,
+312,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
+313,Landsat Satellite,2.8754954,Linear,0.71794872,1,Linear,0.00416667,0.96495098
+314,ec2_cpu_utilization_c6585a.csv,4.6859846,Linear,0.0,2,Linear,0.00416667,0.96495098
+315,machine_temperature_system_failure.csv,7.2744107,Linear,0.4,3,Linear,0.00416667,0.96495098
+316,cpu_utilization_asg_misconfiguration.csv,7.451987,KMeans,0.00775194,4,Linear,0.00416667,0.96495098
+317,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.530533,KMeans,0.5,5,Linear,0.00416667,0.96495098
+318,art_increase_spike_density.csv,7.5648537,KMeans,0.15384615,6,KMeans,0.03921569,1.0
+319,Statlog Shuttle,7.6101775,KMeans,0.96766744,7,KMeans,0.03921569,1.0
+320,ec2_cpu_utilization_77c1ca.csv,7.6246204,KMeans,0.03921569,8,KMeans,0.03921569,1.0
+321,ec2_cpu_utilization_53ea38.csv,7.6246204,KMeans,0.04255319,9,KMeans,0.03921569,1.0
+322,ec2_cpu_utilization_24ae8d.csv,7.6246204,KMeans,1.0,10,KMeans,0.03921569,1.0
+323,,,,,,,,
+324,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
+325,Landsat Satellite,2.5507169,Linear,0.71794872,1,Linear,0.00416667,0.50416667
+326,ec2_cpu_utilization_c6585a.csv,4.7872343,Linear,0.0,2,Linear,0.00416667,0.50416667
+327,machine_temperature_system_failure.csv,7.3552003,Linear,0.4,3,Linear,0.00416667,0.50416667
+328,cpu_utilization_asg_misconfiguration.csv,7.5379834,KMeans,0.00775194,4,Linear,0.00416667,0.50416667
+329,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.646394,KMeans,0.5,5,Linear,0.00416667,0.50416667
+330,art_increase_spike_density.csv,7.6616874,KMeans,0.15384615,6,KMeans,0.5,1.0
+331,Statlog Shuttle,7.6918807,KMeans,0.96766744,7,KMeans,0.5,1.0
+332,ec2_cpu_utilization_77c1ca.csv,7.7275243,KMeans,0.03921569,8,KMeans,0.5,1.0
+333,ec2_cpu_utilization_53ea38.csv,7.7275243,KMeans,0.04255319,9,KMeans,0.5,1.0
+334,ec2_cpu_utilization_24ae8d.csv,7.7275243,KMeans,1.0,10,KMeans,0.5,1.0
+335,,,,,,,,
+336,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
+337,Landsat Satellite,2.6694322,Linear,0.71794872,1,Linear,0.00059595,0.99907388
+338,ec2_cpu_utilization_c6585a.csv,4.5408287,Linear,0.0,2,Linear,0.00059595,0.99907388
+339,machine_temperature_system_failure.csv,7.124892,Linear,0.4,3,Linear,0.00059595,0.99907388
+340,cpu_utilization_asg_misconfiguration.csv,7.3065553,KMeans,0.00775194,4,Linear,0.00059595,0.99907388
+341,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.409554,KMeans,0.5,5,Linear,0.00059595,0.99907388
+342,art_increase_spike_density.csv,7.42548,KMeans,0.15384615,6,KMeans,0.00152207,1.0
+343,Statlog Shuttle,7.464637,KMeans,0.96766744,7,KMeans,0.00152207,1.0
+344,ec2_cpu_utilization_77c1ca.csv,7.4905114,KMeans,0.03921569,8,KMeans,0.00152207,1.0
+345,ec2_cpu_utilization_53ea38.csv,7.4905114,KMeans,0.04255319,9,KMeans,0.00152207,1.0
+346,ec2_cpu_utilization_24ae8d.csv,7.4905114,KMeans,1.0,10,KMeans,0.00152207,1.0
+347,,,,,,,,
+348,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
+349,Landsat Satellite,2.554802,Linear,0.71794872,1,Linear,0.5,1.0
+350,ec2_cpu_utilization_c6585a.csv,4.2425838,Linear,0.0,2,Linear,0.5,1.0
+351,machine_temperature_system_failure.csv,6.836852,Linear,0.4,3,Linear,0.5,1.0
+352,cpu_utilization_asg_misconfiguration.csv,7.0126534,KMeans,0.00775194,4,Linear,0.5,1.0
+353,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,7.102333,KMeans,0.5,5,Linear,0.5,1.0
+354,art_increase_spike_density.csv,7.1138,KMeans,0.15384615,6,KMeans,0.5,1.0
+355,Statlog Shuttle,7.153454,KMeans,0.96766744,7,KMeans,0.5,1.0
+356,ec2_cpu_utilization_77c1ca.csv,7.1814537,KMeans,0.03921569,8,KMeans,0.5,1.0
+357,ec2_cpu_utilization_53ea38.csv,7.1814537,KMeans,0.04255319,9,KMeans,0.5,1.0
+358,ec2_cpu_utilization_24ae8d.csv,7.1814537,KMeans,1.0,10,KMeans,0.5,1.0
+359,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.3,0.8624473736666668
+0,,,,,2.0,,0.3,0.8624473736666668
+0,,,,,3.0,,0.3,0.8624473736666668
+0,,,,,4.0,,0.3,0.8624473736666668
+0,,,,,5.0,,0.3,0.8624473736666668
+0,,,,,6.0,,0.9333333333333333,0.979469994
+0,,,,,7.0,,0.9333333333333333,0.979469994
+0,,,,,8.0,,0.9333333333333333,0.979469994
+0,,,,,9.0,,0.9333333333333333,0.979469994
+0,,,,,10.0,,0.9333333333333333,0.979469994

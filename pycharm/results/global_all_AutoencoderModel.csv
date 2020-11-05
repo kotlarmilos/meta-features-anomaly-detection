@@ -1,0 +1,228 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
+0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
+1,Letter Recognition,0.044451594,KMeans,0.44545455,1,KMeans,0.83333333,1.0
+2,Pen-Based Recognition of Handwritten Text,0.08376396,KMeans,0.88648649,2,KMeans,0.83333333,1.0
+3,Thyroid Disease,0.3388282,KMeans,0.22317597,3,KMeans,0.83333333,1.0
+4,speed_7578.csv,1.008094,KMeans,0.75,4,KMeans,0.83333333,1.0
+5,Twitter_volume_AAPL.csv,1.0640006,Linear,0.4,5,KMeans,0.83333333,1.0
+6,speed_6005.csv,1.0862572,Linear,0.66666667,6,KMeans,0.83333333,1.0
+7,speed_t4013.csv,1.1035659,Linear,1.0,7,KMeans,0.83333333,1.0
+8,Twitter_volume_CVS.csv,1.1463715,Linear,0.66666667,8,KMeans,0.83333333,1.0
+9,Twitter_volume_PFE.csv,1.177159,KMeans,0.42857143,9,KMeans,0.83333333,1.0
+10,Twitter_volume_FB.csv,1.1839958,Linear,1.0,10,KMeans,0.83333333,1.0
+11,,,,,,,,
+12,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
+13,Letter Recognition,0.086894274,KMeans,0.44545455,1,KMeans,0.38537271,0.4468761299999999
+14,Pen-Based Recognition of Handwritten Text,0.114724636,KMeans,0.88648649,2,KMeans,0.38537271,0.4468761299999999
+15,Thyroid Disease,0.293746,KMeans,0.22317597,3,KMeans,0.38537271,0.4468761299999999
+16,speed_7578.csv,1.0864218,KMeans,0.75,4,KMeans,0.38537271,0.4468761299999999
+17,Twitter_volume_AAPL.csv,1.1103523,Linear,0.4,5,KMeans,0.38537271,0.4468761299999999
+18,speed_6005.csv,1.1611336,Linear,0.66666667,6,KMeans,0.38537271,0.4468761299999999
+19,speed_t4013.csv,1.1804996,Linear,1.0,7,KMeans,0.38537271,0.4468761299999999
+20,Twitter_volume_CVS.csv,1.20415,Linear,0.66666667,8,KMeans,0.38537271,0.4468761299999999
+21,Twitter_volume_PFE.csv,1.2248437,KMeans,0.42857143,9,KMeans,0.38537271,0.4468761299999999
+22,Twitter_volume_FB.csv,1.2429038,Linear,1.0,10,KMeans,0.38537271,0.4468761299999999
+23,,,,,,,,
+24,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
+25,Letter Recognition,0.012594104,KMeans,0.44545455,1,KMeans,0.44545455,1.0
+26,Pen-Based Recognition of Handwritten Text,0.1258949,KMeans,0.88648649,2,KMeans,0.44545455,1.0
+27,Thyroid Disease,0.40718937,KMeans,0.22317597,3,KMeans,0.44545455,1.0
+28,speed_7578.csv,0.9744693,KMeans,0.75,4,KMeans,0.44545455,1.0
+29,Twitter_volume_AAPL.csv,1.017024,Linear,0.4,5,KMeans,0.44545455,1.0
+30,speed_6005.csv,1.0464221,Linear,0.66666667,6,KMeans,0.44545455,1.0
+31,speed_t4013.csv,1.0660812,Linear,1.0,7,KMeans,0.44545455,1.0
+32,Twitter_volume_CVS.csv,1.1024406,Linear,0.66666667,8,KMeans,0.44545455,1.0
+33,Twitter_volume_PFE.csv,1.1251124,KMeans,0.42857143,9,KMeans,0.44545455,1.0
+34,Twitter_volume_FB.csv,1.1398633,Linear,1.0,10,KMeans,0.44545455,1.0
+35,,,,,,,,
+36,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
+37,Letter Recognition,0.024636745,KMeans,0.44545455,1,KMeans,0.22317597,1.0
+38,Pen-Based Recognition of Handwritten Text,0.10627067,KMeans,0.88648649,2,KMeans,0.22317597,1.0
+39,Thyroid Disease,0.36947906,KMeans,0.22317597,3,KMeans,0.22317597,1.0
+40,speed_7578.csv,0.96111786,KMeans,0.75,4,KMeans,0.22317597,1.0
+41,speed_6005.csv,1.0302296,Linear,0.66666667,5,KMeans,0.22317597,1.0
+42,Twitter_volume_AAPL.csv,1.0489811,Linear,0.4,6,KMeans,0.22317597,1.0
+43,speed_t4013.csv,1.0499048,Linear,1.0,7,KMeans,0.22317597,1.0
+44,Twitter_volume_CVS.csv,1.1058719,Linear,0.66666667,8,KMeans,0.22317597,1.0
+45,Twitter_volume_PFE.csv,1.1371257,KMeans,0.42857143,9,KMeans,0.22317597,1.0
+46,Twitter_volume_FB.csv,1.1542549,Linear,1.0,10,KMeans,0.22317597,1.0
+47,,,,,,,,
+48,Pen-Based Recognition of Handwritten Text,0,KMeans,0.88648649,0,KMeans,0.88648649,1
+49,Letter Recognition,0.037644744,KMeans,0.44545455,1,KMeans,0.88648649,1.0
+50,Pen-Based Recognition of Handwritten Text,0.08586037,KMeans,0.88648649,2,KMeans,0.88648649,1.0
+51,Thyroid Disease,0.36975193,KMeans,0.22317597,3,KMeans,0.88648649,1.0
+52,Twitter_volume_AAPL.csv,1.0409297,Linear,0.4,4,KMeans,0.88648649,1.0
+53,speed_7578.csv,1.0477074,KMeans,0.75,5,KMeans,0.88648649,1.0
+54,speed_6005.csv,1.1174364,Linear,0.66666667,6,KMeans,0.88648649,1.0
+55,speed_t4013.csv,1.1390885,Linear,1.0,7,KMeans,0.88648649,1.0
+56,Twitter_volume_CVS.csv,1.1512309,Linear,0.66666667,8,KMeans,0.88648649,1.0
+57,Twitter_volume_FB.csv,1.1601743,Linear,1.0,9,Linear,0.64473684,0.75825035
+58,Twitter_volume_PFE.csv,1.1713387,KMeans,0.42857143,10,KMeans,0.88648649,1.0
+59,,,,,,,,
+60,speed_7578.csv,0,KMeans,0.75,0,KMeans,0.75,1
+61,Letter Recognition,0.042568564,KMeans,0.44545455,1,KMeans,0.75,1.0
+62,Pen-Based Recognition of Handwritten Text,0.1276145,KMeans,0.88648649,2,KMeans,0.75,1.0
+63,Thyroid Disease,0.35913467,KMeans,0.22317597,3,KMeans,0.75,1.0
+64,speed_7578.csv,1.0140052,KMeans,0.75,4,KMeans,0.75,1.0
+65,Twitter_volume_AAPL.csv,1.0608844,Linear,0.4,5,KMeans,0.75,1.0
+66,speed_6005.csv,1.0926889,Linear,0.66666667,6,KMeans,0.75,1.0
+67,speed_t4013.csv,1.110665,Linear,1.0,7,KMeans,0.75,1.0
+68,Twitter_volume_CVS.csv,1.156906,Linear,0.66666667,8,KMeans,0.75,1.0
+69,Twitter_volume_PFE.csv,1.1791606,KMeans,0.42857143,9,KMeans,0.75,1.0
+70,Twitter_volume_FB.csv,1.1900389,Linear,1.0,10,KMeans,0.75,1.0
+71,,,,,,,,
+72,Twitter_volume_AAPL.csv,0,Linear,0.4,0,Linear,0.4,1
+73,Letter Recognition,0.0030834675,KMeans,0.44545455,1,KMeans,0.4,1.0
+74,Pen-Based Recognition of Handwritten Text,0.15750778,KMeans,0.88648649,2,KMeans,0.4,1.0
+75,Thyroid Disease,0.30233884,KMeans,0.22317597,3,KMeans,0.4,1.0
+76,speed_7578.csv,0.99662614,KMeans,0.75,4,KMeans,0.4,1.0
+77,Twitter_volume_AAPL.csv,1.0242778,Linear,0.4,5,KMeans,0.4,1.0
+78,speed_6005.csv,1.073374,Linear,0.66666667,6,KMeans,0.4,1.0
+79,speed_t4013.csv,1.0926826,Linear,1.0,7,KMeans,0.4,1.0
+80,Twitter_volume_CVS.csv,1.1243451,Linear,0.66666667,8,KMeans,0.4,1.0
+81,Twitter_volume_FB.csv,1.1405771,Linear,1.0,9,Linear,0.4,1.0
+82,Twitter_volume_PFE.csv,1.153044,KMeans,0.42857143,10,KMeans,0.4,1.0
+83,,,,,,,,
+84,Twitter_volume_UPS.csv,0,Linear,0.28571429,0,Linear,0.28571429,1
+85,Letter Recognition,0.013965845,KMeans,0.44545455,1,KMeans,0.22222222,0.93650793
+86,Pen-Based Recognition of Handwritten Text,0.09337795,KMeans,0.88648649,2,KMeans,0.22222222,0.93650793
+87,Thyroid Disease,0.3269322,KMeans,0.22317597,3,KMeans,0.22222222,0.93650793
+88,speed_7578.csv,1.023087,KMeans,0.75,4,KMeans,0.22222222,0.93650793
+89,Twitter_volume_AAPL.csv,1.0781795,Linear,0.4,5,KMeans,0.22222222,0.93650793
+90,speed_6005.csv,1.1048635,Linear,0.66666667,6,KMeans,0.22222222,0.93650793
+91,speed_t4013.csv,1.1220819,Linear,1.0,7,KMeans,0.22222222,0.93650793
+92,Twitter_volume_CVS.csv,1.1631911,Linear,0.66666667,8,KMeans,0.22222222,0.93650793
+93,Twitter_volume_PFE.csv,1.187787,KMeans,0.42857143,9,KMeans,0.22222222,0.93650793
+94,Twitter_volume_FB.csv,1.2021232,Linear,1.0,10,KMeans,0.22222222,0.93650793
+95,,,,,,,,
+96,speed_6005.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+97,Letter Recognition,0.030513167,KMeans,0.44545455,1,KMeans,0.66666667,1.0
+98,Pen-Based Recognition of Handwritten Text,0.1360513,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+99,Thyroid Disease,0.3590722,KMeans,0.22317597,3,KMeans,0.66666667,1.0
+100,speed_7578.csv,0.99058676,KMeans,0.75,4,KMeans,0.66666667,1.0
+101,Twitter_volume_AAPL.csv,1.0336276,Linear,0.4,5,KMeans,0.66666667,1.0
+102,speed_6005.csv,1.0654981,Linear,0.66666667,6,KMeans,0.66666667,1.0
+103,speed_t4013.csv,1.0847623,Linear,1.0,7,KMeans,0.66666667,1.0
+104,Twitter_volume_CVS.csv,1.1306108,Linear,0.66666667,8,KMeans,0.66666667,1.0
+105,Twitter_volume_PFE.csv,1.1552749,KMeans,0.42857143,9,KMeans,0.66666667,1.0
+106,Twitter_volume_FB.csv,1.1602366,Linear,1.0,10,KMeans,0.66666667,1.0
+107,,,,,,,,
+108,Twitter_volume_KO.csv,0,Linear,0.8,0,Linear,0.8,1
+109,Letter Recognition,0.034834266,KMeans,0.44545455,1,KMeans,0.8,1.0
+110,Pen-Based Recognition of Handwritten Text,0.14170527,KMeans,0.88648649,2,KMeans,0.8,1.0
+111,Thyroid Disease,0.34032023,KMeans,0.22317597,3,KMeans,0.8,1.0
+112,speed_7578.csv,0.9886664,KMeans,0.75,4,KMeans,0.8,1.0
+113,speed_6005.csv,1.0599774,Linear,0.66666667,5,KMeans,0.8,1.0
+114,Twitter_volume_AAPL.csv,1.0610065,Linear,0.4,6,KMeans,0.8,1.0
+115,speed_t4013.csv,1.0780454,Linear,1.0,7,KMeans,0.8,1.0
+116,Twitter_volume_CVS.csv,1.1283425,Linear,0.66666667,8,KMeans,0.8,1.0
+117,Twitter_volume_PFE.csv,1.1630213,KMeans,0.42857143,9,KMeans,0.8,1.0
+118,Twitter_volume_FB.csv,1.186727,Linear,1.0,10,KMeans,0.8,1.0
+119,,,,,,,,
+120,Twitter_volume_GOOG.csv,0,Linear,0.4,0,Linear,0.4,1
+121,Letter Recognition,0.061446786,KMeans,0.44545455,1,KMeans,0.4,1.0
+122,Pen-Based Recognition of Handwritten Text,0.064542055,KMeans,0.88648649,2,KMeans,0.4,1.0
+123,Thyroid Disease,0.3240595,KMeans,0.22317597,3,KMeans,0.4,1.0
+124,speed_7578.csv,1.0405562,KMeans,0.75,4,KMeans,0.4,1.0
+125,Twitter_volume_AAPL.csv,1.0982615,Linear,0.4,5,KMeans,0.4,1.0
+126,speed_6005.csv,1.1126765,Linear,0.66666667,6,KMeans,0.4,1.0
+127,speed_t4013.csv,1.1305724,Linear,1.0,7,KMeans,0.4,1.0
+128,Twitter_volume_CVS.csv,1.1782148,Linear,0.66666667,8,KMeans,0.4,1.0
+129,Twitter_volume_PFE.csv,1.209785,KMeans,0.42857143,9,KMeans,0.4,1.0
+130,Twitter_volume_FB.csv,1.2233436,Linear,1.0,10,KMeans,0.4,1.0
+131,,,,,,,,
+132,Twitter_volume_CVS.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
+133,Letter Recognition,0.020045996,KMeans,0.44545455,1,KMeans,0.66666667,1.0
+134,Pen-Based Recognition of Handwritten Text,0.13249338,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+135,Thyroid Disease,0.38327968,KMeans,0.22317597,3,KMeans,0.66666667,1.0
+136,speed_7578.csv,0.99889046,KMeans,0.75,4,KMeans,0.66666667,1.0
+137,Twitter_volume_AAPL.csv,1.0573127,Linear,0.4,5,KMeans,0.66666667,1.0
+138,speed_6005.csv,1.0732255,Linear,0.66666667,6,KMeans,0.66666667,1.0
+139,speed_t4013.csv,1.0928167,Linear,1.0,7,KMeans,0.66666667,1.0
+140,Twitter_volume_CVS.csv,1.1489973,Linear,0.66666667,8,KMeans,0.66666667,1.0
+141,Twitter_volume_FB.csv,1.1762829,Linear,1.0,9,Linear,0.66666667,1.0
+142,Twitter_volume_PFE.csv,1.1768606,KMeans,0.42857143,10,KMeans,0.66666667,1.0
+143,,,,,,,,
+144,Twitter_volume_FB.csv,0,Linear,1.0,0,Linear,1.0,1
+145,Letter Recognition,0.016326427,KMeans,0.44545455,1,KMeans,1.0,1.0
+146,Pen-Based Recognition of Handwritten Text,0.09768939,KMeans,0.88648649,2,KMeans,1.0,1.0
+147,Thyroid Disease,0.43046784,KMeans,0.22317597,3,KMeans,1.0,1.0
+148,speed_7578.csv,0.96646136,KMeans,0.75,4,KMeans,1.0,1.0
+149,Twitter_volume_AAPL.csv,1.0241187,Linear,0.4,5,KMeans,1.0,1.0
+150,speed_6005.csv,1.0354509,Linear,0.66666667,6,KMeans,1.0,1.0
+151,speed_t4013.csv,1.0543288,Linear,1.0,7,KMeans,1.0,1.0
+152,Twitter_volume_CVS.csv,1.11185,Linear,0.66666667,8,KMeans,1.0,1.0
+153,Twitter_volume_PFE.csv,1.1389447,KMeans,0.42857143,9,KMeans,1.0,1.0
+154,Twitter_volume_FB.csv,1.1498159,Linear,1.0,10,KMeans,1.0,1.0
+155,,,,,,,,
+156,Twitter_volume_IBM.csv,0,Linear,0.5,0,Linear,0.5,1
+157,Letter Recognition,0.0035754442,KMeans,0.44545455,1,KMeans,0.5,1.0
+158,Pen-Based Recognition of Handwritten Text,0.1328237,KMeans,0.88648649,2,KMeans,0.5,1.0
+159,Thyroid Disease,0.33325005,KMeans,0.22317597,3,KMeans,0.5,1.0
+160,speed_7578.csv,1.0198866,KMeans,0.75,4,KMeans,0.5,1.0
+161,Twitter_volume_AAPL.csv,1.0556552,Linear,0.4,5,KMeans,0.5,1.0
+162,speed_6005.csv,1.0902743,Linear,0.66666667,6,KMeans,0.5,1.0
+163,speed_t4013.csv,1.1117896,Linear,1.0,7,KMeans,0.5,1.0
+164,Twitter_volume_CVS.csv,1.1551813,Linear,0.66666667,8,KMeans,0.5,1.0
+165,Twitter_volume_PFE.csv,1.1770056,KMeans,0.42857143,9,KMeans,0.5,1.0
+166,Twitter_volume_FB.csv,1.1845659,Linear,1.0,10,KMeans,0.5,1.0
+167,,,,,,,,
+168,Twitter_volume_CRM.csv,0,KMeans,0.54545455,0,KMeans,0.54545455,1
+169,Letter Recognition,0.08518875,KMeans,0.44545455,1,KMeans,0.54545455,1.0
+170,Pen-Based Recognition of Handwritten Text,0.09811258,KMeans,0.88648649,2,KMeans,0.54545455,1.0
+171,Thyroid Disease,0.37436295,KMeans,0.22317597,3,KMeans,0.54545455,1.0
+172,speed_7578.csv,1.0065013,KMeans,0.75,4,KMeans,0.54545455,1.0
+173,Twitter_volume_AAPL.csv,1.0757042,Linear,0.4,5,KMeans,0.54545455,1.0
+174,speed_6005.csv,1.0793501,Linear,0.66666667,6,KMeans,0.54545455,1.0
+175,speed_t4013.csv,1.0981965,Linear,1.0,7,KMeans,0.54545455,1.0
+176,Twitter_volume_CVS.csv,1.1355894,Linear,0.66666667,8,KMeans,0.54545455,1.0
+177,Twitter_volume_PFE.csv,1.1671631,KMeans,0.42857143,9,KMeans,0.54545455,1.0
+178,Twitter_volume_FB.csv,1.1745186,Linear,1.0,10,KMeans,0.54545455,1.0
+179,,,,,,,,
+180,speed_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
+181,Letter Recognition,0.046410084,KMeans,0.44545455,1,KMeans,0.8,0.8
+182,Pen-Based Recognition of Handwritten Text,0.0854938,KMeans,0.88648649,2,KMeans,0.8,0.8
+183,Thyroid Disease,0.34658182,KMeans,0.22317597,3,KMeans,0.8,0.8
+184,Twitter_volume_AAPL.csv,1.0660174,Linear,0.4,4,KMeans,0.8,0.8
+185,speed_7578.csv,1.0741618,KMeans,0.75,5,KMeans,0.8,0.8
+186,speed_6005.csv,1.1409161,Linear,0.66666667,6,KMeans,0.8,0.8
+187,speed_t4013.csv,1.1633422,Linear,1.0,7,KMeans,0.8,0.8
+188,Twitter_volume_CVS.csv,1.1718146,Linear,0.66666667,8,KMeans,0.8,0.8
+189,Twitter_volume_PFE.csv,1.1900823,KMeans,0.42857143,9,KMeans,0.8,0.8
+190,Twitter_volume_FB.csv,1.1922588,Linear,1.0,10,KMeans,0.8,0.8
+191,,,,,,,,
+192,Twitter_volume_PFE.csv,0,KMeans,0.42857143,0,KMeans,0.42857143,1
+193,Letter Recognition,0.012930989,KMeans,0.44545455,1,KMeans,0.42857143,1.0
+194,Pen-Based Recognition of Handwritten Text,0.09982252,KMeans,0.88648649,2,KMeans,0.42857143,1.0
+195,Thyroid Disease,0.34252524,KMeans,0.22317597,3,KMeans,0.42857143,1.0
+196,speed_7578.csv,0.96364963,KMeans,0.75,4,KMeans,0.42857143,1.0
+197,Twitter_volume_AAPL.csv,0.9806794,Linear,0.4,5,KMeans,0.42857143,1.0
+198,speed_6005.csv,1.032656,Linear,0.66666667,6,KMeans,0.42857143,1.0
+199,speed_t4013.csv,1.0547515,Linear,1.0,7,KMeans,0.42857143,1.0
+200,Twitter_volume_CVS.csv,1.0866045,Linear,0.66666667,8,KMeans,0.42857143,1.0
+201,Twitter_volume_FB.csv,1.0981286,Linear,1.0,9,Linear,0.36363636,0.93506493
+202,Twitter_volume_PFE.csv,1.1016921,KMeans,0.42857143,10,KMeans,0.42857143,1.0
+203,,,,,,,,
+204,Twitter_volume_AMZN.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
+205,Letter Recognition,0.04644239,KMeans,0.44545455,1,KMeans,0.66666667,1.0
+206,Pen-Based Recognition of Handwritten Text,0.0993551,KMeans,0.88648649,2,KMeans,0.66666667,1.0
+207,Thyroid Disease,0.41290975,KMeans,0.22317597,3,KMeans,0.66666667,1.0
+208,speed_7578.csv,0.95589966,KMeans,0.75,4,KMeans,0.66666667,1.0
+209,Twitter_volume_AAPL.csv,1.0153077,Linear,0.4,5,KMeans,0.66666667,1.0
+210,speed_6005.csv,1.0279235,Linear,0.66666667,6,KMeans,0.66666667,1.0
+211,speed_t4013.csv,1.047638,Linear,1.0,7,KMeans,0.66666667,1.0
+212,Twitter_volume_CVS.csv,1.1156987,Linear,0.66666667,8,KMeans,0.66666667,1.0
+213,Twitter_volume_PFE.csv,1.1388426,KMeans,0.42857143,9,KMeans,0.66666667,1.0
+214,Twitter_volume_FB.csv,1.1503737,Linear,1.0,10,KMeans,0.66666667,1.0
+215,,,,,,,,
+0,,,,,K,,Method match,Accuracy
+0,,,,,1.0,,0.8333333333333334,0.9546324477777779
+0,,,,,2.0,,0.8333333333333334,0.9546324477777779
+0,,,,,3.0,,0.8333333333333334,0.9546324477777779
+0,,,,,4.0,,0.8333333333333334,0.9546324477777779
+0,,,,,5.0,,0.8333333333333334,0.9546324477777779
+0,,,,,6.0,,0.8333333333333334,0.9546324477777779
+0,,,,,7.0,,0.8333333333333334,0.9546324477777779
+0,,,,,8.0,,0.8333333333333334,0.9546324477777779
+0,,,,,9.0,,0.7222222222222222,0.9375944077777779
+0,,,,,10.0,,0.8333333333333334,0.9546324477777779
