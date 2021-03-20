@@ -1,19 +1,25 @@
-# Meta features for anomaly detection
+# Novel Meta-Features for Automated Machine Learning Model Selection in Anomaly Detection
 
-This repository presents decision support system for detecting anomalies using meta features.
+This repository contains the scripts which evaluate a novel set of meta-features for model selection in anomaly detection tasks based on domain-specific properties. 
 
-With exponential growth of data and devices, detecting anomalies in data become essential task for many domains. Detecting anomalies is a non trivial task 
-which could be performed using various groups of algorithms. Decision support systems for model selection aims to overcome complexity by prosing the best algorithm 
-for a given task using meta learning approach.
+By using different kinds of metadata, such as the properties of the data, algorithm properties, or
+correlation previously derived from the data, it is possible to select different models to effectively solve a
+given anomaly detection task. The meta-learning approach based on a set of meta-features that describes
+data properties and correlation can enable efficient model selection in AutoML frameworks.
 
-By using different kinds of metadata, like properties of the learning problem, algorithm properties, or patterns previously derived from the data, 
-it is possible to select different learning algorithms to effectively solve a given problem. Such an approach is also used in recommendation systems 
-where recommendations are made based on metadata, consisting of characteriza- tions of these datasets. These characterizations, also called meta features, 
-describe properties of the data which are predictive for the performance of algorithms trained on them.
+Experiments with 63 datasets from different repositories with varying schemas show that
+the proposed set of meta-features achieves the accuracy of 87% for model selection, while the achieved
+accuracy for simple meta-features is 74%, for statistical meta-features 68%, for information theory metafeature
+70%, and for a comprehensive set of meta-features by [pyMFE](https://pypi.org/project/pymfe/) 73%.
 
-The main research question answered in this paper applies to possibility to define a set of meta features which would characterize anomalies in data. 
-Decision support systems would be able to predict the best algorithm for a given task with a given time budget using proposed meta features, 
-where the goals are to use minimal level of information and minimal computational effort.
+Results are in [/results](https://github.com/kotlarmilos/meta-features-anomaly-detection/tree/master/pycharm/results) directory. Evaluated algorithms are in [/algorithms](https://github.com/kotlarmilos/meta-features-anomaly-detection/tree/master/pycharm/algorithms) directory.
 
-This repository is part of ongoing research which will be publised soon and it is subject to change.
-Once the research is completed, the detailed instructions with examples and datasets will be available.
+## Datasets
+
+Datasets are collected from repositories in [Harvard Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/OPQMVF) and [Numenta Anomaly Benchmark](https://github.com/numenta/NAB) and cover a broad range of domains including manufacturing, transportation, healthcare, intrusion detection, and system log analysis.
+
+## Prerequests
+
+ - Python 3.7
+ - Pip
+ - Numpy
