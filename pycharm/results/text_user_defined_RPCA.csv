@@ -1,18 +1,78 @@
-,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
-0,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
-1,Speech Accent Data,3.3306690738754696e-16,Linear,0.11764706,1,Linear,0.22222222,0.77676767
-2,,,,,,,,
-3,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
-4,Speech Accent Data,3.3306690738754696e-16,Linear,0.11764706,1,Linear,0.11764706,1.0
-5,,,,,,,,
-0,,,,,K,,Method match,Accuracy
-0,,,,,1.0,,0.5,0.888383835
-0,,,,,2.0,,0.0,0.0
-0,,,,,3.0,,0.0,0.0
-0,,,,,4.0,,0.0,0.0
-0,,,,,5.0,,0.0,0.0
-0,,,,,6.0,,0.0,0.0
-0,,,,,7.0,,0.0,0.0
-0,,,,,8.0,,0.0,0.0
-0,,,,,9.0,,0.0,0.0
-0,,,,,10.0,,0.0,0.0
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy,Change
+0,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+1,Speech Accent Data,1.862645149230957e-09,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.0
+2,,,,,,,,,
+3,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+4,Speech Accent Data,802761.465501029,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.1
+5,,,,,,,,,
+6,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+7,Speech Accent Data,2570401.325663792,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.2
+8,,,,,,,,,
+9,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+10,Speech Accent Data,5761396.686081043,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.30000000000000004
+11,,,,,,,,,
+12,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+13,Speech Accent Data,11320771.15402982,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.4
+14,,,,,,,,,
+15,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+16,Speech Accent Data,29128950.37184923,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.5
+17,,,,,,,,,
+18,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+19,Speech Accent Data,78224716.65717474,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.6000000000000001
+20,,,,,,,,,
+21,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+22,Speech Accent Data,175378647.5195741,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.7000000000000001
+23,,,,,,,,,
+24,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+25,Speech Accent Data,336266680.03809214,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.8
+26,,,,,,,,,
+27,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+28,Speech Accent Data,657090667.9018129,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.9
+29,,,,,,,,,
+30,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+31,Speech Accent Data,1334385753.39189,Linear,0.11764706,1,Linear,0.22222222,0.77676767,1.0
+32,,,,,,,,,
+33,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+34,Speech Accent Data,1334385753.39189,Linear,0.11764706,1,Linear,0.11764706,1.0,0.0
+35,,,,,,,,,
+36,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+37,Speech Accent Data,1332365311.6330638,Linear,0.11764706,1,Linear,0.11764706,1.0,0.1
+38,,,,,,,,,
+39,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+40,Speech Accent Data,1327920339.7636456,Linear,0.11764706,1,Linear,0.11764706,1.0,0.2
+41,,,,,,,,,
+42,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+43,Speech Accent Data,1319919390.3986928,Linear,0.11764706,1,Linear,0.11764706,1.0,0.30000000000000004
+44,,,,,,,,,
+45,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+46,Speech Accent Data,1306051078.1661081,Linear,0.11764706,1,Linear,0.11764706,1.0,0.4
+47,,,,,,,,,
+48,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+49,Speech Accent Data,1281781531.759085,Linear,0.11764706,1,Linear,0.11764706,1.0,0.5
+50,,,,,,,,,
+51,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+52,Speech Accent Data,1225280383.631437,Linear,0.11764706,1,Linear,0.11764706,1.0,0.6000000000000001
+53,,,,,,,,,
+54,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+55,Speech Accent Data,1055578445.8331759,Linear,0.11764706,1,Linear,0.11764706,1.0,0.7000000000000001
+56,,,,,,,,,
+57,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+58,Speech Accent Data,691607192.7931095,Linear,0.11764706,1,Linear,0.11764706,1.0,0.8
+59,,,,,,,,,
+60,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+61,Speech Accent Data,270110779.6652794,Linear,0.11764706,1,Linear,0.11764706,1.0,0.9
+62,,,,,,,,,
+63,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+64,Speech Accent Data,5.960464477539062e-07,Linear,0.11764706,1,Linear,0.11764706,1.0,1.0
+65,,,,,,,,,
+0,,,,,K,,Method match,Accuracy,
+0,,,,,1.0,,5.5,9.772222185,
+0,,,,,2.0,,0.0,0.0,
+0,,,,,3.0,,0.0,0.0,
+0,,,,,4.0,,0.0,0.0,
+0,,,,,5.0,,0.0,0.0,
+0,,,,,6.0,,0.0,0.0,
+0,,,,,7.0,,0.0,0.0,
+0,,,,,8.0,,0.0,0.0,
+0,,,,,9.0,,0.0,0.0,
+0,,,,,10.0,,0.0,0.0,

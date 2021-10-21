@@ -1,18 +1,78 @@
-,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
-0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
-1,Thyroid Disease,0.20246844,KMeans,0.22317597,1,KMeans,0.83333333,1.0
-2,,,,,,,,
-3,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
-4,Thyroid Disease,0.23506142,KMeans,0.22317597,1,KMeans,0.22317597,1.0
-5,,,,,,,,
-0,,,,,K,,Method match,Accuracy
-0,,,,,1.0,,1.0,1.0
-0,,,,,2.0,,0.0,0.0
-0,,,,,3.0,,0.0,0.0
-0,,,,,4.0,,0.0,0.0
-0,,,,,5.0,,0.0,0.0
-0,,,,,6.0,,0.0,0.0
-0,,,,,7.0,,0.0,0.0
-0,,,,,8.0,,0.0,0.0
-0,,,,,9.0,,0.0,0.0
-0,,,,,10.0,,0.0,0.0
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy,Change
+0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+1,Thyroid Disease,0.0,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.0
+2,,,,,,,,,
+3,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+4,Thyroid Disease,1.9244902e+20,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.1
+5,,,,,,,,,
+6,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+7,Thyroid Disease,6.8035324e+20,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.2
+8,,,,,,,,,
+9,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+10,Thyroid Disease,1.7821295e+21,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.30000000000000004
+11,,,,,,,,,
+12,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+13,Thyroid Disease,4.372741e+21,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.4
+14,,,,,,,,,
+15,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+16,Thyroid Disease,1.0984198e+22,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.5
+17,,,,,,,,,
+18,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+19,Thyroid Disease,2.9549166e+22,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.6000000000000001
+20,,,,,,,,,
+21,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+22,Thyroid Disease,8.712913e+22,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.7000000000000001
+23,,,,,,,,,
+24,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+25,Thyroid Disease,2.843512e+23,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.8
+26,,,,,,,,,
+27,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+28,Thyroid Disease,1.0288997e+24,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.9
+29,,,,,,,,,
+30,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+31,Thyroid Disease,4.1183483e+24,KMeans,0.22317597,1,KMeans,0.83333333,1.0,1.0
+32,,,,,,,,,
+33,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+34,Thyroid Disease,4.1183483e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.0
+35,,,,,,,,,
+36,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+37,Thyroid Disease,4.1181558e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.1
+38,,,,,,,,,
+39,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+40,Thyroid Disease,4.1176678e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.2
+41,,,,,,,,,
+42,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+43,Thyroid Disease,4.1165662e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.30000000000000004
+44,,,,,,,,,
+45,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+46,Thyroid Disease,4.1139756e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.4
+47,,,,,,,,,
+48,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+49,Thyroid Disease,4.1073639e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.5
+50,,,,,,,,,
+51,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+52,Thyroid Disease,4.088799e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.6000000000000001
+53,,,,,,,,,
+54,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+55,Thyroid Disease,4.0312192e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.7000000000000001
+56,,,,,,,,,
+57,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+58,Thyroid Disease,3.833997e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.8
+59,,,,,,,,,
+60,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+61,Thyroid Disease,3.0894486e+24,KMeans,0.22317597,1,KMeans,0.22317597,1.0,0.9
+62,,,,,,,,,
+63,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+64,Thyroid Disease,0.0,KMeans,0.22317597,1,KMeans,0.22317597,1.0,1.0
+65,,,,,,,,,
+0,,,,,K,,Method match,Accuracy,
+0,,,,,1.0,,11.0,11.0,
+0,,,,,2.0,,0.0,0.0,
+0,,,,,3.0,,0.0,0.0,
+0,,,,,4.0,,0.0,0.0,
+0,,,,,5.0,,0.0,0.0,
+0,,,,,6.0,,0.0,0.0,
+0,,,,,7.0,,0.0,0.0,
+0,,,,,8.0,,0.0,0.0,
+0,,,,,9.0,,0.0,0.0,
+0,,,,,10.0,,0.0,0.0,

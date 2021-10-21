@@ -1,24 +1,78 @@
-,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
-0,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
-1,rogue_agent_key_hold.csv,10.58142813601565,Linear,0.003367,1,Linear,0.0663518,0.99862951
-2,rogue_agent_key_updown.csv,10.630909566887597,Gaussian,0.00083455,2,Gaussian,0.06772229,1.0
-3,,,,,,,,
-4,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
-5,rogue_agent_key_hold.csv,0.049481430871947674,Linear,0.003367,1,Linear,0.00075245,0.9999179
-6,Object Images,10.630909566887597,Gaussian,0.06772229,2,Gaussian,0.00083455,1.0
-7,,,,,,,,
-8,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
-9,rogue_agent_key_updown.csv,0.049481430871947674,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728
-10,Object Images,10.58142813601565,Gaussian,0.06772229,2,Gaussian,0.00265428,0.99928728
-11,,,,,,,,
-0,,,,,K,,Method match,Accuracy
-0,,,,,1.0,,0.0,0.9992782299999999
-0,,,,,2.0,,0.6666666666666666,0.9997624266666666
-0,,,,,3.0,,0.0,0.0
-0,,,,,4.0,,0.0,0.0
-0,,,,,5.0,,0.0,0.0
-0,,,,,6.0,,0.0,0.0
-0,,,,,7.0,,0.0,0.0
-0,,,,,8.0,,0.0,0.0
-0,,,,,9.0,,0.0,0.0
-0,,,,,10.0,,0.0,0.0
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy,Change
+0,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+1,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.0
+2,,,,,,,,,
+3,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+4,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.1
+5,,,,,,,,,
+6,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+7,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.2
+8,,,,,,,,,
+9,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+10,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.30000000000000004
+11,,,,,,,,,
+12,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+13,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.4
+14,,,,,,,,,
+15,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+16,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.5
+17,,,,,,,,,
+18,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+19,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.6000000000000001
+20,,,,,,,,,
+21,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+22,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.7000000000000001
+23,,,,,,,,,
+24,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+25,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.8
+26,,,,,,,,,
+27,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+28,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.9
+29,,,,,,,,,
+30,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+31,rogue_agent_key_updown.csv,0.0,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,1.0
+32,,,,,,,,,
+33,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+34,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.0
+35,,,,,,,,,
+36,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+37,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.1
+38,,,,,,,,,
+39,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+40,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.2
+41,,,,,,,,,
+42,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+43,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.30000000000000004
+44,,,,,,,,,
+45,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+46,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.4
+47,,,,,,,,,
+48,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+49,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.5
+50,,,,,,,,,
+51,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+52,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.6000000000000001
+53,,,,,,,,,
+54,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+55,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.7000000000000001
+56,,,,,,,,,
+57,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+58,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.8
+59,,,,,,,,,
+60,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+61,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,0.9
+62,,,,,,,,,
+63,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+64,rogue_agent_key_hold.csv,0.0,Linear,0.003367,1,Linear,0.00075245,0.9999179,1.0
+65,,,,,,,,,
+0,,,,,K,,Method match,Accuracy,
+0,,,,,1.0,,3.6666666666666665,7.333032299999999,
+0,,,,,2.0,,0.0,0.0,
+0,,,,,3.0,,0.0,0.0,
+0,,,,,4.0,,0.0,0.0,
+0,,,,,5.0,,0.0,0.0,
+0,,,,,6.0,,0.0,0.0,
+0,,,,,7.0,,0.0,0.0,
+0,,,,,8.0,,0.0,0.0,
+0,,,,,9.0,,0.0,0.0,
+0,,,,,10.0,,0.0,0.0,

@@ -38,6 +38,14 @@ def get_methods():
             'isSupervised': False,
         },
         {
+            'name': 'Eucledian',
+            'isSupervised': False,
+        },
+        {
+            'name': 'Manhattan',
+            'isSupervised': False,
+        },
+        {
             'name': 'Linear',
             'isSupervised': False,
         },

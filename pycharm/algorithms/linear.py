@@ -236,10 +236,10 @@ class Linear:
 
 
     def visualize_2d(self, dataset, features, target, probs, best_scores, test_predictions):
-        performance = ['acc', 'prec', 'recall', 'f1', 'manual']
-        fig = plt.figure(figsize=(12, 12))
+        performance = ['f1']
+        fig = plt.figure(figsize=(8, 6))
         plt.subplots_adjust(hspace=0.5)
-        fig.suptitle('%s, PCA = %d' % (dataset['name'], 2), fontsize=15)
+        fig.suptitle('%s, Linear, PCA = %d' % (dataset['name'], 2), fontsize=15)
 
         df = pd.concat(
             [pd.DataFrame(data=features, columns=['pca1', 'pca2']),
@@ -249,7 +249,7 @@ class Linear:
         for idx, val in enumerate(performance):
             outliers = np.array(np.where(probs >= best_scores[val]['epsilon'])).flatten()
 
-            ax = fig.add_subplot(3, 3, idx+1)
+            ax = fig.add_subplot(1, 1, 1)
             if val == 'manual':
                 ax.set_title('%s (manual): %f%%, epsilon: %.2E' % (val, best_scores[val]['scores']['f1'], best_scores[val]['epsilon']), fontsize=12)
             else:
@@ -268,14 +268,59 @@ class Linear:
                        , s=10)
 
             test_features = np.delete(features, features.shape[1] - 1, 1)
-            plt.plot(test_features, test_predictions, color='blue', linewidth=2)
+            # plt.plot(test_features, test_predictions, color='blue', linewidth=2)
 
-        ax = fig.add_subplot(3, 3, 6)
-        ax.set_title('Probabilities', fontsize=12)
-        ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
+        # ax = fig.add_subplot(3, 3, 6)
+        # ax.set_title('Probabilities', fontsize=12)
+        # ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
+        #
+        # test_features = np.delete(features, features.shape[1] - 1, 1)
+        # plt.plot(test_features, test_predictions, color='blue', linewidth=1)
 
-        test_features = np.delete(features, features.shape[1] - 1, 1)
-        plt.plot(test_features, test_predictions, color='blue', linewidth=1)
-
-        fig.legend(['regression', 'normal', 'anomaly', 'detected'], facecolor="#B6B6B6")
+        fig.legend([ 'normal', 'anomaly', 'detected'], facecolor="#B6B6B6")
         plt.show()
+
+    # def visualize_2d(self, dataset, features, target, probs, best_scores, test_predictions):
+    #     performance = ['acc', 'prec', 'recall', 'f1', 'manual']
+    #     fig = plt.figure(figsize=(12, 12))
+    #     plt.subplots_adjust(hspace=0.5)
+    #     fig.suptitle('%s, PCA = %d' % (dataset['name'], 2), fontsize=15)
+    #
+    #     df = pd.concat(
+    #         [pd.DataFrame(data=features, columns=['pca1', 'pca2']),
+    #          pd.DataFrame(data=target, columns=['target'])],
+    #         axis=1)
+    #
+    #     for idx, val in enumerate(performance):
+    #         outliers = np.array(np.where(probs >= best_scores[val]['epsilon'])).flatten()
+    #
+    #         ax = fig.add_subplot(3, 3, idx+1)
+    #         if val == 'manual':
+    #             ax.set_title('%s (manual): %f%%, epsilon: %.2E' % (val, best_scores[val]['scores']['f1'], best_scores[val]['epsilon']), fontsize=12)
+    #         else:
+    #             ax.set_title('%s: %f%%, epsilon: %.2E' % (val, best_scores[val]['scores'][val], best_scores[val]['epsilon']), fontsize=12)
+    #
+    #         for cls, color in zip([0, 1], ['g', 'r']):
+    #             indicesToKeep = df['target'] == cls
+    #             ax.scatter(df.loc[indicesToKeep, 'pca1']
+    #                        , df.loc[indicesToKeep, 'pca2']
+    #                        , c=color
+    #                        , s=50)
+    #
+    #         ax.scatter(df.loc[outliers, 'pca1']
+    #                    , df.loc[outliers, 'pca2']
+    #                    , c='w'
+    #                    , s=10)
+    #
+    #         test_features = np.delete(features, features.shape[1] - 1, 1)
+    #         plt.plot(test_features, test_predictions, color='blue', linewidth=2)
+    #
+    #     ax = fig.add_subplot(3, 3, 6)
+    #     ax.set_title('Probabilities', fontsize=12)
+    #     ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
+    #
+    #     test_features = np.delete(features, features.shape[1] - 1, 1)
+    #     plt.plot(test_features, test_predictions, color='blue', linewidth=1)
+    #
+    #     fig.legend(['regression', 'normal', 'anomaly', 'detected'], facecolor="#B6B6B6")
+    #     plt.show()

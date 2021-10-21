@@ -1,0 +1,78 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy,Change
+0,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+1,Speech Accent Data,8993.864868453667,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.0
+2,,,,,,,,,
+3,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+4,Speech Accent Data,9443.35811187635,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.1
+5,,,,,,,,,
+6,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+7,Speech Accent Data,10432.243247406255,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.2
+8,,,,,,,,,
+9,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+10,Speech Accent Data,12212.236491360083,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.30000000000000004
+11,,,,,,,,,
+12,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+13,Speech Accent Data,15297.558114213383,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.4
+14,,,,,,,,,
+15,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+16,Speech Accent Data,20696.870954206657,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.5
+17,,,,,,,,,
+18,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+19,Speech Accent Data,30415.634066194558,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.6000000000000001
+20,,,,,,,,,
+21,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+22,Speech Accent Data,48557.325208571965,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.7000000000000001
+23,,,,,,,,,
+24,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+25,Speech Accent Data,83804.03942804808,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.8
+26,,,,,,,,,
+27,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+28,Speech Accent Data,155178.6357224872,Linear,0.11764706,1,Linear,0.22222222,0.77676767,0.9
+29,,,,,,,,,
+30,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1,
+31,Speech Accent Data,305858.3390107476,Linear,0.11764706,1,Linear,0.22222222,0.77676767,1.0
+32,,,,,,,,,
+33,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+34,Letter Recognition,305858.3390107476,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.0
+35,,,,,,,,,
+36,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+37,Letter Recognition,306307.83225417027,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.1
+38,,,,,,,,,
+39,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+40,Letter Recognition,307296.7173897002,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.2
+41,,,,,,,,,
+42,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+43,Letter Recognition,309076.71063365403,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.30000000000000004
+44,,,,,,,,,
+45,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+46,Letter Recognition,312162.0322565073,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.4
+47,,,,,,,,,
+48,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+49,Letter Recognition,317561.3450965006,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.5
+50,,,,,,,,,
+51,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+52,Letter Recognition,327280.10820848844,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.6000000000000001
+53,,,,,,,,,
+54,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+55,Letter Recognition,345421.7993508659,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.7000000000000001
+56,,,,,,,,,
+57,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+58,Letter Recognition,380668.5135703419,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.8
+59,,,,,,,,,
+60,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+61,Letter Recognition,452043.10986478097,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,0.9
+62,,,,,,,,,
+63,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1,
+64,Letter Recognition,602722.8131530412,KMeans,0.44545455,1,KMeans,0.05384615,0.93619909,1.0
+65,,,,,,,,,
+0,,,,,K,,Method match,Accuracy,
+0,,,,,1.0,,0.0,9.42131718,
+0,,,,,2.0,,0.0,0.0,
+0,,,,,3.0,,0.0,0.0,
+0,,,,,4.0,,0.0,0.0,
+0,,,,,5.0,,0.0,0.0,
+0,,,,,6.0,,0.0,0.0,
+0,,,,,7.0,,0.0,0.0,
+0,,,,,8.0,,0.0,0.0,
+0,,,,,9.0,,0.0,0.0,
+0,,,,,10.0,,0.0,0.0,

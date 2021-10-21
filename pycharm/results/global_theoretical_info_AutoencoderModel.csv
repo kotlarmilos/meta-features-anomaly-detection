@@ -1,228 +1,228 @@
 ,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
 0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
-1,speed_7578.csv,0.011145294,KMeans,0.75,1,KMeans,0.83333333,1.0
-2,Thyroid Disease,0.020855904,KMeans,0.22317597,2,KMeans,0.83333333,1.0
-3,KDD-Cup99 HTTP,0.10417837,RPCA,0.93849658,3,KMeans,0.83333333,1.0
-4,Twitter_volume_IBM.csv,0.10542756,Linear,0.5,4,KMeans,0.83333333,1.0
-5,Twitter_volume_FB.csv,0.17065883,Linear,1.0,5,KMeans,0.83333333,1.0
-6,speed_t4013.csv,0.21001121,Linear,1.0,6,Linear,0.63157895,0.79824562
-7,speed_6005.csv,0.3715064,Linear,0.66666667,7,Linear,0.63157895,0.79824562
-8,Twitter_volume_CVS.csv,0.39717644,Linear,0.66666667,8,Linear,0.63157895,0.79824562
-9,Twitter_volume_KO.csv,0.4074472,Linear,0.8,9,Linear,0.63157895,0.79824562
-10,Twitter_volume_PFE.csv,0.443115,KMeans,0.42857143,10,Linear,0.63157895,0.79824562
+1,Thyroid Disease,0.043811798,KMeans,0.22317597,1,KMeans,0.83333333,1.0
+2,speed_7578.csv,0.0904634,KMeans,0.75,2,KMeans,0.83333333,1.0
+3,Twitter_volume_IBM.csv,0.16647363,Linear,0.5,3,KMeans,0.83333333,1.0
+4,KDD-Cup99 HTTP,0.18502206,RPCA,0.93849658,4,KMeans,0.83333333,1.0
+5,speed_t4013.csv,0.28348523,Linear,1.0,5,KMeans,0.83333333,1.0
+6,Twitter_volume_KO.csv,0.29124135,Linear,0.8,6,Linear,0.63157895,0.79824562
+7,Twitter_volume_GOOG.csv,0.3505768,Linear,0.4,7,Linear,0.63157895,0.79824562
+8,Twitter_volume_CRM.csv,0.40514925,KMeans,0.54545455,8,Linear,0.63157895,0.79824562
+9,speed_6005.csv,0.4315324,Linear,0.66666667,9,Linear,0.63157895,0.79824562
+10,Twitter_volume_AAPL.csv,0.4343538,Linear,0.4,10,Linear,0.63157895,0.79824562
 11,,,,,,,,
 12,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
-13,speed_7578.csv,0.09292936,KMeans,0.75,1,KMeans,0.38537271,0.4468761299999999
-14,speed_t4013.csv,0.09989411,Linear,1.0,2,KMeans,0.38537271,0.4468761299999999
-15,Breast Cancer Diagnostic,0.16193604,KMeans,0.83333333,3,KMeans,0.38537271,0.4468761299999999
-16,Twitter_volume_KO.csv,0.1675224,Linear,0.8,4,KMeans,0.38537271,0.4468761299999999
-17,Twitter_volume_GOOG.csv,0.21987963,Linear,0.4,5,Linear,0.92639843,0.98790185
-18,Twitter_volume_IBM.csv,0.22864336,Linear,0.5,6,Linear,0.92639843,0.98790185
-19,speed_6005.csv,0.24762839,Linear,0.66666667,7,Linear,0.92639843,0.98790185
-20,Thyroid Disease,0.25749016,KMeans,0.22317597,8,Linear,0.92639843,0.98790185
-21,Twitter_volume_CRM.csv,0.26094934,KMeans,0.54545455,9,Linear,0.92639843,0.98790185
-22,Twitter_volume_CVS.csv,0.26889887,Linear,0.66666667,10,Linear,0.92639843,0.98790185
+13,speed_7578.csv,0.089520216,KMeans,0.75,1,KMeans,0.38537271,0.4468761299999999
+14,speed_t4013.csv,0.10269475,Linear,1.0,2,KMeans,0.38537271,0.4468761299999999
+15,Twitter_volume_KO.csv,0.11916593,Linear,0.8,3,Linear,0.92639843,0.98790185
+16,Breast Cancer Diagnostic,0.15005594,KMeans,0.83333333,4,KMeans,0.38537271,0.4468761299999999
+17,Twitter_volume_GOOG.csv,0.17784992,Linear,0.4,5,Linear,0.92639843,0.98790185
+18,Twitter_volume_CRM.csv,0.22973052,KMeans,0.54545455,6,KMeans,0.38537271,0.4468761299999999
+19,Thyroid Disease,0.23569727,KMeans,0.22317597,7,KMeans,0.38537271,0.4468761299999999
+20,speed_6005.csv,0.25076386,Linear,0.66666667,8,KMeans,0.38537271,0.4468761299999999
+21,Twitter_volume_AAPL.csv,0.25807825,Linear,0.4,9,Linear,0.92639843,0.98790185
+22,Twitter_volume_AMZN.csv,0.26280627,KMeans,0.66666667,10,KMeans,0.38537271,0.4468761299999999
 23,,,,,,,,
 24,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
-25,Pen-Based Recognition of Handwritten Text,1.5825689,KMeans,0.88648649,1,KMeans,0.44545455,1.0
-26,Twitter_volume_FB.csv,3.0021052,Linear,1.0,2,KMeans,0.44545455,1.0
-27,Twitter_volume_IBM.csv,3.348575,Linear,0.5,3,Linear,0.22222222,0.77676767
-28,Thyroid Disease,3.350143,KMeans,0.22317597,4,KMeans,0.44545455,1.0
-29,Breast Cancer Diagnostic,3.4224954,KMeans,0.83333333,5,KMeans,0.44545455,1.0
-30,speed_7578.csv,3.5064318,KMeans,0.75,6,KMeans,0.44545455,1.0
-31,KDD-Cup99 HTTP,3.6002705,RPCA,0.93849658,7,KMeans,0.44545455,1.0
-32,speed_t4013.csv,3.7034988,Linear,1.0,8,KMeans,0.44545455,1.0
-33,Twitter_volume_KO.csv,3.7612977,Linear,0.8,9,KMeans,0.44545455,1.0
-34,Twitter_volume_GOOG.csv,3.8145764,Linear,0.4,10,Linear,0.22222222,0.77676767
+25,Pen-Based Recognition of Handwritten Text,1.9693916,KMeans,0.88648649,1,KMeans,0.44545455,1.0
+26,Twitter_volume_FB.csv,3.8151965,Linear,1.0,2,KMeans,0.44545455,1.0
+27,Thyroid Disease,3.914013,KMeans,0.22317597,3,KMeans,0.44545455,1.0
+28,Twitter_volume_IBM.csv,4.1368,Linear,0.5,4,KMeans,0.44545455,1.0
+29,Breast Cancer Diagnostic,4.159075,KMeans,0.83333333,5,KMeans,0.44545455,1.0
+30,speed_7578.csv,4.293556,KMeans,0.75,6,KMeans,0.44545455,1.0
+31,KDD-Cup99 HTTP,4.377445,RPCA,0.93849658,7,KMeans,0.44545455,1.0
+32,speed_t4013.csv,4.487635,Linear,1.0,8,KMeans,0.44545455,1.0
+33,Twitter_volume_KO.csv,4.5249305,Linear,0.8,9,KMeans,0.44545455,1.0
+34,Twitter_volume_GOOG.csv,4.5770035,Linear,0.4,10,Linear,0.22222222,0.77676767
 35,,,,,,,,
 36,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
-37,Breast Cancer Diagnostic,0.017601728,KMeans,0.83333333,1,KMeans,0.22317597,1.0
-38,Twitter_volume_IBM.csv,0.024458587,Linear,0.5,2,KMeans,0.22317597,1.0
-39,speed_7578.csv,0.09635258,KMeans,0.75,3,KMeans,0.22317597,1.0
-40,KDD-Cup99 HTTP,0.19279069,RPCA,0.93849658,4,KMeans,0.22317597,1.0
-41,speed_t4013.csv,0.28727713,Linear,1.0,5,KMeans,0.22317597,1.0
-42,Twitter_volume_FB.csv,0.36260188,Linear,1.0,6,Linear,0.19112628,0.96795031
-43,Twitter_volume_KO.csv,0.3729401,Linear,0.8,7,Linear,0.19112628,0.96795031
-44,Twitter_volume_GOOG.csv,0.42632863,Linear,0.4,8,Linear,0.19112628,0.96795031
-45,speed_6005.csv,0.43695855,Linear,0.66666667,9,Linear,0.19112628,0.96795031
-46,Twitter_volume_CVS.csv,0.45947137,Linear,0.66666667,10,Linear,0.19112628,0.96795031
+37,Twitter_volume_IBM.csv,0.041288912,Linear,0.5,1,Linear,0.19112628,0.96795031
+38,Breast Cancer Diagnostic,0.11689311,KMeans,0.83333333,2,KMeans,0.22317597,1.0
+39,speed_7578.csv,0.14313197,KMeans,0.75,3,KMeans,0.22317597,1.0
+40,KDD-Cup99 HTTP,0.2349934,RPCA,0.93849658,4,KMeans,0.22317597,1.0
+41,Twitter_volume_FB.csv,0.29612136,Linear,1.0,5,KMeans,0.22317597,1.0
+42,speed_t4013.csv,0.33907375,Linear,1.0,6,Linear,0.19112628,0.96795031
+43,Twitter_volume_KO.csv,0.439788,Linear,0.8,7,Linear,0.19112628,0.96795031
+44,Twitter_volume_GOOG.csv,0.49289027,Linear,0.4,8,Linear,0.19112628,0.96795031
+45,speed_6005.csv,0.4982376,Linear,0.66666667,9,Linear,0.19112628,0.96795031
+46,Twitter_volume_CVS.csv,0.5223925,Linear,0.66666667,10,Linear,0.19112628,0.96795031
 47,,,,,,,,
 48,Pen-Based Recognition of Handwritten Text,0,KMeans,0.88648649,0,KMeans,0.88648649,1
-49,Twitter_volume_FB.csv,1.1372763,Linear,1.0,1,Linear,0.64473684,0.75825035
-50,Twitter_volume_IBM.csv,1.5183301,Linear,0.5,2,Linear,0.64473684,0.75825035
-51,Thyroid Disease,1.6292357,KMeans,0.22317597,3,Linear,0.64473684,0.75825035
-52,Breast Cancer Diagnostic,1.7101119,KMeans,0.83333333,4,KMeans,0.88648649,1.0
-53,Letter Recognition,1.7610931,KMeans,0.44545455,5,KMeans,0.88648649,1.0
-54,speed_7578.csv,1.8042696,KMeans,0.75,6,KMeans,0.88648649,1.0
-55,KDD-Cup99 HTTP,1.8905149,RPCA,0.93849658,7,KMeans,0.88648649,1.0
-56,Twitter_volume_KO.csv,1.98599,Linear,0.8,8,KMeans,0.88648649,1.0
-57,speed_t4013.csv,2.0026193,Linear,1.0,9,KMeans,0.88648649,1.0
-58,Twitter_volume_GOOG.csv,2.0462546,Linear,0.4,10,Linear,0.64473684,0.75825035
+49,Twitter_volume_FB.csv,1.5644588,Linear,1.0,1,Linear,0.64473684,0.75825035
+50,Thyroid Disease,1.6470516,KMeans,0.22317597,2,KMeans,0.88648649,1.0
+51,Breast Cancer Diagnostic,1.7474773,KMeans,0.83333333,3,KMeans,0.88648649,1.0
+52,speed_7578.csv,1.7853892,KMeans,0.75,4,KMeans,0.88648649,1.0
+53,Twitter_volume_IBM.csv,1.8536804,Linear,0.5,5,KMeans,0.88648649,1.0
+54,KDD-Cup99 HTTP,1.8809705,RPCA,0.93849658,6,KMeans,0.88648649,1.0
+55,Letter Recognition,1.9255424,KMeans,0.44545455,7,KMeans,0.88648649,1.0
+56,speed_t4013.csv,1.9827672,Linear,1.0,8,KMeans,0.88648649,1.0
+57,speed_6005.csv,2.1456227,Linear,0.66666667,9,KMeans,0.88648649,1.0
+58,Twitter_volume_CVS.csv,2.1724963,Linear,0.66666667,10,Linear,0.64473684,0.75825035
 59,,,,,,,,
 60,speed_7578.csv,0,KMeans,0.75,0,KMeans,0.75,1
-61,Breast Cancer Diagnostic,0.034873664,KMeans,0.83333333,1,KMeans,0.75,1.0
-62,Thyroid Disease,0.09097254,KMeans,0.22317597,2,KMeans,0.75,1.0
-63,KDD-Cup99 HTTP,0.094789505,RPCA,0.93849658,3,KMeans,0.75,1.0
-64,Twitter_volume_IBM.csv,0.15231031,Linear,0.5,4,KMeans,0.75,1.0
-65,speed_t4013.csv,0.20155439,Linear,1.0,5,KMeans,0.75,1.0
-66,Twitter_volume_KO.csv,0.2752401,Linear,0.8,6,Linear,0.4,0.65
-67,Twitter_volume_GOOG.csv,0.33196333,Linear,0.4,7,Linear,0.4,0.65
-68,speed_6005.csv,0.36076316,Linear,0.66666667,8,Linear,0.4,0.65
-69,Twitter_volume_CRM.csv,0.37612584,KMeans,0.54545455,9,Linear,0.4,0.65
-70,Twitter_volume_CVS.csv,0.38427484,Linear,0.66666667,10,Linear,0.4,0.65
+61,Breast Cancer Diagnostic,0.03991908,KMeans,0.83333333,1,KMeans,0.75,1.0
+62,KDD-Cup99 HTTP,0.09617859,RPCA,0.93849658,2,KMeans,0.75,1.0
+63,Thyroid Disease,0.114014685,KMeans,0.22317597,3,KMeans,0.75,1.0
+64,speed_t4013.csv,0.19626716,Linear,1.0,4,KMeans,0.75,1.0
+65,Twitter_volume_KO.csv,0.19914338,Linear,0.8,5,KMeans,0.75,1.0
+66,Twitter_volume_GOOG.csv,0.26120713,Linear,0.4,6,Linear,0.4,0.65
+67,Twitter_volume_IBM.csv,0.2689411,Linear,0.5,7,Linear,0.4,0.65
+68,Twitter_volume_CRM.csv,0.3166192,KMeans,0.54545455,8,Linear,0.4,0.65
+69,speed_6005.csv,0.3463595,Linear,0.66666667,9,Linear,0.4,0.65
+70,Twitter_volume_AAPL.csv,0.34665036,Linear,0.4,10,Linear,0.4,0.65
 71,,,,,,,,
 72,Twitter_volume_AAPL.csv,0,Linear,0.4,0,Linear,0.4,1
-73,Twitter_volume_CVS.csv,0.00093729794,Linear,0.66666667,1,Linear,0.4,1.0
-74,Twitter_volume_AMZN.csv,0.0040891618,KMeans,0.66666667,2,KMeans,0.4,1.0
-75,speed_6005.csv,0.020781785,Linear,0.66666667,3,Linear,0.4,1.0
-76,Twitter_volume_CRM.csv,0.025783628,KMeans,0.54545455,4,KMeans,0.4,1.0
-77,Twitter_volume_PFE.csv,0.032235444,KMeans,0.42857143,5,KMeans,0.4,1.0
-78,Twitter_volume_UPS.csv,0.047992602,Linear,0.28571429,6,KMeans,0.4,1.0
-79,Twitter_volume_GOOG.csv,0.071522206,Linear,0.4,7,Linear,0.4,1.0
-80,Twitter_volume_KO.csv,0.12574318,Linear,0.8,8,Linear,0.4,1.0
-81,speed_t4013.csv,0.16447166,Linear,1.0,9,Linear,0.4,1.0
-82,KDD-Cup99 HTTP,0.27204496,RPCA,0.93849658,10,Linear,0.4,1.0
+73,Twitter_volume_CVS.csv,0.004206836,Linear,0.66666667,1,Linear,0.4,1.0
+74,Twitter_volume_AMZN.csv,0.004376471,KMeans,0.66666667,2,KMeans,0.4,1.0
+75,speed_6005.csv,0.015710473,Linear,0.66666667,3,Linear,0.4,1.0
+76,Twitter_volume_CRM.csv,0.026935011,KMeans,0.54545455,4,KMeans,0.4,1.0
+77,Twitter_volume_PFE.csv,0.037643716,KMeans,0.42857143,5,KMeans,0.4,1.0
+78,Twitter_volume_UPS.csv,0.053510323,Linear,0.28571429,6,KMeans,0.4,1.0
+79,Twitter_volume_GOOG.csv,0.07453716,Linear,0.4,7,Linear,0.4,1.0
+80,Twitter_volume_KO.csv,0.13057098,Linear,0.8,8,Linear,0.4,1.0
+81,speed_t4013.csv,0.16107184,Linear,1.0,9,Linear,0.4,1.0
+82,KDD-Cup99 HTTP,0.26624092,RPCA,0.93849658,10,Linear,0.4,1.0
 83,,,,,,,,
 84,Twitter_volume_UPS.csv,0,Linear,0.28571429,0,Linear,0.28571429,1
-85,Twitter_volume_PFE.csv,0.017258048,KMeans,0.42857143,1,KMeans,0.22222222,0.93650793
-86,Twitter_volume_AMZN.csv,0.021774337,KMeans,0.66666667,2,KMeans,0.22222222,0.93650793
-87,Twitter_volume_AAPL.csv,0.024949491,Linear,0.4,3,KMeans,0.22222222,0.93650793
-88,Twitter_volume_CRM.csv,0.04714276,KMeans,0.54545455,4,KMeans,0.22222222,0.93650793
-89,Twitter_volume_CVS.csv,0.05488412,Linear,0.66666667,5,KMeans,0.22222222,0.93650793
-90,speed_6005.csv,0.07647772,Linear,0.66666667,6,KMeans,0.22222222,0.93650793
-91,Twitter_volume_GOOG.csv,0.08248593,Linear,0.4,7,Linear,0.28571429,1.0
-92,Twitter_volume_KO.csv,0.13106574,Linear,0.8,8,Linear,0.28571429,1.0
-93,speed_t4013.csv,0.22309722,Linear,1.0,9,Linear,0.28571429,1.0
-94,KDD-Cup99 HTTP,0.31836843,RPCA,0.93849658,10,Linear,0.28571429,1.0
+85,Twitter_volume_PFE.csv,0.016137391,KMeans,0.42857143,1,KMeans,0.22222222,0.93650793
+86,Twitter_volume_CVS.csv,0.050129876,Linear,0.66666667,2,KMeans,0.22222222,0.93650793
+87,Twitter_volume_AMZN.csv,0.056029186,KMeans,0.66666667,3,KMeans,0.22222222,0.93650793
+88,Twitter_volume_AAPL.csv,0.060844526,Linear,0.4,4,KMeans,0.22222222,0.93650793
+89,speed_6005.csv,0.07087679,Linear,0.66666667,5,Linear,0.28571429,1.0
+90,Twitter_volume_CRM.csv,0.089742556,KMeans,0.54545455,6,KMeans,0.22222222,0.93650793
+91,Twitter_volume_GOOG.csv,0.14281912,Linear,0.4,7,Linear,0.28571429,1.0
+92,Twitter_volume_KO.csv,0.20224099,Linear,0.8,8,Linear,0.28571429,1.0
+93,speed_t4013.csv,0.22490688,Linear,1.0,9,Linear,0.28571429,1.0
+94,KDD-Cup99 HTTP,0.34208524,RPCA,0.93849658,10,Linear,0.28571429,1.0
 95,,,,,,,,
 96,speed_6005.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
-97,Twitter_volume_GOOG.csv,0.012603819,Linear,0.4,1,Linear,0.66666667,1.0
-98,Twitter_volume_CVS.csv,0.023753434,Linear,0.66666667,2,Linear,0.66666667,1.0
-99,Twitter_volume_CRM.csv,0.028368548,KMeans,0.54545455,3,Linear,0.66666667,1.0
-100,Twitter_volume_AAPL.csv,0.05223809,Linear,0.4,4,Linear,0.66666667,1.0
-101,Twitter_volume_AMZN.csv,0.055826306,KMeans,0.66666667,5,Linear,0.66666667,1.0
-102,Twitter_volume_PFE.csv,0.06356597,KMeans,0.42857143,6,KMeans,0.66666667,1.0
-103,Twitter_volume_KO.csv,0.06473091,Linear,0.8,7,Linear,0.66666667,1.0
-104,Twitter_volume_UPS.csv,0.08097641,Linear,0.28571429,8,Linear,0.66666667,1.0
-105,speed_t4013.csv,0.15720698,Linear,1.0,9,Linear,0.66666667,1.0
-106,KDD-Cup99 HTTP,0.2757343,RPCA,0.93849658,10,Linear,0.66666667,1.0
+97,Twitter_volume_GOOG.csv,0.010130912,Linear,0.4,1,Linear,0.66666667,1.0
+98,Twitter_volume_CVS.csv,0.023045927,Linear,0.66666667,2,Linear,0.66666667,1.0
+99,Twitter_volume_CRM.csv,0.028426275,KMeans,0.54545455,3,Linear,0.66666667,1.0
+100,Twitter_volume_AAPL.csv,0.051515713,Linear,0.4,4,Linear,0.66666667,1.0
+101,Twitter_volume_AMZN.csv,0.054904208,KMeans,0.66666667,5,Linear,0.66666667,1.0
+102,Twitter_volume_KO.csv,0.060496897,Linear,0.8,6,Linear,0.66666667,1.0
+103,Twitter_volume_PFE.csv,0.061523125,KMeans,0.42857143,7,Linear,0.66666667,1.0
+104,Twitter_volume_UPS.csv,0.07881163,Linear,0.28571429,8,Linear,0.66666667,1.0
+105,speed_t4013.csv,0.15434489,Linear,1.0,9,Linear,0.66666667,1.0
+106,KDD-Cup99 HTTP,0.26027966,RPCA,0.93849658,10,Linear,0.66666667,1.0
 107,,,,,,,,
 108,Twitter_volume_KO.csv,0,Linear,0.8,0,Linear,0.8,1
-109,Twitter_volume_CVS.csv,0.0071706176,Linear,0.66666667,1,Linear,0.8,1.0
-110,speed_6005.csv,0.035796404,Linear,0.66666667,2,Linear,0.8,1.0
-111,Twitter_volume_PFE.csv,0.042336747,KMeans,0.42857143,3,Linear,0.8,1.0
-112,Twitter_volume_GOOG.csv,0.043227836,Linear,0.4,4,Linear,0.8,1.0
-113,Twitter_volume_UPS.csv,0.06243922,Linear,0.28571429,5,Linear,0.8,1.0
-114,Twitter_volume_CRM.csv,0.0656763,KMeans,0.54545455,6,Linear,0.8,1.0
-115,Twitter_volume_AAPL.csv,0.08239408,Linear,0.4,7,Linear,0.8,1.0
-116,Twitter_volume_AMZN.csv,0.0840743,KMeans,0.66666667,8,Linear,0.8,1.0
-117,speed_t4013.csv,0.20160234,Linear,1.0,9,Linear,0.8,1.0
-118,KDD-Cup99 HTTP,0.3059071,RPCA,0.93849658,10,Linear,0.8,1.0
+109,speed_6005.csv,0.0107554495,Linear,0.66666667,1,Linear,0.8,1.0
+110,Twitter_volume_CVS.csv,0.0354847,Linear,0.66666667,2,Linear,0.8,1.0
+111,Twitter_volume_GOOG.csv,0.045555323,Linear,0.4,3,Linear,0.8,1.0
+112,Twitter_volume_CRM.csv,0.07265897,KMeans,0.54545455,4,Linear,0.8,1.0
+113,Twitter_volume_PFE.csv,0.07881087,KMeans,0.42857143,5,Linear,0.8,1.0
+114,Twitter_volume_AAPL.csv,0.09225424,Linear,0.4,6,Linear,0.8,1.0
+115,Twitter_volume_AMZN.csv,0.09466557,KMeans,0.66666667,7,Linear,0.8,1.0
+116,Twitter_volume_UPS.csv,0.09777023,Linear,0.28571429,8,Linear,0.8,1.0
+117,speed_t4013.csv,0.1506063,Linear,1.0,9,Linear,0.8,1.0
+118,KDD-Cup99 HTTP,0.2466473,RPCA,0.93849658,10,Linear,0.8,1.0
 119,,,,,,,,
 120,Twitter_volume_GOOG.csv,0,Linear,0.4,0,Linear,0.4,1
-121,Twitter_volume_CRM.csv,0.056007713,KMeans,0.54545455,1,KMeans,0.4,1.0
-122,Twitter_volume_KO.csv,0.05795178,Linear,0.8,2,KMeans,0.4,1.0
-123,speed_t4013.csv,0.059846163,Linear,1.0,3,Linear,0.4,1.0
-124,speed_6005.csv,0.0848206,Linear,0.66666667,4,Linear,0.4,1.0
-125,Twitter_volume_AAPL.csv,0.08487919,Linear,0.4,5,Linear,0.4,1.0
-126,Twitter_volume_AMZN.csv,0.08987072,KMeans,0.66666667,6,Linear,0.4,1.0
-127,Twitter_volume_CVS.csv,0.10423103,Linear,0.66666667,7,Linear,0.4,1.0
-128,Twitter_volume_PFE.csv,0.1359236,KMeans,0.42857143,8,Linear,0.4,1.0
-129,Twitter_volume_UPS.csv,0.15092234,Linear,0.28571429,9,Linear,0.4,1.0
-130,KDD-Cup99 HTTP,0.17048672,RPCA,0.93849658,10,Linear,0.4,1.0
+121,speed_6005.csv,0.010872215,Linear,0.66666667,1,Linear,0.4,1.0
+122,Twitter_volume_CVS.csv,0.014048487,Linear,0.66666667,2,Linear,0.4,1.0
+123,Twitter_volume_CRM.csv,0.035441592,KMeans,0.54545455,3,Linear,0.4,1.0
+124,Twitter_volume_KO.csv,0.04957354,Linear,0.8,4,Linear,0.4,1.0
+125,Twitter_volume_PFE.csv,0.05677049,KMeans,0.42857143,5,Linear,0.4,1.0
+126,Twitter_volume_AAPL.csv,0.057768106,Linear,0.4,6,Linear,0.4,1.0
+127,Twitter_volume_AMZN.csv,0.06088896,KMeans,0.66666667,7,Linear,0.4,1.0
+128,Twitter_volume_UPS.csv,0.075396776,Linear,0.28571429,8,Linear,0.4,1.0
+129,speed_t4013.csv,0.17115748,Linear,1.0,9,Linear,0.4,1.0
+130,KDD-Cup99 HTTP,0.2718224,RPCA,0.93849658,10,Linear,0.4,1.0
 131,,,,,,,,
 132,Twitter_volume_CVS.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
-133,Twitter_volume_AAPL.csv,0.009778559,Linear,0.4,1,Linear,0.66666667,1.0
-134,Twitter_volume_AMZN.csv,0.013950616,KMeans,0.66666667,2,KMeans,0.66666667,1.0
-135,Twitter_volume_CRM.csv,0.01703757,KMeans,0.54545455,3,KMeans,0.66666667,1.0
-136,speed_6005.csv,0.022311002,Linear,0.66666667,4,KMeans,0.66666667,1.0
-137,Twitter_volume_PFE.csv,0.037142053,KMeans,0.42857143,5,KMeans,0.66666667,1.0
-138,Twitter_volume_UPS.csv,0.054423794,Linear,0.28571429,6,KMeans,0.66666667,1.0
-139,Twitter_volume_GOOG.csv,0.06282285,Linear,0.4,7,Linear,0.66666667,1.0
-140,Twitter_volume_KO.csv,0.12075806,Linear,0.8,8,Linear,0.66666667,1.0
-141,speed_t4013.csv,0.17886361,Linear,1.0,9,Linear,0.66666667,1.0
-142,KDD-Cup99 HTTP,0.2853696,RPCA,0.93849658,10,Linear,0.66666667,1.0
+133,Twitter_volume_AMZN.csv,0.017930597,KMeans,0.66666667,1,KMeans,0.66666667,1.0
+134,speed_6005.csv,0.019655377,Linear,0.66666667,2,KMeans,0.66666667,1.0
+135,Twitter_volume_AAPL.csv,0.023148268,Linear,0.4,3,Linear,0.66666667,1.0
+136,Twitter_volume_PFE.csv,0.032297745,KMeans,0.42857143,4,KMeans,0.66666667,1.0
+137,Twitter_volume_UPS.csv,0.047979295,Linear,0.28571429,5,Linear,0.66666667,1.0
+138,Twitter_volume_CRM.csv,0.053366333,KMeans,0.54545455,6,KMeans,0.66666667,1.0
+139,Twitter_volume_GOOG.csv,0.11125097,Linear,0.4,7,Linear,0.66666667,1.0
+140,speed_t4013.csv,0.1678383,Linear,1.0,8,Linear,0.66666667,1.0
+141,Twitter_volume_KO.csv,0.17202798,Linear,0.8,9,Linear,0.66666667,1.0
+142,KDD-Cup99 HTTP,0.2688688,RPCA,0.93849658,10,Linear,0.66666667,1.0
 143,,,,,,,,
 144,Twitter_volume_FB.csv,0,Linear,1.0,0,Linear,1.0,1
-145,Twitter_volume_IBM.csv,0.36723143,Linear,0.5,1,Linear,1.0,1.0
-146,Thyroid Disease,0.49628133,KMeans,0.22317597,2,KMeans,1.0,1.0
-147,Breast Cancer Diagnostic,0.52541864,KMeans,0.83333333,3,KMeans,1.0,1.0
-148,speed_7578.csv,0.5957521,KMeans,0.75,4,KMeans,1.0,1.0
-149,KDD-Cup99 HTTP,0.67938846,RPCA,0.93849658,5,KMeans,1.0,1.0
-150,speed_t4013.csv,0.79357123,Linear,1.0,6,KMeans,1.0,1.0
-151,Twitter_volume_KO.csv,0.8134923,Linear,0.8,7,KMeans,1.0,1.0
-152,Twitter_volume_GOOG.csv,0.87250435,Linear,0.4,8,Linear,1.0,1.0
-153,Twitter_volume_CRM.csv,0.9243182,KMeans,0.54545455,9,KMeans,1.0,1.0
-154,speed_6005.csv,0.94168407,Linear,0.66666667,10,Linear,1.0,1.0
+145,Thyroid Disease,0.148018,KMeans,0.22317597,1,KMeans,1.0,1.0
+146,Breast Cancer Diagnostic,0.29757679,KMeans,0.83333333,2,KMeans,1.0,1.0
+147,Twitter_volume_IBM.csv,0.3233717,Linear,0.5,3,KMeans,1.0,1.0
+148,speed_7578.csv,0.4137805,KMeans,0.75,4,KMeans,1.0,1.0
+149,KDD-Cup99 HTTP,0.50861233,RPCA,0.93849658,5,KMeans,1.0,1.0
+150,speed_t4013.csv,0.6132033,Linear,1.0,6,KMeans,1.0,1.0
+151,Twitter_volume_KO.csv,0.70170426,Linear,0.8,7,KMeans,1.0,1.0
+152,Twitter_volume_GOOG.csv,0.7523377,Linear,0.4,8,Linear,1.0,1.0
+153,speed_6005.csv,0.7656307,Linear,0.66666667,9,Linear,1.0,1.0
+154,Twitter_volume_CVS.csv,0.78780997,Linear,0.66666667,10,Linear,1.0,1.0
 155,,,,,,,,
 156,Twitter_volume_IBM.csv,0,Linear,0.5,0,Linear,0.5,1
-157,Breast Cancer Diagnostic,0.05123627,KMeans,0.83333333,1,KMeans,0.5,1.0
-158,Thyroid Disease,0.14087325,KMeans,0.22317597,2,KMeans,0.5,1.0
-159,speed_7578.csv,0.1425227,KMeans,0.75,3,KMeans,0.5,1.0
-160,KDD-Cup99 HTTP,0.23441482,RPCA,0.93849658,4,KMeans,0.5,1.0
-161,Twitter_volume_FB.csv,0.32950562,Linear,1.0,5,KMeans,0.5,1.0
-162,speed_t4013.csv,0.33292463,Linear,1.0,6,KMeans,0.5,1.0
-163,Twitter_volume_KO.csv,0.38924345,Linear,0.8,7,KMeans,0.5,1.0
-164,Twitter_volume_GOOG.csv,0.44171008,Linear,0.4,8,Linear,0.5,1.0
-165,speed_6005.csv,0.47811687,Linear,0.66666667,9,Linear,0.5,1.0
-166,Twitter_volume_CRM.csv,0.48220477,KMeans,0.54545455,10,Linear,0.5,1.0
+157,Thyroid Disease,0.029636025,KMeans,0.22317597,1,KMeans,0.5,1.0
+158,Breast Cancer Diagnostic,0.18154776,KMeans,0.83333333,2,KMeans,0.5,1.0
+159,speed_7578.csv,0.31214923,KMeans,0.75,3,KMeans,0.5,1.0
+160,Twitter_volume_FB.csv,0.38733155,Linear,1.0,4,KMeans,0.5,1.0
+161,KDD-Cup99 HTTP,0.40496564,RPCA,0.93849658,5,KMeans,0.5,1.0
+162,Twitter_volume_KO.csv,0.47473893,Linear,0.8,6,KMeans,0.5,1.0
+163,speed_t4013.csv,0.50617766,Linear,1.0,7,KMeans,0.5,1.0
+164,Twitter_volume_GOOG.csv,0.53637016,Linear,0.4,8,Linear,0.5,1.0
+165,Twitter_volume_CRM.csv,0.59780705,KMeans,0.54545455,9,KMeans,0.5,1.0
+166,Twitter_volume_AAPL.csv,0.62907207,Linear,0.4,10,Linear,0.5,1.0
 167,,,,,,,,
 168,Twitter_volume_CRM.csv,0,KMeans,0.54545455,0,KMeans,0.54545455,1
-169,Twitter_volume_CVS.csv,0.0099512935,Linear,0.66666667,1,Linear,0.5,0.95454545
-170,Twitter_volume_AAPL.csv,0.022921324,Linear,0.4,2,Linear,0.5,0.95454545
-171,Twitter_volume_AMZN.csv,0.02626045,KMeans,0.66666667,3,Linear,0.5,0.95454545
-172,Twitter_volume_PFE.csv,0.03010647,KMeans,0.42857143,4,KMeans,0.54545455,1.0
-173,speed_6005.csv,0.03328249,Linear,0.66666667,5,Linear,0.5,0.95454545
-174,Twitter_volume_GOOG.csv,0.037697315,Linear,0.4,6,Linear,0.5,0.95454545
-175,Twitter_volume_UPS.csv,0.047967717,Linear,0.28571429,7,Linear,0.5,0.95454545
-176,Twitter_volume_KO.csv,0.08792016,Linear,0.8,8,Linear,0.5,0.95454545
-177,speed_t4013.csv,0.18601194,Linear,1.0,9,Linear,0.5,0.95454545
-178,KDD-Cup99 HTTP,0.2833929,RPCA,0.93849658,10,Linear,0.5,0.95454545
+169,Twitter_volume_AAPL.csv,0.028672695,Linear,0.4,1,Linear,0.5,0.95454545
+170,Twitter_volume_AMZN.csv,0.033572495,KMeans,0.66666667,2,KMeans,0.54545455,1.0
+171,speed_6005.csv,0.034783095,Linear,0.66666667,3,Linear,0.5,0.95454545
+172,Twitter_volume_CVS.csv,0.052656457,Linear,0.66666667,4,Linear,0.5,0.95454545
+173,Twitter_volume_GOOG.csv,0.05338815,Linear,0.4,5,Linear,0.5,0.95454545
+174,Twitter_volume_PFE.csv,0.082616046,KMeans,0.42857143,6,Linear,0.5,0.95454545
+175,Twitter_volume_UPS.csv,0.09761505,Linear,0.28571429,7,Linear,0.5,0.95454545
+176,speed_t4013.csv,0.10761988,Linear,1.0,8,Linear,0.5,0.95454545
+177,Twitter_volume_KO.csv,0.110841155,Linear,0.8,9,Linear,0.5,0.95454545
+178,KDD-Cup99 HTTP,0.21389672,RPCA,0.93849658,10,Linear,0.5,0.95454545
 179,,,,,,,,
 180,speed_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
-181,Twitter_volume_GOOG.csv,0.019120544,Linear,0.4,1,Linear,1.0,1.0
-182,Twitter_volume_KO.csv,0.041141212,Linear,0.8,2,Linear,1.0,1.0
-183,Twitter_volume_CRM.csv,0.08050877,KMeans,0.54545455,3,Linear,1.0,1.0
-184,KDD-Cup99 HTTP,0.09819543,RPCA,0.93849658,4,Linear,1.0,1.0
-185,Twitter_volume_AAPL.csv,0.11156136,Linear,0.4,5,Linear,1.0,1.0
-186,Twitter_volume_AMZN.csv,0.11718044,KMeans,0.66666667,6,Linear,1.0,1.0
-187,speed_6005.csv,0.13749397,Linear,0.66666667,7,Linear,1.0,1.0
-188,Twitter_volume_CVS.csv,0.1544147,Linear,0.66666667,8,Linear,1.0,1.0
-189,Twitter_volume_PFE.csv,0.18184154,KMeans,0.42857143,9,Linear,1.0,1.0
-190,speed_7578.csv,0.19065353,KMeans,0.75,10,Linear,1.0,1.0
+181,KDD-Cup99 HTTP,0.09933868,RPCA,0.93849658,1,RPCA,0.8,0.8
+182,Twitter_volume_KO.csv,0.15750906,Linear,0.8,2,Linear,1.0,1.0
+183,speed_6005.csv,0.16152051,Linear,0.66666667,3,Linear,1.0,1.0
+184,Twitter_volume_CVS.csv,0.18772906,Linear,0.66666667,4,Linear,1.0,1.0
+185,Twitter_volume_IBM.csv,0.18984416,Linear,0.5,5,Linear,1.0,1.0
+186,speed_7578.csv,0.1961725,KMeans,0.75,6,Linear,1.0,1.0
+187,Twitter_volume_GOOG.csv,0.2036629,Linear,0.4,7,Linear,1.0,1.0
+188,Twitter_volume_CRM.csv,0.23159304,KMeans,0.54545455,8,Linear,1.0,1.0
+189,Twitter_volume_PFE.csv,0.2326279,KMeans,0.42857143,9,Linear,1.0,1.0
+190,Thyroid Disease,0.2502614,KMeans,0.22317597,10,Linear,1.0,1.0
 191,,,,,,,,
 192,Twitter_volume_PFE.csv,0,KMeans,0.42857143,0,KMeans,0.42857143,1
-193,Twitter_volume_AMZN.csv,0.002334267,KMeans,0.66666667,1,KMeans,0.42857143,1.0
-194,Twitter_volume_AAPL.csv,0.0053878874,Linear,0.4,2,KMeans,0.42857143,1.0
-195,Twitter_volume_UPS.csv,0.017736793,Linear,0.28571429,3,Linear,0.36363636,0.93506493
-196,Twitter_volume_CRM.csv,0.027892694,KMeans,0.54545455,4,KMeans,0.42857143,1.0
-197,Twitter_volume_CVS.csv,0.037997976,Linear,0.66666667,5,Linear,0.36363636,0.93506493
-198,speed_6005.csv,0.059638515,Linear,0.66666667,6,Linear,0.36363636,0.93506493
-199,Twitter_volume_GOOG.csv,0.060987994,Linear,0.4,7,Linear,0.36363636,0.93506493
-200,Twitter_volume_KO.csv,0.11184223,Linear,0.8,8,Linear,0.36363636,0.93506493
-201,speed_t4013.csv,0.20794503,Linear,1.0,9,Linear,0.36363636,0.93506493
-202,KDD-Cup99 HTTP,0.30938327,RPCA,0.93849658,10,Linear,0.36363636,0.93506493
+193,Twitter_volume_UPS.csv,0.014872372,Linear,0.28571429,1,Linear,0.36363636,0.93506493
+194,Twitter_volume_CVS.csv,0.029554904,Linear,0.66666667,2,Linear,0.36363636,0.93506493
+195,speed_6005.csv,0.047023505,Linear,0.66666667,3,Linear,0.36363636,0.93506493
+196,Twitter_volume_AMZN.csv,0.0504708,KMeans,0.66666667,4,Linear,0.36363636,0.93506493
+197,Twitter_volume_AAPL.csv,0.055470437,Linear,0.4,5,Linear,0.36363636,0.93506493
+198,Twitter_volume_CRM.csv,0.08472821,KMeans,0.54545455,6,Linear,0.36363636,0.93506493
+199,Twitter_volume_GOOG.csv,0.13880685,Linear,0.4,7,Linear,0.36363636,0.93506493
+200,speed_t4013.csv,0.1843737,Linear,1.0,8,Linear,0.36363636,0.93506493
+201,Twitter_volume_KO.csv,0.19778198,Linear,0.8,9,Linear,0.36363636,0.93506493
+202,KDD-Cup99 HTTP,0.2856247,RPCA,0.93849658,10,Linear,0.36363636,0.93506493
 203,,,,,,,,
 204,Twitter_volume_AMZN.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
-205,Twitter_volume_AAPL.csv,0.005549848,Linear,0.4,1,Linear,0.57142857,0.9047619
-206,speed_6005.csv,0.011315674,Linear,0.66666667,2,Linear,0.57142857,0.9047619
-207,Twitter_volume_CVS.csv,0.029159352,Linear,0.66666667,3,Linear,0.57142857,0.9047619
-208,Twitter_volume_CRM.csv,0.036884397,KMeans,0.54545455,4,Linear,0.57142857,0.9047619
-209,Twitter_volume_PFE.csv,0.058689967,KMeans,0.42857143,5,Linear,0.57142857,0.9047619
-210,Twitter_volume_UPS.csv,0.07335931,Linear,0.28571429,6,Linear,0.57142857,0.9047619
-211,Twitter_volume_GOOG.csv,0.09847823,Linear,0.4,7,Linear,0.57142857,0.9047619
-212,speed_t4013.csv,0.1311458,Linear,1.0,8,Linear,0.57142857,0.9047619
-213,Twitter_volume_KO.csv,0.16116187,Linear,0.8,9,Linear,0.57142857,0.9047619
-214,KDD-Cup99 HTTP,0.24009639,RPCA,0.93849658,10,Linear,0.57142857,0.9047619
+205,Twitter_volume_AAPL.csv,0.004952669,Linear,0.4,1,Linear,0.57142857,0.9047619
+206,speed_6005.csv,0.00882411,Linear,0.66666667,2,Linear,0.57142857,0.9047619
+207,Twitter_volume_CVS.csv,0.011511177,Linear,0.66666667,3,Linear,0.57142857,0.9047619
+208,Twitter_volume_CRM.csv,0.03388107,KMeans,0.54545455,4,Linear,0.57142857,0.9047619
+209,Twitter_volume_PFE.csv,0.0443466,KMeans,0.42857143,5,Linear,0.57142857,0.9047619
+210,Twitter_volume_UPS.csv,0.059762165,Linear,0.28571429,6,Linear,0.57142857,0.9047619
+211,Twitter_volume_GOOG.csv,0.08912006,Linear,0.4,7,Linear,0.57142857,0.9047619
+212,Twitter_volume_KO.csv,0.1476627,Linear,0.8,8,Linear,0.57142857,0.9047619
+213,speed_t4013.csv,0.15766993,Linear,1.0,9,Linear,0.57142857,0.9047619
+214,KDD-Cup99 HTTP,0.27160636,RPCA,0.93849658,10,Linear,0.57142857,0.9047619
 215,,,,,,,,
 0,,,,,K,,Method match,Accuracy
-0,,,,,1.0,,0.7222222222222222,0.9444967644444444
-0,,,,,2.0,,0.7222222222222222,0.9444967644444444
-0,,,,,3.0,,0.6111111111111112,0.9284874644444443
-0,,,,,4.0,,0.8333333333333334,0.9604525533333335
-0,,,,,5.0,,0.7222222222222222,0.9843767811111113
-0,,,,,6.0,,0.5555555555555556,0.9519432216666668
-0,,,,,7.0,,0.6111111111111112,0.955470558888889
-0,,,,,8.0,,0.6111111111111112,0.955470558888889
+0,,,,,1.0,,0.5555555555555556,0.927997611111111
+0,,,,,2.0,,0.7777777777777778,0.9568450494444445
+0,,,,,3.0,,0.7222222222222222,0.9843767811111113
+0,,,,,4.0,,0.7222222222222222,0.9543197966666668
+0,,,,,5.0,,0.7777777777777778,0.9879041183333334
+0,,,,,6.0,,0.5555555555555556,0.9218862372222222
+0,,,,,7.0,,0.6111111111111112,0.9254135744444443
+0,,,,,8.0,,0.6111111111111112,0.9254135744444443
 0,,,,,9.0,,0.6111111111111112,0.955470558888889
-0,,,,,10.0,,0.5,0.9296382266666665
+0,,,,,10.0,,0.5,0.899581242222222

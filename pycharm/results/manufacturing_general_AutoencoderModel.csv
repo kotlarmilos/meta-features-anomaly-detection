@@ -1,15 +1,15 @@
 ,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
 0,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
-1,rogue_agent_key_updown.csv,0.028623492,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0
-2,rogue_agent_key_hold.csv,0.105243266,Linear,0.003367,2,Gaussian,0.06772229,1.0
+1,rogue_agent_key_updown.csv,0.08297825,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0
+2,rogue_agent_key_hold.csv,0.13216421,Linear,0.003367,2,Gaussian,0.06772229,1.0
 3,,,,,,,,
 4,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
-5,rogue_agent_key_updown.csv,0.0040510595,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0
-6,rogue_agent_key_hold.csv,0.109904885,Linear,0.003367,2,Gaussian,0.00083455,1.0
+5,rogue_agent_key_updown.csv,0.035698205,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0
+6,rogue_agent_key_hold.csv,0.07614231,Linear,0.003367,2,Gaussian,0.00083455,1.0
 7,,,,,,,,
 8,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
-9,rogue_agent_key_updown.csv,0.0034309328,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728
-10,rogue_agent_key_hold.csv,0.07787198,Linear,0.003367,2,Gaussian,0.00265428,0.99928728
+9,rogue_agent_key_updown.csv,0.041232705,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728
+10,rogue_agent_key_hold.csv,0.15346336,Linear,0.003367,2,Gaussian,0.00265428,0.99928728
 11,,,,,,,,
 0,,,,,K,,Method match,Accuracy
 0,,,,,1.0,,0.6666666666666666,0.9997624266666666

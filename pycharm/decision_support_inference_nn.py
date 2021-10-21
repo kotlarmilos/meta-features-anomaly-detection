@@ -115,7 +115,6 @@ loss_per_fold = []
 fold_no = 1
 kfold = KFold(10)
 for train, test in kfold.split(X, encoded_Y):
-
     model = Sequential()
     model.add(Dense(94, input_dim=94, activation='relu'))
     Dense(64, activation='relu'),

@@ -1,0 +1,78 @@
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy,Change
+0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+1,Thyroid Disease,8993.864868453671,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.0
+2,,,,,,,,,
+3,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+4,Thyroid Disease,9443.358111876354,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.1
+5,,,,,,,,,
+6,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+7,Thyroid Disease,10432.243247406259,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.2
+8,,,,,,,,,
+9,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+10,Thyroid Disease,12212.236491360087,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.30000000000000004
+11,,,,,,,,,
+12,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+13,Thyroid Disease,15297.558114213387,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.4
+14,,,,,,,,,
+15,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+16,Thyroid Disease,20696.870954206664,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.5
+17,,,,,,,,,
+18,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+19,Thyroid Disease,30415.634066194558,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.6000000000000001
+20,,,,,,,,,
+21,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+22,Thyroid Disease,48557.32520857197,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.7000000000000001
+23,,,,,,,,,
+24,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+25,Thyroid Disease,83804.03942804808,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.8
+26,,,,,,,,,
+27,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+28,Thyroid Disease,155178.6357224872,KMeans,0.22317597,1,KMeans,0.83333333,1.0,0.9
+29,,,,,,,,,
+30,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1,
+31,Thyroid Disease,305858.3390107476,KMeans,0.22317597,1,KMeans,0.83333333,1.0,1.0
+32,,,,,,,,,
+33,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+34,Breast Cancer Diagnostic,305858.3390107476,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.0
+35,,,,,,,,,
+36,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+37,Breast Cancer Diagnostic,306307.83225417027,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.1
+38,,,,,,,,,
+39,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+40,Breast Cancer Diagnostic,307296.7173897002,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.2
+41,,,,,,,,,
+42,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+43,Breast Cancer Diagnostic,309076.71063365403,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.30000000000000004
+44,,,,,,,,,
+45,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+46,Breast Cancer Diagnostic,312162.0322565073,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.4
+47,,,,,,,,,
+48,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+49,Breast Cancer Diagnostic,317561.3450965006,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.5
+50,,,,,,,,,
+51,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+52,Breast Cancer Diagnostic,327280.1082084885,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.6000000000000001
+53,,,,,,,,,
+54,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+55,Breast Cancer Diagnostic,345421.7993508659,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.7000000000000001
+56,,,,,,,,,
+57,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+58,Breast Cancer Diagnostic,380668.513570342,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.8
+59,,,,,,,,,
+60,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+61,Breast Cancer Diagnostic,452043.10986478115,KMeans,0.83333333,1,KMeans,0.22317597,1.0,0.9
+62,,,,,,,,,
+63,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1,
+64,Breast Cancer Diagnostic,602722.8131530415,KMeans,0.83333333,1,KMeans,0.22317597,1.0,1.0
+65,,,,,,,,,
+0,,,,,K,,Method match,Accuracy,
+0,,,,,1.0,,11.0,11.0,
+0,,,,,2.0,,0.0,0.0,
+0,,,,,3.0,,0.0,0.0,
+0,,,,,4.0,,0.0,0.0,
+0,,,,,5.0,,0.0,0.0,
+0,,,,,6.0,,0.0,0.0,
+0,,,,,7.0,,0.0,0.0,
+0,,,,,8.0,,0.0,0.0,
+0,,,,,9.0,,0.0,0.0,
+0,,,,,10.0,,0.0,0.0,

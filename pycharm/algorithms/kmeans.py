@@ -141,13 +141,41 @@ class KMeans:
         return score, best_method, best_params
 
     def distance(self, k, test_features, train_features, datasets, evaluation):
-        test_features = tf.constant(test_features)
-        train_features = tf.constant(train_features)
+        ##test_features = tf.constant(test_features)
+      #  train_features = tf.constant(train_features)
 
-        neg_one = tf.constant(-1.0, dtype=tf.float64)
-        distances = tf.reduce_sum(tf.abs(tf.subtract(test_features, train_features)), 1)
-        train_probs = distances.numpy()
-        test_probs = 0
+        all_features = np.concatenate((test_features, train_features), axis = 0) # tf.concat([test_features, train_features], 0)
+
+
+        # self.features = tf.constant(features)
+        k = 1
+        self.features = all_features
+        kmeans = tf.compat.v1.estimator.experimental.KMeans(num_clusters=int(k), use_mini_batch=False)
+
+        # train
+        num_iterations = 10
+        previous_centers = None
+        cluster_centers = None
+        for _ in range(num_iterations):
+            kmeans.train(self.input_fn)
+        #     cluster_centers = kmeans.cluster_centers()
+        #     if previous_centers is not None:
+        #         print ('delta:', cluster_centers - previous_centers)
+        #     previous_centers = cluster_centers
+        #     print('score:', kmeans.score(self.input_fn))
+        # print ('cluster centers:', cluster_centers)
+
+        # map the input points to their clusters
+        probs = []
+        clusters = []
+        for item in list(kmeans.predict(self.input_fn)):
+            probs.append(item['all_distances'][item['cluster_index']])
+            clusters.append(item['cluster_index'])
+
+        probs = np.array(probs)
+
+        train_probs = probs
+        test_probs = probs[0]
 
         return self.find_nearest(k, train_probs, test_probs, datasets, evaluation)
 
@@ -199,10 +227,10 @@ class KMeans:
         return best_scores, probs, clusters
 
     def visualize_2d(self, dataset, features, target, probs, best_scores, clusters, n):
-        performance = ['acc', 'prec', 'recall', 'f1', 'manual']
-        fig = plt.figure(figsize=(12, 12))
+        performance = ['f1']
+        fig = plt.figure(figsize=(8, 6))
         plt.subplots_adjust(hspace=0.5)
-        fig.suptitle('%s, PCA = %d, K = %d' % (dataset['name'], n, len(np.unique(clusters))), fontsize=15)
+        fig.suptitle('%s, KMeans PCA = %d, K = %d' % (dataset['name'], n, len(np.unique(clusters))), fontsize=15)
 
         df = pd.concat(
             [pd.DataFrame(data=features, columns=['pca1', 'pca2']),
@@ -217,7 +245,7 @@ class KMeans:
         for idx, val in enumerate(performance):
             outliers = np.array(np.where(probs >= best_scores[val]['epsilon'])).flatten()
 
-            ax = fig.add_subplot(3, 3, idx + 1)
+            ax = fig.add_subplot(1, 1, 1)
             if val == 'manual':
                 ax.set_title('%s (manual): %f%%, epsilon: %.2E' % (
                 val, best_scores[val]['scores']['f1'], best_scores[val]['epsilon']), fontsize=12)
@@ -226,28 +254,82 @@ class KMeans:
                     '%s: %f%%, epsilon: %.2E' % (val, best_scores[val]['scores'][val], best_scores[val]['epsilon']),
                     fontsize=12)
 
-            for cls, color in zip(range(0, len(np.unique(clusters))), colors):
-                indicesToKeep = df['cluster'] == cls
+            # for cls, color in zip(range(0, len(np.unique(clusters))), colors):
+            #     indicesToKeep = df['cluster'] == cls
+            #     ax.scatter(df.loc[indicesToKeep, 'pca1']
+            #                , df.loc[indicesToKeep, 'pca2']
+            #                , c=color
+            #                , s=50)
+
+            for cls, color in zip([0, 1], ['g', 'r']):
+                indicesToKeep = df['target'] == cls
                 ax.scatter(df.loc[indicesToKeep, 'pca1']
                            , df.loc[indicesToKeep, 'pca2']
                            , c=color
                            , s=50)
 
-            # for cls, color in zip([0, 1], ['g', 'r']):
-            #     indicesToKeep = df['target'] == cls
-            #     ax.scatter(df.loc[indicesToKeep, 'pca1']
-            #                , df.loc[indicesToKeep, 'pca2']
-            #                , c=color
-            #                , s=50)
-            #
-            # ax.scatter(df.loc[outliers, 'pca1']
-            #            , df.loc[outliers, 'pca2']
-            #            , c='w'
-            #            , s=10)
+            ax.scatter(df.loc[outliers, 'pca1']
+                       , df.loc[outliers, 'pca2']
+                       , c='w'
+                       , s=10)
 
-        ax = fig.add_subplot(3, 3, 6)
-        ax.set_title('Probabilities', fontsize=12)
-        ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
+        # ax = fig.add_subplot(3, 3, 6)
+        # ax.set_title('Probabilities', fontsize=12)
+        # ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
         fig.legend(['normal', 'anomaly', 'detected'], facecolor="#B6B6B6")
 
         plt.show()
+
+    # def visualize_2d(self, dataset, features, target, probs, best_scores, clusters, n):
+    #     performance = ['acc', 'prec', 'recall', 'f1', 'manual']
+    #     fig = plt.figure(figsize=(12, 12))
+    #     plt.subplots_adjust(hspace=0.5)
+    #     fig.suptitle('%s, PCA = %d, K = %d' % (dataset['name'], n, len(np.unique(clusters))), fontsize=15)
+    #
+    #     df = pd.concat(
+    #         [pd.DataFrame(data=features, columns=['pca1', 'pca2']),
+    #          pd.DataFrame(data=target, columns=['target']),
+    #          pd.DataFrame(data=clusters, columns=['cluster'])],
+    #         axis=1)
+    #
+    #     colors = []
+    #     for i in range(len(np.unique(clusters))):
+    #         colors.append('#%06X' % randint(0, 0xFFFFFF))
+    #
+    #     for idx, val in enumerate(performance):
+    #         outliers = np.array(np.where(probs >= best_scores[val]['epsilon'])).flatten()
+    #
+    #         ax = fig.add_subplot(3, 3, idx + 1)
+    #         if val == 'manual':
+    #             ax.set_title('%s (manual): %f%%, epsilon: %.2E' % (
+    #             val, best_scores[val]['scores']['f1'], best_scores[val]['epsilon']), fontsize=12)
+    #         else:
+    #             ax.set_title(
+    #                 '%s: %f%%, epsilon: %.2E' % (val, best_scores[val]['scores'][val], best_scores[val]['epsilon']),
+    #                 fontsize=12)
+    #
+    #         for cls, color in zip(range(0, len(np.unique(clusters))), colors):
+    #             indicesToKeep = df['cluster'] == cls
+    #             ax.scatter(df.loc[indicesToKeep, 'pca1']
+    #                        , df.loc[indicesToKeep, 'pca2']
+    #                        , c=color
+    #                        , s=50)
+    #
+    #         # for cls, color in zip([0, 1], ['g', 'r']):
+    #         #     indicesToKeep = df['target'] == cls
+    #         #     ax.scatter(df.loc[indicesToKeep, 'pca1']
+    #         #                , df.loc[indicesToKeep, 'pca2']
+    #         #                , c=color
+    #         #                , s=50)
+    #         #
+    #         # ax.scatter(df.loc[outliers, 'pca1']
+    #         #            , df.loc[outliers, 'pca2']
+    #         #            , c='w'
+    #         #            , s=10)
+    #
+    #     ax = fig.add_subplot(3, 3, 6)
+    #     ax.set_title('Probabilities', fontsize=12)
+    #     ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
+    #     fig.legend(['normal', 'anomaly', 'detected'], facecolor="#B6B6B6")
+    #
+    #     plt.show()

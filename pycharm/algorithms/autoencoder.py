@@ -75,7 +75,7 @@ class AutoencoderModel:
         best_scores['f1'] = {'epsilon': 0, 'scores':{'acc':0, 'prec':0, 'recall':0, 'f1':0}}
 
         # find best metrics and epsilons using test data
-        stepsize = (max(probs) - min(probs)) / 1000
+        stepsize = (max(probs) - min(probs)) / 4
         epsilons = np.arange(min(probs), max(probs), stepsize)
         # epsilons = epsilons[::-1]
         for epsilon in np.nditer(epsilons):#, order='C'
@@ -158,8 +158,8 @@ class AutoencoderModel:
         autoencoder.compile(optimizer='adam', loss='mse')
 
         autoencoder.fit(features_normal, features_normal,
-                        epochs=50,
-                        batch_size=32,
+                        epochs=1,
+                        batch_size=1,
                         shuffle=True)
 
         # create encoder model
@@ -362,10 +362,10 @@ class AutoencoderModel:
 
 
     def visualize_2d(self, dataset, features, target, probs, best_scores, pca):
-        performance = ['acc', 'prec', 'recall', 'f1', 'manual']
-        fig = plt.figure(figsize=(12, 12))
+        performance = [ 'f1']
+        fig = plt.figure(figsize=(8, 6))
         plt.subplots_adjust(hspace=0.5)
-        fig.suptitle('%s, PCA = %d' % (dataset['name'], pca), fontsize=15)
+        fig.suptitle('%s,Autoencoder, PCA = %d' % (dataset['name'], pca), fontsize=15)
 
         df = pd.concat(
             [pd.DataFrame(data=features, columns=['pca1', 'pca2']),
@@ -375,7 +375,7 @@ class AutoencoderModel:
         for idx, val in enumerate(performance):
             outliers = np.array(np.where(probs > best_scores[val]['epsilon'])).flatten()
 
-            ax = fig.add_subplot(3, 3, idx+1)
+            ax = fig.add_subplot(1,1,1)
             if val == 'manual':
                 ax.set_title('%s (manual): %f%%, epsilon: %.2E' % (val, best_scores[val]['scores']['f1'], best_scores[val]['epsilon']), fontsize=12)
             else:
@@ -394,13 +394,52 @@ class AutoencoderModel:
                        , s=10)
 
 
-        ax = fig.add_subplot(3, 3, 6)
-        ax.set_title('Probabilities', fontsize=12)
-        ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
+        # ax = fig.add_subplot(3, 3, 6)
+        # ax.set_title('Probabilities', fontsize=12)
+        # ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
         fig.legend(['normal', 'anomaly', 'detected'], facecolor="#B6B6B6")
 
         plt.show()
 
+    # def visualize_2d(self, dataset, features, target, probs, best_scores, pca):
+    #     performance = ['acc', 'prec', 'recall', 'f1', 'manual']
+    #     fig = plt.figure(figsize=(12, 12))
+    #     plt.subplots_adjust(hspace=0.5)
+    #     fig.suptitle('%s, PCA = %d' % (dataset['name'], pca), fontsize=15)
+    #
+    #     df = pd.concat(
+    #         [pd.DataFrame(data=features, columns=['pca1', 'pca2']),
+    #          pd.DataFrame(data=target, columns=['target'])],
+    #         axis=1)
+    #
+    #     for idx, val in enumerate(performance):
+    #         outliers = np.array(np.where(probs > best_scores[val]['epsilon'])).flatten()
+    #
+    #         ax = fig.add_subplot(3, 3, idx+1)
+    #         if val == 'manual':
+    #             ax.set_title('%s (manual): %f%%, epsilon: %.2E' % (val, best_scores[val]['scores']['f1'], best_scores[val]['epsilon']), fontsize=12)
+    #         else:
+    #             ax.set_title('%s: %f%%, epsilon: %.2E' % (val, best_scores[val]['scores'][val], best_scores[val]['epsilon']), fontsize=12)
+    #
+    #         for cls, color in zip([0, 1], ['g', 'r']):
+    #             indicesToKeep = df['target'] == cls
+    #             ax.scatter(df.loc[indicesToKeep, 'pca1']
+    #                        , df.loc[indicesToKeep, 'pca2']
+    #                        , c=color
+    #                        , s=50)
+    #
+    #         ax.scatter(df.loc[outliers, 'pca1']
+    #                    , df.loc[outliers, 'pca2']
+    #                    , c='w'
+    #                    , s=10)
+    #
+    #
+    #     ax = fig.add_subplot(3, 3, 6)
+    #     ax.set_title('Probabilities', fontsize=12)
+    #     ax.scatter(df['pca1'], df['pca2'], c=probs, s=50)
+    #     fig.legend(['normal', 'anomaly', 'detected'], facecolor="#B6B6B6")
+    #
+    #     plt.show()
 
 
 

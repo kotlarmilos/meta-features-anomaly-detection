@@ -1,15 +1,15 @@
 ,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
 0,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
-1,Landsat Satellite,0.13693884,Linear,0.71794872,1,Linear,0.19112628,0.96795031
-2,Statlog Shuttle,0.34026363,KMeans,0.96766744,2,KMeans,0.22317597,1.0
+1,Landsat Satellite,0.078110546,Linear,0.71794872,1,Linear,0.19112628,0.96795031
+2,Statlog Shuttle,0.37202308,KMeans,0.96766744,2,KMeans,0.22317597,1.0
 3,,,,,,,,
 4,Statlog Shuttle,0,KMeans,0.96766744,0,KMeans,0.96766744,1
-5,Landsat Satellite,0.14901978,Linear,0.71794872,1,Linear,0.96707106,0.9994036199999999
-6,Statlog Shuttle,0.45782608,KMeans,0.96766744,2,KMeans,0.96766744,1.0
+5,Landsat Satellite,0.091014385,Linear,0.71794872,1,Linear,0.96707106,0.9994036199999999
+6,Statlog Shuttle,0.32979986,KMeans,0.96766744,2,KMeans,0.96766744,1.0
 7,,,,,,,,
 8,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
-9,Landsat Satellite,0.17267159,Linear,0.71794872,1,Linear,0.71794872,1.0
-10,Statlog Shuttle,0.47974697,KMeans,0.96766744,2,KMeans,0.65517241,0.93722369
+9,Landsat Satellite,0.09826264,Linear,0.71794872,1,Linear,0.71794872,1.0
+10,Statlog Shuttle,0.3429498,KMeans,0.96766744,2,KMeans,0.65517241,0.93722369
 11,,,,,,,,
 0,,,,,K,,Method match,Accuracy
 0,,,,,1.0,,0.3333333333333333,0.9891179766666666

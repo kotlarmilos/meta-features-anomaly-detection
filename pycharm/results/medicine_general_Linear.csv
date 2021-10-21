@@ -3,7 +3,7 @@
 1,Thyroid Disease,0.0,KMeans,0.22317597,1,KMeans,0.83333333,1.0
 2,,,,,,,,
 3,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
-4,Thyroid Disease,0.0,KMeans,0.22317597,1,KMeans,0.22317597,1.0
+4,Thyroid Disease,7.143428888412018e-07,KMeans,0.22317597,1,KMeans,0.22317597,1.0
 5,,,,,,,,
 0,,,,,K,,Method match,Accuracy
 0,,,,,1.0,,1.0,1.0

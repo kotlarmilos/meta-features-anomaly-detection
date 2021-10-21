@@ -1,768 +1,768 @@
 ,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
 0,Breast Cancer Diagnostic,0,KMeans,0.83333333,0,KMeans,0.83333333,1
-1,KDD-Cup99 HTTP,0.64140904,RPCA,0.93849658,1,RPCA,0.73684211,0.90350878
-2,Letter Recognition,1.5288656,KMeans,0.44545455,2,KMeans,0.83333333,1.0
-3,machine_temperature_system_failure.csv,1.5381898,Linear,0.4,3,KMeans,0.83333333,1.0
-4,Pen-Based Recognition of Handwritten Text,1.5431156,KMeans,0.88648649,4,KMeans,0.83333333,1.0
-5,ec2_cpu_utilization_c6585a.csv,1.5455981,Linear,0.0,5,KMeans,0.83333333,1.0
-6,Landsat Satellite,1.578033,Linear,0.71794872,6,Linear,0.63157895,0.79824562
-7,cpu_utilization_asg_misconfiguration.csv,1.5918952,KMeans,0.00775194,7,KMeans,0.83333333,1.0
-8,Twitter_volume_AAPL.csv,1.6098956,Linear,0.4,8,Linear,0.63157895,0.79824562
-9,Twitter_volume_CRM.csv,1.6098956,KMeans,0.54545455,9,KMeans,0.83333333,1.0
-10,Twitter_volume_IBM.csv,1.609962,Linear,0.5,10,Linear,0.63157895,0.79824562
+1,KDD-Cup99 HTTP,0.9620317,RPCA,0.93849658,1,RPCA,0.73684211,0.90350878
+2,Letter Recognition,1.5884541,KMeans,0.44545455,2,KMeans,0.83333333,1.0
+3,Pen-Based Recognition of Handwritten Text,1.5991151,KMeans,0.88648649,3,KMeans,0.83333333,1.0
+4,ec2_cpu_utilization_c6585a.csv,1.604523,Linear,0.0,4,KMeans,0.83333333,1.0
+5,machine_temperature_system_failure.csv,1.6069779,Linear,0.4,5,KMeans,0.83333333,1.0
+6,Landsat Satellite,1.6375622,Linear,0.71794872,6,Linear,0.63157895,0.79824562
+7,cpu_utilization_asg_misconfiguration.csv,1.6539567,KMeans,0.00775194,7,KMeans,0.83333333,1.0
+8,Twitter_volume_AAPL.csv,1.6701707,Linear,0.4,8,Linear,0.63157895,0.79824562
+9,Twitter_volume_CRM.csv,1.6701707,KMeans,0.54545455,9,KMeans,0.83333333,1.0
+10,Twitter_volume_IBM.csv,1.6702309,Linear,0.5,10,Linear,0.63157895,0.79824562
 11,,,,,,,,
 12,KDD-Cup99 HTTP,0,RPCA,0.93849658,0,RPCA,0.93849658,1
-13,KDD-Cup99 HTTP,1.0471108,RPCA,0.93849658,1,RPCA,0.93849658,1.0
-14,machine_temperature_system_failure.csv,1.6360412,Linear,0.4,2,Linear,0.92639843,0.98790185
-15,Letter Recognition,1.6473653,KMeans,0.44545455,3,KMeans,0.38537271,0.4468761299999999
-16,ec2_cpu_utilization_c6585a.csv,1.6504862,Linear,0.0,4,Linear,0.92639843,0.98790185
-17,Pen-Based Recognition of Handwritten Text,1.657939,KMeans,0.88648649,5,KMeans,0.38537271,0.4468761299999999
-18,Landsat Satellite,1.6917647,Linear,0.71794872,6,Linear,0.92639843,0.98790185
-19,cpu_utilization_asg_misconfiguration.csv,1.6918459,KMeans,0.00775194,7,KMeans,0.38537271,0.4468761299999999
-20,Twitter_volume_AAPL.csv,1.7109233,Linear,0.4,8,Linear,0.92639843,0.98790185
-21,Twitter_volume_CRM.csv,1.7109233,KMeans,0.54545455,9,KMeans,0.38537271,0.4468761299999999
-22,Twitter_volume_IBM.csv,1.710994,Linear,0.5,10,Linear,0.92639843,0.98790185
+13,KDD-Cup99 HTTP,0.6026809,RPCA,0.93849658,1,RPCA,0.93849658,1.0
+14,machine_temperature_system_failure.csv,1.430393,Linear,0.4,2,Linear,0.92639843,0.98790185
+15,ec2_cpu_utilization_c6585a.csv,1.4377043,Linear,0.0,3,Linear,0.92639843,0.98790185
+16,Letter Recognition,1.4471884,KMeans,0.44545455,4,Linear,0.92639843,0.98790185
+17,Pen-Based Recognition of Handwritten Text,1.4479486,KMeans,0.88648649,5,KMeans,0.38537271,0.4468761299999999
+18,Landsat Satellite,1.4754663,Linear,0.71794872,6,Linear,0.92639843,0.98790185
+19,cpu_utilization_asg_misconfiguration.csv,1.4832181,KMeans,0.00775194,7,KMeans,0.38537271,0.4468761299999999
+20,Twitter_volume_AAPL.csv,1.5009876,Linear,0.4,8,Linear,0.92639843,0.98790185
+21,Twitter_volume_CRM.csv,1.5009876,KMeans,0.54545455,9,KMeans,0.38537271,0.4468761299999999
+22,Twitter_volume_IBM.csv,1.5010531,Linear,0.5,10,Linear,0.92639843,0.98790185
 23,,,,,,,,
 24,Pen-Based Recognition of Handwritten Text (Local),0,KMeans,0.52631579,0,KMeans,0.52631579,1
-25,KDD-Cup99 HTTP,0.7851029,RPCA,0.93849658,1,RPCA,0.02453988,0.49822409
-26,machine_temperature_system_failure.csv,1.5726513,Linear,0.4,2,Linear,0.02505219,0.4987364000000001
-27,ec2_cpu_utilization_c6585a.csv,1.5811719,Linear,0.0,3,Linear,0.02505219,0.4987364000000001
-28,Letter Recognition,1.5906647,KMeans,0.44545455,4,Linear,0.02505219,0.4987364000000001
-29,Pen-Based Recognition of Handwritten Text,1.6002117,KMeans,0.88648649,5,KMeans,0.52631579,1.0
-30,cpu_utilization_asg_misconfiguration.csv,1.6260414,KMeans,0.00775194,6,KMeans,0.52631579,1.0
-31,Landsat Satellite,1.6290681,Linear,0.71794872,7,KMeans,0.52631579,1.0
-32,Twitter_volume_AAPL.csv,1.644101,Linear,0.4,8,Linear,0.02505219,0.4987364000000001
-33,Twitter_volume_CRM.csv,1.644101,KMeans,0.54545455,9,KMeans,0.52631579,1.0
-34,Twitter_volume_IBM.csv,1.6441677,Linear,0.5,10,Linear,0.02505219,0.4987364000000001
+25,KDD-Cup99 HTTP,0.9247608,RPCA,0.93849658,1,RPCA,0.02453988,0.49822409
+26,Letter Recognition,1.6400774,KMeans,0.44545455,2,KMeans,0.52631579,1.0
+27,machine_temperature_system_failure.csv,1.6447169,Linear,0.4,3,KMeans,0.52631579,1.0
+28,ec2_cpu_utilization_c6585a.csv,1.6482217,Linear,0.0,4,Linear,0.02505219,0.4987364000000001
+29,Pen-Based Recognition of Handwritten Text,1.653289,KMeans,0.88648649,5,KMeans,0.52631579,1.0
+30,Landsat Satellite,1.6870159,Linear,0.71794872,6,Linear,0.02505219,0.4987364000000001
+31,cpu_utilization_asg_misconfiguration.csv,1.6971499,KMeans,0.00775194,7,KMeans,0.52631579,1.0
+32,Twitter_volume_AAPL.csv,1.7149332,Linear,0.4,8,Linear,0.02505219,0.4987364000000001
+33,Twitter_volume_CRM.csv,1.7149332,KMeans,0.54545455,9,KMeans,0.52631579,1.0
+34,Twitter_volume_IBM.csv,1.7149988,Linear,0.5,10,Linear,0.02505219,0.4987364000000001
 35,,,,,,,,
 36,Letter Recognition,0,KMeans,0.44545455,0,KMeans,0.44545455,1
-37,KDD-Cup99 HTTP,0.71130466,RPCA,0.93849658,1,RPCA,0.31698113,0.87152658
-38,Letter Recognition,1.728105,KMeans,0.44545455,2,KMeans,0.44545455,1.0
-39,ec2_cpu_utilization_c6585a.csv,1.7333076,Linear,0.0,3,KMeans,0.44545455,1.0
-40,machine_temperature_system_failure.csv,1.7333783,Linear,0.4,4,Linear,0.22222222,0.77676767
-41,Pen-Based Recognition of Handwritten Text,1.7410438,KMeans,0.88648649,5,KMeans,0.44545455,1.0
-42,Landsat Satellite,1.7762988,Linear,0.71794872,6,Linear,0.22222222,0.77676767
-43,cpu_utilization_asg_misconfiguration.csv,1.786879,KMeans,0.00775194,7,KMeans,0.44545455,1.0
-44,Twitter_volume_AAPL.csv,1.8048143,Linear,0.4,8,Linear,0.22222222,0.77676767
-45,Twitter_volume_CRM.csv,1.8048143,KMeans,0.54545455,9,KMeans,0.44545455,1.0
-46,Twitter_volume_IBM.csv,1.8048803,Linear,0.5,10,Linear,0.22222222,0.77676767
+37,KDD-Cup99 HTTP,0.6718039,RPCA,0.93849658,1,RPCA,0.31698113,0.87152658
+38,machine_temperature_system_failure.csv,1.4137752,Linear,0.4,2,Linear,0.22222222,0.77676767
+39,ec2_cpu_utilization_c6585a.csv,1.4245045,Linear,0.0,3,Linear,0.22222222,0.77676767
+40,Letter Recognition,1.435586,KMeans,0.44545455,4,Linear,0.22222222,0.77676767
+41,Pen-Based Recognition of Handwritten Text,1.436481,KMeans,0.88648649,5,KMeans,0.44545455,1.0
+42,Landsat Satellite,1.4632223,Linear,0.71794872,6,Linear,0.22222222,0.77676767
+43,cpu_utilization_asg_misconfiguration.csv,1.4687468,KMeans,0.00775194,7,KMeans,0.44545455,1.0
+44,Twitter_volume_CRM.csv,1.4874227,KMeans,0.54545455,8,KMeans,0.44545455,1.0
+45,Twitter_volume_AAPL.csv,1.4874227,Linear,0.4,9,KMeans,0.44545455,1.0
+46,Twitter_volume_IBM.csv,1.4874918,Linear,0.5,10,Linear,0.22222222,0.77676767
 47,,,,,,,,
 48,Thyroid Disease,0,KMeans,0.22317597,0,KMeans,0.22317597,1
-49,KDD-Cup99 HTTP,0.95005137,RPCA,0.93849658,1,RPCA,0.1691974,0.94602143
-50,Letter Recognition,1.6759443,KMeans,0.44545455,2,KMeans,0.22317597,1.0
-51,machine_temperature_system_failure.csv,1.684762,Linear,0.4,3,KMeans,0.22317597,1.0
-52,Pen-Based Recognition of Handwritten Text,1.6922178,KMeans,0.88648649,4,KMeans,0.22317597,1.0
-53,ec2_cpu_utilization_c6585a.csv,1.6936104,Linear,0.0,5,KMeans,0.22317597,1.0
-54,Landsat Satellite,1.7281673,Linear,0.71794872,6,Linear,0.19112628,0.96795031
-55,cpu_utilization_asg_misconfiguration.csv,1.737974,KMeans,0.00775194,7,KMeans,0.22317597,1.0
-56,Twitter_volume_AAPL.csv,1.7561914,Linear,0.4,8,Linear,0.19112628,0.96795031
-57,Twitter_volume_CRM.csv,1.7561914,KMeans,0.54545455,9,KMeans,0.22317597,1.0
-58,Twitter_volume_IBM.csv,1.756259,Linear,0.5,10,Linear,0.19112628,0.96795031
+49,KDD-Cup99 HTTP,0.7203073,RPCA,0.93849658,1,RPCA,0.1691974,0.94602143
+50,Letter Recognition,1.5869849,KMeans,0.44545455,2,KMeans,0.22317597,1.0
+51,ec2_cpu_utilization_c6585a.csv,1.5887625,Linear,0.0,3,KMeans,0.22317597,1.0
+52,machine_temperature_system_failure.csv,1.5905627,Linear,0.4,4,Linear,0.19112628,0.96795031
+53,Pen-Based Recognition of Handwritten Text,1.5979403,KMeans,0.88648649,5,KMeans,0.22317597,1.0
+54,Landsat Satellite,1.6252762,Linear,0.71794872,6,Linear,0.19112628,0.96795031
+55,cpu_utilization_asg_misconfiguration.csv,1.6404597,KMeans,0.00775194,7,KMeans,0.22317597,1.0
+56,Twitter_volume_AAPL.csv,1.6572669,Linear,0.4,8,Linear,0.19112628,0.96795031
+57,Twitter_volume_CRM.csv,1.6572669,KMeans,0.54545455,9,KMeans,0.22317597,1.0
+58,Twitter_volume_IBM.csv,1.6573287,Linear,0.5,10,Linear,0.19112628,0.96795031
 59,,,,,,,,
 60,Statlog Shuttle,0,KMeans,0.96766744,0,KMeans,0.96766744,1
-61,KDD-Cup99 HTTP,0.8514895,RPCA,0.93849658,1,RPCA,0.96658986,0.99892242
-62,Letter Recognition,1.6155548,KMeans,0.44545455,2,KMeans,0.96766744,1.0
-63,machine_temperature_system_failure.csv,1.6255163,Linear,0.4,3,KMeans,0.96766744,1.0
-64,Pen-Based Recognition of Handwritten Text,1.6292304,KMeans,0.88648649,4,KMeans,0.96766744,1.0
-65,ec2_cpu_utilization_c6585a.csv,1.6303116,Linear,0.0,5,KMeans,0.96766744,1.0
-66,Landsat Satellite,1.6658559,Linear,0.71794872,6,Linear,0.96707106,0.9994036199999999
-67,cpu_utilization_asg_misconfiguration.csv,1.6777118,KMeans,0.00775194,7,KMeans,0.96766744,1.0
-68,Twitter_volume_AAPL.csv,1.6952102,Linear,0.4,8,Linear,0.96707106,0.9994036199999999
-69,Twitter_volume_CRM.csv,1.6952102,KMeans,0.54545455,9,KMeans,0.96766744,1.0
-70,Twitter_volume_IBM.csv,1.6952746,Linear,0.5,10,Linear,0.96707106,0.9994036199999999
+61,KDD-Cup99 HTTP,0.83256817,RPCA,0.93849658,1,RPCA,0.96658986,0.99892242
+62,machine_temperature_system_failure.csv,1.4537159,Linear,0.4,2,Linear,0.96707106,0.9994036199999999
+63,ec2_cpu_utilization_c6585a.csv,1.4642533,Linear,0.0,3,Linear,0.96707106,0.9994036199999999
+64,Letter Recognition,1.4780322,KMeans,0.44545455,4,Linear,0.96707106,0.9994036199999999
+65,Pen-Based Recognition of Handwritten Text,1.4791042,KMeans,0.88648649,5,KMeans,0.96766744,1.0
+66,Landsat Satellite,1.5034137,Linear,0.71794872,6,Linear,0.96707106,0.9994036199999999
+67,cpu_utilization_asg_misconfiguration.csv,1.5069195,KMeans,0.00775194,7,KMeans,0.96766744,1.0
+68,Twitter_volume_AAPL.csv,1.5250452,Linear,0.4,8,Linear,0.96707106,0.9994036199999999
+69,Twitter_volume_CRM.csv,1.5250452,KMeans,0.54545455,9,KMeans,0.96766744,1.0
+70,Twitter_volume_IBM.csv,1.5251123,Linear,0.5,10,Linear,0.96707106,0.9994036199999999
 71,,,,,,,,
 72,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
-73,KDD-Cup99 HTTP,0.8737045,RPCA,0.93849658,1,RPCA,0.06713656,0.9994142699999999
-74,Letter Recognition,1.5678178,KMeans,0.44545455,2,KMeans,0.05851859,0.9907963
-75,ec2_cpu_utilization_c6585a.csv,1.572661,Linear,0.0,3,KMeans,0.05851859,0.9907963
-76,Pen-Based Recognition of Handwritten Text,1.5750256,KMeans,0.88648649,4,KMeans,0.05851859,0.9907963
-77,machine_temperature_system_failure.csv,1.5760262,Linear,0.4,5,KMeans,0.05851859,0.9907963
-78,Landsat Satellite,1.6118925,Linear,0.71794872,6,Linear,0.0663518,0.99862951
-79,cpu_utilization_asg_misconfiguration.csv,1.6251118,KMeans,0.00775194,7,KMeans,0.05851859,0.9907963
-80,Twitter_volume_AAPL.csv,1.6416209,Linear,0.4,8,Linear,0.0663518,0.99862951
-81,Twitter_volume_CRM.csv,1.6416209,KMeans,0.54545455,9,KMeans,0.05851859,0.9907963
-82,Twitter_volume_IBM.csv,1.6416816,Linear,0.5,10,Linear,0.0663518,0.99862951
+73,KDD-Cup99 HTTP,0.8119686,RPCA,0.93849658,1,RPCA,0.06713656,0.9994142699999999
+74,machine_temperature_system_failure.csv,1.6521304,Linear,0.4,2,Linear,0.0663518,0.99862951
+75,ec2_cpu_utilization_c6585a.csv,1.6599255,Linear,0.0,3,Linear,0.0663518,0.99862951
+76,Letter Recognition,1.6608039,KMeans,0.44545455,4,Linear,0.0663518,0.99862951
+77,Pen-Based Recognition of Handwritten Text,1.673314,KMeans,0.88648649,5,KMeans,0.05851859,0.9907963
+78,Landsat Satellite,1.7063749,Linear,0.71794872,6,Linear,0.0663518,0.99862951
+79,cpu_utilization_asg_misconfiguration.csv,1.7071834,KMeans,0.00775194,7,KMeans,0.05851859,0.9907963
+80,Twitter_volume_CRM.csv,1.725835,KMeans,0.54545455,8,KMeans,0.05851859,0.9907963
+81,Twitter_volume_AAPL.csv,1.725835,Linear,0.4,9,KMeans,0.05851859,0.9907963
+82,Twitter_volume_IBM.csv,1.725904,Linear,0.5,10,Linear,0.0663518,0.99862951
 83,,,,,,,,
 84,Speech Accent Data,0,Linear,0.11764706,0,Linear,0.11764706,1
-85,KDD-Cup99 HTTP,0.7255405,RPCA,0.93849658,1,RPCA,0.08450704,0.96685998
-86,machine_temperature_system_failure.csv,1.496216,Linear,0.4,2,Linear,0.11764706,1.0
-87,Letter Recognition,1.5022416,KMeans,0.44545455,3,KMeans,0.05384615,0.93619909
-88,ec2_cpu_utilization_c6585a.csv,1.5063055,Linear,0.0,4,Linear,0.11764706,1.0
-89,Pen-Based Recognition of Handwritten Text,1.5094093,KMeans,0.88648649,5,KMeans,0.05384615,0.93619909
-90,Landsat Satellite,1.5452164,Linear,0.71794872,6,Linear,0.11764706,1.0
-91,cpu_utilization_asg_misconfiguration.csv,1.5500708,KMeans,0.00775194,7,KMeans,0.05384615,0.93619909
-92,Twitter_volume_AAPL.csv,1.5684538,Linear,0.4,8,Linear,0.11764706,1.0
-93,Twitter_volume_CRM.csv,1.5684538,KMeans,0.54545455,9,KMeans,0.05384615,0.93619909
-94,Twitter_volume_IBM.csv,1.5685216,Linear,0.5,10,Linear,0.11764706,1.0
+85,KDD-Cup99 HTTP,1.0069857,RPCA,0.93849658,1,RPCA,0.08450704,0.96685998
+86,Letter Recognition,1.6437559,KMeans,0.44545455,2,KMeans,0.05384615,0.93619909
+87,ec2_cpu_utilization_c6585a.csv,1.6542226,Linear,0.0,3,KMeans,0.05384615,0.93619909
+88,machine_temperature_system_failure.csv,1.6550896,Linear,0.4,4,Linear,0.11764706,1.0
+89,Pen-Based Recognition of Handwritten Text,1.6554974,KMeans,0.88648649,5,KMeans,0.05384615,0.93619909
+90,Landsat Satellite,1.69463,Linear,0.71794872,6,Linear,0.11764706,1.0
+91,cpu_utilization_asg_misconfiguration.csv,1.7052367,KMeans,0.00775194,7,KMeans,0.05384615,0.93619909
+92,Twitter_volume_AAPL.csv,1.7225822,Linear,0.4,8,Linear,0.11764706,1.0
+93,Twitter_volume_CRM.csv,1.7225822,KMeans,0.54545455,9,KMeans,0.05384615,0.93619909
+94,Twitter_volume_IBM.csv,1.7226467,Linear,0.5,10,Linear,0.11764706,1.0
 95,,,,,,,,
 96,Pen-Based Recognition of Handwritten Text,0,KMeans,0.88648649,0,KMeans,0.88648649,1
-97,KDD-Cup99 HTTP,0.9914081,RPCA,0.93849658,1,RPCA,0.64102564,0.7545391499999999
-98,Letter Recognition,1.604292,KMeans,0.44545455,2,KMeans,0.88648649,1.0
-99,machine_temperature_system_failure.csv,1.6106617,Linear,0.4,3,KMeans,0.88648649,1.0
-100,ec2_cpu_utilization_c6585a.csv,1.6155391,Linear,0.0,4,Linear,0.64473684,0.75825035
-101,Pen-Based Recognition of Handwritten Text,1.6207923,KMeans,0.88648649,5,KMeans,0.88648649,1.0
-102,Landsat Satellite,1.6522213,Linear,0.71794872,6,Linear,0.64473684,0.75825035
-103,cpu_utilization_asg_misconfiguration.csv,1.661691,KMeans,0.00775194,7,KMeans,0.88648649,1.0
-104,Twitter_volume_AAPL.csv,1.6792943,Linear,0.4,8,Linear,0.64473684,0.75825035
-105,Twitter_volume_CRM.csv,1.6792943,KMeans,0.54545455,9,KMeans,0.88648649,1.0
-106,Twitter_volume_IBM.csv,1.6793597,Linear,0.5,10,Linear,0.64473684,0.75825035
+97,KDD-Cup99 HTTP,0.80823386,RPCA,0.93849658,1,RPCA,0.64102564,0.7545391499999999
+98,machine_temperature_system_failure.csv,1.5044928,Linear,0.4,2,Linear,0.64473684,0.75825035
+99,ec2_cpu_utilization_c6585a.csv,1.5169113,Linear,0.0,3,Linear,0.64473684,0.75825035
+100,Letter Recognition,1.5222093,KMeans,0.44545455,4,Linear,0.64473684,0.75825035
+101,Pen-Based Recognition of Handwritten Text,1.5242707,KMeans,0.88648649,5,KMeans,0.88648649,1.0
+102,cpu_utilization_asg_misconfiguration.csv,1.5591727,KMeans,0.00775194,6,KMeans,0.88648649,1.0
+103,Landsat Satellite,1.5596654,Linear,0.71794872,7,KMeans,0.88648649,1.0
+104,Twitter_volume_AAPL.csv,1.577832,Linear,0.4,8,Linear,0.64473684,0.75825035
+105,Twitter_volume_CRM.csv,1.577832,KMeans,0.54545455,9,KMeans,0.88648649,1.0
+106,Twitter_volume_IBM.csv,1.5779009,Linear,0.5,10,Linear,0.64473684,0.75825035
 107,,,,,,,,
 108,Landsat Satellite,0,Linear,0.71794872,0,Linear,0.71794872,1
-109,KDD-Cup99 HTTP,1.0307178,RPCA,0.93849658,1,RPCA,0.62962963,0.9116809100000001
-110,Letter Recognition,1.8410987,KMeans,0.44545455,2,KMeans,0.65517241,0.93722369
-111,Pen-Based Recognition of Handwritten Text,1.8634299,KMeans,0.88648649,3,KMeans,0.65517241,0.93722369
-112,machine_temperature_system_failure.csv,1.8661757,Linear,0.4,4,KMeans,0.65517241,0.93722369
-113,ec2_cpu_utilization_c6585a.csv,1.8711123,Linear,0.0,5,KMeans,0.65517241,0.93722369
-114,Landsat Satellite,1.9047679,Linear,0.71794872,6,Linear,0.71794872,1.0
-115,cpu_utilization_asg_misconfiguration.csv,1.9176015,KMeans,0.00775194,7,KMeans,0.65517241,0.93722369
-116,Twitter_volume_AAPL.csv,1.9351777,Linear,0.4,8,Linear,0.71794872,1.0
-117,Twitter_volume_CRM.csv,1.9351777,KMeans,0.54545455,9,KMeans,0.65517241,0.93722369
-118,Twitter_volume_IBM.csv,1.9352428,Linear,0.5,10,Linear,0.71794872,1.0
+109,KDD-Cup99 HTTP,0.6192304,RPCA,0.93849658,1,RPCA,0.62962963,0.9116809100000001
+110,machine_temperature_system_failure.csv,1.3840141,Linear,0.4,2,Linear,0.71794872,1.0
+111,ec2_cpu_utilization_c6585a.csv,1.3928934,Linear,0.0,3,Linear,0.71794872,1.0
+112,Letter Recognition,1.4186813,KMeans,0.44545455,4,Linear,0.71794872,1.0
+113,Pen-Based Recognition of Handwritten Text,1.4189566,KMeans,0.88648649,5,KMeans,0.65517241,0.93722369
+114,Landsat Satellite,1.4330356,Linear,0.71794872,6,Linear,0.71794872,1.0
+115,cpu_utilization_asg_misconfiguration.csv,1.4365623,KMeans,0.00775194,7,KMeans,0.65517241,0.93722369
+116,Twitter_volume_AAPL.csv,1.4545022,Linear,0.4,8,Linear,0.71794872,1.0
+117,Twitter_volume_CRM.csv,1.4545022,KMeans,0.54545455,9,KMeans,0.65517241,0.93722369
+118,Twitter_volume_IBM.csv,1.4545686,Linear,0.5,10,Linear,0.71794872,1.0
 119,,,,,,,,
 120,ambient_temperature_system_failure.csv,0,KMeans,0.8,0,KMeans,0.8,1
-121,KDD-Cup99 HTTP,0.80326855,RPCA,0.93849658,1,RPCA,0.28571429,0.48571429
-122,Letter Recognition,1.631379,KMeans,0.44545455,2,KMeans,0.8,1.0
-123,Pen-Based Recognition of Handwritten Text,1.6408024,KMeans,0.88648649,3,KMeans,0.8,1.0
-124,ec2_cpu_utilization_c6585a.csv,1.6440897,Linear,0.0,4,KMeans,0.8,1.0
-125,machine_temperature_system_failure.csv,1.648082,Linear,0.4,5,KMeans,0.8,1.0
-126,Landsat Satellite,1.677794,Linear,0.71794872,6,Linear,0.14285714,0.34285714
-127,cpu_utilization_asg_misconfiguration.csv,1.6964502,KMeans,0.00775194,7,KMeans,0.8,1.0
-128,Twitter_volume_AAPL.csv,1.7126237,Linear,0.4,8,Linear,0.14285714,0.34285714
-129,Twitter_volume_CRM.csv,1.7126237,KMeans,0.54545455,9,KMeans,0.8,1.0
-130,Twitter_volume_IBM.csv,1.7126832,Linear,0.5,10,Linear,0.14285714,0.34285714
+121,KDD-Cup99 HTTP,0.7298876,RPCA,0.93849658,1,RPCA,0.28571429,0.48571429
+122,Letter Recognition,1.5674285,KMeans,0.44545455,2,KMeans,0.8,1.0
+123,ec2_cpu_utilization_c6585a.csv,1.5774187,Linear,0.0,3,KMeans,0.8,1.0
+124,Pen-Based Recognition of Handwritten Text,1.5787308,KMeans,0.88648649,4,KMeans,0.8,1.0
+125,machine_temperature_system_failure.csv,1.5796105,Linear,0.4,5,KMeans,0.8,1.0
+126,Landsat Satellite,1.6117504,Linear,0.71794872,6,Linear,0.14285714,0.34285714
+127,cpu_utilization_asg_misconfiguration.csv,1.6292515,KMeans,0.00775194,7,KMeans,0.8,1.0
+128,Twitter_volume_AAPL.csv,1.6457547,Linear,0.4,8,Linear,0.14285714,0.34285714
+129,Twitter_volume_CRM.csv,1.6457547,KMeans,0.54545455,9,KMeans,0.8,1.0
+130,Twitter_volume_IBM.csv,1.6458151,Linear,0.5,10,Linear,0.14285714,0.34285714
 131,,,,,,,,
 132,exchange-3_cpm_results.csv,0,Linear,1.0,0,Linear,1.0,1
-133,KDD-Cup99 HTTP,0.5287719,RPCA,0.93849658,1,RPCA,1.0,1.0
-134,machine_temperature_system_failure.csv,1.4516451,Linear,0.4,2,Linear,1.0,1.0
-135,ec2_cpu_utilization_c6585a.csv,1.4631693,Linear,0.0,3,Linear,1.0,1.0
-136,Pen-Based Recognition of Handwritten Text,1.4858936,KMeans,0.88648649,4,Linear,1.0,1.0
-137,Letter Recognition,1.4872813,KMeans,0.44545455,5,KMeans,1.0,1.0
-138,cpu_utilization_asg_misconfiguration.csv,1.5060924,KMeans,0.00775194,6,KMeans,1.0,1.0
-139,Landsat Satellite,1.5122752,Linear,0.71794872,7,KMeans,1.0,1.0
-140,Twitter_volume_AAPL.csv,1.5245585,Linear,0.4,8,Linear,1.0,1.0
-141,Twitter_volume_CRM.csv,1.5245585,KMeans,0.54545455,9,KMeans,1.0,1.0
-142,Twitter_volume_IBM.csv,1.524627,Linear,0.5,10,Linear,1.0,1.0
+133,KDD-Cup99 HTTP,0.93697745,RPCA,0.93849658,1,RPCA,1.0,1.0
+134,Letter Recognition,1.7384778,KMeans,0.44545455,2,KMeans,1.0,1.0
+135,Pen-Based Recognition of Handwritten Text,1.7578242,KMeans,0.88648649,3,KMeans,1.0,1.0
+136,machine_temperature_system_failure.csv,1.7614031,Linear,0.4,4,KMeans,1.0,1.0
+137,ec2_cpu_utilization_c6585a.csv,1.765464,Linear,0.0,5,KMeans,1.0,1.0
+138,Landsat Satellite,1.7968948,Linear,0.71794872,6,Linear,1.0,1.0
+139,cpu_utilization_asg_misconfiguration.csv,1.8136301,KMeans,0.00775194,7,KMeans,1.0,1.0
+140,Twitter_volume_AAPL.csv,1.8310744,Linear,0.4,8,Linear,1.0,1.0
+141,Twitter_volume_CRM.csv,1.8310744,KMeans,0.54545455,9,KMeans,1.0,1.0
+142,Twitter_volume_IBM.csv,1.8311384,Linear,0.5,10,Linear,1.0,1.0
 143,,,,,,,,
 144,machine_temperature_system_failure.csv,0,Linear,0.4,0,Linear,0.4,1
-145,KDD-Cup99 HTTP,0.77703774,RPCA,0.93849658,1,RPCA,0.4,1.0
-146,Letter Recognition,1.6468856,KMeans,0.44545455,2,KMeans,0.4,1.0
-147,machine_temperature_system_failure.csv,1.6488365,Linear,0.4,3,KMeans,0.4,1.0
-148,Pen-Based Recognition of Handwritten Text,1.6607796,KMeans,0.88648649,4,KMeans,0.4,1.0
-149,ec2_cpu_utilization_c6585a.csv,1.6619684,Linear,0.0,5,KMeans,0.4,1.0
-150,Landsat Satellite,1.696896,Linear,0.71794872,6,Linear,0.4,1.0
-151,cpu_utilization_asg_misconfiguration.csv,1.7037525,KMeans,0.00775194,7,KMeans,0.4,1.0
-152,Twitter_volume_AAPL.csv,1.7224559,Linear,0.4,8,Linear,0.4,1.0
-153,Twitter_volume_CRM.csv,1.7224559,KMeans,0.54545455,9,KMeans,0.4,1.0
-154,Twitter_volume_IBM.csv,1.722525,Linear,0.5,10,Linear,0.4,1.0
+145,KDD-Cup99 HTTP,0.7491802,RPCA,0.93849658,1,RPCA,0.4,1.0
+146,machine_temperature_system_failure.csv,1.6828079,Linear,0.4,2,Linear,0.4,1.0
+147,Letter Recognition,1.6902124,KMeans,0.44545455,3,KMeans,0.4,1.0
+148,ec2_cpu_utilization_c6585a.csv,1.6941494,Linear,0.0,4,Linear,0.4,1.0
+149,Pen-Based Recognition of Handwritten Text,1.7004048,KMeans,0.88648649,5,KMeans,0.4,1.0
+150,Landsat Satellite,1.7354187,Linear,0.71794872,6,Linear,0.4,1.0
+151,cpu_utilization_asg_misconfiguration.csv,1.7376616,KMeans,0.00775194,7,KMeans,0.4,1.0
+152,Twitter_volume_AAPL.csv,1.7561421,Linear,0.4,8,Linear,0.4,1.0
+153,Twitter_volume_CRM.csv,1.7561421,KMeans,0.54545455,9,KMeans,0.4,1.0
+154,Twitter_volume_IBM.csv,1.7562102,Linear,0.5,10,Linear,0.4,1.0
 155,,,,,,,,
 156,ec2_request_latency_system_failure.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
-157,KDD-Cup99 HTTP,0.7132697,RPCA,0.93849658,1,RPCA,0.57142857,0.9047619
-158,machine_temperature_system_failure.csv,1.4028449,Linear,0.4,2,Linear,0.57142857,0.9047619
-159,ec2_cpu_utilization_c6585a.csv,1.4169803,Linear,0.0,3,Linear,0.57142857,0.9047619
-160,Pen-Based Recognition of Handwritten Text,1.4417387,KMeans,0.88648649,4,Linear,0.57142857,0.9047619
-161,Letter Recognition,1.446019,KMeans,0.44545455,5,KMeans,0.66666667,1.0
-162,cpu_utilization_asg_misconfiguration.csv,1.4581866,KMeans,0.00775194,6,KMeans,0.66666667,1.0
-163,Landsat Satellite,1.4627119,Linear,0.71794872,7,KMeans,0.66666667,1.0
-164,Twitter_volume_AAPL.csv,1.4771494,Linear,0.4,8,Linear,0.57142857,0.9047619
-165,Twitter_volume_CRM.csv,1.4771494,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-166,Twitter_volume_IBM.csv,1.4772197,Linear,0.5,10,Linear,0.57142857,0.9047619
+157,KDD-Cup99 HTTP,0.83077246,RPCA,0.93849658,1,RPCA,0.57142857,0.9047619
+158,Letter Recognition,1.5513799,KMeans,0.44545455,2,KMeans,0.66666667,1.0
+159,machine_temperature_system_failure.csv,1.5518801,Linear,0.4,3,KMeans,0.66666667,1.0
+160,ec2_cpu_utilization_c6585a.csv,1.5528797,Linear,0.0,4,Linear,0.57142857,0.9047619
+161,Pen-Based Recognition of Handwritten Text,1.5559416,KMeans,0.88648649,5,KMeans,0.66666667,1.0
+162,Landsat Satellite,1.5949526,Linear,0.71794872,6,Linear,0.57142857,0.9047619
+163,cpu_utilization_asg_misconfiguration.csv,1.6037741,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+164,Twitter_volume_AAPL.csv,1.6213739,Linear,0.4,8,Linear,0.57142857,0.9047619
+165,Twitter_volume_CRM.csv,1.6213739,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+166,Twitter_volume_IBM.csv,1.621439,Linear,0.5,10,Linear,0.57142857,0.9047619
 167,,,,,,,,
 168,speed_7578.csv,0,KMeans,0.75,0,KMeans,0.75,1
-169,KDD-Cup99 HTTP,1.1164696,RPCA,0.93849658,1,RPCA,0.4,0.65
-170,Letter Recognition,1.6978971,KMeans,0.44545455,2,KMeans,0.75,1.0
-171,machine_temperature_system_failure.csv,1.7010095,Linear,0.4,3,KMeans,0.75,1.0
-172,ec2_cpu_utilization_c6585a.csv,1.7129363,Linear,0.0,4,Linear,0.4,0.65
-173,Pen-Based Recognition of Handwritten Text,1.7158142,KMeans,0.88648649,5,KMeans,0.75,1.0
-174,Landsat Satellite,1.747145,Linear,0.71794872,6,Linear,0.4,0.65
-175,cpu_utilization_asg_misconfiguration.csv,1.7554748,KMeans,0.00775194,7,KMeans,0.75,1.0
-176,Twitter_volume_AAPL.csv,1.7740127,Linear,0.4,8,Linear,0.4,0.65
-177,Twitter_volume_CRM.csv,1.7740127,KMeans,0.54545455,9,KMeans,0.75,1.0
-178,Twitter_volume_IBM.csv,1.7740813,Linear,0.5,10,Linear,0.4,0.65
+169,KDD-Cup99 HTTP,0.9930093,RPCA,0.93849658,1,RPCA,0.4,0.65
+170,Letter Recognition,1.6284753,KMeans,0.44545455,2,KMeans,0.75,1.0
+171,machine_temperature_system_failure.csv,1.6291556,Linear,0.4,3,KMeans,0.75,1.0
+172,ec2_cpu_utilization_c6585a.csv,1.6412718,Linear,0.0,4,Linear,0.4,0.65
+173,Pen-Based Recognition of Handwritten Text,1.6453857,KMeans,0.88648649,5,KMeans,0.75,1.0
+174,Landsat Satellite,1.6778238,Linear,0.71794872,6,Linear,0.4,0.65
+175,cpu_utilization_asg_misconfiguration.csv,1.6842269,KMeans,0.00775194,7,KMeans,0.75,1.0
+176,Twitter_volume_AAPL.csv,1.70296,Linear,0.4,8,Linear,0.4,0.65
+177,Twitter_volume_CRM.csv,1.70296,KMeans,0.54545455,9,KMeans,0.75,1.0
+178,Twitter_volume_IBM.csv,1.7030293,Linear,0.5,10,Linear,0.4,0.65
 179,,,,,,,,
 180,ec2_cpu_utilization_825cc2.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
-181,KDD-Cup99 HTTP,0.7777158,RPCA,0.93849658,1,RPCA,0.125,0.45833333
-182,machine_temperature_system_failure.csv,1.4459463,Linear,0.4,2,Linear,0.125,0.45833333
-183,ec2_cpu_utilization_c6585a.csv,1.4492636,Linear,0.0,3,Linear,0.125,0.45833333
-184,Letter Recognition,1.4572101,KMeans,0.44545455,4,Linear,0.125,0.45833333
-185,Pen-Based Recognition of Handwritten Text,1.4586344,KMeans,0.88648649,5,KMeans,0.66666667,1.0
-186,Landsat Satellite,1.4904568,Linear,0.71794872,6,Linear,0.125,0.45833333
-187,cpu_utilization_asg_misconfiguration.csv,1.4953482,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-188,Twitter_volume_AAPL.csv,1.5124834,Linear,0.4,8,Linear,0.125,0.45833333
-189,Twitter_volume_CRM.csv,1.5124834,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-190,Twitter_volume_IBM.csv,1.5125473,Linear,0.5,10,Linear,0.125,0.45833333
+181,KDD-Cup99 HTTP,0.9617129,RPCA,0.93849658,1,RPCA,0.125,0.45833333
+182,Letter Recognition,1.5956056,KMeans,0.44545455,2,KMeans,0.66666667,1.0
+183,machine_temperature_system_failure.csv,1.6034427,Linear,0.4,3,KMeans,0.66666667,1.0
+184,ec2_cpu_utilization_c6585a.csv,1.606468,Linear,0.0,4,Linear,0.125,0.45833333
+185,Pen-Based Recognition of Handwritten Text,1.6074692,KMeans,0.88648649,5,KMeans,0.66666667,1.0
+186,Landsat Satellite,1.6432495,Linear,0.71794872,6,Linear,0.125,0.45833333
+187,cpu_utilization_asg_misconfiguration.csv,1.6527903,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+188,Twitter_volume_AAPL.csv,1.6699136,Linear,0.4,8,Linear,0.125,0.45833333
+189,Twitter_volume_CRM.csv,1.6699136,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+190,Twitter_volume_IBM.csv,1.6699774,Linear,0.5,10,Linear,0.125,0.45833333
 191,,,,,,,,
 192,ec2_network_in_257a54.csv,0,KMeans,0.5,0,KMeans,0.5,1
-193,KDD-Cup99 HTTP,0.97087246,RPCA,0.93849658,1,RPCA,0.4,0.9
-194,Letter Recognition,1.7886928,KMeans,0.44545455,2,KMeans,0.5,1.0
-195,ec2_cpu_utilization_c6585a.csv,1.8076203,Linear,0.0,3,KMeans,0.5,1.0
-196,Pen-Based Recognition of Handwritten Text,1.8081166,KMeans,0.88648649,4,KMeans,0.5,1.0
-197,machine_temperature_system_failure.csv,1.8230965,Linear,0.4,5,KMeans,0.5,1.0
-198,Landsat Satellite,1.8455371,Linear,0.71794872,6,Linear,0.4,0.9
-199,cpu_utilization_asg_misconfiguration.csv,1.8702815,KMeans,0.00775194,7,KMeans,0.5,1.0
-200,speed_7578.csv,1.8817507,KMeans,0.75,8,KMeans,0.5,1.0
-201,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,1.8823063,KMeans,0.5,9,KMeans,0.5,1.0
-202,exchange-3_cpc_results.csv,1.8838248,Linear,0.57142857,10,KMeans,0.5,1.0
+193,KDD-Cup99 HTTP,0.9029345,RPCA,0.93849658,1,RPCA,0.4,0.9
+194,ec2_cpu_utilization_c6585a.csv,1.5515573,Linear,0.0,2,Linear,0.4,0.9
+195,Letter Recognition,1.5582973,KMeans,0.44545455,3,KMeans,0.5,1.0
+196,machine_temperature_system_failure.csv,1.562041,Linear,0.4,4,Linear,0.4,0.9
+197,Pen-Based Recognition of Handwritten Text,1.5660266,KMeans,0.88648649,5,KMeans,0.5,1.0
+198,Landsat Satellite,1.5970693,Linear,0.71794872,6,Linear,0.4,0.9
+199,cpu_utilization_asg_misconfiguration.csv,1.607058,KMeans,0.00775194,7,KMeans,0.5,1.0
+200,Twitter_volume_AAPL.csv,1.6224183,Linear,0.4,8,Linear,0.4,0.9
+201,Twitter_volume_CRM.csv,1.6224183,KMeans,0.54545455,9,KMeans,0.5,1.0
+202,Twitter_volume_IBM.csv,1.622475,Linear,0.5,10,Linear,0.4,0.9
 203,,,,,,,,
 204,exchange-4_cpm_results.csv,0,KMeans,0.75,0,KMeans,0.75,1
-205,KDD-Cup99 HTTP,1.1432428,RPCA,0.93849658,1,RPCA,0.66666667,0.91666667
-206,Letter Recognition,1.8350717,KMeans,0.44545455,2,KMeans,0.75,1.0
-207,machine_temperature_system_failure.csv,1.8421415,Linear,0.4,3,KMeans,0.75,1.0
-208,ec2_cpu_utilization_c6585a.csv,1.8530048,Linear,0.0,4,Linear,0.66666667,0.91666667
-209,Pen-Based Recognition of Handwritten Text,1.8548148,KMeans,0.88648649,5,KMeans,0.75,1.0
-210,Landsat Satellite,1.8937751,Linear,0.71794872,6,Linear,0.66666667,0.91666667
-211,cpu_utilization_asg_misconfiguration.csv,1.8976176,KMeans,0.00775194,7,KMeans,0.75,1.0
-212,Twitter_volume_AAPL.csv,1.9164898,Linear,0.4,8,Linear,0.66666667,0.91666667
-213,Twitter_volume_CRM.csv,1.9164898,KMeans,0.54545455,9,KMeans,0.75,1.0
-214,Twitter_volume_IBM.csv,1.9165597,Linear,0.5,10,Linear,0.66666667,0.91666667
+205,KDD-Cup99 HTTP,0.8813847,RPCA,0.93849658,1,RPCA,0.66666667,0.91666667
+206,machine_temperature_system_failure.csv,1.4660904,Linear,0.4,2,Linear,0.66666667,0.91666667
+207,Letter Recognition,1.4731745,KMeans,0.44545455,3,KMeans,0.75,1.0
+208,ec2_cpu_utilization_c6585a.csv,1.4764582,Linear,0.0,4,Linear,0.66666667,0.91666667
+209,Pen-Based Recognition of Handwritten Text,1.4811627,KMeans,0.88648649,5,KMeans,0.75,1.0
+210,Landsat Satellite,1.5110841,Linear,0.71794872,6,Linear,0.66666667,0.91666667
+211,cpu_utilization_asg_misconfiguration.csv,1.519586,KMeans,0.00775194,7,KMeans,0.75,1.0
+212,Twitter_volume_AAPL.csv,1.538025,Linear,0.4,8,Linear,0.66666667,0.91666667
+213,Twitter_volume_CRM.csv,1.538025,KMeans,0.54545455,9,KMeans,0.75,1.0
+214,Twitter_volume_IBM.csv,1.5380934,Linear,0.5,10,Linear,0.66666667,0.91666667
 215,,,,,,,,
 216,TravelTime_387.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
-217,KDD-Cup99 HTTP,0.7714591,RPCA,0.93849658,1,RPCA,0.33333333,0.66666666
-218,Letter Recognition,1.684155,KMeans,0.44545455,2,KMeans,0.66666667,1.0
-219,machine_temperature_system_failure.csv,1.6882352,Linear,0.4,3,KMeans,0.66666667,1.0
-220,ec2_cpu_utilization_c6585a.csv,1.6910897,Linear,0.0,4,Linear,0.5,0.83333333
-221,Pen-Based Recognition of Handwritten Text,1.6985251,KMeans,0.88648649,5,KMeans,0.66666667,1.0
-222,Landsat Satellite,1.7321832,Linear,0.71794872,6,Linear,0.5,0.83333333
-223,cpu_utilization_asg_misconfiguration.csv,1.7398822,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-224,Twitter_volume_AAPL.csv,1.7572668,Linear,0.4,8,Linear,0.5,0.83333333
-225,Twitter_volume_CRM.csv,1.7572668,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-226,Twitter_volume_IBM.csv,1.7573308,Linear,0.5,10,Linear,0.5,0.83333333
+217,KDD-Cup99 HTTP,0.66990507,RPCA,0.93849658,1,RPCA,0.33333333,0.66666666
+218,ec2_cpu_utilization_c6585a.csv,1.3862517,Linear,0.0,2,Linear,0.5,0.83333333
+219,machine_temperature_system_failure.csv,1.3880352,Linear,0.4,3,Linear,0.5,0.83333333
+220,Pen-Based Recognition of Handwritten Text,1.4056488,KMeans,0.88648649,4,Linear,0.5,0.83333333
+221,Letter Recognition,1.4113932,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+222,Landsat Satellite,1.4333181,Linear,0.71794872,6,Linear,0.5,0.83333333
+223,cpu_utilization_asg_misconfiguration.csv,1.437838,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+224,Twitter_volume_AAPL.csv,1.4546216,Linear,0.4,8,Linear,0.5,0.83333333
+225,Twitter_volume_CRM.csv,1.4546216,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+226,Twitter_volume_IBM.csv,1.4546833,Linear,0.5,10,Linear,0.5,0.83333333
 227,,,,,,,,
 228,ec2_cpu_utilization_c6585a.csv,0,Linear,0.0,0,Linear,0.0,1
-229,KDD-Cup99 HTTP,0.6942662,RPCA,0.93849658,1,RPCA,0.0,1.0
-230,ec2_cpu_utilization_c6585a.csv,1.4900115,Linear,0.0,2,Linear,0.0,1.0
-231,machine_temperature_system_failure.csv,1.4917346,Linear,0.4,3,Linear,0.0,1.0
-232,Letter Recognition,1.493731,KMeans,0.44545455,4,Linear,0.0,1.0
-233,Pen-Based Recognition of Handwritten Text,1.5005761,KMeans,0.88648649,5,KMeans,0.0,1.0
-234,Landsat Satellite,1.5318568,Linear,0.71794872,6,Linear,0.0,1.0
-235,cpu_utilization_asg_misconfiguration.csv,1.5417349,KMeans,0.00775194,7,KMeans,0.0,1.0
-236,Twitter_volume_AAPL.csv,1.5587006,Linear,0.4,8,Linear,0.0,1.0
-237,Twitter_volume_CRM.csv,1.5587006,KMeans,0.54545455,9,KMeans,0.0,1.0
-238,Twitter_volume_IBM.csv,1.5587631,Linear,0.5,10,Linear,0.0,1.0
+229,KDD-Cup99 HTTP,1.0638218,RPCA,0.93849658,1,RPCA,0.0,1.0
+230,Letter Recognition,1.7605567,KMeans,0.44545455,2,KMeans,0.0,1.0
+231,machine_temperature_system_failure.csv,1.7696265,Linear,0.4,3,KMeans,0.0,1.0
+232,Pen-Based Recognition of Handwritten Text,1.7775933,KMeans,0.88648649,4,KMeans,0.0,1.0
+233,ec2_cpu_utilization_c6585a.csv,1.7783751,Linear,0.0,5,KMeans,0.0,1.0
+234,Landsat Satellite,1.8137951,Linear,0.71794872,6,Linear,0.0,1.0
+235,cpu_utilization_asg_misconfiguration.csv,1.8229439,KMeans,0.00775194,7,KMeans,0.0,1.0
+236,Twitter_volume_AAPL.csv,1.8411075,Linear,0.4,8,Linear,0.0,1.0
+237,Twitter_volume_CRM.csv,1.8411075,KMeans,0.54545455,9,KMeans,0.0,1.0
+238,Twitter_volume_IBM.csv,1.8411746,Linear,0.5,10,Linear,0.0,1.0
 239,,,,,,,,
 240,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
-241,KDD-Cup99 HTTP,0.666407,RPCA,0.93849658,1,RPCA,0.0,0.99916545
-242,machine_temperature_system_failure.csv,1.4448808,Linear,0.4,2,Linear,0.00075245,0.9999179
-243,ec2_cpu_utilization_c6585a.csv,1.4508471,Linear,0.0,3,Linear,0.00075245,0.9999179
-244,Pen-Based Recognition of Handwritten Text,1.4740666,KMeans,0.88648649,4,Linear,0.00075245,0.9999179
-245,Letter Recognition,1.478416,KMeans,0.44545455,5,KMeans,0.00075287,0.99991832
-246,cpu_utilization_asg_misconfiguration.csv,1.4967351,KMeans,0.00775194,6,KMeans,0.00075287,0.99991832
-247,Landsat Satellite,1.4968425,Linear,0.71794872,7,KMeans,0.00075287,0.99991832
-248,Twitter_volume_AAPL.csv,1.5143338,Linear,0.4,8,Linear,0.00075245,0.9999179
-249,Twitter_volume_CRM.csv,1.5143338,KMeans,0.54545455,9,KMeans,0.00075287,0.99991832
-250,Twitter_volume_IBM.csv,1.5143988,Linear,0.5,10,Linear,0.00075245,0.9999179
+241,KDD-Cup99 HTTP,0.5195545,RPCA,0.93849658,1,RPCA,0.0,0.99916545
+242,machine_temperature_system_failure.csv,1.4048921,Linear,0.4,2,Linear,0.00075245,0.9999179
+243,ec2_cpu_utilization_c6585a.csv,1.4144986,Linear,0.0,3,Linear,0.00075245,0.9999179
+244,Pen-Based Recognition of Handwritten Text,1.4359423,KMeans,0.88648649,4,Linear,0.00075245,0.9999179
+245,Letter Recognition,1.4454199,KMeans,0.44545455,5,KMeans,0.00075287,0.99991832
+246,cpu_utilization_asg_misconfiguration.csv,1.4603816,KMeans,0.00775194,6,KMeans,0.00075287,0.99991832
+247,Landsat Satellite,1.465488,Linear,0.71794872,7,KMeans,0.00075287,0.99991832
+248,Twitter_volume_AAPL.csv,1.4792724,Linear,0.4,8,Linear,0.00075245,0.9999179
+249,Twitter_volume_CRM.csv,1.4792724,KMeans,0.54545455,9,KMeans,0.00075287,0.99991832
+250,Twitter_volume_IBM.csv,1.4793422,Linear,0.5,10,Linear,0.00075245,0.9999179
 251,,,,,,,,
 252,rds_cpu_utilization_cc0c53.csv,0,Gaussian,1.0,0,Gaussian,1.0,1
-253,KDD-Cup99 HTTP,0.95809424,RPCA,0.93849658,1,RPCA,1.0,1.0
-254,Letter Recognition,1.6688147,KMeans,0.44545455,2,KMeans,1.0,1.0
-255,machine_temperature_system_failure.csv,1.6720454,Linear,0.4,3,KMeans,1.0,1.0
-256,ec2_cpu_utilization_c6585a.csv,1.6730525,Linear,0.0,4,Linear,0.66666667,0.66666667
-257,Pen-Based Recognition of Handwritten Text,1.6804763,KMeans,0.88648649,5,KMeans,1.0,1.0
-258,Landsat Satellite,1.7188413,Linear,0.71794872,6,Linear,0.66666667,0.66666667
-259,cpu_utilization_asg_misconfiguration.csv,1.7227457,KMeans,0.00775194,7,KMeans,1.0,1.0
-260,Twitter_volume_AAPL.csv,1.7402908,Linear,0.4,8,Linear,0.66666667,0.66666667
-261,Twitter_volume_CRM.csv,1.7402908,KMeans,0.54545455,9,KMeans,1.0,1.0
-262,Twitter_volume_IBM.csv,1.740356,Linear,0.5,10,Linear,0.66666667,0.66666667
+253,KDD-Cup99 HTTP,0.93280625,RPCA,0.93849658,1,RPCA,1.0,1.0
+254,Letter Recognition,1.7179989,KMeans,0.44545455,2,KMeans,1.0,1.0
+255,Pen-Based Recognition of Handwritten Text,1.739113,KMeans,0.88648649,3,KMeans,1.0,1.0
+256,ec2_cpu_utilization_c6585a.csv,1.7539511,Linear,0.0,4,KMeans,1.0,1.0
+257,machine_temperature_system_failure.csv,1.7660065,Linear,0.4,5,KMeans,1.0,1.0
+258,Landsat Satellite,1.7812392,Linear,0.71794872,6,Linear,0.66666667,0.66666667
+259,cpu_utilization_asg_misconfiguration.csv,1.8131181,KMeans,0.00775194,7,KMeans,1.0,1.0
+260,speed_7578.csv,1.8283353,KMeans,0.75,8,KMeans,1.0,1.0
+261,Twitter_volume_AAPL.csv,1.8287827,Linear,0.4,9,KMeans,1.0,1.0
+262,Twitter_volume_CRM.csv,1.8287827,KMeans,0.54545455,10,KMeans,1.0,1.0
 263,,,,,,,,
 264,nyc_taxi.csv,0,Linear,0.25,0,Linear,0.25,1
-265,KDD-Cup99 HTTP,0.5514239,RPCA,0.93849658,1,RPCA,0.09090909,0.84090909
-266,machine_temperature_system_failure.csv,1.4126433,Linear,0.4,2,Linear,0.25,1.0
-267,ec2_cpu_utilization_c6585a.csv,1.4201708,Linear,0.0,3,Linear,0.25,1.0
-268,Letter Recognition,1.4257305,KMeans,0.44545455,4,Linear,0.25,1.0
-269,Pen-Based Recognition of Handwritten Text,1.4312632,KMeans,0.88648649,5,KMeans,0.25,1.0
-270,Landsat Satellite,1.4531469,Linear,0.71794872,6,Linear,0.25,1.0
-271,cpu_utilization_asg_misconfiguration.csv,1.4653968,KMeans,0.00775194,7,KMeans,0.25,1.0
-272,Twitter_volume_AAPL.csv,1.483171,Linear,0.4,8,Linear,0.25,1.0
-273,Twitter_volume_CRM.csv,1.483171,KMeans,0.54545455,9,KMeans,0.25,1.0
-274,Twitter_volume_IBM.csv,1.4832366,Linear,0.5,10,Linear,0.25,1.0
+265,KDD-Cup99 HTTP,0.8803221,RPCA,0.93849658,1,RPCA,0.09090909,0.84090909
+266,machine_temperature_system_failure.csv,1.677637,Linear,0.4,2,Linear,0.25,1.0
+267,ec2_cpu_utilization_c6585a.csv,1.6783677,Linear,0.0,3,Linear,0.25,1.0
+268,Letter Recognition,1.6788746,KMeans,0.44545455,4,Linear,0.25,1.0
+269,Pen-Based Recognition of Handwritten Text,1.6899374,KMeans,0.88648649,5,KMeans,0.25,1.0
+270,Landsat Satellite,1.726909,Linear,0.71794872,6,Linear,0.25,1.0
+271,cpu_utilization_asg_misconfiguration.csv,1.7306395,KMeans,0.00775194,7,KMeans,0.25,1.0
+272,Twitter_volume_AAPL.csv,1.748454,Linear,0.4,8,Linear,0.25,1.0
+273,Twitter_volume_CRM.csv,1.748454,KMeans,0.54545455,9,KMeans,0.25,1.0
+274,Twitter_volume_IBM.csv,1.7485195,Linear,0.5,10,Linear,0.25,1.0
 275,,,,,,,,
 276,ec2_cpu_utilization_5f5533.csv,0,KMeans,0.57142857,0,KMeans,0.57142857,1
-277,KDD-Cup99 HTTP,0.80183214,RPCA,0.93849658,1,RPCA,0.5,0.92857143
-278,machine_temperature_system_failure.csv,1.5105754,Linear,0.4,2,Linear,0.5,0.92857143
-279,Letter Recognition,1.5164641,KMeans,0.44545455,3,KMeans,0.57142857,1.0
-280,ec2_cpu_utilization_c6585a.csv,1.5194263,Linear,0.0,4,Linear,0.5,0.92857143
-281,Pen-Based Recognition of Handwritten Text,1.5228136,KMeans,0.88648649,5,KMeans,0.57142857,1.0
-282,Landsat Satellite,1.5578381,Linear,0.71794872,6,Linear,0.5,0.92857143
-283,cpu_utilization_asg_misconfiguration.csv,1.5638454,KMeans,0.00775194,7,KMeans,0.57142857,1.0
-284,Twitter_volume_AAPL.csv,1.5822344,Linear,0.4,8,Linear,0.5,0.92857143
-285,Twitter_volume_CRM.csv,1.5822344,KMeans,0.54545455,9,KMeans,0.57142857,1.0
-286,Twitter_volume_IBM.csv,1.5823026,Linear,0.5,10,Linear,0.5,0.92857143
+277,KDD-Cup99 HTTP,1.0898503,RPCA,0.93849658,1,RPCA,0.5,0.92857143
+278,Letter Recognition,1.7494535,KMeans,0.44545455,2,KMeans,0.57142857,1.0
+279,machine_temperature_system_failure.csv,1.7642432,Linear,0.4,3,KMeans,0.57142857,1.0
+280,Pen-Based Recognition of Handwritten Text,1.769468,KMeans,0.88648649,4,KMeans,0.57142857,1.0
+281,ec2_cpu_utilization_c6585a.csv,1.7726212,Linear,0.0,5,KMeans,0.57142857,1.0
+282,Landsat Satellite,1.805938,Linear,0.71794872,6,Linear,0.5,0.92857143
+283,cpu_utilization_asg_misconfiguration.csv,1.8177737,KMeans,0.00775194,7,KMeans,0.57142857,1.0
+284,Twitter_volume_AAPL.csv,1.8359823,Linear,0.4,8,Linear,0.5,0.92857143
+285,Twitter_volume_CRM.csv,1.8359823,KMeans,0.54545455,9,KMeans,0.57142857,1.0
+286,Twitter_volume_IBM.csv,1.8360496,Linear,0.5,10,Linear,0.5,0.92857143
 287,,,,,,,,
 288,art_daily_flatmiddle.csv,0,KMeans,0.02,0,KMeans,0.02,1
-289,KDD-Cup99 HTTP,0.76017827,RPCA,0.93849658,1,RPCA,0.0,0.98
-290,ec2_cpu_utilization_c6585a.csv,1.5132338,Linear,0.0,2,Linear,0.0,0.98
-291,machine_temperature_system_failure.csv,1.516076,Linear,0.4,3,Linear,0.0,0.98
-292,Letter Recognition,1.5231043,KMeans,0.44545455,4,Linear,0.0,0.98
-293,Pen-Based Recognition of Handwritten Text,1.5334669,KMeans,0.88648649,5,KMeans,0.02,1.0
-294,Landsat Satellite,1.5531607,Linear,0.71794872,6,Linear,0.0,0.98
-295,cpu_utilization_asg_misconfiguration.csv,1.5649195,KMeans,0.00775194,7,KMeans,0.02,1.0
-296,Twitter_volume_AAPL.csv,1.5814738,Linear,0.4,8,Linear,0.0,0.98
-297,Twitter_volume_CRM.csv,1.5814738,KMeans,0.54545455,9,KMeans,0.02,1.0
-298,Twitter_volume_IBM.csv,1.5815349,Linear,0.5,10,Linear,0.0,0.98
+289,KDD-Cup99 HTTP,0.6987684,RPCA,0.93849658,1,RPCA,0.0,0.98
+290,machine_temperature_system_failure.csv,1.4562932,Linear,0.4,2,Linear,0.0,0.98
+291,ec2_cpu_utilization_c6585a.csv,1.4615505,Linear,0.0,3,Linear,0.0,0.98
+292,Pen-Based Recognition of Handwritten Text,1.4806405,KMeans,0.88648649,4,Linear,0.0,0.98
+293,Letter Recognition,1.4850247,KMeans,0.44545455,5,KMeans,0.02,1.0
+294,Landsat Satellite,1.5077236,Linear,0.71794872,6,Linear,0.0,0.98
+295,cpu_utilization_asg_misconfiguration.csv,1.5087091,KMeans,0.00775194,7,KMeans,0.02,1.0
+296,Twitter_volume_CRM.csv,1.5263827,KMeans,0.54545455,8,KMeans,0.02,1.0
+297,Twitter_volume_AAPL.csv,1.5263827,Linear,0.4,9,KMeans,0.02,1.0
+298,Twitter_volume_IBM.csv,1.5264479,Linear,0.5,10,Linear,0.0,0.98
 299,,,,,,,,
 300,ec2_disk_write_bytes_c0d644.csv,0,Linear,0.5,0,Linear,0.5,1
-301,KDD-Cup99 HTTP,0.73320913,RPCA,0.93849658,1,RPCA,0.5,1.0
-302,Letter Recognition,1.5810635,KMeans,0.44545455,2,KMeans,0.5,1.0
-303,ec2_cpu_utilization_c6585a.csv,1.5914366,Linear,0.0,3,KMeans,0.5,1.0
-304,Pen-Based Recognition of Handwritten Text,1.5936038,KMeans,0.88648649,4,KMeans,0.5,1.0
-305,machine_temperature_system_failure.csv,1.6013932,Linear,0.4,5,KMeans,0.5,1.0
-306,Landsat Satellite,1.6269398,Linear,0.71794872,6,Linear,0.5,1.0
-307,cpu_utilization_asg_misconfiguration.csv,1.6479044,KMeans,0.00775194,7,KMeans,0.5,1.0
-308,speed_7578.csv,1.6619997,KMeans,0.75,8,KMeans,0.5,1.0
-309,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,1.6625286,KMeans,0.5,9,KMeans,0.5,1.0
-310,Twitter_volume_AAPL.csv,1.6633534,Linear,0.4,10,KMeans,0.5,1.0
+301,KDD-Cup99 HTTP,1.2245927,RPCA,0.93849658,1,RPCA,0.5,1.0
+302,Letter Recognition,1.7532227,KMeans,0.44545455,2,KMeans,0.5,1.0
+303,machine_temperature_system_failure.csv,1.7692952,Linear,0.4,3,KMeans,0.5,1.0
+304,Pen-Based Recognition of Handwritten Text,1.774603,KMeans,0.88648649,4,KMeans,0.5,1.0
+305,ec2_cpu_utilization_c6585a.csv,1.7801019,Linear,0.0,5,KMeans,0.5,1.0
+306,Landsat Satellite,1.813006,Linear,0.71794872,6,Linear,0.5,1.0
+307,cpu_utilization_asg_misconfiguration.csv,1.822939,KMeans,0.00775194,7,KMeans,0.5,1.0
+308,Twitter_volume_AAPL.csv,1.841425,Linear,0.4,8,Linear,0.5,1.0
+309,Twitter_volume_CRM.csv,1.841425,KMeans,0.54545455,9,KMeans,0.5,1.0
+310,Twitter_volume_IBM.csv,1.8414936,Linear,0.5,10,Linear,0.5,1.0
 311,,,,,,,,
 312,TravelTime_451.csv,0,KMeans,0.4,0,KMeans,0.4,1
-313,KDD-Cup99 HTTP,0.8734553,RPCA,0.93849658,1,RPCA,0.125,0.725
-314,Letter Recognition,1.6083921,KMeans,0.44545455,2,KMeans,0.4,1.0
-315,Pen-Based Recognition of Handwritten Text,1.6129384,KMeans,0.88648649,3,KMeans,0.4,1.0
-316,ec2_cpu_utilization_c6585a.csv,1.6146792,Linear,0.0,4,KMeans,0.4,1.0
-317,machine_temperature_system_failure.csv,1.6236632,Linear,0.4,5,KMeans,0.4,1.0
-318,Landsat Satellite,1.6551503,Linear,0.71794872,6,Linear,0.18181818,0.7818181799999999
-319,cpu_utilization_asg_misconfiguration.csv,1.669561,KMeans,0.00775194,7,KMeans,0.4,1.0
-320,Twitter_volume_AAPL.csv,1.685182,Linear,0.4,8,Linear,0.18181818,0.7818181799999999
-321,Twitter_volume_CRM.csv,1.685182,KMeans,0.54545455,9,KMeans,0.4,1.0
-322,Twitter_volume_IBM.csv,1.6852394,Linear,0.5,10,Linear,0.18181818,0.7818181799999999
+313,KDD-Cup99 HTTP,0.83486927,RPCA,0.93849658,1,RPCA,0.125,0.725
+314,ec2_cpu_utilization_c6585a.csv,1.4602742,Linear,0.0,2,Linear,0.18181818,0.7818181799999999
+315,Letter Recognition,1.4622948,KMeans,0.44545455,3,KMeans,0.4,1.0
+316,machine_temperature_system_failure.csv,1.4653006,Linear,0.4,4,Linear,0.18181818,0.7818181799999999
+317,Pen-Based Recognition of Handwritten Text,1.4660513,KMeans,0.88648649,5,KMeans,0.4,1.0
+318,Landsat Satellite,1.4958634,Linear,0.71794872,6,Linear,0.18181818,0.7818181799999999
+319,cpu_utilization_asg_misconfiguration.csv,1.5114423,KMeans,0.00775194,7,KMeans,0.4,1.0
+320,Twitter_volume_AAPL.csv,1.5272111,Linear,0.4,8,Linear,0.18181818,0.7818181799999999
+321,Twitter_volume_CRM.csv,1.5272111,KMeans,0.54545455,9,KMeans,0.4,1.0
+322,Twitter_volume_IBM.csv,1.5272696,Linear,0.5,10,Linear,0.18181818,0.7818181799999999
 323,,,,,,,,
 324,Twitter_volume_AAPL.csv,0,Linear,0.4,0,Linear,0.4,1
-325,KDD-Cup99 HTTP,0.9913816,RPCA,0.93849658,1,RPCA,0.4,1.0
-326,Letter Recognition,1.7214779,KMeans,0.44545455,2,KMeans,0.4,1.0
-327,machine_temperature_system_failure.csv,1.7428267,Linear,0.4,3,KMeans,0.4,1.0
-328,ec2_cpu_utilization_c6585a.csv,1.7451444,Linear,0.0,4,Linear,0.4,1.0
-329,Pen-Based Recognition of Handwritten Text,1.7451534,KMeans,0.88648649,5,KMeans,0.4,1.0
-330,Landsat Satellite,1.7838259,Linear,0.71794872,6,Linear,0.4,1.0
-331,cpu_utilization_asg_misconfiguration.csv,1.7965156,KMeans,0.00775194,7,KMeans,0.4,1.0
-332,Twitter_volume_AAPL.csv,1.8148683,Linear,0.4,8,Linear,0.4,1.0
-333,Twitter_volume_CRM.csv,1.8148683,KMeans,0.54545455,9,KMeans,0.4,1.0
-334,Twitter_volume_IBM.csv,1.8149362,Linear,0.5,10,Linear,0.4,1.0
+325,KDD-Cup99 HTTP,0.82785714,RPCA,0.93849658,1,RPCA,0.4,1.0
+326,Letter Recognition,1.4799324,KMeans,0.44545455,2,KMeans,0.4,1.0
+327,ec2_cpu_utilization_c6585a.csv,1.4868405,Linear,0.0,3,KMeans,0.4,1.0
+328,machine_temperature_system_failure.csv,1.4886749,Linear,0.4,4,Linear,0.4,1.0
+329,Pen-Based Recognition of Handwritten Text,1.4913931,KMeans,0.88648649,5,KMeans,0.4,1.0
+330,Landsat Satellite,1.5228081,Linear,0.71794872,6,Linear,0.4,1.0
+331,cpu_utilization_asg_misconfiguration.csv,1.5377244,KMeans,0.00775194,7,KMeans,0.4,1.0
+332,Twitter_volume_AAPL.csv,1.5545449,Linear,0.4,8,Linear,0.4,1.0
+333,Twitter_volume_CRM.csv,1.5545449,KMeans,0.54545455,9,KMeans,0.4,1.0
+334,Twitter_volume_IBM.csv,1.5546074,Linear,0.5,10,Linear,0.4,1.0
 335,,,,,,,,
 336,rds_cpu_utilization_e47b3b.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
-337,KDD-Cup99 HTTP,0.9251413,RPCA,0.93849658,1,RPCA,0.66666667,1.0
-338,machine_temperature_system_failure.csv,1.577832,Linear,0.4,2,Linear,0.66666667,1.0
-339,Letter Recognition,1.5819783,KMeans,0.44545455,3,KMeans,0.66666667,1.0
-340,ec2_cpu_utilization_c6585a.csv,1.5824792,Linear,0.0,4,Linear,0.66666667,1.0
-341,Pen-Based Recognition of Handwritten Text,1.5921742,KMeans,0.88648649,5,KMeans,0.66666667,1.0
-342,Landsat Satellite,1.626086,Linear,0.71794872,6,Linear,0.66666667,1.0
-343,cpu_utilization_asg_misconfiguration.csv,1.6303158,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-344,Twitter_volume_AAPL.csv,1.6483259,Linear,0.4,8,Linear,0.66666667,1.0
-345,Twitter_volume_CRM.csv,1.6483259,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-346,Twitter_volume_IBM.csv,1.6483927,Linear,0.5,10,Linear,0.66666667,1.0
+337,KDD-Cup99 HTTP,0.85395783,RPCA,0.93849658,1,RPCA,0.66666667,1.0
+338,machine_temperature_system_failure.csv,1.5936514,Linear,0.4,2,Linear,0.66666667,1.0
+339,Letter Recognition,1.5976069,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+340,ec2_cpu_utilization_c6585a.csv,1.6063876,Linear,0.0,4,Linear,0.66666667,1.0
+341,Pen-Based Recognition of Handwritten Text,1.611901,KMeans,0.88648649,5,KMeans,0.66666667,1.0
+342,Landsat Satellite,1.6437104,Linear,0.71794872,6,Linear,0.66666667,1.0
+343,cpu_utilization_asg_misconfiguration.csv,1.6480762,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+344,Twitter_volume_AAPL.csv,1.6666555,Linear,0.4,8,Linear,0.66666667,1.0
+345,Twitter_volume_CRM.csv,1.6666555,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+346,Twitter_volume_IBM.csv,1.6667243,Linear,0.5,10,Linear,0.66666667,1.0
 347,,,,,,,,
 348,ec2_network_in_5abac7.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
-349,KDD-Cup99 HTTP,0.81978106,RPCA,0.93849658,1,RPCA,0.33333333,0.66666666
-350,machine_temperature_system_failure.csv,1.5882628,Linear,0.4,2,Linear,0.66666667,1.0
-351,Letter Recognition,1.5907402,KMeans,0.44545455,3,KMeans,0.66666667,1.0
-352,ec2_cpu_utilization_c6585a.csv,1.5962827,Linear,0.0,4,Linear,0.66666667,1.0
-353,Pen-Based Recognition of Handwritten Text,1.59858,KMeans,0.88648649,5,KMeans,0.66666667,1.0
-354,Landsat Satellite,1.6347654,Linear,0.71794872,6,Linear,0.66666667,1.0
-355,cpu_utilization_asg_misconfiguration.csv,1.6400105,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-356,Twitter_volume_AAPL.csv,1.6578131,Linear,0.4,8,Linear,0.66666667,1.0
-357,Twitter_volume_CRM.csv,1.6578131,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-358,Twitter_volume_IBM.csv,1.6578791,Linear,0.5,10,Linear,0.66666667,1.0
+349,KDD-Cup99 HTTP,0.99197316,RPCA,0.93849658,1,RPCA,0.33333333,0.66666666
+350,Letter Recognition,1.6807363,KMeans,0.44545455,2,KMeans,0.66666667,1.0
+351,machine_temperature_system_failure.csv,1.6987315,Linear,0.4,3,KMeans,0.66666667,1.0
+352,Pen-Based Recognition of Handwritten Text,1.7035812,KMeans,0.88648649,4,KMeans,0.66666667,1.0
+353,ec2_cpu_utilization_c6585a.csv,1.707093,Linear,0.0,5,KMeans,0.66666667,1.0
+354,Landsat Satellite,1.736367,Linear,0.71794872,6,Linear,0.66666667,1.0
+355,cpu_utilization_asg_misconfiguration.csv,1.7519041,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+356,Twitter_volume_AAPL.csv,1.769945,Linear,0.4,8,Linear,0.66666667,1.0
+357,Twitter_volume_CRM.csv,1.769945,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+358,Twitter_volume_IBM.csv,1.7700117,Linear,0.5,10,Linear,0.66666667,1.0
 359,,,,,,,,
 360,ec2_cpu_utilization_ac20cd.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
-361,KDD-Cup99 HTTP,0.9023335,RPCA,0.93849658,1,RPCA,0.004329,0.33766233
-362,machine_temperature_system_failure.csv,1.5748526,Linear,0.4,2,Linear,0.00312012,0.33645344999999993
-363,Letter Recognition,1.5854522,KMeans,0.44545455,3,KMeans,0.66666667,1.0
-364,ec2_cpu_utilization_c6585a.csv,1.5873613,Linear,0.0,4,Linear,0.00312012,0.33645344999999993
-365,Pen-Based Recognition of Handwritten Text,1.5974153,KMeans,0.88648649,5,KMeans,0.66666667,1.0
-366,Landsat Satellite,1.62364,Linear,0.71794872,6,Linear,0.00312012,0.33645344999999993
-367,cpu_utilization_asg_misconfiguration.csv,1.6289014,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-368,Twitter_volume_AAPL.csv,1.6473565,Linear,0.4,8,Linear,0.00312012,0.33645344999999993
-369,Twitter_volume_CRM.csv,1.6473565,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-370,Twitter_volume_IBM.csv,1.6474248,Linear,0.5,10,Linear,0.00312012,0.33645344999999993
+361,KDD-Cup99 HTTP,0.6970773,RPCA,0.93849658,1,RPCA,0.004329,0.33766233
+362,machine_temperature_system_failure.csv,1.6362767,Linear,0.4,2,Linear,0.00312012,0.33645344999999993
+363,Letter Recognition,1.6374083,KMeans,0.44545455,3,KMeans,0.66666667,1.0
+364,ec2_cpu_utilization_c6585a.csv,1.648217,Linear,0.0,4,Linear,0.00312012,0.33645344999999993
+365,Pen-Based Recognition of Handwritten Text,1.6553061,KMeans,0.88648649,5,KMeans,0.66666667,1.0
+366,Landsat Satellite,1.6817561,Linear,0.71794872,6,Linear,0.00312012,0.33645344999999993
+367,cpu_utilization_asg_misconfiguration.csv,1.6910319,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+368,Twitter_volume_AAPL.csv,1.7096915,Linear,0.4,8,Linear,0.00312012,0.33645344999999993
+369,Twitter_volume_CRM.csv,1.7096915,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+370,Twitter_volume_IBM.csv,1.7097607,Linear,0.5,10,Linear,0.00312012,0.33645344999999993
 371,,,,,,,,
 372,Twitter_volume_UPS.csv,0,Linear,0.28571429,0,Linear,0.28571429,1
-373,KDD-Cup99 HTTP,0.8849683,RPCA,0.93849658,1,RPCA,0.2,0.91428571
-374,Letter Recognition,1.8055023,KMeans,0.44545455,2,KMeans,0.22222222,0.93650793
-375,machine_temperature_system_failure.csv,1.8272941,Linear,0.4,3,KMeans,0.22222222,0.93650793
-376,Pen-Based Recognition of Handwritten Text,1.8291373,KMeans,0.88648649,4,KMeans,0.22222222,0.93650793
-377,ec2_cpu_utilization_c6585a.csv,1.833123,Linear,0.0,5,KMeans,0.22222222,0.93650793
-378,Landsat Satellite,1.8647926,Linear,0.71794872,6,Linear,0.28571429,1.0
-379,cpu_utilization_asg_misconfiguration.csv,1.8809859,KMeans,0.00775194,7,KMeans,0.22222222,0.93650793
-380,Twitter_volume_AAPL.csv,1.8988749,Linear,0.4,8,Linear,0.28571429,1.0
-381,Twitter_volume_CRM.csv,1.8988749,KMeans,0.54545455,9,KMeans,0.22222222,0.93650793
-382,Twitter_volume_IBM.csv,1.8989404,Linear,0.5,10,Linear,0.28571429,1.0
+373,KDD-Cup99 HTTP,0.8960804,RPCA,0.93849658,1,RPCA,0.2,0.91428571
+374,Letter Recognition,1.7333139,KMeans,0.44545455,2,KMeans,0.22222222,0.93650793
+375,machine_temperature_system_failure.csv,1.7387612,Linear,0.4,3,KMeans,0.22222222,0.93650793
+376,ec2_cpu_utilization_c6585a.csv,1.7498736,Linear,0.0,4,Linear,0.28571429,1.0
+377,Pen-Based Recognition of Handwritten Text,1.7513627,KMeans,0.88648649,5,KMeans,0.22222222,0.93650793
+378,Landsat Satellite,1.7858436,Linear,0.71794872,6,Linear,0.28571429,1.0
+379,cpu_utilization_asg_misconfiguration.csv,1.7932084,KMeans,0.00775194,7,KMeans,0.22222222,0.93650793
+380,Twitter_volume_AAPL.csv,1.8116341,Linear,0.4,8,Linear,0.28571429,1.0
+381,Twitter_volume_CRM.csv,1.8116341,KMeans,0.54545455,9,KMeans,0.22222222,0.93650793
+382,Twitter_volume_IBM.csv,1.8117021,Linear,0.5,10,Linear,0.28571429,1.0
 383,,,,,,,,
 384,art_daily_jumpsdown.csv,0,KMeans,0.03030303,0,KMeans,0.03030303,1
-385,KDD-Cup99 HTTP,0.9745875,RPCA,0.93849658,1,RPCA,0.0,0.96969697
-386,Letter Recognition,1.7482126,KMeans,0.44545455,2,KMeans,0.03030303,1.0
-387,machine_temperature_system_failure.csv,1.7667047,Linear,0.4,3,KMeans,0.03030303,1.0
-388,Pen-Based Recognition of Handwritten Text,1.7669076,KMeans,0.88648649,4,KMeans,0.03030303,1.0
-389,ec2_cpu_utilization_c6585a.csv,1.7697084,Linear,0.0,5,KMeans,0.03030303,1.0
-390,Landsat Satellite,1.8042895,Linear,0.71794872,6,Linear,0.00049603,0.970193
-391,cpu_utilization_asg_misconfiguration.csv,1.8188657,KMeans,0.00775194,7,KMeans,0.03030303,1.0
-392,Twitter_volume_AAPL.csv,1.8363104,Linear,0.4,8,Linear,0.00049603,0.970193
-393,Twitter_volume_CRM.csv,1.8363104,KMeans,0.54545455,9,KMeans,0.03030303,1.0
-394,Twitter_volume_IBM.csv,1.8363745,Linear,0.5,10,Linear,0.00049603,0.970193
+385,KDD-Cup99 HTTP,0.6826578,RPCA,0.93849658,1,RPCA,0.0,0.96969697
+386,machine_temperature_system_failure.csv,1.3612475,Linear,0.4,2,Linear,0.00049603,0.970193
+387,ec2_cpu_utilization_c6585a.csv,1.3688805,Linear,0.0,3,Linear,0.00049603,0.970193
+388,Pen-Based Recognition of Handwritten Text,1.412989,KMeans,0.88648649,4,Linear,0.00049603,0.970193
+389,cpu_utilization_asg_misconfiguration.csv,1.4148134,KMeans,0.00775194,5,KMeans,0.03030303,1.0
+390,Landsat Satellite,1.4223995,Linear,0.71794872,6,Linear,0.00049603,0.970193
+391,Letter Recognition,1.4226409,KMeans,0.44545455,7,KMeans,0.03030303,1.0
+392,Twitter_volume_AAPL.csv,1.4329658,Linear,0.4,8,Linear,0.00049603,0.970193
+393,Twitter_volume_CRM.csv,1.4329658,KMeans,0.54545455,9,KMeans,0.03030303,1.0
+394,Twitter_volume_IBM.csv,1.4330329,Linear,0.5,10,Linear,0.00049603,0.970193
 395,,,,,,,,
 396,exchange-2_cpm_results.csv,0,KMeans,0.8,0,KMeans,0.8,1
-397,KDD-Cup99 HTTP,1.0457416,RPCA,0.93849658,1,RPCA,0.11111111,0.3111111099999999
-398,Letter Recognition,1.7326394,KMeans,0.44545455,2,KMeans,0.8,1.0
-399,Pen-Based Recognition of Handwritten Text,1.7484976,KMeans,0.88648649,3,KMeans,0.8,1.0
-400,ec2_cpu_utilization_c6585a.csv,1.7568902,Linear,0.0,4,KMeans,0.8,1.0
-401,machine_temperature_system_failure.csv,1.7664189,Linear,0.4,5,KMeans,0.8,1.0
-402,Landsat Satellite,1.7914525,Linear,0.71794872,6,Linear,0.5,0.7
-403,cpu_utilization_asg_misconfiguration.csv,1.8125125,KMeans,0.00775194,7,KMeans,0.8,1.0
-404,speed_7578.csv,1.8280125,KMeans,0.75,8,KMeans,0.8,1.0
-405,Twitter_volume_AAPL.csv,1.8281002,Linear,0.4,9,KMeans,0.8,1.0
-406,Twitter_volume_CRM.csv,1.8281002,KMeans,0.54545455,10,KMeans,0.8,1.0
+397,KDD-Cup99 HTTP,0.6192455,RPCA,0.93849658,1,RPCA,0.11111111,0.3111111099999999
+398,machine_temperature_system_failure.csv,1.4493116,Linear,0.4,2,Linear,0.5,0.7
+399,ec2_cpu_utilization_c6585a.csv,1.458096,Linear,0.0,3,Linear,0.5,0.7
+400,Letter Recognition,1.4621898,KMeans,0.44545455,4,Linear,0.5,0.7
+401,Pen-Based Recognition of Handwritten Text,1.466027,KMeans,0.88648649,5,KMeans,0.8,1.0
+402,Landsat Satellite,1.4959006,Linear,0.71794872,6,Linear,0.5,0.7
+403,cpu_utilization_asg_misconfiguration.csv,1.5034641,KMeans,0.00775194,7,KMeans,0.8,1.0
+404,Twitter_volume_AAPL.csv,1.5218432,Linear,0.4,8,Linear,0.5,0.7
+405,Twitter_volume_CRM.csv,1.5218432,KMeans,0.54545455,9,KMeans,0.8,1.0
+406,Twitter_volume_IBM.csv,1.5219113,Linear,0.5,10,Linear,0.5,0.7
 407,,,,,,,,
 408,elb_request_count_8c0756.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
-409,KDD-Cup99 HTTP,0.79878193,RPCA,0.93849658,1,RPCA,0.66666667,1.0
-410,ec2_cpu_utilization_c6585a.csv,1.4414847,Linear,0.0,2,Linear,0.66666667,1.0
-411,Letter Recognition,1.4415276,KMeans,0.44545455,3,KMeans,0.66666667,1.0
-412,Pen-Based Recognition of Handwritten Text,1.4439552,KMeans,0.88648649,4,KMeans,0.66666667,1.0
-413,machine_temperature_system_failure.csv,1.4467133,Linear,0.4,5,KMeans,0.66666667,1.0
-414,Landsat Satellite,1.4768071,Linear,0.71794872,6,Linear,0.66666667,1.0
-415,cpu_utilization_asg_misconfiguration.csv,1.4937547,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-416,Twitter_volume_AAPL.csv,1.5100532,Linear,0.4,8,Linear,0.66666667,1.0
-417,Twitter_volume_CRM.csv,1.5100532,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-418,Twitter_volume_IBM.csv,1.5101138,Linear,0.5,10,Linear,0.66666667,1.0
+409,KDD-Cup99 HTTP,0.9418223,RPCA,0.93849658,1,RPCA,0.66666667,1.0
+410,Letter Recognition,1.5820756,KMeans,0.44545455,2,KMeans,0.66666667,1.0
+411,machine_temperature_system_failure.csv,1.5875984,Linear,0.4,3,KMeans,0.66666667,1.0
+412,ec2_cpu_utilization_c6585a.csv,1.5911837,Linear,0.0,4,Linear,0.66666667,1.0
+413,Pen-Based Recognition of Handwritten Text,1.596004,KMeans,0.88648649,5,KMeans,0.66666667,1.0
+414,Landsat Satellite,1.6295309,Linear,0.71794872,6,Linear,0.66666667,1.0
+415,cpu_utilization_asg_misconfiguration.csv,1.6379155,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+416,Twitter_volume_AAPL.csv,1.6551155,Linear,0.4,8,Linear,0.66666667,1.0
+417,Twitter_volume_CRM.csv,1.6551155,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+418,Twitter_volume_IBM.csv,1.6551793,Linear,0.5,10,Linear,0.66666667,1.0
 419,,,,,,,,
 420,speed_6005.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
-421,KDD-Cup99 HTTP,0.7391261,RPCA,0.93849658,1,RPCA,0.66666667,1.0
-422,machine_temperature_system_failure.csv,1.3744446,Linear,0.4,2,Linear,0.66666667,1.0
-423,ec2_cpu_utilization_c6585a.csv,1.3828084,Linear,0.0,3,Linear,0.66666667,1.0
-424,Pen-Based Recognition of Handwritten Text,1.4175776,KMeans,0.88648649,4,Linear,0.66666667,1.0
-425,Letter Recognition,1.422192,KMeans,0.44545455,5,KMeans,0.66666667,1.0
-426,Landsat Satellite,1.4265585,Linear,0.71794872,6,Linear,0.66666667,1.0
-427,cpu_utilization_asg_misconfiguration.csv,1.4269445,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-428,Twitter_volume_AAPL.csv,1.4449526,Linear,0.4,8,Linear,0.66666667,1.0
-429,Twitter_volume_CRM.csv,1.4449526,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-430,Twitter_volume_IBM.csv,1.4450195,Linear,0.5,10,Linear,0.66666667,1.0
+421,KDD-Cup99 HTTP,0.75702655,RPCA,0.93849658,1,RPCA,0.66666667,1.0
+422,Letter Recognition,1.6754627,KMeans,0.44545455,2,KMeans,0.66666667,1.0
+423,machine_temperature_system_failure.csv,1.6843116,Linear,0.4,3,KMeans,0.66666667,1.0
+424,ec2_cpu_utilization_c6585a.csv,1.6856585,Linear,0.0,4,Linear,0.66666667,1.0
+425,Pen-Based Recognition of Handwritten Text,1.6893038,KMeans,0.88648649,5,KMeans,0.66666667,1.0
+426,Landsat Satellite,1.7238519,Linear,0.71794872,6,Linear,0.66666667,1.0
+427,cpu_utilization_asg_misconfiguration.csv,1.7356393,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+428,Twitter_volume_AAPL.csv,1.7529767,Linear,0.4,8,Linear,0.66666667,1.0
+429,Twitter_volume_CRM.csv,1.7529767,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+430,Twitter_volume_IBM.csv,1.7530407,Linear,0.5,10,Linear,0.66666667,1.0
 431,,,,,,,,
 432,Twitter_volume_KO.csv,0,Linear,0.8,0,Linear,0.8,1
-433,KDD-Cup99 HTTP,0.70366967,RPCA,0.93849658,1,RPCA,0.8,1.0
-434,machine_temperature_system_failure.csv,1.4809812,Linear,0.4,2,Linear,0.8,1.0
-435,Letter Recognition,1.4836907,KMeans,0.44545455,3,KMeans,0.8,1.0
-436,ec2_cpu_utilization_c6585a.csv,1.485066,Linear,0.0,4,Linear,0.8,1.0
-437,Pen-Based Recognition of Handwritten Text,1.4883261,KMeans,0.88648649,5,KMeans,0.8,1.0
-438,Landsat Satellite,1.5183756,Linear,0.71794872,6,Linear,0.8,1.0
-439,cpu_utilization_asg_misconfiguration.csv,1.5324721,KMeans,0.00775194,7,KMeans,0.8,1.0
-440,Twitter_volume_AAPL.csv,1.5499411,Linear,0.4,8,Linear,0.8,1.0
-441,Twitter_volume_CRM.csv,1.5499411,KMeans,0.54545455,9,KMeans,0.8,1.0
-442,Twitter_volume_IBM.csv,1.5500056,Linear,0.5,10,Linear,0.8,1.0
+433,KDD-Cup99 HTTP,1.0928264,RPCA,0.93849658,1,RPCA,0.8,1.0
+434,Letter Recognition,1.7471362,KMeans,0.44545455,2,KMeans,0.8,1.0
+435,Pen-Based Recognition of Handwritten Text,1.7723168,KMeans,0.88648649,3,KMeans,0.8,1.0
+436,ec2_cpu_utilization_c6585a.csv,1.7775584,Linear,0.0,4,KMeans,0.8,1.0
+437,machine_temperature_system_failure.csv,1.7778434,Linear,0.4,5,KMeans,0.8,1.0
+438,Landsat Satellite,1.8059393,Linear,0.71794872,6,Linear,0.8,1.0
+439,cpu_utilization_asg_misconfiguration.csv,1.8260269,KMeans,0.00775194,7,KMeans,0.8,1.0
+440,Twitter_volume_AAPL.csv,1.8426405,Linear,0.4,8,Linear,0.8,1.0
+441,Twitter_volume_CRM.csv,1.8426405,KMeans,0.54545455,9,KMeans,0.8,1.0
+442,Twitter_volume_IBM.csv,1.8427022,Linear,0.5,10,Linear,0.8,1.0
 443,,,,,,,,
 444,Twitter_volume_GOOG.csv,0,Linear,0.4,0,Linear,0.4,1
-445,KDD-Cup99 HTTP,0.89115846,RPCA,0.93849658,1,RPCA,0.4,1.0
-446,Letter Recognition,1.589067,KMeans,0.44545455,2,KMeans,0.4,1.0
-447,machine_temperature_system_failure.csv,1.597665,Linear,0.4,3,KMeans,0.4,1.0
-448,Pen-Based Recognition of Handwritten Text,1.6050744,KMeans,0.88648649,4,KMeans,0.4,1.0
-449,ec2_cpu_utilization_c6585a.csv,1.6074582,Linear,0.0,5,KMeans,0.4,1.0
-450,Landsat Satellite,1.6390957,Linear,0.71794872,6,Linear,0.4,1.0
-451,cpu_utilization_asg_misconfiguration.csv,1.6514562,KMeans,0.00775194,7,KMeans,0.4,1.0
-452,Twitter_volume_AAPL.csv,1.6696993,Linear,0.4,8,Linear,0.4,1.0
-453,Twitter_volume_CRM.csv,1.6696993,KMeans,0.54545455,9,KMeans,0.4,1.0
-454,Twitter_volume_IBM.csv,1.6697668,Linear,0.5,10,Linear,0.4,1.0
+445,KDD-Cup99 HTTP,0.9299829,RPCA,0.93849658,1,RPCA,0.4,1.0
+446,Letter Recognition,1.7946278,KMeans,0.44545455,2,KMeans,0.4,1.0
+447,machine_temperature_system_failure.csv,1.8091438,Linear,0.4,3,KMeans,0.4,1.0
+448,Pen-Based Recognition of Handwritten Text,1.8159049,KMeans,0.88648649,4,KMeans,0.4,1.0
+449,ec2_cpu_utilization_c6585a.csv,1.8199471,Linear,0.0,5,KMeans,0.4,1.0
+450,Landsat Satellite,1.8531003,Linear,0.71794872,6,Linear,0.4,1.0
+451,cpu_utilization_asg_misconfiguration.csv,1.8637555,KMeans,0.00775194,7,KMeans,0.4,1.0
+452,Twitter_volume_AAPL.csv,1.8822615,Linear,0.4,8,Linear,0.4,1.0
+453,Twitter_volume_CRM.csv,1.8822615,KMeans,0.54545455,9,KMeans,0.4,1.0
+454,Twitter_volume_IBM.csv,1.88233,Linear,0.5,10,Linear,0.4,1.0
 455,,,,,,,,
 456,exchange-2_cpc_results.csv,0,KMeans,0.33333333,0,KMeans,0.33333333,1
-457,KDD-Cup99 HTTP,1.0246763,RPCA,0.93849658,1,RPCA,0.07407407,0.74074074
-458,Letter Recognition,1.7218996,KMeans,0.44545455,2,KMeans,0.33333333,1.0
-459,ec2_cpu_utilization_c6585a.csv,1.7358007,Linear,0.0,3,KMeans,0.33333333,1.0
-460,Pen-Based Recognition of Handwritten Text,1.7358629,KMeans,0.88648649,4,KMeans,0.33333333,1.0
-461,machine_temperature_system_failure.csv,1.7361062,Linear,0.4,5,KMeans,0.33333333,1.0
-462,Landsat Satellite,1.773589,Linear,0.71794872,6,Linear,0.06666667,0.73333334
-463,cpu_utilization_asg_misconfiguration.csv,1.7855147,KMeans,0.00775194,7,KMeans,0.33333333,1.0
-464,Twitter_volume_AAPL.csv,1.8023372,Linear,0.4,8,Linear,0.06666667,0.73333334
-465,Twitter_volume_CRM.csv,1.8023372,KMeans,0.54545455,9,KMeans,0.33333333,1.0
-466,Twitter_volume_IBM.csv,1.8023994,Linear,0.5,10,Linear,0.06666667,0.73333334
+457,KDD-Cup99 HTTP,0.90474045,RPCA,0.93849658,1,RPCA,0.07407407,0.74074074
+458,Letter Recognition,1.7920241,KMeans,0.44545455,2,KMeans,0.33333333,1.0
+459,machine_temperature_system_failure.csv,1.7937565,Linear,0.4,3,KMeans,0.33333333,1.0
+460,ec2_cpu_utilization_c6585a.csv,1.8038635,Linear,0.0,4,Linear,0.06666667,0.73333334
+461,Pen-Based Recognition of Handwritten Text,1.8079207,KMeans,0.88648649,5,KMeans,0.33333333,1.0
+462,Landsat Satellite,1.8465149,Linear,0.71794872,6,Linear,0.06666667,0.73333334
+463,cpu_utilization_asg_misconfiguration.csv,1.8486612,KMeans,0.00775194,7,KMeans,0.33333333,1.0
+464,Twitter_volume_AAPL.csv,1.8672156,Linear,0.4,8,Linear,0.06666667,0.73333334
+465,Twitter_volume_CRM.csv,1.8672156,KMeans,0.54545455,9,KMeans,0.33333333,1.0
+466,Twitter_volume_IBM.csv,1.8672842,Linear,0.5,10,Linear,0.06666667,0.73333334
 467,,,,,,,,
 468,Twitter_volume_CVS.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
-469,KDD-Cup99 HTTP,0.89310217,RPCA,0.93849658,1,RPCA,0.66666667,1.0
-470,ec2_cpu_utilization_c6585a.csv,1.4451818,Linear,0.0,2,Linear,0.66666667,1.0
-471,Letter Recognition,1.4496078,KMeans,0.44545455,3,KMeans,0.66666667,1.0
-472,Pen-Based Recognition of Handwritten Text,1.4534296,KMeans,0.88648649,4,KMeans,0.66666667,1.0
-473,machine_temperature_system_failure.csv,1.459047,Linear,0.4,5,KMeans,0.66666667,1.0
-474,Landsat Satellite,1.4847106,Linear,0.71794872,6,Linear,0.66666667,1.0
-475,cpu_utilization_asg_misconfiguration.csv,1.5011787,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-476,Twitter_volume_AAPL.csv,1.5157388,Linear,0.4,8,Linear,0.66666667,1.0
-477,Twitter_volume_CRM.csv,1.5157388,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-478,Twitter_volume_IBM.csv,1.5157928,Linear,0.5,10,Linear,0.66666667,1.0
+469,KDD-Cup99 HTTP,0.644539,RPCA,0.93849658,1,RPCA,0.66666667,1.0
+470,machine_temperature_system_failure.csv,1.4540839,Linear,0.4,2,Linear,0.66666667,1.0
+471,ec2_cpu_utilization_c6585a.csv,1.4637485,Linear,0.0,3,Linear,0.66666667,1.0
+472,Pen-Based Recognition of Handwritten Text,1.4741005,KMeans,0.88648649,4,Linear,0.66666667,1.0
+473,Letter Recognition,1.477396,KMeans,0.44545455,5,KMeans,0.66666667,1.0
+474,Landsat Satellite,1.5056332,Linear,0.71794872,6,Linear,0.66666667,1.0
+475,cpu_utilization_asg_misconfiguration.csv,1.5074863,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+476,Twitter_volume_AAPL.csv,1.5256191,Linear,0.4,8,Linear,0.66666667,1.0
+477,Twitter_volume_CRM.csv,1.5256191,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+478,Twitter_volume_IBM.csv,1.5256863,Linear,0.5,10,Linear,0.66666667,1.0
 479,,,,,,,,
 480,cpu_utilization_asg_misconfiguration.csv,0,KMeans,0.00775194,0,KMeans,0.00775194,1
-481,KDD-Cup99 HTTP,1.0915866,RPCA,0.93849658,1,RPCA,0.00166389,0.99391195
-482,Letter Recognition,1.6624683,KMeans,0.44545455,2,KMeans,0.00775194,1.0
-483,ec2_cpu_utilization_c6585a.csv,1.6794927,Linear,0.0,3,KMeans,0.00775194,1.0
-484,Pen-Based Recognition of Handwritten Text,1.6812837,KMeans,0.88648649,4,KMeans,0.00775194,1.0
-485,machine_temperature_system_failure.csv,1.6856499,Linear,0.4,5,KMeans,0.00775194,1.0
-486,Landsat Satellite,1.7122874,Linear,0.71794872,6,Linear,0.00110132,0.99334938
-487,cpu_utilization_asg_misconfiguration.csv,1.7320952,KMeans,0.00775194,7,KMeans,0.00775194,1.0
-488,Twitter_volume_AAPL.csv,1.7482245,Linear,0.4,8,Linear,0.00110132,0.99334938
-489,Twitter_volume_CRM.csv,1.7482245,KMeans,0.54545455,9,KMeans,0.00775194,1.0
-490,Twitter_volume_IBM.csv,1.7482846,Linear,0.5,10,Linear,0.00110132,0.99334938
+481,KDD-Cup99 HTTP,0.6929196,RPCA,0.93849658,1,RPCA,0.00166389,0.99391195
+482,machine_temperature_system_failure.csv,1.4108496,Linear,0.4,2,Linear,0.00110132,0.99334938
+483,ec2_cpu_utilization_c6585a.csv,1.4118538,Linear,0.0,3,Linear,0.00110132,0.99334938
+484,Pen-Based Recognition of Handwritten Text,1.4453937,KMeans,0.88648649,4,Linear,0.00110132,0.99334938
+485,Letter Recognition,1.4495997,KMeans,0.44545455,5,KMeans,0.00775194,1.0
+486,Landsat Satellite,1.4618239,Linear,0.71794872,6,Linear,0.00110132,0.99334938
+487,cpu_utilization_asg_misconfiguration.csv,1.4628093,KMeans,0.00775194,7,KMeans,0.00775194,1.0
+488,Twitter_volume_AAPL.csv,1.480539,Linear,0.4,8,Linear,0.00110132,0.99334938
+489,Twitter_volume_CRM.csv,1.480539,KMeans,0.54545455,9,KMeans,0.00775194,1.0
+490,Twitter_volume_IBM.csv,1.4806048,Linear,0.5,10,Linear,0.00110132,0.99334938
 491,,,,,,,,
 492,occupancy_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
-493,KDD-Cup99 HTTP,0.80016553,RPCA,0.93849658,1,RPCA,1.0,1.0
-494,ec2_cpu_utilization_c6585a.csv,1.4336073,Linear,0.0,2,Linear,1.0,1.0
-495,Letter Recognition,1.4346054,KMeans,0.44545455,3,KMeans,1.0,1.0
-496,machine_temperature_system_failure.csv,1.4348311,Linear,0.4,4,Linear,1.0,1.0
-497,Pen-Based Recognition of Handwritten Text,1.439628,KMeans,0.88648649,5,KMeans,1.0,1.0
-498,Landsat Satellite,1.4707057,Linear,0.71794872,6,Linear,1.0,1.0
-499,cpu_utilization_asg_misconfiguration.csv,1.482459,KMeans,0.00775194,7,KMeans,1.0,1.0
-500,Twitter_volume_AAPL.csv,1.4989291,Linear,0.4,8,Linear,1.0,1.0
-501,Twitter_volume_CRM.csv,1.4989291,KMeans,0.54545455,9,KMeans,1.0,1.0
-502,Twitter_volume_IBM.csv,1.4989903,Linear,0.5,10,Linear,1.0,1.0
+493,KDD-Cup99 HTTP,0.72615105,RPCA,0.93849658,1,RPCA,1.0,1.0
+494,machine_temperature_system_failure.csv,1.5252486,Linear,0.4,2,Linear,1.0,1.0
+495,Letter Recognition,1.5271914,KMeans,0.44545455,3,KMeans,1.0,1.0
+496,ec2_cpu_utilization_c6585a.csv,1.5305159,Linear,0.0,4,Linear,1.0,1.0
+497,Pen-Based Recognition of Handwritten Text,1.536277,KMeans,0.88648649,5,KMeans,1.0,1.0
+498,Landsat Satellite,1.5648961,Linear,0.71794872,6,Linear,1.0,1.0
+499,cpu_utilization_asg_misconfiguration.csv,1.5779966,KMeans,0.00775194,7,KMeans,1.0,1.0
+500,Twitter_volume_AAPL.csv,1.5958581,Linear,0.4,8,Linear,1.0,1.0
+501,Twitter_volume_CRM.csv,1.5958581,KMeans,0.54545455,9,KMeans,1.0,1.0
+502,Twitter_volume_IBM.csv,1.595924,Linear,0.5,10,Linear,1.0,1.0
 503,,,,,,,,
 504,art_daily_jumpsup.csv,0,KMeans,0.22222222,0,KMeans,0.22222222,1
-505,KDD-Cup99 HTTP,0.7849556,RPCA,0.93849658,1,RPCA,0.01960784,0.79738562
-506,machine_temperature_system_failure.csv,1.5411601,Linear,0.4,2,Linear,0.01960784,0.79738562
-507,Letter Recognition,1.5434787,KMeans,0.44545455,3,KMeans,0.22222222,1.0
-508,ec2_cpu_utilization_c6585a.csv,1.548883,Linear,0.0,4,Linear,0.01960784,0.79738562
-509,Pen-Based Recognition of Handwritten Text,1.5544709,KMeans,0.88648649,5,KMeans,0.22222222,1.0
-510,Landsat Satellite,1.5837396,Linear,0.71794872,6,Linear,0.01960784,0.79738562
-511,cpu_utilization_asg_misconfiguration.csv,1.5930586,KMeans,0.00775194,7,KMeans,0.22222222,1.0
-512,Twitter_volume_AAPL.csv,1.6108081,Linear,0.4,8,Linear,0.01960784,0.79738562
-513,Twitter_volume_CRM.csv,1.6108081,KMeans,0.54545455,9,KMeans,0.22222222,1.0
-514,Twitter_volume_IBM.csv,1.6108739,Linear,0.5,10,Linear,0.01960784,0.79738562
+505,KDD-Cup99 HTTP,0.89744276,RPCA,0.93849658,1,RPCA,0.01960784,0.79738562
+506,machine_temperature_system_failure.csv,1.4459387,Linear,0.4,2,Linear,0.01960784,0.79738562
+507,ec2_cpu_utilization_c6585a.csv,1.4563829,Linear,0.0,3,Linear,0.01960784,0.79738562
+508,Letter Recognition,1.4590898,KMeans,0.44545455,4,Linear,0.01960784,0.79738562
+509,Pen-Based Recognition of Handwritten Text,1.4647893,KMeans,0.88648649,5,KMeans,0.22222222,1.0
+510,Landsat Satellite,1.4914849,Linear,0.71794872,6,Linear,0.01960784,0.79738562
+511,cpu_utilization_asg_misconfiguration.csv,1.4993432,KMeans,0.00775194,7,KMeans,0.22222222,1.0
+512,Twitter_volume_AAPL.csv,1.5177284,Linear,0.4,8,Linear,0.01960784,0.79738562
+513,Twitter_volume_CRM.csv,1.5177284,KMeans,0.54545455,9,KMeans,0.22222222,1.0
+514,Twitter_volume_IBM.csv,1.5177968,Linear,0.5,10,Linear,0.01960784,0.79738562
 515,,,,,,,,
 516,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
-517,KDD-Cup99 HTTP,0.8803398,RPCA,0.93849658,1,RPCA,0.00263158,0.99926458
-518,machine_temperature_system_failure.csv,1.5390695,Linear,0.4,2,Linear,0.003367,1.0
-519,ec2_cpu_utilization_c6585a.csv,1.5456915,Linear,0.0,3,Linear,0.003367,1.0
-520,Letter Recognition,1.5499368,KMeans,0.44545455,4,Linear,0.003367,1.0
-521,Pen-Based Recognition of Handwritten Text,1.558281,KMeans,0.88648649,5,KMeans,0.00212993,0.99876293
-522,Landsat Satellite,1.5932708,Linear,0.71794872,6,Linear,0.003367,1.0
-523,cpu_utilization_asg_misconfiguration.csv,1.5941166,KMeans,0.00775194,7,KMeans,0.00212993,0.99876293
-524,Twitter_volume_AAPL.csv,1.6128529,Linear,0.4,8,Linear,0.003367,1.0
-525,Twitter_volume_CRM.csv,1.6128529,KMeans,0.54545455,9,KMeans,0.00212993,0.99876293
-526,Twitter_volume_IBM.csv,1.6129221,Linear,0.5,10,Linear,0.003367,1.0
+517,KDD-Cup99 HTTP,0.61105347,RPCA,0.93849658,1,RPCA,0.00263158,0.99926458
+518,machine_temperature_system_failure.csv,1.5071304,Linear,0.4,2,Linear,0.003367,1.0
+519,ec2_cpu_utilization_c6585a.csv,1.5131485,Linear,0.0,3,Linear,0.003367,1.0
+520,Letter Recognition,1.5152504,KMeans,0.44545455,4,Linear,0.003367,1.0
+521,Pen-Based Recognition of Handwritten Text,1.5228225,KMeans,0.88648649,5,KMeans,0.00212993,0.99876293
+522,Landsat Satellite,1.5551386,Linear,0.71794872,6,Linear,0.003367,1.0
+523,cpu_utilization_asg_misconfiguration.csv,1.5599382,KMeans,0.00775194,7,KMeans,0.00212993,0.99876293
+524,Twitter_volume_AAPL.csv,1.5778108,Linear,0.4,8,Linear,0.003367,1.0
+525,Twitter_volume_CRM.csv,1.5778108,KMeans,0.54545455,9,KMeans,0.00212993,0.99876293
+526,Twitter_volume_IBM.csv,1.5778767,Linear,0.5,10,Linear,0.003367,1.0
 527,,,,,,,,
 528,art_load_balancer_spikes.csv,0,KMeans,0.25,0,KMeans,0.25,1
-529,KDD-Cup99 HTTP,0.82350665,RPCA,0.93849658,1,RPCA,0.02105263,0.77105263
-530,Letter Recognition,1.5421865,KMeans,0.44545455,2,KMeans,0.25,1.0
-531,ec2_cpu_utilization_c6585a.csv,1.5464681,Linear,0.0,3,KMeans,0.25,1.0
-532,machine_temperature_system_failure.csv,1.5481262,Linear,0.4,4,Linear,0.02222222,0.77222222
-533,Pen-Based Recognition of Handwritten Text,1.552445,KMeans,0.88648649,5,KMeans,0.25,1.0
-534,Landsat Satellite,1.5798068,Linear,0.71794872,6,Linear,0.02222222,0.77222222
-535,cpu_utilization_asg_misconfiguration.csv,1.5974073,KMeans,0.00775194,7,KMeans,0.25,1.0
-536,Twitter_volume_AAPL.csv,1.6140575,Linear,0.4,8,Linear,0.02222222,0.77222222
-537,Twitter_volume_CRM.csv,1.6140575,KMeans,0.54545455,9,KMeans,0.25,1.0
-538,Twitter_volume_IBM.csv,1.6141188,Linear,0.5,10,Linear,0.02222222,0.77222222
+529,KDD-Cup99 HTTP,0.72592205,RPCA,0.93849658,1,RPCA,0.02105263,0.77105263
+530,ec2_cpu_utilization_c6585a.csv,1.4381317,Linear,0.0,2,Linear,0.02222222,0.77222222
+531,machine_temperature_system_failure.csv,1.4459691,Linear,0.4,3,Linear,0.02222222,0.77222222
+532,Letter Recognition,1.4549553,KMeans,0.44545455,4,Linear,0.02222222,0.77222222
+533,Pen-Based Recognition of Handwritten Text,1.4566833,KMeans,0.88648649,5,KMeans,0.25,1.0
+534,Landsat Satellite,1.484018,Linear,0.71794872,6,Linear,0.02222222,0.77222222
+535,cpu_utilization_asg_misconfiguration.csv,1.4924369,KMeans,0.00775194,7,KMeans,0.25,1.0
+536,Twitter_volume_AAPL.csv,1.5081948,Linear,0.4,8,Linear,0.02222222,0.77222222
+537,Twitter_volume_CRM.csv,1.5081948,KMeans,0.54545455,9,KMeans,0.25,1.0
+538,Twitter_volume_IBM.csv,1.508253,Linear,0.5,10,Linear,0.02222222,0.77222222
 539,,,,,,,,
 540,Twitter_volume_FB.csv,0,Linear,1.0,0,Linear,1.0,1
-541,KDD-Cup99 HTTP,0.6696305,RPCA,0.93849658,1,RPCA,1.0,1.0
-542,machine_temperature_system_failure.csv,1.5264956,Linear,0.4,2,Linear,1.0,1.0
-543,ec2_cpu_utilization_c6585a.csv,1.5296413,Linear,0.0,3,Linear,1.0,1.0
-544,Letter Recognition,1.5449313,KMeans,0.44545455,4,Linear,1.0,1.0
-545,Pen-Based Recognition of Handwritten Text,1.5449643,KMeans,0.88648649,5,KMeans,1.0,1.0
-546,Landsat Satellite,1.57785,Linear,0.71794872,6,Linear,1.0,1.0
-547,cpu_utilization_asg_misconfiguration.csv,1.5782629,KMeans,0.00775194,7,KMeans,1.0,1.0
-548,Twitter_volume_AAPL.csv,1.5956216,Linear,0.4,8,Linear,1.0,1.0
-549,Twitter_volume_CRM.csv,1.5956216,KMeans,0.54545455,9,KMeans,1.0,1.0
-550,Twitter_volume_IBM.csv,1.5956854,Linear,0.5,10,Linear,1.0,1.0
+541,KDD-Cup99 HTTP,0.62192523,RPCA,0.93849658,1,RPCA,1.0,1.0
+542,machine_temperature_system_failure.csv,1.402194,Linear,0.4,2,Linear,1.0,1.0
+543,ec2_cpu_utilization_c6585a.csv,1.4161134,Linear,0.0,3,Linear,1.0,1.0
+544,Letter Recognition,1.4380081,KMeans,0.44545455,4,Linear,1.0,1.0
+545,Pen-Based Recognition of Handwritten Text,1.4388671,KMeans,0.88648649,5,KMeans,1.0,1.0
+546,cpu_utilization_asg_misconfiguration.csv,1.4573425,KMeans,0.00775194,6,KMeans,1.0,1.0
+547,Landsat Satellite,1.4584273,Linear,0.71794872,7,KMeans,1.0,1.0
+548,Twitter_volume_AAPL.csv,1.4761561,Linear,0.4,8,Linear,1.0,1.0
+549,Twitter_volume_CRM.csv,1.4761561,KMeans,0.54545455,9,KMeans,1.0,1.0
+550,Twitter_volume_IBM.csv,1.4762259,Linear,0.5,10,Linear,1.0,1.0
 551,,,,,,,,
 552,art_increase_spike_density.csv,0,KMeans,0.15384615,0,KMeans,0.15384615,1
-553,KDD-Cup99 HTTP,0.62286377,RPCA,0.93849658,1,RPCA,0.02325581,0.86940966
-554,machine_temperature_system_failure.csv,1.4556826,Linear,0.4,2,Linear,0.04,0.88615385
-555,ec2_cpu_utilization_c6585a.csv,1.4596636,Linear,0.0,3,Linear,0.04,0.88615385
-556,Letter Recognition,1.4705303,KMeans,0.44545455,4,Linear,0.04,0.88615385
-557,Pen-Based Recognition of Handwritten Text,1.4741813,KMeans,0.88648649,5,KMeans,0.15384615,1.0
-558,Landsat Satellite,1.4939127,Linear,0.71794872,6,Linear,0.04,0.88615385
-559,cpu_utilization_asg_misconfiguration.csv,1.5074679,KMeans,0.00775194,7,KMeans,0.15384615,1.0
-560,Twitter_volume_AAPL.csv,1.5248351,Linear,0.4,8,Linear,0.04,0.88615385
-561,Twitter_volume_CRM.csv,1.5248351,KMeans,0.54545455,9,KMeans,0.15384615,1.0
-562,Twitter_volume_IBM.csv,1.524899,Linear,0.5,10,Linear,0.04,0.88615385
+553,KDD-Cup99 HTTP,1.0319636,RPCA,0.93849658,1,RPCA,0.02325581,0.86940966
+554,Letter Recognition,1.8107346,KMeans,0.44545455,2,KMeans,0.15384615,1.0
+555,Pen-Based Recognition of Handwritten Text,1.8316071,KMeans,0.88648649,3,KMeans,0.15384615,1.0
+556,machine_temperature_system_failure.csv,1.8359172,Linear,0.4,4,KMeans,0.15384615,1.0
+557,ec2_cpu_utilization_c6585a.csv,1.8390465,Linear,0.0,5,KMeans,0.15384615,1.0
+558,Landsat Satellite,1.8722688,Linear,0.71794872,6,Linear,0.04,0.88615385
+559,cpu_utilization_asg_misconfiguration.csv,1.8870065,KMeans,0.00775194,7,KMeans,0.15384615,1.0
+560,Twitter_volume_AAPL.csv,1.9043366,Linear,0.4,8,Linear,0.04,0.88615385
+561,Twitter_volume_CRM.csv,1.9043366,KMeans,0.54545455,9,KMeans,0.15384615,1.0
+562,Twitter_volume_IBM.csv,1.9044005,Linear,0.5,10,Linear,0.04,0.88615385
 563,,,,,,,,
 564,occupancy_6005.csv,0,Linear,1.0,0,Linear,1.0,1
-565,KDD-Cup99 HTTP,0.59973097,RPCA,0.93849658,1,RPCA,0.5,0.5
-566,machine_temperature_system_failure.csv,1.4381015,Linear,0.4,2,Linear,1.0,1.0
-567,ec2_cpu_utilization_c6585a.csv,1.445631,Linear,0.0,3,Linear,1.0,1.0
-568,Pen-Based Recognition of Handwritten Text,1.470696,KMeans,0.88648649,4,Linear,1.0,1.0
-569,Letter Recognition,1.4743873,KMeans,0.44545455,5,KMeans,1.0,1.0
-570,cpu_utilization_asg_misconfiguration.csv,1.4918126,KMeans,0.00775194,6,KMeans,1.0,1.0
-571,Landsat Satellite,1.4945991,Linear,0.71794872,7,KMeans,1.0,1.0
-572,Twitter_volume_AAPL.csv,1.5097833,Linear,0.4,8,Linear,1.0,1.0
-573,Twitter_volume_CRM.csv,1.5097833,KMeans,0.54545455,9,KMeans,1.0,1.0
-574,Twitter_volume_IBM.csv,1.5098494,Linear,0.5,10,Linear,1.0,1.0
+565,KDD-Cup99 HTTP,0.9725474,RPCA,0.93849658,1,RPCA,0.5,0.5
+566,Letter Recognition,1.5821307,KMeans,0.44545455,2,KMeans,1.0,1.0
+567,Pen-Based Recognition of Handwritten Text,1.5950941,KMeans,0.88648649,3,KMeans,1.0,1.0
+568,ec2_cpu_utilization_c6585a.csv,1.5968947,Linear,0.0,4,KMeans,1.0,1.0
+569,machine_temperature_system_failure.csv,1.5983841,Linear,0.4,5,KMeans,1.0,1.0
+570,Landsat Satellite,1.6294034,Linear,0.71794872,6,Linear,1.0,1.0
+571,cpu_utilization_asg_misconfiguration.csv,1.6441274,KMeans,0.00775194,7,KMeans,1.0,1.0
+572,Twitter_volume_AAPL.csv,1.6603552,Linear,0.4,8,Linear,1.0,1.0
+573,Twitter_volume_CRM.csv,1.6603552,KMeans,0.54545455,9,KMeans,1.0,1.0
+574,Twitter_volume_IBM.csv,1.6604162,Linear,0.5,10,Linear,1.0,1.0
 575,,,,,,,,
 576,Twitter_volume_IBM.csv,0,Linear,0.5,0,Linear,0.5,1
-577,KDD-Cup99 HTTP,0.5955739,RPCA,0.93849658,1,RPCA,0.5,1.0
-578,machine_temperature_system_failure.csv,1.5473598,Linear,0.4,2,Linear,0.5,1.0
-579,Letter Recognition,1.556836,KMeans,0.44545455,3,KMeans,0.5,1.0
-580,ec2_cpu_utilization_c6585a.csv,1.5573934,Linear,0.0,4,Linear,0.5,1.0
-581,Pen-Based Recognition of Handwritten Text,1.564041,KMeans,0.88648649,5,KMeans,0.5,1.0
-582,Landsat Satellite,1.5976584,Linear,0.71794872,6,Linear,0.5,1.0
-583,cpu_utilization_asg_misconfiguration.csv,1.6026136,KMeans,0.00775194,7,KMeans,0.5,1.0
-584,Twitter_volume_AAPL.csv,1.6212118,Linear,0.4,8,Linear,0.5,1.0
-585,Twitter_volume_CRM.csv,1.6212118,KMeans,0.54545455,9,KMeans,0.5,1.0
-586,Twitter_volume_IBM.csv,1.6212804,Linear,0.5,10,Linear,0.5,1.0
+577,KDD-Cup99 HTTP,1.0740566,RPCA,0.93849658,1,RPCA,0.5,1.0
+578,Letter Recognition,1.7913316,KMeans,0.44545455,2,KMeans,0.5,1.0
+579,Pen-Based Recognition of Handwritten Text,1.8130777,KMeans,0.88648649,3,KMeans,0.5,1.0
+580,machine_temperature_system_failure.csv,1.8163172,Linear,0.4,4,KMeans,0.5,1.0
+581,ec2_cpu_utilization_c6585a.csv,1.8190565,Linear,0.0,5,KMeans,0.5,1.0
+582,Landsat Satellite,1.8505733,Linear,0.71794872,6,Linear,0.5,1.0
+583,cpu_utilization_asg_misconfiguration.csv,1.8676312,KMeans,0.00775194,7,KMeans,0.5,1.0
+584,Twitter_volume_AAPL.csv,1.8847985,Linear,0.4,8,Linear,0.5,1.0
+585,Twitter_volume_CRM.csv,1.8847985,KMeans,0.54545455,9,KMeans,0.5,1.0
+586,Twitter_volume_IBM.csv,1.8848616,Linear,0.5,10,Linear,0.5,1.0
 587,,,,,,,,
 588,ec2_cpu_utilization_24ae8d.csv,0,KMeans,1.0,0,KMeans,1.0,1
-589,KDD-Cup99 HTTP,0.891328,RPCA,0.93849658,1,RPCA,0.66666667,0.66666667
-590,machine_temperature_system_failure.csv,1.4631338,Linear,0.4,2,Linear,0.66666667,0.66666667
-591,ec2_cpu_utilization_c6585a.csv,1.4808099,Linear,0.0,3,Linear,0.66666667,0.66666667
-592,Letter Recognition,1.4882963,KMeans,0.44545455,4,Linear,0.66666667,0.66666667
-593,Pen-Based Recognition of Handwritten Text,1.4952171,KMeans,0.88648649,5,KMeans,1.0,1.0
-594,cpu_utilization_asg_misconfiguration.csv,1.5212537,KMeans,0.00775194,6,KMeans,1.0,1.0
-595,Landsat Satellite,1.5226154,Linear,0.71794872,7,KMeans,1.0,1.0
-596,Twitter_volume_AAPL.csv,1.5410218,Linear,0.4,8,Linear,0.66666667,0.66666667
-597,Twitter_volume_CRM.csv,1.5410218,KMeans,0.54545455,9,KMeans,1.0,1.0
-598,Twitter_volume_IBM.csv,1.541095,Linear,0.5,10,Linear,0.66666667,0.66666667
+589,KDD-Cup99 HTTP,0.8091699,RPCA,0.93849658,1,RPCA,0.66666667,0.66666667
+590,Letter Recognition,1.5263147,KMeans,0.44545455,2,KMeans,1.0,1.0
+591,machine_temperature_system_failure.csv,1.5384151,Linear,0.4,3,KMeans,1.0,1.0
+592,Pen-Based Recognition of Handwritten Text,1.5454875,KMeans,0.88648649,4,KMeans,1.0,1.0
+593,ec2_cpu_utilization_c6585a.csv,1.5500114,Linear,0.0,5,KMeans,1.0,1.0
+594,Landsat Satellite,1.579779,Linear,0.71794872,6,Linear,0.66666667,0.66666667
+595,cpu_utilization_asg_misconfiguration.csv,1.5929668,KMeans,0.00775194,7,KMeans,1.0,1.0
+596,Twitter_volume_AAPL.csv,1.6114638,Linear,0.4,8,Linear,0.66666667,0.66666667
+597,Twitter_volume_CRM.csv,1.6114638,KMeans,0.54545455,9,KMeans,1.0,1.0
+598,Twitter_volume_IBM.csv,1.6115321,Linear,0.5,10,Linear,0.66666667,0.66666667
 599,,,,,,,,
 600,ec2_disk_write_bytes_1ef3de.csv,0,Linear,0.08695652,0,Linear,0.08695652,1
-601,KDD-Cup99 HTTP,0.6719556,RPCA,0.93849658,1,RPCA,0.08695652,1.0
-602,machine_temperature_system_failure.csv,1.5919005,Linear,0.4,2,Linear,0.08695652,1.0
-603,Letter Recognition,1.6025094,KMeans,0.44545455,3,KMeans,0.08695652,1.0
-604,ec2_cpu_utilization_c6585a.csv,1.6030557,Linear,0.0,4,Linear,0.08695652,1.0
-605,Pen-Based Recognition of Handwritten Text,1.6102908,KMeans,0.88648649,5,KMeans,0.08695652,1.0
-606,Landsat Satellite,1.6448623,Linear,0.71794872,6,Linear,0.08695652,1.0
-607,cpu_utilization_asg_misconfiguration.csv,1.646227,KMeans,0.00775194,7,KMeans,0.08695652,1.0
-608,Twitter_volume_AAPL.csv,1.6647301,Linear,0.4,8,Linear,0.08695652,1.0
-609,Twitter_volume_CRM.csv,1.6647301,KMeans,0.54545455,9,KMeans,0.08695652,1.0
-610,Twitter_volume_IBM.csv,1.6647985,Linear,0.5,10,Linear,0.08695652,1.0
+601,KDD-Cup99 HTTP,1.0122335,RPCA,0.93849658,1,RPCA,0.08695652,1.0
+602,Letter Recognition,1.7590384,KMeans,0.44545455,2,KMeans,0.08695652,1.0
+603,machine_temperature_system_failure.csv,1.7675087,Linear,0.4,3,KMeans,0.08695652,1.0
+604,ec2_cpu_utilization_c6585a.csv,1.7726679,Linear,0.0,4,Linear,0.08695652,1.0
+605,Pen-Based Recognition of Handwritten Text,1.7764145,KMeans,0.88648649,5,KMeans,0.08695652,1.0
+606,Landsat Satellite,1.8111331,Linear,0.71794872,6,Linear,0.08695652,1.0
+607,cpu_utilization_asg_misconfiguration.csv,1.8198949,KMeans,0.00775194,7,KMeans,0.08695652,1.0
+608,Twitter_volume_AAPL.csv,1.8377496,Linear,0.4,8,Linear,0.08695652,1.0
+609,Twitter_volume_CRM.csv,1.8377496,KMeans,0.54545455,9,KMeans,0.08695652,1.0
+610,Twitter_volume_IBM.csv,1.8378154,Linear,0.5,10,Linear,0.08695652,1.0
 611,,,,,,,,
 612,iio_us-east-1_i-a2eb1cd9_NetworkIn.csv,0,KMeans,0.5,0,KMeans,0.5,1
-613,KDD-Cup99 HTTP,0.86541134,RPCA,0.93849658,1,RPCA,0.33333333,0.83333333
-614,machine_temperature_system_failure.csv,1.5753317,Linear,0.4,2,Linear,0.33333333,0.83333333
-615,Letter Recognition,1.581583,KMeans,0.44545455,3,KMeans,0.5,1.0
-616,ec2_cpu_utilization_c6585a.csv,1.5874889,Linear,0.0,4,Linear,0.33333333,0.83333333
-617,Pen-Based Recognition of Handwritten Text,1.5943477,KMeans,0.88648649,5,KMeans,0.5,1.0
-618,Landsat Satellite,1.6253626,Linear,0.71794872,6,Linear,0.33333333,0.83333333
-619,cpu_utilization_asg_misconfiguration.csv,1.630288,KMeans,0.00775194,7,KMeans,0.5,1.0
-620,Twitter_volume_AAPL.csv,1.6489013,Linear,0.4,8,Linear,0.33333333,0.83333333
-621,Twitter_volume_CRM.csv,1.6489013,KMeans,0.54545455,9,KMeans,0.5,1.0
-622,Twitter_volume_IBM.csv,1.6489701,Linear,0.5,10,Linear,0.33333333,0.83333333
+613,KDD-Cup99 HTTP,1.0149636,RPCA,0.93849658,1,RPCA,0.33333333,0.83333333
+614,machine_temperature_system_failure.csv,1.575868,Linear,0.4,2,Linear,0.33333333,0.83333333
+615,ec2_cpu_utilization_c6585a.csv,1.5901089,Linear,0.0,3,Linear,0.33333333,0.83333333
+616,Letter Recognition,1.5904226,KMeans,0.44545455,4,Linear,0.33333333,0.83333333
+617,Pen-Based Recognition of Handwritten Text,1.6010213,KMeans,0.88648649,5,KMeans,0.5,1.0
+618,Landsat Satellite,1.6293235,Linear,0.71794872,6,Linear,0.33333333,0.83333333
+619,cpu_utilization_asg_misconfiguration.csv,1.6317883,KMeans,0.00775194,7,KMeans,0.5,1.0
+620,Twitter_volume_AAPL.csv,1.65092,Linear,0.4,8,Linear,0.33333333,0.83333333
+621,Twitter_volume_CRM.csv,1.65092,KMeans,0.54545455,9,KMeans,0.5,1.0
+622,Twitter_volume_IBM.csv,1.6509908,Linear,0.5,10,Linear,0.33333333,0.83333333
 623,,,,,,,,
 624,ec2_cpu_utilization_53ea38.csv,0,KMeans,0.04255319,0,KMeans,0.04255319,1
-625,KDD-Cup99 HTTP,0.6983743,RPCA,0.93849658,1,RPCA,0.01470588,0.97215269
-626,machine_temperature_system_failure.csv,1.6075244,Linear,0.4,2,Linear,0.02352941,0.98097622
-627,Letter Recognition,1.6089863,KMeans,0.44545455,3,KMeans,0.04255319,1.0
-628,Pen-Based Recognition of Handwritten Text,1.6192586,KMeans,0.88648649,4,KMeans,0.04255319,1.0
-629,ec2_cpu_utilization_c6585a.csv,1.621661,Linear,0.0,5,KMeans,0.04255319,1.0
-630,Landsat Satellite,1.6578386,Linear,0.71794872,6,Linear,0.02352941,0.98097622
-631,cpu_utilization_asg_misconfiguration.csv,1.6631808,KMeans,0.00775194,7,KMeans,0.04255319,1.0
-632,Twitter_volume_AAPL.csv,1.6820239,Linear,0.4,8,Linear,0.02352941,0.98097622
-633,Twitter_volume_CRM.csv,1.6820239,KMeans,0.54545455,9,KMeans,0.04255319,1.0
-634,Twitter_volume_IBM.csv,1.6820936,Linear,0.5,10,Linear,0.02352941,0.98097622
+625,KDD-Cup99 HTTP,0.9750799,RPCA,0.93849658,1,RPCA,0.01470588,0.97215269
+626,Letter Recognition,1.8111053,KMeans,0.44545455,2,KMeans,0.04255319,1.0
+627,Pen-Based Recognition of Handwritten Text,1.8302494,KMeans,0.88648649,3,KMeans,0.04255319,1.0
+628,machine_temperature_system_failure.csv,1.8313826,Linear,0.4,4,KMeans,0.04255319,1.0
+629,ec2_cpu_utilization_c6585a.csv,1.8367867,Linear,0.0,5,KMeans,0.04255319,1.0
+630,Landsat Satellite,1.8744122,Linear,0.71794872,6,Linear,0.02352941,0.98097622
+631,cpu_utilization_asg_misconfiguration.csv,1.8861563,KMeans,0.00775194,7,KMeans,0.04255319,1.0
+632,Twitter_volume_AAPL.csv,1.9045963,Linear,0.4,8,Linear,0.02352941,0.98097622
+633,Twitter_volume_CRM.csv,1.9045963,KMeans,0.54545455,9,KMeans,0.04255319,1.0
+634,Twitter_volume_IBM.csv,1.9046642,Linear,0.5,10,Linear,0.02352941,0.98097622
 635,,,,,,,,
 636,ec2_cpu_utilization_77c1ca.csv,0,KMeans,0.03921569,0,KMeans,0.03921569,1
-637,KDD-Cup99 HTTP,0.6826538,RPCA,0.93849658,1,RPCA,0.0,0.96078431
-638,machine_temperature_system_failure.csv,1.5987663,Linear,0.4,2,Linear,0.00416667,0.96495098
-639,ec2_cpu_utilization_c6585a.csv,1.6033028,Linear,0.0,3,Linear,0.00416667,0.96495098
-640,Letter Recognition,1.6066636,KMeans,0.44545455,4,Linear,0.00416667,0.96495098
-641,Pen-Based Recognition of Handwritten Text,1.6154473,KMeans,0.88648649,5,KMeans,0.03921569,1.0
-642,Landsat Satellite,1.6440849,Linear,0.71794872,6,Linear,0.00416667,0.96495098
-643,cpu_utilization_asg_misconfiguration.csv,1.650355,KMeans,0.00775194,7,KMeans,0.03921569,1.0
-644,Twitter_volume_AAPL.csv,1.6678311,Linear,0.4,8,Linear,0.00416667,0.96495098
-645,Twitter_volume_CRM.csv,1.6678311,KMeans,0.54545455,9,KMeans,0.03921569,1.0
-646,Twitter_volume_IBM.csv,1.6678956,Linear,0.5,10,Linear,0.00416667,0.96495098
+637,KDD-Cup99 HTTP,0.9460073,RPCA,0.93849658,1,RPCA,0.0,0.96078431
+638,Letter Recognition,1.7250892,KMeans,0.44545455,2,KMeans,0.03921569,1.0
+639,machine_temperature_system_failure.csv,1.7264931,Linear,0.4,3,KMeans,0.03921569,1.0
+640,ec2_cpu_utilization_c6585a.csv,1.7425584,Linear,0.0,4,Linear,0.00416667,0.96495098
+641,Pen-Based Recognition of Handwritten Text,1.7429861,KMeans,0.88648649,5,KMeans,0.03921569,1.0
+642,Landsat Satellite,1.7764144,Linear,0.71794872,6,Linear,0.00416667,0.96495098
+643,cpu_utilization_asg_misconfiguration.csv,1.7827084,KMeans,0.00775194,7,KMeans,0.03921569,1.0
+644,Twitter_volume_AAPL.csv,1.8017864,Linear,0.4,8,Linear,0.00416667,0.96495098
+645,Twitter_volume_CRM.csv,1.8017864,KMeans,0.54545455,9,KMeans,0.03921569,1.0
+646,Twitter_volume_IBM.csv,1.8018569,Linear,0.5,10,Linear,0.00416667,0.96495098
 647,,,,,,,,
 648,Twitter_volume_CRM.csv,0,KMeans,0.54545455,0,KMeans,0.54545455,1
-649,KDD-Cup99 HTTP,0.9054126,RPCA,0.93849658,1,RPCA,0.5,0.95454545
-650,machine_temperature_system_failure.csv,1.5201211,Linear,0.4,2,Linear,0.5,0.95454545
-651,ec2_cpu_utilization_c6585a.csv,1.5351099,Linear,0.0,3,Linear,0.5,0.95454545
-652,Letter Recognition,1.550926,KMeans,0.44545455,4,Linear,0.5,0.95454545
-653,Pen-Based Recognition of Handwritten Text,1.55349,KMeans,0.88648649,5,KMeans,0.54545455,1.0
-654,cpu_utilization_asg_misconfiguration.csv,1.5748551,KMeans,0.00775194,6,KMeans,0.54545455,1.0
-655,Landsat Satellite,1.5822868,Linear,0.71794872,7,KMeans,0.54545455,1.0
-656,Twitter_volume_AAPL.csv,1.5938357,Linear,0.4,8,Linear,0.5,0.95454545
-657,Twitter_volume_CRM.csv,1.5938357,KMeans,0.54545455,9,KMeans,0.54545455,1.0
-658,Twitter_volume_IBM.csv,1.5939064,Linear,0.5,10,Linear,0.5,0.95454545
+649,KDD-Cup99 HTTP,0.9113765,RPCA,0.93849658,1,RPCA,0.5,0.95454545
+650,machine_temperature_system_failure.csv,1.5396038,Linear,0.4,2,Linear,0.5,0.95454545
+651,Letter Recognition,1.5426296,KMeans,0.44545455,3,KMeans,0.54545455,1.0
+652,ec2_cpu_utilization_c6585a.csv,1.5500649,Linear,0.0,4,Linear,0.5,0.95454545
+653,Pen-Based Recognition of Handwritten Text,1.5543859,KMeans,0.88648649,5,KMeans,0.54545455,1.0
+654,Landsat Satellite,1.5828444,Linear,0.71794872,6,Linear,0.5,0.95454545
+655,cpu_utilization_asg_misconfiguration.csv,1.5923874,KMeans,0.00775194,7,KMeans,0.54545455,1.0
+656,Twitter_volume_AAPL.csv,1.6104826,Linear,0.4,8,Linear,0.5,0.95454545
+657,Twitter_volume_CRM.csv,1.6104826,KMeans,0.54545455,9,KMeans,0.54545455,1.0
+658,Twitter_volume_IBM.csv,1.6105497,Linear,0.5,10,Linear,0.5,0.95454545
 659,,,,,,,,
 660,exchange-4_cpc_results.csv,0,Linear,0.66666667,0,Linear,0.66666667,1
-661,KDD-Cup99 HTTP,0.6873232,RPCA,0.93849658,1,RPCA,0.66666667,1.0
-662,Letter Recognition,1.6049242,KMeans,0.44545455,2,KMeans,0.66666667,1.0
-663,machine_temperature_system_failure.csv,1.6109072,Linear,0.4,3,KMeans,0.66666667,1.0
-664,ec2_cpu_utilization_c6585a.csv,1.6219896,Linear,0.0,4,Linear,0.66666667,1.0
-665,Pen-Based Recognition of Handwritten Text,1.6229279,KMeans,0.88648649,5,KMeans,0.66666667,1.0
-666,Landsat Satellite,1.6555979,Linear,0.71794872,6,Linear,0.66666667,1.0
-667,cpu_utilization_asg_misconfiguration.csv,1.66579,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-668,Twitter_volume_AAPL.csv,1.6843581,Linear,0.4,8,Linear,0.66666667,1.0
-669,Twitter_volume_CRM.csv,1.6843581,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-670,Twitter_volume_IBM.csv,1.6844265,Linear,0.5,10,Linear,0.66666667,1.0
+661,KDD-Cup99 HTTP,0.70748913,RPCA,0.93849658,1,RPCA,0.66666667,1.0
+662,ec2_cpu_utilization_c6585a.csv,1.4827986,Linear,0.0,2,Linear,0.66666667,1.0
+663,machine_temperature_system_failure.csv,1.4879597,Linear,0.4,3,Linear,0.66666667,1.0
+664,Letter Recognition,1.4904559,KMeans,0.44545455,4,Linear,0.66666667,1.0
+665,Pen-Based Recognition of Handwritten Text,1.4952598,KMeans,0.88648649,5,KMeans,0.66666667,1.0
+666,Landsat Satellite,1.5215683,Linear,0.71794872,6,Linear,0.66666667,1.0
+667,cpu_utilization_asg_misconfiguration.csv,1.5335174,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+668,Twitter_volume_AAPL.csv,1.5494884,Linear,0.4,8,Linear,0.66666667,1.0
+669,Twitter_volume_CRM.csv,1.5494884,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+670,Twitter_volume_IBM.csv,1.5495479,Linear,0.5,10,Linear,0.66666667,1.0
 671,,,,,,,,
 672,speed_t4013.csv,0,Linear,1.0,0,Linear,1.0,1
-673,KDD-Cup99 HTTP,0.74212503,RPCA,0.93849658,1,RPCA,0.8,0.8
-674,machine_temperature_system_failure.csv,1.5603032,Linear,0.4,2,Linear,1.0,1.0
-675,Letter Recognition,1.5665989,KMeans,0.44545455,3,KMeans,0.8,0.8
-676,ec2_cpu_utilization_c6585a.csv,1.5736859,Linear,0.0,4,Linear,1.0,1.0
-677,Pen-Based Recognition of Handwritten Text,1.5780054,KMeans,0.88648649,5,KMeans,0.8,0.8
-678,Landsat Satellite,1.6091326,Linear,0.71794872,6,Linear,1.0,1.0
-679,cpu_utilization_asg_misconfiguration.csv,1.615884,KMeans,0.00775194,7,KMeans,0.8,0.8
-680,Twitter_volume_AAPL.csv,1.6347287,Linear,0.4,8,Linear,1.0,1.0
-681,Twitter_volume_CRM.csv,1.6347287,KMeans,0.54545455,9,KMeans,0.8,0.8
-682,Twitter_volume_IBM.csv,1.6347982,Linear,0.5,10,Linear,1.0,1.0
+673,KDD-Cup99 HTTP,0.9974183,RPCA,0.93849658,1,RPCA,0.8,0.8
+674,Letter Recognition,1.7196195,KMeans,0.44545455,2,KMeans,0.8,0.8
+675,Pen-Based Recognition of Handwritten Text,1.7363098,KMeans,0.88648649,3,KMeans,0.8,0.8
+676,machine_temperature_system_failure.csv,1.740558,Linear,0.4,4,KMeans,0.8,0.8
+677,ec2_cpu_utilization_c6585a.csv,1.7447398,Linear,0.0,5,KMeans,0.8,0.8
+678,Landsat Satellite,1.7761513,Linear,0.71794872,6,Linear,1.0,1.0
+679,cpu_utilization_asg_misconfiguration.csv,1.790078,KMeans,0.00775194,7,KMeans,0.8,0.8
+680,Twitter_volume_AAPL.csv,1.8072374,Linear,0.4,8,Linear,1.0,1.0
+681,Twitter_volume_CRM.csv,1.8072374,KMeans,0.54545455,9,KMeans,0.8,0.8
+682,Twitter_volume_IBM.csv,1.807301,Linear,0.5,10,Linear,1.0,1.0
 683,,,,,,,,
 684,grok_asg_anomaly.csv,0,KMeans,0.5,0,KMeans,0.5,1
-685,KDD-Cup99 HTTP,0.8681007,RPCA,0.93849658,1,RPCA,0.00628931,0.50628931
-686,machine_temperature_system_failure.csv,1.4485003,Linear,0.4,2,Linear,0.00416667,0.50416667
-687,ec2_cpu_utilization_c6585a.csv,1.464825,Linear,0.0,3,Linear,0.00416667,0.50416667
-688,Letter Recognition,1.4749168,KMeans,0.44545455,4,Linear,0.00416667,0.50416667
-689,Pen-Based Recognition of Handwritten Text,1.4761496,KMeans,0.88648649,5,KMeans,0.5,1.0
-690,Landsat Satellite,1.5026908,Linear,0.71794872,6,Linear,0.00416667,0.50416667
-691,cpu_utilization_asg_misconfiguration.csv,1.5051608,KMeans,0.00775194,7,KMeans,0.5,1.0
-692,Twitter_volume_AAPL.csv,1.5243418,Linear,0.4,8,Linear,0.00416667,0.50416667
-693,Twitter_volume_CRM.csv,1.5243418,KMeans,0.54545455,9,KMeans,0.5,1.0
-694,Twitter_volume_IBM.csv,1.5244126,Linear,0.5,10,Linear,0.00416667,0.50416667
+685,KDD-Cup99 HTTP,1.0323296,RPCA,0.93849658,1,RPCA,0.00628931,0.50628931
+686,Letter Recognition,1.7033592,KMeans,0.44545455,2,KMeans,0.5,1.0
+687,Pen-Based Recognition of Handwritten Text,1.7271771,KMeans,0.88648649,3,KMeans,0.5,1.0
+688,ec2_cpu_utilization_c6585a.csv,1.7448233,Linear,0.0,4,KMeans,0.5,1.0
+689,machine_temperature_system_failure.csv,1.75431,Linear,0.4,5,KMeans,0.5,1.0
+690,Landsat Satellite,1.7696524,Linear,0.71794872,6,Linear,0.00416667,0.50416667
+691,cpu_utilization_asg_misconfiguration.csv,1.7979356,KMeans,0.00775194,7,KMeans,0.5,1.0
+692,Twitter_volume_AAPL.csv,1.8132876,Linear,0.4,8,Linear,0.00416667,0.50416667
+693,Twitter_volume_CRM.csv,1.8132876,KMeans,0.54545455,9,KMeans,0.5,1.0
+694,Twitter_volume_IBM.csv,1.8133451,Linear,0.5,10,Linear,0.00416667,0.50416667
 695,,,,,,,,
 696,Twitter_volume_PFE.csv,0,KMeans,0.42857143,0,KMeans,0.42857143,1
-697,KDD-Cup99 HTTP,0.6730135,RPCA,0.93849658,1,RPCA,0.36363636,0.93506493
-698,machine_temperature_system_failure.csv,1.4579612,Linear,0.4,2,Linear,0.36363636,0.93506493
-699,ec2_cpu_utilization_c6585a.csv,1.4742614,Linear,0.0,3,Linear,0.36363636,0.93506493
-700,Letter Recognition,1.4794614,KMeans,0.44545455,4,Linear,0.36363636,0.93506493
-701,Pen-Based Recognition of Handwritten Text,1.4895574,KMeans,0.88648649,5,KMeans,0.42857143,1.0
-702,Landsat Satellite,1.5117611,Linear,0.71794872,6,Linear,0.36363636,0.93506493
-703,cpu_utilization_asg_misconfiguration.csv,1.5146512,KMeans,0.00775194,7,KMeans,0.42857143,1.0
-704,Twitter_volume_AAPL.csv,1.5338024,Linear,0.4,8,Linear,0.36363636,0.93506493
-705,Twitter_volume_CRM.csv,1.5338024,KMeans,0.54545455,9,KMeans,0.42857143,1.0
-706,Twitter_volume_IBM.csv,1.5338731,Linear,0.5,10,Linear,0.36363636,0.93506493
+697,KDD-Cup99 HTTP,0.57927537,RPCA,0.93849658,1,RPCA,0.36363636,0.93506493
+698,machine_temperature_system_failure.csv,1.5069358,Linear,0.4,2,Linear,0.36363636,0.93506493
+699,ec2_cpu_utilization_c6585a.csv,1.514773,Linear,0.0,3,Linear,0.36363636,0.93506493
+700,Pen-Based Recognition of Handwritten Text,1.5321447,KMeans,0.88648649,4,Linear,0.36363636,0.93506493
+701,Letter Recognition,1.5334703,KMeans,0.44545455,5,KMeans,0.42857143,1.0
+702,cpu_utilization_asg_misconfiguration.csv,1.5599377,KMeans,0.00775194,6,KMeans,0.42857143,1.0
+703,Landsat Satellite,1.5652144,Linear,0.71794872,7,KMeans,0.42857143,1.0
+704,Twitter_volume_AAPL.csv,1.5777674,Linear,0.4,8,Linear,0.36363636,0.93506493
+705,Twitter_volume_CRM.csv,1.5777674,KMeans,0.54545455,9,KMeans,0.42857143,1.0
+706,Twitter_volume_IBM.csv,1.5778329,Linear,0.5,10,Linear,0.36363636,0.93506493
 707,,,,,,,,
 708,exchange-3_cpc_results.csv,0,Linear,0.57142857,0,Linear,0.57142857,1
-709,KDD-Cup99 HTTP,0.9794197,RPCA,0.93849658,1,RPCA,0.57142857,1.0
-710,Letter Recognition,1.6010162,KMeans,0.44545455,2,KMeans,0.57142857,1.0
-711,machine_temperature_system_failure.csv,1.6018746,Linear,0.4,3,KMeans,0.57142857,1.0
-712,ec2_cpu_utilization_c6585a.csv,1.6107534,Linear,0.0,4,Linear,0.57142857,1.0
-713,Pen-Based Recognition of Handwritten Text,1.6115353,KMeans,0.88648649,5,KMeans,0.57142857,1.0
-714,Landsat Satellite,1.6486757,Linear,0.71794872,6,Linear,0.57142857,1.0
-715,cpu_utilization_asg_misconfiguration.csv,1.6556048,KMeans,0.00775194,7,KMeans,0.57142857,1.0
-716,Twitter_volume_AAPL.csv,1.6738317,Linear,0.4,8,Linear,0.57142857,1.0
-717,Twitter_volume_CRM.csv,1.6738317,KMeans,0.54545455,9,KMeans,0.57142857,1.0
-718,Twitter_volume_IBM.csv,1.673899,Linear,0.5,10,Linear,0.57142857,1.0
+709,KDD-Cup99 HTTP,1.1689053,RPCA,0.93849658,1,RPCA,0.57142857,1.0
+710,Letter Recognition,1.7806712,KMeans,0.44545455,2,KMeans,0.57142857,1.0
+711,Pen-Based Recognition of Handwritten Text,1.8073186,KMeans,0.88648649,3,KMeans,0.57142857,1.0
+712,machine_temperature_system_failure.csv,1.814989,Linear,0.4,4,KMeans,0.57142857,1.0
+713,ec2_cpu_utilization_c6585a.csv,1.8160857,Linear,0.0,5,KMeans,0.57142857,1.0
+714,Landsat Satellite,1.8428462,Linear,0.71794872,6,Linear,0.57142857,1.0
+715,cpu_utilization_asg_misconfiguration.csv,1.8650603,KMeans,0.00775194,7,KMeans,0.57142857,1.0
+716,Twitter_volume_AAPL.csv,1.882099,Linear,0.4,8,Linear,0.57142857,1.0
+717,Twitter_volume_CRM.csv,1.882099,KMeans,0.54545455,9,KMeans,0.57142857,1.0
+718,Twitter_volume_IBM.csv,1.8821622,Linear,0.5,10,Linear,0.57142857,1.0
 719,,,,,,,,
 720,Twitter_volume_AMZN.csv,0,KMeans,0.66666667,0,KMeans,0.66666667,1
-721,KDD-Cup99 HTTP,0.9861833,RPCA,0.93849658,1,RPCA,0.57142857,0.9047619
-722,Letter Recognition,1.5475868,KMeans,0.44545455,2,KMeans,0.66666667,1.0
-723,machine_temperature_system_failure.csv,1.5569668,Linear,0.4,3,KMeans,0.66666667,1.0
-724,Pen-Based Recognition of Handwritten Text,1.5603231,KMeans,0.88648649,4,KMeans,0.66666667,1.0
-725,ec2_cpu_utilization_c6585a.csv,1.561197,Linear,0.0,5,KMeans,0.66666667,1.0
-726,Landsat Satellite,1.5967225,Linear,0.71794872,6,Linear,0.57142857,0.9047619
-727,cpu_utilization_asg_misconfiguration.csv,1.608216,KMeans,0.00775194,7,KMeans,0.66666667,1.0
-728,Twitter_volume_AAPL.csv,1.6256486,Linear,0.4,8,Linear,0.57142857,0.9047619
-729,Twitter_volume_CRM.csv,1.6256486,KMeans,0.54545455,9,KMeans,0.66666667,1.0
-730,Twitter_volume_IBM.csv,1.6257131,Linear,0.5,10,Linear,0.57142857,0.9047619
+721,KDD-Cup99 HTTP,0.6553035,RPCA,0.93849658,1,RPCA,0.57142857,0.9047619
+722,machine_temperature_system_failure.csv,1.3514656,Linear,0.4,2,Linear,0.57142857,0.9047619
+723,ec2_cpu_utilization_c6585a.csv,1.3691512,Linear,0.0,3,Linear,0.57142857,0.9047619
+724,Letter Recognition,1.3976469,KMeans,0.44545455,4,Linear,0.57142857,0.9047619
+725,Pen-Based Recognition of Handwritten Text,1.4009552,KMeans,0.88648649,5,KMeans,0.66666667,1.0
+726,Landsat Satellite,1.4069632,Linear,0.71794872,6,Linear,0.57142857,0.9047619
+727,cpu_utilization_asg_misconfiguration.csv,1.4090297,KMeans,0.00775194,7,KMeans,0.66666667,1.0
+728,Twitter_volume_AAPL.csv,1.4286083,Linear,0.4,8,Linear,0.57142857,0.9047619
+729,Twitter_volume_CRM.csv,1.4286083,KMeans,0.54545455,9,KMeans,0.66666667,1.0
+730,Twitter_volume_IBM.csv,1.4286807,Linear,0.5,10,Linear,0.57142857,0.9047619
 731,,,,,,,,
 732,art_daily_nojump.csv,0,KMeans,0.00152207,0,KMeans,0.00152207,1
-733,KDD-Cup99 HTTP,0.9470967,RPCA,0.93849658,1,RPCA,0.0,0.99847793
-734,machine_temperature_system_failure.csv,1.6388391,Linear,0.4,2,Linear,0.00059595,0.99907388
-735,Letter Recognition,1.6443216,KMeans,0.44545455,3,KMeans,0.00152207,1.0
-736,ec2_cpu_utilization_c6585a.csv,1.6513058,Linear,0.0,4,Linear,0.00059595,0.99907388
-737,Pen-Based Recognition of Handwritten Text,1.661808,KMeans,0.88648649,5,KMeans,0.00152207,1.0
-738,Landsat Satellite,1.6901281,Linear,0.71794872,6,Linear,0.00059595,0.99907388
-739,cpu_utilization_asg_misconfiguration.csv,1.6945403,KMeans,0.00775194,7,KMeans,0.00152207,1.0
-740,Twitter_volume_AAPL.csv,1.7134206,Linear,0.4,8,Linear,0.00059595,0.99907388
-741,Twitter_volume_CRM.csv,1.7134206,KMeans,0.54545455,9,KMeans,0.00152207,1.0
-742,Twitter_volume_IBM.csv,1.7134905,Linear,0.5,10,Linear,0.00059595,0.99907388
+733,KDD-Cup99 HTTP,0.8355896,RPCA,0.93849658,1,RPCA,0.0,0.99847793
+734,ec2_cpu_utilization_c6585a.csv,1.5175189,Linear,0.0,2,Linear,0.00059595,0.99907388
+735,machine_temperature_system_failure.csv,1.5187944,Linear,0.4,3,Linear,0.00059595,0.99907388
+736,Letter Recognition,1.5300626,KMeans,0.44545455,4,Linear,0.00059595,0.99907388
+737,Pen-Based Recognition of Handwritten Text,1.5339684,KMeans,0.88648649,5,KMeans,0.00152207,1.0
+738,Landsat Satellite,1.5639988,Linear,0.71794872,6,Linear,0.00059595,0.99907388
+739,cpu_utilization_asg_misconfiguration.csv,1.5668104,KMeans,0.00775194,7,KMeans,0.00152207,1.0
+740,Twitter_volume_AAPL.csv,1.58346,Linear,0.4,8,Linear,0.00059595,0.99907388
+741,Twitter_volume_CRM.csv,1.58346,KMeans,0.54545455,9,KMeans,0.00152207,1.0
+742,Twitter_volume_IBM.csv,1.5835221,Linear,0.5,10,Linear,0.00059595,0.99907388
 743,,,,,,,,
 744,ec2_cpu_utilization_fe7f93.csv,0,Linear,0.5,0,Linear,0.5,1
-745,KDD-Cup99 HTTP,0.72214884,RPCA,0.93849658,1,RPCA,0.5,1.0
-746,Letter Recognition,1.5879625,KMeans,0.44545455,2,KMeans,0.5,1.0
-747,machine_temperature_system_failure.csv,1.5911727,Linear,0.4,3,KMeans,0.5,1.0
-748,ec2_cpu_utilization_c6585a.csv,1.6024151,Linear,0.0,4,Linear,0.5,1.0
-749,Pen-Based Recognition of Handwritten Text,1.6032526,KMeans,0.88648649,5,KMeans,0.5,1.0
-750,Landsat Satellite,1.6366363,Linear,0.71794872,6,Linear,0.5,1.0
-751,cpu_utilization_asg_misconfiguration.csv,1.6464514,KMeans,0.00775194,7,KMeans,0.5,1.0
-752,Twitter_volume_AAPL.csv,1.6651316,Linear,0.4,8,Linear,0.5,1.0
-753,Twitter_volume_CRM.csv,1.6651316,KMeans,0.54545455,9,KMeans,0.5,1.0
-754,Twitter_volume_IBM.csv,1.6652006,Linear,0.5,10,Linear,0.5,1.0
+745,KDD-Cup99 HTTP,0.89649963,RPCA,0.93849658,1,RPCA,0.5,1.0
+746,Letter Recognition,1.6217256,KMeans,0.44545455,2,KMeans,0.5,1.0
+747,machine_temperature_system_failure.csv,1.6382126,Linear,0.4,3,KMeans,0.5,1.0
+748,Pen-Based Recognition of Handwritten Text,1.6406158,KMeans,0.88648649,4,KMeans,0.5,1.0
+749,ec2_cpu_utilization_c6585a.csv,1.6440997,Linear,0.0,5,KMeans,0.5,1.0
+750,Landsat Satellite,1.6750826,Linear,0.71794872,6,Linear,0.5,1.0
+751,cpu_utilization_asg_misconfiguration.csv,1.6910987,KMeans,0.00775194,7,KMeans,0.5,1.0
+752,Twitter_volume_AAPL.csv,1.708979,Linear,0.4,8,Linear,0.5,1.0
+753,Twitter_volume_CRM.csv,1.708979,KMeans,0.54545455,9,KMeans,0.5,1.0
+754,Twitter_volume_IBM.csv,1.7090449,Linear,0.5,10,Linear,0.5,1.0
 755,,,,,,,,
 0,,,,,K,,Method match,Accuracy
 0,,,,,1.0,,0.3076923076923077,0.8416884755384617
-0,,,,,2.0,,0.6461538461538462,0.9151003350769231
-0,,,,,3.0,,0.7076923076923077,0.9200138649230768
-0,,,,,4.0,,0.5538461538461539,0.8903761918461539
+0,,,,,2.0,,0.5846153846153846,0.9200273732307692
+0,,,,,3.0,,0.6615384615384615,0.9371122386153846
+0,,,,,4.0,,0.5076923076923077,0.8939559769230768
 0,,,,,5.0,,0.8461538461538461,0.9545582213846153
-0,,,,,6.0,,0.46153846153846156,0.8777958887692309
+0,,,,,6.0,,0.4307692307692308,0.8675096601538461
 0,,,,,7.0,,0.8461538461538461,0.9545582213846153
-0,,,,,8.0,,0.4307692307692308,0.8689452733846152
+0,,,,,8.0,,0.4461538461538462,0.8715411572307693
 0,,,,,9.0,,0.8461538461538461,0.9545582213846153
-0,,,,,10.0,,0.4307692307692308,0.8689452733846152
+0,,,,,10.0,,0.4153846153846154,0.8679196323076924

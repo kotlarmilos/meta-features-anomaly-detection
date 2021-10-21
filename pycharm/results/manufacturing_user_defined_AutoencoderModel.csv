@@ -1,24 +1,144 @@
-,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy
-0,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1
-1,rogue_agent_key_updown.csv,0.3331237,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0
-2,rogue_agent_key_hold.csv,0.34143373,Linear,0.003367,2,Gaussian,0.06772229,1.0
-3,,,,,,,,
-4,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1
-5,rogue_agent_key_updown.csv,0.3328638,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0
-6,rogue_agent_key_hold.csv,0.3410522,Linear,0.003367,2,Gaussian,0.00083455,1.0
-7,,,,,,,,
-8,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1
-9,rogue_agent_key_updown.csv,0.42994297,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728
-10,rogue_agent_key_hold.csv,0.43834054,Linear,0.003367,2,Gaussian,0.00265428,0.99928728
-11,,,,,,,,
-0,,,,,K,,Method match,Accuracy
-0,,,,,1.0,,0.6666666666666666,0.9997624266666666
-0,,,,,2.0,,0.6666666666666666,0.9997624266666666
-0,,,,,3.0,,0.0,0.0
-0,,,,,4.0,,0.0,0.0
-0,,,,,5.0,,0.0,0.0
-0,,,,,6.0,,0.0,0.0
-0,,,,,7.0,,0.0,0.0
-0,,,,,8.0,,0.0,0.0
-0,,,,,9.0,,0.0,0.0
-0,,,,,10.0,,0.0,0.0
+,Dataset,Distance,Best method,F1 with the best method,K,F1 method,F1 with the proposed method,Accuracy,Change
+0,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+1,rogue_agent_key_updown.csv,1.3414564e+21,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.0
+2,rogue_agent_key_hold.csv,1.4055723e+21,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.0
+3,,,,,,,,,
+4,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+5,rogue_agent_key_updown.csv,1.7261974e+21,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.1
+6,rogue_agent_key_hold.csv,1.7903133e+21,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.1
+7,,,,,,,,,
+8,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+9,rogue_agent_key_updown.csv,2.7016075e+21,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.2
+10,rogue_agent_key_hold.csv,2.7657233e+21,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.2
+11,,,,,,,,,
+12,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+13,rogue_agent_key_updown.csv,4.9042607e+21,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.30000000000000004
+14,rogue_agent_key_hold.csv,4.968377e+21,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.30000000000000004
+15,,,,,,,,,
+16,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+17,rogue_agent_key_updown.csv,1.0083372e+22,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.4
+18,rogue_agent_key_hold.csv,1.0147487e+22,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.4
+19,,,,,,,,,
+20,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+21,rogue_agent_key_updown.csv,2.3300888e+22,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.5
+22,rogue_agent_key_hold.csv,2.3365004e+22,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.5
+23,,,,,,,,,
+24,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+25,rogue_agent_key_updown.csv,6.0415676e+22,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.6000000000000001
+26,rogue_agent_key_hold.csv,6.0479794e+22,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.6000000000000001
+27,,,,,,,,,
+28,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+29,rogue_agent_key_updown.csv,1.755286e+23,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.7000000000000001
+30,rogue_agent_key_hold.csv,1.7559272e+23,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.7000000000000001
+31,,,,,,,,,
+32,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+33,rogue_agent_key_updown.csv,5.6981185e+23,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.8
+34,rogue_agent_key_hold.csv,5.6987595e+23,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.8
+35,,,,,,,,,
+36,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+37,rogue_agent_key_updown.csv,2.0583011e+24,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,0.9
+38,rogue_agent_key_hold.csv,2.0583652e+24,Linear,0.003367,2,Gaussian,0.06772229,1.0,0.9
+39,,,,,,,,,
+40,Object Images,0,Gaussian,0.06772229,0,Gaussian,0.06772229,1,
+41,rogue_agent_key_updown.csv,8.2346767e+24,Gaussian,0.00083455,1,Gaussian,0.06772229,1.0,1.0
+42,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.06772229,1.0,1.0
+43,,,,,,,,,
+44,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+45,rogue_agent_key_updown.csv,8.2346767e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.0
+46,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.0
+47,,,,,,,,,
+48,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+49,rogue_agent_key_updown.csv,8.2345735e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.1
+50,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.1
+51,,,,,,,,,
+52,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+53,rogue_agent_key_updown.csv,8.2343124e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.2
+54,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.2
+55,,,,,,,,,
+56,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+57,rogue_agent_key_updown.csv,8.2337227e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.30000000000000004
+58,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.30000000000000004
+59,,,,,,,,,
+60,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+61,rogue_agent_key_updown.csv,8.2323357e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.4
+62,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.4
+63,,,,,,,,,
+64,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+65,rogue_agent_key_updown.csv,8.2287957e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.5
+66,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.5
+67,,,,,,,,,
+68,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+69,rogue_agent_key_updown.csv,8.2188563e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.6000000000000001
+70,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.6000000000000001
+71,,,,,,,,,
+72,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+73,rogue_agent_key_updown.csv,8.1880283e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.7000000000000001
+74,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.7000000000000001
+75,,,,,,,,,
+76,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+77,rogue_agent_key_updown.csv,8.082438e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.8
+78,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.8
+79,,,,,,,,,
+80,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+81,rogue_agent_key_updown.csv,7.683814e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,0.9
+82,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,0.9
+83,,,,,,,,,
+84,rogue_agent_key_updown.csv,0,Gaussian,0.00083455,0,Gaussian,0.00083455,1,
+85,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00083455,1.0,1.0
+86,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00083455,1.0,1.0
+87,,,,,,,,,
+88,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+89,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.0
+90,rogue_agent_key_hold.csv,8.2347407e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.0
+91,,,,,,,,,
+92,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+93,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.1
+94,rogue_agent_key_hold.csv,8.2346513e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.1
+95,,,,,,,,,
+96,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+97,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.2
+98,rogue_agent_key_hold.csv,8.234424e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.2
+99,,,,,,,,,
+100,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+101,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.30000000000000004
+102,rogue_agent_key_hold.csv,8.233911e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.30000000000000004
+103,,,,,,,,,
+104,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+105,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.4
+106,rogue_agent_key_hold.csv,8.232706e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.4
+107,,,,,,,,,
+108,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+109,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.5
+110,rogue_agent_key_hold.csv,8.2296286e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.5
+111,,,,,,,,,
+112,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+113,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.6000000000000001
+114,rogue_agent_key_hold.csv,8.2209875e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.6000000000000001
+115,,,,,,,,,
+116,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+117,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.7000000000000001
+118,rogue_agent_key_hold.csv,8.1941884e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.7000000000000001
+119,,,,,,,,,
+120,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+121,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.8
+122,rogue_agent_key_hold.csv,8.102396e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.8
+123,,,,,,,,,
+124,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+125,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,0.9
+126,rogue_agent_key_hold.csv,7.755863e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,0.9
+127,,,,,,,,,
+128,rogue_agent_key_hold.csv,0,Linear,0.003367,0,Linear,0.003367,1,
+129,rogue_agent_key_updown.csv,6.029756e+24,Gaussian,0.00083455,1,Gaussian,0.00265428,0.99928728,1.0
+130,rogue_agent_key_hold.csv,6.317952e+24,Linear,0.003367,2,Gaussian,0.00265428,0.99928728,1.0
+131,,,,,,,,,
+0,,,,,K,,Method match,Accuracy,
+0,,,,,1.0,,7.333333333333333,10.997386693333334,
+0,,,,,2.0,,7.333333333333333,10.997386693333334,
+0,,,,,3.0,,0.0,0.0,
+0,,,,,4.0,,0.0,0.0,
+0,,,,,5.0,,0.0,0.0,
+0,,,,,6.0,,0.0,0.0,
+0,,,,,7.0,,0.0,0.0,
+0,,,,,8.0,,0.0,0.0,
+0,,,,,9.0,,0.0,0.0,
+0,,,,,10.0,,0.0,0.0,
