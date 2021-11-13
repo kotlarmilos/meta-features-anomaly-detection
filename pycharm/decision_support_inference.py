@@ -23,6 +23,10 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 db = Database("127.0.0.1","root","","anomaly_detection_decision_support")
 # db = Database("anomaly-detection-mysql.ch1ih3mzagsi.eu-central-1.rds.amazonaws.com","admin","6xy4AMtnhkFJWfIWHsuu","anomaly_detection_decision_support")
+
+#global_datasets - only for datasets info
+#evaluations - evaluations of datasets and algorithms
+# global_features - meta-features for datasets
 global_datasets, evaluation, global_features = db.get_datasets()
 
 # for dataset in utilities.get_datasets('/Users/miloskotlar/GoogleDrive/Academic/PhD/III/linear_datasets/'):
@@ -32,6 +36,7 @@ global_datasets, evaluation, global_features = db.get_datasets()
 characterization_columns = np.array(global_features.columns)
 characterization_columns.shape = (1, global_features.shape[1])
 
+# used for excluding them from the list
 user_defined_characterization_columns = ['high-dimensional',
 'nominal',
 'spatial',
@@ -174,6 +179,7 @@ characterization_filters=[
 'cluster'
 ]
 
+# used for testing
 user_defined_characterization_columns = ['high-dimensional',
 'nominal',
 'spatial',
@@ -197,6 +203,9 @@ user_defined_characterization_columns = ['high-dimensional',
 
 # characterization_attributes=['all', 'prefedined', 'user_defined']
 # characterization_attributes=['general', 'statistical', 'theoretical_info']
+# characterization_attributes=['user_defined']
+
+# characterization_attributes=['prefedined', 'user_defined','general', 'statistical', 'theoretical_info']
 characterization_attributes=['user_defined']
 
 # custom = ['anomaly_space', 'attr_ent.mean', 'attr_ent.sd', 'can_cor.sd', 'cat_to_num'
@@ -213,6 +222,7 @@ characterization_attributes=['user_defined']
 
 summary_results = []
 
+# for all aspects of interest
 for characterization_filter in characterization_filters:
     if characterization_filter == 'all':
         mid_features = global_features
@@ -228,15 +238,15 @@ for characterization_filter in characterization_filters:
     #     features = mid_features.to_numpy()[:, idx]
 
     for characterization_attribute in characterization_attributes:
-        # if characterization_attribute == 'prefedined':
-        #     idx = np.in1d(characterization_columns, predefined_characterization_columns).nonzero()[0]
-        #     features = mid_features.to_numpy()[:, idx]
+        if characterization_attribute == 'prefedined':
+            idx = np.in1d(characterization_columns, predefined_characterization_columns).nonzero()[0]
+            features = mid_features.to_numpy()[:, idx]
         # elif characterization_attribute == 'user_defined':
         #     idx = np.in1d(characterization_columns, user_defined_characterization_columns).nonzero()[0]
         #     features = mid_features.to_numpy()[:, idx]
         # else:
         #     features = mid_features.to_numpy()
-        if characterization_attribute == 'user_defined':
+        elif characterization_attribute == 'user_defined':
             idx = np.in1d(characterization_columns, user_defined_characterization_columns).nonzero()[0]
             features = mid_features.to_numpy()[:, idx]
         elif characterization_attribute == 'general':
@@ -255,8 +265,8 @@ for characterization_filter in characterization_filters:
         # temporal_features = features[temporal]
         # # spatial = np.array(datasets.loc[datasets['type_of_data'].str.contains('\'spatial\'')].axes[0])
         # # spatial_features = features[spatial]
-        high = np.array(datasets.loc[datasets['type_of_data'] == '\'high-dimensional\''].axes[0])
-        high_features = features[high]
+    #high = np.array(datasets.loc[datasets['type_of_data'] == '\'high-dimensional\''].axes[0])
+        #high_features = features[high]
 
 
         total = len(datasets)
@@ -341,30 +351,36 @@ for characterization_filter in characterization_filters:
         best_method_name_for = ''
         best_method_score_for = 0
         methods = utilities.get_methods()
-        for eval_method in methods:
-            try:
-                if eval_method['name'] in ['Gaussian','AutoencoderModel', 'Gaussian', 'Linear', 'Manhattan', 'RPCA', 'KMeans']:#''#'',
-                    continue
-                m = eval(eval_method['name'] + '()')
 
-                ks = np.zeros((10,), dtype=float)
-                method_match = np.zeros((10,), dtype=float)
+        # changing meta features and retrieving the results
+        for change in np.linspace(0,1,11):
+            for eval_method in methods:
+                try:
+                    if eval_method['name'] in ['Gaussian']:#''#'',,'AutoencoderModel', 'Gaussian', 'Linear', 'Manhattan', 'RPCA', 'KMeans'
+                        continue
+                    m = eval(eval_method['name'] + '()')
 
-                results = pd.DataFrame(columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy'])
+                    ks = np.zeros((10,), dtype=float)
+                    method_match = np.zeros((10,), dtype=float)
 
-                for i in range(len(datasets)):
-                    print('******')
-                    for change in np.linspace(0,1,11):
+                    results = pd.DataFrame(columns=['Dataset','Distance','Best method', 'F1 with the best method','K', 'F1 method', 'F1 with the proposed method', 'Accuracy'])
+
+
+                    for i in range(len(datasets)):
+                        print('******')
 
                         test_features = features[i]
                         test_features.shape = (1,len(features[0]))
                         train_features = features
+
+                        # changing meta features and retrieving the results
                         test_features[0][0] += test_features[0][0]*change
                         test_features[0][2] += test_features[0][2]*change
                         test_features[0][3] += test_features[0][3]*change
                         test_features[0][5] += test_features[0][5]*change
+
                         try:
-                            result, array = m.distance(10, test_features, train_features, datasets, evaluation)
+                            result, array = m.distance(1, test_features, train_features, datasets, evaluation)
                             actual_score, actual_method, actual_params = m.crossval(i, datasets, evaluation)
 
                             results = results.append(pd.DataFrame(
@@ -380,8 +396,8 @@ for characterization_filter in characterization_filters:
                                 best_score, method, params = m.predict(i, datasets, evaluation, k_method, None)
                                 if not np.isnan(best_score):
                                     ks[j-1]+=1-(actual_score-best_score)
-                                    if j==1:
-                                        print(method, change)
+                                    # if j==1:
+                                    #     print(method, change)
                                 if k_method in actual_method:
                                     method_match[j-1]+=1
 
@@ -395,37 +411,37 @@ for characterization_filter in characterization_filters:
                         # expected_score, expected_method, expected_params = m.predict(i, datasets, evaluation, best_method, best_params)
                         except:
                             print('Error')
-                # results = results.append(df)
-                # if sum/total >0.5:
-                # print('For combs %s iteration %s K=%s precision is %s' % (comb, counter, k,sum/total))
+                    # results = results.append(df)
+                    # if sum/total >0.5:
+                    # print('For combs %s iteration %s K=%s precision is %s' % (comb, counter, k,sum/total))
 
-                ks /= float(total)
-                method_match /= float(total)
+                    ks /= float(total)
+                    method_match /= float(total)
 
-                if best_method_score_for<method_match[0]:
-                    best_method_score_for = method_match[0]
-                    best_method_name_for = eval_method['name']
-
-
+                    if best_method_score_for<method_match[0]:
+                        best_method_score_for = method_match[0]
+                        best_method_name_for = eval_method['name']
 
 
-                # if (method_match[0]>0.9):
-                #     print(comb, method_match)
 
 
-                results = results.append(pd.DataFrame(
-                        np.array([['K', 'Method match', 'Accuracy']]),
-                        columns=[ 'K', 'F1 with the proposed method', 'Accuracy']))
+                    # if (method_match[0]>0.9):
+                    #     print(comb, method_match)
 
-                for index, item in enumerate(ks):
+
                     results = results.append(pd.DataFrame(
-                        np.array([[int(index+1), method_match[index], item]]),
-                        columns=['K', 'F1 with the proposed method', 'Accuracy']))
+                            np.array([['K', 'Method match', 'Accuracy']]),
+                            columns=[ 'K', 'F1 with the proposed method', 'Accuracy']))
 
-                results.to_csv('results/%s_%s_%s.csv' % (characterization_filter, characterization_attribute, eval_method['name']))
-                print('*** End:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
-            except:
-                print('Except error')
-        summary_results.append((characterization_filter, characterization_attribute, best_method_name_for, best_method_score_for, total))
-        print(summary_results)
+                    for index, item in enumerate(ks):
+                        results = results.append(pd.DataFrame(
+                            np.array([[int(index+1), method_match[index], item]]),
+                            columns=['K', 'F1 with the proposed method', 'Accuracy']))
+
+                    results.to_csv('results/%s_%s_%s.csv' % (characterization_filter, characterization_attribute, eval_method['name']))
+                    print('*** End:', time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime()))
+                except:
+                    print('Except error')
+            summary_results.append((characterization_filter, characterization_attribute, best_method_name_for, best_method_score_for, total, change))
+            print(summary_results)
 print(summary_results)
